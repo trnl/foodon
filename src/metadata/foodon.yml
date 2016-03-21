@@ -1,0 +1,30 @@
+# PURL configuration for http://purl.obolibrary.org/obo/foodon
+
+idspace: FOODON
+base_url: /obo/foodon
+
+products:
+- foorbar.owl: https://raw.githubusercontent.com/FoodOntology/master/foodon.owl
+- foodon.obo: https://raw.githubusercontent.com/FoodOntology/master/foodon.obo
+
+term_browser: ontobee
+example_terms:
+- FOODON_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/FoodOntology/foodon/v
+
+- prefix: /tracker/
+  replacement: https://code.google.com/p/cell-ontology/issues/detail?id=
+
+- prefix: /diffs/
+  replacement: https://cell-ontology.googlecode.com/svn/trunk/src/ontology/diffs/
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/browser/rdf.php?o=FOODON&iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/FoodOntology/foodon/master/
