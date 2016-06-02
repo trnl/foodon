@@ -17,7 +17,7 @@ prepare_release: all
 
 
 $(ONT).owl: $(SRC) $(MODULE_FILES)
-	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(OBO)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -o $(ONT).obo
 
