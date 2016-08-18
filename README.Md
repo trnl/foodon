@@ -18,4 +18,6 @@ Founding members
 
 * William Hsiao, Fiona Brinkman, Damion Dooley and Emma Griffiths are involved in the Integrated Rapid Infectious Disease Analysis project; their focus is on ontology of food-borne pathogen related (genomic) epidemiology (GenEpiO). Fiona and Emma are also involved in The Canadian Healthy Infant Longitudinal Development study (CHILD) investigating genetic and environmental factors associated with the development of allergy and asthma.
 * Pier Luigi Buttigieg is developing environmental ontologies (ENVO) and semantics for sustainable development. These domains include the semantics of food production, security, and composition and ecological food webs.
-* Robert Hoehndorf is researching chemical exposure with respect to diet and health.
+* Robert Hoehndorf, a key proponent of the Aber-OWL.net project, is researching chemical exposure with respect to diet and health.
+* Matthew Lang spearheads the IC3-Foods consortium, with a focus on the technology and policy implications of next generation food systems.
+
