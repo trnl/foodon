@@ -6,46 +6,67 @@ RELEASEDIR=../..
 ROBOT= robot
 OWLTOOLS= owltools
 
+# THE "make" PROCESS VIA robot/owlapi PAYS ATTENTION TO THE catalog-v001.xml 
+# file residing in this directory.  If you are running into the problem of 
+# local files not being found, e.g. with this error coming up:
+#
+#   org.semanticweb.owlapi.model.UnloadableImportException: Could not load \
+#   imported ontology: <http://purl.obolibrary.org/obo/FOODON/imports/efo_import.owl> \
+#   Cause: https://raw.githubusercontent.com/FoodOntology/foodon/master/src/imports/efo_import.owl
+
+# then the catalog catalog-v001.xml file likely needs to be edited, or delete it 
+# and load the root [ontology]-edit.owl file in Protege and ensure the 
+# import file connections are established correctly.  This will rewrite the
+# catalog-v001.xml file, and the make process should succeed.
 
 all: all_imports $(ONT).owl 
-# $(ONT).obo # disabling the OBO target for now
 test: all
-prepare_release: all
+prepare_release: all 
 	cp $(ONT).owl $(RELEASEDIR) &&\
-	# cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
-	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
-	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
-	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
+	cp imports/*.owl $(RELEASEDIR)/imports/ &&\
+	git add $(RELEASEDIR)/imports/*.owl &&\
+	(test -f subsets/*.owl && cp subsets/*.owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
-
+#Annotates foodon.owl ( $(ONT).owl ) file with release
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK -s true annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-# $(ONT).obo: $(ONT).owl
-#	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $(OBO)
+	$(ROBOT) reduce -i $< -r ELK -s true annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
-
-IMPORTS = bfo ro envo uberon chebi
+# ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
+# ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro 
+IMPORTS = chebi eo ncbitaxon envo obi ro uberon gaz
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
-#IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
-
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
 
+# Only fetches .owl if it doesn't exist or if .txt has later timestamp.
+# All annotations are manually curated in the ontology-metadata.owl file
+# Because OWLAPI is erroniously parsing 1 line commented out annotations, make the "sed ..." step last.
+# On Macs we need the '.bak' after -i to avoid a parsing error; while on other linux it fails
+imports/%_import.owl: imports/%_ontofox.txt
+	curl -s -F file=@imports/$*_ontofox.txt -o $@ http://ontofox.hegroup.org/service.php
+
+	echo "Downloaded $@"
+
+	$(ROBOT) reduce -i $@ -r ELK -s true --xml-entities -o $@
+
+	echo "Entity substitution."
+
+	sed -i '.bak' 's/<owl:AnnotationProperty[^>]*\/>/<!-- & -->/; s/<\/owl:AnnotationProperty>/& -->/; s/<owl:AnnotationProperty[^>]*">/<!-- &/;' $@ ||	sed -i 's/<owl:AnnotationProperty[^>]*\/>/<!-- & -->/; s/<\/owl:AnnotationProperty>/& -->/; s/<owl:AnnotationProperty[^>]*">/<!-- &/;' $@
+
+	echo "Removed annotation definitions."
+
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
+#imports/%_import.owl: mirror/%.owl imports/%_terms.txt
+#	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
+
 .PRECIOUS: imports/%_import.owl
 
-#imports/%_import.obo: imports/%_import.owl
-#	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
-
 # clone remote ontology locally, perfoming some excision of relations and annotations
-mirror/%.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
-.PRECIOUS: mirror/%.owl
+#mirror/%.owl: $(SRC)
+#	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
+#.PRECIOUS: mirror/%.owl
 
 release: $(ONT).owl 
-# $(ONT).obo # disabled for now
-	cp $^ $RELEASEDIR && cp imports/* $RELEASEDIR/imports
+	cp $^ $RELEASEDIR && cp imports/*.owl $RELEASEDIR/imports

@@ -2,13 +2,13 @@
 [![Build Status](https://travis-ci.org/FoodOntology/foodon.svg?branch=master)](https://travis-ci.org/FoodOntology/foodon)
 
 
-The need to represent knowledge about food is central to many fields including biomedicine and sustainable development. FOODON is a new ontology built to interoperate with the OBO Library and to represent entities which bear a “food role”. It encompasses materials in natural ecosystems and food webs as well as human- centric categorization and handling of food. The latter will be the initial focus of the ontology, and we aim to develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. This project is motivated by the recognition that although several resources and standards for indexing food descriptors currently exist, their content and interrelations are not semantically and logically coherent.
+The need to represent knowledge about food is central to many fields including biomedicine and sustainable development. FoodOn is a new ontology built to interoperate with the OBO Library and to represent entities which bear a “food role”. It encompasses materials in natural ecosystems and food webs as well as human- centric categorization and handling of food. The latter will be the initial focus of the ontology, and we aim to develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. This project is motivated by the recognition that although several resources and standards for indexing food descriptors currently exist, their content and interrelations are not semantically and logically coherent.
 
-The scope of FOODON is ambitious and will require input from multiple domains. FOODON will import or map to material in existing ontologies and standards and will create content to cover gaps in the representation of food-related products and processes. The products of this work are being applied to research and clinical datasets such as those associated with the Canadian Healthy Infant Longitudinal Development (CHILD) study which examines the causal factors of asthma and allergy development in children, and the Integrated Rapid Infectious Disease Analysis (IRIDA) platform for genomic epidemiology and foodborne outbreak investigation.
+The scope of FoodOn is ambitious and will require input from multiple domains. FoodOn imports or maps to material in existing ontologies and standards and will create content to cover gaps in the representation of food-related products and processes. The products of this work are being applied to research and clinical datasets such as those associated with the Canadian Healthy Infant Longitudinal Development (CHILD) study which examines the causal factors of asthma and allergy development in children, and the Integrated Rapid Infectious Disease Analysis (IRIDA) platform for genomic epidemiology and foodborne outbreak investigation.
 
 Mailing List
 
-We have just started up a new [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
+We have a new [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
 
 Consortium
 
@@ -21,3 +21,27 @@ Founding members
 * Robert Hoehndorf, a key proponent of the Aber-OWL.net project, is researching chemical exposure with respect to diet and health.
 * Matthew Lange spearheads the IC3-Foods consortium, with a focus on the technology and policy implications of next generation food systems.
 
+
+FoodOn is mainly based on a conversion of the LanguaL.org XML thesaurus facet data, integrated with OBOFoundry terms from UBERON, ChEBI, and NCBITaxon and others.  The approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
+
+##To view
+
+Briefly, the foodon_core.owl main file currently contains everything FoodOn has to offer except for an indexed food database.  foodon.owl has such a database included in it - over 9,000 foods from the FDA SIREN indexed food database, imported from LanguaL.org.  
+
+You can look at either file using in Protege or another OWL ontology editor.  It should import the ncbitaxon_import.owl and other imports/ files too.  Use Stanford's free [Protege](http://protege.stanford.edu) ontology editor to load the main file, and browse the Langual hierarchy under the "Classes" tab.  It should also be viewable on https://www.ebi.ac.uk/ols/ soon too.
+
+##To edit
+
+The /src/ontology/foodon-edit.owl and many /src/ontology/imports/ files can be edited using Protege or by hand.  Note however that the uberon, ncbitaxon, and chebi ontofox .txt specification files are actually generated from templates in the /src/ontology/imports/langual/ folder, so add to those templates if you want additions to uberon, ncbitaxon and chebi to survive another future import of LanguaL updated terms.
+
+##To regenerate the files
+
+foodon.owl is generated by the make command when one is in the /src/ontology/ folder.  
+
+To redo the LanguaL  LanguaL2014.XML file import, first issue a "python langual.py" command when in the /src/ontology/imports/langual/ folder. This compares the XML file's contents to the database.json import control data structure, adds new content and state information to the json database, and then writes the OWL file as well as an OntoFox compatible /src/ontology/imports/ncbitaxon_ontofox.txt , uberon_ontofox.txt, chebi_ontofox.txt files.  The database.json file holds a representation of the LanguaL XML file contents, along with value overrides.  It is created with some input from lookup.txt, which maps certain LanguaL entries over to their equivalents in other OBOFoundry ontologies; these overrides are then added to the template .txt files to create the /imports/ folder OntoFox files.  A "make" command consults OntoFox to convert those files into .owl import files.
+
+Then change directory to the "/src/ontology" folder, and run "make".  That will fetch the ontofox updates if need be, producing new XYZ_import.owl files. 
+  
+langual.py may need a few python modules loaded up.  It can take a number of minutes to generate
+if database.json is already established; it will take much longer to run if database.json has been
+deleted since it fetches NCBITaxon related information using the EOL.org API (in batches)

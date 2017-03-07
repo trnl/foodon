@@ -1,0 +1,52 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/FOODON/imports/gaz_import.owl
+
+[Source ontology]
+GAZ
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GAZ_00005860 #	Melanesia
+http://purl.obolibrary.org/obo/GAZ_00005862 #	Micronesia
+http://purl.obolibrary.org/obo/GAZ_00005861 #	Polynesia
+http://purl.obolibrary.org/obo/GAZ_00002471 #	Eastern Asia
+http://purl.obolibrary.org/obo/GAZ_00000581 #	Eritrea
+http://purl.obolibrary.org/obo/GAZ_00003943 #	Mayotte
+http://purl.obolibrary.org/obo/GAZ_00002475 #	Occupied Palestinian Territory
+http://purl.obolibrary.org/obo/GAZ_00001539 #	Channel Islands
+http://purl.obolibrary.org/obo/GAZ_00052477 #	Isle of Man
+http://purl.obolibrary.org/obo/GAZ_00004021 #	Curacao
+http://purl.obolibrary.org/obo/GAZ_00001106 #	zimbabwe
+http://purl.obolibrary.org/obo/GAZ_00012579 #	Sint Maarten
+http://purl.obolibrary.org/obo/GAZ_00005841 #	Saint Martin
+http://purl.obolibrary.org/obo/GAZ_00233439 #	South Sudan
+http://purl.obolibrary.org/obo/GAZ_00006898 #	Montenegro
+http://purl.obolibrary.org/obo/GAZ_00002525 #	Suriname
+http://purl.obolibrary.org/obo/GAZ_00002468 #	Kurdistan
+http://purl.obolibrary.org/obo/GAZ_00000460 #	Eurasia
+http://purl.obolibrary.org/obo/GAZ_00281547 #	British Isles
+http://purl.obolibrary.org/obo/GAZ_00002467 #	Arabian Peninsula
+http://purl.obolibrary.org/obo/GAZ_00002516 # French Guiana
+http://purl.obolibrary.org/obo/GAZ_00002948 # Andorra
+http://purl.obolibrary.org/obo/GAZ_00049570 # Grenada
+http://purl.obolibrary.org/obo/GAZ_00000587 # Sub-saharan africa
+
+# NOTE: LANGUAL IMPORT OVERWRITES THIS FILE.  
+# MODIFY /src/ontology/imports/langual/template_gazetteer_ontofox.txt 
+# THEN REDO LANGUAL IMPORT TO REVISE THIS FILE SO THAT make COMMAND WORKS.
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+[Source annotation URIs to be excluded]

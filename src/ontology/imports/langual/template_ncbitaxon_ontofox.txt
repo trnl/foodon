@@ -1,0 +1,45 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/FOODON/imports/ncbitaxon_import.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank #taxonomic rank
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCBITaxon_3750 # Apple - malus domestica 
+http://purl.obolibrary.org/obo/NCBITaxon_2711 # Citrus sinensis  
+http://purl.obolibrary.org/obo/NCBITaxon_7898 # Actinopterygii 
+http://purl.obolibrary.org/obo/NCBITaxon_7955 # Danio rerio 
+http://purl.obolibrary.org/obo/NCBITaxon_6690 # Farfantepenaeus aztecus
+http://purl.obolibrary.org/obo/NCBITaxon_85552 # Scylla paramamosain  
+http://purl.obolibrary.org/obo/NCBITaxon_29960 # Fenneropenaeus indicus  
+http://purl.obolibrary.org/obo/NCBITaxon_27292 # Saccharomyces pastorianus
+
+# NOTE: IF THERE ARE NO IMPORT TERMS BEFORE THE NEXT "Top level source ..." TEXT
+# THEN THIS IS THE TEMPLATE FILE THAT ONE CAN ADD TAXONOMY ITEMS TO ABOVE.
+# THEN REDO LANGUAL IMPORT TO REVISE THE /imports VERSION OF THE FILE
+# OTHERWISE THIS IS NOT THE TEMPLATE FILE, AND IT IS OVERWRITTEN WHENEVER
+# A LANGUAL IMPORT IS PERFORMED.
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2157
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
+http://purl.obolibrary.org/obo/NCBITaxon_2
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
+http://purl.obolibrary.org/obo/NCBITaxon_2759
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
+http://purl.obolibrary.org/obo/NCBITaxon_10239
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
+
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+#copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+#mapTo http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://purl.obolibrary.org/obo/ncbitaxon#common_name
