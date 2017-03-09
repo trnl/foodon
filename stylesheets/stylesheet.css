@@ -66,7 +66,7 @@ a {
   }
 
 @media screen and (min-width: 64em) {
-  .page-header h1 {margin-top:0}
+
   .page-header {
      height: 222px !important
     /* padding: 5rem 6rem; */ } }
@@ -84,6 +84,7 @@ a {
     /* padding: 2rem 1rem; */ } }
 
 .project-name {
+  margin-top: 0;
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
