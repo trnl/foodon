@@ -68,12 +68,12 @@ a {
     /* padding: 5rem 6rem; */ } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
+   .page-header img {max-height: 170px}
   .page-header {
    /*  padding: 3rem 4rem; */ } }
 
 @media screen and (max-width: 42em) {
-  .page-header img {
-     max-height: 170px}
+  .page-header img {max-height: 170px}
   .page-header {
     max-height: 170px
     /* padding: 2rem 1rem; */ } }
