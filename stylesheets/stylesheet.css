@@ -46,7 +46,7 @@ a {
     font-size: 0.8rem; } }
 
 @media screen and (max-width: 42em) {
-  .page-header img {max-height: 170px}
+
   .btn {
     display: block;
     width: 100%;
@@ -72,7 +72,10 @@ a {
    /*  padding: 3rem 4rem; */ } }
 
 @media screen and (max-width: 42em) {
+  .page-header img {
+     max-height: 170px}
   .page-header {
+    max-height: 170px
     /* padding: 2rem 1rem; */ } }
 
 .project-name {
@@ -89,7 +92,7 @@ a {
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 1.65rem; } }
 
 .project-tagline {
  /* margin-bottom: 2rem; */
