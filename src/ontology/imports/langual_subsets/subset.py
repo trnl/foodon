@@ -197,7 +197,7 @@ class Langual(object):
                 relation = '&obo;FOODON_00001301' # Immersed in.  Awaiting RO relation.  RO_0001025 Located In (preferrably "immersed in")
 
             #M. CONTAINER OR WRAPPING [M0100]
-            elif category == 'M': relation = '&obo;RO_0002002' # has 2D boundary 
+            elif category == 'M': relation = '&obo;PATO_0005016' # surrounded by / RO_0002002 has 2D boundary 
 
             #N. FOOD CONTACT SURFACE [N0010]
             elif category == 'N': relation = '&obo;RO_0002220' # Adjacent to (AT SOME POINT IN TIME)
@@ -282,8 +282,8 @@ class Langual(object):
         SLIM item id is mapped over to FOODON_ namespace such that subsequent 
         loads of the SLIM items preserve same ids.
         """ 
-        numericId = ''.join(i for i in id if i.isdigit())
-        return 'FOODON_' + str(self.subsetIdStart + int(numericId.lstrip('0')) ) # issue : leading 0 ?
+        numericId = ''.join(i for i in id if i.isdigit()).lstrip('0') # may contain leading 0's
+        return 'FOODON_' + format(self.subsetIdStart + int(numericId), '08' ) # padded with 0 to 8 digits
 
 
     def save_subset_owl(self, owl_output_rdf):
