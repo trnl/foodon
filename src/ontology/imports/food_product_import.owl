@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/FOODON/imports/food_product_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/FOODON/imports/food_product_import.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/food_product_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/food_product_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/FOODON/imports/food_product_import.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/food_product_import.owl">
         <rdfs:comment>Food terms previously in ENVO are here.  This is also the home of all new foods that have component pieces or processes.  Raw ingredients and additives remain in the &quot;food source&quot; hierarchy.</rdfs:comment>
     </owl:Ontology>
     

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/FOODON/imports/ancestro_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/FOODON/imports/ancestro_import.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ro="http://www.obofoundry.org/ro/ro.owl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/FOODON/imports/ancestro_import.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ancestry Ontology</rdfs:label>
         <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dani Welter</patterns:createdBy>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ancestry ontology for the NHGRI GWAS Catalog</rdfs:comment>

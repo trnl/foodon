@@ -13,20 +13,20 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/gaz_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/uberon_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/obi_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/food_product_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/envo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/ancestro_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/langual_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/chebi_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/ncbitaxon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/food_product_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/subset_siren_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/metadata_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/eo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FOODON/imports/product_type_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/subset_siren_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl"/>
         <dc:contributor xml:lang="en">Damion Dooley</dc:contributor>
         <dc:contributor xml:lang="en">William Hsiao</dc:contributor>
         <dc:contributor xml:lang="en">Pier Buttigieg</dc:contributor>
@@ -61,7 +61,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/FOODON_00001302">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between two entities in which the former can be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between two entities in which the former can normally be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has consumer</rdfs:label>
     </owl:ObjectProperty>
@@ -756,6 +756,14 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510015"/>
         <rdfs:label xml:lang="en">blood meal</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
+    </rdf:Description>
     
 
 
@@ -1910,22 +1918,6 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/FOODON_03530267 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530267"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_3301647 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_3301647">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_3317053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_3317053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400251"/>
-    </owl:Class>
     
 
 
