@@ -3,11 +3,14 @@
 
 Our [FoodOn project home page](http://foodontology.github.io/foodon/) introduces FoodOn and its design and community.
 
-Mailing List
-
-We have a [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
-
 FoodOn is initially based on a conversion of the LanguaL.org food indexing thesaurus, integrated with OBOFoundry ontology terms from UBERON, ChEBI, and NCBITaxon and others.  This approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
+
+Contact Us
+
+* Join our [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
+* Online discussion about FoodOn terms is at the [issue tracker](https://github.com/FoodOntology/foodon/issues).
+* Documentation coming soon at the [wiki page](https://github.com/FoodOntology/foodon/wiki)
+* Email us at info[at]genepio.org
 
 ##To view
 
