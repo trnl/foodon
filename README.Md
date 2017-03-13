@@ -14,7 +14,7 @@ Contact Us
 
 ##To view
 
-An easy place to browse FoodOn is at [https://www.ebi.ac.uk/ols/ontologies/foodon][https://www.ebi.ac.uk/ols/ontologies/foodon].
+An easy place to browse FoodOn is at [https://www.ebi.ac.uk/ols/ontologies/foodon](https://www.ebi.ac.uk/ols/ontologies/foodon).
 
 The foodon_core.owl main file currently contains everything FoodOn has to offer except for an indexed food product database. foodon_siren.owl has such a database included in it - over 9,000 foods from the FDA SIREN indexed food database, imported from LanguaL.org. (Currently foodon.owl is identical to foodon_core.owl).  
 
