@@ -28,20 +28,20 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-03-07/foodon.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/gaz_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/uberon_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/obi_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/food_product_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/envo_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/ancestro_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/langual_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/chebi_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/ncbitaxon_import.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-03-13/foodon.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/food_product_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/envo_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/ancestro_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/langual_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/ncbitaxon_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/ro_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/metadata_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/eo_import.owl"/>
-        <owl:imports rdf:resource="&obo;FOODON/imports/product_type_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/metadata_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/eo_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <dc:contributor xml:lang="en">Damion Dooley</dc:contributor>
         <dc:contributor xml:lang="en">William Hsiao</dc:contributor>
         <dc:contributor xml:lang="en">Pier Buttigieg</dc:contributor>
@@ -76,7 +76,7 @@
 
     <owl:ObjectProperty rdf:about="&obo;FOODON_00001302">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between two entities in which the former can be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between two entities in which the former can normally be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has consumer</rdfs:label>
     </owl:ObjectProperty>
@@ -128,7 +128,7 @@ This relation could be annotated with proportions or measurements, as well as pr
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <obo:IAO_0000115 xml:lang="en">FoodOn is built to interoperate with the OBO Library and to represent entities which bear a “food role”. Its initial focus is a human-centric categorization and handling of food. We aim to develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. We intend to expand FoodOn to encompasses materials in natural ecosystems and food webs too.
 
-Note that FoodOn owes a large debt to LanguaL, the food indexing system developed since the id 1970&apos;s (see LanguaL.org).  LanguaL&apos;s facets have all been imported here, with some adaptation.</obo:IAO_0000115>
+Note that FoodOn owes a large debt to LanguaL, the food indexing system developed since the mid 1970&apos;s (see LanguaL.org).  LanguaL&apos;s facets have all been imported here, with some adaptation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">foodon</rdfs:label>
     </owl:Class>
     
@@ -771,6 +771,14 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
         <rdfs:label xml:lang="en">blood meal</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03301647">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003064"/>
+    </rdf:Description>
     
 
 
@@ -1928,22 +1936,6 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_3315791 -->
-
-    <owl:Class rdf:about="&obo;FOODON_3315791">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03400229"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_3317053 -->
-
-    <owl:Class rdf:about="&obo;FOODON_3317053">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03400251"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GAZ_00000460 -->
 
     <rdf:Description rdf:about="&obo;GAZ_00000460">
@@ -2024,6 +2016,12 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="&obo;FOODON_00001076">
+        <obo:IAO_0000115 xml:lang="en">Sake is a fermented rice beverage resulting from the fermentation of rice with the mold Aspergillus oryzae and, in parallel, with the yeast Saccharomyces cerevisiae [wikipedia:sake]</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00001260">
+        <obo:IAO_0000115 xml:lang="en">Beer is a fermented cereal beverage resulting from the fermentation most commonly of malted barley (though wheat, corn, or rice may included), by a yeast, most commonly Saccharomyces cerevisiae, and flavored by dried flowers of hops, Humulus lupulus [wikipedia:beer].</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00001264">
         <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03411567</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03411337</oboInOwl:hasNarrowSynonym>
@@ -2032,12 +2030,24 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <oboInOwl:hasNarrowSynonym xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03411268</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03411338</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03411424">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03411398</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03412387">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03411399</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03412700">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03412177</obo:IAO_0100001>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03420171">
         <oboInOwl:hasDbXref>Wikipedia: https://en.wikipedia.org/wiki/Inverted_sugar_syrup</oboInOwl:hasDbXref>
         <obo:IAO_0000115 xml:lang="en">&apos;invert sugar&apos; is a combination of glucose and fructose derived from disaccharide sucrose.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03510011">
         <oboInOwl:hasExactSynonym xml:lang="en">fish meal</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03510021">
+        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: this tree of foods for particular animal consumer groups will probably have its items renamed to reflect the consumer group rather than as food constrained by animal type.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>

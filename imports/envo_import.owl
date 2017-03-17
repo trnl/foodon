@@ -283,28 +283,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000067 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000067">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Naturally formed, subterranean open area or chamber.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">cave</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000068 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000068">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An underground or underwater passage.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">tunnel</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000070">
@@ -323,28 +301,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A permanent walled and roofed construction.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">building</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000074 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000074">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000070"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A barrier constructed across a watercourse to control the flow or raise the level of water.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">dam</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000076 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000076">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000070"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An excavation in the Earth for the purpose of extracting earth materials.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">mine</rdfs:label>
     </owl:Class>
     
 
@@ -479,17 +435,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000127 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000127">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An arid terrain with clay-rich soil that has been extensively eroded by wind and water.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">badland</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000139 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000139">
@@ -599,17 +544,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000444 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000444">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000352"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tract of land with few or no trees in the middle of a wooded area.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">clearing</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000446">
@@ -654,38 +588,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000548 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000548">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000352"/>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">gravel field</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000562 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000562">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000002"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">park</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000563 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000563">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000070"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A raised walkway over water, supported by piles or pillars.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">pier</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000856 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000856">
@@ -704,17 +606,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A biome that applies to the freshwater realm.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">freshwater biome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00001995 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00001995">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000814"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">rock</rdfs:label>
     </owl:Class>
     
 
@@ -752,18 +643,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002001 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00002001">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002186"/>
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002264"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Water that has been adversely affected in quality by anthropogenic influence.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">waste water</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
 
     <owl:Class rdf:about="&obo;ENVO_00002006">
@@ -796,33 +675,12 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002018 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00002018">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002001"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Wastewater that is contaminated with feces or urine,</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">sewage</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00002030 -->
 
     <owl:Class rdf:about="&obo;ENVO_00002030">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000428"/>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">aquatic biome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00002186">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002006"/>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">contaminated water</rdfs:label>
     </owl:Class>
     
 
@@ -874,17 +732,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00001998"/>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">garden soil</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002264 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00002264">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
-        <obo:IAO_0000115>A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">waste material</rdfs:label>
     </owl:Class>
     
 
@@ -1382,27 +1229,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000703 -->
-
-    <owl:Class rdf:about="&obo;ENVO_01000703">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000875"/>
-        <obo:IAO_0000115>Hydrological precipitation is a process during which any product of the condensation of atmospheric water vapour is pulled to the planetary surface by gravity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label xml:lang="en">hydrological precipitation process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000753 -->
-
-    <owl:Class rdf:about="&obo;ENVO_01000753">
-        <obo:IAO_0000115>A temperature that inheres in some portion of air.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label xml:lang="en">air temperature</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01000814 -->
 
     <owl:Class rdf:about="&obo;ENVO_01000814">
@@ -1425,17 +1251,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000875 -->
-
-    <owl:Class rdf:about="&obo;ENVO_01000875">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_02500000"/>
-        <obo:IAO_0000115>A precipitation process is a process in which a portion of some substance segregates from a material in which that substance or its precursors were dissolved or suspended in and settles due to a force such as gravity or centrifugal force.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label xml:lang="en">precipitation process</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01001305 -->
 
     <owl:Class rdf:about="&obo;ENVO_01001305">
@@ -1443,16 +1258,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115>A vegetated area is a geographic feature which has ground cover dominated by plant communities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label>vegetated area</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_02500000 -->
-
-    <owl:Class rdf:about="&obo;ENVO_02500000">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label xml:lang="en">environmental system process</rdfs:label>
     </owl:Class>
     
 

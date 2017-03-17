@@ -32,13 +32,12 @@ http://purl.obolibrary.org/obo/ENVO_01000180 #    terrestrial - tundra
 http://purl.obolibrary.org/obo/ENVO_00002297 # environmental feature
 #http://purl.obolibrary.org/obo/ #    agricultural - crop
 http://purl.obolibrary.org/obo/ENVO_00003862 #    agricultural - dairy
-http://purl.obolibrary.org/obo/ENVO_00000042 #    agricultural - drainage canal
-http://purl.obolibrary.org/obo/ENVO_00000140 #    agricultural - drainage ditch
+http://purl.obolibrary.org/obo/ENVO_00000014 # canal
 http://purl.obolibrary.org/obo/ENVO_00000078 #    agricultural - farm
 http://purl.obolibrary.org/obo/ENVO_00005749 #    agricultural - farm - farm soil
 http://purl.obolibrary.org/obo/ENVO_00000294 #    agricultural - fish farm
 http://purl.obolibrary.org/obo/ENVO_00000295 #    agricultural - fish hatchery
-http://purl.obolibrary.org/obo/ENVO_00000139 #    agricultural - irrigation ditch
+#http://purl.obolibrary.org/obo/ENVO_00000139 #    agricultural - irrigation ditch
 http://purl.obolibrary.org/obo/ENVO_00000117 #    agricultural - plantation
 #http://purl.obolibrary.org/obo/ # edit    agricultural - storage - feed
 #http://purl.obolibrary.org/obo/ # edit    agricultural - storage - manure
@@ -64,32 +63,19 @@ http://purl.obolibrary.org/obo/ENVO_00002222 #    building - grocery / retail / 
 #http://purl.obolibrary.org/obo/  #edit    building - residential
 #http://purl.obolibrary.org/obo/  #edit    building - restaurant
 
-#http://purl.obolibrary.org/obo/  #edit    water - bottled  MOVE TO FOODON?
-
-#http://purl.obolibrary.org/obo/  #    water - canal
-#http://purl.obolibrary.org/obo/  #edit    water - hot-tub / jacuzzi spa
-#http://purl.obolibrary.org/obo/ #edit    water - intake
 http://purl.obolibrary.org/obo/ENVO_01000252 #    water - lake
 http://purl.obolibrary.org/obo/ENVO_00000020 #	  water body - lentic >  lake
 http://purl.obolibrary.org/obo/ENVO_00003064 #    water - municipal (drinking water)
 http://purl.obolibrary.org/obo/ENVO_00003096 #    water - municipal (tap water)
 http://purl.obolibrary.org/obo/ENVO_01000048 #    water - ocean
-#http://purl.obolibrary.org/obo/ # edit (not nec. Private)    water - pool
 http://purl.obolibrary.org/obo/ENVO_01000253 #    water - river
 http://purl.obolibrary.org/obo/ENVO_00000022 # river
 http://purl.obolibrary.org/obo/ENVO_00000023 #    water - stream
-http://purl.obolibrary.org/obo/ENVO_00002001 #    water - waste water
-#http://purl.obolibrary.org/obo/ # edit    water - waste water - industrial
-http://purl.obolibrary.org/obo/ENVO_00002018 #    water - waste water - sewage
 http://purl.obolibrary.org/obo/ENVO_01000002 #    water - well
 
 http://purl.obolibrary.org/obo/ENVO_00000015 # ocean
 http://purl.obolibrary.org/obo/ENVO_00000016 # sea
 http://purl.obolibrary.org/obo/ENVO_00000027 # spring
-
-http://purl.obolibrary.org/obo/ENVO_01000703 # precipitation
-http://purl.obolibrary.org/obo/ENVO_01000753 # air temperature
-
 
 http://purl.obolibrary.org/obo/ENVO_00010483 # environmental material
 #    http://purl.obolibrary.org/obo/ edit #    animal - feed (blood meal)
@@ -109,47 +95,31 @@ http://purl.obolibrary.org/obo/ENVO_00003860 #    animal manure - porcine (pig s
 http://purl.obolibrary.org/obo/ENVO_00003927 #    animal manure - stable
 #    http://purl.obolibrary.org/obo/    edit #    animal manure product (commercial/retail, heat treated) 
 http://purl.obolibrary.org/obo/ENVO_0010001 #    anthropogenic environmental material
-#    http://purl.obolibrary.org/obo/    edit #    drain
 http://purl.obolibrary.org/obo/ENVO_00002008 #    dust
 http://purl.obolibrary.org/obo/ENVO_01000018 #    gravel
 http://purl.obolibrary.org/obo/ENVO_01000001 #    mud
 http://purl.obolibrary.org/obo/ENVO_01000155 #    organic material
-http://purl.obolibrary.org/obo/ENVO_00001995 #    rock
 http://purl.obolibrary.org/obo/ENVO_01000017 #    sand
-#    http://purl.obolibrary.org/obo/    edit #    sewage - raw sewage
 http://purl.obolibrary.org/obo/ENVO_00001998 #    soil
 http://purl.obolibrary.org/obo/ENVO_00002259 #    soil - agricultural
 http://purl.obolibrary.org/obo/ENVO_00005747 #    soil - compost
 http://purl.obolibrary.org/obo/ENVO_00002263 #    soil - garden
 http://purl.obolibrary.org/obo/ENVO_00002258 #    soil - loam
-#    http://purl.obolibrary.org/obo/    edit #    swab - food contact surface
-#    http://purl.obolibrary.org/obo/    edit #    swab - inanimate object surface
-#    http://purl.obolibrary.org/obo/    edit #    swab - meat
-#    http://purl.obolibrary.org/obo/     #    Swab - Unspecified
 http://purl.obolibrary.org/obo/ENVO_00002006 #    water
 http://purl.obolibrary.org/obo/ENVO_01000254 # environmental system
 
 # PHYSIOGRAPHIC FEATURE
-http://purl.obolibrary.org/obo/ENVO_00000191 # physiographic feature   #Environmental terrain
-http://purl.obolibrary.org/obo/ENVO_00000127 #  terrain - badland    
+http://purl.obolibrary.org/obo/ENVO_00000191 # physiographic feature   #Environmental terrain 
 http://purl.obolibrary.org/obo/ENVO_00000091 #    terrain - beach
-http://purl.obolibrary.org/obo/ENVO_00000067 #    terrain - cave
-http://purl.obolibrary.org/obo/ENVO_00000444 #    terrain - clearing
-http://purl.obolibrary.org/obo/ENVO_00000074 #    terrain - dam
 http://purl.obolibrary.org/obo/ENVO_00000097 #    terrain - desert
 http://purl.obolibrary.org/obo/ENVO_00000114 #    terrain - field
 http://purl.obolibrary.org/obo/ENVO_00000111 #    terrain - forest
 http://purl.obolibrary.org/obo/ENVO_00000106 #    terrain - grassland
-http://purl.obolibrary.org/obo/ENVO_00000548 #  terrain - gravel field    
-http://purl.obolibrary.org/obo/ENVO_00000076 #    terrain - mine
-http://purl.obolibrary.org/obo/ENVO_00000562 #    terrain - park
-http://purl.obolibrary.org/obo/ENVO_00000563 #    terrain - pier
 http://purl.obolibrary.org/obo/ENVO_00000086 #  terrain - plain    
 http://purl.obolibrary.org/obo/ENVO_00000300 #    terrain - scrubland
 http://purl.obolibrary.org/obo/ENVO_00002000 #    terrain - slope
 http://purl.obolibrary.org/obo/ENVO_00000508 #    terrain - terrace
-http://purl.obolibrary.org/obo/ENVO_00000112 #  terrain - tundra    
-http://purl.obolibrary.org/obo/ENVO_00000068 #  terrain - tunnel    
+http://purl.obolibrary.org/obo/ENVO_00000112 #  terrain - tundra      
 http://purl.obolibrary.org/obo/ENVO_00000856 #    terrain - urban
 http://purl.obolibrary.org/obo/ENVO_00000292 #  terrain - watershed    
 http://purl.obolibrary.org/obo/ENVO_00000043 #    terrain - wetland

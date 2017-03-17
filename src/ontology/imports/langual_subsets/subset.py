@@ -143,15 +143,15 @@ class Langual(object):
             if refEntity['status'] == 'ignore': 
                 continue
 
-            # Ignore a depreciated item UNLESS its a [food item]_added, and the [food item] exists
+            # If item is depreciated, then if it is a [food item]_added, and the [food item] exists
             # If so, change refEntity to that item
-            label = refEntity['label']['value']
+            label = refEntity['label']['value'].lower()
             if refEntity['status'] == 'deprecated':
                 if refEntity['database_id'][0] == 'H' and label[-6:] == ' added' and label[0:-6] in self.label_reverse_lookup:
                     print "Replaced secondary ingredient with "
                     refEntity = self.label_reverse_lookup[ label[0:-6] ]
-                else: 
-                    continue
+                #else: 
+                #    continue
 
             # Stats on count of members of each LanguaL facet, which is first letter of entity id.
             category = langual_id[0]
@@ -187,7 +187,13 @@ class Langual(object):
             elif category == 'G': relation = '&obo;RO_0002354' # formed as a result of
 
             #H. TREATMENT APPLIED [H0111]
-            elif category == 'H': relation = '&obo;RO_0002354' # formed as a result of
+            elif category == 'H': 
+                if label[-6:] == ' added':
+                    # Exception: if word " added" at end, then "has substance added"  and keep deprecated reference in order to address this later.
+                    relation = '&obo;FOODON_00001560' # "has substance added"
+                else:
+                    relation = '&obo;RO_0002354' # formed as a result of
+            
 
             #J. PRESERVATION METHOD [J0107]
             elif category == 'J': relation = '&obo;RO_0002354' # formed as a result of
