@@ -19,10 +19,15 @@ OWLTOOLS= owltools
 # import file connections are established correctly.  This will rewrite the
 # catalog-v001.xml file, and the make process should succeed.
 
+# Temporarily foodon.owl and foodon_core.owl are the same.
+
 all: all_imports $(ONT).owl 
 test: all
 prepare_release: all 
 	cp $(ONT).owl $(RELEASEDIR) &&\
+	cp $(ONT).owl $(ONT)_core.owl &&\
+	cp $(ONT)_core.owl $(RELEASEDIR) &&\
+	cp $(ONT)_siren.owl $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR)/imports/ &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*.owl && cp subsets/*.owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\

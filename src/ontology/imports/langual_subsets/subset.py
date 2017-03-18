@@ -150,8 +150,9 @@ class Langual(object):
                 if refEntity['database_id'][0] == 'H' and label[-6:] == ' added' and label[0:-6] in self.label_reverse_lookup:
                     print "Replaced secondary ingredient with "
                     refEntity = self.label_reverse_lookup[ label[0:-6] ]
-                #else: 
-                #    continue
+                # These are junky parts of conjunction
+                elif label[0:3] == 'no ' or label[-10:] == ' not known' or label[-14:] == 'not applicable': 
+                    continue
 
             # Stats on count of members of each LanguaL facet, which is first letter of entity id.
             category = langual_id[0]

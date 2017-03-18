@@ -227,29 +227,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000037 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000037">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000121"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A small, human-made channel which has been dug for draining or irrigating the land.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">ditch</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000042 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000042">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000014"/>
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000070"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Artificial watercourse with no flow or a controlled flow used drainage.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">drainage canal</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000043 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000043">
@@ -425,38 +402,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000121 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000121">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000395"/>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">artificial channel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000139 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000139">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000037"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A ditch that supplies water to surrounding land.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">irrigation ditch</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000140 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000140">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000037"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A ditch that collects water from the surrounding land.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">drainage ditch</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000191 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000191">
@@ -507,28 +452,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Area covered with low-growing or stunted perennial vegetation and usually not mixed with trees.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">scrubland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000309 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000309">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A landform sunken or depressed below the surrounding area.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">depression</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000395 -->
-
-    <owl:Class rdf:about="&obo;ENVO_00000395">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000309"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">The physical confine of a river, slough or ocean strait consisting of a bed and banks.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">channel</rdfs:label>
     </owl:Class>
     
 
