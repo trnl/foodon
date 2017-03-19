@@ -28,11 +28,10 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-03-17/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-03-18/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
-        <owl:imports rdf:resource="&obo;foodon/imports/food_product_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/envo_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/ancestro_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/langual_import.owl"/>
@@ -41,6 +40,7 @@
         <owl:imports rdf:resource="&obo;foodon/imports/ro_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/metadata_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/eo_import.owl"/>
+        <owl:imports rdf:resource="&obo;foodon/imports/foodon_product_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <dc:contributor xml:lang="en">Damion Dooley</dc:contributor>
         <dc:contributor xml:lang="en">William Hsiao</dc:contributor>
