@@ -779,15 +779,10 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
@@ -924,15 +919,10 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03413468">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03413468"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411624"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411625"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411624"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411625"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
@@ -1123,15 +1113,10 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440022">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440022"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440014"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440018"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440014"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440018"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
