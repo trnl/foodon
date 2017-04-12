@@ -758,6 +758,98 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411921"/>
+        <obo:IAO_0000115 xml:lang="en">The zebrafish (Danio rerio) is a tropical freshwater fish belonging to the minnow family (Cyprinidae) of the order Cypriniformes</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Dalia AlGhamdi</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Zebrafish</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">zebrafish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6690"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411081"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Farfantepenaeus aztecus is a species of marine penaeid shrimps found around the east coast of the USA and Mexico</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Dalia AlGhamdi</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Farfantepenaeus_aztecus</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">brown shrimp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85552"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412215"/>
+        <obo:IAO_0000115 xml:lang="en">Scylla paramamosain is a mud crab commonly consumed in South-east Asia.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Dalia AlGhamdi</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Scylla_paramamosain</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">green mud crab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29960"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411081"/>
+        <obo:IAO_0000115>The Indian prawn (Fenneropenaeus indicus, formerly Penaeus indicus), is one of the major commercial prawn species of the world. It is found in the Indo-West Pacific from eastern and south-eastern Africa, through India, Malaysia and Indonesia to southern China and northern Australia</obo:IAO_0000115>
+        <obo:IAO_0000117>Dalia AlGhamdi</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Indian_prawn</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Indian prawn</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301647">
