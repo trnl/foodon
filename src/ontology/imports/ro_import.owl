@@ -159,6 +159,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002225 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002225">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000115>x develops from part of y if and only if there exists some z such that x develops from z and z is part of y</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">develops from part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002354 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002354">
