@@ -1,6 +1,8 @@
 # FOODON
 [![Build Status](https://travis-ci.org/FoodOntology/foodon.svg?branch=master)](https://travis-ci.org/FoodOntology/foodon)
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+
 Our [FoodOn project home page](http://foodontology.github.io/foodon/) introduces FoodOn and its design and community.
 
 FoodOn is initially based on a conversion of the [LanguaL.org](http://langual.org) food indexing thesaurus, integrated with OBOFoundry ontology terms from UBERON, ChEBI, and NCBITaxon and others.  This approach allows LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
