@@ -129,7 +129,7 @@ class Langual(object):
         prefix = '&obo;'
 
         facet_relations_rdf = ''
-        subClassOfId = None
+        owl_output = ''
 
         for langual_id in entity['langual_ids']:
 
@@ -148,7 +148,7 @@ class Langual(object):
             label = refEntity['label']['value'].lower()
             if refEntity['status'] == 'deprecated':
                 if refEntity['database_id'][0] == 'H' and label[-6:] == ' added' and label[0:-6] in self.label_reverse_lookup:
-                    print "Replaced secondary ingredient with "
+                    print "Replaced secondary ingredient with ", label[0:-6]
                     refEntity = self.label_reverse_lookup[ label[0:-6] ]
                 # These are junky parts of conjunction
                 elif label[0:3] == 'no ' or label[-10:] == ' not known' or label[-14:] == 'not applicable': 
@@ -166,14 +166,14 @@ class Langual(object):
             relation = None
 
             # A. PRODUCT TYPE [A0361]
-            # A particular database/subset may reference only one Product Type Hierarchy, e.g. an US FDA one.
-            # This is handled separately as rdfs:subClassOf
-            if category == 'A': subClassOfId = ontology_id # 'rdfs:subClassOf'   
+            # A particular database/subset may place a product under one or more Product Type Hierarchies, e.g. an US FDA one.
+            if category == 'A':
+                owl_output += '\t<rdfs:subClassOf rdf:resource="%s%s"/>\n' % (prefix, ontology_id)
 
             # B. FOOD SOURCE [B1564]
             # This is always the primary ingredient, attached using the 'has primary substance added'
             # - Includes raw animal, plant, bacteria and fungi ingredients.
-            if category == 'B': relation = '&obo;FOODON_00001563' # Has primary substance added'.  Awaiting RO relation
+            if category == 'B': relation = '&obo;RO_0009005' # Has primary substance added'.  Awaiting RO relation
 
             # C. PART OF PLANT OR ANIMAL [C0116]
             elif category == 'C': relation = '&obo;RO_0001000' # Part Of
@@ -190,8 +190,9 @@ class Langual(object):
             #H. TREATMENT APPLIED [H0111]
             elif category == 'H': 
                 if label[-6:] == ' added':
-                    # Exception: if word " added" at end, then "has substance added"  and keep deprecated reference in order to address this later.
-                    relation = '&obo;FOODON_00001560' # "has substance added"
+                    # Exception: if word " added" at end, then "has substance added" and keep 
+                    # deprecated reference in order to address this later.
+                    relation = '&obo;RO_0009001' # "has substance added"
                 else:
                     relation = '&obo;RO_0002354' # formed as a result of
             
@@ -201,7 +202,7 @@ class Langual(object):
 
             #K. PACKING MEDIUM [K0020]
             elif category == 'K' and langual_id != 'K0003': 
-                relation = '&obo;FOODON_00001301' # Immersed in.  Awaiting RO relation.  RO_0001025 Located In (preferrably "immersed in")
+                relation = '&obo;RO_0009003' # Immersed in.
 
             #M. CONTAINER OR WRAPPING [M0100]
             elif category == 'M': relation = '&obo;PATO_0005016' # surrounded by / RO_0002002 has 2D boundary 
@@ -210,7 +211,7 @@ class Langual(object):
             elif category == 'N': relation = '&obo;RO_0002220' # Adjacent to (AT SOME POINT IN TIME)
 
             #P. CONSUMER GROUP/DIETARY USE/LABEL CLAIM [P0032]
-            elif category == 'P': relation = '&obo;FOODON_00001302' # Has Consumer / RO_0000086 has Quality
+            elif category == 'P': relation = '&obo;RO_0009004' # Has Consumer / RO_0000086 has Quality
 
             #R. GEOGRAPHIC PLACES AND REGIONS [R0010]
             elif category == 'R': relation = 'http://www.ebi.ac.uk/ancestro/ancestro_0308' # Has country of origin
@@ -227,11 +228,7 @@ class Langual(object):
             ''' % (relation, ontology_id)
 
         # BEGIN <owl:Class> 
-        owl_output = '\n\n<owl:Class rdf:about="%s%s">\n' % (prefix, entity['id'])
-
-        # Product type is used for class hierarchy.
-        if subClassOfId:
-            owl_output += '\t<rdfs:subClassOf rdf:resource="%s%s"/>\n' % (prefix, subClassOfId)
+        owl_output = '\n\n<owl:Class rdf:about="%s%s">\n' % (prefix, entity['id']) + owl_output
 
         # Class Label
         label = entity['label'].replace('<',r'&lt;').replace('>',r'&gt;')
