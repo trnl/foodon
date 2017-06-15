@@ -270,6 +270,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005052 -->
 
     <owl:Class rdf:about="&obo;UBERON_0005052">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000945"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The muscular enlargement of the alimentary canal that has usually thick muscular walls and a tough horny lining for grinding the food and when the crop is present follows it and the proventriculus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">gizzard</rdfs:label>

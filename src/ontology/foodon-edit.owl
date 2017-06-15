@@ -159,10 +159,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00000000">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000115 xml:lang="en">FoodOn is built to interoperate with the OBO Library and to represent entities which bear a “food role”. Its initial focus is a human-centric categorization and handling of food. We aim to develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. We intend to expand FoodOn to encompasses materials in natural ecosystems and food webs too.
+        <obo:IAO_0000115 xml:lang="en">The FoodOn food ontology is a controlled vocabulary that currently covers human food raw ingredients, food products and product types. It will develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. FoodOn will also grow to encompass food-chains and natural ecosystems involving other animals and plants. It is built to interoperate with the OBO Library family of ontologies.
 
-Note that FoodOn owes a large debt to LanguaL, the food indexing system developed since the mid 1970&apos;s (see LanguaL.org).  LanguaL&apos;s facets have all been imported here, with some adaptation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">foodon</rdfs:label>
+FoodOn owes a large debt to LanguaL, the food indexing system developed since the mid 1970&apos;s (see LanguaL.org).  LanguaL&apos;s facets have all been imported here, with some adaptation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">foodon ontology</rdfs:label>
     </owl:Class>
     
 
@@ -874,6 +874,18 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">&quot;peeling&quot; is the process of removing the outer covering, layer or skin from (a fruit, vegetable, or shrimp).</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">peeled</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000002">
@@ -977,6 +989,7 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
     <!-- http://purl.obolibrary.org/obo/FOODON_03310021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400001"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1138,7 +1151,34 @@ Note that FoodOn owes a large debt to LanguaL, the food indexing system develope
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411625 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411625"/>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411625">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411134"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 

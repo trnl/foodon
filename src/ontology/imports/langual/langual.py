@@ -635,6 +635,7 @@ class Langual(object):
                     owl_output += '\t<obo:IAO_0100001 rdf:resource="&obo;%s"/>\n' % refEntity['ontology_id']
 
             if 'synonyms' in entity:
+                # We have capacity to state hasSynonym, hasBroadSynonym, hasNarrowSynonym via synonyms>value="Broad|Narrow|Exact"
                 for item in entity['synonyms']:
                     if self.term_import(entity['synonyms'], item):
                         
@@ -654,48 +655,61 @@ class Langual(object):
 
 
             if 'taxon' in entity:
+                '''
+                 "taxon": {
+                    "family:Alligatoridae": 
+                        { "ITIS": {... "value": "551771"},
+                        "NCBITaxon": {... "value": "8496"}
+                    },
+                    "species:Alligator mississippiensis (Daudin, 1801)": 
+                        { "ITIS": { ...
+                    '''
+
                 for taxon_rank_name in entity['taxon']:
-                    #try
+
+                    taxon_header = ''
+
                     (rank, latin_name) = taxon_rank_name.split(':',1)
-                    #except Exception as e:
-                    #    print taxon_rank_name
                     latin_name = latin_name.replace('&','&amp;')
 
                     if rank == 'species':
                         synonymTag = 'hasNarrowSynonym' 
-                        rankTag = ''
                     else:
                         synonymTag = 'hasBroadSynonym'
-                        rankTag = '<taxon:_taxonomic_rank rdf:resource="&obo;NCBITaxon_%s" />\n' % rank
 
-                    # If an NCBITaxon reference exists, let it replace all the others
-                    if 'NCBITaxon' in entity['taxon'][taxon_rank_name] and entity['taxon'][taxon_rank_name]['NCBITaxon']['import'] == True:
-                        dbid = entity['taxon'][taxon_rank_name]['NCBITaxon']['value']
-                        
-                        if synonymTag == 'hasNarrowSynonym':
-                            owl_output += self.item_food_role(dbid)
+                    # draw the species/family etc taxonomy rank
+                    # NOT understanding why this doesn't work - not showing up in Protege
+                    # axiom_content = '       <taxon:_taxonomic_rank rdf:resource="&obo;NCBITaxon_%s" />\n' % rank
+                    axiom_content = ''
 
-                        else:
-                            # FUTURE: CHANGE THIS TO SOME OTHER RELATION?
-                            # Exact or (usually) BroadSynonym:
-                            owl_output += '\t<oboInOwl:%(synonymTag)s rdf:resource="&obo;NCBITaxon_%(dbid)s" />\n' % {'synonymTag': synonymTag, 'dbid': dbid}
+                    for database in entity['taxon'][taxon_rank_name]:
+                        record = entity['taxon'][taxon_rank_name][database]
+                        if record['import'] == True:
+                            found = True
+                            dbid = record['value']
+                            
+                            # Show item as latin name synonym with hasDbXref's imbedded in that.
+                            taxon_header = '\t<oboInOwl:%(synonymTag)s>%(latin_name)s</oboInOwl:%(synonymTag)s>\n' % {'synonymTag': synonymTag, 'latin_name': latin_name}
 
-                            # Adds NCBITaxon rank annotation to above:
-                            if len(rankTag):
-                                owl_class_footer += self.item_taxonomy_annotation(ontology_id, synonymTag, dbid, rankTag)
+                            # If an NCBITaxon reference exists within any of the cross-references entry is written up as synonym to that taxon.
+                            if database == 'NCBITaxon':
 
-                    else:
+                                # Add equivalency of "part of some [ncbi taxon] and has consumer some Homo sapiens"
+                                if synonymTag == 'hasNarrowSynonym':
+                                    owl_output += self.item_food_role(dbid)
 
-                        owl_output += '\t<oboInOwl:%(synonymTag)s>%(latin_name)s</oboInOwl:%(synonymTag)s>\n' % {'synonymTag': synonymTag, 'latin_name': latin_name}
+                                # Point DBXREF straight to NCBITaxon ontology id
+                                axiom_content += '      <oboInOwl:hasDbXref rdf:resource="&obo;NCBITaxon_%s" />\n' % dbid
 
-                        axiom_content = rankTag
+                            else:
+                                # Draw the non-ncbi cross-reference
+                                axiom_content += '      <oboInOwl:hasDbXref>%(database)s:%(dbid)s</oboInOwl:hasDbXref>\n' % {'database':database, 'dbid': dbid}
 
-                        for database in entity['taxon'][taxon_rank_name]:
-                            if database != 'NCBITaxon':
-                                axiom_content += '     <oboInOwl:hasDbXref>%(database)s:%(dbid)s</oboInOwl:hasDbXref>\n' % {'database':database, 'dbid': entity['taxon'][taxon_rank_name][database]['value']}
 
+                    if found == True:
+                        owl_output += taxon_header
                         owl_class_footer += self.item_synonym_text_annotation(ontology_id, synonymTag, latin_name, axiom_content)
-                        
+
 
             owl_output += '</owl:Class>' + owl_class_footer
 
@@ -709,10 +723,29 @@ class Langual(object):
 
     def item_food_role(self, NCBITaxon_id):
         """
-        Food source items matched to an ITIS taxon id all have an equivalency: 
-            [NCBITaxon item] and 'has role' some food (CHEBI_33290)
+        Langual Food source items -almost all intended for describing human consumption - matched to an ITIS taxon id all have an equivalency: 
+        'part of' some [NCBITaxon item] and 'has consumer' some 'homo sapiens'
         """
         return '''
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/R0_0009004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        ''' % NCBITaxon_id
+
+
+        '''
+        DEPRECATED EQUIVALENCY:    [NCBITaxon item] and 'has role' some food (CHEBI_33290)
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -726,27 +759,8 @@ class Langual(object):
         </owl:equivalentClass>
         ''' % NCBITaxon_id
 
-        '''
-            <owl:equivalentClass>
-                <owl:Class>
-                    <owl:intersectionOf>
-                        <rdf:List>
-                            <rdf:first rdf:resource="&obo;NCBITaxon_%s"/>
-                            <rdf:rest>
-                                <rdf:List>
-                                    <rdf:first>
-                                        <owl:Restriction>
-                                            <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                                            <owl:someValuesFrom rdf:resource="&obo;CHEBI_33290"/>
-                                        </owl:Restriction>
-                                    </rdf:first>
-                                </rdf:List>
-                            </rdf:rest>             
-                        </rdf:List>
-                    </owl:intersectionOf>
-                </owl:Class>
-            </owl:equivalentClass> 
-        ''' % NCBITaxon_id
+
+
 
 
     # There may be a bug in protege in which annotatedSource/annotatedProperty have to be fully qualified IRI's, no entity use?

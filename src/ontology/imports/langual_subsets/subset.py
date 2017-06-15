@@ -250,7 +250,8 @@ class Langual(object):
 
         # Some extra fancy work to make title look like [food type] ([details]) , and definition like [food type]: [details]
         owl_output += '\t<rdfs:label %(language)s>%(label)s</rdfs:label>\n' % { 'label': title[0] + label, 'language': labelLang}
-        owl_output += '\t<obo:IAO_0000115 %(language)s>%(label)s</obo:IAO_0000115>\n' % { 'label': title[0] + definition, 'language': labelLang}
+        # Skip definition.  Future: Lookup as many as possible via wikipedia etc.
+        #owl_output += '\t<obo:IAO_0000115 %(language)s>%(label)s</obo:IAO_0000115>\n' % { 'label': title[0] + definition, 'language': labelLang}
 
         # LanguaL import annotation
         owl_output += "\t<obo:IAO_0000412>http://langual.org</obo:IAO_0000412>\n"
@@ -377,9 +378,9 @@ if __name__ == '__main__':
 
     # Main LanguaL import facet terms occupy FoodOn ids in range 3,400,000 -> 3,420,000
 
-    foodstruct.__main__('subset_caroteno', './CAROTENO.TXT', 3444000, 'en') # CR0010 - CR4162
-    foodstruct.__main__('subset_usda_sr8', './USDA Standard Reference 8.TXT', 3450000, 'en') # 1001 - 21140
-    foodstruct.__main__('subset_french', './FRENCH.TXT', 3500000, 'fr') # FR03010 - FR51572 (RECORD FR99999 REMOVED)
+    #foodstruct.__main__('subset_caroteno', './CAROTENO.TXT', 3444000, 'en') # CR0010 - CR4162
+    #foodstruct.__main__('subset_usda_sr8', './USDA Standard Reference 8.TXT', 3450000, 'en') # 1001 - 21140
+    #foodstruct.__main__('subset_french', './FRENCH.TXT', 3500000, 'fr') # FR03010 - FR51572 (RECORD FR99999 REMOVED)
 
     # NOT DONE YET... id mapping issue.
     #foodstruct.__main__('subset_who', './WHO.TXT', 3300000, 'en') # ISSUE: some numeric ID's end in "A" to avoid duplicates

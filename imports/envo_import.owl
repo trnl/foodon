@@ -117,6 +117,17 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000011 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000011">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000002"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An enclosure for displaying selected plant or animal life.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">garden</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000014 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000014">
@@ -223,6 +234,17 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A body of water, usually of smaller size than a lake.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000037 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000037">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000121"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A small, human-made channel which has been dug for draining or irrigating the land.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">ditch</rdfs:label>
     </owl:Class>
     
 
@@ -402,12 +424,44 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000121 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000121">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000395"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">artificial channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000139 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000139">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000037"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A ditch that supplies water to surrounding land.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">irrigation ditch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000191 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000191">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">physiographic feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000266 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000266">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000106"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Grassland used for grazing of ungulate livestock as part of a farm or ranch.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pasture</rdfs:label>
     </owl:Class>
     
 
@@ -452,6 +506,28 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Area covered with low-growing or stunted perennial vegetation and usually not mixed with trees.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">scrubland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000309 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000309">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A landform sunken or depressed below the surrounding area.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000395 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000395">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000309"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The physical confine of a river, slough or ocean strait consisting of a bed and banks.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">channel of a watercourse</rdfs:label>
     </owl:Class>
     
 
@@ -566,6 +642,29 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002001 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002001">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002186"/>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002264"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Water that has been adversely affected in quality by anthropogenic influence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">waste water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002004 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002004">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002297"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">mesoscopic physical object</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
 
     <owl:Class rdf:about="&obo;ENVO_00002006">
@@ -598,12 +697,44 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002018 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002018">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Wastewater that is contaminated with feces or urine,</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">sewage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002030 -->
 
     <owl:Class rdf:about="&obo;ENVO_00002030">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000428"/>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">aquatic biome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002186">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002006"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">contaminated water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002191 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002191">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Straw or other material strewn in an animal&apos;s enclosure (e.g. a stable) for it to sleep on and to absorb its faeces and urine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">animal litter</rdfs:label>
     </owl:Class>
     
 
@@ -659,6 +790,17 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002264 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002264">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <obo:IAO_0000115>A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">waste material</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002297 -->
 
     <owl:Class rdf:about="&obo;ENVO_00002297">
@@ -666,6 +808,17 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A material entity which determines an environmental system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">environmental feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003030 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00003030">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_0010003"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A fermented, high-moisture forage that can be fed to ruminants.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">silage</rdfs:label>
     </owl:Class>
     
 
@@ -694,6 +847,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="&obo;ENVO_00003040">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000417"/>
+        <obo:IAO_0000115>A house used for sheltering non-human animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">animal house</rdfs:label>
     </owl:Class>
@@ -707,6 +861,37 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115>Drinking water is water which may be consumed by humans with no adverse effects on their health.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">drinking water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003071 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00003071">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003030"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">grass silage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003074 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00003074">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003075"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Manufactured goods are goods that have been processed in any way. As such, they are the opposite of raw materials, but include intermediate goods as well as final goods.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">manufactured product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003075 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00003075">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000010"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">anthropogenic abiotic mesoscopic feature</rdfs:label>
     </owl:Class>
     
 
@@ -806,12 +991,32 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003900 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00003900">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003071"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">rye grass silage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00003927 -->
 
     <owl:Class rdf:about="&obo;ENVO_00003927">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00003031"/>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">stable manure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003978 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00003978">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003030"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">potato silage</rdfs:label>
     </owl:Class>
     
 
@@ -847,6 +1052,28 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010504 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00010504">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000281"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A surface layer is the uppermost layer of some material entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">surface layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010625 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00010625">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000011"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A facility in which animals are confined within enclosures and displayed to the public, and in which they may also be bred.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">zoological garden</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_0010001 -->
 
     <owl:Class rdf:about="&obo;ENVO_0010001">
@@ -854,6 +1081,16 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Anthropogenic material in or on which organisms may live.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">anthropogenic environmental material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_0010003 -->
+
+    <owl:Class rdf:about="&obo;ENVO_0010003">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_0010001"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">agricultural environmental material</rdfs:label>
     </owl:Class>
     
 
@@ -875,6 +1112,16 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000026"/>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">water well</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000010 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000010">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002004"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">abiotic mesoscopic physical object</rdfs:label>
     </owl:Class>
     
 
@@ -1086,6 +1333,17 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000281 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000281">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A layer is a quantity of some material which has comparable thickness and usually covers some surface.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">layer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000352 -->
 
     <owl:Class rdf:about="&obo;ENVO_01000352">
@@ -1119,6 +1377,27 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000418 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000418">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000417"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label>human house</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000486 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000486">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010504"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A building floor is a surface layer which is part of a building and used for walking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label>building floor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000617 -->
 
     <owl:Class rdf:about="&obo;ENVO_01000617">
@@ -1137,6 +1416,39 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115>A lotic water body is a water body in which the accumulated water, in its totality, is flowing.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label xml:lang="en">lotic water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000625 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000625">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003074"/>
+        <obo:IAO_0000115>A manufactured structure made of interspaced structural elements such as metal or wooden bars or wires held together such that they may be used to confine, contain, or protect something.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">manufactured cage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000626 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000626">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000627"/>
+        <obo:IAO_0000115>A drylot is an enclosure of limited size usually bare of vegetation and used for fattening livestock.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">drylot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000627 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000627">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000077"/>
+        <obo:IAO_0000115>A feedlot is a plot of land on which livestock are fattened for market</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">feedlot</rdfs:label>
     </owl:Class>
     
 
@@ -1170,6 +1482,171 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115>An environmental material which is in a liquid state.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label xml:lang="en">liquid environmental material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000918 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000918">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003040"/>
+        <obo:IAO_0000115>An animal house which is only partially surrounded by a building envelope.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">open animal house</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000921 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000921">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003040"/>
+        <obo:IAO_0000115>An animal house which has a complete building envelope.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">closed animal house</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000922 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000922">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000625"/>
+        <obo:IAO_0000115>A manufactured cage which may be used to confine, contain, or protect an animal.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">animal cage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000923 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000923">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010625"/>
+        <obo:IAO_0000115>A petting zoo is a zoological garden which contains domesticated non-human animals and some wild non-human animals that are docile enough for humans to touch and feed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">petting zoo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000924 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000924">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000121"/>
+        <obo:IAO_0000115>An artificial channel which transports unwanted water or waste liquids away from their source, either to a more useful area, a receptacle, or into sewers or stormwater mains as waste discharge to be released or processed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">plumbing drain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000925 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000925">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003861"/>
+        <obo:IAO_0000115>A facility in which non-human animals are slaughtered and processed for human consumption.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">abattoir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000927 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000927">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000073"/>
+        <obo:IAO_0000115>A building which is used to care for a human child during the working day by a person, outside the child&apos;s immediate family, other than that child&apos;s legal guardians.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">day care building</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000928 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000928">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003863"/>
+        <obo:IAO_0000115>A building in which fish are subject to a series of operations to prepare them for human consumption.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">fish processing building</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000932 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000932">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000073"/>
+        <obo:IAO_0000115>A building in which nursing aides and skilled nurses provide care and treatment to residents who have significant difficulty coping with the required activities of daily living.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">nursing home</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000933 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000933">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000418"/>
+        <obo:IAO_0000115>A human house which serves as a long-term shelter for its inhabitants and within which they store personal property.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">residential building</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000934 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000934">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000073"/>
+        <obo:IAO_0000115>A building within which food and drink is prepared and served to customers in exchange for money or other goods and/or services.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000935 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000935">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000002"/>
+        <obo:IAO_0000115>A part of an ecosystem which may be or has been used for one or more overnight stays by humans sheltering in tents, camper vans, caravans, or improvised shelters.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">campground</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000936 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000936">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000935"/>
+        <obo:IAO_0000115>A campground which has been modified by humans to provide and maintain facilities for camping such as fire pits, road access, latrines, and garbage bins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">dedicated campground</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000937 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000937">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000935"/>
+        <obo:IAO_0000115>A campground which has no pre-existing facilities installed or maintained by humans, usually found outside of anthropised ecosystems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">impromptu campground</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000938 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000938">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00003074"/>
+        <obo:IAO_0000115>A manufactured product which may hold a volume of heated water suitable for one or more humans to bathe in, usually for the purposes of hydrotherapy or pleasure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label xml:lang="en">hot tub</rdfs:label>
     </owl:Class>
     
 

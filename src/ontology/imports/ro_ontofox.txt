@@ -15,11 +15,12 @@ http://purl.obolibrary.org/obo/RO_0002220 # Adjacent to (AT SOME POINT IN TIME)
 http://purl.obolibrary.org/obo/RO_0002354 # Formed as a result of [process]
 http://purl.obolibrary.org/obo/RO_0002225 # develops from part of
 
-
-# immersed in
-# has substance added
-# has primary substance added
-# has substance removed
+# Added specially for FoodOn:
+http://purl.obolibrary.org/obo/RO_0009003 # immersed in
+http://purl.obolibrary.org/obo/RO_0009001 # has substance added
+http://purl.obolibrary.org/obo/RO_0009001 # has primary substance added
+http://purl.obolibrary.org/obo/RO_0009003 # has substance removed
+http://purl.obolibrary.org/obo/R0_0009004 # has consumer
 
 [Top level source term URIs and target direct superclass URIs]
 
