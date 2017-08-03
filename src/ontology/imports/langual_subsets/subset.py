@@ -176,7 +176,7 @@ class Langual(object):
             if category == 'B': relation = '&obo;RO_0009005' # Has primary substance added'.  Awaiting RO relation
 
             # C. PART OF PLANT OR ANIMAL [C0116]
-            elif category == 'C': relation = '&obo;RO_0001000' # Part Of
+            elif category == 'C': relation = '&obo;RO_0001000' # Derives from
 
             # E. PHYSICAL STATE, SHAPE OR FORM [E0113]
             elif category == 'E': relation = '&obo;RO_0000086' # Has Quality
@@ -211,7 +211,11 @@ class Langual(object):
             elif category == 'N': relation = '&obo;RO_0002220' # Adjacent to (AT SOME POINT IN TIME)
 
             #P. CONSUMER GROUP/DIETARY USE/LABEL CLAIM [P0032]
-            elif category == 'P': relation = '&obo;RO_0009004' # Has Consumer / RO_0000086 has Quality
+            elif category == 'P': 
+                if langual_id == 'P0024': # ignore all 'human consumer, no age specification'; this is handled through inheritance.
+                    relation = None
+                else:
+                    relation = '&obo;RO_0009004' # Has Consumer / RO_0000086 has Quality
 
             #R. GEOGRAPHIC PLACES AND REGIONS [R0010]
             elif category == 'R': relation = 'http://www.ebi.ac.uk/ancestro/ancestro_0308' # Has country of origin

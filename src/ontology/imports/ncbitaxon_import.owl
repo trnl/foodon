@@ -17103,6 +17103,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_51239 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_51239">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_73496"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cultivated vanilla</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Vanilla planifolia</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_51240 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_51240">

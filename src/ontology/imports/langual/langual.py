@@ -93,6 +93,8 @@ class Langual(object):
         
         self.label_reverse_lookup = {}
 
+        self.plant_terms = ['used','fruit','tree','plant','bush','family','species','vegetable','(vegetable)','cultivars']
+
         # Lookup table to convert LanguaL to NCBITaxon codes; typos are: SCISUNFAM, SCITRI,
         self.ranklookup = OrderedDict([('SCIDIV','phylum'), ('SCIPHY','phylum'), ('SCISUBPHY','subphylum'), ( 'SCISUPCLASS','superclass'), ( 'SCICLASS','class'), ( 'SCIINFCLASS','infraclass'), ( 'SCIORD','order'), ( 'SCISUBORD','suborder'), ( 'SCIINFORD','infraorder'), ( 'SCISUPFAM','superfamily'), ( 'SCIFAM','family'), ( 'SCISUBFAM','subfamily'), ( 'SCISUNFAM', 'subfamily'), ( 'SCITRI','tribe'), ( 'SCITRIBE','tribe'), ( 'SCIGEN','genus'), ( 'SCINAM','species'), ( 'SCISYN','species')])
         
@@ -270,7 +272,9 @@ class Langual(object):
             # dropped if they are latin names already covered by hasNarrowSynonym
             self.load_synonyms(entity, child)
 
-                
+            
+
+
         # Do bulk fetch of ITIS and INDEX FUNGORUM to NCBITaxon codes
         if self.ontology_name == 'langual_import':
             self.getEOLNCBITaxonData()
@@ -528,11 +532,17 @@ class Langual(object):
         for entityid in self.database['index']:
             entity = self.database['index'][entityid]
 
-
             if entity['database_id'] > self.owl_test_max_entry: # Quickie output possible to see example output only.
                 continue
 
             if entity['status'] == 'ignore': # pick only items that are not marked "ignore"
+                continue
+
+            # CURRENTLY: We hav manually moved all original terms that are from
+            # LanguaL 2014 Facet B etc. but are NOT appropriate in OWL upgrade
+            # into a separate "langual_deprecated_import.owl" file.
+            # Deprecated Facet A product type categories remain in main langual_import.owl file
+            if entity['status'] == 'deprecated' and entity['database_id'][0] != 'A':
                 continue
 
             # BEGIN <owl:Class> 
@@ -724,43 +734,24 @@ class Langual(object):
     def item_food_role(self, NCBITaxon_id):
         """
         Langual Food source items -almost all intended for describing human consumption - matched to an ITIS taxon id all have an equivalency: 
-        'part of' some [NCBITaxon item] and 'has consumer' some 'homo sapiens'
+        'has taxonomic identifier' some [NCBITaxon item] and 'has consumer' some 'homo sapiens'
         """
         return '''
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/R0_0009004"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009004"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         ''' % NCBITaxon_id
-
-
-        '''
-        DEPRECATED EQUIVALENCY:    [NCBITaxon item] and 'has role' some food (CHEBI_33290)
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;NCBITaxon_%s"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_33290"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        ''' % NCBITaxon_id
-
-
-
 
 
     # There may be a bug in protege in which annotatedSource/annotatedProperty have to be fully qualified IRI's, no entity use?
@@ -838,12 +829,25 @@ class Langual(object):
             Food Source facet import notes:
 
                 - Includes raw animal, plant, bacteria and fungi ingredients.
+                   - Add "plant" onto end of all plant terms that are not trees so that search engine lookup
+                   makes it a little clearer when the reference is to the whole plant, and when it is to a 
+                   food product that is part of a particular plant. 
                 - Most items having taxonomic scientific names.  A lookup of eol.org 
                     taxonomic database reference to NCBI taxonomy name is performed 
                     (alternatly make entries to cover ITIS items?)  
                 - Result is an NCBI taxon tree as well as a tree of food source items. 
             """
             self.getFoodSource(entity, content)
+
+            if self.itemAncestor(entity['database_id'], ['B1347']) and entity['status'] != 'deprecated': # vegetable or fruit producing plant
+                if not entity['label'] == 'locked':
+                    lastWord = entity['label']['value'].split(' ')[-1]
+                    firstWord = entity['label']['value'].split(' ')[0]
+                    # add the word "plant" to any name that doesn't have any of the following suffixes:
+                    if not firstWord == 'plant' and not lastWord in self.plant_terms:
+                        entity['label']['value'] += ' plant'
+                        #MAKE PERMANENT:
+                        #entity['label']['locked'] = True
 
 
         # C. PART OF PLANT OR ANIMAL [C0116]

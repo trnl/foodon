@@ -77,6 +77,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000085 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000085">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A spherical embryonic mass of blastomeres formed before the blastula and resulting from cleavage of the fertilized ovum.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">morula</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000160 -->
 
     <owl:Class rdf:about="&obo;UBERON_0000160">
@@ -93,6 +104,49 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000307 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000307">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Organism at the blastula stage - an early stage of embryonic development in animals. It is produced by cleavage of a fertilized ovum and consists of a spherical layer of around 128 cells surrounding a central fluid-filled cavity called the blastocoel. The blastula follows the morula and precedes the gastrula in the developmental sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">blastula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000323 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000323">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An embryo that is at the late embryonic stage; this stage covers late steps of the embryogenesis with a fully formed embryo still developing before birth or egg hatching.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">late embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000468 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000468">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical structure that is an individual member of a species and consists of more than one cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">multicellular organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000922 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000922">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">embryo</rdfs:label>
     </owl:Class>
     
 
@@ -267,6 +321,94 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002547 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0002547">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An an organism at the tadpole stage</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">tadpole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002548 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0002548">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A distinct juvenile form many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">larva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003100 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0003100">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Gonochoristic organism that can produce female gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">female organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003101 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0003101">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Gonochoristic organism that can produce male gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">male organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003142 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0003142">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organism at the prepupal stage. The prepupal stage is a life stage interposed between the larval and the pupal stages in insects that undergo a complete metamorphosis. The start of the pre-pupal stage is marked by pupariation, and the end is marked by pupation</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">prepupa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003143 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0003143">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organism at the pupal stage. A life cycle stage of holometabolous insects in which the organism is a pupa and starts with the larval-pupal apolysis and ends with pupal-adult apolysis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pupa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004455 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0004455">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An embryo at the neurula stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">neurula embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004734 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0004734">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Organism at the gastrula stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">gastrula</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005052 -->
 
     <owl:Class rdf:about="&obo;UBERON_0005052">
@@ -294,6 +436,50 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A thin membranous, sometimes alveolated sac in the dorsal portion of the abdominal cavity. Contains a varying mixture of gases, not identical to the composition of air. May be one, two or three chambered. May be connected to the gut by a tube, the ductus pneumaticus (then called physostomous) or unconnected (then called physoclistous).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">swim bladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007010 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0007010">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Organism at the cleavage stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cleaving embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007021 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0007021">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A multicellular organism that is at the juvenile stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">sexually immature organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007023 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0007023">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A multicellular organism that existence_ends_with a post-juvenile adult stage and existence_starts_with a post-juvenile adult stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">adult organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007197 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0007197">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">multicellular organism that can produce both male and female gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hermaphroditic organism</rdfs:label>
     </owl:Class>
     
 
@@ -328,6 +514,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008265 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0008265">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A planktonic and feeding larval form that possesses limb-like outgrowths bearing ciliated bands.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">echinopluteus larva</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0008897 -->
 
     <owl:Class rdf:about="&obo;UBERON_0008897">
@@ -348,12 +545,248 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008979 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0008979">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A body of a multi-cellular organism that is no longer living.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">carcass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009097 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0009097">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0007023"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organism containing a developing embryo, fetus, or unborn offspring within the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">gravid organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009101 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0009101">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">lamprey at larval stage</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">ammocoete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009850 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0009850">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A multicellular organism that existence_starts_and_ends_during a nematode larval stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">nematode larva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009953 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0009953">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A multicellular organism that existence_starts_with a post-embryonic stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">post-embryonic organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010895 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0010895">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0007197"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">sequential hermaphroditic organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010899 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0010899">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0007197"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Hermaphroditic organism that produces both male and female gametes at the same time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">synchronous hermaphroditic organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0012641 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0012641">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">body of tubeworm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0018379 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0018379">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The larval (metacestode) stage of the tapeworm Echinococcus multilocularis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">metacestode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0018382 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0018382">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Instar: a stage in the life of an arthropod (as an insect) between two successive molts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">second instar larva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0018385 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0018385">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tailless encysted late larva of a trematode parasite that is usually the form which is infective for the definitive host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">metacercaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0018387 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0018387">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any of a class (Cestoda) of bilaterally symmetrical flatworms parasitic especially in the intestines of vertebrates.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cestode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0018388 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0018388">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A usually tadpole-shaped larval trematode worm that develops in a molluscan host from a redia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cercaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019248 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0019248">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000922"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">early embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019249 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0019249">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0019248"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">2-cell stage embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019250 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0019250">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0019248"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">4-8 cell stage embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019251 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0019251">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0019248"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">4-cell stage embryo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019252 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0019252">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0019250"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">8-cell stage embryo</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0036016 -->
 
     <owl:Class rdf:about="&obo;UBERON_0036016">
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A sweet viscid material elaborated out of the nectar of flowers in the honey sac of various bees.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">honey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_2002079 -->
+
+    <owl:Class rdf:about="&obo;UBERON_2002079">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Larval stage in some teleosts before metomorphosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">leptocephalous larva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_3010039 -->
+
+    <owl:Class rdf:about="&obo;UBERON_3010039">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0010895"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Sequential hermaphroditic organism that produces gametes first of the male sex, and then later of the female sex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">protandrous hermaphroditic organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_3010042 -->
+
+    <owl:Class rdf:about="&obo;UBERON_3010042">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0010895"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Sequential hermaphroditic organism that produces gametes first of the female sex, and then later of the male sex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">protogynous hermaphroditic organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_6006011 -->
+
+    <owl:Class rdf:about="&obo;UBERON_6006011">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000468"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The developing adult after pupal-adult apolysis, i.e. from stage P8 (when yellow eye color first becomes visible through the pupal case), to eclosion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pharate adult</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
