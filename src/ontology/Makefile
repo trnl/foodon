@@ -1,3 +1,4 @@
+#!/bin/sh
 OBO=http://purl.obolibrary.org/obo
 ONT=foodon
 BASE=$(OBO)/$(ONT)
@@ -62,16 +63,7 @@ imports/%_import.owl: imports/%_ontofox.txt
 
 	echo "Removed annotation definitions."
 
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
-#imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-#	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
-
 .PRECIOUS: imports/%_import.owl
-
-# clone remote ontology locally, perfoming some excision of relations and annotations
-#mirror/%.owl: $(SRC)
-#	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
-#.PRECIOUS: mirror/%.owl
 
 release: $(ONT).owl 
 	cp $^ $RELEASEDIR && cp imports/*.owl $RELEASEDIR/imports

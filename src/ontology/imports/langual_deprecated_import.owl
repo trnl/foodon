@@ -105,21 +105,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03400000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400000">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">2014</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:00000</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">langual thesaurus root</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03400313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400313">

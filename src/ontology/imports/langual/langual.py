@@ -93,7 +93,7 @@ class Langual(object):
         
         self.label_reverse_lookup = {}
 
-        self.plant_terms = ['used','fruit','tree','plant','bush','family','species','vegetable','(vegetable)','cultivars']
+        self.plant_terms = ['USED','FRUIT','TREE','PLANT','BUSH','FAMILY','SPECIES','VEGETABLE','(VEGETABLE)','CULTIVARS']
 
         # Lookup table to convert LanguaL to NCBITaxon codes; typos are: SCISUNFAM, SCITRI,
         self.ranklookup = OrderedDict([('SCIDIV','phylum'), ('SCIPHY','phylum'), ('SCISUBPHY','subphylum'), ( 'SCISUPCLASS','superclass'), ( 'SCICLASS','class'), ( 'SCIINFCLASS','infraclass'), ( 'SCIORD','order'), ( 'SCISUBORD','suborder'), ( 'SCIINFORD','infraorder'), ( 'SCISUPFAM','superfamily'), ( 'SCIFAM','family'), ( 'SCISUBFAM','subfamily'), ( 'SCISUNFAM', 'subfamily'), ( 'SCITRI','tribe'), ( 'SCITRIBE','tribe'), ( 'SCIGEN','genus'), ( 'SCINAM','species'), ( 'SCISYN','species')])
@@ -262,7 +262,7 @@ class Langual(object):
             if AI is not None:
                 self.processEntityAI(child, entity, AI)
 
-            # Don't do any more work for depreciated items
+            # Don't do any more work for deprecated items
             if entity['status'] == 'deprecated': 
                 continue
 
@@ -734,7 +734,19 @@ class Langual(object):
     def item_food_role(self, NCBITaxon_id):
         """
         Langual Food source items -almost all intended for describing human consumption - matched to an ITIS taxon id all have an equivalency: 
-        'has taxonomic identifier' some [NCBITaxon item] and 'has consumer' some 'homo sapiens'
+        'has taxonomic identifier'[FOODON_00001303] some [NCBITaxon item] 
+
+        Dropping this clause because it can be expressed by inheritance in food source hierarchy:
+        and 'has consumer' some 'homo sapiens'
+        """
+        return '''
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        ''' % NCBITaxon_id
         """
         return '''
         <owl:equivalentClass>
@@ -752,6 +764,7 @@ class Langual(object):
             </owl:Class>
         </owl:equivalentClass>
         ''' % NCBITaxon_id
+        """
 
 
     # There may be a bug in protege in which annotatedSource/annotatedProperty have to be fully qualified IRI's, no entity use?
@@ -840,12 +853,15 @@ class Langual(object):
             self.getFoodSource(entity, content)
 
             if self.itemAncestor(entity['database_id'], ['B1347']) and entity['status'] != 'deprecated': # vegetable or fruit producing plant
-                if not entity['label'] == 'locked':
+                if entity['label']['locked'] == False:
                     lastWord = entity['label']['value'].split(' ')[-1]
                     firstWord = entity['label']['value'].split(' ')[0]
                     # add the word "plant" to any name that doesn't have any of the following suffixes:
-                    if not firstWord == 'plant' and not lastWord in self.plant_terms:
-                        entity['label']['value'] += ' plant'
+                    if not firstWord == 'PLANT' and not lastWord in self.plant_terms:
+                        if ',' in entity['label']['value']:
+                            entity['label']['value'] += ' (PLANT)'
+                        else:
+                            entity['label']['value'] += ' PLANT'
                         #MAKE PERMANENT:
                         #entity['label']['locked'] = True
 
