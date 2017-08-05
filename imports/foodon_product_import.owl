@@ -25,11 +25,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     
 
 
@@ -48,6 +60,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
 
 
@@ -80,6 +98,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/R0_0009004 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/R0_0009004"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
@@ -103,6 +127,12 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <rdfs:label xml:lang="en">has quality</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
     
 
 
@@ -135,6 +165,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002354 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002354"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009004 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009005 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009005"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -143,6 +197,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003030"/>
     
 
 
@@ -3642,6 +3702,277 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001043"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unpasteurized ovine milk</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301120">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430134"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03440003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420174"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460119"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470111"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510015"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003030"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400001"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F1120</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">silage (food product)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301590">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510013"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510015"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400004"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F1590</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">animal feed (processed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03309997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03309997">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/R0_0009004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510021"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F9997</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">animal feed (food product)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315521">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430119"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03440014"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009005"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411297"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400129"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F15521</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">tallow (edible)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400129"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411297"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420174"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430134"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03440003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03440003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03440014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03440014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03470111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510013"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510021"/>
 </rdf:RDF>
 
 

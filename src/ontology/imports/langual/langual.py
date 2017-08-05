@@ -74,6 +74,7 @@ class Langual(object):
         # READ THIS FROM database.json
         self.database_path = './database.json' 
         self.ontology_name = 'langual_import'
+        self.deprecated_name = 'langual_deprecated_import'
         self.database = { #empty case.
             'index': OrderedDict(), 
             'version': 0 
@@ -522,12 +523,8 @@ class Langual(object):
         Generate langual_import.owl ontology file.
 
         """
-        # DON'T CALL THIS header_langual.owl - the Makefile make reads in subdirectories and will try to parse this, and fail.
-        with (open('./template_import_header.txt', 'r')) as input_handle:
-            owl_output = input_handle.read()
-
-        # MUST SUBSTITUTE ONTOLOGY NAME
-        owl_output = owl_output.replace('ONTOLOGY_NAME',self.ontology_name)
+        owl_output = ''
+        owl_deprecated = ''
 
         for entityid in self.database['index']:
             entity = self.database['index'][entityid]
@@ -538,14 +535,8 @@ class Langual(object):
             if entity['status'] == 'ignore': # pick only items that are not marked "ignore"
                 continue
 
-            # CURRENTLY: We hav manually moved all original terms that are from
-            # LanguaL 2014 Facet B etc. but are NOT appropriate in OWL upgrade
-            # into a separate "langual_deprecated_import.owl" file.
-            # Deprecated Facet A product type categories remain in main langual_import.owl file
-            if entity['status'] == 'deprecated' and entity['database_id'][0] != 'A':
-                continue
-
             # BEGIN <owl:Class> 
+            owl_entry = ''
             owl_class_footer = '' # This will hold axioms that have to follow outside <owl:Class>...</owl:Class>
 
             # Ancestro at moment isn't an OBOFoundry ontology,
@@ -565,13 +556,13 @@ class Langual(object):
             # Use alternate label if we're normalizing to another ontology
             labelTag = 'rdfs:label' if foodon else 'obo:IAO_0000118'
 
-            owl_output += '\n\n<owl:Class rdf:about="%s">\n' % ontology_id
+            owl_entry += '\n\n<owl:Class rdf:about="%s">\n' % ontology_id
 
-            owl_output += '\t<%(tag)s %(language)s>%(label)s</%(tag)s>\n' % { 'label': label, 'language': labelLang, 'tag': labelTag}
+            owl_entry += '\t<%(tag)s %(language)s>%(label)s</%(tag)s>\n' % { 'label': label, 'language': labelLang, 'tag': labelTag}
 
             if entity['status'] == 'deprecated':
 
-                owl_output += '\t<rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>\n'
+                owl_entry += '\t<rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>\n'
 
             else:
                 for item in entity['is_a']:
@@ -586,11 +577,11 @@ class Langual(object):
                                 prefix = 'http://www.ebi.ac.uk/ancestro/' 
                             else: 
                                 prefix = '&obo;'
-                            owl_output += '\t<rdfs:subClassOf rdf:resource="%s%s"/>\n' % (prefix, item)
+                            owl_entry += '\t<rdfs:subClassOf rdf:resource="%s%s"/>\n' % (prefix, item)
 
 
             # LANGUAL IMPORT ANNOTATION
-            owl_output += "\t<obo:IAO_0000412>http://langual.org</obo:IAO_0000412>\n"
+            owl_entry += "\t<obo:IAO_0000412>http://langual.org</obo:IAO_0000412>\n"
 
             if self.term_import(entity, 'definition'):
                 # angled unicode single quotes  <U+0091>, <U+0092> 
@@ -601,55 +592,55 @@ class Langual(object):
             # If this item is primarily a foodon one, provide full annotation
             if foodon:
                 if definition > '':
-                    owl_output += '\t<obo:IAO_0000115 xml:lang="en">%s</obo:IAO_0000115>\n' % definition
+                    owl_entry += '\t<obo:IAO_0000115 xml:lang="en">%s</obo:IAO_0000115>\n' % definition
               
                 if self.term_import(entity, 'definition_source'):
-                    owl_output += '\t<obo:IAO_0000119>%s</obo:IAO_0000119>\n' % entity['definition_source']['value']
+                    owl_entry += '\t<obo:IAO_0000119>%s</obo:IAO_0000119>\n' % entity['definition_source']['value']
 
                 # CURATION STATUS
                 if entity['status'] == 'deprecated':
-                    owl_output += '\t<owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>\n'
+                    owl_entry += '\t<owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>\n'
                     # ready for release
-                    owl_output += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>\n' 
+                    owl_entry += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>\n' 
 
                 # Anything marked as 'draft' status is written as 'requires discussion'
                 elif entity['status'] == 'draft': 
-                    owl_output += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>\n'
+                    owl_entry += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>\n'
 
             # Langual is adding information to a 3rd party CHEBI/UBERON/ etc. term
             elif definition > '':
-                owl_output += '\t<rdfs:comment xml:lang="en">LanguaL term definition: %s</rdfs:comment>\n' % definition
+                owl_entry += '\t<rdfs:comment xml:lang="en">LanguaL term definition: %s</rdfs:comment>\n' % definition
 
 
             if self.term_import(entity, 'comment'):
-                owl_output += '\t<rdfs:comment xml:lang="en">LanguaL curation note: %s</rdfs:comment>\n' % entity['comment']['value']
+                owl_entry += '\t<rdfs:comment xml:lang="en">LanguaL curation note: %s</rdfs:comment>\n' % entity['comment']['value']
 
             if 'replaced_by' in entity: #AnnotationAssertion(<obo:IAO_0100001> <obo:CL_0007015> <obo:CLO_0000018>)
                 if len(entity['replaced_by']) == 5: # This is a langual code
                     replacement = '&obo;' + self.database['index'][entity['replaced_by']]['ontology_id']
                 else: # A Foodon/chebi code
                     replacement = '&obo;' + entity['replaced_by']
-                owl_output += '\t<obo:IAO_0100001 rdf:resource="%s"/>\n' % replacement
+                owl_entry += '\t<obo:IAO_0100001 rdf:resource="%s"/>\n' % replacement
 
             # MOVE THIS UP TO DATABASE CHANGE ITSELF IF RELIABLE
             elif entity['status'] == 'deprecated':
                 
                 if label[-6:] == ' added':
-                    owl_output += '\t<rdfs:comment xml:lang="en">deprecation note: Most LanguaL "[food source] added" items are now represented as "has substance added" some [food source].</rdfs:comment>\n'
+                    owl_entry += '\t<rdfs:comment xml:lang="en">deprecation note: Most LanguaL "[food source] added" items are now represented as "has substance added" some [food source].</rdfs:comment>\n'
 
                 # Many items in H Treatment Applied have a 'XYZ added' where XYZ already exists as a food source; 
                 # We're phasing out the 'XYZ added' terms since primary/secondary ingredients can be handled by 'has [primary] substance added'
                 if entity['database_id'][0] == 'H' and label[-6:] == ' added' and label[0:-6] in self.label_reverse_lookup:
                     refEntity = self.label_reverse_lookup[ label[0:-6] ]
                     #print 'Replacing ' + entity['database_id'] + ' with ' + refEntity['ontology_id']
-                    owl_output += '\t<obo:IAO_0100001 rdf:resource="&obo;%s"/>\n' % refEntity['ontology_id']
+                    owl_entry += '\t<obo:IAO_0100001 rdf:resource="&obo;%s"/>\n' % refEntity['ontology_id']
 
             if 'synonyms' in entity:
                 # We have capacity to state hasSynonym, hasBroadSynonym, hasNarrowSynonym via synonyms>value="Broad|Narrow|Exact"
                 for item in entity['synonyms']:
                     if self.term_import(entity['synonyms'], item):
                         
-                        owl_output += '\t<oboInOwl:has%(scope)sSynonym %(language)s>%(phrase)s</oboInOwl:has%(scope)sSynonym>\n' % {
+                        owl_entry += '\t<oboInOwl:has%(scope)sSynonym %(language)s>%(phrase)s</oboInOwl:has%(scope)sSynonym>\n' % {
                             'scope': entity['synonyms'][item]['value'].title(), # Exact / Narrow / Broad 
                             'language': self.get_language_tag_owl(entity['synonyms'][item]),
                             'phrase': item.lower() 
@@ -659,9 +650,9 @@ class Langual(object):
                 for item in entity['xrefs']:
                     if self.term_import(entity['xrefs'], item):
                         if item == 'EOL':
-                            owl_output += '\t<oboInOwl:hasDbXref>http://eol.org/pages/%s</oboInOwl:hasDbXref>\n' % entity['xrefs'][item]['value']
+                            owl_entry += '\t<oboInOwl:hasDbXref>http://eol.org/pages/%s</oboInOwl:hasDbXref>\n' % entity['xrefs'][item]['value']
                         else:
-                            owl_output += '\t<oboInOwl:hasDbXref>%s:%s</oboInOwl:hasDbXref>\n' % (item, entity['xrefs'][item]['value'] )
+                            owl_entry += '\t<oboInOwl:hasDbXref>%s:%s</oboInOwl:hasDbXref>\n' % (item, entity['xrefs'][item]['value'] )
 
 
             if 'taxon' in entity:
@@ -706,7 +697,7 @@ class Langual(object):
 
                                 # Add equivalency of "part of some [ncbi taxon] and has consumer some Homo sapiens"
                                 if synonymTag == 'hasNarrowSynonym':
-                                    owl_output += self.item_food_role(dbid)
+                                    owl_entry += self.item_food_role(dbid)
 
                                 # Point DBXREF straight to NCBITaxon ontology id
                                 axiom_content += '      <oboInOwl:hasDbXref rdf:resource="&obo;NCBITaxon_%s" />\n' % dbid
@@ -717,18 +708,38 @@ class Langual(object):
 
 
                     if found == True:
-                        owl_output += taxon_header
+                        owl_entry += taxon_header
                         owl_class_footer += self.item_synonym_text_annotation(ontology_id, synonymTag, latin_name, axiom_content)
 
 
-            owl_output += '</owl:Class>' + owl_class_footer
+            owl_entry += '</owl:Class>' + owl_class_footer
 
-        owl_output += '</rdf:RDF>'
 
-        print "Saving ../" + self.ontology_name + '.owl'
+            # Facet A product type terms have some deprecations that should stay with it.
+            # All other facets have their deprecated terms moved to "langual_deprecated_import.owl" file.
+            if entity['database_id'][0] != 'A' and entity['status'] == 'deprecated':
+                owl_deprecated += owl_entry
+            else:
+               owl_output += owl_entry 
 
-        with (codecs.open('../' + self.ontology_name + '.owl', 'w', 'utf-8')) as output_handle:
-            output_handle.write(owl_output)
+        self.write_ontology(owl_output, self.ontology_name)
+    
+        # Only for langual import of facets B - Z:
+        if self.ontology_name == 'langual_import':
+            self.write_ontology(owl_deprecated, self.deprecated_name)
+
+
+    def write_ontology(self, content, name):
+
+        print "Saving ../" + name + '.owl'
+
+        # Named with .txt suffix because Makefile processes all .owl files
+        with (open('./template_import_header.txt', 'r')) as input_handle:
+            template = input_handle.read()
+
+        # MUST SUBSTITUTE ONTOLOGY NAME
+        with (codecs.open('../' + name + '.owl', 'w', 'utf-8')) as output_handle:
+            output_handle.write(template.replace('ONTOLOGY_NAME',name) + content + '</rdf:RDF>')
 
 
     def item_food_role(self, NCBITaxon_id):

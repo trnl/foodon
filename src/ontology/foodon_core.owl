@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-08-03/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-08-05/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -188,6 +188,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <rdf:Description rdf:about="&obo;CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </rdf:Description>
     
 
 
@@ -874,8 +882,165 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001564 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001564">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430106"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0000178"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0003001"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;FOODON_03411136"/>
+                                    <rdf:Description rdf:about="&obo;FOODON_03411161"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Blood meal is a dry, inert powder made from blood used as a high-nitrogen organic fertilizer and a high protein animal feed. N = 13.25%, P = 1.0%, K = 0.6%.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Blood_meal</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">It is one of the highest non-synthetic sources of nitrogen. It usually comes from cattle or hogs as a slaughterhouse by-product.</rdfs:comment>
         <rdfs:label xml:lang="en">blood meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001565 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001565">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0008979"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A pre-evisceration carcass is the carcass of a dead animal immediately following hide removal, before any antimicrobial applications and any part of the evisceration process has been performed.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">pre-evisceration carcass</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">https://www.ars.usda.gov/ARSUserFiles/30400510/protocols/USMARC%20Carcass%20Sampling%20Protocol.pdf</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001566 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001566">
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0008979"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A post-intervention carcass is a carcass that has had all antimicrobial intervention applied, been split in half along the backbone, and placed in a cooler, often referred to as the &quot;hot box&quot; cooler.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">post-evisceration carcass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001567 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001567">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420127"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A primal cut or cut of meat is a cut or piece of meat initially separated from the carcass of an animal during butchering.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Primal_cut</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">primal cut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001568 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001568">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">To trim is a technical term in cuisine which means to remove all unwanted or inedible parts (i.e. sinews, skin, fat etc.) from meat, fish poultry or vegetables. The removed parts are called trimmings and are used for making stocks, soups and sauces.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://en.foodlexicon.org/p0000380.php</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">trim</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">trim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001569 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001569">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">High-moisture corn refers to corn harvested at 24 percent or greater moisture, stored and allowed to ferment in a silo or other storage structure, and used as feed for livestock.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://corn.agronomy.wisc.edu/Management/L062.aspx</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">high moisture corn (food product)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001570 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001570">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">Rolled grain is grain has been mechanicallly crushed to separate the hull from the endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">rolled grain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001571 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001571">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Corn stover consists of the leaves and stalks of maize (corn) (Zea mays ssp. mays L.) plants left in a field after harvest and consists of the residue: stalk; the leaf, husk, and cob remaining in the field following the harvest of cereal grain.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Corn_stover</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Such stover makes up about half of the yield of a corn crop and is similar to straw from other cereal grasses; in Britain it is sometimes called corn straw.</rdfs:comment>
+        <rdfs:label xml:lang="en">corn stover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001572 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001572">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Corn stubble are the stems of corn remaining in the ground after harvest.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">corn stubble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001573 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001573">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The outer coverings of the cottonseed, known as cottonseed hulls, are removed from the cotton kernels before the oil is extracted.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Cottonseed</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Cottonseed hulls serve as an excellent source of feed for the livestock as they contain about 8% of cotton linters which have nearly 100% cellulose in them.</rdfs:comment>
+        <rdfs:label xml:lang="en">cottonseed hull</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001574 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00001574">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">soybean stubble</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">https://www.feedipedia.org/node/294</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1001,40 +1166,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_03301647">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00003064"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310021 -->
-
-    <owl:Class rdf:about="&obo;FOODON_03310021">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03400001"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;FOODON_00001563"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411213"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;R0_0009004"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03510024"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430150"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03440003"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03420155"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1414,6 +1545,14 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420253 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03420253">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420122"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03420265 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03420265">
@@ -1728,6 +1867,19 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510019 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03510019">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9913"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03510020 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03510020">
@@ -1748,11 +1900,49 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510024 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510021 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03510024">
-        <owl:disjointWith rdf:resource="&obo;FOODON_03510188"/>
-        <owl:disjointWith rdf:resource="&obo;FOODON_03510250"/>
+    <rdf:Description rdf:about="&obo;FOODON_03510021">
+        <owl:disjointWith rdf:resource="&obo;FOODON_03510026"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510025 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03510025">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9796"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510026 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03510026">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510030 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03510030">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_8782"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1770,12 +1960,6 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <rdf:Description rdf:about="&obo;FOODON_03510136">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00000000"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510188 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03510188"/>
     
 
 
@@ -1806,12 +1990,6 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <rdf:Description rdf:about="&obo;FOODON_03510192">
         <owl:disjointWith rdf:resource="&obo;FOODON_03510266"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510250 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03510250"/>
     
 
 
@@ -2026,6 +2204,14 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
+
+    <rdf:Description rdf:about="&obo;PO_0009011">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000468 -->
 
     <rdf:Description rdf:about="&obo;UBERON_0000468">
@@ -2053,6 +2239,14 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/UBERON_0007379 -->
 
     <rdf:Description rdf:about="&obo;UBERON_0007379"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008979 -->
+
+    <rdf:Description rdf:about="&obo;UBERON_0008979">
+        <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
+    </rdf:Description>
     
 
 
@@ -2091,8 +2285,22 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <rdfs:label xml:lang="en">has substance added (deprecated)</rdfs:label>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/RO_0009001</obo:IAO_0100001>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03302569">
+        <obo:IAO_0000115 xml:lang="en">Distillers grains are a cereal byproduct of the distillation process traditionally produced by breweries and more recently by ethanol plants.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Distillers grains are created in distilleries by drying mash, and is subsequently sold for a variety of purposes, usually as fodder for livestock (especially ruminants). Corn-based distillers grains from the ethanol industry are commonly sold as a high protein livestock feed that increases efficiency and lowers the risk of subacute acidosis in beef cattle.</rdfs:comment>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Distillers_grains</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03311508">
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ginsbergs.com/wp-content/uploads/2012/06/Beef-Glossary1.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">beef trim</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">BEEF TRIM or BEEF TRIMMINGS are smaller pieces of beef muscle usually resulting from the deboning of beef carcasses and cuts, and/or during the production of retail or institutional cuts.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">All bones, cartilage, backstrap, heavy connective tissue and lymph glands are removed. Sold commercially based on the percentage of lean in the trimmings (i.e., 50%, 75%, 90%, etc.). Beef trimmings used in the production of Ground Primal products (i.e., Ground Chuck, Ground Round, Chopped Sirloin, etc.) must be exclusively from that specific primal cut.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03411379">
+        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03411404">
         <obo:IAO_0000115 xml:lang="en">Cucumber (Cucumis sativus) is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless.</obo:IAO_0000115>
@@ -2110,9 +2318,6 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03510011">
         <oboInOwl:hasExactSynonym xml:lang="en">fish meal</oboInOwl:hasExactSynonym>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03510021">
-        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: this tree of foods for particular animal consumer groups will probably have its items renamed to reflect the consumer group rather than as food constrained by animal type.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>
