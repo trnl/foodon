@@ -15,8 +15,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;foodon.owl#"
-     xml:base="&obo;foodon.owl"
+<rdf:RDF xmlns="&obo;foodon_core.owl#"
+     xml:base="&obo;foodon_core.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -27,8 +27,8 @@
      xmlns:NCBITaxon="&obo;NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-08-05/foodon.owl"/>
+    <owl:Ontology rdf:about="&obo;foodon_core.owl">
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-08-05/foodon_core.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
