@@ -43,7 +43,7 @@
             }
         },
         "A0001": {
-            "status": "draft",
+            "status": "deprecated",
             "is_a": {
                 "FOODON_03400361": {
                     "import": true,
@@ -76,6 +76,7 @@
                 "language": "en",
                 "value": "PRODUCT TYPE, NOT KNOWN"
             },
+            "replaced_by": "A0361",
             "comment": {
                 "import": true,
                 "changed": false,
@@ -10522,7 +10523,7 @@
                 "changed": true,
                 "locked": true,
                 "language": "en",
-                "value": "PRODUCT TYPE"
+                "value": "FOOD PRODUCT TYPE"
             },
             "comment": {
                 "import": true,

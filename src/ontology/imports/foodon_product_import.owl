@@ -227,13 +227,13 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00001002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">product type, foodon</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">foodon product type</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Food</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3793,7 +3793,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309997"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400001"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F1120</oboInOwl:hasDbXref>
@@ -3883,12 +3882,6 @@
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">tallow (edible)</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03400001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400001"/>
     
 
 
