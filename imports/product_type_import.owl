@@ -113,10 +113,12 @@
 
 <owl:Class rdf:about="&obo;FOODON_03400001">
 	<rdfs:label xml:lang="en">product type, not known</rdfs:label>
-	<rdfs:subClassOf rdf:resource="&obo;FOODON_03400361"/>
+	<rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
 	<obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-	<obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+	<owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	<obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
 	<rdfs:comment xml:lang="en">LanguaL curation note: Used when no product type is evident from the food product name, e.g., 'artificially sweetened food', 'food with herbs added', etc. [FDA CFSAN 1995]</rdfs:comment>
+	<obo:IAO_0100001 rdf:resource="&obo;FOODON_03400361"/>
 	<oboInOwl:hasDbXref>LANGUAL:A0001</oboInOwl:hasDbXref>
 </owl:Class>
 
@@ -2266,7 +2268,7 @@ Examples include younger emmental, cheddar, compté, edam, gouda, blue cheese.</
 </owl:Class>
 
 <owl:Class rdf:about="&obo;FOODON_03400361">
-	<rdfs:label xml:lang="en">product type</rdfs:label>
+	<rdfs:label xml:lang="en">food product type</rdfs:label>
 	<obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
 	<obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
 	<rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
