@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-09-19/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-09-22/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -118,6 +118,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <rdf:Description rdf:about="&obo;RO_0000086">
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0009001 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0009001">
@@ -160,7 +168,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0009004 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0009004"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0009004">
+        <rdfs:label xml:lang="en">has consumer</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -217,12 +227,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;FOODON_03420300"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0009001"/>
-                        <owl:allValuesFrom rdf:resource="&obo;FOODON_03411339"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430114"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03301103"/>
+        <rdfs:label xml:lang="en">orange juice (liquid)</rdfs:label>
     </owl:Class>
     
 
@@ -342,7 +354,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0009001"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03411245"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03310788"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1062,15 +1074,29 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001594 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001611 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00001594"/>
+    <rdf:Description rdf:about="&obo;FOODON_00001611">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0009005"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03310788"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002127 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002071 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002127"/>
+    <rdf:Description rdf:about="&obo;FOODON_00002071">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0009005"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03315106"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -1321,6 +1347,29 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301103 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03301103">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001140"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03420229"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0009005"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03315106"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002071"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
 
     <owl:Class rdf:about="&obo;FOODON_03301647">
@@ -1358,12 +1407,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03303089">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303222 -->
-
-    <owl:Class rdf:about="&obo;FOODON_03303222"/>
     
 
 
@@ -1449,11 +1492,11 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03309861 -->
 
-    <owl:Class rdf:about="&obo;FOODON_03309861">
+    <rdf:Description rdf:about="&obo;FOODON_03309861">
         <obo:IAO_0000115 xml:lang="en">Products that uses coconut as a material.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-1816-4260</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
-    </owl:Class>
+    </rdf:Description>
     
 
 
@@ -1507,6 +1550,33 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315106 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03315106">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PO_0030109"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002225"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315511 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03315511">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03317423"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03315780 -->
 
     <owl:Class rdf:about="&obo;FOODON_03315780">
@@ -1520,6 +1590,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03315791">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03400229"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316785 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03316785">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03307625</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
     
 
 
@@ -2625,27 +2705,15 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <rdf:Description rdf:about="&obo;FOODON_033010272">
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-1816-4260"/>
-        <obo:IAO_0000115 xml:lang="en">Red wine is a type of wine made from dark-colored  grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Red wine is a type of wine made from dark-colored  grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines.</obo:IAO_0000115>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_033010272"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Red wine is a type of wine made from dark-colored  grape varieties. The actual color of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Red_wine</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="&obo;FOODON_033010273">
         <obo:IAO_0000115 xml:lang="en">White wine is a wine whose color can be straw-yellow, yellow-green, or yellow-gold. It is produced by the alcoholic fermentation of the non-coloured pulp of grapes, which may have a skin of any colour.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-1816-4260</obo:IAO_0000117>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_033010273"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">White wine is a wine whose color can be straw-yellow, yellow-green, or yellow-gold. It is produced by the alcoholic fermentation of the non-coloured pulp of grapes, which may have a skin of any colour.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/White_wine</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="&obo;FOODON_03302569">
         <obo:IAO_0000115 xml:lang="en">Distillers grains are a cereal byproduct of the distillation process traditionally produced by breweries and more recently by ethanol plants.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Distillers grains are created in distilleries by drying mash, and is subsequently sold for a variety of purposes, usually as fodder for livestock (especially ruminants). Corn-based distillers grains from the ethanol industry are commonly sold as a high protein livestock feed that increases efficiency and lowers the risk of subacute acidosis in beef cattle.</rdfs:comment>

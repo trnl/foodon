@@ -1,0 +1,28 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl #Plant Environment Ontology
+
+[Source ontology]
+PO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0001546 #quality of a solid
+includeAllChildren
+http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas 
+http://purl.obolibrary.org/obo/PATO_0001548 # quality of a liquid 
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+[Source annotation URIs to be excluded]
