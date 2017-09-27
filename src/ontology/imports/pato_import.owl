@@ -34,11 +34,383 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&rdfs;label"/> -->
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000001">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000048 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000048">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s resistance to pressure, being broken, or pierced</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hardness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000068 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000068">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">qualitative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000069 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000069">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000068"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">deviation(from_normal)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000386 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000386">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of being rigid and resistant to pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000387 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000387">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of giving little resistance to pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">soft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000992 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000992">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality of a liquid inhering in a bearer by virtue of the bearer&apos;s disposition to internal resistance to flow.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">viscosity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000998 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000998">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000992"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity quality inhering in a bearer by virtue of the bearer&apos;s having viscosity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">viscous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001018">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">physical quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001241">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality which inheres in a continuant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">physical object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001543 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001543">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">flexibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001544 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001544">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001543"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s ability of being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">flexible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001545 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001545">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001543"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s inability of being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">inflexible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001546 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001546">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">quality of a solid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001547 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001547">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">quality of a gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001548 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001548">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">quality of a liquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001693 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001693">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity which relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">increased viscosity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001694 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001694">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity which relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">decreased viscosity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001735 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001735">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s parts having the arrangement which exhibits characteristics of liquids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">liquid configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001736 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001736">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s parts having the arrangement which exhibits characteristics of solids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">solid configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001776 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001776">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001544"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A flexibility which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">increased flexibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001777 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001777">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001544"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A flexibility which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">decreased flexibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001888 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001888">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001548"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of a liquid inhering in a bearer by virtue of the bearer&apos;s ability to mix with (dissolve in) another liquid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">miscibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002066 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002066">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001736"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A solid configuration inhering in a material entity by virtue of its constituent atoms, molecules, or ions being arranged in an orderly repeating pattern extending in all three spatial dimensions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">crystal configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002127 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002127">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000386"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of being rigid and resistant to pressure and fibrous.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">scirrhous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002198 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002198">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of its constitution.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">quality of a substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002300 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002300">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000069"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality that has a value that is increased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">increased quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002301 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002301">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000069"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">decreased quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002303 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002303">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002301"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">decreased object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002305 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002305">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002300"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is increased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">increased object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002450 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002450">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of giving significant resistance to pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">firm</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

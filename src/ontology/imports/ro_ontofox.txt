@@ -5,22 +5,33 @@ http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl
 RO
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000051 # has part
+http://purl.obolibrary.org/obo/BFO_0000054 # part of
+
+http://purl.obolibrary.org/obo/RO_0000086 # has quality
 http://purl.obolibrary.org/obo/RO_0000087 # has_role
 http://purl.obolibrary.org/obo/RO_0001000 # Derives from
 http://purl.obolibrary.org/obo/RO_0001020 # [material entity] is allergic triger for [phenotype/disease]
 http://purl.obolibrary.org/obo/RO_0001022 # [phenotype/disease] has allergic trigger [material entity]
 http://purl.obolibrary.org/obo/RO_0001025 # Located In (preferrably "immersed in")
 http://purl.obolibrary.org/obo/RO_0002220 # Adjacent to (AT SOME POINT IN TIME)
-http://purl.obolibrary.org/obo/RO_0002354 # Formed as a result of [process]
+http://purl.obolibrary.org/obo/RO_0002354 # formed as a result of [process]
 http://purl.obolibrary.org/obo/RO_0002225 # develops from part of
+http://purl.obolibrary.org/obo/RO_0002215 # capable of
+
+http://purl.obolibrary.org/obo/RO_0003001 # produced by
 
 # Added specially for FoodOn:
-http://purl.obolibrary.org/obo/RO_0009003 # immersed in
 http://purl.obolibrary.org/obo/RO_0009001 # has substance added
-http://purl.obolibrary.org/obo/RO_0009001 # has primary substance added
-http://purl.obolibrary.org/obo/RO_0009003 # has substance removed
-http://purl.obolibrary.org/obo/R0_0009004 # has consumer
-http://purl.obolibrary.org/obo/RO_0003001 # produced by
+http://purl.obolibrary.org/obo/RO_0009002 # has substance removed
+http://purl.obolibrary.org/obo/RO_0009003 # immersed in
+http://purl.obolibrary.org/obo/RO_0009004 # has consumer
+http://purl.obolibrary.org/obo/RO_0009005 # has primary substance added
+
+http://purl.obolibrary.org/obo/RO_0002233 # has input
+http://purl.obolibrary.org/obo/RO_0002234 # has output
+
+#FUTURE: FOODON_00001301 # has food substance analog
 
 [Top level source term URIs and target direct superclass URIs]
 

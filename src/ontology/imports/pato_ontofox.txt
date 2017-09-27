@@ -2,9 +2,13 @@
 http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl #Plant Environment Ontology
 
 [Source ontology]
-PO
+PATO
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0002303 # decreased quality
+http://purl.obolibrary.org/obo/PATO_0002305 # increased quality
+http://purl.obolibrary.org/obo/PATO_0000069 # deviation from normal
+
 http://purl.obolibrary.org/obo/PATO_0001546 #quality of a solid
 includeAllChildren
 http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas 
