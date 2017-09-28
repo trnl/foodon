@@ -179,6 +179,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CEPH_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CEPH_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0246</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ink, aquatic animal</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -716,6 +728,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001216">
+        <rdfs:label xml:lang="en">cream food product</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001230 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001230">
@@ -995,7 +1015,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000115 xml:lang="en">A primal cut or cut of meat is a cut or piece of meat initially separated from the carcass of an animal during butchering.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Primal_cut</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">primal cut</rdfs:label>
+        <rdfs:label xml:lang="en">animal meat primal cut</rdfs:label>
     </owl:Class>
     
 
@@ -1005,11 +1025,11 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001568">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">To trim is a technical term in cuisine which means to remove all unwanted or inedible parts (i.e. sinews, skin, fat etc.) from meat, fish poultry or vegetables. The removed parts are called trimmings and are used for making stocks, soups and sauces.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Trimmings are the parts removed from the culinary trimming of unwanted or inedible parts (i.e. sinews, skin, fat etc.) from meat, fish poultry or vegetables. Trimmings are used for making stocks, soups and sauces.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.foodlexicon.org/p0000380.php</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">trim</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">trim</rdfs:label>
+        <rdfs:label xml:lang="en">trimmings</rdfs:label>
     </owl:Class>
     
 
@@ -1088,6 +1108,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:label xml:lang="en">soybean stubble</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.feedipedia.org/node/294</rdfs:seeAlso>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001589 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001589">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411854"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -1243,6 +1276,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001258"/>
         <rdfs:label xml:lang="en">moromi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002398">
+        <rdfs:label xml:lang="en">buttermilk</rdfs:label>
     </owl:Class>
     
 
@@ -1475,6 +1516,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305955 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305955">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03301811</obo:IAO_0100001>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03306051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306051">
@@ -1496,6 +1547,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309861"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307326 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315648"/>
+    </rdf:Description>
     
 
 
@@ -1549,6 +1608,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310636 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310636">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03301486</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310788 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310788">
@@ -1594,10 +1663,30 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315289 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315289">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03316006</obo:IAO_0100001>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315488 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315488">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">FOODON_00001217</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03315511 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315511">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03317423"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001973"/>
     </rdf:Description>
     
 
@@ -1615,6 +1704,25 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315791">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400229"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316064 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316064">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316493 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316493">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03301811</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     
 
 
@@ -1868,6 +1976,14 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420113 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03420116 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116">
@@ -1880,6 +1996,21 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420125">
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420243"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420168 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420168">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006611"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1917,6 +2048,16 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/FOODON_03420243 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420243"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420246">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/CEPH_0000285</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -2631,6 +2772,25 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+        <obo:IAO_0000115 xml:lang="en">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">organism substance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000468 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000468">
@@ -2650,6 +2810,30 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001913 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002371 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006611 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006611">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
     </rdf:Description>
     
@@ -2706,6 +2890,10 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <rdfs:label xml:lang="en">has substance added (deprecated)</rdfs:label>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/RO_0009001</obo:IAO_0100001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001814">
+        <obo:IAO_0000115 xml:lang="en">The diluted fruit beverage is a US CFR category defined as &quot;Beverage prepared by diluting fruit juice to less than single strength, based upon accepted soluble solids values. Include beverages containing 15 to 99% fruit juice.&quot;</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Because it references dilution, it has a number of subclasses that expressly mention dilution.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_033010272">
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-1816-4260"/>
@@ -2730,8 +2918,8 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <rdfs:comment xml:lang="en">All bones, cartilage, backstrap, heavy connective tissue and lymph glands are removed. Sold commercially based on the percentage of lean in the trimmings (i.e., 50%, 75%, 90%, etc.). Beef trimmings used in the production of Ground Primal products (i.e., Ground Chuck, Ground Round, Chopped Sirloin, etc.) must be exclusively from that specific primal cut.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03400001">
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400361</obo:IAO_0100001>
         <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: this term isn&apos;t informative in an ontology paradigm.  To express that a product type is appropriate but not known, reference &apos;food product type&apos; term itself for a value.</rdfs:comment>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400361</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03400642">

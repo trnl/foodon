@@ -274,6 +274,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_103373 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_103373">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_30352"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Indus valley bullfrog</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tiger frog</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Hoplobatrachus tigerinus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_103480 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_103480">
@@ -3004,6 +3016,17 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_716545"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Pezizomycotina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1476529 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_1476529">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7742"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">jawless vertebrates</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Cyclostomata</rdfs:label>
     </owl:Class>
     
 
@@ -9077,6 +9100,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_30352 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_30352">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_32523"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Ranoidea</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_303741 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_303741">
@@ -10831,6 +10864,17 @@
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">deuterostomes</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Deuterostomia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33554 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_33554">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_314145"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carnivores</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Carnivora</rdfs:label>
     </owl:Class>
     
 
@@ -12926,7 +12970,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_379584 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_379584">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_314145"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_33554"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Caniformia</rdfs:label>
     </owl:Class>
@@ -17298,6 +17342,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_52838 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_52838">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_4640"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Balbis banana</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">starchy banana</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Musa balbisiana</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_52902 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_52902">
@@ -21635,7 +21691,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7745 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_7745">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7742"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_1476529"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Petromyzontiformes</rdfs:label>
     </owl:Class>
@@ -24311,7 +24367,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8397 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_8397">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_32523"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_30352"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">riparian frogs</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">true frogs</oboInOwl:hasExactSynonym>
@@ -26005,6 +26061,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9479 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9479">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_314293"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">New World monkeys</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">monkey</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">monkeys</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Platyrrhini</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_94826 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_94826">
@@ -26072,7 +26141,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9498 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_9498">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_314293"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9479"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Cebidae</rdfs:label>
     </owl:Class>
@@ -26102,6 +26171,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9526 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9526">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_314293"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Catarrhini</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9527 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9527">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9526"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Old World monkeys</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">monkey</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">monkeys</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Cercopithecidae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_95460 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_95460">
@@ -26126,11 +26218,23 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_9606">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_314293"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9526"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">human</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">man</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9615">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_379584"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dog</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dogs</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Canis lupus familiaris</rdfs:label>
     </owl:Class>
     
 
@@ -26219,6 +26323,19 @@
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">orange roughy</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Hoplostethus atlanticus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9685 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9685">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_33554"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cats</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">domestic cat</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Felis catus</rdfs:label>
     </owl:Class>
     
 
@@ -27142,6 +27259,21 @@
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">European hare</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Lepus europaeus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9986 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9986">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9979"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">European rabbit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Japanese white rabbit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">domestic rabbit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rabbit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rabbits</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Oryctolagus cuniculus</rdfs:label>
     </owl:Class>
     
 

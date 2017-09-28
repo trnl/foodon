@@ -412,7 +412,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005052 -->
 
     <owl:Class rdf:about="&obo;UBERON_0005052">
-        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000945"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The muscular enlargement of the alimentary canal that has usually thick muscular walls and a tough horny lining for grinding the food and when the crop is present follows it and the proventriculus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">gizzard</rdfs:label>
@@ -426,6 +425,16 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A product of the somatic follicle cell epithelium and a structure that supports the egg in a hostile environment, minimizing water loss whilst allowing gas exchanges essential for embryonic respiration[GO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">eggshell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006611 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0006611">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Exoskeleton or shell, including those of mollusks, turtles, insects and crustaceans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">exoskeleton</rdfs:label>
     </owl:Class>
     
 

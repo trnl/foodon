@@ -675,7 +675,10 @@ class Langual(object):
 
                     if rank == 'species':
                         synonymTag = 'hasNarrowSynonym' 
+
+                    # IGNORING ALL BROAD SYNONYM ANNOTATIONS FOR NOW.
                     else:
+                        continue
                         synonymTag = 'hasBroadSynonym'
 
                     # draw the species/family etc taxonomy rank
@@ -695,17 +698,19 @@ class Langual(object):
                             # If an NCBITaxon reference exists within any of the cross-references entry is written up as synonym to that taxon.
                             if database == 'NCBITaxon':
 
-                                # Add equivalency of "part of some [ncbi taxon] and has consumer some Homo sapiens"
+                                # Species reference case here: Add equivalency of "'has taxonomic identifier' only [ncbi taxon] "
                                 if synonymTag == 'hasNarrowSynonym':
                                     owl_entry += self.item_food_role(dbid)
 
                                 # Point DBXREF straight to NCBITaxon ontology id
-                                axiom_content += '      <oboInOwl:hasDbXref rdf:resource="&obo;NCBITaxon_%s" />\n' % dbid
-
+                                #axiom_content += '      <oboInOwl:hasDbXref rdf:resource="&obo;NCBITaxon_%s" />\n' % dbid
+                                # CHANGE: All dbXrefs are now on main class as they pertain to species level references.
+                                owl_entry += '      <oboInOwl:hasDbXref rdf:resource="&obo;NCBITaxon_%s" />\n' % dbid
                             else:
                                 # Draw the non-ncbi cross-reference
-                                axiom_content += '      <oboInOwl:hasDbXref>%(database)s:%(dbid)s</oboInOwl:hasDbXref>\n' % {'database':database, 'dbid': dbid}
-
+                                #axiom_content += '      <oboInOwl:hasDbXref>%(database)s:%(dbid)s</oboInOwl:hasDbXref>\n' % {'database':database, 'dbid': dbid}
+                                # CHANGE (as above)
+                                owl_entry += '      <oboInOwl:hasDbXref>%(database)s:%(dbid)s</oboInOwl:hasDbXref>\n' % {'database':database, 'dbid': dbid}
 
                     if found == True:
                         owl_entry += taxon_header
@@ -754,28 +759,11 @@ class Langual(object):
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
             </owl:Restriction>
         </owl:equivalentClass>
         ''' % NCBITaxon_id
-        """
-        return '''
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009004"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        ''' % NCBITaxon_id
-        """
+
 
 
     # There may be a bug in protege in which annotatedSource/annotatedProperty have to be fully qualified IRI's, no entity use?
@@ -799,14 +787,7 @@ class Langual(object):
         </owl:Axiom>
         """ % {'ontology_id': ontology_id, 'synonymTag': synonymTag, 'text': text, 'content':content}
 
-        '''
-        <owl:Axiom>
-            <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411003"/>
-            <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-            <owl:annotatedTarget>Thunnus maccoyii</owl:annotatedTarget>
-            <oboInOwl:hasDbXref>hehaw</oboInOwl:hasDbXref>
-        </owl:Axiom>
-        '''
+
     def term_import(self, entity, term):
         """
         returns boolean test of whether a particular entity attribute exists and should be imported into ontology file.
@@ -876,6 +857,9 @@ class Langual(object):
                         #MAKE PERMANENT:
                         #entity['label']['locked'] = True
 
+            # All plants, animals etc. have FoodOn id's and are being considered in the role of food source:
+            if entity['label']['locked'] == False and entity['label']['value'][-15:] != ' AS FOOD SOURCE':
+                entity['label']['value'] += ' AS FOOD SOURCE'
 
         # C. PART OF PLANT OR ANIMAL [C0116]
         #elif category == 'C': 
