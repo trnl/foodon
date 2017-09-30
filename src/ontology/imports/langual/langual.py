@@ -535,6 +535,11 @@ class Langual(object):
             if entity['status'] == 'ignore': # pick only items that are not marked "ignore"
                 continue
 
+            # NOW MOVED FACETS G Cooking Method and J Preservation method and H food treatment process 
+            # off to foodon-edit.owl because they are massively renamed and axiomatized.
+            if entityid[0] in 'GJH': # G or J
+                pass
+
             # BEGIN <owl:Class> 
             owl_entry = ''
             owl_class_footer = '' # This will hold axioms that have to follow outside <owl:Class>...</owl:Class>
@@ -858,8 +863,10 @@ class Langual(object):
                         #entity['label']['locked'] = True
 
             # All plants, animals etc. have FoodOn id's and are being considered in the role of food source:
-            if entity['label']['locked'] == False and entity['label']['value'][-15:] != ' AS FOOD SOURCE':
+            if entity['label']['locked'] == False and entity['label']['value'][-12:] != ' FOOD SOURCE':
                 entity['label']['value'] += ' AS FOOD SOURCE'
+            #   have to lock it again
+            entity['label']['locked'] = True
 
         # C. PART OF PLANT OR ANIMAL [C0116]
         #elif category == 'C': 
