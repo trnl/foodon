@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-09-29/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-09-30/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -285,6 +285,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001015 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411347"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001047 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001047">
@@ -356,6 +374,34 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001072 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001072">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03311884</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001092 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001092">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411297"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001099 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001099">
@@ -416,6 +462,78 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_03414374"/>
             </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001143 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001143">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411261"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001145 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001145">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03412846"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001158 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001158">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CHEBI_33290"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PO_0030110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001184 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001184">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411301"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -718,6 +836,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;RO_0009001"/>
                         <owl:allValuesFrom rdf:resource="&obo;FOODON_03411725"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001213 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001213">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001181"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03450005"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1100,10 +1236,15 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="&obo;FOODON_00002071">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0009005"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03315106"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001151"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03315106"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -1164,6 +1305,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002369 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00002369">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_00001144</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -1278,6 +1429,25 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002403 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002403">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_33290"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">food material</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03000000 -->
 
     <owl:Class rdf:about="&obo;FOODON_03000000">
@@ -1298,7 +1468,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">&quot;peeling&quot; is the process of removing the outer covering, layer or skin from (a fruit, vegetable, or shrimp).</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">peeled</rdfs:label>
+        <rdfs:label xml:lang="en">peeling process</rdfs:label>
     </owl:Class>
     
 
@@ -1467,6 +1637,10 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                         <owl:onProperty rdf:resource="&obo;PATO_0005016"/>
                         <owl:someValuesFrom rdf:resource="&obo;FOODON_03490204"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470123"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -1482,7 +1656,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;FOODON_00001611"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002354"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="&obo;FOODON_03450005"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1498,10 +1672,31 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03310788"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301952 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03301952">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;FOODON_00001611"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002354"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470136"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1518,7 +1713,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;FOODON_00001611"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="&obo;FOODON_03460354"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1532,6 +1727,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="&obo;FOODON_03302771">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00001810"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03303068 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03303068">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001151"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03315837"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1568,6 +1778,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03303116 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03303116">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002071"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03315837"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03303784 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03303784">
@@ -1576,7 +1801,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;FOODON_00001611"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="&obo;FOODON_03460182"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1739,6 +1964,48 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307630 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03307630">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307932 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03307932">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03315025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307933 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03307933">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03315025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307934 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03307934">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03315025"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03309798 -->
 
     <owl:Class rdf:about="&obo;FOODON_03309798">
@@ -1809,6 +2076,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310889 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03310889">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03311884</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311447 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03311447">
@@ -1824,6 +2101,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03311568">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311637 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03311637">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03315837"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -1884,6 +2176,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315554 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03315554">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03301109</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03315780 -->
 
     <owl:Class rdf:about="&obo;FOODON_03315780">
@@ -1897,6 +2199,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03315791">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03400229"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315837 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03315837">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001057"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -1935,6 +2255,80 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03307625</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317119 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317119">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317121 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317121">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03000001"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03470136"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317122 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317122">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03000001"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03470136"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03470175"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1986,7 +2380,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_40674"/>
+                <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_40674"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </rdf:Description>
@@ -2004,6 +2398,69 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03411191 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03411191"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411215 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411215">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03411261"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03411301"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03412345"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03412846"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411261 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411261">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2759"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411297 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411297">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2759"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411301 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411301">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_2"/>
+                            <rdf:Description rdf:about="&obo;NCBITaxon_2759"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -2165,6 +2622,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03412846 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03412846">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2"/>
+            </owl:Restriction>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -2446,12 +2916,13 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/FOODON_03450002 -->
 
     <owl:Class rdf:about="&obo;FOODON_03450002">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00000000"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0002</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">food cooking method</rdfs:label>
+        <rdfs:label xml:lang="en">food cooking process</rdfs:label>
     </owl:Class>
     
 
@@ -2902,7 +3373,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <obo:IAO_0000115 xml:lang="en">Reheating is a simple process to bring an already fully cooked product to serving temperature. Do not use for a process that completes the cooking of a partially cooked food.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0037</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">reheating</rdfs:label>
+        <rdfs:label xml:lang="en">food reheating</rdfs:label>
     </owl:Class>
     
 
@@ -2914,7 +3385,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0038</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">reheating by microwave</rdfs:label>
+        <rdfs:label xml:lang="en">food reheating by microwave</rdfs:label>
     </owl:Class>
     
 
@@ -2926,7 +3397,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0039</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">reheating by dry heat</rdfs:label>
+        <rdfs:label xml:lang="en">food reheating by dry heat</rdfs:label>
     </owl:Class>
     
 
@@ -2938,7 +3409,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0040</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">reheating by boil-in-bag</rdfs:label>
+        <rdfs:label xml:lang="en">food reheating by boil-in-bag</rdfs:label>
     </owl:Class>
     
 
@@ -2950,7 +3421,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0041</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">reheating in pan or cooking utensil</rdfs:label>
+        <rdfs:label xml:lang="en">food reheating in pan or cooking utensil</rdfs:label>
     </owl:Class>
     
 
@@ -2966,7 +3437,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
         <oboInOwl:hasSynonym xml:lang="en">blanched or scalded</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: This terms is used for foods in the prepartion process, e.g. preparation in the kitchen of peeled tomatoes, the scalding loosens the tomato skin.
 For industrial processing, e.g. in the process inactivation of enzymatic activity, use the term *BLANCHED [J0175]*. This process is normally always used in the processing of frozen vegetables.</rdfs:comment>
-        <rdfs:label xml:lang="en">scalding or blanching</rdfs:label>
+        <rdfs:label xml:lang="en">food scalding or blanching</rdfs:label>
     </owl:Class>
     
 
@@ -3037,11 +3508,2669 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460100 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460100">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460229"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0100</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">flavoring or spice extract or concentrate added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460101 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460101">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460256"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0101</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">cultured</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">pickled by fermentation</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">lactic acid fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460102 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460102">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460230"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0102</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">proteolytic fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460103 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460103">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460111"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0103</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Use the appropriate narrower term for a food product that was prepared from a natural food product by removing an endogeneous component and adding a component of the same class. Index the specific component added under *INGREDIENT ADDED*, regardless of its level.</rdfs:comment>
+        <rdfs:label xml:lang="en">component substitution process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460105 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460105">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0105</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a nutritive sweetener is the second or third ingredient in order of predominance. If the nutrient content is known, *NUTRITIVE SWEETENER ADDED* should be specified when the nutritive sweetener from all sources amounts to more than 5%.</rdfs:comment>
+        <rdfs:label xml:lang="en">nutritive sweetener added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460106 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460106">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460150"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0106</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a color is added that is exempt from certification and considered safe for use.</rdfs:comment>
+        <rdfs:label xml:lang="en">noncertified color added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460107 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460107">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460128"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0107</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">lactic acid-other agent fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460108 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460108">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0108</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">artificial sweetener added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a nonnutritive sweetener is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">nonnutritive sweetener added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460109 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460109">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460175"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0109</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when carbon dioxide has been added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">artificially carbonated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460110 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460110">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460172"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">In modern times, almost all smoking is carried out for its flavor. This flavoring can be purchased as a liquid in most supermarkets to mimic the flavor of smokingnot its preservative qualitieswithout the actual cooking process... Liquid smoke is often used in the processing of bacon, and is one of the main flavors in the curing solution used for bacon. It is also used to flavor jerky and tofu. Liquid smoke is also used in some soft cheeses and tempeh. [Wikipedia]
+Liquid smoke is also a common ingredient in many barbecue sauces and meat marinades.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0110</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">smoked by adding smoke concentrate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03460111 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03460111">
+    <owl:Class rdf:about="&obo;FOODON_03460111">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00000000"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Used to specifically characterize a food product based on the treatment or processes applied to the product or any indexed ingredient. The processes include adding, substituting or removing components or modifying the food or component, e.g., through fermentation. Multiple values can be assigned.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0111</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
+        <rdfs:label xml:lang="en">food treatment process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460112 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460112">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460138"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0112</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">concentrated, 40 degrees brix or higher</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">water removal to reconstitution ratio 3 plus 1 or higher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460113 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460113">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460138"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0113</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">concentrated, 20-40 degrees brix</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">water removal to reconstitution ratio 2 plus 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460114 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460114">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460138"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0114</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">condensed</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">water removal to reconstitution ratio 1 plus 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460117 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460117">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0117</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when such an ingredient is added for the purpose of imparting flavor or taste. Processes such as salting and smoking are also used for preservation. If one of these is used as the primary preservation method, the appropriate factor value from *J. PRESERVATION METHOD* (e.g., *preservation by SALTING*) should also be applied.</rdfs:comment>
+        <rdfs:label xml:lang="en">flavoring or taste ingredient added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460118 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460118">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460172"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0118</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Use when food is exposed it for long periods of time to the smoke from a wood fire. Index also *preservation by SMOKING* [J0106]. If smoking also includes heat treatment, index the proper heat treatment under *preservation by HEAT TREATMENT* [J0120].</rdfs:comment>
+        <rdfs:label xml:lang="en">smoked by smoke infiltration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460119 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460119">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460141"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Modified by microbial or enzymatic action resulting in molecular changes in any food component. If salt, sugar or other food additive is used to aid in the modification process, index it by the appropriate term under *INGREDIENT ADDED*.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0119</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">fermented, unspecified</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">microbial/enzymatic modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460121 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460121">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0121</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">picowaved</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the food product or any indexed ingredient is irradiated for any purpose.</rdfs:comment>
+        <rdfs:label xml:lang="en">irradiation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460123 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460123">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460256"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0123</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">alcohol-acetic acid fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460125 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460125">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0125</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">mucilage added</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">hemicellulose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460127 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460127">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460230"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0127</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">lipolytic fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460128 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460128">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460119"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0128</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">ripened (cured)</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products in which significant amounts of two or more components (i.e., carbohydrate and protein, carbohydrate and fat, protein and fat, or all three) are modified through microbial processes. Enzymatic or other biological processes may also be involved.</rdfs:comment>
+        <rdfs:label xml:lang="en">fermentation/modification process, multiple component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460130 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460130">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460141"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0130</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when physical or chemical changes are effected in any food ingredient through a physical or non-enzymatic chemical process.</rdfs:comment>
+        <rdfs:label xml:lang="en">physical/chemical modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460131 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460131">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460180"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0131</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Always used when artificial jelly is a filling in a food product; otherwise used when artificial jelly is a second ingredient in order of predominance.</rdfs:comment>
+        <rdfs:label xml:lang="en">artificially sweetened fruit jelly added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460133 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460133">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460150"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0133</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a color that must be certified by batch as safe to use is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">certified color added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460134 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460134">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0134</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">protein removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460135 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460135">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0135</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">dealkaloidized</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">purine removed</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">alkaloid or purine removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460136 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460136">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460105"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0136</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">disaccharide added</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">monosaccharide added</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sugar added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Added sugar or sugar syrup is indexed if it is the second or third ingredient in order of predominance or if it amounts to 5% or more. When percentage figures are known, total the sugar contribution from all added ingredients (e.g., from added milk chocolate). Use the most specific term(s) applicable. Use the broad term *SUGAR OR SUGAR SYRUP ADDED* only if (1) the specific sugar is not in the vocabulary, (2) the specific sugar is not known, or (3) no individual sugar is indexable butseveral added sugars together amount to 5% or more.  Special notes: (1) lactose is indexed at any level. (2) on a product label or recipe &apos;sugar&apos; means *SUCROSE* and should be so indexed.</rdfs:comment>
+        <rdfs:label xml:lang="en">sugar or sugar syrup added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460137 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460137">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0137</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">calcium removed</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">minerals removed</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when one or more naturally present minerals have been fully or partially removed.</rdfs:comment>
+        <rdfs:label xml:lang="en">demineralizing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460138 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460138">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460254"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0138</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for a liquid or solid product from which a significant amount of water (25% or more of the original weight of the water) has been removed. If dehydration is the primary preservation method, also index *DEHYDRATED OR DRIED*. For soups that require the addition of water, use the appropriate narrower term regardless of whether water was removed or not. Do not use for products that have been rehydrated.</rdfs:comment>
+        <rdfs:label xml:lang="en">water removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460140 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460140">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460135"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0140</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">decaffeination process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460141 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460141">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460111"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0141</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the food product underwent mechanical, chemical or enzymatic modification that has affected the texture, flavor or other characteristic of the product.</rdfs:comment>
+        <rdfs:label xml:lang="en">food modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460144 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460144">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0144</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">sodium added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460145 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460145">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460368"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0145</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when pectin is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">pectin added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460146 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460146">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460368"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0146</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when starch is the second or third ingredient in order of predominance, excluding water.</rdfs:comment>
+        <rdfs:label xml:lang="en">starch added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460148 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460148">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460254"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0148</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">diluted</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for a liquid or solid product to which water was added beyond its natural water level. If a single-strength standard for the product exists, use the appropriate narrower term under *WATER ADDED*.</rdfs:comment>
+        <rdfs:label xml:lang="en">water addition process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460149 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460149">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460280"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0149</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">honey added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460150 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460150">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0150</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a color substance is added to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">color added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460151 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460151">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460229"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0151</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">herb added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when whole or ground spice or herb is added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">spice or herb added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460152 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460152">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460180"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0152</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">flour added</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">grain added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460154 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460154">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460136"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0154</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">d-glucose added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when dextrose is the second or third ingredient in order of predominance, excluding water.</rdfs:comment>
+        <rdfs:label xml:lang="en">dextrose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460156 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460156">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460280"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0156</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">molasses added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460158 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460158">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460136"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0158</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when sucrose, specifically cane sugar or beet sugar, is the second or third ingredient in order of predominance or if the sucrose content is known to be 5% or more. Note that on a product label or in a recipe, &apos;sugar&apos; means *SUCROSE*.</rdfs:comment>
+        <rdfs:label xml:lang="en">sucrose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460159 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460159">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0159</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a mineral is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">mineral added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460160 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460160">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0160</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">brandied</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when alcohol is added for flavor or taste, for example, brandied peaches or cold-pack cheese food with port wine.</rdfs:comment>
+        <rdfs:label xml:lang="en">alcoholated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460161 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460161">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0161</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">cholesterol removed</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">defatted</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products that contain less than 60% of the fat naturally present in the food source (more precisely, the part of the food source.) more specific fat levels, which vary from one product type to another, are specified in the extended scope notes for *FAT PARTIALLY REMOVED* and *FAT FULLY REMOVED* in the manual.</rdfs:comment>
+        <rdfs:label xml:lang="en">fat removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460162 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460162">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0162</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when calcium is added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">calcium added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460164 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460164">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0164</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a protein or high-quality protein source is the second or third ingredient in order of predominance. If the nutrient content is known, *PROTEIN ADDED* should be specified when the added protein amounts to more than 10% of the total protein content.</rdfs:comment>
+        <rdfs:label xml:lang="en">protein added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460165 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460165">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460164"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460368"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0165</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: used when gelatin is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">gelatin added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460169 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460169">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460141"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0169</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">agglomerated</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">converted (grain)</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for food products modified to reduce cooking time or to enhance dispersion characteristics of powdered or granulated products.</rdfs:comment>
+        <rdfs:label xml:lang="en">instantizing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460172 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460172">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Smoking is the process of flavoring, cooking, or preserving food by exposing it to the smoke from burning or smoldering plant materials, most often wood. Meats and fish are the most common smoked foods, though cheeses, vegetables, and ingredients used to make beverages such as whisky, rauchbier and lapsang souchong tea are also smoked. [Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0172</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for food products that are flavored by smoke infiltration or by adding smoke concentrate. If smoking also includes heat treatment, index the proper heat treatment under *preservation by HEAT TREATMENT [J0120]*.</rdfs:comment>
+        <rdfs:label xml:lang="en">smoked or smoke-flavored</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460173 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460173">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460367"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0173</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">sodium chloride added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when it is necessary to distinguish one product from another (e.g., salted vs. unsalted peanuts), or for salt-fermented products (e.g. soy sauce). It can also be used for other products known to contain at least 4% added and naturally present salt (sodium chloride).
+We salting is used as preservation method, index *preservation by SALTING [J0103]* or narrower term.</rdfs:comment>
+        <rdfs:label xml:lang="en">salted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460174 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460174">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The saturating or hardening of a vegetable oil to which hydrogen has been chemically added to convert it to a fat.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0174</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">hydrogenation proess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460175 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460175">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0175</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">carbon dioxide added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when carbon dioxide is added or introduced by processing. Excludes naturally carbonated water, which is indexed under food source *MINERAL WATER*.</rdfs:comment>
+        <rdfs:label xml:lang="en">carbonated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460177 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460177">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460180"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0177</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: With the exception of peanut (see *PEANUT OR PEANUT BUTTER ADDED*), used when a nut or seed ingredient is the second ingredient in order of predominance.</rdfs:comment>
+        <rdfs:label xml:lang="en">nut or seed added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460178 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460178">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0178</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products with which a substantial amount of air has been mixed through mechanical action. Do not use when air was introduced primarily through chemical action or through fermentation.</rdfs:comment>
+        <rdfs:label xml:lang="en">aeration process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460179 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460179">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460121"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0179</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ionizing irradiation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460180 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460180">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0180</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: When not otherwise indicated in the scope note, *FOOD ADDED* factor terms are applied when the specified food is the second ingredient in order of predominance, excluding water. Always used for fillings and when the added food is part of the product name (e.g., raisin bread).</rdfs:comment>
+        <rdfs:label xml:lang="en">food added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460181 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460181">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0181</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when iron is added at any level. Always use this term for enriched flour or rice, enriched bakery products, and enriched macaroni or noodle products. (21 CFR 137.610(a), 21 CFR 136.115(a)(1), and others.</rdfs:comment>
+        <rdfs:label xml:lang="en">iron added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460182 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460182">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0182</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for whole fruit or pieces of fruit are permeated by sugar to result in a product with sugar solids over 70% (e.g., candied citrus peel or candied cherry). Not used for sugar-coated products or for such products as candied sweet potatoes or glazed carrots, which are merely sweetened by cooking in syrup.</rdfs:comment>
+        <rdfs:label xml:lang="en">candying process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460188 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460188">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460152"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0188</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">batter-coated</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Always used regardless of the level at which the coating ingredients are reported.</rdfs:comment>
+        <rdfs:label xml:lang="en">breaded or batter-coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460189 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460189">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0189</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">kelp added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when iodine is added for supplementation at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">iodized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460190 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460190">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460119"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Treated with acid that may be produced by fermentation or added and/or with salt brine, often in the presence of spices or herbs, producing changes in flavor and texture.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0190</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Also index by other applicable terms from *MICROBIALLY/ ENZYMATICALLY MODIFIED*.</rdfs:comment>
+        <rdfs:label xml:lang="en">pickling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460192 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460192">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Modified through physical and/or chemical treatment to promote or affect the tactile quality and appearance of a food product.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0192</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">texturing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460194 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460194">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A food is &apos;enriched&apos; when nutrients are added to it to replace those that are lost in processing; a food is &apos;fortified&apos; when nutrients that were never present are added to it.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0194</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">enriched</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">fortified</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">restored</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a chemical constituent is added for nutrient supplementation. Not used when the constituent is added to improve the functional properties of the food product. If the purpose of the constituent is not known, use the appropriate index term.</rdfs:comment>
+        <rdfs:label xml:lang="en">nutrient or dietary substance added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460195 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460195">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0195</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">potassium added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460196 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460196">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0196</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when chloride is added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">chloride added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460197 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460197">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Treated with chemicals to reduce color, primarily to whiten, e.g., bleached flour.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0197</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bleaching process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460198 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460198">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0198</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">debittering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460200 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460200">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0200</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">pickled by acidification</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used  when acid is added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">acidified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460202 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460202">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0202</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Includes *NONNUTRITIVE SWEETENER ADDED*, and *NUTRITIVE SWEETENER ADDED*; see scope notes for these terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">sweetener added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460203 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460203">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460252"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0203</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">converted (lactose)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">delactosed</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when all or part of the lactose in milk is converted to glucose and galactose through enzymatic action.</rdfs:comment>
+        <rdfs:label xml:lang="en">lactose conversion process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460206 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460206">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Treated with a solution of alkali (primarily potassium or sodium carbonate). In cacao, alkalization neutralizes acids and leads to changes in flavor and color. In fats and oils, treatment with alkali leads to saponification of free fatty acids; soap and alkali are then removed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0206</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">alkalinized</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">dutch processed</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">alkalization process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460207 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460207">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0207</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">stuffed</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for all filled or stuffed products, including pies and sandwiches.</rdfs:comment>
+        <rdfs:label xml:lang="en">filling or stuffing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460208 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460208">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460103"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Food product prepared from a natural food product by removing endogenous fat and adding fat from a different source, e.g., egg substitute, in which egg fat is replaced by vegetable oil.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0208</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">fat substitution process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460213 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460213">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0213</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">vitamin a or carotenes added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460216 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460216">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0216</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">vitamin b added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460218 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460218">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460371"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0218</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when cellulose is the second to fifth ingredient in order of predominance or when cellulose content is known to be above 5%.</rdfs:comment>
+        <rdfs:label xml:lang="en">cellulose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460220 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460220">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Treated with moist heat to soften the grain and to transfer nutrients from the bran to the endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0220</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">parboiled (rice)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">parboiling process (grain)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460221 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460221">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0221</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">self-basting</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a fat or oil, or a fat-containing ingredient, is the second or third ingredient in order of predominance, excluding water.</rdfs:comment>
+        <rdfs:label xml:lang="en">fat or oil added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460222 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460222">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460152"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0222</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wheat germ added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460223 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460223">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0223</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">phosphorus added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460224 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460224">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460280"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0224</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">corn syrup solids added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when corn syrup is the second or third ingredient in order of predominance or if the corn syrup content is known to be 5% or more.</rdfs:comment>
+        <rdfs:label xml:lang="en">corn syrup added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460225 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460225">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460111"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A food product is characterized by its main ingredient (food source and part); the addition of secondary ingredients is considered a treatment applied to the product. Secondary ingredients are indexed according to rules that are based on the order of predominance by weight (not counting water) as seen from the label statement, formulation or recipe and/or from the amount of the ingredient as percentage of total product weight. The general rule is:  an ingredient is always indexed if it is the second ingredient in order of predominance, if it is used as a filling, or if it is part of the product name(e.g., raisin bread). Specific rules are given in the scope note for the individual ingredient added; these rules specify more exhaustive indexing. For example, *MUSHROOM ADDED* is indexed regardless of ingredient position. another specific rule is given in the scope note for *SALTED*:  Use if the level of salt is more than 4%. Such a rule is used only when the percentage level can be inferred from the list of ingredients.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0225</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ingredient added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460227 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460227">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0227</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when flavoring, spice or herb is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">flavoring, spice or herb added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460228 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460228">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460227"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0228</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">flavoring added, artificial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460229 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460229">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460227"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0229</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">flavoring, spice or herb added, natural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460230 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460230">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460119"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0230</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products in which either carbohydrates, proteins or fats were modified through microbial processes. Enzymatic or other biological processes may also be involved. If two or more of these components are modified in significant amounts, index under *FERMENTED/MODIFIED, MULTIPLE COMPONENT*.</rdfs:comment>
+        <rdfs:label xml:lang="en">fermentation/modification process, single component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460231 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460231">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460180"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460229"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0231</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when chocolate or cocoa is added at any level or when chocolate is used as a coating.</rdfs:comment>
+        <rdfs:label xml:lang="en">chocolate or cocoa added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460232 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460232">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460256"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0232</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">alcohol fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460233 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460233">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0233</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">french fried</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a fat or oil is sprayed on the product, when a fat or oil is among the first three ingredients in order of predominance in a breading or coating, or when the product is fat-fried as seen from the name, label or recipe.</rdfs:comment>
+        <rdfs:label xml:lang="en">fat or oil coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460234 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460234">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460148"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0234</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">dilution process to 15-49% of single strength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460236 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460236">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460137"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0236</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when naturally present sodium has been fully or partially removed. Index also by the appropriate term under *SALT OR SODIUM SPECIAL CLAIM OR USE*.</rdfs:comment>
+        <rdfs:label xml:lang="en">sodium removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460237 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460237">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460148"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0237</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">dilution process to 50-99% of single strength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460238 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460238">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460111"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0238</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Use the appropriate term under *COMPONENT REMOVED* to indicate the permanent full or partial removal of a nutritional/chemical component naturally present in the part of plant or animal used.</rdfs:comment>
+        <rdfs:label xml:lang="en">component removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460239 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460239">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0239</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for a grain in which the kernels have been physically compressed between heated rollers.</rdfs:comment>
+        <rdfs:label xml:lang="en">rolling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460241 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460241">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0241</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">frozen previously</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the product or any indexed ingredient was frozen and then thawed. Excludes freeze-dried products and freeze-flo products.</rdfs:comment>
+        <rdfs:label xml:lang="en">thawing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460242 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460242">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460180"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0242</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a dairy product is the second, third or fourth ingredient in order of predominance, excluding water.</rdfs:comment>
+        <rdfs:label xml:lang="en">dairy product added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460246 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460246">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460175"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0246</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when carbon dioxide produced by fermentation remains noticeable in the food product.</rdfs:comment>
+        <rdfs:label xml:lang="en">carbonated by fermentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460247 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460247">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460161"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0247</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">dry roasted</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products that contain between 10-20% and 60% of the fat naturally present in the food source. Examples are breakfast cocoa, low fat milk and low-fat cottage cheese.</rdfs:comment>
+        <rdfs:label xml:lang="en">partial fat removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460248 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460248">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460161"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0248</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products that contain less than 10-20% of the fat naturally present in the food source. Examples are skim milk, low-fat cocoa and dry-curd cottage cheese.</rdfs:comment>
+        <rdfs:label xml:lang="en">full fat removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460250 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460250">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460103"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0250</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">protein substitution process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460252 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460252">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460119"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0252</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products in which one or more components were converted through the addition of enzymes or through activation of endogenous enzymes.</rdfs:comment>
+        <rdfs:label xml:lang="en">enzymatic modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460253 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460253">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460128"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Modified through complex enzymatic or microbial processes resulting in physicochemical changes in particular with respect to texture, flavor, color or shelf life of the food product. Such changes may be induced by the introduction of certain chemicals, such as sodium sulfite, salt, sugar, or other substances, such as phenolics, in dry or liquid form and often aided by smoke. Cheese should always be indexed by the appropriate narrower term under *LACTIC ACID-OTHER AGENT FERMENTED*.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0253</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">aged</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">curing or aging process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460254 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460254">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03460138"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03460148"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03460259"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460111"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0254</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when water is added or removed in order to change the total solids-to-liquids ratio of a food product.</rdfs:comment>
+        <rdfs:label xml:lang="en">water addition or removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460256 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460256">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460230"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0256</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">yeast leavened</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">carbohydrate fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460257 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460257">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460164"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0257</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">soy flour added</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">soy protein added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460259 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460259">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460254"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0259</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">made from concentrate</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">moistened</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">previously concentrated</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">reconstituted to liquid</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">soaked</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for a product that is prepared by adding water or a water-based liquid (milk, juice, broth) to a dehydrated or concentrated product or to a product that contains an indexed dehydrated ingredient plus water to rehydrate that ingredient. Examples:  juice or juice drink from concentrate; milk reconstituted from dry or concentrated milk; soaked dried beans or stewed fruit; biscuit dough (prepared by rehydrating flour); soup made from dehydrated ingredients; cooked noodles or boiled rice. If the resulting product contains water beyond its natural water level, also index *WATER ADDED*.</rdfs:comment>
+        <rdfs:label xml:lang="en">rehydration process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460261 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460261">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460121"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0261</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ultraviolet radiation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460262 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460262">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0262</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when an animal fat or oil is the second or third ingredient in order of predominance, excluding water.</rdfs:comment>
+        <rdfs:label xml:lang="en">animal fat or oil added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460263 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460263">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0263</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">vegetable fat or oil added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460266 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460266">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0266</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">carbohydrate removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460267 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460267">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460229"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0267</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when carob is added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">carob added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460268 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460268">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0268</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">puffing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460270 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460270">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0270</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">distillation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460271 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460271">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460262"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0271</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when butter is the second or third ingredient in order of predominance, excluding water.</rdfs:comment>
+        <rdfs:label xml:lang="en">butter added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460272 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460272">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0272</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">margarine added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460273 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460273">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0273</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">zinc added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460274 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460274">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0274</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used only for breakfast cereals made by forcing cooked particles of grain or tiny pellets of dough between very heavy rollers that convert each piece into a single flake.</rdfs:comment>
+        <rdfs:label xml:lang="en">flaking process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460275 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460275">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0275</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">enhanced</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">prebasted</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when liquid is injected into a meat or poultry is prebasted. Do not confuse with *WATER ADDED*.</rdfs:comment>
+        <rdfs:label xml:lang="en">liquid injection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460276 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460276">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0276</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bromination process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460277 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460277">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0277</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">hydrolyzation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460278 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460278">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0278</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">phosphating process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460280 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460280">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460136"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0280</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">sugar syrup added</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sugar syrup solids added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: For the definition of sugar syrup, see *SUGAR SYRUP OR SYRUP SOLIDS*. Sugar syrups, especially corn syrup, usually contain several sugars in varying proportions; the specific sugars are not indexed individually.</rdfs:comment>
+        <rdfs:label xml:lang="en">sugar syrup or sugar syrup solids added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460285 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460285">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0285</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products from which alcohol has been removed.</rdfs:comment>
+        <rdfs:label xml:lang="en">alcohol removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460286 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460286">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460285"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0286</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products from which alcohol has been removed to less than 0.5% alcohol by volume.</rdfs:comment>
+        <rdfs:label xml:lang="en">full alcohol removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460287 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460287">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460285"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0287</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products from which alcohol has been removed to 0.5% or more alcohol by volume.</rdfs:comment>
+        <rdfs:label xml:lang="en">partial alcohol removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460288 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460288">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0288</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging &lt; 2 weeks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460289 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460289">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0289</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging 2 weeks to 1 month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460290 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460290">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0290</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging 1 to 2 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460291 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460291">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0291</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging 2 to 4 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460292 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460292">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0292</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging 4 to 6 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460293 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460293">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0293</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging 6 to 12 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460294 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460294">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460253"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0294</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curing or aging 12 months or over</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460295 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460295">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460266"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0295</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when lactose is removed from the food product as when washing curd for cheese preparation. When lactose content is reduced by enzymatic conversion of lactose, use *LACTOSE CONVERTED*.</rdfs:comment>
+        <rdfs:label xml:lang="en">lactose removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460298 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460298">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460252"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0298</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">rennin (rennet) coagulated</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a clotting enzyme is added to a food product at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">clotting enzyme addition process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460300 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460300">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460256"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0300</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">acetic acid fermentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460306 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460306">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0306</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">emulsified</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for products in which two or more phases are mixed very finely but not at the molecular level. A very fine dispersion of a solid in a liquid is called a suspension. A very fine dispersion of one liquid in another immiscible liquid is called an emulsion.</rdfs:comment>
+        <rdfs:label xml:lang="en">homogenization or emulsification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460324 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460324">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460247"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0324</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for food products that have had fat partially removed to leave more than 50% fat from a full fat product. An example would 2% milk where full fat milk is 4%.</rdfs:comment>
+        <rdfs:label xml:lang="en">partial fat removal process, 50% or more remaining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460325 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460325">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460247"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0325</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for food products that have had fat removed to leave less than 50% fat from a full fat product. Examples would be 1% milk or 1/2% milk, where full fat milk is 4%.</rdfs:comment>
+        <rdfs:label xml:lang="en">partial fat removal process, less than 50% remaining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460326 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460326">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460107"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0326</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bacteria curing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460327 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460327">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460326"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0327</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">surface bacteria curing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460328 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460328">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460326"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0328</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">interior bacteria curing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460329 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460329">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460107"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0329</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">mold curing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460330 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460330">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460329"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0330</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">surface mold curing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460331 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460331">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460329"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0331</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">interior mold curing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460334 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460334">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460233"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0334</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">vegetable fat or oil coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460335 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460335">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460233"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0335</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when an animal fat or oil is sprayed on the product or when an animal fat or oil is among the first three ingredients in order of predominance in a breading or coating.</rdfs:comment>
+        <rdfs:label xml:lang="en">animal fat or oil coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460351 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460351">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460751"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0351</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">baking powder added</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">baking soda added</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">chemical leavening agent added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460352 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460352">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Modified through a physical or chemical procedure by forcing a food mixture through a die to achieve a particular shape.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0352</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">extrud</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">extrusion process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460353 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460353">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0353</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">covered or coated</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">glazed</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">coating or covering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460354 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460354">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460353"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0354</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">coated or covered with sugar</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">sugar coating or covering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460355 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460355">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460353"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0355</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">coated or covered with chocolate</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">covered or coated with chocolate</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Includes chocolate coatings for such products as candy and ice cream products as well as icings and frostings for such products as cakes and doughnuts.</rdfs:comment>
+        <rdfs:label xml:lang="en">chocolate coating or covering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460356 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460356">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03460353</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460357 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460357">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460353"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0357</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">coated or covered with carob</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for foods that have a coating or icing made from carob.</rdfs:comment>
+        <rdfs:label xml:lang="en">carob coating or covering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460358 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460358">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460178"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0358</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">beaten</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">whipped</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when foods or liquids (or a combination) are aerated by vigorously mixing them using a whip, whisk, spoon, spatula, rotary beater or electric mixer.</rdfs:comment>
+        <rdfs:label xml:lang="en">aerated by whipping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460359 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460359">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460178"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0359</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">creamed</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a solid fat (butter, margarine, shortening) is aerated to a creamy appearance, often with the addition of sugar.</rdfs:comment>
+        <rdfs:label xml:lang="en">aerated by creaming</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460360 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460360">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460136"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0360</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">caramel added</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when caramelized sugar is the second or third ingredient in order of predominance or if the caramelized sugar content is known to be 5% or more.</rdfs:comment>
+        <rdfs:label xml:lang="en">caramelized sugar added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460364 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460364">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460180"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0364</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">candied fruit added</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">dried or candied fruit added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460366 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460366">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0366</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for any process such as rolling or pounding that is applied to dough, paste or meat (veal, chicken breast) in order to flatten the appearance.</rdfs:comment>
+        <rdfs:label xml:lang="en">flattening process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460367 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460367">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460117"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0367</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Use when salt or sodium chloride constitutes a significant ingredient in proportion to other ingredients of the food, for example when salt or sodium chloride is the second, third or fourth ingredient in a multiple-ingredient food product such as dry, packaged soup mix. For food products with a limited number of ingredients and where the salt or sodium chloride constitutes a significant ingredient (e.g., salted peanuts), use the narrower term *SALTED* [H0173].</rdfs:comment>
+        <rdfs:label xml:lang="en">salt added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460368 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460368">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460371"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0368</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a stabilizer is added at any level. A stabilizer is a food additive that thickens, prevents separation, prevents flavor deterioration, retards oxidation by increasing the viscosity or gives a smooth texture to the food.</rdfs:comment>
+        <rdfs:label xml:lang="en">stabilizer added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460371 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460371">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0371</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a food additive, such as msg or a stabilizer, is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">food additive added, usa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460372 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460372">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460368"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0372</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a cellulose derivative (e.g., carboxymethyl cellulose, microcrystalline cellulose, etc.) is added to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">cellulose derivative added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460373 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460373">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460372"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0373</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when microcrystalline cellulose is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">microcrystalline cellulose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460374 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460374">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460372"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0374</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when carboxymethyl cellulose is added at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">carboxymethyl cellulose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460375 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460375">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460368"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0375</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a gum is added as a stabilizer to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">gum added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460376 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460376">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460375"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0376</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a seed gum (e.g., carob bean gum, guar gum, etc.) is added to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed gum added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460379 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460379">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460375"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0379</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a plant exudate gum (e.g., karaya gum, gum arabic) is added to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">plant exudate gum added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460383 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460383">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460368"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0383</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when seaweed extract (e.g., carrageenan, agar, etc.) is added to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">seaweed extract added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460387 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460387">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460375"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0387</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a microbial gum (e.g., xanthan gum, dextran, etc.) is added to a food at any level.</rdfs:comment>
+        <rdfs:label xml:lang="en">microbial gum added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460391 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460391">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0391</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used primarily for processing of seeds, such as coffee, spices, nuts, and cacao beans.</rdfs:comment>
+        <rdfs:label xml:lang="en">roasting process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460393 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460393">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0393</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a juice, typically orange, has undergone a process specified in 21 CFR 146.148 to reduce the adicity of the food.</rdfs:comment>
+        <rdfs:label xml:lang="en">acid reduction process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460394 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460394">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460228"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0394</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">chocolate flavoring added, artificial</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">artificial chocolate flavoring added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460395 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460395">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460228"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0395</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">artificial fruit flavoring added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460396 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460396">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460123"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460151"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460200"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0396</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a food such as meat, fish or vegetables are soaked in a seasoned liquid in order to absorb flavor and, in some instances, to be tenderized. Most marinades contain an acid (lemon juice, vinegar, wine) and herbs or spices; the acid ingredient serves as the tenderizer.</rdfs:comment>
+        <rdfs:label xml:lang="en">marinading process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460398 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460398">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460238"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0398</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for food products (typically fruit, cheese or meat) that have had the rind removed.</rdfs:comment>
+        <rdfs:label xml:lang="en">rind removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460748 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460748">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460164"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0748</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">milk protein added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460750 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460750">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460134"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0750</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gluten removal process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460751 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460751">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0751</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">leavening agent added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460752 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460752">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460751"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0752</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: If wheat sourdough was added use also *WHEAT ADDED [H0319]*.
+
+If rye sourdough was added use also *RYE ADDED [H0337]*.</rdfs:comment>
+        <rdfs:label xml:lang="en">sourdough added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460753 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460753">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460751"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0753</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">yeast added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460754 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460754">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460152"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0754</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">barley malt added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460755 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460755">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460152"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0755</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wheat malt added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460756 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460756">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460152"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0756</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">rye malt added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460757 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460757">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460177"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Examples of tree nuts are walnut, cashew, almond, chestnut, coconut.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0757</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tree nut added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460758 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460758">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460164"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0758</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gluten added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460760 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460760">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460141"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Rendering is a process that converts waste animal tissue into stable, value-added materials. Rendering can refer to any processing of animal byproducts into more useful materials, or more narrowly to the rendering of whole animal fatty tissue into purified fats like lard or tallow. Rendering can be carried out on an industrial, farm, or kitchen scale.</obo:IAO_0000115>
+        <obo:IAO_0000119>WIKIPEDIA:Rendering_(food_processing)</obo:IAO_0000119>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0760</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">rendering process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460774 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460774">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0774</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">magnesium added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460775 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460775">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0775</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">copper added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460776 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460776">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0776</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">manganese added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460777 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460777">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0777</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">selenium added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460778 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460778">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0778</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">chromium added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460779 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460779">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0779</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">molybdenum added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460780 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460780">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0780</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">fluoride added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460781 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460781">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Micro-encapsulation is a process in which tiny particles or droplets are surrounded by a coating to give small capsules many useful properties. In a relatively simplistic form, a microcapsule is a small sphere with a uniform wall around it. The material inside the microcapsule is referred to as the core, internal phase, or fill, whereas the wall is sometimes called a shell, coating, or membrane. Most microcapsules have diameters between a few micrometers and a few millimeters.
+The definition has been expanded, and includes most foods. Every class of food ingredient has been encapsulated; flavors are the most common. The technique of microencapsulation depends on the physical and chemical properties of the material to be encapsulated.[http://en.wikipedia.org/wiki/Micro-encapsulation]</obo:IAO_0000115>
+        <obo:IAO_0000119>WIKIPEDIA:Micro-encapsulation</obo:IAO_0000119>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0781</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">coated</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">covered</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">micro-encapsulated</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for the coating of microscopic particles with another material.</rdfs:comment>
+        <rdfs:label xml:lang="en">encapsulation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460795 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460795">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460225"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0795</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cellulose added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460847 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460847">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0847</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">taurine added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460848 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460848">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0848</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">guarana added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460849 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460849">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0849</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">caffeine added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460850 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460850">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460194"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0850</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">d-glucurono-gamma-lactone added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460851 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460851">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460263"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0851</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">canola or rapeseed oil added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460852 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460852">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460263"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0852</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">flaxseed oil added</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460853 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03460853">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03460262"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:H0853</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">fish oil added</rdfs:label>
+    </owl:Class>
     
 
 
@@ -3128,13 +6257,14 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <!-- http://purl.obolibrary.org/obo/FOODON_03470107 -->
 
     <owl:Class rdf:about="&obo;FOODON_03470107">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00000000"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The methods contributing to the prevention or retardation of microbial, enzymatic or oxidative spoilage and thus to the extension of shelf life. Index all methods for which information is available, even if a corresponding descriptor has already been used in *H. TREATMENT APPLIED*. Preservation descriptors refer to the finished food as a whole with these exceptions: (1) if the components of a multi-component food, such as cream pie, are preservation by different methods, index all methods; (2)  if chemical preservatives are declared on the label, always index them even if it is known that the preservative was introduced through or is only present in a component or ingredient of the food; and (3) if the preservation method for an ingredient is declared on the label (such as brie cheese made from pasteurized milk) index it. Also use *INGREDIENT preservation by THERMAL PROCESSING* or *INGREDIENT preservation by IRRADIATION* when ingredients have been pasteurized, ultrapasteurized, sterilized or irradiated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0107</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">food preservation method</rdfs:label>
+        <rdfs:label xml:lang="en">food preservation process</rdfs:label>
     </owl:Class>
     
 
@@ -3329,10 +6459,10 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0123</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">canned (sterilized and hermetically packed)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">canning (sterilized and hermetically packed)</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">preservation by canning</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when the product is rendered commercially sterile by holding at high temperature before or after it is packed in a hermetically sealed container.</rdfs:comment>
-        <rdfs:label xml:lang="en">sterilization by heat</rdfs:label>
+        <rdfs:label xml:lang="en">sterilization by heating</rdfs:label>
     </owl:Class>
     
 
@@ -3469,7 +6599,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0135</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when the product is held at a temperature of 60-150 °C (140-300 °F) for a time sufficient to destroy most pathogenic and food spoilage organisms. When followed by refrigeration, also index *preservation by CHILLING*.</rdfs:comment>
-        <rdfs:label xml:lang="en">pasteurization by heat</rdfs:label>
+        <rdfs:label xml:lang="en">pasteurization by heating</rdfs:label>
     </owl:Class>
     
 
@@ -3570,13 +6700,17 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <owl:Class rdf:about="&obo;FOODON_03470142">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_03470131"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03470136"/>
-                </owl:unionOf>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03470107"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;FOODON_03470131"/>
+                            <rdf:Description rdf:about="&obo;FOODON_03470136"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03470107"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">preservation by cooling and storage at low temperature (chilling at around 0-5°C (32 to 41°F), freezing at -18°C (0°F))  to prevent or retard microbial or enzymatic spoilage.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -3787,17 +6921,17 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03470158 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03470158">
+    <owl:Class rdf:about="&obo;FOODON_03470158">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03470181"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03470159 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03470159">
+    <owl:Class rdf:about="&obo;FOODON_03470159">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03470181"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -4682,6 +7816,10 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000115 xml:lang="en">The diluted fruit beverage is a US CFR category defined as &quot;Beverage prepared by diluting fruit juice to less than single strength, based upon accepted soluble solids values. Include beverages containing 15 to 99% fruit juice.&quot;</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Because it references dilution, it has a number of subclasses that expressly mention dilution.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00001872">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">This is a working folder that holds LanguaL SIREN database product types that need to be reviewed for placement within the food product hierarchy.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301004">
         <obo:IAO_0000115 xml:lang="en">Macaroni is a variety of dry pasta traditionally shaped and produced in various shapes and sizes.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
@@ -4712,6 +7850,15 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <rdfs:label xml:lang="en">beef trim</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">BEEF TRIM or BEEF TRIMMINGS are smaller pieces of beef muscle usually resulting from the deboning of beef carcasses and cuts, and/or during the production of retail or institutional cuts.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">All bones, cartilage, backstrap, heavy connective tissue and lymph glands are removed. Sold commercially based on the percentage of lean in the trimmings (i.e., 50%, 75%, 90%, etc.). Beef trimmings used in the production of Ground Primal products (i.e., Ground Chuck, Ground Round, Chopped Sirloin, etc.) must be exclusively from that specific primal cut.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03311884">
+        <oboInOwl:hasExactSynonym xml:lang="en">yeast cake</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 xml:lang="en">Compressed yeast is, in essence, cream yeast with most of the liquid removed. It is a soft solid, beige in color, and best known in the consumer form as small, foil-wrapped cubes of cake yeast</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">cake yeast</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03315100">
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115>Caramel mass is caramel in a semi-liquid form.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>

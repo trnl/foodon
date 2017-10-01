@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"/>
     
 
@@ -18,24 +19,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     
 
 
@@ -53,10 +58,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit</rdfs:label>
     </owl:Class>
     
 
@@ -64,10 +69,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0009010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009010">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seed</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that develops from a plant ovule (PO:0020003) and has as parts a plant embryo (PO:0009009) enclosed in a seed coat (PO:0009088).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seed</rdfs:label>
     </owl:Class>
     
 
@@ -75,9 +80,9 @@
     <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that is or was part of a plant, or was derived from a part of a plant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure</rdfs:label>
     </owl:Class>
     
 
@@ -85,10 +90,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0025496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025496">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure</rdfs:label>
     </owl:Class>
     
 
@@ -96,10 +101,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030091">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that usually dehisce.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -107,10 +112,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030092">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loculicidal capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through fruit locules (PO:0025270).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loculicidal capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -118,10 +123,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030093">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">septicidal capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which dehisces through a fruit septa (PO:0025268).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">septicidal capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -129,10 +134,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030094">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coccarium capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through both the fruit septa (PO:0025268) and the fruit locules (PO:0025270).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coccarium capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -140,10 +145,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030095">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poricidal capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through pores on a pericarp (PO:0009084).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poricidal capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -151,10 +156,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030096">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circumscissile capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through the release of a fruit operculum (PO:0025298).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circumscissile capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -162,10 +167,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030097">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utricle capsule fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030096"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumscissile capsule fruit (PO:0030096) which at maturity contains one seed (PO:0009010) that is not attached to a pericarp (PO:0009084).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utricle capsule fruit</rdfs:label>
     </owl:Class>
     
 
@@ -173,10 +178,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030098">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schizocarp fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that separate into mericarps (PO:0020075).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schizocarp fruit</rdfs:label>
     </owl:Class>
     
 
@@ -184,10 +189,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030099">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">samara fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that are elongated into a wing-like structure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">samara fruit</rdfs:label>
     </owl:Class>
     
 
@@ -195,10 +200,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030100">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">legume fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that dehisce along two fruit valves (PO:0000033).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">legume fruit</rdfs:label>
     </owl:Class>
     
 
@@ -206,10 +211,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030101">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loment fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030100"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A legume fruit (PO:0030100) which at maturity separates into indehiscent, one-seeded segments.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loment fruit</rdfs:label>
     </owl:Class>
     
 
@@ -217,10 +222,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030102">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nut fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that are not fused to a seed coat (PO:0009088).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nut fruit</rdfs:label>
     </owl:Class>
     
 
@@ -228,10 +233,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030103">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drupe fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a fleshy exocarp (PO:0009085), fleshy mesocarp (PO:0009087), and a stony endocarp (PO:0009086).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drupe fruit</rdfs:label>
     </owl:Class>
     
 
@@ -239,10 +244,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030104">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caryopsis fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that are fused to a seed coat (PO:0009088).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caryopsis fruit</rdfs:label>
     </owl:Class>
     
 
@@ -250,10 +255,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030105">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that dehisce along a single fruit valve (PO:0000033).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle fruit</rdfs:label>
     </owl:Class>
     
 
@@ -261,10 +266,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030106">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silique fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086), that dehisce along two fruit valves (PO:0000033) and separate from a persistent fruit replum (PO:0025267).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silique fruit</rdfs:label>
     </owl:Class>
     
 
@@ -272,10 +277,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030107">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achene fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) or gyneocium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), a dry mesocarp (PO:0009087), and a dry endocarp (PO:0009086) that are connected to a seed coat (PO:0009088) by a funicle (PO:0020006).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achene fruit</rdfs:label>
     </owl:Class>
     
 
@@ -283,10 +288,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030108">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">berry fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which at maturity comprises a fleshy endocarp (PO:0009086), fleshy mesocarp (PO:0009087), and fleshy exocarp (PO:0009085).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">berry fruit</rdfs:label>
     </owl:Class>
     
 
@@ -294,10 +299,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030109">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hesperidium fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A berry fruit (PO:0030108) which develops from a superior gynoecium (PO:0009062) and at maturity comprises a thickened exocarp (PO:0009085), thickened mesocarp (PO:0009087), and endocarp (PO:0009086), and has as parts juice sacs (PO:0006013) on a carpel adaxial epidermis (PO:0025618).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hesperidium fruit</rdfs:label>
     </owl:Class>
     
 
@@ -305,10 +310,10 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030110">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pome fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A berry fruit (PO:0030108) which develops from an inferior gynoecium (PO:0009062) and at maturity comprises a fleshy exocarp (PO:0009085), fleshy mesocarp (PO:0009087), and hardened endocarp (PO:0009086) and has as a part a fleshy hypanthium (PO:0009065) which is indistinct from the exocarp (PO:0009085).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pome fruit</rdfs:label>
     </owl:Class>
     
 
@@ -316,14 +321,14 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030111">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepo fruit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A berry fruit (PO:0030108) which develops from an inferior carpel (PO:0009030) and at maturity comprises a fleshy exocarp (PO:0009085), fleshy mesocarp (PO:0009087), and fleshy endocarp (PO:0009086), and has as a part a hard receptacle (PO:0009064) which surrounds, and is indistinct from, the exocarp (PO:0009085).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepo fruit</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 

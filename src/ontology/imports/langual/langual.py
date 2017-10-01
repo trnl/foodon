@@ -537,8 +537,8 @@ class Langual(object):
 
             # NOW MOVED FACETS G Cooking Method and J Preservation method and H food treatment process 
             # off to foodon-edit.owl because they are massively renamed and axiomatized.
-            if entityid[0] in 'GJH': # G or J
-                pass
+            if entityid[0] in ['G','J','H']: 
+                continue
 
             # BEGIN <owl:Class> 
             owl_entry = ''
@@ -759,6 +759,29 @@ class Langual(object):
 
         Dropping this clause because it can be expressed by inheritance in food source hierarchy:
         and 'has consumer' some 'homo sapiens'
+
+        ISSUE: Reasoner getting overloaded with this.  Sequester to separate file?
+        """
+        #return ''
+
+        return '''
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_%s"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        ''' % (NCBITaxon_id, NCBITaxon_id)
+
+
         """
         return '''
         <owl:equivalentClass>
@@ -768,7 +791,7 @@ class Langual(object):
             </owl:Restriction>
         </owl:equivalentClass>
         ''' % NCBITaxon_id
-
+        """
 
 
     # There may be a bug in protege in which annotatedSource/annotatedProperty have to be fully qualified IRI's, no entity use?
@@ -797,7 +820,14 @@ class Langual(object):
         """
         returns boolean test of whether a particular entity attribute exists and should be imported into ontology file.
         """
-        return ( (term in entity) and (entity[term]['value'] != None) and entity[term]['import'] == True)
+        try:
+            return ( (term in entity) and (entity[term]['value'] != None) and entity[term]['import'] == True)
+
+        except Exception as e:
+
+            print "TERM IMPORT TEST PROBLEM:", term, str(e), term, entity['database_id']
+            if term in entity: print entity[term]
+            raise
 
 
     def get_language_tag(self, entity):
@@ -866,7 +896,7 @@ class Langual(object):
             if entity['label']['locked'] == False and entity['label']['value'][-12:] != ' FOOD SOURCE':
                 entity['label']['value'] += ' AS FOOD SOURCE'
             #   have to lock it again
-            entity['label']['locked'] = True
+                entity['label']['locked'] = True
 
         # C. PART OF PLANT OR ANIMAL [C0116]
         #elif category == 'C': 
