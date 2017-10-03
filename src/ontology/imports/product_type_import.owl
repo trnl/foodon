@@ -83,6 +83,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -94,9 +100,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002354 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002354"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009005 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009005"/>
     
 
 
@@ -108,6 +144,78 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002411">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306761">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430105"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03440014"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420229"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460207"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460152"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009005"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411245"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F6761</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">apple pie (baked)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310789">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F10789</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">salad greens (raw)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317288"/>
     
 
 
@@ -6797,7 +6905,7 @@ Specific commodities will be listed in this group with their code nos. according
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A0788</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">milk product analog</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">immitation milk products (eurofir)</rdfs:label>
+        <rdfs:label xml:lang="en">imitation milk products (eurofir)</rdfs:label>
     </owl:Class>
     
 
@@ -14060,12 +14168,10 @@ Fibre supplements are widely available, and can be found in forms such as powder
     <!-- http://purl.obolibrary.org/obo/FOODON_03401329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03401329">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03401298"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A1329</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Use only when no supplement type is evident from the product name.</rdfs:comment>
-        <rdfs:label xml:lang="en">dietary supplement, not specified</rdfs:label>
+        <rdfs:label xml:lang="en">dietary supplement, not specified (deprecated)</rdfs:label>
     </owl:Class>
     
 
@@ -14144,6 +14250,48 @@ Fibre supplements are widely available, and can be found in forms such as powder
         <oboInOwl:hasDbXref>LANGUAL:A1335</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mushroom dish (eurofir)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411245"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420229"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430105"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03440014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03440014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460152"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460207"/>
     
 
 
