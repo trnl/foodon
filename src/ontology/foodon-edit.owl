@@ -204,11 +204,272 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16966 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosylglucose consisting of two D-glucopyranose units connected by an alpha-(1-&gt;4)-linkage.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">maltose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0206</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when maltose or a high maltose sweetener is the major ingredient.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maltose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17608"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glucose with D-configuration.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">dextrose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0222</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">glucose, d-</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Used when dextrose or a high dextrose sweetener, such as corn syrup or corn syrup solids, is the major ingredient.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A  glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">lactose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0209</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Used when lactose or a high lactose sweetener is the major ingredient.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucrose is a disaccharide formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">sucrose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0210</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Used when sucrose (e.g., cane sugar or beet sugar) is the major ingredient. Note: on a product label or in a recipe, &apos;sugar&apos; means sucrose.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">polysaccharide</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0153</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Complex carbohydrate with molecules composed of eleven or more saccharide units. Usually not sweet to the taste. Includes starch, pectin and cellulose.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23448 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24174 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24268 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dextrin in which the D-glucose units are linked by alpha-(1-&gt;4) glycosidic bonds.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">maltodextrin</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0282</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maltodextrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33917"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aldohexose that is the C-4 epimer of glucose.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">galactose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0254</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">galactose, d-</oboInOwl:hasSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galactose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24973"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ketohexose that is an isomer of glucose.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">fructose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0223</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">levulose</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when pure fructose is the major ingredient. If *HIGH FRUCTOSE SYRUP* is the major ingredient, use that term for indexing.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fructose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17634"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24583"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412972"/>
+        <obo:IAO_0000118 xml:lang="en">sorbitol</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">sorbitol as food source</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">sorbitols as food source</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>Codex::420</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Codex::420(i)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Europe::420</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LANGUAL:B3285</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LANGUAL:B4427</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LANGUAL:C0281</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Food additive.</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Food additive; technological purpose(s): bulking agent, humectant, sequestrant, stabilizer, sweetener.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36233 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37164 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50126 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound in which monosaccharide units are joined by glycosidic linkages. The term is commonly used to refer to a defined structure as opposed to a polymer of unspecified length or a homologous mixture. When the linkages are of other types the compounds are regarded as oligosaccharide analogues.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">oligosaccharide</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0226</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Complex carbohydrate with molecules composed of three to ten saccharide units (specifically dextrin). May be slightly sweet to the taste.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420236"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mixture of peptides and proteins produced by partial hydrolysis of collagen extracted from the skin, bones, and connective tissues of animals such as domesticated cattle, chicken, pigs, and fish.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">gelatin</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0219</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: A protein extract or concentrate derived from collagen.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gelatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_83163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420271"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mixture of sugar (fructose, glucose, sucrose) and carbohydrate components that is a by-product from sugar refinery.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">molasses</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0207</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Liquid product remaining after crystallization of sugar from sugar syrup; most molasses is made from sugar cane.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molasses</rdfs:label>
+    </owl:Class>
     
 
 
@@ -298,6 +559,20 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420123"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cream component produced by churning and containing not less than 80% milkfat.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0179</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">butter</rdfs:label>
+    </owl:Class>
     
 
 
@@ -916,6 +1191,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001250 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001250">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420202"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001260 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001260">
@@ -938,6 +1226,27 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">Beer is a fermented cereal beverage resulting from the fermentation most commonly of malted barley (though wheat, corn, or rice may included), by a yeast, most commonly Saccharomyces cerevisiae, and flavored by dried flowers of hops, Humulus lupulus [wikipedia:beer].</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001273 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001274 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001274">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1273,6 +1582,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001709 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001709">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A cereal is any grass cultivated for the edible components of its grain composed of the endosperm, germ, and bran</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001712 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001712">
@@ -1282,6 +1601,42 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001765 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001765">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411379"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001842 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001842">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311075"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411379"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1524,7 +1879,26 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002398 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420123"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The liquid remaining when cream is churned into butter; may contain small butter globules. Not used for cultured buttermilk.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0216</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">buttermilk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420123"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Liquid milk component separated from milk and containing not less than 18% milkfat (21 CFR 131.3).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0195</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">sweet cream</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cream (part of animal milk)</rdfs:label>
     </owl:Class>
     
 
@@ -1798,12 +2172,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">arugula greens (raw)</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002426"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">arugula, (Eruca sativa) is an edible annual plant, also known as rocket salad, rucola, rucoli, rugula, colewort, and roquette.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Eruca_sativa</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -1826,25 +2194,41 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <oboInOwl:hasExactSynonym>spider mustard</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">mizuna greens (raw)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002429">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002373"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Convenience food, or tertiary processed food, is food that is commercially prepared (often through processing) to optimise ease of consumption. Such food is usually ready to eat without further preparation. It may also be easily portable, have a long shelf life, or offer a combination of such convenient traits. Although restaurant meals meet this definition, the term is seldom applied to them. Convenience foods include ready-to-eat dry products, frozen foods such as TV dinners, shelf-stable foods, prepared mixes such as cake mix, and snack foods.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">convenience food</rdfs:label>
+    </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002427"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002429"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Mizuna (ミズナ（水菜）, &quot;water greens&quot;), is a cultivated crop plant from the species Brassica juncea var. japonica a dark green, serrated leafed plant</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Mizuna</obo:IAO_0000119>
+        <owl:annotatedTarget xml:lang="en">Convenience food, or tertiary processed food, is food that is commercially prepared (often through processing) to optimise ease of consumption. Such food is usually ready to eat without further preparation. It may also be easily portable, have a long shelf life, or offer a combination of such convenient traits. Although restaurant meals meet this definition, the term is seldom applied to them. Convenience foods include ready-to-eat dry products, frozen foods such as TV dinners, shelf-stable foods, prepared mixes such as cake mix, and snack foods.</owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Convenience_food</rdfs:comment>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002373"/>
+        <obo:IAO_0000115 xml:lang="en">A ready to eat food product is a food product that requires no further cooking to consume.  Normally it can be eaten as-is without the addition of any other material, although some products like ready-to-eat cereal are often paired with an additional liquid.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">&apos;convenience food&apos;</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03000000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001015"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A vegetable (sensu legal status) is a plant food source which is botanically categorized as a fruit, but which has been legally categorized by a given jurisdiction&apos;s lawmakers as a vegetable, usually for taxation purposes.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">vegetable (sensu legal status)</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Nix_v._Hedden</rdfs:seeAlso>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000000"/>
     
 
 
@@ -1997,6 +2381,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301579 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301579">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412069"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
     </rdf:Description>
     
@@ -2033,6 +2423,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301716 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301716">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001273"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
     </rdf:Description>
     
@@ -2170,6 +2566,8 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Corn flakes, or cornflakes, are a popular breakfast cereal made by toasting flakes of corn.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     
 
@@ -2972,6 +3370,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Cornmeal is a meal (coarse flour) ground from dried maize (corn)</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     
 
@@ -3014,11 +3415,17 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03310789 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310789">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310789">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002143"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Salad greens are leaf vegetables that are served raw in a salad.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -3045,7 +3452,29 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03311075 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001709"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001709"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002386"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311318 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311318">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001842"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311075"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -3204,6 +3633,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000231 xml:lang="en">Usefulness not clear.  Term had been imported from LanguaL SIREN database</obo:IAO_0000231>
         <owl:deprecated xml:lang="en">true</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -3817,6 +4247,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411379 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411379">
+        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411433 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
@@ -3928,10 +4366,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412846">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -3960,9 +4406,43 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420148"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0100</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">root, tuber or bulb, with part of top</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Flower stem or large, fleshy leafstalk (petiole), such as a rhubarb stalk without the leaf blade. For a large, fleshy leafstalk with the leaf blade use *PLANT ABOVE SURFACE*. Compare *LEAF*, *SPEAR, SHOOT* AND *SPROUT*.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0101</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">stalk (without leaves)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">stem or stalk (without leaves)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420102 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420133"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03420103 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420103">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420103">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -3971,52 +4451,702 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Edible flesh of any type of animal, including poultry and seafood. Excludes parts containing only animal fat, which is indexed under *FAT OR OIL* or under *FAT, TRIM*.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0103</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">Damion Dooley Feb 6, 2017: Good meat cut resources to incorporate for Canada: The CFIA Meat Cuts Manual 
 http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/1300126372856</rdfs:comment>
-    </rdf:Description>
+        <rdfs:label xml:lang="en">meat part of animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420173"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Animal body with skin, feathers or scales from which the internal organs have been removed and the internal cavity cleaned. Some or all of the organs are sold with the carcass.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0105</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole animal, with skin, feathers or scales, eviscerated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0106</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">organ meat, digestive system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A broad term that includes the nutritive sweeteners dextrose, fructose, galactose, lactose, maltose and sucrose, which are simple carbohydrates with molecules composed of one or two saccharide units. Note that on a product label or in a recipe, &apos;sugar&apos; means *SUCROSE* and should be so indexed. Use the broad term *SUGAR* only if the specific sugar used is not known or not listed in the vocabulary.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0108</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0109</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">pancreas or thymus</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sweetbreads</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">thymus or pancreas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420110">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420293"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420294"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420295"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0110</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">core, seed, or peel</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">seed, peel or core</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for a fruit byproduct consisting of peel, core or seed (with adjacent tissue) or of fruit from which the juice has been extracted or expressed.</rdfs:comment>
+        <rdfs:label xml:lang="en">peel, core or seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420178"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A thin membrane covering the seed of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0111</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bran (pericarp)</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Compare *SHELL (SEED)*.</rdfs:comment>
+        <rdfs:label xml:lang="en">skin or bran (pericarp)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420158"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0112</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">pod with seeds removed</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420113 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420113">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A broad term that includes milk and its components, cream, curd and whey; use the appropriate specific term when milk or a milk product is the principal ingredient. Use the appropriate term under *MEAT ANIMAL* to index the source of the milk (note: 21 CFR 131.110 defines milk as cow&apos;s milk).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0113</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: For &apos;whole milk&apos; combine *MILK OR MILK PRODUCT* (A. PRODUCT TYPE) with *MILK* (C. PART OF PLANT OR ANIMAL); for &apos;lowfat cottage cheese&apos; combine *UNCURED CHEESE* (A. PRODUCT TYPE) with *CURD* (C. PART OF PLANT OR ANIMAL) and *FAT PARTIALLY REMOVED* (H. TREATMENT APPLIED).</rdfs:comment>
+        <rdfs:label xml:lang="en">milk or milk component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0114</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">degerminated seed or kernel</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN UNDETERMINED, GERM REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin undetermined, germ removed</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420116 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000000"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical part of the plant or animal from which the food product or its major ingredient is derived, e.g., *LEAF*, *ROOT OR TUBER*, *ORGAN MEAT*, *MILK* OR *EGG*; it also includes components of parts, such as *CREAM*, and extracts, concentrates or isolates, such as *PROTEIN EXTRACT* or *SUGAR*.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0116</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">part of plant or animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420158"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Used for mixtures of pods and seeds.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0117</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for mixtures of pods and seeds.</rdfs:comment>
+        <rdfs:label xml:lang="en">pod and full-size seed, mixture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420135"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A degerminated seed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0119</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">endosperm with bran</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN PRESENT, GERM REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin present, germ removed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420173"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0120</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole animal, skinned, defeathered or scaled, eviscerated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Bone, feathers, shell, skin or trim fat.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0122</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: *BLOOD* AND *INK, AQUATIC ANIMAL* are now listed under organism substance.</rdfs:comment>
+        <rdfs:label xml:lang="en">nonmeat part of animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A broad term that includes cream and its components, butter and buttermilk.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0123</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cream or cream component</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420125 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420125">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420175"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420243"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0125</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">boneless meat</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">skeletal meat part, without bone, skin undetermined</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">skeletal meat part, without bone or shell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Includes carcass meat, organ meat, and nonmeat parts of animals, as well as the whole animal.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0127</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Includes carcass meat, organ meat, and nonmeat parts of animals, as well as the whole animal.</rdfs:comment>
+        <rdfs:label xml:lang="en">animal body or body part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0129</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">organ meat, cardiovascular system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420134"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0132</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN REMOVED, GERM PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin removed, germ present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420135"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Whole grains are cereal grains (NT of *GRAIN [B1324]*) that consist of the intact, ground, cracked or flaked caryopsis, whose principal anatomical components - the starchy endosperm, germ and bran - are present in the same relative proportions as they exist in the intact caryopsis - should be considered a whole grain food.
+This definition means that 100% of the original kernel all of the bran, germ, and endosperm must be present to qualify as a whole grain.
+Whole grains or foods made from them contain all the essential parts and naturally-occurring nutrients of the entire grain seed. If the grain has been processed (e.g., cracked, crushed, rolled, extruded, and/or cooked), the food product should deliver approximately the same rich balance of nutrients that are found in the original grain seed.[http://www.fda.gov/Food/GuidanceComplianceRegulatoryInformation/GuidanceDocuments/FoodLabelingNutrition/ucm059088.htm]</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0133</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bean  (part of plant)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">whole grain</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">whole kernel</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: In the case of grains (NT of *GRAIN [B1324]*), the descriptor can be used to describe whole grains, which may include  may include amaranth, barley, buckwheat, bulgur, corn (including popcorn), millet, quinoa, rice, rye, oats, sorghum, teff, triticale, wheat, and wild rice.$br/$
+Renamed from *SEED OR KERNEL, SKIN PRESENT, GERM PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin present, germ present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0134</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin removed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0135</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bran and other parts of seed or kernel</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0136</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN UNDETERMINED, GERM PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin undetermined, germ present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0137</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0138</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel removed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420137"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0139</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL PRESENT, CORE, PIT OR SEED REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel present, core, pit or seed removed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420137"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0140</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">fruit or berry, bunch</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL PRESENT, CORE, PIT OR SEED PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel present, core, pit or seed present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420178"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0142</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bran and germ</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">germ and bran</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420148"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0144</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This broad term is used for the plant as a whole, excluding the root and the fruit; for any piece consisting of two or more individual parts (e.g., a celery stalk with the leaf blades attached); or for any mixture of two or more individual parts (e.g., mushroom stems and pieces).</rdfs:comment>
+        <rdfs:label xml:lang="en">plant above surface, excluding fruit and seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0145</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">organ meat, urogenital system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420173"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0147</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole animal, skinned, defeathered or scaled, not eviscerated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420174"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The parts of a plant that are not fruit or seed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0148</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">flower, root, stem or leaf</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">leaf, flower, root or stem</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">stem, leaf, flower or root</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">root, stem, leaf or flower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420174"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0150</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole plant or most parts used</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0151</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">head (plant)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420280"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Extract, concentrate or isolate high in sugar, oligosaccharide or polysaccharide.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0152</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">carbohydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002399"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cream that contains not less than 30% but less than 36% milkfat.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0154</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">whipping cream</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">light whipping cream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The main propagative part of a plant, especially the kernel of a grain or nut. The bulk of the seed is formed by the endosperm, which encloses the germ and is covered by skin (bran).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0155</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">dehulled seed</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">kernel</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">kernel or seed</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">nut, shelled (part or portion)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">seed or kernel, skin undetermined</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">seed without shell or hull</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">shelled seed</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: The factor values under *SEED* are arrayed so that the indexer can check first whether the skin is present, removed or undetermined and then check the same information for the germ.
+
+Renamed from *SEED OR KERNEL* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed (anatomical part)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Soft sugar whose crystals are covered by a film of refined dark syrup that imparts color, flavor, and moisture.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0156</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">brown sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Highly refined crystalline sugar that appears white in color.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0157</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">white sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A pod is a slightly thickened tissue that surrounds the seeds and that dries and opens as the fruit becomes ripe.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0158</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">seed or pod</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">pod or seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">An extract, concentrate or isolate containing two or more of the following: carbohydrate, fat or oil, protein, or flavoring substance. An example would be &apos;bean curd&apos;, which contains approximately 16 g. of protein, 9 g. of fat and 4 g. of carbohydrate per 100 grams; on the other hand, &apos;sesame oil&apos; is *FAT OR OIL* even though it is highly flavored.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0159</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">multicomponent extract, concentrate or isolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002399"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cream containing not less than 18% but less than 30% milkfat; a product labeled *LIGHT CREAM* may contain optional ingredients specified by 21 CFR 131.155.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0160</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">coffee cream</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">cream, light</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">table cream</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">light cream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002399"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cream containing not less than 36% milkfat; a product labeled *HEAVY CREAM* may contain optional ingredients specified by 21 CFR 131.150.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0161</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">cream for whipping</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">heavy whipping cream</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">heavy cream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The tender leaves and adjacent tissue at the center of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0162</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heart (plant)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0163</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL UNDETERMINED, CORE, PIT OR SEED PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel undetermined, core, pit or seed present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical part of an animal; includes eggs and milk that, although separated from the animal, are prouced as integral parts and are affected by the animal&apos;s food intake and metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0164</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">part of animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420174"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0165</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">fruit or seed</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420167 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420167">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420167">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
             </owl:Restriction>
         </owl:equivalentClass>
-    </rdf:Description>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420165"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The fleshy fruit of any plant. *FRUIT* includes vegetables berries and pods as well. The bulk of a fruit is its fleshy part, which is covered by a peel (skin) and which encloses a core, pit or seeds.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0167</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">berry</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">berry or fruit (anatomical part)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">fruit or berry, peel undetermined</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">hip (fruit)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">infructescence</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: The descriptors under *FRUIT* are arrayed so that the indexer can check first whether the peel is present, removed or undetermined; then check the same informationfor the core, pit or seeds. For juices, beverages or jellies made from fruit, Index the entire part from which the product is derived.
+
+Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit part</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420168 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420168">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420168">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -4025,43 +5155,533 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Bone (endoskeleton) or shell (exoskeleton) of animals, or any part thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0168</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">shell (animal)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">bone or shell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420158"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0169</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for immature, fleshy pods that are used for the pod rather than the seed, e.g., green beans.</rdfs:comment>
+        <rdfs:label xml:lang="en">pod containing small, immature seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A water extract prepared by simmering or steeping meat, poultry, fish, shellfish or vegetables. Seasoning may be added. When the major ingredient is broth or broth-based gravy the source of the broth should be indexed as the food source.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0170</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">stock</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">water extract of plant or animal</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">broth or stock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;invert sugar&apos; is a combination of glucose and fructose derived from disaccharide sucrose.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia: https://en.wikipedia.org/wiki/Inverted_sugar_syrup</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">invert sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0173</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the entire animal body is the food source. Head or tail may have been removed. Use the appropriate narrower term depending on the presence or absence of skin, feathers, scales, fins and/or entrails. The body may have been cut into pieces or disintegrated.</rdfs:comment>
+        <rdfs:label xml:lang="en">whole animal or most parts used</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical part of a plant, such as fruit, seed, pod, leaf, stem or flower as well as the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0174</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">part of plant</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420175 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420175">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420103"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Carcass meat from any type of animal including poultry and seafood. Includes retail and wholesale cuts other than organ meat. Refers to the whole carcass or parts.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0175</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420236"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Extract, concentrate or isolate high in gluten, the predominant protein of wheat or corn.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0177</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gluten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0178</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">seed part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420236"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Extract, concentrate or isolate high in casein, the predominant protein of milk.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0180</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">casein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A leafy or fibrous envelope of a fruit or seed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0181</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Compare *SHELL (SEED)*.</rdfs:comment>
+        <rdfs:label xml:lang="en">husk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420178"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0182</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">embryo (seed)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">germ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A young plant growing from a seed; may have small leaves. The endosperm is diminished or removed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0183</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Compare *GERMINATED OR SPROUTED SEED* and *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
+        <rdfs:label xml:lang="en">sprout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A young, tender flower stem growing from a root or tuber, for example, an asparagus spear or a bamboo shoot.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0186</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">shoot</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tip</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Do not use for *SPROUT*, which grows from a seed. Compare *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
+        <rdfs:label xml:lang="en">spear or shoot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Food substance or component consisting predominantly of mixed glycerol esters of fatty acids and, in far lesser amounts, of fatty acids, sterols and pigments. A fat is a solid at room temperature, an oil is a liquid at room temperature (20 degrees C.). Excludes essential oils.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0190</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">oil or fat</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">fat or oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007366"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The stomach of a beef cow.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0192</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tripe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Poultry, game bird or turtle eggs.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0194</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Fish roe are indexed under *OVARY, ROE*.</rdfs:comment>
+        <rdfs:label xml:lang="en">egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420198 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The flat or fleshy expanded blade (lamina) including a small and insignificant leafstalk but excluding a large and fleshy leafstalk such as celery stalks or rhubarb stalks.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0200</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: If the part indexed consists of a large leafstalk and a leaf blade, use *PLANT ABOVE SURFACE, EXCLUDING FRUIT OR SEED*. Compare *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
+        <rdfs:label xml:lang="en">leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420145"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The female reproductive organs of animals (e.g., fish roe, coral of a lobster).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0202</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">roe</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">ovary, roe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420203 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420134"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The bulk of a seed; germ and bran are removed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0208</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">endosperm</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *SEED OR KERNEL, SKIN REMOVED, GERM REMOVED (ENDOSPERM)* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed, skin removed, germ removed (endosperm)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0213</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL UNDETERMINED, CORE, PIT OR SEED REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel undetermined, core, pit or seed removed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A liquid enclosed by the endosperm of nuts.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0214</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">milk, nut</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">nut milk</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420218 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420103"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Edible organ meat, including blood and bone marrow.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0218</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">variety meat</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">organ meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420220 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420225 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420225">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420274"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007379"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0225</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole egg without shell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0227</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for seeds in hard shells rather than pods. Examples include brazil nuts, walnuts, almonds and peanuts.</rdfs:comment>
+        <rdfs:label xml:lang="en">seed in shell or hull</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420228 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420228">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A physical-chemical component separated from the food source or its parts by extraction, centrifugation, filtration, heat processing, expressing or a similar process. The separated component may be converted through further processing. If this is done, the final substance is indexed. A water-extracted component may remain in aqueous dispersion. The extract, concentrate or isolate is indexed in preference to the anatomic part from which it is derived. For example, peanut oil is indexed under *PEANUT* combined wih *FAT OR OIL* rather than with *SEED OR KERNEL*. On the other hand, fruit and vegetable juices can be indexed under *FRUIT JUICE OR NECTAR* or *VEGETABLE JUICE* (A. PRODUCT TYPE); therefore the anatomic part of the plant should be indexed.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0228</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">extract, concentrate or isolate of plant or animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420138"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0229</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">flesh of fruit</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL REMOVED, CORE, PIT OR SEED REMOVED* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel removed, core, pit or seed removed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420138"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0230</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL REMOVED, CORE, PIT OR SEED PRESENT* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit, peel removed, core, pit or seed present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420145"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The male reproductive organs and secretions of animals.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0234</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">milt, soft roe</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">soft roe</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">testis, milt or soft roe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Extract, concentrate or isolate high in protein; may contain amino acids, polypeptides and enzymes. Includes casein, gelatin, and gluten.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0236</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">protein extract, concentrate or isolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The pigmented blossom of a plant that contains the reproductive  organs; a floret is a single flower of a multiple flowered inflorescence. Also includes flower buds.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0237</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bud (flower)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">floret or flower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420148"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0238</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bulb, root or tuber</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tuber, bulb or root</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">root, tuber or bulb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0239</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">root, tuber or bulb, with peel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0240</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">root, tuber or bulb, without peel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420242 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420133"/>
     </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420243 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420243"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420175"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0243</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">skeletal meat part, with bone, skin undetermined</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">skeletal meat part, with bone or shell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The serum or watery part of milk that is separated from the thicker or more coagulable part or curd, espcially in the process of making cheese; it contains lactose, minerals and lactalbumin.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0244</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The thicker or more coagulable part of milk that is separated from the serum or watery part (whey), especially in the process of making cheese.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0245</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">curd</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4075,95 +5695,689 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0247</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">part of algae or fungus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420178"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0249</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for the shell of a seed; usually hard and/or dry. A *HUSK*, if any, is outside a shell; the *SKIN, BRAN (PERICARP)* covers the seed found inside the shell.</rdfs:comment>
+        <rdfs:label xml:lang="en">shell (seed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0253</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">fat, separable</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">separable fat part</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for intact pieces of animal fat. Refined animal fat is indexed under *FAT OR OIL*.</rdfs:comment>
+        <rdfs:label xml:lang="en">fat trimmings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Meat from organs that do not belong to the cardiovascular, digestive or urogenital system.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0255</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">organ meat, other systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The round upper portion of a mushroom.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0258</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">button</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cap, button</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A flavoring substance derived from a natural source by processes such as distillation, expression or extraction. An essential oil is a fragrant, volatile, oily substance insoluble in water. An oleoresin is a combination of essential oils and resins. These two types cover most but not all flavoring substances.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0260</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">essential oil, oleoresin or other flavoring substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0261</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">root, tuber or bulb, peel only</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420158"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0262</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for pods that contain full-sized seeds, e.g., peas in a pod. Often the pods are removed before consumpion.</rdfs:comment>
+        <rdfs:label xml:lang="en">pod containing full-size seeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420148"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The woody external covering of the stem, branch or root of a plant, as distinct and separate from the wood itself.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0264</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bark</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03420265 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420265">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420243"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420266"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0265</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part, with bone, with skin</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420266 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420266"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420243"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0266</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part, with bone, without skin</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420267 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420267">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420125"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420268"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0267</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part, without bone, with skin</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420268 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420268"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420125"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0268</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part, without bone, without skin</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420269 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420269">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420268"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420270"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0269</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">separable lean meat and fat part</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">total edible meat part</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for meat products only when it is known that such are designated as &apos;total edible&apos; or &apos;separable lean and fat&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">skeletal meat part, without bone and skin, with separable fat</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420270 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420270"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420268"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0270</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">separable lean meat part</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used for meat products only when it is known that such are designated as &apos;separable lean&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">skeletal meat part, without bone and skin, without separable fat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420108"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0271</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a sugar syrup or sugar syrup solids is the major ingredient. Sugar syrup is a liquid or semiliquid high in sugar content derived from a plant source through extraction possibly followed by conversion and/or concentration. A sugar syrup usually contains several sugars in varying proportions. Sugar syrup solids are derived by removing water from sugar syrup.</rdfs:comment>
+        <rdfs:label xml:lang="en">sugar syrup or syrup solids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420271"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0272</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">high fructose syrup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A whole egg is an egg including the shell, albumen and egg yolk</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0274</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420173"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0275</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">whole animal, with skin, feathers or scales, not eviscerated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420237"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0276</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">calyx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420237"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The free upper tip of the style of a flower, on which pollen falls and develops (Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0277</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">stigma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420310"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0279</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">pollen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0280</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">carbohydrate or related compound</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420285 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420285">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420266"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420286"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0285</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part, with bone, without skin, with separable fat</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420286 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420286"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420266"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0286</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">skeletal meat part, with bone, without skin, without separable fat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420178"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">An additional covering that forms on certain seeds after fertilisation, developing from the stalk of the ovule (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0287</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420288 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420111"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A small swelling or projection on a plant, from which a shoot, cluster of leaves, or flower develops (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0289</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bud</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">An underground bud that sends down roots and consists of a very short stem covered with leafy scales or layers, as in a lily, onion or hyacinth (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0290</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bulb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A fleshy, thickened, vertical, underground stem, usually having annual segments with a bud at the tip, thin external scale leaves, and roots at the base, as in the gladiolus: corms differ from bulbs in having much more stem tissue and fewer scale leaves (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0291</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">corm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420148"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The first single leaf or one of the first pair of leaves produced by the embryo of a flowering plant, or any of various similar structures (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0292</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cotyledon</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420293 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420293">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420293">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009085"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009086"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009087"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420294"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420295"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The hard, central part of an apple, pear, etc., that contains the seeds (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0293</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, CORE ONLY* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit core (anatomical part)</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420294 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420294">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420294">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009085"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009087"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0030109"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420295"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The rind or skin of fruit (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0294</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, PEEL ONLY* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit peel (anatomical part)</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420295 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420295"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420295">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420155"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420167"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The part of a flowering plant that typically contains the embryo with its protective coat and stored food and that can develop into a new plant under the proper conditions; fertilised and mature ovule (Source: Webster&apos;s).  .Seeds and fruits commonly called seeds include: grain, kernel, berry, ear, corn, nut. (Source: Webster&apos;s Thesaurus).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0295</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Renamed from *FRUIT OR BERRY, SEED ONLY in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit seed (anatomical part)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420247"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The spore-bearing structure of a fungus (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0296</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">fruiting body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The oil produced by pressing or extracting lipids from plant germs (e.g. wheat germ oil, corn germ oil) /AM</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0297</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">germ oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A sticky, colloidal carbohydrate found in certain trees and plants, which dries into an uncrystallised, brittle mass that dissolves or swells in water (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0298</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420292"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The part of the axis, or stem, below the cotyledons in the embryo of a plant (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0299</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">hypocotyl</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420300 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The liquid part of a plant, fruit, or vegetable (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0300</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">juice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The oil or fat produced by extracting the lipids from liver, usually fish liver (e.g. cod liver oil, haddock liver oil, shark oil) /AM</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0301</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">liver oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The oil or fat produced by extracting the lipids from fruit or vegetable peel /AM</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0302</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">peel oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420237"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Any of the component parts, or leaves, of a corolla (Source: Webster&apos;s). Thesaurus - Syn. floral leaf, corolla, floral envelope, perianth, leaf, bract, scale.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0303</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">petal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420200"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Leafstalk, the slender, usually cylindrical portion of a leaf, which supports the blade and is attached to the stem (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0304</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">petiole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A creeping stem lying, usually horizontally, at or under the surface of the soil and differing from a root in having scale leaves, bearing leaves or aerial shoots near its tips, and producing roots from its undersurface (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0305</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">rhizome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The part of a plant, usually below the ground, that lacks nodes, shoots, and leaves, holds the plant in position, draws water and nourishment from the soil, and stores food (Source: Webster&apos;s)  &lt;THESAURUS&gt; [An underground portion of a plant] - Syn. radix, rootlet, root hair, tuber, taproot, radicle, rhizome, rootstock; (Source: Webster&apos;s Thesaurus)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0306</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">root</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420190"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The oil produced by pressing or extracting lipids from plant seeds (e.g. grapeseed oil, rapeseed oil, linseed oil) /AM</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0307</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">seed oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420238"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A short, thickened, fleshy part of an underground stem, as a potato: new plants develop from the buds, or eyes, that grow in the axils of the minute scale leaves of a tuber (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0308</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The hard, fibrous substance beneath the bark in the stems and branches of trees and shrubs; xylem (Source: Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0309</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420237"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A pollen-bearing organ in a flower, made up of a slender stalk (filament) and a pollen sac (anther) (Webster&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0310</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">stamen</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4392,6 +6606,14 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03440003 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03440003">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03440022"/>
     </rdf:Description>
     
 
@@ -6141,10 +8363,12 @@ We salting is used as preservation method, index *preservation by SALTING [J0103
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460111"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A food product is characterized by its main ingredient (food source and part); the addition of secondary ingredients is considered a treatment applied to the product. Secondary ingredients are indexed according to rules that are based on the order of predominance by weight (not counting water) as seen from the label statement, formulation or recipe and/or from the amount of the ingredient as percentage of total product weight. The general rule is:  an ingredient is always indexed if it is the second ingredient in order of predominance, if it is used as a filling, or if it is part of the product name(e.g., raisin bread). Specific rules are given in the scope note for the individual ingredient added; these rules specify more exhaustive indexing. For example, *MUSHROOM ADDED* is indexed regardless of ingredient position. another specific rule is given in the scope note for *SALTED*:  Use if the level of salt is more than 4%. Such a rule is used only when the percentage level can be inferred from the list of ingredients.</obo:IAO_0000115>
+        <obo:IAO_0000115>This class is subject to revision as it is inherited from LanguaL but is not according to FoodOn ontology design. Product ingredients are handled using &apos;has part&apos;, &apos;derives from&apos;, &apos;has substance added&apos;, etc. relations rather than through &quot;X added&quot; terms; these will likely be deprecated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:H0225</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">ingredient added</rdfs:label>
+        <rdfs:comment xml:lang="en">LanguaL curation note: A food product is characterized by its main ingredient (food source and part); the addition of secondary ingredients is considered a treatment applied to the product. Secondary ingredients are indexed according to rules that are based on the order of predominance by weight (not counting water) as seen from the label statement, formulation or recipe and/or from the amount of the ingredient as percentage of total product weight. The general rule is:  an ingredient is always indexed if it is the second ingredient in order of predominance, if it is used as a filling, or if it is part of the product name(e.g., raisin bread). Specific rules are given in the scope note for the individual ingredient added; these rules specify more exhaustive indexing. For example, *MUSHROOM ADDED* is indexed regardless of ingredient position. another specific rule is given in the scope note for *SALTED*:  Use if the level of salt is more than 4%. Such a rule is used only when the percentage level can be inferred from the list of ingredients.</rdfs:comment>
+        <rdfs:label xml:lang="en">ingredient added (TO BE REVISED)</rdfs:label>
     </owl:Class>
     
 
@@ -9258,10 +11482,44 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fruit_anatomy</rdfs:seeAlso>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:comment xml:lang="en">This branch of the ontology needs to be further merged with Plant Ontology &apos;plant structure&apos; terms.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009084 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009084">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009085"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009086"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009087"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -9284,11 +11542,46 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one of the epidermal growths that form the distinctive outer covering, or plumage, on birds. Feathers are formed in tiny follicles in the epidermis, or outer skin layer, that produce keratin proteins.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">feather</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0221</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Epidermal appendage that constitutes the plumage of birds.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feather</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420106"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">intestine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0212</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-    </rdf:Description>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">blood</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0185</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</rdfs:label>
+    </owl:Class>
     
 
 
@@ -9311,49 +11604,369 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420106"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">stomach</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0211</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">maw (mammal)</oboInOwl:hasSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420129"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">heart (animal)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0201</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">brain</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0199</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000970">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ that detects light.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">eye</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0256</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000978 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000978">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000978">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
-    </rdf:Description>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of the hindlimb that contains both the stylopod and zeugopod.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420106"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO].</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">pancreas</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0204</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
-    </rdf:Description>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal element that is composed of bone tissue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sense organ in vertebrates that is specialized for the detection of sound, and the maintenance of balance. Includes the outer ear and middle ear, which collect and transmit sound waves; and the inner ear, which contains the organs of balance and (except in fish) hearing. Also includes the pinna, the visible part of the outer ear, present in some mammals.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">ear</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0311</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A muscular organ in the floor of the mouth.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">tongue</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0189</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tongue</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0001913 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
-    </rdf:Description>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">milk</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0235</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: See scope note for *MILK OR MILK COMPONENT*. for lowfat milk use *FAT PARTIALLY REMOVED*; for skim milk, use *FAT FULLY REMOVED* (both found in D3. TREATMENT APPLIED).</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL term definition: Milk is a secretion from the mammary glands of female mammals.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ that develops as an oupocketing of the esophagus.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">lung</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0187</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">skin, animal</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0193</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">animal skin</oboInOwl:hasSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin of body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420129"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the organ that functions to filter blood and to store red corpuscles and platelets</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">spleen</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0191</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420106"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">liver</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0176</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420145"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paired organ of the urinary tract which has the production of urine as its primary function.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">kidney</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0196</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">thymus</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0273</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002371 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
-    </rdf:Description>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the soft tissue that fills the cavities of bones</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">bone marrow</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0149</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000945"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The muscular enlargement of the alimentary canal that has usually thick muscular walls and a tough horny lining for grinding the food and when the crop is present follows it and the proventriculus.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">gizzard</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0124</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gizzard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A product of the somatic follicle cell epithelium and a structure that supports the egg in a hostile environment, minimizing water loss whilst allowing gas exchanges essential for embryonic respiration[GO].</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">egg shell</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0278</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">shell (egg)</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL term definition: The covering of a bird or reptile egg.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eggshell</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0006611 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006611">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006611">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
-    </rdf:Description>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exoskeleton or shell, including those of mollusks, turtles, insects and crustaceans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exoskeleton</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin membranous, sometimes alveolated sac in the dorsal portion of the abdominal cavity. Contains a varying mixture of gases, not identical to the composition of air. May be one, two or three chambered. May be connected to the gut by a tube, the ductus pneumaticus (then called physostomous) or unconnected (then called physoclistous).</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">air bladder</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0284</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">fish maw</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">swim bladder</oboInOwl:hasSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swim bladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000945"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ruminants&apos; stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach (proventriculus). They are lined with nonglandular membrane. The fourth compartment, the abomasum comprises the true stomach of the ruminants. It is lined with glandular mucous membrane. The rumen lies on the left of the abdominal cavity, the reticulum cranially and the omasum on the right. The abomasum lies ventrally, its proximal end lies ventral to the rumen, reticulum and omasum</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">ruminant stomach</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0224</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ruminant stomach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The yellow spheroidal mass of stored food that forms the inner portion of the egg of a bird or reptile and is surrounded by the white.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">egg yolk</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0215</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg yolk</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0007379 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007379"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420274"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hard-shelled reproductive body produced by a bird and especially by the common domestic chicken; also: its contents used as food.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">whole egg in shell</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0128</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: The egg shell functions as a container. Therefore, the physical state of a raw egg in the shell is *LIQUID, HIGH VISCOSITY, WITH NO VISIBLE PARTICLES*.</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL term definition: The egg shell functions as a container. Therefore, the physical state of a raw egg in the shell is *LIQUID, HIGH VISCOSITY, WITH NO VISIBLE PARTICLES*.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shelled egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An external projection of an aquatic animal as a fish used in propelling or guiding the body[BTO].</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">fin</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0283</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albumen is the clear liquid contained within an egg and consists of water and proteins, among which are ovomucin and ovomucoid. It protects the egg yolk and provides additional nutrition for the growth of the embryo.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">egg white, albumen</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0241</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">egg white</oboInOwl:hasSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">albumen</rdfs:label>
+    </owl:Class>
     
 
 
@@ -9362,6 +11975,21 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008979">
         <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0036016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0036016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420271"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sweet viscid material elaborated out of the nectar of flowers in the honey sac of various bees.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">honey</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0188</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL term definition: A sweet viscous material produced by bees from nectar or aphid secretions. Contains primarily fructose and dextrose.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">honey</rdfs:label>
+    </owl:Class>
     
 
 
@@ -9484,9 +12112,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411379">
-        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411404">
         <obo:IAO_0000115 xml:lang="en">Cucumber (Cucumis sativus) is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Cucumber</obo:IAO_0000119>
@@ -9496,13 +12121,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412496">
         <oboInOwl:hasNarrowSynonym>Acheta domesticus</oboInOwl:hasNarrowSynonym>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420171">
-        <oboInOwl:hasDbXref>Wikipedia: https://en.wikipedia.org/wiki/Inverted_sugar_syrup</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 xml:lang="en">&apos;invert sugar&apos; is a combination of glucose and fructose derived from disaccharide sucrose.</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420274">
-        <obo:IAO_0000115 xml:lang="en">A whole egg is an egg including the shell, albumen and egg yolk</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03510011">
         <oboInOwl:hasExactSynonym xml:lang="en">fish meal</oboInOwl:hasExactSynonym>

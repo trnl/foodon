@@ -535,9 +535,9 @@ class Langual(object):
             if entity['status'] == 'ignore': # pick only items that are not marked "ignore"
                 continue
 
-            # NOW MOVED FACETS G Cooking Method and J Preservation method and H food treatment process 
+            # NOW MOVED FACETS C Part of plant or animal, G Cooking Method and J Preservation method and H food treatment process 
             # off to foodon-edit.owl because they are massively renamed and axiomatized.
-            if entityid[0] in ['G','J','H']: 
+            if entityid[0] in ['C','G','J','H']: 
                 continue
 
             # BEGIN <owl:Class> 
@@ -1183,8 +1183,8 @@ class Langual(object):
         """
         # List of ontology prefixes to generate ontofox specification files for:
         ontofoxSpec = {
-            'chebi':'',
-            'uberon':'',
+            #'chebi':'',  # GOING TO MANUAL ON CHEBI AND UBERON NOW.
+            #'uberon':'',
             'gaz':''}
         ontofoxSpecKeys = ontofoxSpec.keys()
 

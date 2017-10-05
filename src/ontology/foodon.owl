@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-10-02/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-10-04/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -958,6 +958,20 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001273 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001273">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_00001273"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">http://www.mcgacanola.org/CookingDictionaryS.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001277 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001277">
@@ -1289,6 +1303,22 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001709 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001709">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A cereal is any grass cultivated for the edible components of its grain composed of the endosperm, germ, and bran</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_00001709"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cereal is any grass cultivated for the edible components of its grain composed of the endosperm, germ, and bran</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Cereal</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001712 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001712">
@@ -1298,6 +1328,42 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_00001013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001765 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001765">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411379"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001842 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001842">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411379"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1853,14 +1919,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03000000 -->
 
-    <owl:Class rdf:about="&obo;FOODON_03000000">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001015"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A vegetable (sensu legal status) is a plant food source which is botanically categorized as a fruit, but which has been legally categorized by a given jurisdiction&apos;s lawmakers as a vegetable, usually for taxation purposes.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">vegetable (sensu legal status)</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Nix_v._Hedden</rdfs:seeAlso>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_03000000"/>
     
 
 
@@ -2013,6 +2072,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301579 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03301579">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03412069"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310789"/>
     </rdf:Description>
     
@@ -2049,6 +2114,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301716 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03301716">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_00001273"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310789"/>
     </rdf:Description>
     
@@ -2186,7 +2257,15 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">Corn flakes, or cornflakes, are a popular breakfast cereal made by toasting flakes of corn.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_03302904"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Corn flakes, or cornflakes, are a popular breakfast cereal made by toasting flakes of corn.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Corn_flakes</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -2988,7 +3067,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Cornmeal is a meal (coarse flour) ground from dried maize (corn)</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_03310257"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Cornmeal is a meal (coarse flour) ground from dried maize (corn)</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Cornmeal</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3030,11 +3118,17 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03310789 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03310789">
+    <owl:Class rdf:about="&obo;FOODON_03310789">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00002143"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03420200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Salad greens are leaf vegetables that are served raw in a salad.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -3062,6 +3156,15 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="&obo;FOODON_03311075">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00001709"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002386"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311318 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03311318">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03311075"/>
     </rdf:Description>
     
 
@@ -3220,6 +3323,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0000231 xml:lang="en">Usefulness not clear.  Term had been imported from LanguaL SIREN database</obo:IAO_0000231>
         <owl:deprecated xml:lang="en">true</owl:deprecated>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -3833,6 +3937,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411379 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411379">
+        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411433 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03411433"/>
@@ -3944,10 +4056,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="&obo;FOODON_03412846">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -3989,6 +4109,22 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         </owl:equivalentClass>
         <rdfs:comment xml:lang="en">Damion Dooley Feb 6, 2017: Good meat cut resources to incorporate for Canada: The CFIA Meat Cuts Manual 
 http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/1300126372856</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420110 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03420110">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03420293"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03420294"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03420295"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -4150,6 +4286,24 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/FOODON_03420293 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03420293">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PO_0009085"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PO_0009086"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PO_0009087"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <owl:disjointWith rdf:resource="&obo;FOODON_03420294"/>
         <owl:disjointWith rdf:resource="&obo;FOODON_03420295"/>
     </rdf:Description>
@@ -6156,10 +6310,12 @@ We salting is used as preservation method, index *preservation by SALTING [J0103
     <owl:Class rdf:about="&obo;FOODON_03460225">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03460111"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A food product is characterized by its main ingredient (food source and part); the addition of secondary ingredients is considered a treatment applied to the product. Secondary ingredients are indexed according to rules that are based on the order of predominance by weight (not counting water) as seen from the label statement, formulation or recipe and/or from the amount of the ingredient as percentage of total product weight. The general rule is:  an ingredient is always indexed if it is the second ingredient in order of predominance, if it is used as a filling, or if it is part of the product name(e.g., raisin bread). Specific rules are given in the scope note for the individual ingredient added; these rules specify more exhaustive indexing. For example, *MUSHROOM ADDED* is indexed regardless of ingredient position. another specific rule is given in the scope note for *SALTED*:  Use if the level of salt is more than 4%. Such a rule is used only when the percentage level can be inferred from the list of ingredients.</obo:IAO_0000115>
+        <obo:IAO_0000115>This class is subject to revision as it is inherited from LanguaL but is not according to FoodOn ontology design. Product ingredients are handled using &apos;has part&apos;, &apos;derives from&apos;, &apos;has substance added&apos;, etc. relations rather than through &quot;X added&quot; terms; these will likely be deprecated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:H0225</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">ingredient added</rdfs:label>
+        <rdfs:comment xml:lang="en">LanguaL curation note: A food product is characterized by its main ingredient (food source and part); the addition of secondary ingredients is considered a treatment applied to the product. Secondary ingredients are indexed according to rules that are based on the order of predominance by weight (not counting water) as seen from the label statement, formulation or recipe and/or from the amount of the ingredient as percentage of total product weight. The general rule is:  an ingredient is always indexed if it is the second ingredient in order of predominance, if it is used as a filling, or if it is part of the product name(e.g., raisin bread). Specific rules are given in the scope note for the individual ingredient added; these rules specify more exhaustive indexing. For example, *MUSHROOM ADDED* is indexed regardless of ingredient position. another specific rule is given in the scope note for *SALTED*:  Use if the level of salt is more than 4%. Such a rule is used only when the percentage level can be inferred from the list of ingredients.</rdfs:comment>
+        <rdfs:label xml:lang="en">ingredient added (TO BE REVISED)</rdfs:label>
     </owl:Class>
     
 
@@ -9498,9 +9654,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03411379">
-        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03411404">
         <obo:IAO_0000115 xml:lang="en">Cucumber (Cucumis sativus) is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless.</obo:IAO_0000115>

@@ -156,6 +156,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009007 -->
+
+    <owl:Class rdf:about="&obo;PO_0009007">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">portion of plant tissue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009008 -->
 
     <owl:Class rdf:about="&obo;PO_0009008">
@@ -195,6 +206,72 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A leaf (PO:0025034) in a vascular plant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009064 -->
+
+    <owl:Class rdf:about="&obo;PO_0009064">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cardinal organ part (PO:0025001) that is the region at the distal end of either a peduncle or a pedicel where the floral appendages (e.g.: sepals, petals, stamens and pistils) are attached.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">receptacle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009065 -->
+
+    <owl:Class rdf:about="&obo;PO_0009065">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cup- or tube-shaped cardinal organ part, bearing perianth and stamens on its rim, so these arise above the base, and often above the top, of the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hypanthium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009084 -->
+
+    <owl:Class rdf:about="&obo;PO_0009084">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of plant tissue (PO:0009007) that is the outer layer (wall) of a fruit (PO:0009001), and develops from a plant ovary (PO:0009072) or a carpel (PO:0009030) wall.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pericarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009085 -->
+
+    <owl:Class rdf:about="&obo;PO_0009085">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of plant tissue (PO:0009007) that is the outer layer of a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">exocarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009086 -->
+
+    <owl:Class rdf:about="&obo;PO_0009086">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of plant tissue (PO:0009007) that is the innermost differentiated layer of a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">endocarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009087 -->
+
+    <owl:Class rdf:about="&obo;PO_0009087">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of plant tissue (PO:0009007) that is the middle layer of a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">mesocarp</rdfs:label>
     </owl:Class>
     
 
@@ -265,6 +342,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025001 -->
+
+    <owl:Class rdf:about="&obo;PO_0025001">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025498"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cardinal organ part</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025034 -->
 
     <owl:Class rdf:about="&obo;PO_0025034">
@@ -289,7 +377,12 @@
 
     <!-- http://purl.obolibrary.org/obo/PO_0025099 -->
 
-    <owl:Class rdf:about="&obo;PO_0025099"/>
+    <owl:Class rdf:about="&obo;PO_0025099">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that is part of an plant embryo (PO:0009009).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">embryo plant structure</rdfs:label>
+    </owl:Class>
     
 
 
@@ -412,6 +505,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">multi-tissue plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025498 -->
+
+    <owl:Class rdf:about="&obo;PO_0025498">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that is a proper part of a multi-tissue plant structure (PO:0025496) and includes portions of plant tissues (PO:0009007) of at least two different types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cardinal part of multi-tissue plant structure</rdfs:label>
     </owl:Class>
     
 
