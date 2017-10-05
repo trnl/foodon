@@ -1,13 +1,25 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;foodon/imports/ro_import.owl#"
+     xml:base="&obo;foodon/imports/ro_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl"/>
+    <owl:Ontology rdf:about="&obo;foodon/imports/ro_import.owl"/>
     
 
 
@@ -24,25 +36,50 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000119">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&rdfs;label"/> -->
     
 
 
@@ -57,22 +94,54 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/R0_0009004 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/R0_0009004">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between a material entity and an organism in which the former can normally be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <rdfs:label xml:lang="en">has consumer</rdfs:label>
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000051">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000054">
+        <obo:IAO_0000111 xml:lang="en">realized in</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">realized in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000056">
+        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000086">
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
     </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+    <owl:ObjectProperty rdf:about="&obo;RO_0000087">
         <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">has role</rdfs:label>
     </owl:ObjectProperty>
     
@@ -80,10 +149,10 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0001000">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">derives from</rdfs:label>
     </owl:ObjectProperty>
     
@@ -91,9 +160,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0001020 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001020">
+    <owl:ObjectProperty rdf:about="&obo;RO_0001020">
         <obo:IAO_0000115>A relation between a material entity and a condition (a phenotype or disease) of a host, in which the material entity is not part of the host, and is considered harmless to non-allergic hosts, and the condition results in pathological processes that include an abnormally strong immune response against the material entity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">is allergic trigger for</rdfs:label>
     </owl:ObjectProperty>
     
@@ -101,9 +170,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0001022 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001022">
+    <owl:ObjectProperty rdf:about="&obo;RO_0001022">
         <obo:IAO_0000115>A relation between a condition (a phenotype or disease) of a host and a material entity, in which the material entity is not part of the host, and is considered harmless to non-allergic hosts, and the condition results in pathological processes that include an abnormally strong immune response against the material entity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">has allergic trigger</rdfs:label>
     </owl:ObjectProperty>
     
@@ -111,22 +180,35 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0001025">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <obo:IAO_0000111 xml:lang="en">located in</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the target and the location, in which the target is entirely within the location</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">located in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002215 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002215">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000115>A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20123131"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21208450"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">capable of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002220">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000115>x adjacent to y if and only if x and y share a boundary.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">adjacent to</rdfs:label>
     </owl:ObjectProperty>
     
@@ -134,30 +216,85 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0002225 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002225">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002225">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000115>x develops from part of y if and only if there exists some z such that x develops from z and z is part of y</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">develops from part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002233 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002233">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000115>p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002234 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002234">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000115>p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002352 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002352">
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+        <obo:IAO_0000115>inverse of has input</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">input of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002353">
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+        <obo:IAO_0000115>inverse of has output</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">output of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002354 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002354">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002354">
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">formed as result of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002473 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002473">
+        <obo:IAO_0000115>x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label>composed primarily of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0003001 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0003001">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000115>a produced_by b iff some process that occurs_in b has_output a.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">produced by</rdfs:label>
     </owl:ObjectProperty>
     
@@ -165,28 +302,52 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0009001 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009001">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0009001">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">&quot;has substance added&quot; is a relation existing between a (physical) entity and a substance in which the entity has had the substance added to it at some point in time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">has substance added</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009002 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0009002">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">&quot;has substance removed&quot; is a relation existing between two physical entities in which the first entity has had the second entity (a substance) removed from it at some point in time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has substance removed</rdfs:label>
     </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0009003 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009003">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    <owl:ObjectProperty rdf:about="&obo;RO_0009003">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">&quot;immersed in&quot; is a relation between a (physical) entity and a fluid substance in which the entity is wholely or substantially surrounded by the substance.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">immersed in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009005 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0009005">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;has primary substance added&apos; indicates that an entity has had the given substance added to it in a proportion greater than any other added substance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has primary substance added</rdfs:label>
     </owl:ObjectProperty>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
 
