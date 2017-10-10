@@ -2953,10 +2953,11 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002430 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002430">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002373"/>
-        <obo:IAO_0000115 xml:lang="en">A ready to eat food product is a food product that requires no further cooking to consume.  Normally it can be eaten as-is without the addition of any other material, although some products like ready-to-eat cereal are often paired with an additional liquid.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">&apos;convenience food&apos;</rdfs:label>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002429</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">(convenience food (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -13066,8 +13067,8 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03304355">
         <oboInOwl:hasExactSynonym xml:lang="en">pepperoncino</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115 xml:lang="en">Peperoncino (plural peperoncini or pepperoncini in English) is the generic Italian name for hot chili peppers, specifically the cultivars of the species Capsicum annuum and Capsicum frutescens.</obo:IAO_0000115>
         <rdfs:label xml:lang="it">peperoncino</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Peperoncino (plural peperoncini or pepperoncini in English) is the generic Italian name for hot chili peppers, specifically the cultivars of the species Capsicum annuum and Capsicum frutescens.</obo:IAO_0000115>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_03304355"/>
