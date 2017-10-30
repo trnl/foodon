@@ -26,7 +26,7 @@
      xmlns:NCBITaxon="&obo;NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-10-10/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-10-30/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -766,6 +766,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_03411339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001127 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001127">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001126"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03306744"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -4371,6 +4389,12 @@ sidol</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115 xml:lang="en">The apple is a sweet, pomaceous fruit from the apple tree Malus pumila (commonly and erroneously called Malus domestica) a deciduous tree in the rose family.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_03310788"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The apple is a sweet, pomaceous fruit from the apple tree Malus pumila (commonly and erroneously called Malus domestica) a deciduous tree in the rose family.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Apple</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -5557,7 +5581,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/FOODON_03420112 -->
 
     <owl:Class rdf:about="&obo;FOODON_03420112">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420158"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420167"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0112</oboInOwl:hasDbXref>
@@ -5610,7 +5634,7 @@ http://www.inspection.gc.ca/food/labelling/meat-cuts/eng/1300126276015/130012637
     <!-- http://purl.obolibrary.org/obo/FOODON_03420117 -->
 
     <owl:Class rdf:about="&obo;FOODON_03420117">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420158"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420167"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Used for mixtures of pods and seeds.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -6169,7 +6193,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03420169 -->
 
     <owl:Class rdf:about="&obo;FOODON_03420169">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420158"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420167"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0169</oboInOwl:hasDbXref>
@@ -6790,7 +6814,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03420262 -->
 
     <owl:Class rdf:about="&obo;FOODON_03420262">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420158"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420167"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0262</oboInOwl:hasDbXref>
@@ -11975,71 +11999,3466 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03490100 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03490100">
+    <owl:Class rdf:about="&obo;FOODON_03490100">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00000000"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Type of container or wrapping defined by the main container material, the container form, and the material of the liner lids or ends. Also type of container or wrapping by form; prefer description by material first, then by form.  [FDA CFSAN 1995]</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0100</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">container or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490101 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490101">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490102"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0101</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic squeeze bottle or tube, top lined with foil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490102 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490102">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490186"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0102</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic squeeze bottle or tube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490103 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490103">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490102"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0103</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic squeeze bottle or tube, top lined with laminate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490104 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490104">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490102"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0104</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic squeeze bottle or tube, unlined top</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490105 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490105">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490102"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0105</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic squeeze bottle or tube, top lined with cork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490106 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490106">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490210"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0106</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, tinless steel lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490107 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490107">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490151"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0107</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bimetal container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490108 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490108">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490134"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0108</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, plastic lid, paper lining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490109 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490109">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490167"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0109</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate tube, ends lined with laminate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490110 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490110">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490167"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0110</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate tube, ends lined with foil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490111 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490111">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490167"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0111</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate tube, ends lined with cork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490112 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490112">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0112</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard tube with lid or ends</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490113 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490113">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490157"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0113</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">textile or fabric stocking or casing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490114 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490114">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490116"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0114</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware bottle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490115 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490115">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490116"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0115</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware crock or jar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490116 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490116">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0116</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490117 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490117">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0117</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper bag, sack or pouch, plastic liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490118 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490118">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0118</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper bag, sack or pouch, foil liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490119 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490119">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0119</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper bag, sack or pouch, laminate liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490120 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490120">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0120</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper bag, sack or pouch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490121 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490121">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0121</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, cork stopper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490122 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490122">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490126"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0122</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic tray or pan, laminate cover or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490123 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490123">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490126"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0123</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic tray or pan, aluminum foil cover or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490124 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490124">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490126"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0124</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic tray or pan, plastic cover or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490125 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490125">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490126"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0125</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic tray or pan, paper wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490126 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490126">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490184"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0126</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic tray or pan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490127 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490127">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490167"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0127</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate tube, unlined aluminum ends</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490128 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490128">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490186"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0128</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490129 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490129">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0129</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard tray with wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490130 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490130">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0130</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490131 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490131">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490126"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0131</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic tray or pan, cardboard cover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490132 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490132">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490210"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0132</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, aluminum lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490133 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490133">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490134"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0133</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, plastic lid, laminate lining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490134 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490134">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0134</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, plastic lid or stopper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490135 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490135">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490132"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0135</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, aluminum lid, plastic lining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490136 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490136">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490134"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0136</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, plastic lid, plastic lining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490137 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490137">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490186"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0137</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic shrink-pack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490138 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490138">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490167"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0138</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate tube, unlined plastic ends</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490139 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490139">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490168"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0139</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tube, unlined plastic top</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490140 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490140">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490134"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0140</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, plastic lid, aluminum foil lining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490141 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490141">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0141</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper bag, sack or pouch, paper liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490142 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490142">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490155"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0142</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with laminate liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490143 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490143">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490210"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0143</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, tin-plated steel lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490144 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490144">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490181"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0144</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">retortable pouch</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">laminate bag or pouch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490145 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490145">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490166"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0145</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic boil-in-bag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490146 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490146">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490155"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0146</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with plastic liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490147 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490147">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490155"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0147</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with aluminum foil liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490148 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490148">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490155"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0148</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with paper liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490149 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490149">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490189"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0149</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tinless steel plate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490150 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490150">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0150</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard molded pack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490151 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490151">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0151</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metal container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490152 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490152">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0152</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, waxed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490153 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490153">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490341"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0153</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, plastic coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490154 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490154">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0154</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with window</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490155 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490155">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0155</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490156 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490156">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0156</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">cardboard box</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">cardboard container</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">paperboard container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490157 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490157">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0157</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">textile or fabric container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490158 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490158">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490157"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0158</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">burlap bag</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">cloth bag</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">textile or fabric bag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490159 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490159">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0159</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard or paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490160 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490160">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490165"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0160</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tray or pan, plastic cover or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490161 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490161">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490165"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0161</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tray or pan, cardboard cover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490162 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490162">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490165"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0162</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tray or pan, laminate cover or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490163 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490163">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490165"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0163</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tray or pan, aluminum foil cover or wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490164 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490164">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490165"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0164</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tray or pan, paper wrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490165 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490165">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490182"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0165</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tray or pan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490166 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490166">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490186"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0166</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic bag or pouch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490167 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490167">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490181"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0167</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate tube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490168 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490168">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490182"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0168</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490169 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490169">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490168"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0169</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tube, top lined with laminate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490170 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490170">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490168"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0170</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tube, top lined with foil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490171 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490171">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490168"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0171</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum tube, top lined with cork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490172 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490172">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Corresponds to FSTA Thesaurus Packaging 2.2.1 Plastic container.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0172</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490173 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490173">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490159"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0173</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490174 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490174">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0174</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wood container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490175 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490175">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490182"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0175</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum can, drum or barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490176 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490176">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490189"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0176</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tin plate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490177 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490177">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490174"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0177</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wood box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490178 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490178">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490174"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0178</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wood drum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490179 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490179">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490174"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0179</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">barrel</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">wood cask</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">wood barrel, cask or wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490180 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490180">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490184"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0180</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, molded or bubble pack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490181 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490181">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0181</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490182 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490182">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490151"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0182</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490183 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490183">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490184"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0183</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, rigid or semirigid, tin-plated steel lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490184 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490184">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490172"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0184</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, rigid or semirigid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490185 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490185">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490184"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0185</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, rigid or semirigid, tinless steel lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490186 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490186">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490172"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0186</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, flexible or film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490187 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490187">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490184"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0187</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, rigid or semirigid, plastic lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490188 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490188">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490184"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0188</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, rigid or semirigid, aluminum lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490189 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490189">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490151"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0189</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">tin can</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">steel plate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490190 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490190">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490182"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0190</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">foil, aluminum</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">aluminum foil wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490192 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490192">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0192</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container with foil or liner overwrap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490193 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490193">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490180"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0193</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, blow-molded</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03490194 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03490194">
+    <owl:Class rdf:about="&obo;FOODON_03490194">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_03490194"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;FOODON_03490203"/>
-                            <rdf:Description rdf:about="&obo;FOODON_03490204"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03490203"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03490204"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0194</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">bottle, jar or can</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">jar, bottle or can</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">can, bottle or jar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490195 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490195">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490100"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Classification corresponding to FSTA Thesaurus Packaging 3.1 Package Types</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0195</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">container or wrapping by form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490196 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490196">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0196</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">ampoule</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">phial</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">ampul</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490197 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490197">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">According to FSTA Thesaurus Packaging 3.1 package types, includes boil-in bag, carrier bag, flat bag, inner bag, retort pouch, shipping bag, valve bag, and valve sack</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0197</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">sack</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">bag, sack or pouch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490198 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490198">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0198</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">barrel</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">drum (container)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490199 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490199">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A flexible container of distinctive construction and closure features used in the dispensing of tablet or powdered prescription medication; it is typically constructed of film or paper that may be coated or laminated to protect the contents [CFSAN Thesaurus].</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0199</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">envelope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490200 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490200">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0200</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">collapsible tube</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">tube</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490201 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490201">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0201</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">vial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490202 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490202">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490100"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Classification corresponding to FSTA Thesaurus Packaging 2.1.2 Material</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0202</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">container or wrapping by material</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03490203 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03490203">
+    <owl:Class rdf:about="&obo;FOODON_03490203">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_03490203"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;FOODON_03490214"/>
-                            <rdf:Description rdf:about="&obo;FOODON_03490215"/>
-                            <rdf:Description rdf:about="&obo;FOODON_03490218"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03490214"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03490215"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03490218"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
         <owl:disjointWith rdf:resource="&obo;FOODON_03490204"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0203</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">jar</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">bottle or jar</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03490204 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03490204"/>
+    <owl:Class rdf:about="&obo;FOODON_03490204">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0204</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">canister</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">canned (packed in a can)</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">can</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490205 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490205">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0205</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">leaf wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490206 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490206">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0206</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">husk wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490207 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490207">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0207</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">capsule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490208 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490208">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0208</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">container or package, multiple</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">multicontainer package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490209 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490209">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0209</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wax container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490210 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490210">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0210</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, metal lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490211 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490211">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0211</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">unspecified material wrapping</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">wrapper, material unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490212 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490212">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0212</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">edible container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490213 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490213">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0213</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">carton</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">case</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">crate</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490214 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490214">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0214</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bottle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490215 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490215">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0215</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">wide-necked bottle</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">wide-necked jar</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">jar</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03490216 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03490216">
+    <owl:Class rdf:about="&obo;FOODON_03490216">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490204"/>
         <owl:disjointWith rdf:resource="&obo;FOODON_03490217"/>
-    </rdf:Description>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0216</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">two-part can</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">drawn can</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03490217 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03490217"/>
+    <owl:Class rdf:about="&obo;FOODON_03490217">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490204"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0217</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">three-part can</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490218 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490218">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0218</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">jug or demijohn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490219 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490219">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490195"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0219</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">pail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490220 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490220">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490100"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Classification corresponding to FSTA Thesaurus Packaging 3.2.4 Sealing/closing means</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0220</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">sealing/closing element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490221 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490221">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490220"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0221</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">adhesive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490222 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490222">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0222</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">multicomponent adhesive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490223 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490223">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490222"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0223</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">multicomponent adhesive, no solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490224 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490224">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490222"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0224</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">multicomponent adhesive, organic solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490225 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490225">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490222"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0225</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">multicomponent adhesive, water soluble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490226 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490226">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0226</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">one component adhesive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490227 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490227">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490226"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0227</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">one component adhesive, organic solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490228 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490228">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490226"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0228</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">one component adhesive, water soluble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490229 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490229">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490221"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0229</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">thermoplastic adhesive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490231 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490231">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490427"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0231</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass stopper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490233 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490233">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490427"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0233</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic stopper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490234 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490234">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490233"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0234</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene plug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490235 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490235">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490233"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0235</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polypropylene plug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490236 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490236">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490233"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0236</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyvinyl chloride plug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490237 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490237">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490425"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0237</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic screw cap or lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490239 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490239">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490237"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0239</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic screw cap/pilfer proof</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490244 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490244">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490423"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0244</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">crown cap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490245 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490245">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490425"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0245</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metal screw cap or lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490246 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490246">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490245"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0246</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metal screw cap/pilfer proof</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490256 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490256">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490427"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0256</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">wooden cork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490257 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490257">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490220"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0257</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
+        <rdfs:label xml:lang="en">seal/gasket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490258 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490258">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490257"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0258</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cork wood gasket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490259 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490259">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490257"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0259</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metal gasket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490260 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490260">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490257"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0260</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic gasket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490261 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490261">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490257"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0261</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">rubber gasket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490262 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490262">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490257"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0262</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">steel solder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490263 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490263">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490257"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0263</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tin solder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490264 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490264">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490114"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0264</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware bottle, coloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490265 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490265">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490114"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0265</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware bottle, uncoloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490266 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490266">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490115"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0266</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware jar, coloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490267 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490267">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490115"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0267</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ceramic or earthenware jar, uncoloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490273 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490273">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0273</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">glass container, natural</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">glass container, uncoloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490274 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490274">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490273"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0274</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, uncoloured, light weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490275 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490275">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490273"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0275</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, uncoloured, normal weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490276 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490276">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490273"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0276</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, uncoloured, strengthened</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490277 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490277">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490273"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0277</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, uncoloured, covered/protected</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490278 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490278">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490130"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0278</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, coloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490279 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490279">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490278"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0279</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, coloured, light weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490280 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490280">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490278"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0280</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, coloured, normal weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490281 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490281">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490278"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0281</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, coloured, strengthened</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490282 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490282">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490278"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0282</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">glass container, coloured, covered/protected</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490287 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490287">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490182"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0287</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490288 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490288">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490287"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0288</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminium box, plastic-coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490289 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490289">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490287"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0289</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminium box, varnished</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490291 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490291">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490175"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0291</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminium can, drum or barrel, plastic coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490292 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490292">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490175"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0292</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminium can, drum or barrel, varnished</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490295 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490295">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490190"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0295</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminium foil wrapper, coated for heat sealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490296 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490296">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490190"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0296</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminium foil-paper wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490297 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490297">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490296"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0297</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum coextruded with paper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490298 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490298">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490296"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0298</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum combined with paper and plastic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490299 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490299">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490296"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0299</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aluminum combined with regenerated cellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490300 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490300">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490296"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0300</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminated aluminum combination with paper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490301 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490301">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490189"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0301</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">stainless steel container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490308 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490308">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490176"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0308</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">steel plate container tinned one side</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490309 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490309">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490176"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0309</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">steel plate container tinned both sides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490310 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490310">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490176"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0310</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">varnished tin-plate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490320 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490320">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490202"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0320</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">natural polymer container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490321 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490321">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490320"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0321</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">casein resin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490322 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490322">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490320"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0322</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cellulose film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490323 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490323">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490322"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0323</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">acetate cellulose film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490324 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490324">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490322"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0324</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">butyrate cellulose film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490325 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490325">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490322"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0325</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">propyonate cellulose film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490326 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490326">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490320"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0326</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">regenerated cellulose film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490327 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490327">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490326"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0327</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">regenerated cellulose film, coated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490328 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490328">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490326"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0328</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">regenerated cellulose film, coloured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490329 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490329">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490320"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0329</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">resin elastic container</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">rubber container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490330 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490330">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0330</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper container, treated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490331 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490331">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490330"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0331</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">lacquered paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490332 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490332">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490330"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0332</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">saturated (immersed) paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490333 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490333">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490330"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0333</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">waxed paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490334 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490334">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0334</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper container, untreated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490335 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490335">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490334"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0335</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bleached paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490336 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490336">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490334"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0336</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">kraft or brown paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490337 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490337">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490334"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0337</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">glassine</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">vegetable parchment</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">grease proof paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490338 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490338">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490334"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0338</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">imitation grease proof paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490339 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490339">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490334"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Porous, wet-strength paper, e.g. tea bag.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0339</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">tissue paper container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490340 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490340">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0340</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, untreated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490341 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490341">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490156"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0341</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, surface treated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490342 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490342">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490341"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0342</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, surface treated both sides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490343 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490343">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490341"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0343</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, surface treated inside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490344 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490344">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490341"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0344</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paperboard container, surface treated outside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490345 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490345">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0345</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper combined material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490346 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490346">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0346</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">impregnated/micro waxed paper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490347 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490347">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0347</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metalized paper wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490348 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490348">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490347"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0348</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metalized paper coextruded with plastic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490349 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490349">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490347"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0349</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metalized paper laminated with plastic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490350 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490350">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490347"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0350</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metalized paper laminated with treated paper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490351 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490351">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0351</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper-aluminium foil-plastic wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490352 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490352">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490351"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0352</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">coextruded paper-aluminium-plastic wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490353 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490353">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490351"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0353</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminated paper-aluminium-plastic wrapper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490354 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490354">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0354</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper-paper combination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490355 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490355">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490173"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0355</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">paper-plastic combination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490356 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490356">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490355"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0356</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">laminate paper coextruded with plastic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490357 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490357">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490172"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Corresponds to FSTA Thesaurus Packaging 2.2.1 &apos;Type of plastic&apos;</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0357</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, according to type of plastic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490358 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490358">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490357"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0358</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">thermoplastic sheet or container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490359 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490359">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490358"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0359</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyamide container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490360 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490360">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490359"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0360</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">acrylonitrile container</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">acryl-nitrile container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490361 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490361">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490359"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0361</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">amino undecan acid container</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">nylon 11 container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490362 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490362">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490359"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0362</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">caprolactan container</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">nylon 6,6 container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490363 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490363">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490364"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0363</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polycarbonate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490364 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490364">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490358"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0364</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyester container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490365 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490365">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490364"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0365</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyester container, glass fibre strengthened</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490366 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490366">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490364"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0366</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">linear polyester container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490367 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490367">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490431"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0367</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490368 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490368">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490367"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0368</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">high density polyethylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490370 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490370">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490367"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0370</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">low density polyethylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490371 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490371">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490370"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0371</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">linear low density polyethylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490372 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490372">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490370"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0372</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">low density polyethylene container, treated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490373 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490373">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490431"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0373</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polymethylmethacrylate container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490374 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490374">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490431"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0374</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polypropylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490375 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490375">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490374"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0375</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">biaxial oriented polypropylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490376 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490376">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490374"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0376</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">oriented polypropylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490377 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490377">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490358"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0377</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polystyrene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490378 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490378">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490358"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0378</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyvinyl chloride container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490379 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490379">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490378"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0379</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">crystalline pvc container</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">unplasticized polyvinyl chloride container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490380 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490380">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490378"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0380</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plasticized polyvinyl chloride container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490381 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490381">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490358"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0381</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyvinylidene chloride container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490382 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490382">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490357"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0382</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">thermosetting polymer container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490383 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490383">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490382"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0383</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">alkyd resin container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490384 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490384">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490382"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0384</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">amin resin container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490385 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490385">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490384"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0385</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">aniline-formaldehyde container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490386 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490386">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490384"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0386</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">carbamide-formaldehyde container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490387 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490387">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490384"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0387</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">diciandiamide-formaldehyde container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490388 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490388">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490382"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0388</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">epoxy resin container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490389 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490389">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490382"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0389</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">phenonile resin container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490390 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490390">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490382"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0390</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyester resin container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490391 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490391">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490357"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0391</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">plastic container, combined material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490392 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490392">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0392</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metallized polymer container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490393 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490393">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490392"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0393</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metallized polyamide container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490394 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490394">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490392"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0394</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">metallized polyester container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490395 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490395">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0395</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (high density) - polyamide container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490396 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490396">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490395"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0396</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (high density) - nylon 11 container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490397 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490397">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0397</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (high density) - polyester container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490398 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490398">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0398</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (high density) - polypropylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490399 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490399">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0399</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (low density) - polyamide container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490400 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490400">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490399"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0400</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (low density) - nylon 11 container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490401 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490401">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0401</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (low density) - polyester container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490402 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490402">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0402</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (low density) - polyethylene (high density) container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490403 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490403">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0403</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (low density) - polyethylene (low density) container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490404 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490404">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0404</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene (low density) - polypropylene container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490405 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490405">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0405</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene - regenerated cellulose container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490406 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490406">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0406</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene - vinyl copolymer container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490407 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490407">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490391"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0407</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyvinyl chloride - polyvinylidene chloride container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490409 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490409">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490157"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0409</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">natural textile container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490410 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490410">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490409"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0410</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">animal hair container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490411 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490411">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490409"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0411</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">bass fibre container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490412 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490412">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490409"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0412</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">asbestos container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490413 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490413">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490409"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0413</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cotton container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490414 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490414">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490409"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0414</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">leaf fibre container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490415 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490415">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490157"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0415</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polymer base textile container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490416 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490416">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490415"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0416</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyamide container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490417 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490417">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490415"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0417</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyester container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490418 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490418">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490415"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0418</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyolefine container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490419 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490419">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490197"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0419</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">boil-in bag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490420 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490420">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490197"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0420</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">inner bag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490423 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490423">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490220"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0423</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
+        <rdfs:label xml:lang="en">closing cap or lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490424 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490424">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490423"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0424</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">closing capsule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490425 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490425">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490423"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0425</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">screw cap or lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490426 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490426">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490423"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0426</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">tear-off lid</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tear-open lid</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">peel-off lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490427 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490427">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490220"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0427</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">plug</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">stopper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490429 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490429">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490340"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Example: egg box.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0429</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">recycled paperboard container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490430 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490430">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490364"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0430</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyethylene terephthalate (pet) container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03490431 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03490431">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03490358"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:M0431</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">polyolefin container</rdfs:label>
+    </owl:Class>
     
 
 
@@ -13041,6 +16460,10 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="&obo;FOODON_00001872">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">This is a working folder that holds LanguaL SIREN database product types that need to be reviewed for placement within the food product hierarchy.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00002117">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00002118</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00002411">
         <obo:IAO_0000115 xml:lang="en">A baked apple pie that has been subsequently frozen.</obo:IAO_0000115>

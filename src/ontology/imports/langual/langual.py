@@ -53,7 +53,7 @@ except ImportError: # Python 2.6
     import json
 
 
-CODE_VERSION = '0.0.5'
+CODE_VERSION = '0.0.6'
 
 def stop_err( msg, exit_code=1 ):
     sys.stderr.write("%s\n" % msg)
@@ -535,9 +535,13 @@ class Langual(object):
             if entity['status'] == 'ignore': # pick only items that are not marked "ignore"
                 continue
 
-            # NOW MOVED FACETS C Part of plant or animal, G Cooking Method and J Preservation method and H food treatment process 
-            # off to foodon-edit.owl because they are massively renamed and axiomatized.
-            if entityid[0] in ['C','G','J','H']: 
+            # NOW MOVED FACETS 
+            #   C Part of plant or animal, G Cooking process and 
+            #   J Preservation process, H food treatment process 
+            #   M Container or Wrapping (heading for ENVO)
+            # off to foodon-edit.owl because they are massively renamed and 
+            # axiomatized, and also getting terms from other ontologies
+            if entityid[0] in ['C','G','J','H','M']: 
                 continue
 
             # BEGIN <owl:Class> 
