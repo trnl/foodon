@@ -1,0 +1,63 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl
+
+[Source ontology]
+UO
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+includeAllChildren
+
+#http://purl.obolibrary.org/obo/UO_0000189 #count unit, included below
+
+http://purl.obolibrary.org/obo/UO_0000001 #length
+http://purl.obolibrary.org/obo/UO_0000008 # meter
+http://purl.obolibrary.org/obo/UO_0000016 # millimeter
+http://purl.obolibrary.org/obo/UO_0000015 # centimeter
+
+http://purl.obolibrary.org/obo/UO_0000003 #time
+http://purl.obolibrary.org/obo/UO_0000010 # second
+http://purl.obolibrary.org/obo/UO_0000031
+http://purl.obolibrary.org/obo/UO_0000032
+http://purl.obolibrary.org/obo/UO_0000033
+http://purl.obolibrary.org/obo/UO_0000034
+http://purl.obolibrary.org/obo/UO_0000035
+http://purl.obolibrary.org/obo/UO_0000036
+
+
+http://purl.obolibrary.org/obo/UO_0000191 # fraction
+includeAllChildren
+
+http://purl.obolibrary.org/obo/UO_0000187 # percent
+includeAllChildren
+
+http://purl.obolibrary.org/obo/UO_0000052 # mass density unit
+includeAllChildren
+
+
+http://purl.obolibrary.org/obo/UO_0000095 # volume unit
+http://purl.obolibrary.org/obo/UO_0000097 # cubic cm
+http://purl.obolibrary.org/obo/UO_0000096 # cubic meter
+http://purl.obolibrary.org/obo/UO_0000099 # litre
+http://purl.obolibrary.org/obo/UO_0000098 # mililitre
+
+# RELATIONS
+#http://purl.obolibrary.org/obo/uo#is_unit_of  #
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UO_0000000 #unit
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+
+
+[Source annotation URIs to be excluded]

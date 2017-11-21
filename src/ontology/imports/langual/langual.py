@@ -536,12 +536,18 @@ class Langual(object):
                 continue
 
             # NOW MOVED FACETS 
-            #   C Part of plant or animal, G Cooking process and 
-            #   J Preservation process, H food treatment process 
+            #   C Part of plant or animal, 
+            #   E physical state, shape or form
+            #   G Cooking process
+            #   J Preservation process, 
+            #   H food treatment process 
             #   M Container or Wrapping (heading for ENVO)
+            #   P Consumer type
+            #   R Geographic regions
+            #   F Extent of heat treatment
             # off to foodon-edit.owl because they are massively renamed and 
             # axiomatized, and also getting terms from other ontologies
-            if entityid[0] in ['C','G','J','H','M']: 
+            if entityid[0] in ['C','E','G','J','H','M','P','R','F']: 
                 continue
 
             # BEGIN <owl:Class> 
