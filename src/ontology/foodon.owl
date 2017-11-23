@@ -26,7 +26,7 @@
      xmlns:NCBITaxon="&obo;NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-11-20/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-11-23/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -508,6 +508,14 @@
         <rdfs:comment xml:lang="en">LanguaL term definition: Liquid product remaining after crystallization of sugar from sugar syrup; most molasses is made from sugar cane.</rdfs:comment>
         <rdfs:label rdf:datatype="&xsd;string">molasses</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003064 -->
+
+    <rdf:Description rdf:about="&obo;ENVO_00003064">
+        <oboInOwl:hasSynonym xml:lang="en">potable water</oboInOwl:hasSynonym>
+    </rdf:Description>
     
 
 
@@ -2046,12 +2054,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000115 xml:lang="en">A pickled cucumber (commonly known as a pickle in the United States and Canada or generically as gherkins in the United Kingdom, Ireland, Australia, and New Zealand) is a cucumber that has been pickled in a brine, vinegar, or other solution and left to ferment for a period of time, by either immersing the cucumbers in an acidic solution or through souring by lacto-fermentation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_00001793"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">A pickled cucumber (commonly known as a pickle in the United States and Canada or generically as gherkins in the United Kingdom, Ireland, Australia, and New Zealand) is a cucumber that has been pickled in a brine, vinegar, or other solution and left to ferment for a period of time, by either immersing the cucumbers in an acidic solution or through souring by lacto-fermentation.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Pickled_cucumber</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2842,7 +2844,17 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_03301647">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00003064"/>
+        <obo:IAO_0000115 xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F1647</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">driking water (purified)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_03301647"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Water_purification</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3598,12 +3610,6 @@ hom ha/hae ko
 sidol</oboInOwl:hasNarrowSynonym>
         <rdfs:comment xml:lang="en">NEED TO VERIFY LANGUAGES: (japanese/thai ?)</rdfs:comment>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03309823"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget>definition: Shrimp paste or shrimp sauce is a fermented condiment commonly used in Southeast Asian, Northeastern South Asian and Southern Chinese cuisines.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Shrimp_paste</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -3768,12 +3774,6 @@ sidol</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115 xml:lang="en">The apple is a sweet, pomaceous fruit from the apple tree Malus pumila (commonly and erroneously called Malus domestica) a deciduous tree in the rose family.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03310788"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The apple is a sweet, pomaceous fruit from the apple tree Malus pumila (commonly and erroneously called Malus domestica) a deciduous tree in the rose family.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Apple</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -4309,6 +4309,18 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317240 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317240">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F17240</oboInOwl:hasDbXref>
+        <rdfs:comment>This &quot;fruit yoghurt&quot; SIREN item F17240 has a &quot;partially heat treated&quot; quality, whereas SIREN [J0135] &quot;yoghurt with fruit&quot; is &quot;pasteurized by heat&quot;. The issue is that both could be refering to the heat treatment of milk or fruit.</rdfs:comment>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03317288 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03317288">
@@ -4419,6 +4431,8 @@ sidol</oboInOwl:hasNarrowSynonym>
 
     <rdf:Description rdf:about="&obo;FOODON_03400361">
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A food product type is a class of food products that is differentiated by its food composition, processing and/or consumption characteristics. This does not include brand name products but it may include generic food dish categories.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     
 
@@ -17183,12 +17197,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <rdfs:label xml:lang="it">peperoncino</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">Peperoncino (plural peperoncini or pepperoncini in English) is the generic Italian name for hot chili peppers, specifically the cultivars of the species Capsicum annuum and Capsicum frutescens.</obo:IAO_0000115>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03304355"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Peperoncino (plural peperoncini or pepperoncini in English) is the generic Italian name for hot chili peppers, specifically the cultivars of the species Capsicum annuum and Capsicum frutescens.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Peperoncino</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="&obo;FOODON_03305040">
         <obo:IAO_0000115 xml:lang="en">Candied fruit, also known as crystallized fruit or glacé fruit, has existed since the 14th century. Whole fruit, smaller pieces of fruit, or pieces of peel, are placed in heated sugar syrup, which absorbs the moisture from within the fruit and eventually preserves it.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">glacé fruit</oboInOwl:hasExactSynonym>
@@ -17223,18 +17231,12 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="&obo;FOODON_03316072">
         <oboInOwl:hasSynonym xml:lang="en">Pastirma</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">basturma</oboInOwl:hasSynonym>
+        <obo:IAO_0000115 xml:lang="en">a highly seasoned, air-dried cured beef that is part of the cuisines of countries from the Balkans to the Levant</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="en">basterma</oboInOwl:hasSynonym>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasSynonym xml:lang="en">pastourma</oboInOwl:hasSynonym>
-        <obo:IAO_0000115 xml:lang="en">a highly seasoned, air-dried cured beef that is part of the cuisines of countries from the Balkans to the Levant</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="en">bastirma</oboInOwl:hasSynonym>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03316072"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">a highly seasoned, air-dried cured beef that is part of the cuisines of countries from the Balkans to the Levant</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Pastirma</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="&obo;FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
     </rdf:Description>
