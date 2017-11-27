@@ -26,7 +26,7 @@
      xmlns:NCBITaxon="&obo;NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-11-23/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-11-27/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -649,19 +649,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001047 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001047">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03411222"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001059 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001059">
@@ -680,24 +667,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001069 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001069">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001258"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03315615"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001072 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001072">
@@ -710,22 +679,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001079 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00001079">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002403"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001100 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001100">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0009001"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03411339"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
+    <owl:Class rdf:about="&obo;FOODON_00001079"/>
     
 
 
@@ -742,19 +696,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001132 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001132">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03411136"/>
-            </owl:Restriction>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -1065,25 +1006,20 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001213 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001213">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03450005"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001181"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001216 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001216">
         <rdfs:label xml:lang="en">cream food product</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001222 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001222">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F1113</oboInOwl:hasDbXref>
+    </rdf:Description>
     
 
 
@@ -1112,13 +1048,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001263 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001263">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">bu-du</rdfs:label>
     </owl:Class>
     
@@ -1258,24 +1187,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001305 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001305">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001054"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411223"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">hoi-dong</rdfs:label>
     </owl:Class>
     
@@ -1358,13 +1269,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001310 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001310">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001314"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">mum</rdfs:label>
     </owl:Class>
     
@@ -1373,19 +1277,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001311 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001311">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_00001250"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">mum-khai-pla</rdfs:label>
     </owl:Class>
     
@@ -1394,13 +1285,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001312 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001312">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">mum-sai-pla</rdfs:label>
     </owl:Class>
     
@@ -1409,19 +1293,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001313 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001313">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03430130"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">nam-budu</rdfs:label>
     </owl:Class>
     
@@ -1430,18 +1301,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001314 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001314">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001258"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00001006"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001258"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Fermented meat product is any product made primarily of meat subjected to a fermentation process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -1453,13 +1312,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001315 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001315">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001314"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">nham</rdfs:label>
     </owl:Class>
     
@@ -1468,19 +1320,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001316 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001316">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03430130"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">nham-pla</rdfs:label>
     </owl:Class>
     
@@ -1607,13 +1446,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001324 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001324">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Fermented Fish</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pla-chom</rdfs:label>
     </owl:Class>
@@ -1623,13 +1455,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001325 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001325">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Fermented fish</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pla-jaw</rdfs:label>
     </owl:Class>
@@ -1639,13 +1464,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001326 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001326">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Fermented fish</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pla-som</rdfs:label>
     </owl:Class>
@@ -1655,24 +1473,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001327 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001327">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001054"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411335"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pu dong</rdfs:label>
     </owl:Class>
     
@@ -1681,19 +1481,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001328 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001328">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_00001250"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Needs to be disambiguated from mum-khai-pla</rdfs:comment>
         <rdfs:label xml:lang="en">som-khai-pla</rdfs:label>
     </owl:Class>
@@ -1703,13 +1490,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001329 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001329">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">tai-pla</rdfs:label>
     </owl:Class>
     
@@ -1726,39 +1506,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001331 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001331">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001258"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;FOODON_00002420"/>
-                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_24866"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;FOODON_00002420"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00001248"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;FOODON_00002420"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="&obo;FOODON_00001332"/>
-                                    <rdf:Description rdf:about="&obo;FOODON_03306185"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001258"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
-                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pla-ra</rdfs:label>
     </owl:Class>
     
@@ -1868,13 +1615,20 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001568 -->
 
     <owl:Class rdf:about="&obo;FOODON_00001568">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03420116"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03420116"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Trimmings are the parts removed from the culinary trimming of unwanted or inedible parts (i.e. sinews, skin, fat etc.) from meat, fish poultry or vegetables. Trimmings are used for making stocks, soups and sauces.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Food trimmings are the parts removed from the culinary trimming of unwanted or inedible parts (i.e. sinews, skin, fat etc.) from meat, fish poultry or vegetables. Trimmings are used for making stocks, soups and sauces.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.foodlexicon.org/p0000380.php</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">trim</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">trimmings</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">trimmings</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">food trimmings</rdfs:label>
     </owl:Class>
     
 
@@ -1987,30 +1741,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001656 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001656">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001676 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001676">
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001024</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001709 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001709">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A cereal is any grass cultivated for the edible components of its grain composed of the endosperm, germ, and bran</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     
 
@@ -2024,94 +1760,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_00001013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001765 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001765">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411379"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001793 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001793">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002333"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A pickled cucumber (commonly known as a pickle in the United States and Canada or generically as gherkins in the United Kingdom, Ireland, Australia, and New Zealand) is a cucumber that has been pickled in a brine, vinegar, or other solution and left to ferment for a period of time, by either immersing the cucumbers in an acidic solution or through souring by lacto-fermentation.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001842 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00001842">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_03311075"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411379"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002071 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00002071">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001151"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002114 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00002114">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03306766"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03306773"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00002407"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430131"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03460207"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -2309,7 +1957,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002395 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002395">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001258"/>
         <rdfs:label xml:lang="en">moromi</rdfs:label>
     </owl:Class>
     
@@ -2440,20 +2087,10 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002411 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00002411">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306761"/>
-        <obo:IAO_0000115 xml:lang="en">A baked apple pie that has been subsequently frozen.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <rdfs:label>apple pie (baked, frozen)</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00002412 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002412">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03317288"/>
         <rdfs:label xml:lang="en">pie (baked, frozen)</rdfs:label>
     </owl:Class>
     
@@ -2494,27 +2131,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002417 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002417">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430137"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002417"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002418 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002418">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002158"/>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">canned food product</rdfs:label>
     </owl:Class>
@@ -2632,29 +2255,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_0002000 -->
 
-    <owl:Class rdf:about="&obo;FOODON_0002000">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03311637"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-        <rdfs:label xml:lang="en">apple (peeled)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_0002000"/>
     
 
 
@@ -2791,6 +2392,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301113 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03301113">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001222</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301139 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03301139">
@@ -2849,12 +2460,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F1647</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">driking water (purified)</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03301647"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</owl:annotatedTarget>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Water_purification</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2892,95 +2497,10 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301920 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301956 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03301920">
+    <rdf:Description rdf:about="&obo;FOODON_03301956">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301924 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03301924">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301950 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03301950">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301952 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03301952">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302148 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03302148">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470136"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302771 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03302771">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001810"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302904 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03302904">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00002406"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03440014"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03310257"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03460274"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">Corn flakes, or cornflakes, are a popular breakfast cereal made by toasting flakes of corn.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     
 
@@ -2994,14 +2514,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_00001013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303068 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03303068">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03315837"/>
     </rdf:Description>
     
 
@@ -3035,14 +2547,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03303089">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303116 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03303116">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002071"/>
-    </rdf:Description>
     
 
 
@@ -3088,18 +2592,26 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303784 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03303784">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03303864 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03303864">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_00001810"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03303884 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03303884">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001222"/>
+                    <rdf:Description rdf:about="&obo;FOODON_00002306"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03317294"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -3178,24 +2690,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305105 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03305105">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;PATO_0001548"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03305153 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03305153">
@@ -3215,32 +2709,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03305040</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305248 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03305248">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305364 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03305364">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470138"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -3287,38 +2755,11 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305680 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03305680">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03305686 -->
 
     <owl:Class rdf:about="&obo;FOODON_03305686">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305813 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03305813">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430111"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
     
 
 
@@ -3328,14 +2769,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03301811</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305993 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03305993">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
     </rdf:Description>
     
 
@@ -3400,46 +2833,22 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306673 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306364 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03306673">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
+    <rdf:Description rdf:about="&obo;FOODON_03306364">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002417"/>
     </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306692 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306442 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03306692">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306709 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03306709">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306763 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03306763">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306776 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03306776">
+    <rdf:Description rdf:about="&obo;FOODON_03306442">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001618"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03305680"/>
+                    <rdf:Description rdf:about="&obo;FOODON_00001006"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03306766"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -3513,10 +2922,10 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307627 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307595 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03307627">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03301952"/>
+    <rdf:Description rdf:about="&obo;FOODON_03307595">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002417"/>
     </rdf:Description>
     
 
@@ -3525,14 +2934,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="&obo;FOODON_03307629">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03306773"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307630 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03307630">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
     </rdf:Description>
     
 
@@ -3569,47 +2970,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03309573 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03309573">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03309927"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03309798 -->
 
     <owl:Class rdf:about="&obo;FOODON_03309798">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03309823 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03309823">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001054"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03411237"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>definition: Shrimp paste or shrimp sauce is a fermented condiment commonly used in Southeast Asian, Northeastern South Asian and Southern Chinese cuisines.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-1816-4260</obo:IAO_0000117>
-        <oboInOwl:hasExactSynonym xml:lang="en">shrimp sauce</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>kapi
-ngapi
-terasi
-belacan
-belachan
-blachang
-mắm ruốc
-mắm tép
-mắm tôm
-bagoong alamang
-bagoong aramang
-haa1 zoeng3/haa1 gou1
-hom ha/hae ko
-sidol</oboInOwl:hasNarrowSynonym>
-        <rdfs:comment xml:lang="en">NEED TO VERIFY LANGUAGES: (japanese/thai ?)</rdfs:comment>
-    </rdf:Description>
     
 
 
@@ -3695,24 +3068,6 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310311 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03310311">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470106"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03310415 -->
 
     <owl:Class rdf:about="&obo;FOODON_03310415">
@@ -3739,30 +3094,32 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310754 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03310754">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001224</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310756 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03310756">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001220</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310770 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03310770">
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001579</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310784 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03310784">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001258"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00001261"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -3823,38 +3180,6 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03311075 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03311075">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001709"/>
-                    <rdf:Description rdf:about="&obo;FOODON_00002386"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002386"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03311318 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03311318">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001842"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03311075"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03311075"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03311368 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03311368">
@@ -3875,19 +3200,21 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311490 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03311490">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03310623</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311568 -->
 
     <owl:Class rdf:about="&obo;FOODON_03311568">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03311637 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03311637">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001611"/>
-    </rdf:Description>
     
 
 
@@ -3923,23 +3250,6 @@ sidol</oboInOwl:hasNarrowSynonym>
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_03302019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315106 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03315106">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001151"/>
-        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315125 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03315125">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
     </rdf:Description>
     
 
@@ -4056,14 +3366,6 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315696 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03315696">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306766"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03315780 -->
 
     <owl:Class rdf:about="&obo;FOODON_03315780">
@@ -4080,57 +3382,11 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315837 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03315837">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001057"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03316064 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03316064">
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03316388 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03316388">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001611"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03311637"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03470107"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430152"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -4173,15 +3429,6 @@ sidol</oboInOwl:hasNarrowSynonym>
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03301452</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03316563 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03316563">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001793"/>
-        <rdfs:seeAlso xml:lang="it">http://www.differencebetween.net/object/comparisons-of-food-items/difference-between-gherkins-and-pickles/</rdfs:seeAlso>
     </rdf:Description>
     
 
@@ -4262,49 +3509,22 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316990 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03316990">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_00002346</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03317079 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03317079">
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03315615</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317119 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03317119">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_0002000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317121 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03317121">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03301952"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317122 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03317122">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03301952"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317148 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03317148">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03480015"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -4321,10 +3541,33 @@ sidol</oboInOwl:hasNarrowSynonym>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317288 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317279 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03317288">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002114"/>
+    <rdf:Description rdf:about="&obo;FOODON_03317279">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001222"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03317294"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317281 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317281">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001222"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317282 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317282">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001222"/>
     </rdf:Description>
     
 
@@ -4345,14 +3588,6 @@ sidol</oboInOwl:hasNarrowSynonym>
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03302012</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317435 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03317435">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03311075"/>
     </rdf:Description>
     
 
@@ -4397,24 +3632,6 @@ sidol</oboInOwl:hasNarrowSynonym>
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001013</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317643 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03317643">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -4572,14 +3789,6 @@ sidol</oboInOwl:hasNarrowSynonym>
 
     <rdf:Description rdf:about="&obo;FOODON_03411374">
         <owl:disjointWith rdf:resource="&obo;FOODON_03411433"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411379 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03411379">
-        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
     </rdf:Description>
     
 
@@ -15651,7 +14860,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0010</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">food for laboratory animals</rdfs:label>
+        <rdfs:label xml:lang="en">laboratory animal as food consumer</rdfs:label>
     </owl:Class>
     
 
@@ -15659,7 +14868,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <!-- http://purl.obolibrary.org/obo/FOODON_03510011 -->
 
     <owl:Class rdf:about="&obo;FOODON_03510011">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510021"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0011</oboInOwl:hasDbXref>
@@ -15703,7 +14912,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0014</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sheep and goat as consumer</rdfs:label>
+        <rdfs:label xml:lang="en">sheep or goat as consumer</rdfs:label>
     </owl:Class>
     
 
@@ -15738,7 +14947,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510021"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0018</oboInOwl:hasDbXref>
@@ -15885,7 +15094,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510021"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0027</oboInOwl:hasDbXref>
@@ -15998,7 +15207,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <!-- http://purl.obolibrary.org/obo/FOODON_03510157 -->
 
     <owl:Class rdf:about="&obo;FOODON_03510157">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510021"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0157</oboInOwl:hasDbXref>
@@ -16010,7 +15219,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <!-- http://purl.obolibrary.org/obo/FOODON_03510158 -->
 
     <owl:Class rdf:about="&obo;FOODON_03510158">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510021"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03510015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0158</oboInOwl:hasDbXref>
@@ -16481,6 +15690,14 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000115 xml:lang="en">Synthetic vanilla is a compound made of vanillin or ethyl vanillin</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">synthetic vanilla extract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0002003 -->
+
+    <owl:Class rdf:about="&obo;GENEPIO_0002003">
+        <rdfs:label xml:lang="en">organ meat product</rdfs:label>
     </owl:Class>
     
 
@@ -17110,6 +16327,9 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="&obo;FOODON_00001076">
         <obo:IAO_0000115 xml:lang="en">Sake is a fermented rice beverage resulting from the fermentation of rice with the mold Aspergillus oryzae and, in parallel, with the yeast Saccharomyces cerevisiae [wikipedia:sake]</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00001180">
+        <obo:IAO_0000115 xml:lang="en">Food product that is 1) ready or nearly ready for consumption; 2) usually a composite of several foods or ingredients that often belong to distinct product types; 3) usually formulated, mixed and partially or fully cooked.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00001223">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -17129,6 +16349,16 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <rdfs:label xml:lang="en">has substance added (deprecated)</rdfs:label>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/RO_0009001</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00001709">
+        <obo:IAO_0000115 xml:lang="en">A cereal is any grass cultivated for the edible components of its grain composed of the endosperm, germ, and bran</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00001793">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A pickled cucumber (commonly known as a pickle in the United States and Canada or generically as gherkins in the United Kingdom, Ireland, Australia, and New Zealand) is a cucumber that has been pickled in a brine, vinegar, or other solution and left to ferment for a period of time, by either immersing the cucumbers in an acidic solution or through souring by lacto-fermentation.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00001796">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -17150,6 +16380,12 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="&obo;FOODON_00002117">
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00002118</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00002411">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A baked apple pie that has been subsequently frozen.</obo:IAO_0000115>
+        <rdfs:label>apple pie (baked, frozen)</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301004">
         <obo:IAO_0000115 xml:lang="en">Macaroni is a variety of dry pasta traditionally shaped and produced in various shapes and sizes.</obo:IAO_0000115>
@@ -17185,6 +16421,10 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <rdfs:comment xml:lang="en">Distillers grains are created in distilleries by drying mash, and is subsequently sold for a variety of purposes, usually as fodder for livestock (especially ruminants). Corn-based distillers grains from the ethanol industry are commonly sold as a high protein livestock feed that increases efficiency and lowers the risk of subacute acidosis in beef cattle.</rdfs:comment>
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Distillers_grains</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03302904">
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Corn flakes, or cornflakes, are a popular breakfast cereal made by toasting flakes of corn.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03303354">
         <obo:IAO_0000115 xml:lang="en">Chow mein in Chinese and Chinese English are stir-fried noodles, the name being the romanization of the Taishanese chāu-mèing.</obo:IAO_0000115>
     </rdf:Description>
@@ -17205,6 +16445,26 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="&obo;FOODON_03307307">
         <rdfs:comment xml:lang="en">This product may not have been produced through fermentation</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03309823">
+        <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-1816-4260</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">NEED TO VERIFY LANGUAGES: (japanese/thai ?)</rdfs:comment>
+        <obo:IAO_0000115>definition: Shrimp paste or shrimp sauce is a fermented condiment commonly used in Southeast Asian, Northeastern South Asian and Southern Chinese cuisines.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>kapi
+ngapi
+terasi
+belacan
+belachan
+blachang
+mắm ruốc
+mắm tép
+mắm tôm
+bagoong alamang
+bagoong aramang
+haa1 zoeng3/haa1 gou1
+hom ha/hae ko
+sidol</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">shrimp sauce</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03309907">
         <rdfs:comment>Damion Dooley&apos;s note: is this synonymous with &apos;corn (whole kernel, dried)&apos; ?</rdfs:comment>
     </rdf:Description>
@@ -17223,6 +16483,20 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115>Caramel mass is caramel in a semi-liquid form.</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03315106">
+        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03315155">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Tripe is a type of edible lining from the stomachs of various farm animals. Most tripe is from cattle.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_03315155"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Tripe is a type of edible lining from the stomachs of various farm animals. Most tripe is from cattle.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Tripe</obo:IAO_0000119>
+    </owl:Axiom>
     <rdf:Description rdf:about="&obo;FOODON_03315448">
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -17237,8 +16511,14 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <oboInOwl:hasSynonym xml:lang="en">pastourma</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">bastirma</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03316563">
+        <rdfs:seeAlso xml:lang="it">http://www.differencebetween.net/object/comparisons-of-food-items/difference-between-gherkins-and-pickles/</rdfs:seeAlso>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03411379">
+        <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03411404">
         <obo:IAO_0000115 xml:lang="en">Cucumber (Cucumis sativus) is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless.</obo:IAO_0000115>
