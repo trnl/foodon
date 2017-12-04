@@ -606,19 +606,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001001">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430114"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001001"/>
     
 
 
@@ -638,19 +626,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001059 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001059">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411245"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001059"/>
     
 
 
@@ -1044,24 +1020,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001277 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001277">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03440003"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -2424,6 +2382,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301419 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301419">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_00001059</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301579 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301579">
@@ -2862,6 +2830,22 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307087 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302441"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307114 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302441"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03307276 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307276">
@@ -3192,6 +3176,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311490">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03310623</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311544 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311544">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03304640</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
@@ -9985,7 +9979,7 @@ We salting is used as preservation method, index *preservation by SALTING [J0103
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:H0748</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">milk protein added</rdfs:label>
+        <rdfs:label xml:lang="en">milk (protein added)</rdfs:label>
     </owl:Class>
     
 
@@ -15466,6 +15460,15 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03510276 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03510276">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03520010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520010">
@@ -15687,6 +15690,26 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0002003">
         <rdfs:label xml:lang="en">organ meat product</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0002128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0002128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002320"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Maguro Nakaochi</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Nakaochi Scrape</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">tuna scrape</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0002128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.foodsafetynews.com/2012/04/whats-the-deal-with-tuna-scrape</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
