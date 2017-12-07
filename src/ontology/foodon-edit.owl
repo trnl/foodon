@@ -181,25 +181,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001343 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001343">
-        <rdfs:label xml:lang="en">test test</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1709,6 +1690,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002165">
+        <rdfs:label xml:lang="en">organ meat product</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002238">
@@ -1904,6 +1893,68 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002395">
         <rdfs:label xml:lang="en">moromi</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002396">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411355"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18346"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_48408"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412972"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03316764"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Synthetic vanilla is a compound made of vanillin or ethyl vanillin</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">synthetic vanilla extract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002320"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Maguro Nakaochi</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Nakaochi Scrape</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">tuna scrape</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002397"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.foodsafetynews.com/2012/04/whats-the-deal-with-tuna-scrape</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -2347,6 +2398,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301132"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301139 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301139">
@@ -2452,11 +2509,83 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301944"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301956 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301956">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001611"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302199"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302334"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302350"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302360"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302364"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302451"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302452"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302464"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302473"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302475"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302693"/>
     
 
 
@@ -2544,6 +2673,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03303710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303710"/>
     
 
 
@@ -2645,6 +2780,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03304834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304834"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03305153 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305153">
@@ -2658,6 +2799,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305210"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305218"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03305224 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305224">
@@ -2668,11 +2821,29 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305340"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305346"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03305374 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03305373"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305378"/>
     
 
 
@@ -2808,6 +2979,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306639"/>
     
 
 
@@ -3372,6 +3549,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316068 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316068">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301119</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03316493 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316493">
@@ -3471,7 +3658,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001301"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001098"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002396"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Vanilla extract is a solution containing the flavor compound vanillin as the primary ingredient.</obo:IAO_0000115>
@@ -8618,6 +8805,17 @@ We salting is used as preservation method, index *preservation by SALTING [J0103
     <!-- http://purl.obolibrary.org/obo/FOODON_03460207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460207">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03460141"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001868"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -15643,76 +15841,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001098">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411355"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18346"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_48408"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412972"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001301"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03316764"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Synthetic vanilla is a compound made of vanillin or ethyl vanillin</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">synthetic vanilla extract</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0002003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0002003">
-        <rdfs:label xml:lang="en">organ meat product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0002128 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0002128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002320"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">Maguro Nakaochi</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">Nakaochi Scrape</oboInOwl:hasNarrowSynonym>
-        <rdfs:label xml:lang="en">tuna scrape</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0002128"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.foodsafetynews.com/2012/04/whats-the-deal-with-tuna-scrape</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_110569 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_110569">
@@ -16415,6 +16543,17 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://orcid.org/0000-0002-1816-4260</obo:IAO_0000117>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301119">
+        <oboInOwl:hasExactSynonym xml:lang="en">wholemeal bread</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Whole_wheat_bread</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Whole wheat bread or wholemeal bread is a type of bread made using flour that is partly or entirely milled from whole or almost-whole wheat grains.</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301119"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">wholemeal bread</owl:annotatedTarget>
+        <obo:GENEPIO_0000005 rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002637"/>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301328">
         <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Perhaps add distinction that this mineral water is extracted from source, to distinguish from parent &apos;mineral water food product&apos;?</rdfs:comment>
     </rdf:Description>
@@ -16427,6 +16566,10 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03302339">
         <oboInOwl:hasSynonym xml:lang="en">white flour</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03302549">
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Zwieback</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Zwieback is a form of rusk eaten in Scandinavia, Germany, Austria, France, Switzerland, Italy, Slovenia, Croatia, Serbia, Bulgaria and Greece. It is a type of crisp, sweetened bread, made with eggs and baked twice.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03302569">
         <obo:IAO_0000115 xml:lang="en">Distillers grains are a cereal byproduct of the distillation process traditionally produced by breweries and more recently by ethanol plants.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Distillers grains are created in distilleries by drying mash, and is subsequently sold for a variety of purposes, usually as fodder for livestock (especially ruminants). Corn-based distillers grains from the ethanol industry are commonly sold as a high protein livestock feed that increases efficiency and lowers the risk of subacute acidosis in beef cattle.</rdfs:comment>
@@ -16438,6 +16581,9 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303354">
         <obo:IAO_0000115 xml:lang="en">Chow mein in Chinese and Chinese English are stir-fried noodles, the name being the romanization of the Taishanese chāu-mèing.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03304024">
+        <rdfs:seeAlso xml:lang="en">http://wegottaeat.com/Homebaker/recipes/pepino-sauce</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03304292">
         <oboInOwl:hasExactSynonym xml:lang="en">spice mix</oboInOwl:hasExactSynonym>
@@ -16512,6 +16658,12 @@ sidol</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Nori (海苔) is the Japanese name for edible seaweed species of the red algae genus Pyropia, including P. yezoensis and P. tenera.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315751">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Brown_bread</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Brown bread is a designation often given to breads made with significant amounts of whole grain flour, usually wheat, and sometimes dark-colored ingredients such as molasses or coffee. In Canada, the United Kingdom and South Africa it simply refers to wholemeal or whole wheat bread, except in the Maritimes, where it implies bread made with molasses.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316072">
         <oboInOwl:hasSynonym xml:lang="en">Pastirma</oboInOwl:hasSynonym>
