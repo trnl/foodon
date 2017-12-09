@@ -26,7 +26,7 @@
      xmlns:NCBITaxon="&obo;NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-12-07/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2017-12-08/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -1962,12 +1962,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <oboInOwl:hasNarrowSynonym xml:lang="en">Nakaochi Scrape</oboInOwl:hasNarrowSynonym>
         <rdfs:label xml:lang="en">tuna scrape</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_00002397"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">tuna backmeat, which is specifically scraped off the bones, and looks like a ground product.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.foodsafetynews.com/2012/04/whats-the-deal-with-tuna-scrape</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -2799,6 +2793,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305143 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03305143"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03305153 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03305153">
@@ -2899,6 +2899,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03305686">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03309861"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305734 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03305734"/>
     
 
 
@@ -3062,11 +3068,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307326 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307315 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03307326">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03315648"/>
-    </rdf:Description>
+    <owl:Class rdf:about="&obo;FOODON_03307315"/>
     
 
 
@@ -3120,6 +3124,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_03307934">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03315025"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03308082 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03308082"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03308407 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03308407"/>
     
 
 
@@ -3341,6 +3357,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311310 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03311310">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03311309</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311368 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03311368">
@@ -3366,6 +3392,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="&obo;FOODON_03311490">
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03310623</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311500 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03311500">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03316320</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     
@@ -3644,6 +3680,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316681 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03316681"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316683 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03316683"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03316764 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03316764">
@@ -3814,6 +3862,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001013</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317624 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03317624"/>
     
 
 
@@ -16556,16 +16610,14 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000117 rdf:datatype="&xsd;anyURI">http://orcid.org/0000-0002-1816-4260</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301119">
-        <oboInOwl:hasExactSynonym xml:lang="en">wholemeal bread</oboInOwl:hasExactSynonym>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Whole_wheat_bread</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Whole wheat bread or wholemeal bread is a type of bread made using flour that is partly or entirely milled from whole or almost-whole wheat grains.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">wholemeal bread</oboInOwl:hasExactSynonym>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03301119"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="en">wholemeal bread</owl:annotatedTarget>
-        <obo:GENEPIO_0000005 rdf:resource="&obo;GAZ_00002637"/>
-    </owl:Axiom>
+    <rdf:Description rdf:about="&obo;FOODON_03301193">
+        <obo:IAO_0000115 xml:lang="en">Raw fish is fish that has not been cooked or preserved other than perhaps by freezing.  If previously frozen, it has since been thawed. Use &quot;fish (fresh)&quot; to indicate that fish has not been previously frozen as well.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301328">
         <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Perhaps add distinction that this mineral water is extracted from source, to distinguish from parent &apos;mineral water food product&apos;?</rdfs:comment>
     </rdf:Description>
@@ -16660,12 +16712,16 @@ sidol</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115 xml:lang="en">Tripe is a type of edible lining from the stomachs of various farm animals. Most tripe is from cattle.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;FOODON_03315155"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Tripe is a type of edible lining from the stomachs of various farm animals. Most tripe is from cattle.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Tripe</obo:IAO_0000119>
-    </owl:Axiom>
+    <rdf:Description rdf:about="&obo;FOODON_03315173">
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Fish_products</rdfs:seeAlso>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A fish product is a home-made or commercially produced or retail or wholesale product containing substantial amounts of freshwater or saltwater fish and/or shellfish flesh. Note that this category should avoid items that mention a particular species of fish or shellfish.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03315446">
+        <obo:IAO_0000115 xml:lang="en">Fresh fish is fish that has not been cooked or preserved since being harvested. Use &quot;fish (raw)&quot; to indicate the possibility that fish has been previously frozen.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03315448">
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
