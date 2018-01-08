@@ -14058,11 +14058,9 @@ Fibre supplements are widely available, and can be found in forms such as powder
     <!-- http://purl.obolibrary.org/obo/FOODON_03401329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03401329">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03401298"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A1329</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Use only when no supplement type is evident from the product name.</rdfs:comment>
         <rdfs:label xml:lang="en">dietary supplement, not specified</rdfs:label>
     </owl:Class>
     
