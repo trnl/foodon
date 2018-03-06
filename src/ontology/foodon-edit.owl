@@ -1931,6 +1931,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002297 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002297">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001146"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301717"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002318 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002318">
@@ -2745,7 +2763,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001148"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001146"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002225"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411106"/>
@@ -2753,7 +2771,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001148"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001146"/>
     </rdf:Description>
     
 
