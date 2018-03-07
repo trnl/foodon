@@ -26,7 +26,7 @@
      xmlns:NCBITaxon="&obo;NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-03-06/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-03-07/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -1773,6 +1773,23 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001850 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00001850">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002225"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03413484"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">A food product derived from the common pea (also known as the garden or field pea).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://eol.org/pages/703192/overview</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">common pea vegetable food product</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">garden pea vegetable food product</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001936 -->
 
     <rdf:Description rdf:about="&obo;FOODON_00001936">
@@ -1850,6 +1867,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                         <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="&obo;FOODON_03411320"/>
                     </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002151 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_00002151">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001173"/>
+                    <rdf:Description rdf:about="&obo;FOODON_00002125"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -2880,6 +2912,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302762 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03302762">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00001810"/>
+                    <rdf:Description rdf:about="&obo;FOODON_03307581"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03302910 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03302910">
@@ -3397,6 +3444,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307539 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03307539">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03307629 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03307629">
@@ -3429,9 +3494,33 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307970 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03307970">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;FOODON_00001301"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_03302806"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001734"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03308082 -->
 
     <owl:Class rdf:about="&obo;FOODON_03308082"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03308169 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03308169">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03308351</obo:IAO_0100001>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
+    </rdf:Description>
     
 
 
@@ -3906,6 +3995,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315919 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03315919">
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_00001280</obo:IAO_0100001>
+        <owl:deprecated xml:lang="en">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03316064 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03316064">
@@ -4071,6 +4170,35 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03315615</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317139 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03317139">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;PATO_0005016"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;FOODON_03490204"/>
+                                    <rdf:Description rdf:about="&obo;FOODON_03490215"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470160"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -16959,6 +17087,9 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="&obo;FOODON_03301452">
         <oboInOwl:hasSynonym xml:lang="en">tomato tinned</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03301635">
+        <oboInOwl:hasExactSynonym xml:lang="en">fruit cake</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03302012">
         <oboInOwl:hasSynonym xml:lang="en">frank</oboInOwl:hasSynonym>
     </rdf:Description>
@@ -16993,6 +17124,10 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <rdfs:label xml:lang="it">peperoncino</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">Peperoncino (plural peperoncini or pepperoncini in English) is the generic Italian name for hot chili peppers, specifically the cultivars of the species Capsicum annuum and Capsicum frutescens.</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03304776">
+        <obo:IAO_0000115 xml:lang="en">Stew peas is a Jamaican stew dish prepared using coconut milk, gungo peas (pigeon peas) or red peas (kidney beans), uncured meats and salted meats such as pork and beef as primary ingredients.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Stew_peas</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03305040">
         <obo:IAO_0000115 xml:lang="en">Candied fruit, also known as crystallized fruit or glacé fruit, has existed since the 14th century. Whole fruit, smaller pieces of fruit, or pieces of peel, are placed in heated sugar syrup, which absorbs the moisture from within the fruit and eventually preserves it.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">glacé fruit</oboInOwl:hasExactSynonym>
@@ -17023,6 +17158,11 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03309907">
         <rdfs:comment>Damion Dooley&apos;s note: is this synonymous with &apos;corn (whole kernel, dried)&apos; ?</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03310662">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Need to determine if SIREN database has this marked as having wheat</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03311443">
         <rdfs:comment xml:lang="en">Only potatoes grown in Idaho can have Idaho(tm) mentioned in their names.</rdfs:comment>
@@ -17084,6 +17224,9 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="&obo;FOODON_03316563">
         <rdfs:seeAlso xml:lang="it">http://www.differencebetween.net/object/comparisons-of-food-items/difference-between-gherkins-and-pickles/</rdfs:seeAlso>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03317199">
+        <oboInOwl:hasExactSynonym xml:lang="en">garden pea</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
     </rdf:Description>
@@ -17099,6 +17242,9 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03412496">
         <oboInOwl:hasNarrowSynonym>Acheta domesticus</oboInOwl:hasNarrowSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03412612">
+        <oboInOwl:hasSynonym xml:lang="en">tiger shrimp</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>
