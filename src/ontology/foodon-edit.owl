@@ -585,6 +585,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00000070"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001001"/>
@@ -3203,6 +3209,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03305435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03305627 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305627">
@@ -3346,21 +3360,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001041"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306766"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306442 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306442">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001006"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306766"/>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3544,6 +3543,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03308013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03308082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308082"/>
@@ -3560,6 +3567,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03308370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03308407 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308407"/>
@@ -3570,24 +3585,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309458">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002257"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03309545 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309545">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001006"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000068"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -3893,6 +3890,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311568">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03309861"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
     </owl:Class>
     
 
@@ -17254,6 +17259,14 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000115 xml:lang="en">Candied fruit, also known as crystallized fruit or glacé fruit, has existed since the 14th century. Whole fruit, smaller pieces of fruit, or pieces of peel, are placed in heated sugar syrup, which absorbs the moisture from within the fruit and eventually preserves it.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">glacé fruit</oboInOwl:hasExactSynonym>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307069">
+        <obo:IAO_0000115 xml:lang="en">In the United States, a Cornish game hen, also sometimes called a Cornish hen, poussin, Rock Cornish hen, or simply Rock Cornish, is a hybrid chicken sold whole. Despite the name, it is not a game bird. Rather, it is a broiler chicken, the most common strain of commercially raised meat chickens. Though the bird is called a &quot;hen&quot;, it can be either male or female. [https://en.wikipedia.org/wiki/Cornish_game_hen]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">rock cornish</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">poussin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cornish hen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cornish game hen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">rock cornish hen</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307307">
         <rdfs:comment xml:lang="en">This product may not have been produced through fermentation</rdfs:comment>
