@@ -1706,7 +1706,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001607">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_00001598</obo:IAO_0100001>
-        <owl:deprecated xml:lang="en">true</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -1783,6 +1783,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000119 xml:lang="en">http://eol.org/pages/703192/overview</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym xml:lang="en">common pea vegetable food product</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">garden pea vegetable food product</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001878 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001878">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001800"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001879"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -3383,7 +3398,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307070">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <owl:deprecated xml:lang="en">true</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -3540,7 +3555,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308169">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03308351</obo:IAO_0100001>
-        <owl:deprecated xml:lang="en">true</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -3918,6 +3933,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315088 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315088">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001878</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03315125 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315125">
@@ -3999,6 +4024,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315371 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315371">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000231 xml:lang="en">Unable to locate meaning of term. Not english? It was under &apos;fish food product&apos;</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03315398 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315398">
@@ -4066,7 +4101,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315919">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_00001280</obo:IAO_0100001>
-        <owl:deprecated xml:lang="en">true</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
