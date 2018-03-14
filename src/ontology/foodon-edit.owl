@@ -591,6 +591,17 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
+        <obo:IAO_0000115 xml:lang="en">A process of cutting food into smaller pieces, chunks or slices.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">food cutting process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001001"/>
@@ -1044,6 +1055,22 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001276 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001276">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001098"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001160"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     
 
@@ -1851,6 +1878,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411337"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002101 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002101">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001158"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411344"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3774,7 +3819,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310788">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">The apple is a sweet, pomaceous fruit from the apple tree Malus pumila (commonly and erroneously called Malus domestica) a deciduous tree in the rose family.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An apple, whole or in pieces, for eating, baking or other food processing.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </owl:Class>
     
@@ -4080,6 +4125,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315554">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03301109</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315656 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315656">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315686 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315686">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001276</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
@@ -4535,6 +4598,8 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Apple</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Malus pumila encompasses over 7,500 apple cultivars (https://en.wikipedia.org/wiki/List_of_apple_cultivars).</rdfs:comment>
     </rdf:Description>
     
 
@@ -16472,9 +16537,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
 
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0000067 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000067">
-        <rdfs:label xml:lang="en">apple (peeled, blanched)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000067"/>
     
 
 
@@ -17204,6 +17267,9 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000115 xml:lang="en">Whole wheat bread or wholemeal bread is a type of bread made using flour that is partly or entirely milled from whole or almost-whole wheat grains.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">wholemeal bread</oboInOwl:hasExactSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301129">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301193">
         <obo:IAO_0000115 xml:lang="en">Raw fish is fish that has not been cooked or preserved other than perhaps by freezing.  If previously frozen, it has since been thawed. Use &quot;fish (fresh)&quot; to indicate that fish has not been previously frozen as well.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -17259,14 +17325,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000115 xml:lang="en">Candied fruit, also known as crystallized fruit or glacé fruit, has existed since the 14th century. Whole fruit, smaller pieces of fruit, or pieces of peel, are placed in heated sugar syrup, which absorbs the moisture from within the fruit and eventually preserves it.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">glacé fruit</oboInOwl:hasExactSynonym>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307069">
-        <obo:IAO_0000115 xml:lang="en">In the United States, a Cornish game hen, also sometimes called a Cornish hen, poussin, Rock Cornish hen, or simply Rock Cornish, is a hybrid chicken sold whole. Despite the name, it is not a game bird. Rather, it is a broiler chicken, the most common strain of commercially raised meat chickens. Though the bird is called a &quot;hen&quot;, it can be either male or female. [https://en.wikipedia.org/wiki/Cornish_game_hen]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym xml:lang="en">rock cornish</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">poussin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">cornish hen</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">cornish game hen</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">rock cornish hen</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307307">
         <rdfs:comment xml:lang="en">This product may not have been produced through fermentation</rdfs:comment>
@@ -17331,8 +17389,8 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315173">
         <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Fish_products</rdfs:seeAlso>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A fish product is a home-made or commercially produced or retail or wholesale product containing substantial amounts of freshwater or saltwater fish and/or shellfish flesh. Note that this category should avoid items that mention a particular species of fish or shellfish.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315446">
         <obo:IAO_0000115 xml:lang="en">Fresh fish is fish that has not been cooked or preserved since being harvested. Use &quot;fish (raw)&quot; to indicate the possibility that fish has been previously frozen.</obo:IAO_0000115>
@@ -17349,14 +17407,10 @@ sidol</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Brown_bread</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Brown bread is a designation often given to breads made with significant amounts of whole grain flour, usually wheat, and sometimes dark-colored ingredients such as molasses or coffee. In Canada, the United Kingdom and South Africa it simply refers to wholemeal or whole wheat bread, except in the Maritimes, where it implies bread made with molasses.</obo:IAO_0000115>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316072">
-        <oboInOwl:hasSynonym xml:lang="en">Pastirma</oboInOwl:hasSynonym>
-        <obo:IAO_0000115 xml:lang="en">a highly seasoned, air-dried cured beef that is part of the cuisines of countries from the Balkans to the Levant</obo:IAO_0000115>
-        <oboInOwl:hasSynonym xml:lang="en">basterma</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">basturma</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pastourma</oboInOwl:hasSynonym>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315797">
+        <oboInOwl:hasExactSynonym xml:lang="en">boston butt</oboInOwl:hasExactSynonym>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <oboInOwl:hasSynonym xml:lang="en">bastirma</oboInOwl:hasSynonym>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316563">
         <rdfs:seeAlso xml:lang="it">http://www.differencebetween.net/object/comparisons-of-food-items/difference-between-gherkins-and-pickles/</rdfs:seeAlso>
@@ -17364,8 +17418,14 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317199">
         <oboInOwl:hasExactSynonym xml:lang="en">garden pea</oboInOwl:hasExactSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317566">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411176">
+        <oboInOwl:hasSynonym xml:lang="en">black cumin</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411379">
         <rdfs:comment xml:lang="en">Field corn is a general term used in North America for corn varieties other than sweet corn, popcorn, yellow food grade corn used for yellow corn meal or flour and corn starch, and white food-grade corn used for white meal or flour and corn starch. Source: https://en.wikipedia.org/wiki/Field_corn</rdfs:comment>
