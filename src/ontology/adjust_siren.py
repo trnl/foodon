@@ -27,9 +27,9 @@ with open('imports/siren_labels.txt', "r") as lookup_handle:
 		siren_lookup[id] = label
 
 
-with (open('imports/siren_augment.owl.old', 'w')) as output_handle:
+with (open('imports/siren_augment.owl', 'w')) as output_handle:
 
-	with open('imports/siren_augment.owl', "r") as ins:
+	with open('imports/siren_augment.owl.old.txt', "r") as ins:
 
 		for line in ins:
 			# this substitutes line's URI reference with textual value
