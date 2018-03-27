@@ -118,7 +118,7 @@
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400361"/>
         <oboInOwl:hasDbXref>LANGUAL:A0001</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when no product type is evident from the food product name, e.g., &apos;artificially sweetened food&apos;, &apos;food with herbs added&apos;, etc. [FDA CFSAN 1995]</rdfs:comment>
-        <rdfs:label xml:lang="en">product type, not known</rdfs:label>
+        <rdfs:label xml:lang="en">product type, not known (deprecated)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2615,7 +2615,7 @@ Examples include younger emmental, cheddar, compté, edam, gouda, blue cheese.</
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A0313</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">semisoft cheese (codex)</rdfs:label>
+        <rdfs:label xml:lang="en">semisoft cheese (codex) (deprecated)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -14006,7 +14006,7 @@ In Europe, a supplement containing 2 or more vitamins and minerals is defined as
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A1325</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">dietary supplement, combination, other</rdfs:label>
+        <rdfs:label xml:lang="en">dietary supplement, combination, other (deprecated)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -14061,7 +14061,7 @@ Fibre supplements are widely available, and can be found in forms such as powder
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A1329</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">dietary supplement, not specified</rdfs:label>
+        <rdfs:label xml:lang="en">dietary supplement, not specified (deprecated)</rdfs:label>
     </owl:Class>
     
 

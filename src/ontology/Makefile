@@ -36,7 +36,15 @@ prepare_release: all
 
 #Annotates foodon.owl ( $(ONT).owl ) file with release
 $(ONT).owl: $(SRC)
-	$(ROBOT) reduce -i $< -r ELK -s true annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT) reduce -i $< -r ELK -s true annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o "$@"
+
+# Merge ontology and imports into one file 	
+	$(ROBOT) merge --input $(ONT).owl --output $(ONT)-merged.owl
+	sed -i '.bak' 's/<owl:imports[^>]*\/>/<!-- & -->/' $(ONT)-merged.owl
+
+# Make a file that provides labels for each term in ontology.
+# Note: may want to include langual_deprecated_import.owl
+#	robot query --format TSV --input foodon-merged.owl -s owl_get_labels.sparql foodon-labels.tsv
 
 # ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
 # ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro 

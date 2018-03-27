@@ -616,11 +616,16 @@ class Langual(object):
                 if entity['status'] == 'deprecated':
                     owl_entry += '\t<owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>\n'
                     # ready for release
-                    owl_entry += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>\n' 
+                    #owl_entry += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>\n' 
 
                 # Anything marked as 'draft' status is written as 'requires discussion'
                 elif entity['status'] == 'draft': 
                     owl_entry += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>\n'
+
+                # Anything marked as 'draft' status is written as 'requires discussion'
+                elif entity['status'] == 'import': 
+                    # ready for release
+                    owl_entry += '\t<obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>\n' 
 
             # Langual is adding information to a 3rd party CHEBI/UBERON/ etc. term
             elif definition > '':
