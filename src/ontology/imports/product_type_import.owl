@@ -113,7 +113,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400001">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400361"/>
         <oboInOwl:hasDbXref>LANGUAL:A0001</oboInOwl:hasDbXref>
@@ -2610,7 +2609,6 @@ Examples include younger emmental, cheddar, compté, edam, gouda, blue cheese.</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400313">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Cheese having between 61-69% moisture on a fat- free basis (Codex Alimentarius Standard A-6, Volume XVI, Ed. 1).</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A0313</oboInOwl:hasDbXref>
@@ -2735,7 +2733,7 @@ Examples include younger emmental, cheddar, compté, edam, gouda, blue cheese.</
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A0323</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">food additives</rdfs:label>
+        <rdfs:label xml:lang="en">food additive regulatory classification</rdfs:label>
     </owl:Class>
     
 
@@ -14003,7 +14001,6 @@ In Europe, a supplement containing 2 or more vitamins and minerals is defined as
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03401325">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A1325</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">dietary supplement, combination, other (deprecated)</rdfs:label>
@@ -14058,7 +14055,6 @@ Fibre supplements are widely available, and can be found in forms such as powder
     <!-- http://purl.obolibrary.org/obo/FOODON_03401329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03401329">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:A1329</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">dietary supplement, not specified (deprecated)</rdfs:label>

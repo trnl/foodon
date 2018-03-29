@@ -47,6 +47,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -291,7 +297,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411619">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Duplicate entry.</obo:IAO_0000115>
+        <obo:IAO_0000231 xml:lang="en">Duplicate entry.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1619</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
@@ -341,10 +347,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411779">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Duplicate entry of *YELLOWTAIL [B1779]*.
-&lt;SCISYN&gt;Seriola dorsalis (Gill, 1863)</obo:IAO_0000115>
+        <obo:IAO_0000231 xml:lang="en">Duplicate entry of *YELLOWTAIL [B1779]*.
+&lt;SCISYN&gt;Seriola dorsalis (Gill, 1863)</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411779"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03411534</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:B1779</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">california yellowtail (deprecated)</rdfs:label>
@@ -371,7 +377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411953">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Descriptor inactivated due to duplication.</obo:IAO_0000115>
+        <obo:IAO_0000231 xml:lang="en">Descriptor inactivated due to duplication.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1953</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
@@ -686,15 +692,8 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414352">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Descriptor inactivated due to duplication.
-
-
-
-
-&lt;SCINAM&gt;Aframomum melegueta K.Schum. [EuroFIR-NETTOX 2007 4]
-
-&lt;DICTION&gt;$i$Aframomum melegueta$/i$ is a species in the ginger family, $i$Zingiberaceae$/i$. This spice, commonly known as grains of paradise, melegueta pepper, alligator pepper, Guinea grains or Guinea pepper, is obtained from the ground seeds; it gives a pungent, peppery flavour.[http://en.wikipedia.org/wiki/Aframomum_melegueta]</obo:IAO_0000115>
         <obo:IAO_0000119>WIKIPEDIA:Aframomum_melegueta</obo:IAO_0000119>
+        <obo:IAO_0000231 xml:lang="en">Descriptor inactivated due to duplication.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B4352</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
