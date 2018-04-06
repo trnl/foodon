@@ -466,29 +466,7 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_83163 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83163">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_60004"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002291"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420271"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411378"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mixture of sugar (fructose, glucose, sucrose) and carbohydrate components that is a by-product from sugar refinery.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">molasses</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:C0207</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL term definition: Liquid product remaining after crystallization of sugar from sugar syrup; most molasses is made from sugar cane.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molasses</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83163"/>
     
 
 
@@ -698,19 +676,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001170 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001170">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411329"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001216">
@@ -719,28 +684,11 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001222 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001222">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F1113</oboInOwl:hasDbXref>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001263">
         <rdfs:label xml:lang="en">bu-du</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001273 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
-    </rdf:Description>
     
 
 
@@ -756,42 +704,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001291 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001291">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001293"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411331"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001292 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001292">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001292"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411224"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
     </rdf:Description>
     
 
@@ -1416,6 +1328,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002020 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002020">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001057"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411270"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002097 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002097">
@@ -1992,13 +1922,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002426 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002426">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412474"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">arugula, (Eruca sativa) is an edible annual plant, also known as rocket salad, rucola, rucoli, rugula, colewort, and roquette.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
@@ -2010,13 +1933,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002427">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413747"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Mizuna (ミズナ（水菜）, &quot;water greens&quot;), is a cultivated crop plant from the species Brassica juncea var. japonica a dark green, serrated leafed plant</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
@@ -2032,7 +1948,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002428">
-        <rdfs:label xml:lang="en">bean product (multi-component product)</rdfs:label>
+        <rdfs:label xml:lang="en">bean multi-component food product</rdfs:label>
     </owl:Class>
     
 
@@ -2182,6 +2098,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002450"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
+        <rdfs:label xml:lang="en">invertebrate food source</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_0002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_0002000"/>
@@ -2298,19 +2229,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301024 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301024">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001301"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03304509"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03301132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301132"/>
@@ -2341,20 +2259,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301579 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301579">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412069"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301647">
@@ -2364,28 +2268,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F1647</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">driking water (purified)</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301710 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310788"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301716 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301716">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001273"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
-    </rdf:Description>
     
 
 
@@ -2527,14 +2409,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303387 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303387">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03303573 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303573">
@@ -2546,22 +2420,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03303710 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303710"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303884 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303884">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001222"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002306"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317294"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-    </rdf:Description>
     
 
 
@@ -2718,14 +2576,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306127 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310789"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03306137 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306137">
@@ -2803,19 +2653,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307309 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307309">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001301"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315575"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03307315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307315"/>
@@ -2850,25 +2687,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03307932 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307932">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315025"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307932"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03307933 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307933">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315025"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307933"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03307934 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307934">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315025"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307934"/>
     
 
 
@@ -2969,14 +2800,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310161 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003030"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03310257 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310257">
@@ -3044,13 +2867,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03310789 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310789">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002143"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420200"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Salad greens are leaf vegetables that are served raw in a salad.</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </owl:Class>
@@ -3070,6 +2886,25 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311698">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315106 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002071"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430150"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
+    </rdf:Description>
     
 
 
@@ -3240,48 +3075,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317279 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317279">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001222"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317294"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317281 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001222"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317282 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001222"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03317624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317624"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03317646 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317646">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001007"/>
-    </rdf:Description>
     
 
 
@@ -3492,7 +3288,8 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411564">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:GENEPIO_0001763>order=
-obolibrary:FOODON_03411297 # animal
+obolibrary:FOODON_03411297 # vertebrate 
+obolibrary:FOODON_00002452 # invertebrate
 obolibrary:FOODON_03411347 # plant
 obolibrary:FOODON_03411301 # algae
 obolibrary:FOODON_03411261 # fungae
@@ -3630,7 +3427,7 @@ obolibrary:FOODON_03412974 # liquid</obo:GENEPIO_0001763>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411564"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411297"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411624"/>
@@ -3640,6 +3437,7 @@ obolibrary:FOODON_03412974 # liquid</obo:GENEPIO_0001763>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411297"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3468</oboInOwl:hasDbXref>
@@ -15520,24 +15318,6 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PO_0030110 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030110">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030108"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002225"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411599"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000022">
@@ -16049,6 +15829,16 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001076">
         <obo:IAO_0000115 xml:lang="en">Sake is a fermented rice beverage resulting from the fermentation of rice with the mold Aspergillus oryzae and, in parallel, with the yeast Saccharomyces cerevisiae [wikipedia:sake]</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001151">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A citrus fruit is botanically classified as a type of berry called a hesperidium that has a thick, leathery rind, with numerous oil glands, and a large flesh portion composed of several wedge-shaped sections. Unlike pome fruit, such as the apple, the citrus fruit is derived from a superior ovary, an ovary completely separate from the calyx.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001154">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Citrullus lanatus is a plant species in the family Cucurbitaceae, a vine-like (scrambler and trailer) flowering plant originally from sub-Saharan Africa. It is cultivated for its fruit. The subdivision of this species into two varieties, watermelons (Citrullus lanatus (Thunb.) var. lanatus) and citron melons (Citrullus lanatus var. citroides (L. H. Bailey) Mansf.)</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001180">
         <obo:IAO_0000115 xml:lang="en">Food product that is 1) ready or nearly ready for consumption; 2) usually a composite of several foods or ingredients that often belong to distinct product types; 3) usually formulated, mixed and partially or fully cooked.</obo:IAO_0000115>
     </rdf:Description>
@@ -16065,6 +15855,10 @@ moth bean (Ph. aconitifolius);
 tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <rdfs:comment xml:lang="en">FAO notes: &quot;Only species of Phaseolus should be included, though several countries also include certain types of beans. Commonly classified as Vigna (angularis, mungo, radiata, aconitifolia). In the past, these species were also classified as Phaseolus.&quot;</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001222">
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F1113</oboInOwl:hasDbXref>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001223">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -16079,6 +15873,14 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03411254</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03411268</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03411338</oboInOwl:hasNarrowSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001288">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Cantaloupe (also known as muskmelon (India and the United States), mushmelon, rockmelon (in Australian states and in New Zealand), sweet melon, spanspek (South Africa), or capuchin (Scotland) refers to a variety of the Cucumis melo species in the Cucurbitaceae family.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001560">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -16098,6 +15900,18 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001730">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <oboInOwl:hasSynonym xml:lang="en">Common chicory is also known as blue daisy, blue dandelion, blue sailors, blue weed, bunk, coffeeweed, cornflower, hendibeh, horseweed, ragged sailors, succory, wild bachelor&apos;s buttons, and wild endive.[10] (Note: &quot;Cornflower&quot; is commonly applied to Centaurea cyanus.) Common names for varieties of var. foliosum include endive, radicchio, radichetta, Belgian endive, French endive, red endive, sugarloaf, and witloof (or witlof).</oboInOwl:hasSynonym>
+        <obo:IAO_0000115 xml:lang="en">Common chicory, Cichorium intybus, is a somewhat woody, perennial herbaceous plant of the dandelion family Asteraceae, usually with bright blue flowers, rarely white or pink.</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001730"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Common chicory, Cichorium intybus, is a somewhat woody, perennial herbaceous plant of the dandelion family Asteraceae, usually with bright blue flowers, rarely white or pink.</owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chicory</rdfs:comment>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001793">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -16167,12 +15981,6 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115 xml:lang="en">In China, the usual term doujiang (lit. &quot;[soy]bean broth&quot;) is used for the traditional watery and beany beverage produced as a by-product of the production of tofu.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002261"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">In China, the usual term doujiang (lit. &quot;[soy]bean broth&quot;) is used for the traditional watery and beany beverage produced as a by-product of the production of tofu.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Soy_milk</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002332">
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03301444</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -16237,8 +16045,8 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301316">
-        <owl:deprecated xml:lang="en">true</owl:deprecated>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03316937</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301328">
         <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Perhaps add distinction that this mineral water is extracted from source, to distinguish from parent &apos;mineral water food product&apos;?</rdfs:comment>
@@ -16474,9 +16282,6 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315100">
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115>Caramel mass is caramel in a semi-liquid form.</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
-        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315155">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
