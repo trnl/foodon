@@ -202,6 +202,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16646 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16966 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16966">
@@ -282,7 +290,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">polysaccharide</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -329,8 +336,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_25140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23652"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dextrin in which the D-glucose units are linked by alpha-(1-&gt;4) glycosidic bonds.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">maltodextrin</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -427,7 +434,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50699">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420152"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound in which monosaccharide units are joined by glycosidic linkages. The term is commonly used to refer to a defined structure as opposed to a polymer of unspecified length or a homologous mixture. When the linkages are of other types the compounds are regarded as oligosaccharide analogues.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">oligosaccharide</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -1240,21 +1246,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001585 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001585">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001587"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002060"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001624 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001624">
@@ -1346,21 +1337,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002097 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002097">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002060"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002099"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00002101 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002101">
@@ -1372,21 +1348,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411344"/>
                     </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002106 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002106">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002060"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002107"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -1848,7 +1809,10 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002417 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002417"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002417">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Note that this class doesn&apos;t commit to whether or not apple has been peeled.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -1856,7 +1820,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002418">
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">canned food product</rdfs:label>
+        <rdfs:label xml:lang="en">food (canned)</rdfs:label>
     </owl:Class>
     
 
@@ -2109,6 +2073,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
         <rdfs:label xml:lang="en">invertebrate food source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002453">
+        <rdfs:label xml:lang="en">apple (fresh)</rdfs:label>
     </owl:Class>
     
 
@@ -2889,25 +2861,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315106 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002071"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430150"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03315125 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315125">
@@ -2969,20 +2922,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03316521 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316521">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430116"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302007"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315615"/>
     </rdf:Description>
     
@@ -3991,12 +3930,11 @@ Renamed from *SEED OR KERNEL, SKIN PRESENT, GERM PRESENT* in LanguaL 2008.</rdfs
     <!-- http://purl.obolibrary.org/obo/FOODON_03420152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420280"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
         <obo:IAO_0000115 xml:lang="en">Extract, concentrate or isolate high in sugar, oligosaccharide or polysaccharide.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0152</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">carbohydrate</rdfs:label>
+        <rdfs:label xml:lang="en">carbohydrate extract, concentrate, or isolate</rdfs:label>
     </owl:Class>
     
 
@@ -5039,11 +4977,12 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03420280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000231 xml:lang="en">Overly broad term.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0280</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">carbohydrate or related compound</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -12196,7 +12135,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <oboInOwl:hasDbXref>LANGUAL:M0204</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">canister</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">canned (packed in a can)</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">can</rdfs:label>
+        <rdfs:label xml:lang="en">can (container)</rdfs:label>
     </owl:Class>
     
 
@@ -15756,13 +15695,10 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0036016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420271"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sweet viscid material elaborated out of the nectar of flowers in the honey sac of various bees.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">honey</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0188</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL term definition: A sweet viscous material produced by bees from nectar or aphid secretions. Contains primarily fructose and dextrose.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">honey</rdfs:label>
     </owl:Class>
     
 
@@ -15953,6 +15889,13 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">common pea vegetable food product</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 xml:lang="en">A food product derived from the common pea (also known as the garden or field pea).</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001858">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001859</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001859">
+        <oboInOwl:hasExactSynonym xml:lang="en">linseed food product</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001872">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">This is a working folder that holds LanguaL SIREN database product types that need to be reviewed for placement within the food product hierarchy.</obo:IAO_0000115>
@@ -16141,6 +16084,9 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03316813</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306424">
+        <oboInOwl:hasExactSynonym xml:lang="en">linseed meal</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307070">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
@@ -16186,6 +16132,10 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309988">
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03411232</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310156">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03306424</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310636">
@@ -16282,6 +16232,9 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315100">
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115>Caramel mass is caramel in a semi-liquid form.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
+        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315155">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
