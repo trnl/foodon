@@ -1223,24 +1223,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002101 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002101">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001158"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411344"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00002165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002165">
@@ -1966,6 +1948,27 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002458"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001640"/>
+        <rdfs:label xml:lang="en">red currant food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002460"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_0002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_0002000"/>
@@ -2253,14 +2256,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03304694 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03304694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03305373"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03304731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304731"/>
@@ -2316,14 +2311,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03305374 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305374">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03305373"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03305378 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305378"/>
@@ -2373,12 +2360,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306051">
         <obo:IAO_0000115 xml:lang="en">Copra is the dried meat or kernel of the coconut, which is the fruit of the coconut palm.</obo:IAO_0000115>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_03306051"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Copra is the dried meat or kernel of the coconut, which is the fruit of the coconut palm.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Copra</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -3125,23 +3106,18 @@ obolibrary:FOODON_03412974 # liquid</obo:GENEPIO_0001763>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03413468">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411297"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411624"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411625"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411624"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411625"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411297"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000231 xml:lang="en">Disjunction discouraged, use specific item instead.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3468</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">This term has been kept from a general LanguaL category, but may be phased out in the future.</rdfs:comment>
-        <rdfs:label xml:lang="en">amphibian or reptile as food source</rdfs:label>
+        <rdfs:label xml:lang="en">amphibian or reptile as food source (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -15870,6 +15846,10 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03301811</obo:IAO_0100001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306009">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03306173</obo:IAO_0100001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306299">
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03316813</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -15886,12 +15866,6 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307566">
         <obo:IAO_0000115 xml:lang="en">Plantation white, or mill white, sugar is a white sugar commonly produced for local consumption in sugarcane-growing countries. It is produced at the factory without remelting and refining of the raw sugar.</obo:IAO_0000115>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307566"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Plantation white, or mill white, sugar is a white sugar commonly produced for local consumption in sugarcane-growing countries. It is produced at the factory without remelting and refining of the raw sugar.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/topic/plantation-white-sugar</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307903">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
@@ -16148,12 +16122,6 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316757">
         <obo:IAO_0000115 xml:lang="en">Soft sugar is made by blending carefully sieved granulated sugar with a specific invert sugar syrup.</obo:IAO_0000115>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_03316757"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">Soft sugar is made by blending carefully sieved granulated sugar with a specific invert sugar syrup.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.suikerunie.com/Soft-sugar</obo:IAO_0000119>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316771">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Breakfast cocoa is the food prepared by pulverizing the residual material remaining after part of the cocoa butter has been removed from ground cocoa nibs, containing not less than 22% of cocoa butter determined by the method specified. Breakfast cocoa may be spiced, flavored or seasoned with one or more ingredients.</obo:IAO_0000115>
