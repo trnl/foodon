@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-08/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-09/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -399,6 +399,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30911 -->
 
     <owl:Class rdf:about="&obo;CHEBI_30911">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_17634"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24583"/>
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03412972"/>
         <obo:IAO_0000118 xml:lang="en">sorbitol</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">sorbitol as food source</obo:IAO_0000118>
@@ -804,6 +806,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_03307912"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">noa mai</rdfs:label>
     </owl:Class>
     
@@ -819,6 +827,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 <owl:someValuesFrom rdf:resource="&obo;FOODON_03307912"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Needs to be disambiguated from noa mai.</rdfs:comment>
         <rdfs:label xml:lang="en">noa mai dong</rdfs:label>
     </owl:Class>
@@ -829,6 +843,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00001319">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pak kard dong</rdfs:label>
     </owl:Class>
     
@@ -838,6 +858,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00001320">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pak kum dong</rdfs:label>
     </owl:Class>
     
@@ -847,6 +873,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00001321">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pak sean dong</rdfs:label>
     </owl:Class>
     
@@ -856,6 +888,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00001322">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pak sean and hua plee dong</rdfs:label>
     </owl:Class>
     
@@ -865,6 +903,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00001323">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03310784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ebi.ac.uk/ancestro/ancestro_0308"/>
+                <owl:someValuesFrom rdf:resource="&obo;GAZ_00003744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">pak sean and makhua dong</rdfs:label>
     </owl:Class>
     
@@ -5466,6 +5510,12 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;FOODON_03430137">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03430115"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_00000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0137</oboInOwl:hasDbXref>
