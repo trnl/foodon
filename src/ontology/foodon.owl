@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-09/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-16/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -47,6 +47,11 @@
         <owl:imports rdf:resource="&obo;foodon/imports/eo_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/foodon_product_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
+        <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <dc:date rdf:datatype="&xsd;date">2018-04-16</dc:date>
+        <dc:title xml:lang="en">Food Ontology</dc:title>
+        <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
     </owl:Ontology>
     
 
@@ -502,91 +507,6 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00000000 -->
 
     <owl:Class rdf:about="&obo;FOODON_00000000">
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000658"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03400361"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03411564"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03430113"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03440011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03450002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03460111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03470107"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03480020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03490100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03500010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03510032"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03510136"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03520010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03530005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The FoodOn food ontology is a controlled vocabulary that currently covers human food raw ingredients, food products and product types. It will develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. FoodOn will also grow to encompass food-chains and natural ecosystems involving other animals and plants. It is built to interoperate with the OBO Library family of ontologies.
 
@@ -1921,6 +1841,36 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002460 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002460"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002461 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002461"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002462 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002462">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03450026"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Pan frying is a form of frying characterized by the use of minimal cooking oil or fat (compared to shallow frying or deep frying); typically using just enough oil to lubricate the pan. ... A pan fry takes place at lower heat than does a sauté.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">pan frying</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_00002462"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Pan frying is a form of frying characterized by the use of minimal cooking oil or fat (compared to shallow frying or deep frying); typically using just enough oil to lubricate the pan. ... A pan fry takes place at lower heat than does a sauté.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Pan_frying</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002463 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002463"/>
     
 
 
@@ -6504,7 +6454,8 @@ Parenteral preparations are sterile, pyrogen-free liquids (solutions, emulsions,
         <obo:IAO_0000115 xml:lang="en">Cooking in a very small amount of very hot fat, turning and browning the food on all sides.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:G0027</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sauteing</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">sauteing</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">sautéing</rdfs:label>
     </owl:Class>
     
 
@@ -9549,18 +9500,13 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470107 -->
 
     <owl:Class rdf:about="&obo;FOODON_03470107">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002233"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00002403"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="&obo;FOODON_00002403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The methods contributing to the prevention or retardation of microbial, enzymatic or oxidative spoilage and thus to the extension of shelf life. Index all methods for which information is available, even if a corresponding descriptor has already been used in *H. TREATMENT APPLIED*. Preservation descriptors refer to the finished food as a whole with these exceptions: (1) if the components of a multi-component food, such as cream pie, are preservation by different methods, index all methods; (2)  if chemical preservatives are declared on the label, always index them even if it is known that the preservative was introduced through or is only present in a component or ingredient of the food; and (3) if the preservation method for an ingredient is declared on the label (such as brie cheese made from pasteurized milk) index it. Also use *INGREDIENT preservation by THERMAL PROCESSING* or *INGREDIENT preservation by IRRADIATION* when ingredients have been pasteurized, ultrapasteurized, sterilized or irradiated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -15750,6 +15696,9 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="&obo;FOODON_03304776">
         <obo:IAO_0000115 xml:lang="en">Stew peas is a Jamaican stew dish prepared using coconut milk, gungo peas (pigeon peas) or red peas (kidney beans), uncured meats and salted meats such as pork and beef as primary ingredients.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Stew_peas</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03304840">
+        <oboInOwl:hasExactSynonym>egg albumen food product</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03305040">
         <obo:IAO_0000115 xml:lang="en">Candied fruit, also known as crystallized fruit or glacé fruit, has existed since the 14th century. Whole fruit, smaller pieces of fruit, or pieces of peel, are placed in heated sugar syrup, which absorbs the moisture from within the fruit and eventually preserves it.</obo:IAO_0000115>
