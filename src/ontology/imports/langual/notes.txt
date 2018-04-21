@@ -1,11 +1,12 @@
 
 """ TAXONOMY NOTES
 
+
 Taxonomy roles in LanguaL VS NCBI (NCBITaxon#_taxonomic_rank , relation: ncbitaxon#has_rank)
 LanguaL code                    NCBI_Taxon_
                                 superkingdom
-               Kingdom          kingdom 
-               Subkingdom       subkingdom
+SCIKING        Kingdom          kingdom 
+SCISUBKING     Subkingdom       subkingdom
                Infrakingdom
                Superdivision    superphylum     * division/phylum merged (Botany division = plant)
 SCIDIV         Division         phylum          * division -> phylum in NCBI 
@@ -15,7 +16,7 @@ SCIPHY         Phylum
 SCISUBPHY      Subphylum        subphylum
 SCISUPCLASS                     superclass 
 SCICLASS       Class            class
-                                subclass
+SCISUBCLAS                      subclass
 SCIINFCLASS                     infraclass
                Superorder       superorder
 SCIORD         Order            order

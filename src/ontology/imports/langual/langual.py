@@ -96,11 +96,42 @@ class Langual(object):
 
         self.plant_terms = ['USED','FRUIT','TREE','PLANT','BUSH','FAMILY','SPECIES','VEGETABLE','(VEGETABLE)','CULTIVARS']
 
-        # Lookup table to convert LanguaL to NCBITaxon codes; typos are: SCISUNFAM, SCITRI,
-        self.ranklookup = OrderedDict([('SCIDIV','phylum'), ('SCIPHY','phylum'), ('SCISUBPHY','subphylum'), ( 'SCISUPCLASS','superclass'), ( 'SCICLASS','class'), ( 'SCIINFCLASS','infraclass'), ( 'SCIORD','order'), ( 'SCISUBORD','suborder'), ( 'SCIINFORD','infraorder'), ( 'SCISUPFAM','superfamily'), ( 'SCIFAM','family'), ( 'SCISUBFAM','subfamily'), ( 'SCISUNFAM', 'subfamily'), ( 'SCITRI','tribe'), ( 'SCITRIBE','tribe'), ( 'SCIGEN','genus'), ( 'SCINAM','species'), ( 'SCISYN','species')])
+        # Lookup table to convert LanguaL to NCBITaxon codes; 
+        # typos are: SCISUNFAM, SCITRI, SUBFAM, SCINAME, SCISUBCLASS
+        self.ranklookup = OrderedDict([
+            ('SCIKING','kingdom'),
+            ('SCISUBKING', 'subkingdom'),
+            ('SCIDIV','phylum'), 
+            ('SCIPHY','phylum'), 
+            ('SCISUBPHY','subphylum'), 
+            ('SCISUPCLASS','superclass'), 
+            ('SCICLASS','class'), 
+            ('SCISUBCLAS','subclass'), 
+            ('SCISUBCLASS','subclass'), 
+            ('SCIINFCLASS','infraclass'), 
+            ('SCIORD','order'), 
+            ('SCISUBORD','suborder'), 
+            ('SCIINFORD','infraorder'), 
+            ('SCISUPFAM','superfamily'), 
+            ('SCIFAM','family'), 
+            ('SUBFAM',   'subfamily'), 
+            ('SCISUBFAM','subfamily'), 
+            ('SCISUNFAM','subfamily'), 
+            ('SCITRI','tribe'), 
+            ('SCITRIBE','tribe'), 
+            ('SCIGEN','genus'), 
+            ('SCINAME','species'), 
+            ('SCINAM','species'), 
+            ('SCISYN','species')
+        ])
         
         # See full list of www.eol.org data sources at http://eol.org/api/docs/provider_hierarchies; only using ITIS now.
-        self.EOL_providers = OrderedDict([('ITIS',903), ('INDEX FUNGORUM',596), ('Fishbase 2004',143), ('NCBI Taxonomy',1172)])
+        self.EOL_providers = OrderedDict([
+            ('ITIS',903), 
+            ('INDEX FUNGORUM',596), 
+            ('Fishbase 2004',143), 
+            ('NCBI Taxonomy',1172)
+        ])
         self.NCBITaxon_lookup = {'ITIS':[],'INDEX FUNGORUM':[] }
 
         # Text mining regular expressions
@@ -177,10 +208,6 @@ class Langual(object):
 
             # Bring in existing entity if any
             if database_id in self.database['index']:
-                #if category == 'R':
-                #    self.database['index'].pop(database_id, None)
-                #    self.database.pop(database_id, None)
-                #    continue
 
                 entity = self.database['index'][database_id]
                 # Switch terms that were previously 'draft' to 'import'; If they've been marked ignore already then this won't do anything.
@@ -241,19 +268,20 @@ class Langual(object):
             if entity['status'] == 'ignore': 
                 continue
 
+            # NOTE: LanguaL main file definitions are in english. multi-lingual import add-on is possibility later.
+            label = self.load_attribute(entity, child, 'TERM', 'label', 'en')
+
             # Enable any database item to be looked up by its FOODON assigned ontology id (which could be a CHEBI_xxxxx or other id too.)
             # A cleared out ontology id gets reassigned 
             # TEMPORARY CLEANUP :  and ('_' in entity['ontology_id'] and entity['ontology_id'][0:entity['ontology_id'].index('_')] in ['CHEBI_','FOODON_','UBERON_','NCBITaxon','GAZ','ancestro'])
-            if 'ontology_id' in entity: 
+            if 'ontology_id' in entity and database_id[0] != 'A': # TEMPORARY: TRIGGERS REDO ON FACET A
                 ontology_id = entity['ontology_id']
             else:
-                ontology_id = self.get_ontology_id(database_id)
+                ontology_id = self.get_ontology_id(database_id, label)
                 entity['ontology_id'] = ontology_id
             
             self.ontology_index[ontology_id] = entity['database_id']
 
-            # NOTE: LanguaL main file definitions are in english. multi-lingual import add-on is possibility later.
-            label = self.load_attribute(entity, child, 'TERM', 'label', 'en')
             comment = child.find('SN').text
             if comment and len(comment) > 0: # not sure why this isn't getting filtered out below.
                 self.load_attribute(entity, child, 'SN', 'comment', 'en')
@@ -403,15 +431,22 @@ class Langual(object):
 
 
     # Customized for each ontology import source database.
-    def get_ontology_id(self, database_id):
+    def get_ontology_id(self, database_id, label = ''):
         # First character of LanguaL ontology id is a letter; we convert that to an integer 0-12
         # Yields FOODON_3[40-52][0000-9999]
         # I bet D,I,O missing because they can be confused with digits in printout
         if database_id == '00000':
             return 'FOODON_03400000'
+
+        elif database_id[0] == 'A' and label[-14:] == '(EFSA FOODEX2)' and label[0:4] != 'EFSA':
+            # EFSA FOODEX2 items have been imported into LanguaL with an incrementing ID leading its label.
+            # If this is an EFSA FOODEX2 code, use FOODON_0354 prefix
+            print "Minting ", 'FOODON_0354' + label[0:4]
+            return 'FOODON_0354' + label[0:4]
         else:
             offset = 'ABCEFGHJKMNPRZ'.index(database_id[0]) 
             return 'FOODON_03' + str(40+offset) + database_id[1:5]
+        
 
 
     def load_attribute(self, entity, content, xmltag, attribute=None, language=None):
@@ -547,7 +582,7 @@ class Langual(object):
             #   F Extent of heat treatment
             # off to foodon-edit.owl because they are massively renamed and 
             # axiomatized, and also getting terms from other ontologies
-            if entityid[0] in ['C','E','G','J','H','M','P','R','F']: 
+            if entityid[0] in ['C','E','G','J','H','M','P','F']: #'R',
                 continue
 
             # BEGIN <owl:Class> 
@@ -585,7 +620,11 @@ class Langual(object):
                     # (is_a entries can reference non-FoodOn ids).
                     if self.term_import(entity['is_a'], item): 
                         # last check to see if item is still in database:
-                        if item in self.ontology_index:
+
+                        # April 20, 2018: Revised to allow FOODON references outside of langual_import
+                        # However, this let in some odd non-ontology parents until FOODON_ constraint added. 
+                        if item in self.ontology_index or item[0:7] == 'FOODON_':
+
                             if item[0:7] == 'http://':
                                 prefix = ''  
                             elif item[0:8] == 'ancestro':
@@ -1103,8 +1142,12 @@ class Langual(object):
         while len(batch_provider_ids):
             provider_ids = batch_provider_ids[0:100]
             batch_provider_ids = batch_provider_ids[100:]
+            # e.g. http://eol.org/api/search_by_provider/1.0.json?batch=true&id=96213,96327,96379,96574,97334,97698,97919,98276,982990,983108,983795,98689,99058,99140,99141&hierarchy_id=903
             url = "http://eol.org/api/search_by_provider/1.0.json?batch=true&id=%s&hierarchy_id=%s" % (','.join(provider_ids), eol_provider_id)
             eol_data = self.get_jsonparsed_data(url)
+            # e.g. [{"96213":[{"eol_page_id":7171},{"eol_page_link":"eol.org/pages/7171"}]},
+            #{"96327":[{"eol_page_id":317429},{"eol_page_link":"eol.org/pages/317429"}]},
+            #{"96379":[{"eol_page_id":1022089},{"eol_page_link":"eol.org/pages/1022089"}]}, ... ]
 
             for eol_obj in eol_data:
                 for provider_id in eol_obj:
@@ -1119,13 +1162,17 @@ class Langual(object):
         while len(batch_eol_ids):
             eol_ids = batch_eol_ids[0:100]
             batch_eol_ids = batch_eol_ids[100:]
+            # e.g. fetching  http://eol.org/api/pages/1.0.json?batch=true&id=539,45281457,630,345,3570,893180,3567,893161,3556,3559,902587,37076537,9836,893114,893131,4527,747,778,391618,4614,9839,54658,16751,699,32539,1904,206411,1874,1879,26676,1881,1901,206724,38542725,6893,204089,1289185,1229160,24696,1298089,207940,5386,5388,5157,994761,5395,8224,217197,3198,214363,204760,3197,217145,5110,13483,5086,5106,23806,205045,5091,24391,8248,208184,213899,5349,5070,211528,5126,596352,5121,5184,5204,5216,2794949,228439,5203,220743,207348,5211,23983,1000297,223369,223572,4170,37542,5271,224729,356618,5195,206965,4080,597765,211911,4517,5328,4509,37807,4519,597741,205205&subjects=overview&taxonomy=true&cache_ttl=&language=en
             url = "http://eol.org/api/pages/1.0.json?batch=true&id=%s&subjects=overview&taxonomy=true&cache_ttl=&language=en" % ','.join(eol_ids)
+            print "fetching ", url
             eol_data = self.get_jsonparsed_data(url) 
 
-            for page_obj in eol_data:
-                for eol_page_id in page_obj:
+            for eol_page_id in eol_data:
+                page_obj = eol_data[eol_page_id]
+
+                if eol_page_id in eol_provider_map:
                     provider_id = eol_provider_map[eol_page_id]
-                    for taxon_item in page_obj[eol_page_id]['taxonConcepts']:
+                    for taxon_item in page_obj['taxonConcepts']:
                         if taxon_item['nameAccordingTo'] == 'NCBI Taxonomy':
                             # track taxon rank as well as identifier so we can spot mismatches
                             # ISSUE: VERIFY: are EOL ranks different from NCBITaxon's ?
@@ -1134,6 +1181,10 @@ class Langual(object):
                             else:
                                 rank = ''
                             provider_ncbitaxon_map[provider_id] = (eol_page_id, taxon_item['sourceIdentifier'], rank )
+                else:
+                    print "Problem in getEOLNCBITaxonData() EOL Info: bad page reference: ", str(eol_page_id)
+                    print page_obj
+                    print
 
         # ADD EOL page hasDbXref cross reference for valid provider lookup.
 
@@ -1152,10 +1203,11 @@ class Langual(object):
                         # PROBLEM: EOL link will get set by upper and lower bound taxonomy set.
                         self.set_attribute_diff(entity['xrefs'], 'EOL', eol_page_id )
                     else:
-                        entity['taxon'][taxon_name]['NCBITaxon']['import'] = False
+                        if 'NCBITaxon' in entity['taxon']:
+                            entity['taxon'][taxon_name]['NCBITaxon']['import'] = False
                         entity['taxon'][taxon_name][eol_provider]['import'] = False
 
-                else:
+                elif taxon_name and taxon_name in entity['taxon']:
                     # Signal not to try lookup again
                     entity['taxon'][taxon_name]['NCBITaxon'] = {
                         "import": False,
@@ -1174,7 +1226,8 @@ class Langual(object):
                 for taxon in entity['taxon']:
                     if 'NCBITaxon' in entity['taxon'][taxon]:
                         taxobj = entity['taxon'][taxon]['NCBITaxon']
-                        spec += 'http://purl.obolibrary.org/obo/NCBITaxon_%s # %s\n' % (taxobj['value'], taxon)
+                        if taxobj['value'] != None:
+                            spec += 'http://purl.obolibrary.org/obo/NCBITaxon_%s # %s\n' % (taxobj['value'], taxon)
         
         with open('./template_ncbitaxon_ontofox.txt', 'r') as handle:
             ontofoxSpec = handle.read()
@@ -1274,10 +1327,10 @@ if __name__ == '__main__':
 
 
     # Generates LanguaL Facet A Product Type file. A few special lines of code separate out Facet A from the rest.
-    foodstruct = Langual()
-    foodstruct.__main__('langual2014.xml','./langual_facet_a.json', 'product_type_import')
+    #foodstruct = Langual()
+    #foodstruct.__main__('langual2017.xml','./langual_facet_a.json', 'product_type_import')
 
     # Generates main import file:
     foodstruct = Langual()
-    foodstruct.__main__('langual2014.xml','./database.json', 'langual_import')
+    foodstruct.__main__('langual2017.xml','./database.json', 'langual_import')
 
