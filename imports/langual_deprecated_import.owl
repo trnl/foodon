@@ -47,12 +47,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -121,10 +115,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400000">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">2014</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">2017</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:00000</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">langual thesaurus root (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">langual thesaurus root</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -137,7 +131,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B0001</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used only if so little is known about the food source that not even *ANIMAL USED AS FOOD SOURCE*, *PLANT USED AS FOOD SOURCE*, *ALGAE OR FUNGUS AS FOOD SOURCE* or *CHEMICAL FOOD SOURCE* can be assigned.</rdfs:comment>
-        <rdfs:label xml:lang="en">food source not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">food source not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -149,7 +143,11 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1000</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and swine and calf (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">beef and pork and veal</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">calf and cattle and swine</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">calf and swine and cattle</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">swine and cattle and calf</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle and swine and calf</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -161,7 +159,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1028</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">grapefruit and orange (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">orange and grapefruit</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">grapefruit and orange</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -173,7 +172,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1032</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sole, species not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">sole, species not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -185,7 +184,9 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1105</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and swine (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">beef and pork</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">swine and cattle</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle and swine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -198,7 +199,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1207</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">prune (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">prune</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -210,7 +211,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1246</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pineapple and grapefruit (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">grapefruit and pineapple</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">pineapple and grapefruit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -223,7 +225,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1321</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">mace (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">mace</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -237,7 +239,21 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1424</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">blue pike (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">blue pike</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411446">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:B1446</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">cichorium endivia</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
+        <rdfs:label xml:lang="en">escarole plant (food source)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -249,7 +265,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1525</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">peanut with other nut or seed (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">peanut with other nut or seed</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -263,7 +279,7 @@
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412375"/>
         <oboInOwl:hasDbXref>LANGUAL:B1526</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">weakfish (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">weakfish</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -275,7 +291,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1605</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pea and onion (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">onion and pea</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">pea and onion</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -287,7 +304,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1613</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pea and carrot (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">carrot and pea</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">pea and carrot</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -297,11 +315,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411619">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000231 xml:lang="en">Duplicate entry.</obo:IAO_0000231>
+        <obo:IAO_0000115 xml:lang="en">Duplicate entry.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1619</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">reindeer (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">reindeer</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -313,7 +331,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1631</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pineapple and orange (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">orange and pineapple</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">pineapple and orange</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -325,7 +344,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1680</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sugar cane and field corn (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">field corn and sugar cane</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">sugar cane and field corn</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -337,7 +357,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1709</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">orange and apricot (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">apricot and orange</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">orange and apricot</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -347,13 +368,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411779">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000231 xml:lang="en">Duplicate entry of *YELLOWTAIL [B1779]*.
-&lt;SCISYN&gt;Seriola dorsalis (Gill, 1863)</obo:IAO_0000231>
+        <obo:IAO_0000115 xml:lang="en">Duplicate entry of *YELLOWTAIL [B1779]*.
+&lt;SCISYN&gt;Seriola dorsalis (Gill, 1863)</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03411534</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411779"/>
         <oboInOwl:hasDbXref>LANGUAL:B1779</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">california yellowtail (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">california yellowtail</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -367,7 +388,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1847</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">pacific sardine (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">pacific sardine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -377,11 +398,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411953">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000231 xml:lang="en">Descriptor inactivated due to duplication.</obo:IAO_0000231>
+        <obo:IAO_0000115 xml:lang="en">Descriptor inactivated due to duplication.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B1953</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">ocean quahog (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">ocean quahog</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -393,7 +414,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2101</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sheep and goat (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">goat and sheep</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">sheep and goat</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -407,7 +429,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2201</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">panulirus rissore (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">panulirus rissore</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -419,7 +441,8 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2242</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">swine and calf (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">calf and swine</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">swine and calf</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -431,7 +454,9 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2243</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and swine and sheep (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">sheep and cattle and swine</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">swine and cattle and sheep</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle and swine and sheep</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -443,7 +468,10 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2244</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and sheep (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">cow and sheep</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sheep and cattle</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sheep and cow</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle and sheep</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -455,7 +483,10 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2245</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and goat (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">cow and goat</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">goat and cattle</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">goat and cow</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle and goat</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -467,7 +498,12 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2247</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and sheep and goat (deprecated)</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">cow and sheep and goat</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">goat and cattle and sheep</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">goat and sheep and cow</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sheep and cattle and goat</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sheep and goat and cow</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle and sheep and goat</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -481,7 +517,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2282</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">school shark (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">school shark</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -494,7 +530,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2379</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">carmine cusk-eel (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">carmine cusk-eel</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -508,7 +544,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2381</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">lutjanus silla (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">lutjanus silla</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -522,7 +558,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2387</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">zander (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">zander</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -534,7 +570,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2396</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cattle and lamb (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">cattle and lamb</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -544,10 +580,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412466">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">The snow pea (*Pisum sativum* var. *saccharatum*) is a vegetable, more specifically a variety of pea eaten whole in its pod while still unripe. The name mangetout (French for &quot;eat all&quot;) can apply both to snow peas and to snap peas. [https://en.wikipedia.org/wiki/Snow_pea]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2466</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">snow pea (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">snow pea</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -557,10 +594,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412467">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">Snap peas (*Pisum sativum* var. *macrocarpon*), also known as sugar snap peas, are a cultivar group of edible-podded peas that differ from snow peas in that their pods are round as opposed to flat. The name mangetout (French for &quot;eat all&quot;) can apply both to snap peas and snow peas. [https://en.wikipedia.org/wiki/Snap_pea]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2467</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">sugar pea, edible pod (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">sugar snap pea</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -574,7 +612,7 @@
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411814"/>
         <oboInOwl:hasDbXref>LANGUAL:B2664</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">corvina (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">corvina</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -588,7 +626,7 @@
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2700</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">eel, freshwater (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">eel, freshwater</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -598,11 +636,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412826">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Species unknown.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Wallia is an evergreen shrub or a low-branching tree with a dense crown growing up to 15 metres tall. The bark is used locally to flavour rice and to chew with cola nuts as a stimulant. The tree is sometimes grown as an ornamental. [http://tropical.theferns.info/viewtropical.php?id=Napoleonaea+vogelii]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B2826</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">belwisia (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">belwisia</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -618,7 +656,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3066</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">citric acid (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">citric acid</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -631,7 +669,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3165</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">monosodium glutamate (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">monosodium glutamate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -644,7 +682,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3206</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">potassium chloride (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">potassium chloride</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -657,7 +695,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3256</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">sodium hydrogen carbonate (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">sodium hydrogen carbonate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -670,7 +708,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B3412</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">japanese-green (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">japanese-green</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -680,9 +718,10 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414301">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">seedlings of white mustard and garden cress, used in salads [Collins English Dictionary]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B4301</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mustard and cress (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">mustard and cress</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -692,102 +731,19 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414352">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">Descriptor inactivated due to duplication.
+
+
+
+
+&lt;SCINAM&gt;Aframomum melegueta K.Schum. [EuroFIR-NETTOX 2007 4]
+
+&lt;DICTION&gt;$i$Aframomum melegueta$/i$ is a species in the ginger family, $i$Zingiberaceae$/i$. This spice, commonly known as grains of paradise, melegueta pepper, alligator pepper, Guinea grains or Guinea pepper, is obtained from the ground seeds; it gives a pungent, peppery flavour.[http://en.wikipedia.org/wiki/Aframomum_melegueta]</obo:IAO_0000115>
         <obo:IAO_0000119>WIKIPEDIA:Aframomum_melegueta</obo:IAO_0000119>
-        <obo:IAO_0000231 xml:lang="en">Descriptor inactivated due to duplication.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:B4352</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">grains-of-paradise (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420001">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:C0001</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used only in conjunction with *FOOD SOURCE NOT KNOWN*, i.e., if it is not known whether the food source is animal, plant, microorganism or chemical.</rdfs:comment>
-        <rdfs:label xml:lang="en">part of plant or animal not known (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420005">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:C0005</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used only for chemical food products.</rdfs:comment>
-        <rdfs:label xml:lang="en">part of plant or animal not applicable (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420246 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420246">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:C0246</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">ink, aquatic animal (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03430001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430001">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:E0001</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when nothing is known about the physical state, shape or form of the food product.</rdfs:comment>
-        <rdfs:label xml:lang="en">physical state, shape or form not known (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03430172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430172">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Other liquid or powder forms for ingestion in dose amounts. Other forms not represented for use as a conventional food or as a sole item of a meal or the diet.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:E0172</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">supplement form, other (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03430177 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430177">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:E0177</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when nothing is known about the form of the dietary supplement.</rdfs:comment>
-        <rdfs:label xml:lang="en">supplement form, unknown (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03440001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03440001">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:F0001</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used only when no information is available about the use of or degree of heat treatment performed.</rdfs:comment>
-        <rdfs:label xml:lang="en">extent of heat treatment not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">grains-of-paradise</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -800,7 +756,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:K0001</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when nothing is known about the packing medium, if any is present.</rdfs:comment>
-        <rdfs:label xml:lang="en">packing medium not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">packing medium not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -813,46 +769,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:K0004</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when the packing medium does not fall under any of the major categories listed.</rdfs:comment>
-        <rdfs:label xml:lang="en">packing medium, other (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03490001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03490001">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:M0001</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when it is not known what container or wrapping, if any, is present.</rdfs:comment>
-        <rdfs:label xml:lang="en">container or wrapping not known (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03490003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03490003">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:M0003</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the food product is not packaged in a container or wrapping. includes products that are coated with a thin layer of wax, e.g., fruits or vegetables, but are not further packaged.</rdfs:comment>
-        <rdfs:label xml:lang="en">no container or wrapping used (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03490004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03490004">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:M0004</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the container does not fall under any of the major types listed.</rdfs:comment>
-        <rdfs:label xml:lang="en">container or wrapping, other (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">packing medium, other</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -865,7 +782,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:N0001</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when it is not known what the food contact surface is, if any.</rdfs:comment>
-        <rdfs:label xml:lang="en">food contact surface not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">food contact surface not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -878,7 +795,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:N0003</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when the product is neither packed nor coated with a protective coating.</rdfs:comment>
-        <rdfs:label xml:lang="en">no food contact surface present (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">no food contact surface present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -891,86 +808,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:N0004</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used only if the contact surface does not fall under any of the major types listed.</rdfs:comment>
-        <rdfs:label xml:lang="en">food contact surface, other (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510001">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:P0001</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when nothing is know about the consumer group.</rdfs:comment>
-        <rdfs:label xml:lang="en">consumer group not known (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510003">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:P0003</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">consumer group not applicable (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510024">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Food produced and marketed for human use without any restriction by age.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510026"/>
-        <oboInOwl:hasDbXref>LANGUAL:P0024</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">human consumer, no age specification (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510160 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510160">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Use these descriptors when indexing food names for which label or labeling information is available. &apos;Labeling&apos; includes all labels and other written, printed or graphic material that appears on a product&apos;s container or wrapping, as well as any such material accompanying a product.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:P0160</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">label or labeling claim (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510163 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510163">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Use when the &apos;claim or use&apos; index term is derived from written, printed or graphic material that appears on a product&apos;s container or wrapping but is not a part of the food label.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:P0163</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">labeling claim (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03510258 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510258">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>LANGUAL:P0258</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">human consumer, other (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">food contact surface, other</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -982,7 +820,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:R0001</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">geographic place or region not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">geographic place or region not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -995,7 +833,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:R0199</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
-        <rdfs:label xml:lang="en">czechoslovakia (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">czechoslovakia</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1007,7 +845,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0001</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">adjunct characteristics of food not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">adjunct characteristics of food not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1019,8 +857,10 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0003</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">back meat, poultry</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">neck meat, poultry</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used only for poultry meat that comes from the back, the neck or for which the color is not known.</rdfs:comment>
-        <rdfs:label xml:lang="en">meat color, undesignated or unknown (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">meat color, undesignated or unknown</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1032,7 +872,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0018</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cut of meat not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">cut of meat not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1044,7 +884,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0019</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">grade of meat not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">grade of meat not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1056,7 +896,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0048</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cut of meat, other (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">cut of meat, other</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1068,7 +908,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0061</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">color of fish flesh not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">color of fish flesh not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1080,7 +920,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0095</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sausage casing not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">sausage casing not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1092,7 +932,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0205</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">maturity or ripeness unknown (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">maturity or ripeness unknown</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1104,7 +944,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0215</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">production environment not known (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">production environment not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1116,7 +956,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0216</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">production environment other (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">production environment other</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1129,7 +969,7 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:Z0262</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">food content range, other (deprecated)</rdfs:label>
+        <rdfs:label xml:lang="en">food content range, other</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
