@@ -2139,14 +2139,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303573 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303573">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001013"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03303710 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303710"/>
@@ -2316,21 +2308,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306441 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306441">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001041"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306766"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03306639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306639"/>
@@ -2367,22 +2344,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307125 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307125">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306854"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310437"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03306854"/>
     </rdf:Description>
     
 
@@ -2424,20 +2385,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03307934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307934"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307970 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307970">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001301"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302806"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001734"/>
-    </rdf:Description>
     
 
 
@@ -2626,21 +2573,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315125 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315125">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002107"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306766"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03315167 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315167">
@@ -2693,14 +2625,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03316168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03316168"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03316521 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316521">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315615"/>
-    </rdf:Description>
     
 
 
@@ -18413,6 +18337,9 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002118</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002169">
+        <obo:IAO_0000115 xml:lang="en">Used to add batches of food items via Protege. Particular annotations are set up and copied into new entries.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002194">
         <oboInOwl:hasNarrowSynonym xml:lang="en">southern red snapper</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">Northern red snapper</oboInOwl:hasNarrowSynonym>
@@ -18956,6 +18883,9 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412620">
         <oboInOwl:hasExactSynonym xml:lang="en">catfish</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03413066">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30769</obo:IAO_0100001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>

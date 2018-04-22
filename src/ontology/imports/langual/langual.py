@@ -608,6 +608,10 @@ class Langual(object):
 
             owl_entry += '\n\n<owl:Class rdf:about="%s">\n' % ontology_id
 
+
+            if entity['status'] == 'deprecated' and label[-12:] != '(deprecated)':
+                label += ' (deprecated)'
+
             owl_entry += '\t<%(tag)s %(language)s>%(label)s</%(tag)s>\n' % { 'label': label, 'language': labelLang, 'tag': labelTag}
 
             if entity['status'] == 'deprecated':
@@ -947,8 +951,8 @@ class Langual(object):
                         #entity['label']['locked'] = True
 
             # All plants, animals etc. have FoodOn id's and are being considered in the role of food source:
-            if entity['label']['locked'] == False and entity['label']['value'][-12:] != ' FOOD SOURCE':
-                entity['label']['value'] += ' AS FOOD SOURCE'
+            if entity['label']['locked'] == False and entity['label']['value'][-12:] != 'FOOD SOURCE)':
+                entity['label']['value'] += ' (FOOD SOURCE)'
             #   have to lock it again
                 entity['label']['locked'] = True
 
