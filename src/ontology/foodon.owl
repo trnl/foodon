@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-21/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-22/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -49,7 +49,7 @@
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <dc:date rdf:datatype="&xsd;date">2018-04-21</dc:date>
+        <dc:date rdf:datatype="&xsd;date">2018-04-22</dc:date>
         <dc:title xml:lang="en">Food Ontology</dc:title>
         <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
     </owl:Ontology>
@@ -2154,14 +2154,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303573 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03303573">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001013"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03303710 -->
 
     <owl:Class rdf:about="&obo;FOODON_03303710"/>
@@ -2331,21 +2323,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306441 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03306441">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00001041"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03306766"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03306639 -->
 
     <owl:Class rdf:about="&obo;FOODON_03306639"/>
@@ -2382,22 +2359,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307125 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03307125">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_03306854"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03310437"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03306854"/>
     </rdf:Description>
     
 
@@ -2439,20 +2400,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03307934 -->
 
     <owl:Class rdf:about="&obo;FOODON_03307934"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307970 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03307970">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;FOODON_00001301"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03302806"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001734"/>
-    </rdf:Description>
     
 
 
@@ -2641,21 +2588,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315125 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03315125">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_00002107"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03306766"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03315167 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03315167">
@@ -2708,14 +2640,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03316168 -->
 
     <owl:Class rdf:about="&obo;FOODON_03316168"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03316521 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03316521">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03315615"/>
-    </rdf:Description>
     
 
 
@@ -18421,6 +18345,9 @@ tepary bean (Ph. acutifolius)</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00002118</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_00002169">
+        <obo:IAO_0000115 xml:lang="en">Used to add batches of food items via Protege. Particular annotations are set up and copied into new entries.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00002194">
         <oboInOwl:hasNarrowSynonym xml:lang="en">southern red snapper</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">Northern red snapper</oboInOwl:hasNarrowSynonym>
@@ -18964,6 +18891,9 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03412620">
         <oboInOwl:hasExactSynonym xml:lang="en">catfish</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03413066">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/CHEBI_30769</obo:IAO_0100001>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>
