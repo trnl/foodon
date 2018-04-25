@@ -7,9 +7,9 @@ langual.py
 Author: Damion Dooley
 Project: FoodOn
 
-TO RUN: this needs "requests" module.
-Running from CONDA environment:
-source activate _test
+TO RUN: this needs "requests" module. Running from CONDA environment:
+
+    > source activate _test
 
 This script uses the LanguaL.org food description thesaurus (published yearly in XML) 
 to provide a differential update of a database.json data file.  From this the LANGUAL_import.owl
@@ -23,10 +23,16 @@ The database.json file has entities organized (the key) by LanguaL's FTC id, but
 
 This script uses FOODON ids in range of 3400000 - 3499999 imported LanguaL terms.  
 For now, Langual IDs are being coded in as FOODON_3[ 4 + (facet letter[A-Z] as 2 digit offset [00-12])][9999]
-I've allowed a direct FOODON id to LanguaL id mapping to keep open the possibility
-of importing LanguaL into the near future, and to make the cross-reference of some older LanguaL databases
-super easy.  I expect that support for this mapping will be dropped eventually. 
-I know there are other ways to do the mapping, e.g. a separate lookup table.
+We have allowed a direct FOODON id to LanguaL id mapping to keep open the possibility
+of importing a later version of LanguaL into the near future, and to make the 
+cross-reference of some older LanguaL databases easier.  Support for this mapping
+will probably be dropped eventually. 
+
+Currently with FoodEx2 hierarchy, LanguaL curators allowed codes that had 
+alphanumeric components into Langual. Each FoodEx2 term however was prefixed
+with a 5 digit numeric code (like a line number in spreadsheet), incremented by
+10 per item, and it is the first 4 digits of these that we use.  Again, a
+transitional strategy.
 
 **************************************************
 """
