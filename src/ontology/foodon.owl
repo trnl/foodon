@@ -28,7 +28,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-24/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-25/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -49,7 +49,7 @@
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <dc:date rdf:datatype="&xsd;date">2018-04-24</dc:date>
+        <dc:date rdf:datatype="&xsd;date">2018-04-25</dc:date>
         <dc:title xml:lang="en">Food Ontology</dc:title>
         <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
     </owl:Ontology>
@@ -5901,7 +5901,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0154</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">galenic formulation</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">supplement form</rdfs:label>
+        <rdfs:label xml:lang="en">food supplement form</rdfs:label>
     </owl:Class>
     
 
@@ -14487,7 +14487,6 @@ These descriptors are used either for foods intended for special dietary use as 
     <!-- http://purl.obolibrary.org/obo/FOODON_03510032 -->
 
     <owl:Class rdf:about="&obo;FOODON_03510032">
-        <rdfs:subClassOf rdf:resource="&obo;GENEPIO_0001655"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Dietary use, where the food has special characteristics, claims or uses or is intended for individuals with particular dietary needs; and label or labeling claims, used when special dietary use factor terms were derived from actual food labels. Multiple descriptors may be used from all three categories. [FDA CFSAN 1995]
 
@@ -15694,7 +15693,6 @@ Used for foods that have 33.3% fewer calories than a comparable product and a mi
 
     <owl:Class rdf:about="&obo;FOODON_03510136">
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-        <rdfs:subClassOf rdf:resource="&obo;GENEPIO_0001655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
@@ -15709,6 +15707,12 @@ Used for foods that have 33.3% fewer calories than a comparable product and a mi
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="&obo;GENEPIO_0001655"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
@@ -18146,7 +18150,7 @@ Traditional means conforming to established practice or specifications prior to 
     <!-- http://www.ebi.ac.uk/ancestro/ancestro_0004 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/ancestro/ancestro_0004">
-        <rdfs:subClassOf rdf:resource="&obo;GENEPIO_0001655"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Ancestral group exists to associate food items and recipes with particular cultures and/or geographic areas.  This hierarchy is repurposed from the Ancestry Ontology (https://www.ebi.ac.uk/ols/ontologies/ancestro).</rdfs:comment>
     </rdf:Description>
     
@@ -18967,32 +18971,6 @@ sidol</oboInOwl:hasNarrowSynonym>
             <rdf:Description rdf:about="&obo;FOODON_03530173"/>
             <rdf:Description rdf:about="&obo;FOODON_03530174"/>
             <rdf:Description rdf:about="&obo;FOODON_03530175"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;FOODON_03530178"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530179"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530180"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530181"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530182"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530183"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530184"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530185"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530186"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530187"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530188"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530189"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530190"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530191"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530192"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530193"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530194"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530195"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530196"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530197"/>
-            <rdf:Description rdf:about="&obo;FOODON_03530264"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

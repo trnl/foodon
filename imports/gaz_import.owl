@@ -37,6 +37,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002350 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002350"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -336,6 +353,25 @@
     <!-- http://purl.obolibrary.org/obo/GAZ_02000610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_02000610"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001655"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/ancestro/ancestro_0004 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/ancestro/ancestro_0004">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001655"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
