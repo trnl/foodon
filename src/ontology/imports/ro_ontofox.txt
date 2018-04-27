@@ -8,6 +8,8 @@ RO
 http://purl.obolibrary.org/obo/BFO_0000051 # has part
 http://purl.obolibrary.org/obo/BFO_0000054 # part of
 http://purl.obolibrary.org/obo/RO_0002473 # composed primarily of
+http://purl.obolibrary.org/obo/RO_0002350 # member of
+http://purl.obolibrary.org/obo/RO_0002351 # has member
 
 http://purl.obolibrary.org/obo/RO_0000086 # has quality
 http://purl.obolibrary.org/obo/RO_0000087 # has_role
@@ -44,17 +46,18 @@ http://purl.obolibrary.org/obo/RO_0002354 #     formed as a result of [process]
 #FUTURE: FOODON_00001301 # has food substance analog
 
 [Top level source term URIs and target direct superclass URIs]
-
+http://www.w3.org/2002/07/owl#topObjectProperty
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000111
-http://purl.obolibrary.org/obo/IAO_0000114
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000119
-http://purl.obolibrary.org/obo/OBI_0001886
+includeAllAxiomsRecursively
+#http://www.w3.org/2000/01/rdf-schema#label
+#http://purl.obolibrary.org/obo/IAO_0000111
+#http://purl.obolibrary.org/obo/IAO_0000114
+#http://purl.obolibrary.org/obo/IAO_0000115
+#http://purl.obolibrary.org/obo/IAO_0000119
+#http://purl.obolibrary.org/obo/OBI_0001886
 
 [Source annotation URIs to be excluded]

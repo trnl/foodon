@@ -48,6 +48,7 @@ $(ONT).owl: $(SRC)
 
 # ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
 # ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro 
+# ISSUE WITH BFO: Ontofox doesn't download disjointWith axioms????
 IMPORTS = chebi eo ncbitaxon envo obi ro uberon gaz pato po
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
 

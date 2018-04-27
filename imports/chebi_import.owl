@@ -778,17 +778,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_85046"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin C</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_22290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22290">
@@ -7921,6 +7910,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tricalcium bis(phosphate)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03413763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413763"/>
 </rdf:RDF>
 
 
