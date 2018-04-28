@@ -287,6 +287,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0020038 -->
+
+    <owl:Class rdf:about="&obo;PO_0020038">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025066"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stalk of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">petiole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0020042 -->
 
     <owl:Class rdf:about="&obo;PO_0020042">
@@ -360,6 +371,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A phyllome (PO:0006001) that is not associated with a reproductive structure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025066 -->
+
+    <owl:Class rdf:about="&obo;PO_0025066">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cardinal organ part (PO:0025001) that is elongated and sub-cylindrical to cylindrical and supports another cardinal organ part.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">stalk</rdfs:label>
     </owl:Class>
     
 

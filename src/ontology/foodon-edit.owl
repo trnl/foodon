@@ -4090,13 +4090,14 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03420200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">The flat or fleshy expanded blade (lamina) including a small and insignificant leafstalk but excluding a large and fleshy leafstalk such as celery stalks or rhubarb stalks.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PO_0025034</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:C0200</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: If the part indexed consists of a large leafstalk and a leaf blade, use *PLANT ABOVE SURFACE, EXCLUDING FRUIT OR SEED*. Compare *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
-        <rdfs:label xml:lang="en">leaf</rdfs:label>
+        <rdfs:label xml:lang="en">leaf (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5048,12 +5049,13 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03420304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420304">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420200"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">Leafstalk, the slender, usually cylindrical portion of a leaf, which supports the blade and is attached to the stem (Source: Webster&apos;s)</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PO_0020038</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:C0304</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">petiole</rdfs:label>
+        <rdfs:label xml:lang="en">petiole (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -17641,6 +17643,18 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420144"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>LANGUAL:C0200</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: If the part indexed consists of a large leafstalk and a leaf blade, use *PLANT ABOVE SURFACE, EXCLUDING FRUIT OR SEED*. Compare *STEM, STALK (WITHOUT LEAVES)*.</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL definition: The flat or fleshy expanded blade (lamina) including a small and insignificant leafstalk but excluding a large and fleshy leafstalk such as celery stalks or rhubarb stalks.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000022">
@@ -18930,6 +18944,10 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03520521">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03520231</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0020038">
+        <oboInOwl:hasDbXref>LANGUAL:C0304</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL definition: Leafstalk, the slender, usually cylindrical portion of a leaf, which supports the blade and is attached to the stem (Source: Webster&apos;s)</rdfs:comment>
     </rdf:Description>
     
 
