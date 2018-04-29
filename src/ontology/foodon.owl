@@ -30,7 +30,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-27/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-29/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -52,9 +52,9 @@
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <dc:date rdf:datatype="&xsd;date">2018-04-27</dc:date>
         <dc:title xml:lang="en">Food Ontology</dc:title>
         <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
+        <dc:date rdf:datatype="&xsd;date">2018-04-29</dc:date>
     </owl:Ontology>
     
 
@@ -129,6 +129,25 @@
             <rdf:Description rdf:about="&obo;RO_0001000"/>
         </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has ingredient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0002470 -->
+
+    <owl:ObjectProperty rdf:about="&obo;GENEPIO_0002470">
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002180"/>
+        <rdfs:label xml:lang="en">has categorical specification of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001927 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0001927">
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a value specification and an entity which the specification is about.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">specifies value of</rdfs:label>
     </owl:ObjectProperty>
     
 
