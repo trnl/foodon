@@ -1546,11 +1546,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002421 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301128"/>
-        <oboInOwl:hasExactSynonym>camembert-blue cheese</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">cambozola cheese</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002421"/>
     
 
 
@@ -1573,11 +1569,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002424 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002424">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001130"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301128"/>
-        <rdfs:label xml:lang="en">roquefort cheese</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002424"/>
     
 
 
@@ -2026,7 +2018,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000115 xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F1647</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">driking water (purified)</rdfs:label>
+        <rdfs:label xml:lang="en">drinking water (purified)</rdfs:label>
     </owl:Class>
     
 
@@ -17591,6 +17583,38 @@ Traditional means conforming to established practice or specifications prior to 
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8782">
         <oboInOwl:hasSynonym xml:lang="en">avian</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001929 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001931 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002138 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002139 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
     </rdf:Description>
     
 

@@ -30,7 +30,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-29/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-30/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -52,9 +52,9 @@
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <dc:date rdf:datatype="&xsd;date">2018-04-30</dc:date>
         <dc:title xml:lang="en">Food Ontology</dc:title>
         <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
-        <dc:date rdf:datatype="&xsd;date">2018-04-29</dc:date>
     </owl:Ontology>
     
 
@@ -1562,11 +1562,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002421 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002421">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03301128"/>
-        <oboInOwl:hasExactSynonym>camembert-blue cheese</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">cambozola cheese</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002421"/>
     
 
 
@@ -1589,11 +1585,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002424 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002424">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001130"/>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03301128"/>
-        <rdfs:label xml:lang="en">roquefort cheese</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002424"/>
     
 
 
@@ -2042,7 +2034,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000115 xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F1647</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">driking water (purified)</rdfs:label>
+        <rdfs:label xml:lang="en">drinking water (purified)</rdfs:label>
     </owl:Class>
     
 
@@ -17600,6 +17592,38 @@ Traditional means conforming to established practice or specifications prior to 
 
     <rdf:Description rdf:about="&obo;NCBITaxon_8782">
         <oboInOwl:hasSynonym xml:lang="en">avian</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001929 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0001929">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001931"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001931 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0001931">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001933"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002138 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0002138">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001931"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002139 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0002139">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001933"/>
     </rdf:Description>
     
 
