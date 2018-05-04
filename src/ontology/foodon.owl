@@ -5235,13 +5235,13 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430103 -->
 
     <owl:Class rdf:about="&obo;FOODON_03430103">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002454"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0103</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">liquid, very thick</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used for liquid food products that are very thick but still pourable.</rdfs:comment>
-        <rdfs:label xml:lang="en">semiliquid</rdfs:label>
+        <rdfs:label xml:lang="en">food (semiliquid)</rdfs:label>
     </owl:Class>
     
 
@@ -5538,29 +5538,13 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430130 -->
 
     <owl:Class rdf:about="&obo;FOODON_03430130">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;FOODON_03430102"/>
-                            <rdf:Description rdf:about="&obo;FOODON_03430109"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;PATO_0001548"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002454"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A state of matter between a solid and a gas, in which a substance has the capacity to flow and conforms to the shape of the container. Liquids range from water to honey, corresponding to a range in viscosity (or apparent viscosity) from 1 to 500 centipoise (viscosity is a measure of a liquid&apos;s resistance to flow). Products that are pourable but have a higher viscosity are *SEMILIQUID*.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0130</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">fluid</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">liquid</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid)</rdfs:label>
     </owl:Class>
     
 
@@ -5734,8 +5718,9 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430144 -->
 
     <owl:Class rdf:about="&obo;FOODON_03430144">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002454"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Quasi-Solid, or, semisolid is the physical term for something whose state lies between a solid and a liquid.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0144</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">plastic (state)</oboInOwl:hasSynonym>
@@ -5744,8 +5729,14 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasSynonym xml:lang="en">slush</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">thixotropic (state)</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used for soft food products that are formable or spreadable but not pourable. The product may be smooth or contain discrete particles.</rdfs:comment>
-        <rdfs:label xml:lang="en">semisolid</rdfs:label>
+        <rdfs:label xml:lang="en">food (semisolid)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_03430144"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Quasi-Solid, or, semisolid is the physical term for something whose state lies between a solid and a liquid.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Quasi-solid</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -5854,17 +5845,23 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <owl:Class rdf:about="&obo;FOODON_03430151">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002454"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002454"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A solid product is a hard or soft product capable of retaining its own shape at room temperature (20 degrees C.). A soft product that is spreadable or formable is considered semisolid.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0151</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">solid</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">solid</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">food (solid)</rdfs:label>
     </owl:Class>
     
 
@@ -5908,7 +5905,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430154 -->
 
     <owl:Class rdf:about="&obo;FOODON_03430154">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Food supplements are generally marketed in dose form designed to be taken in measured small unit quantities, such as pill, capsule, tablet, powder or liquid.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -5929,7 +5926,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasDbXref>LANGUAL:E0155</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">caplet</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">pill</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">tablet</rdfs:label>
+        <rdfs:label xml:lang="en">edible tablet</rdfs:label>
     </owl:Class>
     
 
@@ -5981,7 +5978,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0159</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">encapsulated</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">capsule</rdfs:label>
+        <rdfs:label xml:lang="en">edible capsule</rdfs:label>
     </owl:Class>
     
 
@@ -5994,9 +5991,9 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">Traditionally hard gelatin capsules have been used for enclosure of powders or other solid substances like granules and pellets. Recently pastes and oils have also been filled in hard gelatin capsules. [http://www.pharmpedia.com/Hard_Gelatin_Capsules]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0160</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">hard gelatin capsules</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">gel cap</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: If appropriate, gelatin-free hard-shelled capsules can also be indexed with VEGAN/VEGETARIAN OR SUITABILITY FOR VEGAN/VEGETARIAN CLAIM OR USE [P0199] and/or KOSHER CLAIM OR USE [P0127].</rdfs:comment>
-        <rdfs:label xml:lang="en">gel cap</rdfs:label>
+        <rdfs:label xml:lang="en">hard gelatin capsule</rdfs:label>
     </owl:Class>
     
 
@@ -6009,7 +6006,8 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">Soft-shelled capsules are primarily used for oils and for active ingredients that are dissolved or suspended in oil. [Wikipedia]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0161</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">softgel capsule</rdfs:label>
+        <oboInOwl:hasSynonym xml:lang="en">softgel capsule</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">soft gelatin capsule</rdfs:label>
     </owl:Class>
     
 
@@ -6023,7 +6021,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0162</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">sachet</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">powder</rdfs:label>
+        <rdfs:label xml:lang="en">food supplement powder</rdfs:label>
     </owl:Class>
     
 
@@ -6036,7 +6034,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0163</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Use to index granules for oral solution.</rdfs:comment>
-        <rdfs:label xml:lang="en">granules</rdfs:label>
+        <rdfs:label xml:lang="en">food supplement granules</rdfs:label>
     </owl:Class>
     
 
@@ -6048,7 +6046,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0164</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">bar</rdfs:label>
+        <rdfs:label xml:lang="en">edible bar</rdfs:label>
     </owl:Class>
     
 
@@ -6157,7 +6155,7 @@ Parenteral preparations are sterile, pyrogen-free liquids (solutions, emulsions,
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0173</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">wafer</rdfs:label>
+        <rdfs:label xml:lang="en">edible wafer</rdfs:label>
     </owl:Class>
     
 
@@ -6184,7 +6182,7 @@ Parenteral preparations are sterile, pyrogen-free liquids (solutions, emulsions,
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0175</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">gel</rdfs:label>
+        <rdfs:label xml:lang="en">edible gel</rdfs:label>
     </owl:Class>
     
 
@@ -18996,6 +18994,12 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03520521">
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03520231</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03530049">
+        <rdfs:label xml:lang="en">meat, poultry or fish physical quality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03530268">
+        <rdfs:label xml:lang="en">food plant physical quality</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;PO_0020038">
         <oboInOwl:hasDbXref>LANGUAL:C0304</oboInOwl:hasDbXref>
