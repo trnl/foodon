@@ -30,7 +30,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-04-30/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-05-04/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/obi_import.owl"/>
@@ -52,7 +52,7 @@
         <owl:imports rdf:resource="&obo;foodon/imports/product_type_import.owl"/>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <dc:date rdf:datatype="&xsd;date">2018-04-30</dc:date>
+        <dc:date rdf:datatype="&xsd;date">2018-05-04</dc:date>
         <dc:title xml:lang="en">Food Ontology</dc:title>
         <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
     </owl:Ontology>
@@ -1787,7 +1787,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00002452">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03411564"/>
-        <rdfs:label xml:lang="en">invertebrate food source</rdfs:label>
+        <rdfs:label xml:lang="en">invertebrate (food source)</rdfs:label>
     </owl:Class>
     
 
@@ -17640,7 +17640,7 @@ Traditional means conforming to established practice or specifications prior to 
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
 
     <rdf:Description rdf:about="&obo;PATO_0000001">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000020"/>
     </rdf:Description>
     
 
