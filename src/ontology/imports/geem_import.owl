@@ -609,19 +609,11 @@
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0001655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001655">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001605"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A categorical tree specification datum is a categorical value specification which takes its value from the ontology URI identifier of any one of its subclass items; these may be organized in a hierarchy.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">A categorical tree specification datum may have its own URI identifier as its value. This could be interpreted to mean that the datum was recorded but that no particular categorical subclass distinction was observed. This in effect makes the datum act as a boolean variable.</rdfs:comment>
-        <rdfs:label xml:lang="en">categorical tree specification</rdfs:label>
+        <rdfs:label xml:lang="en">categorical tree specification (deprecated)</rdfs:label>
     </owl:Class>
     
 
