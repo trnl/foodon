@@ -1936,10 +1936,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1959,10 +1962,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6690"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6690"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6690"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1982,10 +1988,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85552"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85552"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85552"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2005,10 +2014,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29960"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29960"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29960"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
