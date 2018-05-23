@@ -18075,12 +18075,6 @@ Traditional means conforming to established practice or specifications prior to 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007379"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <owl:disjointWith>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -18144,12 +18138,6 @@ Traditional means conforming to established practice or specifications prior to 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420194"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <owl:disjointWith>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
