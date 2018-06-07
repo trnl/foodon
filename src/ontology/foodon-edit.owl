@@ -30,6 +30,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/hp_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl"/>
@@ -1902,6 +1903,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:label xml:lang="en">biscuit (hard) food product</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301884"/>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.collinsdictionary.com/word-lists/biscuit-biscuits</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002487">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A food product that derives from the jujube fruit, an edible oval drupe.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">jujube fruit (food product)</rdfs:label>
     </owl:Class>
     
 
@@ -5097,8 +5110,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03420300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430102"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The liquid part of a plant, fruit, or vegetable (Source: Webster&apos;s)</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -5288,13 +5299,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430102">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001693"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430130"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430109"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A liquid that flows slowly at room temperature. Examples are: some heavy liqueurs, evaporated milk, vegetable oil, molasses and honey. The range of high viscosity liquids spans sucrose solutions between 45 and 70% solids (viscosity range from 10 to 500 centipoise). Prefer &apos;solid pieces&apos; factor term to &apos;small particles&apos; if both appear in the food.</obo:IAO_0000115>
@@ -5400,13 +5404,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430109">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001694"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430130"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A liquid that flows very easily at room temperature. Examples are: water, apple juice, sherry, acidophilus milk, whipping cream and some heavy liqueurs. The range of low viscosity liquid spans sucrose solutions between 0 and 45% solids (viscosity range from 1 to 10 centipoise). Prefer &apos;solid pieces&apos; factor term to &apos;small particles&apos; if both appear in the food.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -5460,11 +5457,10 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430109"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0114</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">liquid, low viscosity, with small particles</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid, low viscosity, with small particles)</rdfs:label>
     </owl:Class>
     
 
@@ -5538,11 +5534,10 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430102"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0121</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">liquid, high viscosity, with small particles</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid, high viscosity, with small particles)</rdfs:label>
     </owl:Class>
     
 
@@ -5563,11 +5558,10 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430109"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0123</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">liquid, low viscosity, with no visible particles</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid, low viscosity, with no visible particles)</rdfs:label>
     </owl:Class>
     
 
@@ -5612,7 +5606,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A state of matter between a solid and a gas, in which a substance has the capacity to flow and conforms to the shape of the container. Liquids range from water to honey, corresponding to a range in viscosity (or apparent viscosity) from 1 to 500 centipoise (viscosity is a measure of a liquid&apos;s resistance to flow). Products that are pourable but have a higher viscosity are *SEMILIQUID*.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -5709,11 +5702,10 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430102"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0138</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">liquid, high viscosity, with solid pieces</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid, high viscosity, with solid pieces)</rdfs:label>
     </owl:Class>
     
 
@@ -5721,11 +5713,10 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430139">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430102"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0139</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">liquid, high viscosity, with no visible particles</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid, high viscosity, with no visible particles)</rdfs:label>
     </owl:Class>
     
 
@@ -5887,11 +5878,10 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430109"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0149</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">liquid, low viscosity, with solid pieces</rdfs:label>
+        <rdfs:label xml:lang="en">food (liquid, low viscosity, with solid pieces)</rdfs:label>
     </owl:Class>
     
 
@@ -19013,6 +19003,9 @@ sidol</oboInOwl:hasNarrowSynonym>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03400642">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ianunwin.demon.co.uk/eurocode/docmn/ec99/ecmgintr.htm</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401270">
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecfr.gov/cgi-bin/text-idx?SID=87f720ce0d0b6c4548f4bbfd1f8e4c3d&amp;mc=true&amp;tpl=/ecfrbrowse/Title21/21chapterI.tpl</rdfs:seeAlso>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401329">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0000231>&apos;dietary supplement&apos; is now appropriate class to reference when particulars are not known.</obo:IAO_0000231>
@@ -19020,6 +19013,10 @@ sidol</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411176">
         <oboInOwl:hasSynonym xml:lang="en">black cumin</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411311">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Ziziphus jujuba, commonly called jujube; sometimes jujuba, red date, Chinese date, Korean date, or Indian date is a species of Ziziphus in the buckthorn family (Rhamnaceae).  It is a small deciduous tree or shrub, usually with thorny branches. The fruit is an edible oval drupe. The freshly harvested, as well as the candied dried fruit, are often eaten as a snack, or with coffee.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411366">
         <obo:IAO_0000115 xml:lang="en">Ceratonia siliqua, commonly known as the carob tree or carob bush, from Arabic خَرُّوبٌ (kharrūb) and Hebrew חרוב (haruv), St John&apos;s-bread, or locust bean (not to be confused with the African locust bean), or simply locust-tree, is a species of flowering evergreen shrub or tree in the pea family, Fabaceae</obo:IAO_0000115>
