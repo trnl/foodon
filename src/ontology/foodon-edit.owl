@@ -109,7 +109,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002420 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/FOODON_00002420">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -158,8 +158,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009001">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <obo:IAO_0000112 xml:lang="en">muffin &apos;has substance added&apos; some &apos;baking soda&apos;</obo:IAO_0000112>
-        <obo:IAO_0000116 xml:lang="en">The relation X &apos;has substance added&apos; some Y doesn&apos;t imply that X still has Y in any detectable fashion subsequent to the addition. Water in dehydrated food or ice cubes are examples, as is food that undergoes chemical transformation. This definition should encompass recipe ingredients.</obo:IAO_0000116>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </owl:ObjectProperty>
     
@@ -199,7 +197,6 @@
     <!-- http://purl.obolibrary.org/obo/RO_0009005 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009005">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <obo:IAO_0000112 xml:lang="en">bread &apos;has primary substance added&apos; some &apos;flour&apos;</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -1907,6 +1904,15 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002469"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <rdfs:label xml:lang="en">food object quality</rdfs:label>
+    </owl:Class>
     
 
 
@@ -5436,7 +5442,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002470"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The physical state of the food product (liquid, semiliquid, semisolid, or solid). Solid food products are further subdivided by shape or form. Terms are provided for products that have both liquid and solid components or that incorporate air or other gases. [FDA CFSAN 1995]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -5538,7 +5544,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430113"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0122</oboInOwl:hasDbXref>
@@ -5612,7 +5618,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430113"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Refers to natural or formed shape as appropriate, regardless of size, which may vary from very large (e.g., beef carcass) to very small (e.g., poppy seed, yeast cell).</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -6260,7 +6266,7 @@ Parenteral preparations are sterile, pyrogen-free liquids (solutions, emulsions,
     <!-- http://purl.obolibrary.org/obo/FOODON_03440011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03440011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002470"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Used to broadly characterize a food product based on the extent of heat applied. Heat treatment affects the flavor and textural characteristics of a food and thus consumer preparation time. Heat treatment causes chemical changes and/or reduction of enzyme and of microbial activity and thus affects food safety and shelflife. Specifics of preparation are covered by *G. COOKING METHOD* and *H. TREATMENT APPLIED*. [FDA CFSAN 1995]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -17462,7 +17468,7 @@ Traditional means conforming to established practice or specifications prior to 
     <!-- http://purl.obolibrary.org/obo/FOODON_03530218 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002470"/>
     </rdf:Description>
     
 
