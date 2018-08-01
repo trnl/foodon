@@ -18274,6 +18274,19 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
         <oboInOwl:hasSynonym xml:lang="en">food product</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001070">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUBSET_SIREN:F1971</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* has quality &apos;semisolid&apos; (http://purl.obolibrary.org/obo/FOODON_03430144)
+* has quality &apos;fully heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440014)
+* derives from &apos;seed, skin present, germ present&apos; (http://purl.obolibrary.org/obo/FOODON_03420133)
+* formed as a result of &apos;fermentation/modification process, multiple component&apos; (http://purl.obolibrary.org/obo/FOODON_03460128)
+* formed as a result of &apos;salted&apos; (http://purl.obolibrary.org/obo/FOODON_03460173)
+* formed as a result of &apos;curing or aging process&apos; (http://purl.obolibrary.org/obo/FOODON_03460253)
+* formed as a result of &apos;preservation by fermentation&apos; (http://purl.obolibrary.org/obo/FOODON_03470104)</rdfs:comment>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001242">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fao.org/WAICENT/faoinfo/economic/faodef/fdef10e.htm#1.01</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -18293,6 +18306,10 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301971">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001070</obo:IAO_0100001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
