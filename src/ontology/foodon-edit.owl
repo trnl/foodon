@@ -109,6 +109,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002420 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/FOODON_00002420">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -1392,6 +1393,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002403">
+        <oboInOwl:hasSynonym xml:lang="en">food</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">food material</rdfs:label>
     </owl:Class>
     
@@ -1733,9 +1735,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002443 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002443">
-        <rdfs:label xml:lang="en">frog food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002443"/>
     
 
 
@@ -1885,6 +1885,15 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002007"/>
+        <rdfs:label xml:lang="en">lobster meat (shell off)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002465">
@@ -1936,7 +1945,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">&quot;peeling&quot; is the process of removing the outer covering, layer or skin from (a fruit, vegetable, or shrimp).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&quot;peeling&quot; is the process of removing the outer covering, layer or skin from a fruit, vegetable, or plant or animal (such as a shrimp).</obo:IAO_0000115>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">food peeling process</rdfs:label>
     </owl:Class>
@@ -2367,9 +2376,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03305435 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305435">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305435"/>
     
 
 
@@ -2519,9 +2526,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03308013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308013"/>
     
 
 
@@ -2533,9 +2538,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03308370 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308370">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03308370"/>
     
 
 
@@ -2706,24 +2709,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03311698 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311698">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000070"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315167 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315167">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03304556"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307152"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311698"/>
     
 
 
@@ -5899,17 +5885,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03430151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430151">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002454"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">A solid product is a hard or soft product capable of retaining its own shape at room temperature (20 degrees C.). A soft product that is spreadable or formable is considered semisolid.</obo:IAO_0000115>
@@ -9099,11 +9074,12 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460368">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460371"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A stabilizer is a food additive that thickens, prevents separation, prevents flavor deterioration, retards oxidation by increasing the viscosity or gives a smooth texture to the food.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://langual.org</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:H0368</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when a stabilizer is added at any level. A stabilizer is a food additive that thickens, prevents separation, prevents flavor deterioration, retards oxidation by increasing the viscosity or gives a smooth texture to the food.</rdfs:comment>
-        <rdfs:label xml:lang="en">stabilizer added</rdfs:label>
+        <rdfs:label xml:lang="en">food stabilizer</rdfs:label>
     </owl:Class>
     
 
@@ -17925,9 +17901,9 @@ Traditional means conforming to established practice or specifications prior to 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
-        <obo:IAO_0000118 xml:lang="en">milk</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0235</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">milk</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: See scope note for *MILK OR MILK COMPONENT*. for lowfat milk use *FAT PARTIALLY REMOVED*; for skim milk, use *FAT FULLY REMOVED* (both found in D3. TREATMENT APPLIED).</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Milk is a secretion from the mammary glands of female mammals.</rdfs:comment>
         <rdfs:label xml:lang="en">milk (mammary secretion)</rdfs:label>
@@ -17968,12 +17944,9 @@ Traditional means conforming to established practice or specifications prior to 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420129"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the organ that functions to filter blood and to store red corpuscles and platelets</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">spleen</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0191</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</rdfs:label>
     </owl:Class>
     
 
@@ -18288,6 +18261,14 @@ Traditional means conforming to established practice or specifications prior to 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
+        <oboInOwl:hasSynonym xml:lang="en">food product</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001242">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fao.org/WAICENT/faoinfo/economic/faodef/fdef10e.htm#1.01</obo:IAO_0000119>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
     </rdf:Description>
@@ -18298,6 +18279,22 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306648">
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301842</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Tomalley crab fat, or lobster paste is the soft, green substance found in the body cavity of lobsters, that fulfills the functions of both the liver and the pancreas.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309823">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Shrimp_pastse</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309997">
+        <oboInOwl:hasSynonym xml:lang="en">feed</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310558">
+        <oboInOwl:hasSynonym xml:lang="en">PIF</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401270">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecfr.gov/cgi-bin/text-idx?SID=87f720ce0d0b6c4548f4bbfd1f8e4c3d&amp;mc=true&amp;tpl=/ecfrbrowse/Title21/21chapterI.tpl</rdfs:seeAlso>
