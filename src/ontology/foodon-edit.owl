@@ -1157,27 +1157,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002325 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002325">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307211"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411242"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00002328 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002328">
@@ -1499,9 +1478,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002413 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002413">
-        <rdfs:label xml:lang="en">bean flour</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002413"/>
     
 
 
@@ -1888,7 +1865,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002464">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002007"/>
         <rdfs:label xml:lang="en">lobster meat (shell off)</rdfs:label>
     </owl:Class>
     
@@ -1913,6 +1889,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301884"/>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.collinsdictionary.com/word-lists/biscuit-biscuits</rdfs:seeAlso>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002467"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002468"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002469"/>
     
 
 
@@ -2285,6 +2279,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03304287 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03304287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03306648"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03304380 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304380">
@@ -2447,6 +2449,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03306639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306639"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306648 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306648">
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301842</rdfs:seeAlso>
+    </rdf:Description>
     
 
 
@@ -18277,11 +18287,12 @@ Traditional means conforming to established practice or specifications prior to 
         <rdfs:label xml:lang="en">has substance added (deprecated)</rdfs:label>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/RO_0009001</obo:IAO_0100001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
+        <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">scampi</oboInOwl:hasSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306648">
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301842</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
