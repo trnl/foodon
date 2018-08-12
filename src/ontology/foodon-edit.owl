@@ -1230,22 +1230,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002392 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03303222"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">chinese wine</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">yellow wine</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Huangjiu</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002392"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002393 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03303222"/>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">chinese wine mash</oboInOwl:hasNarrowSynonym>
-        <rdfs:label xml:lang="en">unrefined chinese wine</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002393"/>
     
 
 
@@ -1786,7 +1777,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002453 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002453"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002453">
+        <obo:IAO_0000117 xml:lang="en">Fresh apple is apple that has not been subject to cooking or other preservation processes other than by cold storage.</obo:IAO_0000117>
+    </owl:Class>
     
 
 
@@ -1810,7 +1803,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002457 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002457"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002457">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Fresh food is food that has not been subjected to food preservation processes (including freezing) that alter its harvested state significantly.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">Wikipedia defines fresh food as:&quot;food which has not been preserved and has not spoiled yet. For vegetables and fruits, this means that they have been recently harvested and treated properly postharvest; for meat, it has recently been slaughtered and butchered; for fish, it has been recently caught or harvested and kept cold.&quot; (wikipedia:Fresh_food)</obo:IAO_0000600>
+    </owl:Class>
     
 
 
@@ -1910,8 +1908,34 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002470">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
         <rdfs:label xml:lang="en">food object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002471"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002472"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002473">
+        <obo:IAO_0000117 xml:lang="en">A whole apple is an apple harvested from an apple tree. It may include a stem.</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2059,6 +2083,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301132"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301141 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03302148"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315615"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -2951,29 +2990,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411245 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411245">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_283210"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_283210"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Apple</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">Malus pumila encompasses over 7,500 apple cultivars (https://en.wikipedia.org/wiki/List_of_apple_cultivars).</rdfs:comment>
     </rdf:Description>
     
 
@@ -7397,8 +7413,7 @@ Liquid smoke is also a common ingredient in many barbecue sauces and meat marina
     <!-- http://purl.obolibrary.org/obo/FOODON_03460146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460368"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301000</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:H0146</oboInOwl:hasDbXref>
@@ -7577,6 +7592,7 @@ Liquid smoke is also a common ingredient in many barbecue sauces and meat marina
         <oboInOwl:hasDbXref>LANGUAL:H0164</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when a protein or high-quality protein source is the second or third ingredient in order of predominance. If the nutrient content is known, *PROTEIN ADDED* should be specified when the added protein amounts to more than 10% of the total protein content.</rdfs:comment>
         <rdfs:label xml:lang="en">protein added</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03315647</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7584,13 +7600,13 @@ Liquid smoke is also a common ingredient in many barbecue sauces and meat marina
     <!-- http://purl.obolibrary.org/obo/FOODON_03460165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460164"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460368"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03315647</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:H0165</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: used when gelatin is added at any level.</rdfs:comment>
-        <rdfs:label xml:lang="en">gelatin added</rdfs:label>
+        <rdfs:label xml:lang="en">gelatin added (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9096,6 +9112,8 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:H0368</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">food stabilizer</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301000</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03315647</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -9970,7 +9988,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <oboInOwl:hasSynonym xml:lang="en">quiescent frozen</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sharp frozen</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">slush frozen</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by slow freezing</rdfs:label>
+        <rdfs:label xml:lang="en">food slow freezing process</rdfs:label>
     </owl:Class>
     
 
@@ -10026,7 +10044,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0132</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by quick freezing</rdfs:label>
+        <rdfs:label xml:lang="en">food quick freezing process</rdfs:label>
     </owl:Class>
     
 
@@ -10081,13 +10099,14 @@ The definition has been expanded, and includes most foods. Every class of food i
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002451"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">preservation by freezing a food product and keeping it at a temperature below the freezing point (20-30 degrees F) without regard to the product&apos;s physical state.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0136</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">frozen</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by freezing</rdfs:label>
+        <rdfs:label xml:lang="en">food freezing process</rdfs:label>
     </owl:Class>
     
 
@@ -10537,7 +10556,7 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <oboInOwl:hasDbXref>LANGUAL:J0171</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">frozen by refrigerating agent</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">refrigerating agent, frozen by</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by cryogenic freezing</rdfs:label>
+        <rdfs:label xml:lang="en">food cryogenic freezing process</rdfs:label>
     </owl:Class>
     
 
@@ -18298,6 +18317,10 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001256">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
     </rdf:Description>
@@ -18306,20 +18329,46 @@ Traditional means conforming to established practice or specifications prior to 
         <rdfs:label xml:lang="en">has substance added (deprecated)</rdfs:label>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/RO_0009001</obo:IAO_0100001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
         <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">scampi</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301228">
+        <obo:IAO_0000115 xml:lang="en">Wine vinegar is made from red or white wine, and is the most commonly used vinegar in Southern and Central Europe, Cyprus and Israel.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">wikipedia:vinegar</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301710">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Raw apple is apple that has not been subject to cooking or other preservation processes other than by cold storage or possibly a freezing and thawing cycle.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301971">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001070</obo:IAO_0100001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307365">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">wikipedia:vinegar</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Vinegar made from raisins, called khall ʻinab (Arabic: خل عنب‎ &quot;grape vinegar&quot;) is used in cuisines of the Middle East, and is produced there. It is cloudy and medium brown in color, with a mild flavor.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Tomalley crab fat, or lobster paste is the soft, green substance found in the body cavity of lobsters, that fulfills the functions of both the liver and the pancreas.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308376">
+        <oboInOwl:hasSynonym xml:lang="en">giant river prawn</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308820">
+        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: this is an ambiguous term that needs resolution.  Is it a species of shrimp or shrimp presented in spring water?</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309823">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Shrimp_pastse</obo:IAO_0000119>
@@ -18338,6 +18387,10 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411176">
         <oboInOwl:hasSynonym xml:lang="en">black cumin</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411245">
+        <rdfs:comment xml:lang="en">Malus pumila encompasses over 7,500 apple cultivars (https://en.wikipedia.org/wiki/List_of_apple_cultivars).</rdfs:comment>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Apple</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411311">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
