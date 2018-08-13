@@ -620,9 +620,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001216 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001216">
-        <rdfs:label xml:lang="en">cream food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001216"/>
     
 
 
@@ -638,6 +636,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">A fermentation process in which either carbohydrates, proteins or fats are modified through microbial, enzymatic and/or other biological process.</rdfs:comment>
@@ -1934,9 +1933,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002473 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002473">
-        <obo:IAO_0000117 xml:lang="en">A whole apple is an apple harvested from an apple tree. It may include a stem.</obo:IAO_0000117>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002473"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002474"/>
     
 
 
@@ -2547,9 +2550,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03307455 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307455">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307455"/>
     
 
 
@@ -2940,6 +2941,27 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
                 </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411087 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411087">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
@@ -5446,6 +5468,12 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430115"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0111</oboInOwl:hasDbXref>
@@ -5767,6 +5795,12 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430115"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0141</oboInOwl:hasDbXref>
@@ -7943,23 +7977,18 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03460207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460207">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03460141"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001868"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001868"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:H0207</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">stuffing process</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used for all filled or stuffed products, including pies and sandwiches.</rdfs:comment>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Applies to all filled or stuffed products, including pies and sandwiches.</rdfs:comment>
         <rdfs:label xml:lang="en">food filling process</rdfs:label>
     </owl:Class>
     
@@ -9664,10 +9693,13 @@ The definition has been expanded, and includes most foods. Every class of food i
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03470107</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:J0004</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used only when the preservation method does not fall under any of the major categories of preservation. Note: wax coating is considered packaging and not preservation.</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by other method</rdfs:label>
+        <rdfs:label xml:lang="en">preservation by other method (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9701,13 +9733,14 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470145"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470154"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0103</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when salting is used for preservation. The salt content of the food is generally 8% or higher (e.g. salted fish, etc.).</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by salting</rdfs:label>
+        <rdfs:label xml:lang="en">food salting process</rdfs:label>
     </owl:Class>
     
 
@@ -9716,11 +9749,13 @@ The definition has been expanded, and includes most foods. Every class of food i
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">preservation by suppressing undesirable microorganisms and enzymatic activity by the effects of fermentation.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001304</obo:IAO_0100001>
         <oboInOwl:hasDbXref>LANGUAL:J0104</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by fermentation</rdfs:label>
+        <rdfs:label xml:lang="en">preservation by fermentation (deprecated)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9728,13 +9763,14 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460141"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470145"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">In the past, smoking was a useful preservation tool, in combination with other techniques, most commonly salt-curing or drying. For some long-smoked foods, the smoking time also served to dry the food. Drying, curing, or other techniques can render the interior of foods inhospitable to bacterial life, while the smoking gives the vulnerable exterior surfaces an extra layer of protection. [Wikipedia]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0106</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when smoking is used for preservation.</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by smoking</rdfs:label>
+        <rdfs:label xml:lang="en">food smoking process</rdfs:label>
     </owl:Class>
     
 
@@ -9860,13 +9896,14 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002419"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470145"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0116</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">dried or dehydrated</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when the water activity has been lowered enough to achieve preservation. Also index *WATER REMOVED* in *H. TREATMENT APPLIED*.</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by dehydration or drying</rdfs:label>
+        <rdfs:label xml:lang="en">dehydration or drying process</rdfs:label>
     </owl:Class>
     
 
@@ -9879,7 +9916,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <obo:IAO_0000115 xml:lang="en">Drying by heat.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0117</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">peservation by heat drying</rdfs:label>
+        <rdfs:label xml:lang="en">heat drying process</rdfs:label>
     </owl:Class>
     
 
@@ -9913,12 +9950,13 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460238"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">preservation by filtering out yeasts and molds, generally followed by aseptic packaging. FDA CFSAN 1995]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0121</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by filtration</rdfs:label>
+        <rdfs:label xml:lang="en">food filtration process</rdfs:label>
     </owl:Class>
     
 
@@ -10022,17 +10060,17 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002451"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470136"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">preservation by cooling and keeping at a temperature between 30°F and 45°F (-1°C and 7°C). The temperature range depends on national legislation.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Cooling and keeping at a temperature between 30°F and 45°F (-1°C and 7°C). Regarding food preservation regulations, the temperature range depends on national legislation.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0131</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">preservation by storage in refrigeration</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">refrigerated</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">refrigeration, preservation by storage in</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">refrigeration</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Preservation methods that imply subsequent chilling are: *PASTEURIZED BY IRRADIATION*, *PASTEURIZED BY HEAT*, *preservation by CHEMICALS *, *preservation by FERMENTATION*, *SURFACE PASTEURIZED BY ULTRAVIOLET*, *preservation by STORAGE IN MODIFIED ATMOSPHERE*, *preservation by FILTRATION*.</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by chilling</rdfs:label>
+        <rdfs:label xml:lang="en">food chilling process</rdfs:label>
     </owl:Class>
     
 
@@ -10121,7 +10159,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <oboInOwl:hasDbXref>LANGUAL:J0137</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">brined</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">corned</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by brining</rdfs:label>
+        <rdfs:label xml:lang="en">food brining process</rdfs:label>
     </owl:Class>
     
 
@@ -10148,7 +10186,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0139</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">dry salted</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by dry salting</rdfs:label>
+        <rdfs:label xml:lang="en">food dry salting process</rdfs:label>
     </owl:Class>
     
 
@@ -10185,15 +10223,10 @@ The definition has been expanded, and includes most foods. Every class of food i
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470142">
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03470107"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03470131"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03470136"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03470131"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03470136"/>
+                </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
@@ -10203,7 +10236,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <oboInOwl:hasDbXref>LANGUAL:J0142</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">refrigeration, preservation by</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: In order to comply with labelling requirements, it must be specified if it is chilling or freezing.</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by chilling or freezing</rdfs:label>
+        <rdfs:label xml:lang="en">chilling or freezing process</rdfs:label>
     </owl:Class>
     
 
@@ -10301,13 +10334,13 @@ The definition has been expanded, and includes most foods. Every class of food i
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470120"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Sous-vide (pronounced /su &apos;vid/), French for &quot;under vacuum&quot;, is a method of cooking that is intended to maintain the integrity of ingredients by heating them for an extended period of time in vacuum sealed plastic pouches at relatively low temperatures. Food is cooked for a long time, sometimes well over 24 hours. Unlike cooking in a slow cooker, sous-vide cooking uses airtight plastic bags placed in hot water well below boiling point (usually around 60°C or 140°F).[Wikipedia: ]</obo:IAO_0000115>
         <obo:IAO_0000119>WIKIPEDIA:Sous-vide</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0150</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">sous vide</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by sous vide</rdfs:label>
+        <rdfs:label xml:lang="en">food sous vide cooking process</rdfs:label>
     </owl:Class>
     
 
@@ -10400,7 +10433,7 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0157</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when a product is preservation by the use of ultra-filtration to remove undesirable micro organisms and molecules. Example: beer.</rdfs:comment>
-        <rdfs:label xml:lang="en">preservation by ultra-filtration</rdfs:label>
+        <rdfs:label xml:lang="en">food ultra-filtration process</rdfs:label>
     </owl:Class>
     
 
@@ -10434,10 +10467,11 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Sterilized by holding at a high pressure, normally greater than 1000 bar. Example: Fruit juice, jam.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The process of holding food at a high pressure, normally greater than 1000 bar, which leads to sterilization. Example: Fruit juice, jam.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0160</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sterilization by ultra high pressure</rdfs:label>
+        <rdfs:label xml:lang="en">ultra high pressure sterilization process</rdfs:label>
     </owl:Class>
     
 
@@ -10555,7 +10589,6 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0171</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">frozen by refrigerating agent</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">refrigerating agent, frozen by</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">food cryogenic freezing process</rdfs:label>
     </owl:Class>
     
@@ -10565,11 +10598,13 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470131"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">preservation by storage in refrigerating agent, e.g. shipment of samples in insulated boxes with solid carbon dioxide</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">The shipment of samples in insulated boxes with solid carbon dioxide</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The process of food storage involving an accompanying refrigerating agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0172</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by storage in refrigerating agent</rdfs:label>
+        <rdfs:label xml:lang="en">food storage with refrigerating agent process</rdfs:label>
     </owl:Class>
     
 
@@ -10582,7 +10617,7 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <obo:IAO_0000115 xml:lang="en">preservation by storage in inert gases (e.g. nitrogen) to suppress or inhibit undesirable micro-organism growth, oxidation activity, etc.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0173</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by storage in inert atmosphere</rdfs:label>
+        <rdfs:label xml:lang="en">inert atmosphere storage process</rdfs:label>
     </owl:Class>
     
 
@@ -10595,7 +10630,7 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <obo:IAO_0000115 xml:lang="en">Storing under reduced pressure (e.g. 1.3-2 kPa) in order to suppress or inhibit undesirable micro organism growth, oxidation activity, etc.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0174</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by storage in vacuum</rdfs:label>
+        <rdfs:label xml:lang="en">vaccume storage process</rdfs:label>
     </owl:Class>
     
 
@@ -10603,12 +10638,14 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
     <!-- http://purl.obolibrary.org/obo/FOODON_03470175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460130"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470120"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Short time scalding to stop emzymatic activity as vegetables being prepared for freezing.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Short time scalding; this can be used to stop emzymatic activity for vegetables being prepared for freezing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0175</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by blanching</rdfs:label>
+        <rdfs:label xml:lang="en">food blanching process</rdfs:label>
     </owl:Class>
     
 
@@ -10624,7 +10661,7 @@ The process is also denominated CA Storage (synonym).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>LANGUAL:J0176</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">ca</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">ca storage</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">preservation by storage in controlled atmosphere</rdfs:label>
+        <rdfs:label xml:lang="en">controlled atmosphere storage process</rdfs:label>
     </owl:Class>
     
 
@@ -10638,7 +10675,7 @@ The process is also denominated CA Storage (synonym).</obo:IAO_0000115>
 Micro-filtration is often used instead of pateurisation, e.g. in the brewing industry.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0177</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">preservation by micro-filtration</rdfs:label>
+        <rdfs:label xml:lang="en">food micro-filtration process</rdfs:label>
     </owl:Class>
     
 
@@ -14376,7 +14413,7 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0021</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">animal food</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">animal as consumer</rdfs:label>
+        <rdfs:label xml:lang="en">animal as food consumer</rdfs:label>
     </owl:Class>
     
 
@@ -18360,6 +18397,9 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Vinegar made from raisins, called khall ʻinab (Arabic: خل عنب‎ &quot;grape vinegar&quot;) is used in cuisines of the Middle East, and is produced there. It is cloudy and medium brown in color, with a mild flavor.</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307595">
+        <obo:IAO_0000115 xml:lang="en">Apple that has been sliced and then canned.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Tomalley crab fat, or lobster paste is the soft, green substance found in the body cavity of lobsters, that fulfills the functions of both the liver and the pancreas.</obo:IAO_0000115>
@@ -18378,6 +18418,10 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310558">
         <oboInOwl:hasSynonym xml:lang="en">PIF</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316967">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03305793</obo:IAO_0100001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401270">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecfr.gov/cgi-bin/text-idx?SID=87f720ce0d0b6c4548f4bbfd1f8e4c3d&amp;mc=true&amp;tpl=/ecfrbrowse/Title21/21chapterI.tpl</rdfs:seeAlso>
