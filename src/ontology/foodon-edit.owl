@@ -1989,6 +1989,20 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002485"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002486">
+        <rdfs:label xml:lang="en">apricot (whole or parts)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002487 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002487">
@@ -1998,6 +2012,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
         <rdfs:label xml:lang="en">jujube fruit (food product)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002488"/>
     
 
 
@@ -18415,6 +18435,9 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301575">
+        <obo:IAO_0000116 xml:lang="en">Damion Dooley&apos;s note: this may be redundant. We have &apos;pome fruit&apos; in plant part branch.</obo:IAO_0000116>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301710">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
