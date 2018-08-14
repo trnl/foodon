@@ -1130,6 +1130,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002231 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002231">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400281"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002238">
@@ -1457,9 +1470,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002412 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002412">
-        <rdfs:label xml:lang="en">pie (baked, frozen)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002412"/>
     
 
 
@@ -1777,7 +1788,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002453 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002453">
-        <obo:IAO_0000117 xml:lang="en">Fresh apple is apple that has not been subject to cooking or other preservation processes other than by cold storage.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Raw apple is apple that has not been subject to cooking or other preservation processes other than by cold storage.</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1874,15 +1885,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002466 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002466">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001626"/>
-        <obo:IAO_0000115 xml:lang="en">In Commonwealth nations and Ireland, a biscuit is a small baked product that would be called either a &quot;cookie&quot; or a &quot;cracker&quot; in the United States and most of English-speaking Canada. Biscuits in the United Kingdom, the Isle of Man and Ireland are hard and may be savoury or sweet, such as chocolate biscuits, digestives, hobnobs, ginger nuts, rich tea, bourbons, and custard creams</obo:IAO_0000115>
-        <oboInOwl:hasSynonym xml:lang="en-us">cookie</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en-us">cracker</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">biscuit (hard) food product</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301884"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.collinsdictionary.com/word-lists/biscuit-biscuits</rdfs:seeAlso>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002466"/>
     
 
 
@@ -1940,6 +1943,49 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002474"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002475"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002476"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002478"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002479">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">An orange, whole or in pieces, for eating or other food processing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">orange (whole or parts)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002481"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002482">
+        <rdfs:label xml:lang="en">apple (sliced)</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2086,21 +2132,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301132"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301141 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301141">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03302148"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315615"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
     
 
 
@@ -2716,11 +2747,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03310788 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310788">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">An apple, whole or in pieces, for eating, baking or other food processing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310788"/>
     
 
 
@@ -18376,6 +18403,11 @@ Traditional means conforming to established practice or specifications prior to 
         <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">scampi</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301101">
+        <obo:IAO_0000115 xml:lang="en">Pulp wash solids resulting from orange juice extraction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://orangebook.tetrapak.com/chapter/fruit-processing</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301228">
         <obo:IAO_0000115 xml:lang="en">Wine vinegar is made from red or white wine, and is the most commonly used vinegar in Southern and Central Europe, Cyprus and Israel.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -18386,11 +18418,23 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301710">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Raw apple is apple that has not been subject to cooking or other preservation processes other than by cold storage or possibly a freezing and thawing cycle.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A whole raw apple is an apple harvested from an apple tree. It may include a stem. It has not been subject to cooking or preservation processes other than cold storage or waxing.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301971">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001070</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303559">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://orangebook.tetrapak.com/chapter/fruit-processing</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Pulp wash is the liquid stream containing juice solubles that results from washing with water of pulp from juice finishers and clarifiers. This stream may, legislation permitting, be blended with juice before concentration.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303954">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03303116</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306543">
+        <obo:IAO_0000116 xml:lang="en">Damion Dooley&apos;s note: is this a valid product type?</obo:IAO_0000116>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307365">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">wikipedia:vinegar</obo:IAO_0000119>
@@ -18413,15 +18457,25 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309823">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Shrimp_pastse</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309832">
+        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309997">
         <oboInOwl:hasSynonym xml:lang="en">feed</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310558">
         <oboInOwl:hasSynonym xml:lang="en">PIF</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Orange_(fruit)</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316967">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03305793</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317017">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Blancmange</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Blancmange (/bləˈmɒ̃ʒ/, from French blanc-manger [blɑ̃mɑ̃ʒe]) is a sweet dessert commonly made with milk or cream and sugar thickened with gelatin, cornstarch or Irish moss (a source of carrageenan), and often flavoured with almonds.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401270">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecfr.gov/cgi-bin/text-idx?SID=87f720ce0d0b6c4548f4bbfd1f8e4c3d&amp;mc=true&amp;tpl=/ecfrbrowse/Title21/21chapterI.tpl</rdfs:seeAlso>
