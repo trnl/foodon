@@ -23,7 +23,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl"/>
@@ -32,6 +31,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/hp_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/hancestro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl"/>
@@ -746,7 +746,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -767,7 +767,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -783,7 +783,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310784"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -798,7 +798,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310784"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -813,7 +813,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310784"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -828,7 +828,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310784"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -843,7 +843,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310784"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ancestro_0308"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/hancestro_0308"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2179,17 +2179,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03301498 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301498">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301498"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03301499 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301499"/>
     
 
 
@@ -2366,9 +2362,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03303907 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303907">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303907"/>
     
 
 
@@ -2388,17 +2382,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03304380 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304380">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304380"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03304381 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304381">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304381"/>
     
 
 
@@ -2489,9 +2479,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03305610 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305610">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03305610"/>
     
 
 
@@ -2607,9 +2595,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03307458 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307458"/>
     
 
 
@@ -2657,9 +2643,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03309546 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03309546">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03309546"/>
     
 
 
@@ -2759,9 +2743,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03310780 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310780">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310780"/>
     
 
 
@@ -2792,9 +2774,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03311234 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311234"/>
     
 
 
@@ -2818,9 +2798,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03315516 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315516">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315516"/>
     
 
 
@@ -2932,9 +2910,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03317580 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317580">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317580"/>
     
 
 
@@ -17633,7 +17609,7 @@ Traditional means conforming to established practice or specifications prior to 
     <!-- http://purl.obolibrary.org/obo/GAZ_00000458 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ancestro_0001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0001"/>
     </rdf:Description>
     
 
@@ -17641,7 +17617,7 @@ Traditional means conforming to established practice or specifications prior to 
     <!-- http://purl.obolibrary.org/obo/GAZ_00000460 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000460">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ancestro_0001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0001"/>
     </rdf:Description>
     
 
@@ -17649,7 +17625,7 @@ Traditional means conforming to established practice or specifications prior to 
     <!-- http://purl.obolibrary.org/obo/GAZ_00009571 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00009571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ancestro_0002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0002"/>
     </rdf:Description>
     
 
@@ -18016,10 +17992,24 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001911 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420127"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001913 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420113"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:C0235</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">milk</oboInOwl:hasSynonym>
@@ -18313,49 +18303,49 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ancestro_0001 -->
+    <!-- http://purl.obolibrary.org/obo/hancestro_0001 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ancestro_0001">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/hancestro_0001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
     </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ancestro_0002 -->
+    <!-- http://purl.obolibrary.org/obo/hancestro_0002 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ancestro_0002">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/hancestro_0002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
     </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ancestro_0003 -->
+    <!-- http://purl.obolibrary.org/obo/hancestro_0003 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ancestro_0003">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/hancestro_0003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
-        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Country exists to associate food items and recipes with particular geopolitical areas.  This hierarchy is repurposed from the Ancestry Ontology (https://www.ebi.ac.uk/ols/ontologies/ancestro).</rdfs:comment>
+        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Country exists to associate food items and recipes with particular geopolitical areas.  This hierarchy is repurposed from the Ancestry Ontology (https://www.ebi.ac.uk/ols/ontologies/hancestro).</rdfs:comment>
     </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ancestro_0004 -->
+    <!-- http://purl.obolibrary.org/obo/hancestro_0004 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ancestro_0004">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/hancestro_0004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Ancestral group exists to associate food items and recipes with particular cultures and/or geographic areas.  This hierarchy is repurposed from the Ancestry Ontology (https://www.ebi.ac.uk/ols/ontologies/ancestro).</rdfs:comment>
+        <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: Ancestral group exists to associate food items and recipes with particular cultures and/or geographic areas.  This hierarchy is repurposed from the Ancestry Ontology (https://www.ebi.ac.uk/ols/ontologies/hancestro).</rdfs:comment>
     </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ancestro_0015 -->
+    <!-- http://purl.obolibrary.org/obo/hancestro_0015 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ancestro_0015"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hancestro_0015"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ancestro_0034 -->
+    <!-- http://purl.obolibrary.org/obo/hancestro_0034 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ancestro_0034">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/hancestro_0034">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GAZ_00000458</obo:IAO_0100001>
         <rdfs:label xml:lang="en">Northern America (deprecated)</rdfs:label>

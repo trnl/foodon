@@ -153,6 +153,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000146 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000146">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality of the thermal energy of a system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">temperature</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000386 -->
 
     <owl:Class rdf:about="&obo;PATO_0000386">
@@ -359,6 +370,63 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality which inheres in a continuant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">physical object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001305 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001305">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">increased temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001306 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001306">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">decreased temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001315 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001315">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is increased by a low degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">mild increased temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001316 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001316">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is increased by a medium degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">moderate increased temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001317 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001317">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001305"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is increased by a high degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">severe increased temperature</rdfs:label>
     </owl:Class>
     
 
@@ -672,6 +740,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001985 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001985">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer&apos;s being kept below its freezing point.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">frozen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0002041 -->
 
     <owl:Class rdf:about="&obo;PATO_0002041">
@@ -815,6 +894,173 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter that remains constant throughout the extent of an entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">uniform diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045001 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045001">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045021 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045021">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001544"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A flexibility which is relatively normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal flexibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045050 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045050">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000117"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A size quality which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045052 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045052">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001595"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A depth quality which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045053 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045053">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000119"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A height which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045054 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045054">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A length quality which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045055 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045055">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001334"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045056 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045056">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002041"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045055"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anterior-posterior diameter which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal anterior-posterior diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045057 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045057">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001711"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A perimeter which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal perimeter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045058 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045058">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001648"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045057"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A circumference which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045059 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045059">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000915"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A thickness which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal thickness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045061 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045061">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A width which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045067 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045067">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0045081 -->
+
+    <owl:Class rdf:about="&obo;PATO_0045081">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">normal viscosity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
