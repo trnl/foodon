@@ -7,13 +7,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
-     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:dc11="http://purl.org/dc/elements/1.1/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:taxon="http://purl.obolibrary.org/obo/NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:dc="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/foodon/releases/2018-02-28/foodon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl"/>
@@ -37,9 +37,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl"/>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOODON</oboInOwl:default-namespace>
-        <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
-        <dct:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dct:description>
-        <dct:title xml:lang="en">Food Ontology</dct:title>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
+        <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
+        <dc:title xml:lang="en">Food Ontology</dc:title>
     </owl:Ontology>
     
 
@@ -621,6 +621,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001216"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001256 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001256">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     
 
 
@@ -17862,6 +17877,12 @@ Traditional means conforming to established practice or specifications prior to 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">organism substance</rdfs:label>
@@ -18390,10 +18411,6 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fao.org/WAICENT/faoinfo/economic/faodef/fdef10e.htm#1.01</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001256">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
