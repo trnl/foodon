@@ -624,21 +624,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001256 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001256">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400164"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001263">
@@ -1973,6 +1958,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002477"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002478"/>
@@ -1990,6 +1981,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002480"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002481"/>
@@ -2000,6 +1997,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002482">
         <rdfs:label xml:lang="en">apple (sliced)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411134"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The ricefield rat (Rattus argentiventer) is a species of rat found throughout Southeast Asia. Although not a part of staple human diet in Cambodia, a growing market has developed there with most exports going to Vietnam</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym xml:lang="en">rice-field rat</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ricefield rat (as food source)</rdfs:label>
     </owl:Class>
     
 
@@ -2178,9 +2188,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03301483 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301483">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301483"/>
     
 
 
@@ -2846,6 +2854,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03316168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03316168"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316331 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002028"/>
+    </rdf:Description>
     
 
 
@@ -7875,6 +7891,12 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460191"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03460192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460192">
@@ -8042,6 +8064,12 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
         <oboInOwl:hasDbXref>LANGUAL:H0208</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">fat substitution process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460212"/>
     
 
 
@@ -10391,7 +10419,7 @@ The definition has been expanded, and includes most foods. Every class of food i
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:J0151</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when an ingredient or a component of a food has been subjected to preservation by pasteurization, ultrapasteurization or sterilization.</rdfs:comment>
-        <rdfs:label xml:lang="en">ingredient preservation by heat treatment</rdfs:label>
+        <rdfs:label xml:lang="en">preservation of food component by heat treatment</rdfs:label>
     </owl:Class>
     
 
@@ -10483,7 +10511,7 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">LANGUAL:J0158</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pasteurized by heat after filling</rdfs:label>
+        <rdfs:label xml:lang="en">pasteurization by heat after filling</rdfs:label>
     </owl:Class>
     
 
@@ -10495,7 +10523,7 @@ Some dairy product are ultrafiltrated in order to obtain a higher protein concen
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:J0159</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pasteurized by heat before filling</rdfs:label>
+        <rdfs:label xml:lang="en">pasteurization by heat before filling</rdfs:label>
     </owl:Class>
     
 
@@ -16613,7 +16641,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0214</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used for cereals containing gluten ( i.e. wheat, rye, barley, oats, spelt, kamut or their hybridised strains) and products thereof</rdfs:comment>
-        <rdfs:label xml:lang="en">cereals containing gluten and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">cereals containing gluten and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16626,7 +16654,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0215</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">crustaceans and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">crustaceans and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16639,7 +16667,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0216</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">eggs and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">eggs and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16652,7 +16680,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0217</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">fish and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">fish and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16665,7 +16693,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0218</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">peanuts and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">peanuts and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16678,7 +16706,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0219</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">soybeans and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">soybeans and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16691,7 +16719,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0220</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">milk and products thereof (including lactose)</rdfs:label>
+        <rdfs:label xml:lang="en">milk and products thereof, including lactose (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16705,7 +16733,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0221</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used for nuts i. e. Almond (Amygdalus communis L.), Hazelnut (Corylus avellana), Walnut (Juglans regia), Cashew (Anacardium occidentale), Pecan nut (Carya illinoiesis (Wangenh.) K. Koch), Brazil nut (Bertholletia excelsa), Pistachio nut (Pistacia vera), Macadamia nut and Queensland nut (Macadamia ternifolia) and products thereof.</rdfs:comment>
-        <rdfs:label xml:lang="en">nuts and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">nuts and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16718,7 +16746,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0222</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">celery and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">celery and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16731,7 +16759,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0223</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mustard and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">mustard and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16744,7 +16772,7 @@ The European Commission is considering how foods intended specifically for peopl
         <obo:IAO_0000115 xml:lang="en">Regulated by Directive 2003/89/EC of the European Parliament and of the Council of 10 November 2003 amending Directive 2000/13/EC as regards indication of the ingredients present in foodstuffs.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0224</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">sesame seeds and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">sesame seeds and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16761,7 +16789,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0225</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used for sulphur dioxide and sulphites at concentrations of more than 10 mg/kg or 10 mg/litre expressed as SO2.</rdfs:comment>
-        <rdfs:label xml:lang="en">sulphur dioxide and sulphites</rdfs:label>
+        <rdfs:label xml:lang="en">sulphur dioxide and sulphites (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16774,7 +16802,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Allergen Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0226</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cocoa and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">cocoa and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16787,7 +16815,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0227</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">coriander and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">coriander and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16800,7 +16828,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0228</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">lupine and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">lupine and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16813,7 +16841,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0229</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">corn and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">corn and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16826,7 +16854,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0230</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pod fruits and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">pod fruits and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16839,7 +16867,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0231</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">carrot and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">carrot and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -16852,7 +16880,7 @@ Regulated by Directive 2003/89/EC of the European Parliament and of the Council 
         <obo:IAO_0000115 xml:lang="en">Contained in GS1 Code List.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:P0232</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">molluscs and products thereof</rdfs:label>
+        <rdfs:label xml:lang="en">molluscs and products thereof (labelling)</rdfs:label>
     </owl:Class>
     
 
@@ -17645,25 +17673,6 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000067"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411134"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">The ricefield rat (Rattus argentiventer) is a species of rat found throughout Southeast Asia. Although not a part of staple human diet in Cambodia, a growing market has developed there with most exports going to Vietnam</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <oboInOwl:hasExactSynonym xml:lang="en">rice-field rat</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">ricefield rat (as food source)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0001655 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001655">
@@ -18412,6 +18421,10 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001256">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
     </rdf:Description>
@@ -18425,6 +18438,9 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002044">
+        <rdfs:label xml:lang="en-us">mollusk food product</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
         <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
@@ -18498,6 +18514,10 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Orange_(fruit)</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315121">
+        <obo:IAO_0000115 xml:lang="en">A hen egg tube or &quot;long egg&quot; is a cooked cylinder having an inner core of yolk surrounded by a layer of egg white.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">long egg</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316967">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
