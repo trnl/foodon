@@ -130,10 +130,6 @@
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
         <rdfs:domain rdf:resource="&obo;FOODON_00001002"/>
         <rdfs:range rdf:resource="&obo;FOODON_00001002"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0001000"/>
-        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has ingredient</rdfs:label>
     </owl:ObjectProperty>
     
