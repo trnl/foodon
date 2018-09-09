@@ -23,7 +23,15 @@ OWLTOOLS= owltools
 # Temporarily foodon.owl and foodon_core.owl are the same.
 
 all: all_imports $(ONT).owl 
-test: all
+
+.PHONY: test
+test: reason
+
+# Run a basic reasoner to find inconsistencies
+.PHONY: reason
+reason: foodon-merged.owl
+	$(ROBOT) reason --input $< --reasoner ELK
+
 prepare_release: all 
 	cp $(ONT).owl $(RELEASEDIR) &&\
 	cp $(ONT).owl $(ONT)_core.owl &&\

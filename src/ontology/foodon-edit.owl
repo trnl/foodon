@@ -110,6 +110,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/FOODON_00002420">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -589,6 +591,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00001001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001002 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
+        <oboInOwl:hasSynonym xml:lang="en">food product</oboInOwl:hasSynonym>
+    </rdf:Description>
     
 
 
@@ -2314,21 +2324,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302762 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03302762">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001810"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307581"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03303084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303084"/>
@@ -2854,6 +2849,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03316168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03316168"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316259 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316259">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03317185</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     
 
 
@@ -9096,6 +9101,7 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460356">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03460353</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">other substance coated or covered</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -11968,8 +11974,9 @@ Micro-filtration is often used instead of pateurisation, e.g. in the brewing ind
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03490203"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03490204"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03490214"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03490215"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -17454,6 +17461,7 @@ Traditional means conforming to established practice or specifications prior to 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03510276">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">no dietary claim or use</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -18400,8 +18408,32 @@ Traditional means conforming to established practice or specifications prior to 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
-        <oboInOwl:hasSynonym xml:lang="en">food product</oboInOwl:hasSynonym>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27027">
+        <obo:GENEPIO_0000006 xml:lang="en">micronutrient role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27314">
+        <obo:GENEPIO_0000006 xml:lang="en">water-soluble vitamin role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229">
+        <obo:GENEPIO_0000006 xml:lang="en">vitamin role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232">
+        <obo:GENEPIO_0000006 xml:lang="en">application role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33284">
+        <obo:GENEPIO_0000006 xml:lang="en">nutrient role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33290">
+        <obo:GENEPIO_0000006 xml:lang="en">food role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64857">
+        <obo:GENEPIO_0000006 xml:lang="en">cosmetic role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_78295">
+        <obo:GENEPIO_0000006 xml:lang="en">food component role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_85046">
+        <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001070">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -18427,6 +18459,10 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001274">
+        <rdfs:comment xml:lang="en">Regarding American regulatory aspects of egg products, see this summary:
+https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-graphic-000077</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001560">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -18512,12 +18548,19 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310558">
         <oboInOwl:hasSynonym xml:lang="en">PIF</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311253">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03316261</obo:IAO_0100001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Orange_(fruit)</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315121">
         <obo:IAO_0000115 xml:lang="en">A hen egg tube or &quot;long egg&quot; is a cooked cylinder having an inner core of yolk surrounded by a layer of egg white.</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="en">long egg</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316258">
+        <rdfs:label xml:lang="en">dietetic food for youth and adults</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316967">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
