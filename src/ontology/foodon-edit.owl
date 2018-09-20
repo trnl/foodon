@@ -2052,6 +2052,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002490"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_0002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_0002000"/>
@@ -5624,6 +5630,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>LANGUAL:E0119</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">mashed</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">strained</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">semisolid with smooth consistency</rdfs:label>
     </owl:Class>
     
@@ -18557,6 +18564,13 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316258">
         <rdfs:label xml:lang="en">dietetic food for youth and adults</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316468">
+        <obo:IAO_0000115 xml:lang="en">A food is considered Ready-to-Eat (RTE) when it does not require any further preparation before consumption, except washing or rinsing, thawing or warming, and when it has received some form of processing such as cooking to render it RTE and/or to extend its shelf-life (not including food in a hermetically sealed container that is commercially sterile).</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316636">
+        <obo:IAO_0000115 xml:lang="en">Ready-to-serve (or ready-to-eat, RTE) foods are foods not requiring any further preparation before consumption, except perhaps washing/rinsing, thawing or warming.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://www.canada.ca/en/health-canada/services/food-nutrition/legislation-guidelines/policies/policy-listeria-monocytogenes-ready-eat-foods-2011.html#appa</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316967">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
