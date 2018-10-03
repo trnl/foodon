@@ -248,7 +248,8 @@ class Langual(object):
                     continue
 
 
-            self.set_attribute_diff(entity['xrefs'], 'LANGUAL', database_id)
+            #self.set_attribute_diff(entity['xrefs'], 'LANGUAL', database_id)
+            self.set_attribute_diff(entity['xrefs'], 'http://www.langual.org/langual_thesaurus.asp?termid=' + database_id)
 
             if not entity['status'] in ['ignore', 'deprecated']:
                 # LanguaL terms that are ACTIVE=false are by default imported as 'deprecated' 
