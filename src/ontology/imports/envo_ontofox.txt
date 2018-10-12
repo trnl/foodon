@@ -99,7 +99,11 @@ http://purl.obolibrary.org/obo/ENVO_00000016 # sea
 http://purl.obolibrary.org/obo/ENVO_00000027 # spring
 
 http://purl.obolibrary.org/obo/ENVO_00010483 # environmental material
+
 #    http://purl.obolibrary.org/obo/ edit #    animal - feed (blood meal)
+# http://purl.obolibrary.org/obo/AGRO_00000086 blood meal
+# Foodon already has blood meal though!!!!
+
 #    http://purl.obolibrary.org/obo/ edit #    animal - feed (fish meal)
 #    http://purl.obolibrary.org/obo/ edit #    animal - feed (other)
 #    http://purl.obolibrary.org/obo/ edit (not really ingredient) #    animal - feed (pet food)
@@ -107,9 +111,10 @@ http://purl.obolibrary.org/obo/ENVO_00003030 #	silage
 includeAllChildren
 
 #    http://purl.obolibrary.org/obo/     #    animal - fluid, carcass
+# http://purl.obolibrary.org/obo/UBERON_0006314 # animal - body fluid (not necessarily carcass though)
 http://purl.obolibrary.org/obo/ENVO_00003031 #    animal manure
-#    http://purl.obolibrary.org/obo/ edit #    animal manure - bovine (dairy liquid)
-#    http://purl.obolibrary.org/obo/ edit #    animal manure - composted
+http://purl.obolibrary.org/obo/ENVO_01001116 #    animal manure - bovine (dairy liquid)
+http://purl.obolibrary.org/obo/ENVO_01001119 #    animal manure - composted
 http://purl.obolibrary.org/obo/ENVO_00003884 #    animal manure - farmyard
 http://purl.obolibrary.org/obo/ENVO_00003032 #    animal manure - fresh
 http://purl.obolibrary.org/obo/ENVO_00003859 #    animal manure - horse

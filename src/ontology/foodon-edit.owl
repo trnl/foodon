@@ -2220,10 +2220,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301647">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <obo:IAO_0000115 xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <oboInOwl:hasDbXref xml:lang="en">SUBSET_SIREN:F1647</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">drinking water (purified)</rdfs:label>
     </owl:Class>
     
 
@@ -18477,6 +18473,14 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">scampi</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002340">
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F10414</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
+* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301101">
         <obo:IAO_0000115 xml:lang="en">Pulp wash solids resulting from orange juice extraction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -18539,6 +18543,10 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03309997">
         <oboInOwl:hasSynonym xml:lang="en">feed</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310414">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002340</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310558">
         <oboInOwl:hasSynonym xml:lang="en">PIF</oboInOwl:hasSynonym>
