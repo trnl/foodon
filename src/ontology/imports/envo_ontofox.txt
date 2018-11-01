@@ -17,7 +17,7 @@ http://purl.obolibrary.org/obo/ENVO_01000253 #    aquatic - freshwater - river
 http://purl.obolibrary.org/obo/ENVO_00000447 #    aquatic - marine 
 http://purl.obolibrary.org/obo/ENVO_01000048 #    aquatic - marine - ocean
 http://purl.obolibrary.org/obo/ENVO_00000446 #    terrestrial
-http://purl.obolibrary.org/obo/ENVO_01000219 #    terrestrial - anthropogenic terrestrial
+http://purl.obolibrary.org/obo/ENVO_01000219 #    terrestrial - anthropogenic terrestrial biome
 http://purl.obolibrary.org/obo/ENVO_01000248 #    terrestrial - anthropogenic - dense settlement
 http://purl.obolibrary.org/obo/ENVO_01000248 #    terrestrial - anthropogenic - dense settlement - urban
 http://purl.obolibrary.org/obo/ENVO_01000245 #    terrestrial - anthropogenic - cropland
@@ -33,6 +33,10 @@ http://purl.obolibrary.org/obo/ENVO_01000180 #    terrestrial - tundra
 
 # ENVIRONMENTAL FEATURE
 http://purl.obolibrary.org/obo/ENVO_00002297 # environmental feature
+
+http://purl.obolibrary.org/obo/ENVO_00000000 # geographic feature
+http://purl.obolibrary.org/obo/ENVO_00000063 # water body
+
 #http://purl.obolibrary.org/obo/ #    agricultural - crop
 http://purl.obolibrary.org/obo/ENVO_00003862 #    agricultural - dairy
 http://purl.obolibrary.org/obo/ENVO_00000014 # canal
@@ -55,6 +59,8 @@ http://purl.obolibrary.org/obo/ENVO_01000918 #    animal - housing - built - ope
 http://purl.obolibrary.org/obo/ENVO_00002191 #    animal - litter / bedding
 http://purl.obolibrary.org/obo/ENVO_01000922 #	  animal cage
 http://purl.obolibrary.org/obo/ENVO_01000923 #	  animal petting zoo
+
+http://purl.obolibrary.org/obo/ENVO_00003074 # manufactured product
 
 http://purl.obolibrary.org/obo/ENVO_00000073 #    building
 http://purl.obolibrary.org/obo/ENVO_01000925 # edit    building - abattoir or meat processing
@@ -98,6 +104,7 @@ http://purl.obolibrary.org/obo/ENVO_00000015 # ocean
 http://purl.obolibrary.org/obo/ENVO_00000016 # sea
 http://purl.obolibrary.org/obo/ENVO_00000027 # spring
 
+# ENVIRONMENTAL MATERIAL
 http://purl.obolibrary.org/obo/ENVO_00010483 # environmental material
 
 #    http://purl.obolibrary.org/obo/ edit #    animal - feed (blood meal)
@@ -135,6 +142,7 @@ http://purl.obolibrary.org/obo/ENVO_00005747 #    soil - compost
 http://purl.obolibrary.org/obo/ENVO_00002263 #    soil - garden
 http://purl.obolibrary.org/obo/ENVO_00002258 #    soil - loam
 
+# ENVIRONMENTAL SYSTEM
 http://purl.obolibrary.org/obo/ENVO_01000254 # environmental system
 
 # PHYSIOGRAPHIC FEATURE
@@ -155,11 +163,14 @@ http://purl.obolibrary.org/obo/ENVO_00000043 #    terrain - wetland
 http://purl.obolibrary.org/obo/ENVO_00000109 #    terrain - woodland
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://purl.obolibrary.org/obo/BFO_0000015 # process
+# don't reference BFO terms or else triggers duplicate annotations on them.
+http://purl.obolibrary.org/obo/ENVO_01000254 # environmental system
+http://purl.obolibrary.org/obo/ENVO_00010483 # environmental material
+http://purl.obolibrary.org/obo/ENVO_00002297 # environmental feature
+http://purl.obolibrary.org/obo/ENVO_01000408 # environmental zone (a site)
 
 [Source term retrieval setting]
-includeAllIntermediates
+# includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label

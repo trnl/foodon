@@ -496,10 +496,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002297 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00003064 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003064">
         <oboInOwl:hasSynonym xml:lang="en">potable water</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000254 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002577"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000408 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
     </rdf:Description>
     
 
@@ -561,9 +593,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00000075 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00000075">
-        <rdfs:label xml:lang="en">pea (whole or parts)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00000075"/>
     
 
 
@@ -1552,9 +1582,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002423 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002423">
-        <rdfs:label xml:lang="en">agave food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002423"/>
     
 
 
@@ -1575,35 +1603,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002426 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002426">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">arugula, (Eruca sativa) is an edible annual plant, also known as rocket salad, rucola, rucoli, rugula, colewort, and roquette.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">arugula greens (raw)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002426"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002427 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002427">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Mizuna (ミズナ（水菜）, &quot;water greens&quot;), is a cultivated crop plant from the species Brassica juncea var. japonica a dark green, serrated leafed plant</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <oboInOwl:hasExactSynonym>Japanese mustard greens</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>kyona</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>qian jing shui cai</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>spider mustard</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">mizuna greens (raw)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002427"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002428 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002428">
-        <rdfs:label xml:lang="en">bean multi-component food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002428"/>
     
 
 
@@ -1626,9 +1638,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002431 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002431">
-        <rdfs:label xml:lang="en">adzuki bean food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002431"/>
     
 
 
@@ -1692,7 +1702,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002441 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002441">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001248"/>
         <rdfs:label xml:lang="en">rockfish food product</rdfs:label>
     </owl:Class>
     
@@ -1700,9 +1709,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002442 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002442">
-        <rdfs:label xml:lang="en">flounder food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002442"/>
     
 
 
@@ -2012,6 +2019,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002484">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001956"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Harissa (Arabic: هريسة‎ harīsa, from Maghrebi Arabic) is a Maghrebi hot chili pepper paste, the main ingredients of which are roasted red peppers, Baklouti (بقلوطي) pepper, serrano peppers, and other hot chili peppers, spices and herbs such as garlic paste, coriander seed, saffron, rose, or caraway, as well as some vegetable or olive oil for preservation</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Harissa</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">harissa chili paste</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002485"/>
@@ -2028,13 +2048,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002487 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002487">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A food product that derives from the jujube fruit, an edible oval drupe.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">jujube fruit (food product)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002487"/>
     
 
 
@@ -2044,9 +2058,74 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002489">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001251"/>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fowl</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002490"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002491"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002492"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002493">
+        <rdfs:label xml:lang="en">sassafras food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002494"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002495"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002496"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002497"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002498"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002499"/>
     
 
 
@@ -2589,6 +2668,16 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307286 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307286">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/ENVO_00003096</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03307315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307315"/>
@@ -2763,10 +2852,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03310789 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310789">
-        <obo:IAO_0000115 xml:lang="en">Salad greens are leaf vegetables that are served raw in a salad.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310789"/>
     
 
 
@@ -3921,14 +4007,7 @@ Renamed from *SEED OR KERNEL* in LanguaL 2008.</rdfs:comment>
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420159 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420228"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">An extract, concentrate or isolate containing two or more of the following: carbohydrate, fat or oil, protein, or flavoring substance. An example would be &apos;bean curd&apos;, which contains approximately 16 g. of protein, 9 g. of fat and 4 g. of carbohydrate per 100 grams; on the other hand, &apos;sesame oil&apos; is *FAT OR OIL* even though it is highly flavored.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0159</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">multicomponent extract, concentrate or isolate</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420159"/>
     
 
 
@@ -4078,17 +4157,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420170 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A water extract prepared by simmering or steeping meat, poultry, fish, shellfish or vegetables. Seasoning may be added.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0170</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">stock</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">water extract of plant or animal</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">Langual curation note: When the major ingredient is broth or broth-based gravy the source of the broth should be indexed as the food source.</rdfs:comment>
-        <rdfs:label xml:lang="en">broth or stock</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420170"/>
     
 
 
@@ -4363,15 +4432,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420214 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A liquid enclosed by the endosperm of nuts.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0214</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">milk, nut</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">nut milk</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420214"/>
     
 
 
@@ -5170,14 +5231,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420298 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420298">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420159"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A sticky, colloidal carbohydrate found in certain trees and plants, which dries into an uncrystallised, brittle mass that dissolves or swells in water (Source: Webster&apos;s)</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0298</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">gum (plant derived substance)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420298"/>
     
 
 
@@ -5196,13 +5250,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03420300 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The liquid part of a plant, fruit, or vegetable (Source: Webster&apos;s)</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0300</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">juice (plant derived liquid)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420300"/>
     
 
 
@@ -17681,6 +17729,22 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0015979 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045333 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
@@ -18426,6 +18490,19 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_85046">
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003096">
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
+        <rdfs:comment>SIREN DB annotation:
+* has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
+* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
+        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
+        <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001070">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUBSET_SIREN:F1971</oboInOwl:hasDbXref>
@@ -18439,14 +18516,8 @@ Traditional means conforming to established practice or specifications prior to 
 * formed as a result of &apos;preservation by fermentation&apos; (http://purl.obolibrary.org/obo/FOODON_03470104)</rdfs:comment>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001242">
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fao.org/WAICENT/faoinfo/economic/faodef/fdef10e.htm#1.01</obo:IAO_0000119>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001256">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001202">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Winged_bean</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
@@ -18462,12 +18533,9 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002044">
-        <rdfs:label xml:lang="en-us">mollusk food product</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
         <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
@@ -18580,6 +18648,11 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Blancmange</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Blancmange (/bləˈmɒ̃ʒ/, from French blanc-manger [blɑ̃mɑ̃ʒe]) is a sweet dessert commonly made with milk or cream and sugar thickened with gelatin, cornstarch or Irish moss (a source of carrageenan), and often flavoured with almonds.</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317675">
+        <obo:IAO_0000115 xml:lang="en">Fish crackers are deep fried crackers made from fish and spices that serve as flavouring. The crackers also mixed with tapioca flour and/or sago flour as the main ingredients and the salt, sugar and MSG as seasonings.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fish_cracker</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401270">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecfr.gov/cgi-bin/text-idx?SID=87f720ce0d0b6c4548f4bbfd1f8e4c3d&amp;mc=true&amp;tpl=/ecfrbrowse/Title21/21chapterI.tpl</rdfs:seeAlso>
     </rdf:Description>
@@ -18613,12 +18686,19 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411567">
         <oboInOwl:hasNarrowSynonym xml:lang="en">marrow bean</oboInOwl:hasNarrowSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411726">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Winged_bean</obo:IAO_0000119>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411917">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym xml:lang="en">mahi</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412014">
         <obo:IAO_0000115 xml:lang="en">Mespilus germanica, known as the medlar or common medlar, is a large shrub or small tree, and the name of the fruit of this tree.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412473">
+        <oboInOwl:hasSynonym xml:lang="en">yellow vetchling</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">yellow pea</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412496">
         <oboInOwl:hasNarrowSynonym>Acheta domesticus</oboInOwl:hasNarrowSynonym>

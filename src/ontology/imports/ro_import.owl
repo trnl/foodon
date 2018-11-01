@@ -1651,6 +1651,20 @@ Environmental exposures include those imposed by natural environments, experimen
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002577 -->
+
+    <owl:Class rdf:about="&obo;RO_0002577">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115>A material entity consisting of multiple components that are causally integrated.</obo:IAO_0000115>
+        <obo:IAO_0000116>May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.jbiomedsem.com/content/4/1/43</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label>system</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

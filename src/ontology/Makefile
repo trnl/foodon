@@ -42,12 +42,13 @@ prepare_release: all
 	(test -f subsets/*.owl && cp subsets/*.owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
+#make
 #Annotates foodon.owl ( $(ONT).owl ) file with release
 $(ONT).owl: $(SRC)
 	$(ROBOT) reduce -i $< -r ELK -s true annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl --typed-annotation http://purl.org/dc/terms/date `date +%Y-%m-%d` xsd:date -o "$@"
 
-# Merge ontology and imports into one file 	
-	$(ROBOT) merge --input $(ONT).owl --output $(ONT)-merged.owl
+# Merge ontology and imports into one file, and commment out imports tags
+	$(ROBOT) merge --input $(ONT).owl --xml-entities --output $(ONT)-merged.owl
 	sed -i '.bak' 's/<owl:imports[^>]*\/>/<!-- & -->/' $(ONT)-merged.owl
 
 # Make a file that provides labels for each term in ontology.
@@ -59,12 +60,14 @@ $(ONT).owl: $(SRC)
 # ISSUE WITH BFO: Ontofox doesn't download disjointWith axioms????
 IMPORTS = chebi eo ncbitaxon envo obi ro uberon gaz pato po
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
+IMPORTS_TXT = $(patsubst %, imports/%_ontofox.txt,$(IMPORTS))
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
 
-# Only fetches .owl if it doesn't exist or if .txt has later timestamp.
-# All annotations are manually curated in the ontology-metadata.owl file
+# Dependency between import.owl and ontofox.txt file. Only fetches .owl if it
+# doesn't exist or if .txt has later timestamp.
+# All annotations should only exist in the ontology-metadata.owl file and bfo.owl files.
 # Because OWLAPI is erroniously parsing 1 line commented out annotations, make the "sed ..." step last.
 # On Macs we need the '.bak' after -i to avoid a parsing error; while on other linux it fails
 imports/%_import.owl: imports/%_ontofox.txt
@@ -79,6 +82,13 @@ imports/%_import.owl: imports/%_ontofox.txt
 	sed -i '.bak' 's/<owl:AnnotationProperty[^>]*\/>/<!-- & -->/; s/<\/owl:AnnotationProperty>/& -->/; s/<owl:AnnotationProperty[^>]*">/<!-- &/;' $@ ||	sed -i 's/<owl:AnnotationProperty[^>]*\/>/<!-- & -->/; s/<\/owl:AnnotationProperty>/& -->/; s/<owl:AnnotationProperty[^>]*">/<!-- &/;' $@
 
 	echo "Removed annotation definitions."
+
+
+# Any import .owl file that has a timestamp significantly later than .txt has been resaved by Protege or some other process.
+# re-apply xml entities to it
+# imports/%_import.owl: ???????
+#	$(ROBOT) reduce -i @imports/$*_import.owl -r ELK -s true --xml-entities -o @imports/$*_import.owl
+
 
 .PRECIOUS: imports/%_import.owl
 
