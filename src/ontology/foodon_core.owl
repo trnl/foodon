@@ -32,7 +32,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-11-01/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-11-29/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/langual_deprecated_import.owl"/>
@@ -56,8 +56,8 @@
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <terms:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</terms:description>
+        <terms:date rdf:datatype="&xsd;date">2018-11-29</terms:date>
         <terms:title xml:lang="en">Food Ontology</terms:title>
-        <terms:date rdf:datatype="&xsd;date">2018-11-01</terms:date>
     </owl:Ontology>
     
 
@@ -1783,6 +1783,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002451 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002451">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002233"/>
@@ -1794,6 +1795,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">food transformation process</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;FOODON_00002451"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000015"/>
+        <obo:IAO_0000232>Very strange - As of 2018/11/28, unless this annotation on the subClassOf relation exists, with Makefile, the relation is removed from foodon.owl output and &apos;food transformation process&apos; becomes parentless. Related to robot &quot;WARNING: An illegal reflective access operation has occurred&quot;???</obo:IAO_0000232>
+    </owl:Axiom>
     
 
 
@@ -9818,7 +9825,7 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470004 -->
 
     <owl:Class rdf:about="&obo;FOODON_03470004">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03470107"/>
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -9875,7 +9882,7 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470104 -->
 
     <owl:Class rdf:about="&obo;FOODON_03470104">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03470107"/>
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">preservation by suppressing undesirable microorganisms and enzymatic activity by the effects of fermentation.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001304</obo:IAO_0100001>
@@ -18506,14 +18513,15 @@ Traditional means conforming to established practice or specifications prior to 
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
         <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00001070">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SUBSET_SIREN:F1971</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">SIREN DB annotation:
 * has quality &apos;semisolid&apos; (http://purl.obolibrary.org/obo/FOODON_03430144)
 * has quality &apos;fully heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440014)
@@ -18522,7 +18530,6 @@ Traditional means conforming to established practice or specifications prior to 
 * formed as a result of &apos;salted&apos; (http://purl.obolibrary.org/obo/FOODON_03460173)
 * formed as a result of &apos;curing or aging process&apos; (http://purl.obolibrary.org/obo/FOODON_03460253)
 * formed as a result of &apos;preservation by fermentation&apos; (http://purl.obolibrary.org/obo/FOODON_03470104)</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SUBSET_SIREN:F1971</oboInOwl:hasDbXref>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00001202">
@@ -18559,8 +18566,8 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301101">
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Pulp wash solids resulting from orange juice extraction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://orangebook.tetrapak.com/chapter/fruit-processing</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301228">

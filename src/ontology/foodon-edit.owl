@@ -1778,6 +1778,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">food transformation process</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002451"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000232>Very strange - As of 2018/11/28, unless this annotation on the subClassOf relation exists, with Makefile, the relation is removed from foodon.owl output and &apos;food transformation process&apos; becomes parentless. Related to robot &quot;WARNING: An illegal reflective access operation has occurred&quot;???</obo:IAO_0000232>
+    </owl:Axiom>
     
 
 
@@ -9802,7 +9808,7 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -9859,7 +9865,7 @@ The definition has been expanded, and includes most foods. Every class of food i
     <!-- http://purl.obolibrary.org/obo/FOODON_03470104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">preservation by suppressing undesirable microorganisms and enzymatic activity by the effects of fermentation.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001304</obo:IAO_0100001>
@@ -18495,10 +18501,10 @@ Traditional means conforming to established practice or specifications prior to 
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
-        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
         <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
@@ -18533,8 +18539,8 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
