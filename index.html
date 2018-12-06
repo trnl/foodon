@@ -15,115 +15,12 @@
       <img src="docs/media/food_market.jpg" style="float:right" />
       
       <h1 class="project-name">FoodOn</h1>
-      <h2 class="project-tagline">A farm to fork food ontology</h2>
+      <h2 class="project-tagline">A field to fork food ontology</h2>
 
       <a href="https://github.com/FoodOntology/foodon" class="btn">View on GitHub</a>
     </section>
     <section class="main-content">
-      
-      <p>The need to represent knowledge about food is central to many human activities including agriculture, medicine, 
-        food safety inspection, shopping patterns, and sustainable development. 
-        <a href="https://github.com/FoodOntology/foodon">FoodOn</a> is a new ontology built to interoperate with the 
-        <a href="http://obofoundry.org" target="_blank">OBO Library</a> and to represent entities which bear a “food role”. 
-        Initially the ontology will focus on the human-centric categorization and handling of food, but in the future it will 
-        also encompass materials in natural ecosystems and food webs. We aim to develop semantics 
-        for food safety, food security, the agricultural and animal husbandry practices linked to food production, 
-        culinary, nutritional and chemical ingredients and processes.</p>
-
-      <p>The scope of FoodOn is ambitious and will require input from multiple domains. FoodOn imports material 
-        from several ontologies covering anatomy, taxonomy, geography and cultural heritage.  We aim to create content to cover 
-        gaps in the representation of food-related products and processes. This ontology is being applied to 
-        research and clinical datasets in academia and government.  We also anticipate industry uptake since agricultural
-        and consumer devices connected to the Internet of Things will require a standard food vocabulary that has a global, multilingual reach.</p>
-
-      <h3>FoodOn Content</h3>
-
-      <p><strong> We have launched the ALPHA version of FoodOn</strong>, based largely on 
-        <a href="http://langual.org" target="_blank">LanguaL</a>,
-        a descriptive food indexing system that has terms organized in facets that describe source ingredients, 
-        food preservation, cooking, consumer groups, etc. (see a great PDF presentation 
-        <a href="http://www.langual.org/download/Presentation/LanguaLpresentation%202015-10-04.pdf" target="_blank">here</a>).  
-        Food can also be linked to its cultural or geographic 
-        origin, and to its animal, plant or fungi raw ingredient taxonomy.  You can view it at the EBI
-        <a href="https://www.ebi.ac.uk/ols/ontologies/foodon" target="_blank">Ontology Lookup Service</a>.</p>
-
-      <img src="docs/media/food_design.png" />
-
-      <p> We have begun the process of creating logical definitions for a large number of food products that were introduced by
-        way of the LanguaL-indexed SIREN database (see http://www.langual.org/langual_indexed_datasets.asp). Currently these 
-        products are organized manually under the "foodon food product" facet hierarchy, but this will be transformed into
-        an inferred structure as product definitions are updated. An example of more fine-grained axiomatization is shown below,
-        where three different kinds of apple-related products are shown in relation to a food source organism (apple tree) and 
-        various food preparation and packaging processes.</p>
-      
-      <img src="docs/media/apple-diagram.png" />
-      
-      <p> FoodOn has LanguaL identifiers for references to all LanguaL food source items and other facet descriptors that FoodOn
-        has imported. However, ontology relations allow us to improve the way components and processes are represented in order 
-        to sow the benefits of automated reasoning on food product schemas. </p>
-      
-      <p>This ontology is now listed with a variety of ontology search engines and retrieval tools:</p>
-      <ul>
-        <li>National Center for Biomedical Ontology <a href="http://bioportal.bioontology.org/ontologies/FOODON" target="_blank">BioPortal</a></li>
-        <li>EMBL-EBI <a href="https://www.ebi.ac.uk/ols/ontologies/foodon" target="_blank">Ontology Lookup Service</a></li>
-        <li>He Group (University of Michigan Medical School) <a href="http://www.ontobee.org/ontology/FOODON" target="_blank">OntoBee</a></li>
-        <li>He Group <a href="http://ontofox.hegroup.org/" target="_blank">OntoFox </a></li>
-        <li>LIRMM (University of Montpellier) <a href="http://agroportal.lirmm.fr/ontologies/FOODON" target="_blank">AgroPortal</a></li>
-      </ul>
-      
-      <p> Note that as FoodOn is striving to be OBO compatible, its facets or classes are positioned within OBO's upper level ontology.</p>
-      <img src="docs/media/foodon_hierarchy_800_wide.png" />
-      
-<h3>Founding members</h3>
-<ul>
-<li><p><strong>William Hsiao</strong> and <strong>Damion Dooley</strong> (University of British Columbia Department of Pathology and Laboratory Medicine) 
-  and <strong>Fiona Brinkman</strong> and <strong>Emma Griffiths</strong> (Simon Fraser University Department of Molecular Biology and Biochemistry) 
-  are involved in the <a href="http://www.irida.ca" target="_blank">IRIDA.ca</a> project with a focus on ontology of food-borne pathogen related (genomic) epidemiology. Fiona and Emma are also involved in The Canadian 
-  Healthy Infant Longitudinal Development study (CHILD) investigation of genetic and environmental factors associated 
-  with the development of allergy and asthma.</p></li>
-<li><p><strong>Pier Luigi Buttigieg</strong> (Alfred-Wegener-Institut, Helmholtz-Zentrum für Polar- und Meeresforschung) is developing environmental ontologies
-  (<a href="https://github.com/EnvironmentOntology/envo" target="_blank">ENVO</a>) 
-  and semantics for sustainable development. These domains include the semantics of food production, security, and composition.</p></li>
-<li><p><strong>Robert Hoehndorf</strong> (King Abdullah University), a key proponent of the <a href="http://Aber-OWL.net" target="_blank">Aber-OWL.net</a> project, is researching chemical 
-  exposure with respect to diet and health.</p></li>
-<li><p><strong>Matthew Lange</strong> (UC Davis School of Medicine Department of Physical Medicine and Rehabilitation, and Initiative for Wireless Health and Wellness) spearheads the 
-  <a href="http://ic-foods.org/" target="_blank">IC<sup>3</sup>-Foods</a> consortium, with a focus on the technology and policy implications of next generation food systems.</p></li>
-<li><p>
-    <strong>Lynn Schriml</strong> (University of Maryland School of Medicine) is engaged in research on developing bioinformatic tools, metadata standards and ontologies to gain a broader 
-  understanding of the relationship between infectious pathogens, their genomic sequence and disease.
-  </p></li>
-</ul>
-
-<h3>Consortium</h3>
-
-<p>As a robust food ontology can only be created by consensus and wide adoption, we are currently forming an 
-  international, open-membership consortium to build partnerships, solicit domain expertise, and gather 
-  use cases to guide the ontology’s development. </p>
-
-<h3>Contact</h3>
-<ul>
-  <li>Join our <a href="https://groups.google.com/forum/#!forum/foodon-consortium/join" target="_blank">mailing list</a>.</li>
-  <li>Online discussion about FoodOn terms is at the <a href="https://github.com/FoodOntology/foodon/issues">issue tracker</a>.</li>
-  <li>Documentation coming soon at the <a href="https://github.com/FoodOntology/foodon/wiki">wiki page</a>: </li>
-  <li>Email us at info[at]genepio.org </li>
-</ul>
-
-<h3>Funding</h3>      
-<img src="docs/media/funders.png" alt="Genepio Funders" width="607" height="254" class="alignnone size-full wp-image-178" />
-<img src="docs/media/cihr-logo-250x156.jpg" alt="Canadian Institutes of Health Research" width="250" height="156" class="alignleft size-full wp-image-255" style="border:0" />
-<img src="docs/media/AllerGen-logo-med.png" alt="" width="250" class="aligncenter" style="margin-bottom:7px" />
-      
-
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/FoodOntology/foodon">Foodon</a> is maintained 
-          by <a href="https://github.com/FoodOntology">FoodOntology</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> 
-          using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by 
-          <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
+      <h3>The FoodOn website has moved to <a href="https://foodon.org">https://foodon.org</a>! 
     </section>
 
   
