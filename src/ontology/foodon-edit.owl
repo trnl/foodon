@@ -1798,9 +1798,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002453 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002453">
-        <obo:IAO_0000117 xml:lang="en">Raw apple is apple that has not been subject to cooking or other preservation processes other than by cold storage.</obo:IAO_0000117>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002453"/>
     
 
 
@@ -2006,9 +2004,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002482 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002482">
-        <rdfs:label xml:lang="en">apple (sliced)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002482"/>
     
 
 
@@ -2283,9 +2279,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03301497 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301497"/>
     
 
 
@@ -2904,9 +2898,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03315630 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315630">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315630"/>
     
 
 
@@ -3012,17 +3004,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03317576 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317576">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317576"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03317578 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317578">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317578"/>
     
 
 
@@ -18497,10 +18485,10 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003096">
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
@@ -18508,6 +18496,17 @@ Traditional means conforming to established practice or specifications prior to 
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
         <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001065">
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* has quality &apos;solid&apos; (http://purl.obolibrary.org/obo/FOODON_03430151)
+* derives from &apos;curd&apos; (http://purl.obolibrary.org/obo/FOODON_03420245)
+* formed as a result of &apos;curing or aging process&apos; (http://purl.obolibrary.org/obo/FOODON_03460253)
+* formed as a result of &apos;interior mold curing process&apos; (http://purl.obolibrary.org/obo/FOODON_03460331)</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SUBSET_SIREN:F1128</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_blue_cheeses</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001070">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -18539,8 +18538,8 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
@@ -18560,6 +18559,10 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://orangebook.tetrapak.com/chapter/fruit-processing</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301128">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001065</obo:IAO_0100001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301228">
         <obo:IAO_0000115 xml:lang="en">Wine vinegar is made from red or white wine, and is the most commonly used vinegar in Southern and Central Europe, Cyprus and Israel.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -18567,13 +18570,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301575">
-        <obo:IAO_0000116 xml:lang="en">Damion Dooley&apos;s note: this may be redundant. We have &apos;pome fruit&apos; in plant part branch.</obo:IAO_0000116>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301710">
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A whole raw apple is an apple harvested from an apple tree. It may include a stem. It has not been subject to cooking or preservation processes other than cold storage or waxing.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301971">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -18595,9 +18591,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">wikipedia:vinegar</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Vinegar made from raisins, called khall ʻinab (Arabic: خل عنب‎ &quot;grape vinegar&quot;) is used in cuisines of the Middle East, and is produced there. It is cloudy and medium brown in color, with a mild flavor.</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03307595">
-        <obo:IAO_0000115 xml:lang="en">Apple that has been sliced and then canned.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
