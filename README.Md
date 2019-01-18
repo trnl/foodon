@@ -3,7 +3,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
-Our [FoodOn project home page](http://foodontology.github.io/foodon/) introduces FoodOn and its design and community.
+Our [FoodOn.org](https://foodon.org) website introduces FoodOn and its design and community.
 
 FoodOn is initially based on a conversion of the [LanguaL.org](http://langual.org) food indexing thesaurus, integrated with OBOFoundry ontology terms from UBERON, ChEBI, and NCBITaxon and others.  This approach allows LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
 
@@ -11,7 +11,6 @@ Contact Us
 
 * Join our [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
 * Online discussion about FoodOn terms is at the [issue tracker](https://github.com/FoodOntology/foodon/issues).
-* Documentation coming soon at the [wiki page](https://github.com/FoodOntology/foodon/wiki)
 * Email us at info[at]genepio.org
 
 ## To view
