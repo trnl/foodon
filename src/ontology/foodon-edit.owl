@@ -1791,7 +1791,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
-        <rdfs:label xml:lang="en">invertebrate (food source)</rdfs:label>
+        <rdfs:label xml:lang="en">invertebrate animal (food source)</rdfs:label>
     </owl:Class>
     
 
@@ -1878,9 +1878,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002464 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002464">
-        <rdfs:label xml:lang="en">lobster meat (shell off)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002464"/>
     
 
 
@@ -3061,6 +3059,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411021 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411021">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411222"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412115"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412409"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411059 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059">
@@ -3114,12 +3130,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03411215 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1215</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">This term has been kept from a general LanguaL category, but may be phased out in the future.</rdfs:comment>
-        <rdfs:label xml:lang="en">algae, bacteria or fungus used as food source</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -3198,7 +3211,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411433 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433">
+        <rdfs:comment xml:lang="en">Covers both freshwater and saltwater organisms</rdfs:comment>
+    </rdf:Description>
     
 
 
@@ -18485,28 +18500,23 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003096">
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
         <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001065">
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;solid&apos; (http://purl.obolibrary.org/obo/FOODON_03430151)
-* derives from &apos;curd&apos; (http://purl.obolibrary.org/obo/FOODON_03420245)
-* formed as a result of &apos;curing or aging process&apos; (http://purl.obolibrary.org/obo/FOODON_03460253)
-* formed as a result of &apos;interior mold curing process&apos; (http://purl.obolibrary.org/obo/FOODON_03460331)</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SUBSET_SIREN:F1128</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_blue_cheeses</rdfs:seeAlso>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001046">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000116 xml:lang="en">Some of the subclasses are currently freshwater organisms.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A seafood product is a vertebrate or invertibrate organism from anaquatic environment.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001070">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -18520,6 +18530,14 @@ Traditional means conforming to established practice or specifications prior to 
 * formed as a result of &apos;curing or aging process&apos; (http://purl.obolibrary.org/obo/FOODON_03460253)
 * formed as a result of &apos;preservation by fermentation&apos; (http://purl.obolibrary.org/obo/FOODON_03470104)</rdfs:comment>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001092">
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001143">
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Fungal food products include edible fungi, mushrooms, and yeast.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001202">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Winged_bean</obo:IAO_0000119>
@@ -18538,13 +18556,9 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002059">
-        <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">scampi</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002340">
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10414</oboInOwl:hasDbXref>
@@ -18592,10 +18606,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Vinegar made from raisins, called khall ʻinab (Arabic: خل عنب‎ &quot;grape vinegar&quot;) is used in cuisines of the Middle East, and is produced there. It is cloudy and medium brown in color, with a mild flavor.</obo:IAO_0000115>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308345">
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">wikipedia:Tomalley</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">Tomalley crab fat, or lobster paste is the soft, green substance found in the body cavity of lobsters, that fulfills the functions of both the liver and the pancreas.</obo:IAO_0000115>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03308376">
         <oboInOwl:hasSynonym xml:lang="en">giant river prawn</oboInOwl:hasSynonym>
     </rdf:Description>
@@ -18629,6 +18639,10 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000115 xml:lang="en">A hen egg tube or &quot;long egg&quot; is a cooked cylinder having an inner core of yolk surrounded by a layer of egg white.</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="en">long egg</oboInOwl:hasSynonym>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315423">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03315334</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316258">
         <rdfs:label xml:lang="en">dietetic food for youth and adults</rdfs:label>
     </rdf:Description>
@@ -18646,6 +18660,10 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317017">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Blancmange</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Blancmange (/bləˈmɒ̃ʒ/, from French blanc-manger [blɑ̃mɑ̃ʒe]) is a sweet dessert commonly made with milk or cream and sugar thickened with gelatin, cornstarch or Irish moss (a source of carrageenan), and often flavoured with almonds.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317393">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wiktionary.org/wiki/still_wine</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A type of table wine, produced by a method of vinification that leaves it free from carbon dioxide and therefore not sparkling or effervescent.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317675">
         <obo:IAO_0000115 xml:lang="en">Fish crackers are deep fried crackers made from fish and spices that serve as flavouring. The crackers also mixed with tapioca flour and/or sago flour as the main ingredients and the salt, sugar and MSG as seasonings.</obo:IAO_0000115>
