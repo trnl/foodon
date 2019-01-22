@@ -3059,39 +3059,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411021 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411021">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411222"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412115"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412409"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411059 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03411087 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411087">
@@ -18532,7 +18499,7 @@ Traditional means conforming to established practice or specifications prior to 
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001092">
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001143">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -18544,10 +18511,6 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001274">
-        <rdfs:comment xml:lang="en">Regarding American regulatory aspects of egg products, see this summary:
-https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-graphic-000077</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001560">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -18635,10 +18598,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315106">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Orange_(fruit)</obo:IAO_0000119>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315121">
-        <obo:IAO_0000115 xml:lang="en">A hen egg tube or &quot;long egg&quot; is a cooked cylinder having an inner core of yolk surrounded by a layer of egg white.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym xml:lang="en">long egg</oboInOwl:hasSynonym>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03315423">
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03315334</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -18675,6 +18634,20 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03401329">
         <obo:IAO_0000231>&apos;dietary supplement&apos; is now appropriate class to reference when particulars are not known.</obo:IAO_0000231>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411021">
+        <rdfs:comment xml:lang="en">This is equivalent to:
+
+&apos;fish (food source)&apos; or &apos;shellfish (food source)&apos; or &apos;crustacean (food source)&apos; or &apos;echinoderm (food source)&apos; or &apos;coelenterate (food source)&apos;
+
+However, disjunctions like that are quite a burden on reasoners, and so is currently not implemented.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059">
+        <rdfs:comment xml:lang="en">This is equivalent to:
+
+&apos;crustacean (food source)&apos; or &apos;shellfish (food source)&apos;
+
+However, this has not been implemented due to reasoner performance on FoodOn.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411176">
         <oboInOwl:hasSynonym xml:lang="en">black cumin</oboInOwl:hasSynonym>
@@ -18762,16 +18735,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411215"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411297"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411347"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412974"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
