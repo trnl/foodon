@@ -957,45 +957,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001564 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001564">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430106"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03317130"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470116"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411136"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001594"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302001"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Blood meal is a dry, inert powder made from blood used as a high-nitrogen organic fertilizer and a high protein animal feed. N = 13.25%, P = 1.0%, K = 0.6%.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Blood_meal</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">It is one of the highest non-synthetic sources of nitrogen. It usually comes from cattle or hogs as a slaughterhouse by-product.</rdfs:comment>
-        <rdfs:label xml:lang="en">blood meal</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001564"/>
     
 
 
@@ -1134,9 +1096,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002165 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002165">
-        <rdfs:label xml:lang="en">organ meat product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002165"/>
     
 
 
@@ -1191,19 +1151,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:comment xml:lang="en">The agar is usually in the form of kantens, agar sticks which require hydration.</rdfs:comment>
         <rdfs:label xml:lang="en">yokan</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002328 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002328">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411355"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </rdf:Description>
     
 
 
@@ -1751,9 +1698,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002449 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002449">
-        <rdfs:label xml:lang="en">zebra food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002449"/>
     
 
 
@@ -1791,6 +1736,11 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
+        <obo:IAO_0000112 xml:lang="en">Familiar examples of invertebrates include arthropods (insects, arachnids, crustaceans, and myriapods), mollusks (chitons, snails, bivalves, squids, and octopuses), annelids (earthworms and leeches), and cnidarians (hydras, jellyfishes, sea anemones, and corals).[wikipedia]</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Invertebrates are animals that neither possess nor develop a vertebral column (commonly known as a backbone or spine), derived from the notochord. This includes all animals apart from the subphylum Vertebrata.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Invertebrate</obo:IAO_0000119>
         <rdfs:label xml:lang="en">invertebrate animal (food source)</rdfs:label>
     </owl:Class>
     
@@ -2087,9 +2037,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002493 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002493">
-        <rdfs:label xml:lang="en">sassafras food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002493"/>
     
 
 
@@ -2126,6 +2074,58 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002499"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002500"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002373"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002502"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002503"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002504"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A dairy cow is a cattle cow bred for the ability to produce large quantities of milk, from which dairy products are made.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Dairy_cattle</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-26T22:49:27Z</dc11:date>
+        <rdfs:label xml:lang="en">dairy cow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002506"/>
     
 
 
@@ -2269,6 +2269,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301178"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301483"/>
@@ -2388,6 +2394,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03302693 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302693"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302735"/>
     
 
 
@@ -2618,6 +2630,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306416"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03306639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306639"/>
@@ -2774,9 +2792,21 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03309969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03309969"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310047"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310061"/>
     
 
 
@@ -2826,6 +2856,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310579"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310715 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310715">
@@ -2854,6 +2890,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310804"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310831 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310831">
@@ -2864,9 +2906,39 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311076"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311234"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311467"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311506"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311507"/>
     
 
 
@@ -2882,9 +2954,27 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311587"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311610"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311698"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03312053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03312053"/>
     
 
 
@@ -2900,6 +2990,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315731"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03315780 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315780"/>
@@ -2909,6 +3005,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03315791 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315791"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315797"/>
     
 
 
@@ -2997,6 +3099,24 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301059</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317271"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317324"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317377"/>
     
 
 
@@ -3091,6 +3211,22 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03411191 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411191"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411201 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411201">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003100"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007023"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -18133,12 +18269,8 @@ Traditional means conforming to established practice or specifications prior to 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420106"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">liver</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0176</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver</rdfs:label>
     </owl:Class>
     
 
@@ -18435,6 +18567,9 @@ Traditional means conforming to established practice or specifications prior to 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18067">
+        <oboInOwl:hasSynonym xml:lang="en">vitamin K1</oboInOwl:hasSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27027">
         <obo:GENEPIO_0000006 xml:lang="en">micronutrient role</obo:GENEPIO_0000006>
     </rdf:Description>
@@ -18467,19 +18602,13 @@ Traditional means conforming to established practice or specifications prior to 
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
-        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
         <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001046">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000116 xml:lang="en">Some of the subclasses are currently freshwater organisms.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A seafood product is a vertebrate or invertibrate organism from anaquatic environment.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001070">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -18493,14 +18622,6 @@ Traditional means conforming to established practice or specifications prior to 
 * formed as a result of &apos;curing or aging process&apos; (http://purl.obolibrary.org/obo/FOODON_03460253)
 * formed as a result of &apos;preservation by fermentation&apos; (http://purl.obolibrary.org/obo/FOODON_03470104)</rdfs:comment>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001092">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001143">
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Fungal food products include edible fungi, mushrooms, and yeast.</obo:IAO_0000115>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001202">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Winged_bean</obo:IAO_0000119>
@@ -18518,6 +18639,10 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002303">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001132</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002340">
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10414</oboInOwl:hasDbXref>
@@ -18703,6 +18828,23 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03413763">
         <obo:GENEPIO_0000006 xml:lang="en">vitamin C</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414191">
+        <oboInOwl:hasSynonym xml:lang="en">Cassia tora</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="ml">thakara</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">coffee pod</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>foetid cassia</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">chakvad</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tora</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sickle wild sensitive-plant</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sickle pod</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sickle senna</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tovara</oboInOwl:hasSynonym>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Senna_tora</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414465">
+        <obo:IAO_0000231 xml:lang="en">Accidentally put in LanguaL.</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>
