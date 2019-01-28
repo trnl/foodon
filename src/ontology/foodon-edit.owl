@@ -1741,7 +1741,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000115 xml:lang="en">Invertebrates are animals that neither possess nor develop a vertebral column (commonly known as a backbone or spine), derived from the notochord. This includes all animals apart from the subphylum Vertebrata.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Invertebrate</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">invertebrate animal (food source)</rdfs:label>
+        <rdfs:label xml:lang="en">invertebrate animal</rdfs:label>
     </owl:Class>
     
 
@@ -2112,13 +2112,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002507"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A dairy cow is a cattle cow bred for the ability to produce large quantities of milk, from which dairy products are made.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Dairy cattle are a type of cattle bred for the ability to produce large quantities of milk, from which dairy products are made.  This class covers both male and female members of a dairy breed.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Dairy_cattle</obo:IAO_0000119>
         <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-26T22:49:27Z</dc11:date>
-        <rdfs:label xml:lang="en">dairy cow</rdfs:label>
+        <rdfs:label xml:lang="en">dairy cattle</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_dairy_cattle_breeds</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2126,6 +2127,55 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002506 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002506"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Taurine cattle (Bos taurus taurus), also called European cattle, are a subspecies of domesticated cattle originating in the Near East. Both taurine cattle and indicine cattle (zebus) are descended from the aurochs. Taurine cattle were originally considered a distinct species, but are now typically grouped with zebus and aurochs into one species, Bos taurus. Most modern breeds of cattle are taurine cattle.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Taurine_cattle</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-28T02:41:04Z</dc11:date>
+        <oboInOwl:hasDbXref xml:lang="en">http://www.langual.org/langual_thesaurus.asp?termid=B5186</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">taurine cattle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002508"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301724"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The Beurré Bosc or Bosc is a cultivar of the European Pear (Pyrus communis) from France or Belgium originally. Also known as the Kaiser , it is grown in Europe, Australia, British Columbia and Ontario, Canada, and the northwestern U.S. states of California, Washington, and Oregon;</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Bosc_pear</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-28T04:51:49Z</dc11:date>
+        <oboInOwl:hasSynonym xml:lang="fr">Beurré Bosc</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Kaiser</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">bosc pear (whole, raw)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002510"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002511"/>
     
 
 
@@ -3208,6 +3258,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411161 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161">
+        <oboInOwl:hasSynonym xml:lang="en">domesticated cattle</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411191 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411191"/>
@@ -3220,12 +3278,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002505"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003100"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007023"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">A dairy cow is an adult female member of a dairy cattle breed</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">cow</oboInOwl:hasSynonym>
     </rdf:Description>
     
 
@@ -18594,16 +18654,20 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_78295">
         <obo:GENEPIO_0000006 xml:lang="en">food component role</obo:GENEPIO_0000006>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_7916">
+        <oboInOwl:hasDbXref xml:lang="en">http://www.langual.org/langual_thesaurus.asp?termid=H0770</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">vitamin B5</oboInOwl:hasSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_85046">
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003096">
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
-        <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
@@ -18636,8 +18700,8 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002303">
@@ -18761,7 +18825,7 @@ Traditional means conforming to established practice or specifications prior to 
 
 &apos;fish (food source)&apos; or &apos;shellfish (food source)&apos; or &apos;crustacean (food source)&apos; or &apos;echinoderm (food source)&apos; or &apos;coelenterate (food source)&apos;
 
-However, disjunctions like that are quite a burden on reasoners, and so is currently not implemented.</rdfs:comment>
+However, disjunctions like that are quite a burden on reasoners, and so this is currently not implemented.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059">
         <rdfs:comment xml:lang="en">This is equivalent to:
@@ -18830,12 +18894,12 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
         <obo:GENEPIO_0000006 xml:lang="en">vitamin C</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414191">
-        <oboInOwl:hasSynonym xml:lang="en">Cassia tora</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="ml">thakara</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Cassia tora</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">coffee pod</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>foetid cassia</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">chakvad</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">tora</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">chakvad</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sickle wild sensitive-plant</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sickle pod</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sickle senna</oboInOwl:hasSynonym>
@@ -18844,6 +18908,9 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414465">
         <obo:IAO_0000231 xml:lang="en">Accidentally put in LanguaL.</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414587">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03520231">
