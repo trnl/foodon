@@ -553,7 +553,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1071199 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_1071199">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_163725"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231390"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Pterocarpus santalinus</rdfs:label>
     </owl:Class>
@@ -2059,16 +2059,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_122377 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxon_122377">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6685"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Litopenaeus</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_122399 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_122399">
@@ -2422,6 +2412,7 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6592"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Japanese littleneck</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Manila clam</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Ruditapes philippinarum</rdfs:label>
     </owl:Class>
     
@@ -2475,7 +2466,8 @@
     <owl:Class rdf:about="&obo;NCBITaxon_13029">
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_13028"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">spotted sea trout</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">speckled trout</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">spotted seatrout</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">spotted weakfish</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Cynoscion nebulosus</rdfs:label>
     </owl:Class>
@@ -2771,26 +2763,6 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6685"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Penaeus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_133896 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxon_133896">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6685"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Melicertus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_133898 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxon_133898">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6685"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Fenneropenaeus</rdfs:label>
     </owl:Class>
     
 
@@ -3442,10 +3414,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_139456 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_139456">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133898"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">fleshy prawn</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Fenneropenaeus chinensis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus chinensis</rdfs:label>
     </owl:Class>
     
 
@@ -4644,7 +4616,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_155124 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_155124">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231385"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rooibos</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Aspalathus linearis</rdfs:label>
@@ -5000,9 +4972,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_161924 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_161924">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133898"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Fenneropenaeus penicillatus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus penicillatus</rdfs:label>
     </owl:Class>
     
 
@@ -5010,9 +4982,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_161925 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_161925">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133896"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Melicertus latisulcatus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus latisulcatus</rdfs:label>
     </owl:Class>
     
 
@@ -5020,9 +4992,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_161926 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_161926">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133896"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Melicertus plebejus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus plebejus</rdfs:label>
     </owl:Class>
     
 
@@ -5159,20 +5131,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_163725 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxon_163725">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Dalbergieae</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_163729 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_163729">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231385"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Genisteae</rdfs:label>
     </owl:Class>
@@ -5182,7 +5144,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_163735 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_163735">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233855"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Phaseoleae</rdfs:label>
     </owl:Class>
@@ -5192,7 +5154,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_163742 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_163742">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233839"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Trifolieae</rdfs:label>
     </owl:Class>
@@ -5202,7 +5164,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_163743 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_163743">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233839"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Fabeae</rdfs:label>
     </owl:Class>
@@ -5655,9 +5617,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_171294 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_171294">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_85653"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus californiensis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus californiensis</rdfs:label>
     </owl:Class>
     
 
@@ -5678,7 +5640,7 @@
     <owl:Class rdf:about="&obo;NCBITaxon_171637">
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3745"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Maloideae</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Amygdaloideae</rdfs:label>
     </owl:Class>
     
 
@@ -7932,6 +7894,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2135392 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2135392">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_8256"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Myzopsetta</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_214053 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_214053">
@@ -8171,20 +8143,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216293 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxon_216293">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_69555"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Hypsogastropoda</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_216294 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_216294">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_216293"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_69555"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Littorinimorpha</rdfs:label>
     </owl:Class>
@@ -8258,6 +8220,16 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_4345"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Vaccinioideae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2172821 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2172821">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6657"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Multicrustacea</rdfs:label>
     </owl:Class>
     
 
@@ -8458,6 +8430,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2231382 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2231382">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231393"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">NPAAA clade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2231385 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2231385">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231393"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">core genistoids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2231390 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2231390">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231393"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Pterocarpus clade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2231393 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2231393">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">50 kb inversion clade</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_223142 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_223142">
@@ -8486,6 +8498,36 @@
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sharptail mola</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Masturus lanceolatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2233838 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2233838">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231382"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Hologalegina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2233839 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2233839">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233838"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">IRL clade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2233855 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_2233855">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231382"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">indigoferoid/millettioid clade</rdfs:label>
     </owl:Class>
     
 
@@ -10250,9 +10292,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_27405 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_27405">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6685"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Marsupenaeus japonicus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus japonicus</rdfs:label>
     </owl:Class>
     
 
@@ -11079,10 +11121,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_29019 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_29019">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_122377"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">blue shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Litopenaeus stylirostris</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus stylirostris</rdfs:label>
     </owl:Class>
     
 
@@ -11510,9 +11552,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_29960 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_29960">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133898"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Fenneropenaeus indicus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus indicus</rdfs:label>
     </owl:Class>
     
 
@@ -16558,7 +16600,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3818 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_3818">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_163725"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2231390"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">goober</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ground-nut</oboInOwl:hasExactSynonym>
@@ -16605,7 +16647,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3827 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_3827">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233839"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chickpea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">garbanzo</oboInOwl:hasExactSynonym>
@@ -16617,7 +16659,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3832 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_3832">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233855"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cluster bean</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">guar</oboInOwl:hasExactSynonym>
@@ -16770,7 +16812,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3868 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_3868">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233838"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">winged pea</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Lotus tetragonolobus</rdfs:label>
@@ -17910,7 +17952,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ginseng</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hong shen</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">insam</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">jinsao</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">jins?o</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ninjin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ren seng</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sansam</oboInOwl:hasExactSynonym>
@@ -19453,9 +19495,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_44108 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_44108">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_85653"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus notialis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus notialis</rdfs:label>
     </owl:Class>
     
 
@@ -19670,10 +19712,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_445221 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_445221">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_85653"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">crystal shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus brevirostris</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus brevirostris</rdfs:label>
     </owl:Class>
     
 
@@ -20191,7 +20233,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_458363 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_458363">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233855"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Pediomelum esculentum</rdfs:label>
     </owl:Class>
@@ -20747,7 +20789,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_47101 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_47101">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233839"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">goat&apos;s rue</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Galega officinalis</rdfs:label>
@@ -22444,6 +22486,8 @@
     <owl:Class rdf:about="&obo;NCBITaxon_53173">
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_983550"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">betony</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">bishop&apos;s-wort</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Betonica officinalis</rdfs:label>
     </owl:Class>
     
@@ -23073,7 +23117,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_57576 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_57576">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3814"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2233839"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Hedysarum alpinum</rdfs:label>
     </owl:Class>
@@ -24065,10 +24109,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_641108 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_641108">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_8257"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2135392"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">longhead dab</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Limanda proboscidea</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Myzopsetta proboscidea</rdfs:label>
     </owl:Class>
     
 
@@ -24175,9 +24219,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64465 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_64465">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133896"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Melicertus canaliculatus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus canaliculatus</rdfs:label>
     </owl:Class>
     
 
@@ -24185,10 +24229,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64466 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_64466">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_85653"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pink shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus duorarum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus duorarum</rdfs:label>
     </owl:Class>
     
 
@@ -24206,10 +24250,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64468 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_64468">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_122377"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">white shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Litopenaeus setiferus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus setiferus</rdfs:label>
     </owl:Class>
     
 
@@ -24402,7 +24446,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6479 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_6479">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_216293"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_69555"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Neogastropoda</rdfs:label>
     </owl:Class>
@@ -25203,7 +25247,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6675 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_6675">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6657"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2172821"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Cirripedia</rdfs:label>
     </owl:Class>
@@ -25267,12 +25311,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6689 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_6689">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_122377"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Pacific white shrimp</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">white Pacific shrimp</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">white shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Litopenaeus vannamei</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus vannamei</rdfs:label>
     </owl:Class>
     
 
@@ -25280,10 +25324,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6690 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_6690">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_85653"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">brown shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus aztecus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus aztecus</rdfs:label>
     </owl:Class>
     
 
@@ -26080,10 +26124,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_690869 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_690869">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7861"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7860"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Chola guitarfish</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Rhinobatos percellens</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Pseudobatos percellens</rdfs:label>
     </owl:Class>
     
 
@@ -26527,10 +26571,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_71410 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_71410">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_85653"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pinkspotted shrimp</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus brasiliensis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus brasiliensis</rdfs:label>
     </owl:Class>
     
 
@@ -26538,9 +26582,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_71411 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_71411">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133896"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Melicertus kerathurus</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus kerathurus</rdfs:label>
     </owl:Class>
     
 
@@ -26548,9 +26592,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_71412 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_71412">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133898"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_133894"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Fenneropenaeus merguiensis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Penaeus merguiensis</rdfs:label>
     </owl:Class>
     
 
@@ -26623,7 +26667,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_72041 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_72041">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6657"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2172821"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Eumalacostraca</rdfs:label>
     </owl:Class>
@@ -30399,10 +30443,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8258 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_8258">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_8257"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2135392"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">yellowtail flounder</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="&xsd;string">Limanda ferruginea</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Myzopsetta ferruginea</rdfs:label>
     </owl:Class>
     
 
@@ -30575,6 +30619,7 @@
     <owl:Class rdf:about="&obo;NCBITaxon_83875">
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_36211"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Japanese horse mackerel</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Japanese jack mackerel</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Trachurus japonicus</rdfs:label>
     </owl:Class>
@@ -31001,6 +31046,7 @@
     <owl:Class rdf:about="&obo;NCBITaxon_8517">
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_8516"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Common green iguana</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">common iguana</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Iguana iguana</rdfs:label>
     </owl:Class>
@@ -31186,16 +31232,6 @@
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">geckos</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Gekkonidae</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85653 -->
-
-    <owl:Class rdf:about="&obo;NCBITaxon_85653">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_6685"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">Farfantepenaeus</rdfs:label>
     </owl:Class>
     
 
@@ -31995,6 +32031,7 @@
     <owl:Class rdf:about="&obo;NCBITaxon_89636">
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_4119"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Chinese water-spinach</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Ipomoea aquatica</rdfs:label>
     </owl:Class>
     
@@ -33501,6 +33538,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9825 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_9825">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9823"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">domestic pig</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Sus scrofa domesticus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_98307 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_98307">
@@ -33895,6 +33943,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">bovine</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cow</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dairy cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">domestic cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">domestic cow</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Bos taurus</rdfs:label>
