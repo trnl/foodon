@@ -77,6 +77,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000047 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000047">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001995"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">biological sex</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000048 -->
 
     <owl:Class rdf:about="&obo;PATO_0000048">
@@ -160,6 +171,28 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality of the thermal energy of a system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000383 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000383">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">female</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000384 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000384">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">male</rdfs:label>
     </owl:Class>
     
 
@@ -442,6 +475,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001340 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001340">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an organism or a population with both male and female sexual organs in one individual.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hermaphrodite</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001472 -->
 
     <owl:Class rdf:about="&obo;PATO_0001472">
@@ -705,6 +749,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001827 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001827">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pseudohermaphrodite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001828 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001828">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001827"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of male and external sexual characteristics of female.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">male pseudohermaphrodite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001829 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001829">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001827"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of female and external sexual characteristics of male.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">female pseudohermaphrodite</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001888 -->
 
     <owl:Class rdf:about="&obo;PATO_0001888">
@@ -712,6 +789,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of a liquid inhering in a bearer by virtue of the bearer&apos;s ability to mix with (dissolve in) another liquid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">miscibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001894 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001894">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000047"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organismal quality inhering in a bearer by virtue of the bearer&apos;s physical expression of sexual characteristics.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">phenotypic sex</rdfs:label>
     </owl:Class>
     
 
@@ -747,6 +835,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer&apos;s being kept below its freezing point.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">frozen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001995">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality that inheres in an entire organism or part of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">organismal quality</rdfs:label>
     </owl:Class>
     
 
@@ -861,6 +960,39 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is increased compared to normal or average.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">increased object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002365 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002365">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000383"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Female quality of having complete, unaltered reproductive organs</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">intact female</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002366 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002366">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000384"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Male quality of having complete, unaltered reproductive organs.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">intact male</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002367 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002367">
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000384"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Male quality of being incapable to reproduce because of functional loss of the testicles from surgical removal or chemical means.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">castrated male</rdfs:label>
     </owl:Class>
     
 

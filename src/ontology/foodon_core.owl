@@ -32,7 +32,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;foodon.owl">
-        <owl:versionIRI rdf:resource="&obo;foodon/releases/2018-11-29/foodon.owl"/>
+        <owl:versionIRI rdf:resource="&obo;foodon/releases/2019-02-21/foodon.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;foodon/imports/langual_deprecated_import.owl"/>
@@ -56,8 +56,8 @@
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">FOODON</oboInOwl:default-namespace>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <terms:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</terms:description>
-        <terms:date rdf:datatype="&xsd;date">2018-11-29</terms:date>
         <terms:title xml:lang="en">Food Ontology</terms:title>
+        <terms:date rdf:datatype="&xsd;date">2019-02-21</terms:date>
     </owl:Ontology>
     
 
@@ -566,6 +566,34 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00000015 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00000015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03411161"/>
+                    <rdf:Description rdf:about="&obo;UBERON_0007023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PATO_0002366"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03411161"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A cattle bull is an adult  &quot;intact&quot; (i.e., not castrated) male of a cattle species.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Cattle#Terminology</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T03:01:03Z</dc:date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">http://purl.obolibrary.org/obo/AGRO_00000119</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">bull</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle bull</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00000070 -->
 
     <owl:Class rdf:about="&obo;FOODON_00000070"/>
@@ -974,45 +1002,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001564 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00001564">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03430106"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03317130"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03470116"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0003001"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="&obo;FOODON_03411136"/>
-                                    <rdf:Description rdf:about="&obo;FOODON_03411161"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001594"/>
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03302001"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Blood meal is a dry, inert powder made from blood used as a high-nitrogen organic fertilizer and a high protein animal feed. N = 13.25%, P = 1.0%, K = 0.6%.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Blood_meal</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">It is one of the highest non-synthetic sources of nitrogen. It usually comes from cattle or hogs as a slaughterhouse by-product.</rdfs:comment>
-        <rdfs:label xml:lang="en">blood meal</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00001564"/>
     
 
 
@@ -1021,7 +1011,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <owl:Class rdf:about="&obo;FOODON_00001565">
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0008979"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A pre-evisceration carcass is the carcass of a dead animal immediately following hide removal, before any antimicrobial applications and any part of the evisceration process has been performed.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A pre-evisceration carcass is the carcass of a dead animal immediately following hide removal, before any antimicrobial applications and any part of the evisceration process has been performed. This is a material entity state within a butchery process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Gregory Harhay</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pre-evisceration carcass</rdfs:label>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">https://www.ars.usda.gov/ARSUserFiles/30400510/protocols/USMARC%20Carcass%20Sampling%20Protocol.pdf</rdfs:seeAlso>
@@ -1151,9 +1141,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002165 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002165">
-        <rdfs:label xml:lang="en">organ meat product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002165"/>
     
 
 
@@ -1211,19 +1199,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002328 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_00002328">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03411355"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00002382 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002382">
@@ -1244,10 +1219,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002387 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002387">
-        <oboInOwl:hasNarrowSynonym xml:lang="en">sweet bean paste</oboInOwl:hasNarrowSynonym>
-        <rdfs:label xml:lang="en">an</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002387"/>
     
 
 
@@ -1768,9 +1740,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002449 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002449">
-        <rdfs:label xml:lang="en">zebra food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002449"/>
     
 
 
@@ -1808,16 +1778,19 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <owl:Class rdf:about="&obo;FOODON_00002452">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03411564"/>
-        <rdfs:label xml:lang="en">invertebrate (food source)</rdfs:label>
+        <obo:IAO_0000112 xml:lang="en">Familiar examples of invertebrates include arthropods (insects, arachnids, crustaceans, and myriapods), mollusks (chitons, snails, bivalves, squids, and octopuses), annelids (earthworms and leeches), and cnidarians (hydras, jellyfishes, sea anemones, and corals).[wikipedia]</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Invertebrates are animals that neither possess nor develop a vertebral column (commonly known as a backbone or spine), derived from the notochord. This includes all animals apart from the subphylum Vertebrata.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Invertebrate</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">invertebrate animal</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002453 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002453">
-        <obo:IAO_0000117 xml:lang="en">Raw apple is apple that has not been subject to cooking or other preservation processes other than by cold storage.</obo:IAO_0000117>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002453"/>
     
 
 
@@ -1859,7 +1832,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002459 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002459">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001640"/>
         <rdfs:label xml:lang="en">red currant food product</rdfs:label>
     </owl:Class>
     
@@ -1897,9 +1869,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002464 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002464">
-        <rdfs:label xml:lang="en">lobster meat (shell off)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002464"/>
     
 
 
@@ -2023,9 +1993,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002482 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002482">
-        <rdfs:label xml:lang="en">apple (sliced)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002482"/>
     
 
 
@@ -2044,14 +2012,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002484 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002484">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001956"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Harissa (Arabic: هريسة‎ harīsa, from Maghrebi Arabic) is a Maghrebi hot chili pepper paste, the main ingredients of which are roasted red peppers, Baklouti (بقلوطي) pepper, serrano peppers, and other hot chili peppers, spices and herbs such as garlic paste, coriander seed, saffron, rose, or caraway, as well as some vegetable or olive oil for preservation</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Harissa</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">harissa chili paste</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002484"/>
     
 
 
@@ -2063,9 +2024,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002486 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002486">
-        <rdfs:label xml:lang="en">apricot (whole or parts)</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002486"/>
     
 
 
@@ -2083,10 +2042,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002489 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002489">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001251"/>
-        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Fowl</obo:IAO_0000119>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002489"/>
     
 
 
@@ -2110,9 +2066,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002493 -->
 
-    <owl:Class rdf:about="&obo;FOODON_00002493">
-        <rdfs:label xml:lang="en">sassafras food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_00002493"/>
     
 
 
@@ -2149,6 +2103,337 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002499 -->
 
     <owl:Class rdf:about="&obo;FOODON_00002499"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002500 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002500"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002501 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002501">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002373"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002502 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002502"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002503 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002503"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002504 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002504"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002505 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002505">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002507"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Dairy cattle are a type of cattle bred for the ability to produce large quantities of milk, from which dairy products are made.  This class covers both male and female members of a dairy breed.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Dairy_cattle</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-01-26T22:49:27Z</dc:date>
+        <rdfs:label xml:lang="en">dairy cattle</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/List_of_dairy_cattle_breeds</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002506 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002506"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002507 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002507">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03411161"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Taurine cattle (Bos taurus taurus), also called European cattle, are a subspecies of domesticated cattle originating in the Near East. Both taurine cattle and indicine cattle (zebus) are descended from the aurochs. Taurine cattle were originally considered a distinct species, but are now typically grouped with zebus and aurochs into one species, Bos taurus. Most modern breeds of cattle are taurine cattle.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Taurine_cattle</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-01-28T02:41:04Z</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">http://www.langual.org/langual_thesaurus.asp?termid=B5186</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">taurine cattle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002508 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002508"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002509 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002509"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002510 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002510"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002511 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002511"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002512 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002512">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00001656"/>
+        <obo:IAO_0000115 xml:lang="en">A juice food product made primarily from blueberres.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-05T23:05:21Z</dc:date>
+        <rdfs:label xml:lang="en">blueberry juice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002513 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002513"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002514 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002514"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002515 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002515"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002516 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002516">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Gravlax is a Nordic dish consisting of raw salmon, cured in salt, sugar, and dill.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Gravlax</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-05T23:53:50Z</dc:date>
+        <oboInOwl:hasSynonym xml:lang="en">Gravad lax</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">gravad laks</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">gravlaks</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">gravlax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002517 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002517">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03530218"/>
+        <obo:IAO_0000112 xml:lang="en">An opened can or bottle; a torn plastic cheese wrapper; a breached wax cheese rind.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A compromised food packing medium is a gaseous, liquid, or solid medium that has been exposed to the environment due to a failure in integrity of the food packaging.  The packaging failure may be intentional, e.g. opening a bag, or unintentional, e.g. a tear.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-13T21:04:31Z</dc:date>
+        <rdfs:label xml:lang="en">food packing medium compromised</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002518 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002518">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03411161"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A heifer is a young female, under three years of age, of a cattle species before she has had a calf of her own.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Cattle#Terminology</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T03:04:04Z</dc:date>
+        <rdfs:label xml:lang="en">heifer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002519 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002519"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002520 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002520">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03317433"/>
+        <obo:IAO_0000115 xml:lang="en">An O&apos;s cereal is a breakfast cereal having O-shaped bites, and which is produced by various manufacturers.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://www.mercurynews.com/2016/01/13/taste-off-the-best-os-cereal-is-it-cheerios/</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T05:47:51Z</dc:date>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Cheerios</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">O&apos;s cerial</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Cheerios</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002521 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002521">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_03414645"/>
+                    <rdf:Description rdf:about="&obo;UBERON_0002548"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03414645"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A beetle larva is a beetle undergoing the larva stage of development.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Larva</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T06:11:06Z</dc:date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">grub</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">beetle larva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002522 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002522">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03414645"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Darkling beetle is the common name of the large family of beetles, Tenebrionidae.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Darkling_beetle</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T06:23:23Z</dc:date>
+        <rdfs:label xml:lang="en">darkling beetle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002523 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002523">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_7067"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;FOODON_00001303"/>
+                        <owl:allValuesFrom rdf:resource="&obo;NCBITaxon_7067"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002522"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The mealworm beetle, Tenebrio molitor, is a species of darkling beetle.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Mealworm</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T06:25:43Z</dc:date>
+        <rdfs:label xml:lang="en">mealworm beetle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002524 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002524">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002521"/>
+                    <rdf:Description rdf:about="&obo;FOODON_00002523"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002523"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A mealworm is a mealworm beetle in the larva stage of development.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Mealworm</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T06:30:34Z</dc:date>
+        <rdfs:label xml:lang="en">mealworm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002525 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002525">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03414645"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Dynastinae or rhinoceros beetles are a subfamily of the scarab beetle family (Scarabaeidae).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Dynastinae</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T06:34:42Z</dc:date>
+        <oboInOwl:hasSynonym xml:lang="en">rhino beetle</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">rhinoceros beetle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002526 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002526">
+        <rdfs:subClassOf rdf:resource="&obo;FOODON_03311146"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Hoisin sauce is a thick, fragrant sauce commonly used in Chinese cuisine as a glaze for meat, an addition to stir fries, or as dipping sauce.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Hoisin_sauce</obo:IAO_0000119>
+        <dc:date rdf:datatype="&xsd;dateTime">2019-02-21T06:42:41Z</dc:date>
+        <oboInOwl:hasSynonym xml:lang="en">hoisin</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">hoisin sauce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002527 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002527"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002528 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002528"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002529 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002529">
+        <oboInOwl:hasNarrowSynonym xml:lang="en">masa de harina</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasSynonym xml:lang="es">masa de maíz</oboInOwl:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002530 -->
+
+    <owl:Class rdf:about="&obo;FOODON_00002530"/>
     
 
 
@@ -2292,6 +2577,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301178 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03301178"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301483 -->
 
     <owl:Class rdf:about="&obo;FOODON_03301483"/>
@@ -2300,9 +2591,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03301497 -->
 
-    <owl:Class rdf:about="&obo;FOODON_03301497">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_03301497"/>
     
 
 
@@ -2413,6 +2702,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03302693 -->
 
     <owl:Class rdf:about="&obo;FOODON_03302693"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03302735 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03302735"/>
     
 
 
@@ -2643,6 +2938,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03306416 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03306416"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03306639 -->
 
     <owl:Class rdf:about="&obo;FOODON_03306639"/>
@@ -2799,55 +3100,33 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03309969 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03309969"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310047 -->
 
     <owl:Class rdf:about="&obo;FOODON_03310047"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03310257 -->
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310061 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03310257">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_03304669"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FOODON_00002415"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;FOODON_00002415"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;RO_0002233"/>
-                                <owl:someValuesFrom rdf:resource="&obo;FOODON_03304669"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Cornmeal is a meal (coarse flour) ground from dried maize (corn)</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-    </rdf:Description>
+    <owl:Class rdf:about="&obo;FOODON_03310061"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03310415 -->
 
     <owl:Class rdf:about="&obo;FOODON_03310415"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310579 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03310579"/>
     
 
 
@@ -2879,6 +3158,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03310804 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03310804"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03310831 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03310831">
@@ -2889,9 +3174,39 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311007 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311076 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311076"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311234 -->
 
     <owl:Class rdf:about="&obo;FOODON_03311234"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311467 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311467"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311506 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311506"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311507 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311507"/>
     
 
 
@@ -2907,9 +3222,27 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311587 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311587"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311610 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03311610"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03311698 -->
 
     <owl:Class rdf:about="&obo;FOODON_03311698"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03312053 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03312053"/>
     
 
 
@@ -2921,9 +3254,13 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03315630 -->
 
-    <owl:Class rdf:about="&obo;FOODON_03315630">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_03315630"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315731 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03315731"/>
     
 
 
@@ -2936,6 +3273,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03315791 -->
 
     <owl:Class rdf:about="&obo;FOODON_03315791"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03315797 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03315797"/>
     
 
 
@@ -2957,14 +3300,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03317185</obo:IAO_0100001>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03316331 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03316331">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_00002028"/>
     </rdf:Description>
     
 
@@ -3027,19 +3362,33 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317271 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03317271"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317324 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03317324"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317377 -->
+
+    <owl:Class rdf:about="&obo;FOODON_03317377"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03317576 -->
 
-    <owl:Class rdf:about="&obo;FOODON_03317576">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_03317576"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03317578 -->
 
-    <owl:Class rdf:about="&obo;FOODON_03317578">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03302116"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;FOODON_03317578"/>
     
 
 
@@ -3090,21 +3439,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411059 -->
-
-    <rdf:Description rdf:about="&obo;FOODON_03411059">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;FOODON_03411374"/>
-                    <rdf:Description rdf:about="&obo;FOODON_03411433"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03411087 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03411087">
@@ -3134,21 +3468,44 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411161 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411161">
+        <oboInOwl:hasSynonym xml:lang="en">domesticated cattle</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411191 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03411191"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411201 -->
+
+    <rdf:Description rdf:about="&obo;FOODON_03411201">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;FOODON_00002505"/>
+                    <rdf:Description rdf:about="&obo;UBERON_0003100"/>
+                    <rdf:Description rdf:about="&obo;UBERON_0007023"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">A dairy cow is an adult female member of a dairy cattle breed</obo:IAO_0000115>
+        <oboInOwl:hasSynonym xml:lang="en">cow</oboInOwl:hasSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411215 -->
 
     <rdf:Description rdf:about="&obo;FOODON_03411215">
-        <rdfs:subClassOf rdf:resource="&obo;FOODON_03411564"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1215</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">This term has been kept from a general LanguaL category, but may be phased out in the future.</rdfs:comment>
-        <rdfs:label xml:lang="en">algae, bacteria or fungus used as food source</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0000231 rdf:datatype="&xsd;boolean">false</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     
 
@@ -3227,7 +3584,9 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411433 -->
 
-    <rdf:Description rdf:about="&obo;FOODON_03411433"/>
+    <rdf:Description rdf:about="&obo;FOODON_03411433">
+        <rdfs:comment xml:lang="en">Covers both freshwater and saltwater organisms</rdfs:comment>
+    </rdf:Description>
     
 
 
@@ -4369,7 +4728,7 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0194</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Fish roe are indexed under *OVARY, ROE*.</rdfs:comment>
-        <rdfs:label xml:lang="en">egg or egg part</rdfs:label>
+        <rdfs:label xml:lang="en">egg or egg component</rdfs:label>
     </owl:Class>
     
 
@@ -18173,12 +18532,8 @@ Traditional means conforming to established practice or specifications prior to 
 
     <owl:Class rdf:about="&obo;UBERON_0002107">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03420106"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">liver</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0176</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="&xsd;string">liver</rdfs:label>
     </owl:Class>
     
 
@@ -18348,7 +18703,9 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:GENEPIO_0000006 xml:lang="en">egg (with shell)</obo:GENEPIO_0000006>
         <obo:IAO_0000118 xml:lang="en">whole egg in shell</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref rdf:datatype="&rdfs;Literal">LANGUAL:C0274</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;anyURI">Note that this is cross referenced to both LanguaL &quot;egg&quot; as well as &quot;whole egg in shell&quot;</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;anyURI">http://www.langual.org/langual_thesaurus.asp?termid=C0128</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;anyURI">http://www.langual.org/langual_thesaurus.asp?termid=C0274</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: The egg shell functions as a container. Therefore, the physical state of a raw egg in the shell is *LIQUID, HIGH VISCOSITY, WITH NO VISIBLE PARTICLES*.</rdfs:comment>
     </owl:Class>
     
@@ -18370,12 +18727,6 @@ Traditional means conforming to established practice or specifications prior to 
     <owl:Class rdf:about="&obo;UBERON_0008944">
         <rdfs:subClassOf rdf:resource="&obo;FOODON_03420194"/>
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000463"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;FOODON_03420194"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <owl:disjointWith>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -18479,6 +18830,9 @@ Traditional means conforming to established practice or specifications prior to 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="&obo;CHEBI_18067">
+        <oboInOwl:hasSynonym xml:lang="en">vitamin K1</oboInOwl:hasSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;CHEBI_27027">
         <obo:GENEPIO_0000006 xml:lang="en">micronutrient role</obo:GENEPIO_0000006>
     </rdf:Description>
@@ -18502,6 +18856,10 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="&obo;CHEBI_78295">
         <obo:GENEPIO_0000006 xml:lang="en">food component role</obo:GENEPIO_0000006>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;CHEBI_7916">
+        <oboInOwl:hasDbXref xml:lang="en">http://www.langual.org/langual_thesaurus.asp?termid=H0770</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">vitamin B5</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;CHEBI_85046">
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
@@ -18538,10 +18896,6 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="&obo;FOODON_00001273">
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A vegetable with dark green, spear-shaped leaves that can be curled or smooth and are attached to thin stems.</obo:IAO_0000115>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_00001274">
-        <rdfs:comment xml:lang="en">Regarding American regulatory aspects of egg products, see this summary:
-https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-graphic-000077</rdfs:comment>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00001560">
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <rdfs:label xml:lang="en">has substance added (deprecated)</rdfs:label>
@@ -18553,9 +18907,9 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_00002059">
-        <oboInOwl:hasSynonym xml:lang="en">dublin bay prawn</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">scampi</oboInOwl:hasSynonym>
+    <rdf:Description rdf:about="&obo;FOODON_00002303">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001132</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_00002340">
         <oboInOwl:hasDbXref>SUBSET_SIREN:F10414</oboInOwl:hasDbXref>
@@ -18570,6 +18924,10 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://orangebook.tetrapak.com/chapter/fruit-processing</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03301128">
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001065</obo:IAO_0100001>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301228">
         <obo:IAO_0000115 xml:lang="en">Wine vinegar is made from red or white wine, and is the most commonly used vinegar in Southern and Central Europe, Cyprus and Israel.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -18578,16 +18936,14 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="&obo;FOODON_03301343">
         <oboInOwl:hasDbXref rdf:datatype="&rdfs;Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03301575">
-        <obo:IAO_0000116 xml:lang="en">Damion Dooley&apos;s note: this may be redundant. We have &apos;pome fruit&apos; in plant part branch.</obo:IAO_0000116>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03301710">
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A whole raw apple is an apple harvested from an apple tree. It may include a stem. It has not been subject to cooking or preservation processes other than cold storage or waxing.</obo:IAO_0000115>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03301971">
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00001070</obo:IAO_0100001>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03303398">
+        <oboInOwl:hasSynonym xml:lang="en">kiwi</oboInOwl:hasSynonym>
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Kiwifruit</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry, is the edible berry of several species of woody vines in the genus Actinidia.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03303559">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">http://orangebook.tetrapak.com/chapter/fruit-processing</obo:IAO_0000119>
@@ -18606,13 +18962,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Vinegar made from raisins, called khall ʻinab (Arabic: خل عنب‎ &quot;grape vinegar&quot;) is used in cuisines of the Middle East, and is produced there. It is cloudy and medium brown in color, with a mild flavor.</obo:IAO_0000115>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03307595">
-        <obo:IAO_0000115 xml:lang="en">Apple that has been sliced and then canned.</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03308345">
-        <obo:IAO_0000119 rdf:datatype="&rdfs;Literal">wikipedia:Tomalley</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">Tomalley crab fat, or lobster paste is the soft, green substance found in the body cavity of lobsters, that fulfills the functions of both the liver and the pancreas.</obo:IAO_0000115>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03308376">
         <oboInOwl:hasSynonym xml:lang="en">giant river prawn</oboInOwl:hasSynonym>
     </rdf:Description>
@@ -18622,11 +18971,13 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="&obo;FOODON_03309823">
         <obo:IAO_0000119 rdf:datatype="&rdfs;Literal">wikipedia:Shrimp_pastse</obo:IAO_0000119>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03309832">
-        <obo:IAO_0000115 xml:lang="en">The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</obo:IAO_0000115>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03309997">
         <oboInOwl:hasSynonym xml:lang="en">feed</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03310257">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Cornmeal is a meal (coarse flour) ground from dried maize (corn)</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03310414">
         <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_00002340</obo:IAO_0100001>
@@ -18642,9 +18993,9 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="&obo;FOODON_03315106">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Orange_(fruit)</obo:IAO_0000119>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;FOODON_03315121">
-        <obo:IAO_0000115 xml:lang="en">A hen egg tube or &quot;long egg&quot; is a cooked cylinder having an inner core of yolk surrounded by a layer of egg white.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym xml:lang="en">long egg</oboInOwl:hasSynonym>
+    <rdf:Description rdf:about="&obo;FOODON_03315423">
+        <obo:IAO_0100001 rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03315334</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03316258">
         <rdfs:label xml:lang="en">dietetic food for youth and adults</rdfs:label>
@@ -18664,6 +19015,10 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Blancmange</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Blancmange (/bləˈmɒ̃ʒ/, from French blanc-manger [blɑ̃mɑ̃ʒe]) is a sweet dessert commonly made with milk or cream and sugar thickened with gelatin, cornstarch or Irish moss (a source of carrageenan), and often flavoured with almonds.</obo:IAO_0000115>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03317393">
+        <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wiktionary.org/wiki/still_wine</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A type of table wine, produced by a method of vinification that leaves it free from carbon dioxide and therefore not sparkling or effervescent.</obo:IAO_0000115>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03317675">
         <obo:IAO_0000115 xml:lang="en">Fish crackers are deep fried crackers made from fish and spices that serve as flavouring. The crackers also mixed with tapioca flour and/or sago flour as the main ingredients and the salt, sugar and MSG as seasonings.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -18675,6 +19030,20 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="&obo;FOODON_03401329">
         <obo:IAO_0000231>&apos;dietary supplement&apos; is now appropriate class to reference when particulars are not known.</obo:IAO_0000231>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03411021">
+        <rdfs:comment xml:lang="en">This is equivalent to:
+
+&apos;fish (food source)&apos; or &apos;shellfish (food source)&apos; or &apos;crustacean (food source)&apos; or &apos;echinoderm (food source)&apos; or &apos;coelenterate (food source)&apos;
+
+However, disjunctions like that are quite a burden on reasoners, and so this is currently not implemented.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03411059">
+        <rdfs:comment xml:lang="en">This is equivalent to:
+
+&apos;crustacean (food source)&apos; or &apos;shellfish (food source)&apos;
+
+However, this has not been implemented due to reasoner performance on FoodOn.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03411176">
         <oboInOwl:hasSynonym xml:lang="en">black cumin</oboInOwl:hasSynonym>
     </rdf:Description>
@@ -18685,6 +19054,9 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="&obo;FOODON_03411311">
         <obo:IAO_0000119 rdf:datatype="&xsd;anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Ziziphus jujuba, commonly called jujube; sometimes jujuba, red date, Chinese date, Korean date, or Indian date is a species of Ziziphus in the buckthorn family (Rhamnaceae).  It is a small deciduous tree or shrub, usually with thorny branches. The fruit is an edible oval drupe. The freshly harvested, as well as the candied dried fruit, are often eaten as a snack, or with coffee.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03411349">
+        <oboInOwl:hasSynonym xml:lang="en">calves</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03411366">
         <obo:IAO_0000115 xml:lang="en">Ceratonia siliqua, commonly known as the carob tree or carob bush, from Arabic خَرُّوبٌ (kharrūb) and Hebrew חרוב (haruv), St John&apos;s-bread, or locust bean (not to be confused with the African locust bean), or simply locust-tree, is a species of flowering evergreen shrub or tree in the pea family, Fabaceae</obo:IAO_0000115>
@@ -18734,6 +19106,31 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     <rdf:Description rdf:about="&obo;FOODON_03413763">
         <obo:GENEPIO_0000006 xml:lang="en">vitamin C</obo:GENEPIO_0000006>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03414191">
+        <oboInOwl:hasSynonym xml:lang="en">Cassia tora</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="ml">thakara</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">coffee pod</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>foetid cassia</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">chakvad</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tora</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sickle wild sensitive-plant</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sickle pod</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">sickle senna</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">tovara</oboInOwl:hasSynonym>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Senna_tora</obo:IAO_0000119>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03414465">
+        <obo:IAO_0000231 xml:lang="en">Accidentally put in LanguaL.</obo:IAO_0000231>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03414507">
+        <oboInOwl:hasSynonym xml:lang="en">Yoeme Blue</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Rio Grande Blue</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Tarahumara Maiz Azul</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03414587">
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>
     </rdf:Description>
@@ -18742,6 +19139,11 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03530049">
         <rdfs:label xml:lang="en">meat, poultry or fish physical quality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;FOODON_03530146">
+        <rdfs:comment xml:lang="en">Cuts of meat often have more arbitrary fiat boundaries that do not conform to biological anatomical categorizations except at the broadest level like &quot;leg&quot;, and even then, cut across connective tissue. For example, a steak can be taken from a variety of locations.  Leg of mutton has a somewhat arbitrary cross-section. For this reason we place &quot;cut of meat&quot; as a shape quality descriptor pertaining to a meat substance.  The substance&apos;s anatomical origin can be a separate dimension of description. 
+
+(We can&apos;t say a cut of meat is a fiat boundary BFO &quot;site&quot; because it lacks a 3 dimensional landscape context).</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;FOODON_03530268">
         <rdfs:label xml:lang="en">food plant physical quality</rdfs:label>
@@ -18761,16 +19163,6 @@ https://www.politico.com/agenda/story/2016/03/crazy-us-chicken-egg-regulation-gr
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;FOODON_00002452"/>
-            <rdf:Description rdf:about="&obo;FOODON_03411215"/>
-            <rdf:Description rdf:about="&obo;FOODON_03411297"/>
-            <rdf:Description rdf:about="&obo;FOODON_03411347"/>
-            <rdf:Description rdf:about="&obo;FOODON_03412974"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">

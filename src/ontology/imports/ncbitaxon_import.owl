@@ -26459,6 +26459,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7065 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_7065">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7041"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">darkling beetles</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">darkling ground beetles</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">long-jointed beetles</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Tenebrionidae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7067 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_7067">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7065"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">yellow mealworm</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Tenebrio molitor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_70846 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_70846">
