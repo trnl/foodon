@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/peco_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/peco_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/peco_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasonal environment exposure</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving growth during conditions of regional seasons.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rabi season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growth during the rabi crop season (October-March) as practiced in South Asia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kharif season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growth during the kharif crop season (May-October) as practised in South Asia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">winter season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growth during the winter season.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">summer season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growth during the summer season.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spring season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growth during the spring season.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autumn season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growth during the autumn season.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007285">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rainy season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to the wet or the rainy season.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007286">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry season exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to the dry season.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/peco.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

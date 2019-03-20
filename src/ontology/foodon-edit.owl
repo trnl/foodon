@@ -20,7 +20,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl"/>
@@ -32,10 +31,12 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/peco_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/uo_import.owl"/>
         <dc:description xml:lang="en">FoodOn (http://foodon.org) is a consortium-driven project to build a comprehensive and easily accessible global farm-to-fork ontology about food, that accurately and consistently describes foods commonly known in cultures from around the world.</dc:description>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <dc:title xml:lang="en">Food Ontology</dc:title>
@@ -2417,6 +2418,144 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002530 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002530"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002531">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002367"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+        <obo:IAO_0000115 xml:lang="en">A cattle steer is an adult castrated male of a cattle species.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Cattle#Terminology</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-02-22T23:48:25Z</dc11:date>
+        <oboInOwl:hasSynonym xml:lang="en">bull</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">cattle steer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002532">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002533"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002534"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002535"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002536"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002537"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002538"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002539"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002540"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002541"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002542"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002543"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002544"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002545"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002546"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002547"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03304046"/>
+        <obo:IAO_0000115 xml:lang="en">Tikka Masala (as sold in bottles in the UK) is a roasted and ground combination of common Indian spices, along with fried ginger paste, mixed into a gravy of cream and tomato puree.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chicken_tikka_masala</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.quora.com/What-is-the-difference-between-Tikka-Masala-and-Garam-Masala</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-20T06:23:40Z</dc11:date>
+        <rdfs:label xml:lang="en">tikka masala sauce</rdfs:label>
+    </owl:Class>
     
 
 
@@ -18216,6 +18355,14 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PECO_0007027 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0007027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
@@ -18859,8 +19006,8 @@ Traditional means conforming to established practice or specifications prior to 
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
@@ -18893,8 +19040,8 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002303">
@@ -18932,6 +19079,7 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303398">
         <oboInOwl:hasSynonym xml:lang="en">kiwi</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">chinese gooseberry</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Kiwifruit</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry, is the edible berry of several species of woody vines in the genus Actinidia.</obo:IAO_0000115>
     </rdf:Description>
@@ -19083,6 +19231,9 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412503">
         <obo:IAO_0000115 xml:lang="en">Cyperus esculentus (also called chufa sedge, nut grass, yellow nutsedge, tiger nut sedge, or earth almond) is a crop of the sedge family widespread across much of the world.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412551">
+        <oboInOwl:hasSynonym xml:lang="es">Chile de árbol</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412612">
         <oboInOwl:hasSynonym xml:lang="en">tiger shrimp</oboInOwl:hasSynonym>
