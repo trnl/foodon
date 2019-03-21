@@ -1147,19 +1147,6 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002231 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002231">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400281"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00002238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002238">
@@ -1647,10 +1634,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002437 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002437">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001640"/>
-        <rdfs:label xml:lang="en">elderberry food product</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002437"/>
     
 
 
@@ -2184,13 +2168,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00002512 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002512">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001656"/>
-        <obo:IAO_0000115 xml:lang="en">A juice food product made primarily from blueberres.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
-        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-02-05T23:05:21Z</dc11:date>
-        <rdfs:label xml:lang="en">blueberry juice</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002512"/>
     
 
 
@@ -2556,6 +2534,83 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-20T06:23:40Z</dc11:date>
         <rdfs:label xml:lang="en">tikka masala sauce</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002549"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001180"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Tostada is the name of various Mexican and Latin American dishes which features a flat or bowl-shaped (like a bread bowl) tortilla that is deep fried or toasted.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tostada_(tortilla)</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-20T06:46:30Z</dc11:date>
+        <rdfs:label xml:lang="en">tostada (tortilla)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002551"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002552"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002553"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002554"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002507"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Wagyu is any of the four Japanese breeds of beef cattle:  Japanese Black (Kuroge Washu), Japanese Polled (Mukaku Washu), Japanese Brown (Akage Washu or Akaushi) and Japanese Shorthorn (Nihon Tankaku Washu).  In several areas of Japan, wagyu beef is shipped carrying area names. Some examples are Matsusaka beef, Kobe beef, Yonezawa beef, Mishima beef, Ōmi beef, and Sanda beef.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Wagyu</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-20T08:06:23Z</dc11:date>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">Akage Washu</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Akaushi</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Japanese Black</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Japanese Brown</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Japanese Polled</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Japanese Shorthorn</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">Kuroge Washu</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">Mukaku Washu</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">Nihon Tankaku Washu</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">日本短角和種</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">無角和種</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">赤毛和種</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="ja">黒毛和種</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">wagyu cattle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002556"/>
     
 
 
@@ -19056,6 +19111,10 @@ Traditional means conforming to established practice or specifications prior to 
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301076">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001013</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301101">
         <obo:IAO_0000115 xml:lang="en">Pulp wash solids resulting from orange juice extraction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
@@ -19209,12 +19268,6 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411535">
         <obo:IAO_0000115 xml:lang="en">Agave is a genus of monocots native to the hot and arid regions of Mexico and the Southwestern United States. Some agave species are also native to tropical areas of South America. Some species are known by the name &quot;century plant&quot;. Agave tequilana, agave azul or blue agave, is used in the production of tequila. Agave nectar, also called agave syrup, a sweetener derived from Agave sap, is used as an alternative to sugar in cooking, and can be added to breakfast cereals as a binding agent.</obo:IAO_0000115>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411567">
-        <oboInOwl:hasNarrowSynonym xml:lang="en">marrow bean</oboInOwl:hasNarrowSynonym>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411726">
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Winged_bean</obo:IAO_0000119>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411917">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym xml:lang="en">mahi</oboInOwl:hasExactSynonym>
@@ -19263,11 +19316,6 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414465">
         <obo:IAO_0000231 xml:lang="en">Accidentally put in LanguaL.</obo:IAO_0000231>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414507">
-        <oboInOwl:hasSynonym xml:lang="en">Yoeme Blue</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">Rio Grande Blue</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">Tarahumara Maiz Azul</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414587">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
