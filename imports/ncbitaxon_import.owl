@@ -7677,6 +7677,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_205537 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_205537">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_4107"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lloron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">mamoncillo</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Solanum caripense</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_205567 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_205567">
@@ -17529,6 +17541,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3988 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_3988">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3977"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">castor bean</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Ricinus communis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3997 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_3997">
@@ -18157,6 +18180,17 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_424551"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Solanum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41084 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_41084">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7041"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Polyphaga</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Polyphaga &lt;Coleoptera&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -21955,6 +21989,17 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">winter cress</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">yellow rocket</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="&xsd;string">Barbarea vulgaris</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_50519 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_50519">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_41084"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rhinoceros beetles, hercules beetles &amp; elephant beetles</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Dynastinae</rdfs:label>
     </owl:Class>
     
 
@@ -26462,7 +26507,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7065 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_7065">
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7041"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_41084"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">darkling beetles</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">darkling ground beetles</oboInOwl:hasExactSynonym>
