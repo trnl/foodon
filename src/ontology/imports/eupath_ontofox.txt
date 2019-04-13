@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/foodon/imports/eupath_import.owl #Eukaryotic Pathogen Database Bioinformatics Resource Center
+
+[Source ontology]
+EUPATH
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/EUPATH_0000584 # child's diet
+http://purl.obolibrary.org/obo/EUPATH_0000590 # host's diet
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+[Source annotation URIs to be excluded]

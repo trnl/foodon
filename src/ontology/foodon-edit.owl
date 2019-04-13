@@ -16,7 +16,7 @@
      xmlns:patterns="http://www.co-ode.org/patterns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/foodon/releases/2018-02-28/foodon.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl"/>
@@ -195,6 +195,24 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
     
 
 
@@ -1973,7 +1991,7 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         <obo:IAO_0000115 xml:lang="en">The ricefield rat (Rattus argentiventer) is a species of rat found throughout Southeast Asia. Although not a part of staple human diet in Cambodia, a growing market has developed there with most exports going to Vietnam</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym xml:lang="en">rice-field rat</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">ricefield rat (as food source)</rdfs:label>
+        <rdfs:label xml:lang="en">ricefield rat</rdfs:label>
     </owl:Class>
     
 
@@ -2611,6 +2629,120 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002556"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03316919"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Black pudding is a type of blood sausage originating in Great Britain and Ireland. It is made from pork blood, with pork fat or beef suet, and a cereal, usually oatmeal, oat groats or barley groats. The high proportion of cereal, along with the use of certain herbs such as pennyroyal, serves to distinguish black pudding from blood sausages eaten in other parts of the world.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Black_pudding</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T14:05:09Z</dc11:date>
+        <rdfs:label xml:lang="en">black pudding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002558"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002559"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002560"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002561"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002562"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002563"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002257"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Chowder is a type of soup or stew often prepared with milk or cream and thickened with broken crackers, crushed ship biscuit, or a roux. Variations of chowder can be seafood or vegetable.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chowder</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-13T17:50:05Z</dc11:date>
+        <rdfs:label xml:lang="en">chowder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002437"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Elderflower is the flower (blossom) of an elderberry plant</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Sambucus</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-13T18:06:38Z</dc11:date>
+        <rdfs:label xml:lang="en">elderflower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002566"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002567"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002568"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002569"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002570"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002571"/>
     
 
 
@@ -3525,6 +3657,14 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Vanilla extract is a solution containing the flavor compound vanillin as the primary ingredient.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Wikipedia notes: Pure vanilla extract is made by macerating and percolating vanilla pods in a solution of ethanol and water. In the United States, in order for a vanilla extract to be called pure, the U.S. Food and Drug Administration requires that the solution contains a minimum of 35% alcohol and 100 g of vanilla beans per litre (13.35 ounces per gallon) ... Canadian Regulations: Under the Food and Drug Regulations (C.R.C., c. 870), vanilla extract products have to be processed from vanilla beans: Vanilla planifolia or Vanilla tahitensia.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316919 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03316919">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Black_pudding</obo:IAO_0000119>
     </rdf:Description>
     
 
@@ -19057,14 +19197,14 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003096">
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Tap_water</obo:IAO_0000119>
         <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <oboInOwl:hasSynonym xml:lang="en">city water</oboInOwl:hasSynonym>
         <obo:IAO_0000115 xml:lang="en">Tap water is water supplied to a tap (valve). Its uses include drinking, washing, cooking, and the flushing of toilets</obo:IAO_0000115>
@@ -19095,8 +19235,8 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002303">
@@ -19137,8 +19277,8 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001070</obo:IAO_0100001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303398">
-        <oboInOwl:hasSynonym xml:lang="en">kiwi</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">chinese gooseberry</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">kiwi</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Kiwifruit</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry, is the edible berry of several species of woody vines in the genus Actinidia.</obo:IAO_0000115>
     </rdf:Description>
@@ -19244,10 +19384,6 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411176">
         <oboInOwl:hasSynonym xml:lang="en">black cumin</oboInOwl:hasSynonym>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411245">
-        <rdfs:comment xml:lang="en">Malus pumila encompasses over 7,500 apple cultivars (https://en.wikipedia.org/wiki/List_of_apple_cultivars).</rdfs:comment>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Apple</obo:IAO_0000119>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411311">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Jujube</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Ziziphus jujuba, commonly called jujube; sometimes jujuba, red date, Chinese date, Korean date, or Indian date is a species of Ziziphus in the buckthorn family (Rhamnaceae).  It is a small deciduous tree or shrub, usually with thorny branches. The fruit is an edible oval drupe. The freshly harvested, as well as the candied dried fruit, are often eaten as a snack, or with coffee.</obo:IAO_0000115>
@@ -19274,6 +19410,7 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412014">
         <obo:IAO_0000115 xml:lang="en">Mespilus germanica, known as the medlar or common medlar, is a large shrub or small tree, and the name of the fruit of this tree.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412473">
         <oboInOwl:hasSynonym xml:lang="en">yellow vetchling</oboInOwl:hasSynonym>
@@ -19281,9 +19418,6 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412496">
         <oboInOwl:hasNarrowSynonym>Acheta domesticus</oboInOwl:hasNarrowSynonym>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412503">
-        <obo:IAO_0000115 xml:lang="en">Cyperus esculentus (also called chufa sedge, nut grass, yellow nutsedge, tiger nut sedge, or earth almond) is a crop of the sedge family widespread across much of the world.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412551">
         <oboInOwl:hasSynonym xml:lang="es">Chile de árbol</oboInOwl:hasSynonym>
@@ -19305,8 +19439,8 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
         <oboInOwl:hasSynonym xml:lang="ml">thakara</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">coffee pod</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>foetid cassia</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">chakvad</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">tora</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">chakvad</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sickle wild sensitive-plant</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sickle pod</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sickle senna</oboInOwl:hasSynonym>
