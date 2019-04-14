@@ -12,6 +12,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:taxon="http://purl.obolibrary.org/obo/NCBITaxon#"
+     xmlns:schema="http://schema.org/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon.owl">
@@ -65,6 +66,14 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://schema.org/image -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/image">
+        <obo:IAO_0000115 xml:lang="en">An image of the item. ,In Protege, this can be a URL.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
     
 
 
@@ -2743,6 +2752,46 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_00002571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002571"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002574"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002573"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530146"/>
+        <obo:IAO_0000115 xml:lang="en">Cuts of beef are first divided into primal cuts, pieces of meat initially separated from the carcass during butchering. These are basic sections from which steaks and other subdivisions are cut.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Cut_of_beef#British_cuts</obo:IAO_0000119>
+        <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-14T20:55:42Z</dc11:date>
+        <rdfs:label xml:lang="en">cut of beef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002575"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002576"/>
     
 
 
@@ -18312,6 +18361,16 @@ Traditional means conforming to established practice or specifications prior to 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03530146 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530146">
+        <rdfs:comment xml:lang="en">Cuts of meat often have more arbitrary fiat boundaries that do not conform to biological anatomical categorizations except at the broadest level like &quot;leg&quot;, and even then, cut across connective tissue. For example, a steak can be taken from a variety of locations.  Leg of mutton has a somewhat arbitrary cross-section. For this reason we place &quot;cut of meat&quot; as a shape quality descriptor pertaining to a meat substance.  The substance&apos;s anatomical origin can be a separate dimension of description. 
+
+(We can&apos;t say a cut of meat is a fiat boundary BFO &quot;site&quot; because it lacks a 3 dimensional landscape context).</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03530172 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530172">
@@ -19462,11 +19521,6 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530049">
         <rdfs:label xml:lang="en">meat, poultry or fish physical quality</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530146">
-        <rdfs:comment xml:lang="en">Cuts of meat often have more arbitrary fiat boundaries that do not conform to biological anatomical categorizations except at the broadest level like &quot;leg&quot;, and even then, cut across connective tissue. For example, a steak can be taken from a variety of locations.  Leg of mutton has a somewhat arbitrary cross-section. For this reason we place &quot;cut of meat&quot; as a shape quality descriptor pertaining to a meat substance.  The substance&apos;s anatomical origin can be a separate dimension of description. 
-
-(We can&apos;t say a cut of meat is a fiat boundary BFO &quot;site&quot; because it lacks a 3 dimensional landscape context).</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03530268">
         <rdfs:label xml:lang="en">food plant physical quality</rdfs:label>
