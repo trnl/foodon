@@ -69,11 +69,35 @@
     
 
 
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
     <!-- http://schema.org/image -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/image">
         <obo:IAO_0000115 xml:lang="en">An image of the item. ,In Protege, this can be a URL.</obo:IAO_0000115>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
     
 
 
@@ -2795,6 +2819,18 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002577"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002578"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_0002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_0002000"/>
@@ -2938,6 +2974,12 @@ FoodOn owes a large debt to LanguaL, the food indexing system developed since th
     <!-- http://purl.obolibrary.org/obo/FOODON_03301178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343"/>
     
 
 
@@ -5195,18 +5237,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasSynonym xml:lang="en">variety meat</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">organ meat</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420220 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420220">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cellulose (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </rdf:Description>
     
 
 
@@ -8229,7 +8259,7 @@ Liquid smoke is also a common ingredient in many barbecue sauces and meat marina
     <!-- http://purl.obolibrary.org/obo/FOODON_03460138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460254"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460238"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0138</oboInOwl:hasDbXref>
@@ -8307,7 +8337,7 @@ Liquid smoke is also a common ingredient in many barbecue sauces and meat marina
     <!-- http://purl.obolibrary.org/obo/FOODON_03460148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460254"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0148</oboInOwl:hasDbXref>
@@ -8425,7 +8455,7 @@ Liquid smoke is also a common ingredient in many barbecue sauces and meat marina
     <!-- http://purl.obolibrary.org/obo/FOODON_03460160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0160</oboInOwl:hasDbXref>
@@ -8551,7 +8581,7 @@ We salting is used as preservation method, index *preservation by SALTING [J0103
     <!-- http://purl.obolibrary.org/obo/FOODON_03460175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0175</oboInOwl:hasDbXref>
@@ -8772,7 +8802,7 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03460200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0200</oboInOwl:hasDbXref>
@@ -8973,13 +9003,14 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460111"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460238"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115>This class is subject to revision as it is inherited from LanguaL but is not according to FoodOn ontology design. Product ingredients are handled using &apos;has part&apos;, &apos;derives from&apos;, &apos;has substance added&apos;, etc. relations rather than through &quot;X added&quot; terms; these will likely be deprecated.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This class&apos;es semantics are now focused on the process of adding various food components.  This class originated in LanguaL&apos;s &quot;ingredient added&quot;, but ingredients are now listed directly via &quot;has ingredient&quot;, &apos;has part&apos;, &apos;derives from&apos;, and &apos;has substance added&apos; relations.</obo:IAO_0000116>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0225</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: A food product is characterized by its main ingredient (food source and part); the addition of secondary ingredients is considered a treatment applied to the product. Secondary ingredients are indexed according to rules that are based on the order of predominance by weight (not counting water) as seen from the label statement, formulation or recipe and/or from the amount of the ingredient as percentage of total product weight. The general rule is:  an ingredient is always indexed if it is the second ingredient in order of predominance, if it is used as a filling, or if it is part of the product name(e.g., raisin bread). Specific rules are given in the scope note for the individual ingredient added; these rules specify more exhaustive indexing. For example, *MUSHROOM ADDED* is indexed regardless of ingredient position. another specific rule is given in the scope note for *SALTED*:  Use if the level of salt is more than 4%. Such a rule is used only when the percentage level can be inferred from the list of ingredients.</rdfs:comment>
-        <rdfs:label xml:lang="en">ingredient added (TO BE REVISED)</rdfs:label>
+        <rdfs:label xml:lang="en">component addition process</rdfs:label>
     </owl:Class>
     
 
@@ -9296,7 +9327,7 @@ Damion Dooley&apos;s note: converted to a process</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03460259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460254"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0259</oboInOwl:hasDbXref>
@@ -19256,10 +19287,10 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:GENEPIO_0000006 xml:lang="en">skin lightening agent role</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00003096">
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <rdfs:comment>SIREN DB annotation:
 * has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
 * has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)</rdfs:comment>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F7286</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">town water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">municipal water</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">running water</oboInOwl:hasSynonym>
@@ -19294,8 +19325,8 @@ Traditional means conforming to established practice or specifications prior to 
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001863">
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Candy prepared by cooking together sugar, water and ingredients to control crystal growth to a temperature of 238-246 degrees F. The product is then cooled approximately 100 degrees and agitated to promote a smooth, creamy texture.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03400244</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002303">
@@ -19328,16 +19359,13 @@ Traditional means conforming to established practice or specifications prior to 
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">wikipedia:vinegar</obo:IAO_0000119>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301343">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03301971">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001070</obo:IAO_0100001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03303398">
-        <oboInOwl:hasSynonym xml:lang="en">chinese gooseberry</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">kiwi</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">chinese gooseberry</oboInOwl:hasSynonym>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Kiwifruit</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry, is the edible berry of several species of woody vines in the genus Actinidia.</obo:IAO_0000115>
     </rdf:Description>
@@ -19371,8 +19399,8 @@ Traditional means conforming to established practice or specifications prior to 
         <oboInOwl:hasSynonym xml:lang="en">feed</oboInOwl:hasSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310257">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Cornmeal is a meal (coarse flour) ground from dried maize (corn)</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310414">
@@ -19410,10 +19438,6 @@ Traditional means conforming to established practice or specifications prior to 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317017">
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Blancmange</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Blancmange (/bləˈmɒ̃ʒ/, from French blanc-manger [blɑ̃mɑ̃ʒe]) is a sweet dessert commonly made with milk or cream and sugar thickened with gelatin, cornstarch or Irish moss (a source of carrageenan), and often flavoured with almonds.</obo:IAO_0000115>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317393">
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wiktionary.org/wiki/still_wine</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">A type of table wine, produced by a method of vinification that leaves it free from carbon dioxide and therefore not sparkling or effervescent.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03317675">
         <obo:IAO_0000115 xml:lang="en">Fish crackers are deep fried crackers made from fish and spices that serve as flavouring. The crackers also mixed with tapioca flour and/or sago flour as the main ingredients and the salt, sugar and MSG as seasonings.</obo:IAO_0000115>
@@ -19494,8 +19518,8 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
         <obo:GENEPIO_0000006 xml:lang="en">vitamin C</obo:GENEPIO_0000006>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414191">
-        <oboInOwl:hasSynonym xml:lang="en">Cassia tora</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="ml">thakara</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Cassia tora</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">coffee pod</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>foetid cassia</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">tora</oboInOwl:hasSynonym>
@@ -19506,12 +19530,23 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
         <oboInOwl:hasSynonym xml:lang="en">tovara</oboInOwl:hasSynonym>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Senna_tora</obo:IAO_0000119>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414416">
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.langual.org/langual_thesaurus.asp?termid=C0220</oboInOwl:hasDbXref>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414465">
         <obo:IAO_0000231 xml:lang="en">Accidentally put in LanguaL.</obo:IAO_0000231>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414587">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420220">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">cellulose (deprecated)</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03520231">
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03520521</rdfs:seeAlso>
@@ -19593,5 +19628,5 @@ However, this has not been implemented due to reasoner performance on FoodOn.</r
 
 
 
-<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

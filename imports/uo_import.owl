@@ -666,6 +666,94 @@
         <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">pound</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010040 -->
+
+    <owl:Class rdf:about="&obo;UO_0010040">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A metric teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 5mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">teaspoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010041 -->
+
+    <owl:Class rdf:about="&obo;UO_0010041">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A United States customary units teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 4.93 mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">united states customary teaspoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010042 -->
+
+    <owl:Class rdf:about="&obo;UO_0010042">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A metric tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 15mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">tablespoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010043 -->
+
+    <owl:Class rdf:about="&obo;UO_0010043">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An Australian metric tablespoon is a unit of measurement of volume used in Australia for cooking recipes and pharmaceutic prescriptions. It equals a 20mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">australian metric tablespoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010044 -->
+
+    <owl:Class rdf:about="&obo;UO_0010044">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A United States customary units tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 14.79 mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">united states customary tablespoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010045 -->
+
+    <owl:Class rdf:about="&obo;UO_0010045">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A metric cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 250mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">metric cup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010046 -->
+
+    <owl:Class rdf:about="&obo;UO_0010046">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A United States customary units cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 236.59 mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">united states customary cup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010047 -->
+
+    <owl:Class rdf:about="&obo;UO_0010047">
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A United States FDA cup is a unit of measurement of volume used by the US Federal Department of Agriculture as a nutritional serving measure. It equals a 240 mL volume.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">united states fda cup</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
