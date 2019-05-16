@@ -7874,6 +7874,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_212017 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_212017">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_7524"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">Lethocerus indicus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_212736 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_212736">
