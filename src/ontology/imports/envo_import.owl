@@ -99,6 +99,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00000015 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000015">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000063"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A marine water body which is constitutes the majority of an astronomical body&apos;s hydrosphere.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
@@ -110,6 +111,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00000016 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000016">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000063"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A large expanse of saline water usually connected with an ocean.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
@@ -144,7 +146,7 @@
 
     <owl:Class rdf:about="&obo;ENVO_00000023">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000063"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Linear body of water flowing on the Earth&apos;s surface.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A watercourse which is linear and flows across the solid portion of a planetary surface.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">stream</rdfs:label>
     </owl:Class>
@@ -187,7 +189,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00000063 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000063">
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002297"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An accumulation of water of varying size.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">water body</rdfs:label>
@@ -289,7 +291,7 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000408"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A vegetated area which overlaps treeless, level, or gently rolling plains characteristic of arctic or subarctic regions, permanently frozen subsoil, and communities of low growing vegetation such as lichens, mosses, and stunted shrubs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">tundra</rdfs:label>
+        <rdfs:label>tundra</rdfs:label>
     </owl:Class>
     
 
@@ -333,7 +335,7 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00002297"/>
         <obo:IAO_0000115>A part of an astronomical body which is primarily composed of a continuous volume of solid material, shaped by one or more environmental processes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">solid landform</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">solid astronomical body part</rdfs:label>
     </owl:Class>
     
 
@@ -485,7 +487,7 @@
 
     <owl:Class rdf:about="&obo;ENVO_00002000">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">The part of an elevation or depression between the relatively flat surrounding area and the peak of a mount or the bottom of a depression.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A solid astronomical body part which is part of the planetary surface between the peak of an elevation or the bottom of a depression and  relatively flat surrounding land.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">slope</rdfs:label>
     </owl:Class>
@@ -498,7 +500,7 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An environmental material primarily composed of dihydrogen oxide in its liquid form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">water</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">liquid water</rdfs:label>
     </owl:Class>
     
 
@@ -540,8 +542,19 @@
 
     <owl:Class rdf:about="&obo;ENVO_00002030">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000428"/>
+        <obo:IAO_0000118>A biome which has its properties and composition determined by a water body and within which most members of resident ecological communities have adapted to life in or on water.</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">aquatic biome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002040 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002040">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000155"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">wood</rdfs:label>
     </owl:Class>
     
 
@@ -911,7 +924,7 @@
 
     <owl:Class rdf:about="&obo;ENVO_01000155">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Environmental material derived from living organisms.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Environmental material derived from living organisms and composed primarily of one or more biomacromolecules.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">organic material</rdfs:label>
     </owl:Class>
@@ -1094,6 +1107,7 @@
 
     <owl:Class rdf:about="&obo;ENVO_01000486">
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000191"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A building floor is a surface layer which is part of a building and used for walking.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label>building floor</rdfs:label>
@@ -1337,6 +1351,9 @@
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">cellular respiration</rdfs:label>
     </owl:Class>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
     </rdf:Description>

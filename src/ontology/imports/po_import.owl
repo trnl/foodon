@@ -89,6 +89,62 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0004518 -->
+
+    <owl:Class rdf:about="&obo;PO_0004518">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of plant tissue (PO:0009007) outside the vascular cambium (PO:0005598) or the xylem (PO:0005352); in older trees may be divided into dead outer bark and living inner bark, which consists of secondary phloem (PO:0005043).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">bark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004542 -->
+
+    <owl:Class rdf:about="&obo;PO_0004542">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025029"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A swollen shoot axis (PO:0025029) that grows horizontally at or below the substrate surface and produces shoots above and roots or rhizoids below.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">rhizome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004543 -->
+
+    <owl:Class rdf:about="&obo;PO_0004543">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025029"/>
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025522"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A shoot axis (PO:0025029) that develops from a branch (PO:0025073) and is radially enlarged for storage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">shoot axis tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004547 -->
+
+    <owl:Class rdf:about="&obo;PO_0004547">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0004543"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A shoot axis tuber (PO:0004543) that develops below ground.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">subterranean shoot axis tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0005005 -->
+
+    <owl:Class rdf:about="&obo;PO_0005005">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cardinal organ part (PO:0025001) of a shoot axis (PO:0025029) that is between two shoot axis nodes (PO:0005004).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">shoot axis internode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0006001 -->
 
     <owl:Class rdf:about="&obo;PO_0006001">
@@ -152,6 +208,28 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
+
+    <owl:Class rdf:about="&obo;PO_0009005">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">root</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009006 -->
+
+    <owl:Class rdf:about="&obo;PO_0009006">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025007"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">shoot system</rdfs:label>
     </owl:Class>
     
 
@@ -291,7 +369,7 @@
 
     <owl:Class rdf:about="&obo;PO_0020038">
         <rdfs:subClassOf rdf:resource="&obo;PO_0025066"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stalk of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stalk (PO:0025066) of a vascular leaf (PO:0009025).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">petiole</rdfs:label>
     </owl:Class>
@@ -342,6 +420,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0020100 -->
+
+    <owl:Class rdf:about="&obo;PO_0020100">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0020142"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stem internode (PO:0020142) below the cotyledonary node (PO:0025321) and transitional to a root (PO:0009005) of a plant embryo (PO:0009009) or a seedling (PO:0000003).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hypocotyl</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0020103 -->
 
     <owl:Class rdf:about="&obo;PO_0020103">
@@ -353,6 +442,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0020142 -->
+
+    <owl:Class rdf:about="&obo;PO_0020142">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0005005"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A shoot axis internode (PO:0005005) that is part of a stem (PO:0009047).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">stem internode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025001 -->
 
     <owl:Class rdf:about="&obo;PO_0025001">
@@ -360,6 +460,39 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">cardinal organ part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025004 -->
+
+    <owl:Class rdf:about="&obo;PO_0025004">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009008"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An axial plant organ (PO:0009008).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">plant axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025007 -->
+
+    <owl:Class rdf:about="&obo;PO_0025007">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025497"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">collective plant organ structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025029 -->
+
+    <owl:Class rdf:about="&obo;PO_0025029">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant axis (PO:0025004) that is part of a shoot system (PO:0009006).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">shoot axis</rdfs:label>
     </owl:Class>
     
 
@@ -487,6 +620,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025355 -->
+
+    <owl:Class rdf:about="&obo;PO_0025355">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009006"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A shoot system (PO:0009006) that has as parts a short, enlarged stem (PO:0009047) in which the shoot internodes (PO:0005005) do not elongate, and one or more buds (PO:0000055).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">corm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025356 -->
+
+    <owl:Class rdf:about="&obo;PO_0025356">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009006"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A short, enlarged shoot system (PO:0009006) that has as parts a short stem (PO:0009047) in which the shoot internodes (PO:0005005) do not elongate, and one or more buds (PO:0000055) enclosed by fleshy leaves (PO:0009025) or leaf bases (PO:0020040).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">bulb</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025361 -->
 
     <owl:Class rdf:about="&obo;PO_0025361">
@@ -520,6 +675,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025476 -->
+
+    <owl:Class rdf:about="&obo;PO_0025476">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009005"/>
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025522"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A root (PO:0009005) that develops from a tuberous root (PO:0025523) and is further radially enlarged for storage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">tuberous root tuber</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025496 -->
 
     <owl:Class rdf:about="&obo;PO_0025496">
@@ -531,6 +698,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025497 -->
+
+    <owl:Class rdf:about="&obo;PO_0025497">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that is a proper part of a whole plant (PO:0000003) and includes two or more adjacent plant organs (PO:0009008) or adjacent cardinal organ parts (PO:0025001), along with any associated portions of plant tissue (PO:0009007).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">collective plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025498 -->
 
     <owl:Class rdf:about="&obo;PO_0025498">
@@ -538,6 +716,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that is a proper part of a multi-tissue plant structure (PO:0025496) and includes portions of plant tissues (PO:0009007) of at least two different types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">cardinal part of multi-tissue plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025522 -->
+
+    <owl:Class rdf:about="&obo;PO_0025522">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant axis (PO:0025004) that is radially enlarged.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">tuber</rdfs:label>
     </owl:Class>
     
 
