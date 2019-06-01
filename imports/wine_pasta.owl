@@ -1,14 +1,4 @@
 <?xml version="1.0"?>
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
 <rdf:RDF xmlns="http://purl.obolibrary.org/foodon/imports/wine_pasta.owl#"
      xml:base="http://purl.obolibrary.org/foodon/imports/wine_pasta.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -1151,7 +1141,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001211"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Tortelloni are stuffed pasta, the same shape as tortellini, but larger. They are usually stuffed with ricotta cheese and leaf vegetables, such as spinach. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tortelloni are stuffed pasta, the same shape as tortellini, but larger. They are usually stuffed with ricotta cheese and leaf vegetables, such as spinach.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon Russell</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Tortelloni</obo:IAO_0000119>
         <schema:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tortelloni_tomato_sauce1.JPG/275px-Tortelloni_tomato_sauce1.JPG"/>
