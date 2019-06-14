@@ -1324,6 +1324,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000047 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000047">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002297"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Animal feed is a biotic mesoscopic physical object consisting of any foodstuff that is used specifically to feed domesticated livestock, such as cattle, goats, sheep, horses, chickens and pigs. Most animal feed is from plants but some is of animal origin. Fodder refers particularly to food given to the animals (including plants cut and carried to them), rather than that which they forage for themselves. It includes hay, straw, silage, compressed and pelleted feeds, oils and mixed rations, and also sprouted grains and legumes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">animal feed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000054 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000054">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000055"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A mixture of crushed and coarsely ground bones that is used as an organic fertilizer for plants and formerly in animal feed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">bone meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000055 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000055">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002297"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Plant feed is a biotic mesoscopic physical object consisting of any foodstuff that is used specifically to feed plants.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">plant feed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03306644 -->
 
     <owl:Class rdf:about="&obo;FOODON_03306644">
