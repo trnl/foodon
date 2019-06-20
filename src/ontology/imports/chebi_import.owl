@@ -7094,6 +7094,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_61266 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_61266">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_18154"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Hemicelluloses are polysaccharides in plant cell walls that have beta-(1-&gt;4)-linked backbones with an equatorial configuration. Hemicelluloses include xyloglucans, xylans, mannans and glucomannans, and beta-(1-&gt;3,1-&gt;4)-glucans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">hemicellulose</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_61458 -->
 
     <owl:Class rdf:about="&obo;CHEBI_61458">

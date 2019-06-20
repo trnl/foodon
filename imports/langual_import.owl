@@ -3272,7 +3272,7 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1041</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: A chemical food component is a food substance derived from a nonliving source (e.g., salt, water or synthesized compounds).</rdfs:comment>
-        <rdfs:label xml:lang="en">chemical food product</rdfs:label>
+        <rdfs:label xml:lang="en">chemical food component</rdfs:label>
     </owl:Class>
     
 
@@ -3815,17 +3815,6 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412113"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Mussel is the common name used for members of several families of bivalve molluscs, from saltwater and freshwater habitats. These groups have in common a shell whose outline is elongated and asymmetrical compared with other edible clams, which are often more or less rounded or oval. [https://en.wikipedia.org/wiki/Mussel]</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://eol.org/pages/2235</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1223</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">bivalvia</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">heterodonta</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">mytilidae</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">palaeoheterodonta</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pteriomorphia</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">mussel</rdfs:label>
     </owl:Class>
     
 
@@ -3834,17 +3823,6 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412113"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Oyster is the common name for a number of different families of salt-water bivalve molluscs that live in marine or brackish habitats. In some species the valves are highly calcified, and many are somewhat irregular in shape. 
-True oysters are members of the family *Ostreidae*. This family includes the edible oysters, which mainly belong to the genera *Ostrea, Crassostrea, Ostreola, Magallana, Saccostrea*.  Pearl oysters are not closely related to true oysters, being members of a distinct family, the feathered oysters (*Pteriidae*). [https://en.wikipedia.org/wiki/Oyster]</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://eol.org/pages/2267</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1224</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">crassostrea spp.</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">ostrea spp.</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">ostreidae</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pteriidae</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">oyster</rdfs:label>
     </owl:Class>
     
 
@@ -3947,10 +3925,6 @@ True oysters are members of the family *Ostreidae*. This family includes the edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412113"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1331</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">clam</rdfs:label>
     </owl:Class>
     
 
@@ -4039,13 +4013,6 @@ True oysters are members of the family *Ostreidae*. This family includes the edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411489">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412113"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://eol.org/pages/2249</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1489</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">pecten aequiscleatus</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pectinidae</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">scallop</rdfs:label>
     </owl:Class>
     
 
@@ -20075,11 +20042,10 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <!-- http://purl.obolibrary.org/obo/FOODON_03500035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0035</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">wood</rdfs:label>
+        <rdfs:label xml:lang="en">wood (deprecated)</rdfs:label>
     </owl:Class>
     
 
@@ -22313,7 +22279,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0071</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">type of rind or crust</rdfs:label>
+        <rdfs:label xml:lang="en">food rind or crust</rdfs:label>
     </owl:Class>
     
 
@@ -22327,7 +22293,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0072</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">brushed cheese rind</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">washed or brushed cheese rind</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">cheese rind, washed or brushed</rdfs:label>
+        <rdfs:label xml:lang="en">cheese rind (washed or brushed)</rdfs:label>
     </owl:Class>
     
 
@@ -22341,7 +22307,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0073</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">mold cheese rind</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">mold rind</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">cheese rind, moldy</rdfs:label>
+        <rdfs:label xml:lang="en">cheese rind (moldy)</rdfs:label>
     </owl:Class>
     
 
@@ -22552,7 +22518,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0092</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">type of sausage casing</rdfs:label>
+        <rdfs:label xml:lang="en">sausage casing</rdfs:label>
     </owl:Class>
     
 
@@ -22662,7 +22628,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0102</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">presence of casing or rind</rdfs:label>
+        <rdfs:label xml:lang="en">casing or rind</rdfs:label>
     </owl:Class>
     
 
@@ -23169,7 +23135,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0147</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">natural cheese rind</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">cheese rind, natural</rdfs:label>
+        <rdfs:label xml:lang="en">cheese rind (natural)</rdfs:label>
     </owl:Class>
     
 
@@ -23182,7 +23148,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0148</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">artificial cheese rind</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">cheese rind, artificial</rdfs:label>
+        <rdfs:label xml:lang="en">cheese rind (artificial)</rdfs:label>
     </owl:Class>
     
 
