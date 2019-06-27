@@ -19247,6 +19247,12 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420103"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03430113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430113"/>
@@ -23118,7 +23124,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
     <!-- http://purl.obolibrary.org/obo/FOODON_03530146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420103"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0146</oboInOwl:hasDbXref>
