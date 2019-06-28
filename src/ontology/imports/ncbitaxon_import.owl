@@ -26958,6 +26958,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7215 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_7215">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_33392"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Drosophila</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">fruit flies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">fruit fly</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="&xsd;string">Drosophila &lt;fruit fly, genus&gt;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_72171 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_72171">
