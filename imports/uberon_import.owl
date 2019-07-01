@@ -439,6 +439,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006314 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0006314">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">bodily fluid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0006611 -->
 
     <owl:Class rdf:about="&obo;UBERON_0006611">
