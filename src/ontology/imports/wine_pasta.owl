@@ -362,7 +362,7 @@
         <obo:IAO_0000115 xml:lang="en">Pinot gris is a white wine grape variety (mutation) of the Pinot family which shares its genetic fingerprint with Pinot Noir, Pinot Blanc et al. . Pinot gris is grown around the globe with the &quot;spicy&quot; full-bodied Alsatian and lighter-bodied, more acidic Italian styles being most widely recognized.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pinot_gris</obo:IAO_0000119>
-        <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/1/13/Pinot_Gris_close.JPG</schema:image>
+        <schema:image rdf:resource="https://commons.wikimedia.org/wiki/File:Pinot_Gris_close.JPG"/>
         <oboInOwl:hasExactSynonym xml:lang="ge">Grauburgunder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="it">Pinot Grigio grape</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Pinot gris grape plant</rdfs:label>
@@ -409,7 +409,7 @@
         <obo:IAO_0000115 xml:lang="en">Pinot noir grape is a red wine grape variety. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pine cone-shaped bunches of fruit. Pinot noir grapes are grown around the world, mostly in the cooler climates, and the grape is chiefly associated with the Burgundy region of France.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon Russell</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pinot_noir</obo:IAO_0000119>
-        <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Grape_near_Sancerre.jpg/640px-Grape_near_Sancerre.jpg</schema:image>
+        <schema:image rdf:resource="https://en.wikipedia.org/wiki/Pinot_noir#/media/File:Grape_near_Sancerre.jpg"/>
         <rdfs:label xml:lang="en">Pinot noir grape plant</rdfs:label>
     </owl:Class>
     
@@ -1141,7 +1141,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001211"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Tortelloni are stuffed pasta, the same shape as tortellini, but larger. They are usually stuffed with ricotta cheese and leaf vegetables, such as spinach.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Tortelloni are stuffed pasta, the same shape as tortellini, but larger. They are usually stuffed with ricotta cheese and leaf vegetables, such as spinach. </obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon Russell</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Tortelloni</obo:IAO_0000119>
         <schema:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tortelloni_tomato_sauce1.JPG/275px-Tortelloni_tomato_sauce1.JPG"/>
@@ -1259,6 +1259,20 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Bordeaux_wine</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym xml:lang="en-br">claret</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Bordeaux wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001211"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Cannelloni are a cylindrical type of lasagna generally served baked with a filling and covered by a sauce in Italian cuisine.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Cannelloni</obo:IAO_0000119>
+        <schema:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cannelloni2.png/320px-Cannelloni2.png"/>
+        <rdfs:label xml:lang="en">cannelloni</rdfs:label>
     </owl:Class>
     
 
