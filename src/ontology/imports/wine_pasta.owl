@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/foodon/imports/wine_pasta.owl#"
      xml:base="http://purl.obolibrary.org/foodon/imports/wine_pasta.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:schema="http://schema.org/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:schema="http://schema.org/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/foodon/imports/wine_pasta.owl"/>
     
 
@@ -1277,6 +1277,90 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002863">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Blaufränkisch (German for blue Frankish) is a dark-skinned variety of grape used for red wine.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Blaufr%C3%A4nkisch</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="ge"> Blauer Limberger </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="ge"> Blue Limberger</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="ge">Blaufränkisch grape</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="ge">lemberger </oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Blaufränkisch grape plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310272"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002863"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002863"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Blaufränkisch wine is a red wine varietal produced entirely from Blaufränkisch grapes.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Blaufr%C3%A4nkisch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Blaufränkisch wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002868 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002868">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Mourvèdre (also known as Mataró or Monastrell) is a red wine grape variety that is grown in many regions around the world including the Rhône and Provence regions of France, the Valencia and Jumilla denominaciones de origen of Spain, as well as the Balearic Islands, California and Washington and the Australian regions of South Australia and New South Wales, as well as South Africa.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <schema:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Balzac_noir-mourvedre.jpg/451px-Balzac_noir-mourvedre.jpg"/>
+        <oboInOwl:hasExactSynonym xml:lang="es">Monastrell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Mourvèdre grape | Mataró | Monastrell</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Mourvèdre grape plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002869">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310272"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002868"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002868"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Mourvèdre wine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301014"/>
@@ -1329,5 +1413,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
 

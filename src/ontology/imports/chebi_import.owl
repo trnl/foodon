@@ -246,6 +246,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_15356 -->
 
     <owl:Class rdf:about="&obo;CHEBI_15356">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_26834"/>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A sulfur-containing amino acid that is propanoic acid with an amino group at position 2 and a sulfanyl group at position 3.</obo:IAO_0000115>
@@ -887,6 +888,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_18237 -->
 
     <owl:Class rdf:about="&obo;CHEBI_18237">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is glutaric acid bearing a single amino substituent at position 2.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
@@ -2238,6 +2240,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26167 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_26167">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any amino acid whose side chain is capable of forming one or more hydrogen bonds as proton donors or acceptors.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">polar amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26188 -->
 
     <owl:Class rdf:about="&obo;CHEBI_26188">
@@ -3204,6 +3217,18 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A tricarboxylic acid that is propane-1,2,3-tricarboxylic acid bearing a hydroxy substituent at position 2. It is an important metabolite in the pathway of all aerobic organisms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">citric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30805 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_30805">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_39418"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_59554"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A straight-chain, twelve-carbon medium-chain saturated fatty acid with strong bactericidal properties; the main fatty acid in coconut oil and palm kernel oil.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">dodecanoic acid</rdfs:label>
     </owl:Class>
     
 
@@ -6086,6 +6111,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39418 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_39418">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26607"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_59202"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any saturated fatty acid lacking a side-chain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">straight-chain saturated fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39437 -->
 
     <owl:Class rdf:about="&obo;CHEBI_39437">
@@ -6968,6 +7005,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A cyclic compound having as ring members atoms of at least two different elements.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">heterocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59202 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_59202">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35366"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any fatty acid whose skeletal carbon atoms form an unbranched open chain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">straight-chain fatty acid</rdfs:label>
     </owl:Class>
     
 
