@@ -1093,6 +1093,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000277 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000277">
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">water ice</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000408 -->
 
     <owl:Class rdf:about="&obo;ENVO_01000408">

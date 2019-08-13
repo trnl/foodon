@@ -190,6 +190,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0007520 -->
+
+    <owl:Class rdf:about="&obo;PO_0007520">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025339"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Stages of development of a root defined by characteristic morphological, structural, histological or other visible features.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">root development stage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0008018 -->
 
     <owl:Class rdf:about="&obo;PO_0008018">
@@ -277,6 +288,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009012 -->
+
+    <owl:Class rdf:about="&obo;PO_0009012">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stage in the life of a plant structure (PO:0009011) during which the plant structure undergoes developmental processes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">plant structure development stage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009025 -->
 
     <owl:Class rdf:about="&obo;PO_0009025">
@@ -306,6 +327,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A cup- or tube-shaped cardinal organ part, bearing perianth and stamens on its rim, so these arise above the base, and often above the top, of the ovary.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">hypanthium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009072 -->
+
+    <owl:Class rdf:about="&obo;PO_0009072">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure (PO:0009011) that is the basal portion of a carpel (PO:0009030) or group of fused carpels (gynoecium; PO:0009062) and encloses the plant ovule(s) (PO:0020003).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">plant ovary</rdfs:label>
     </owl:Class>
     
 
@@ -620,6 +652,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025339 -->
+
+    <owl:Class rdf:about="&obo;PO_0025339">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025571"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A multi-tissue plant structure development stage (PO:0025571) that has as primary participant a plant organ (PO:0009008) .</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">plant organ development stage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025355 -->
 
     <owl:Class rdf:about="&obo;PO_0025355">
@@ -671,6 +714,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A cotyledon (PO:0020030) that is part of a whole plant (PO:0000003) in the seedling development stage (PO:0007131).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">seedling cotyledon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025475 -->
+
+    <owl:Class rdf:about="&obo;PO_0025475">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0007520"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A root development stage (PO:0007520) during which a coleorhiza (PO:0020034) emerges from the seed coat (PO:0009088).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">coleorhiza emergence stage</rdfs:label>
     </owl:Class>
     
 
@@ -727,6 +781,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant axis (PO:0025004) that is radially enlarged.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025571 -->
+
+    <owl:Class rdf:about="&obo;PO_0025571">
+        <rdfs:subClassOf rdf:resource="&obo;PO_0009012"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant structure development stage (PO:0009012) that has as primary participant a multi-tissue plant structure (PO:0025496).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">multi-tissue plant structure development stage</rdfs:label>
     </owl:Class>
     
 

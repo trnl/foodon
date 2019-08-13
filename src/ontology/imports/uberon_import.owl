@@ -221,6 +221,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001630 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0001630">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO].</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">muscle organ</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001690 -->
 
     <owl:Class rdf:about="&obo;UBERON_0001690">
@@ -327,6 +337,16 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">the soft tissue that fills the cavities of bones</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">bone marrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002385 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0002385">
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Muscle tissue is a contractile tissue made up of actin and myosin fibers[GO].</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">muscle tissue</rdfs:label>
     </owl:Class>
     
 
