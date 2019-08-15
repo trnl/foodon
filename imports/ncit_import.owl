@@ -1,25 +1,13 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
-<rdf:RDF xmlns="&obo;foodon/imports/ncit_import.owl#"
-     xml:base="&obo;foodon/imports/ncit_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/ncit_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/ncit_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="&obo;foodon/imports/ncit_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/ncit_import.owl"/>
     
 
 
@@ -36,24 +24,19 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
-    </owl:AnnotationProperty> -->
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty> -->
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <rdf:Description rdf:about="&rdfs;label">
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
     </rdf:Description>
     
@@ -70,21 +53,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C14182 -->
-
-    <owl:Class rdf:about="&obo;NCIT_C14182">
-        <obo:IAO_0000115>A living organism that has membranous cell walls, requires oxygen and organic foods, and is capable of voluntary movement, as distinguished from a plant or mineral.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
-        <rdfs:label>Animal</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C14191 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C14191">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14191">
         <obo:IAO_0000115>The domesticated feline mammal, Felis catus, which is kept as a house pet.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Cat</rdfs:label>
     </owl:Class>
     
@@ -92,9 +65,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C14212 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C14212">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14212">
         <obo:IAO_0000115>Any member of four genera of the rodent family Cricetidae; short-tailed Old World burrowing rodents with large cheek pouches.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Hamster</rdfs:label>
     </owl:Class>
     
@@ -102,9 +75,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C14238 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C14238">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14238">
         <obo:IAO_0000115>Any of numerous species of small rodents belonging to the genus Mus and various related genera of the family Muridae.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Mouse</rdfs:label>
     </owl:Class>
     
@@ -112,9 +85,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C37984 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C37984">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C37984">
         <obo:IAO_0000115>A facility equipped and competent to conduct scientific experiments, observations, tests, investigations, and/or to manufacture chemicals or medical products.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Laboratory</rdfs:label>
     </owl:Class>
     
@@ -122,9 +95,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C45305 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C45305">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45305">
         <obo:IAO_0000115>A substance consisting of two or more substances mixed together (not in fixed proportions and not with chemical bonding).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Mixture</rdfs:label>
     </owl:Class>
     
@@ -132,9 +105,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C80248 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C80248">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80248">
         <obo:IAO_0000115>Any of the occasions for eating food that occur by custom or habit at more or less fixed times.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Meal</rdfs:label>
     </owl:Class>
     
@@ -142,10 +115,10 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C80249 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C80249">
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C80248"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80248"/>
         <obo:IAO_0000115>The first meal of the day (usually in the morning).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Breakfast</rdfs:label>
     </owl:Class>
     
@@ -153,10 +126,10 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C80250 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C80250">
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C80248"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80248"/>
         <obo:IAO_0000115>A midday meal sometimes also called dinner.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Lunch</rdfs:label>
     </owl:Class>
     
@@ -164,15 +137,29 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C80251 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C80251">
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C80248"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80248"/>
         <obo:IAO_0000115>The evening meal, usually the main meal of the day.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Supper</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00003004">
+        <obo:IAO_0000115 xml:lang="en">Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development.</obo:IAO_0000115>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
