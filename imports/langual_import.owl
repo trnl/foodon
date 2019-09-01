@@ -3096,6 +3096,12 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001714 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001714"/>
@@ -3533,6 +3539,14 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411433 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411433">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001293"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002452"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The term shellfish is used both broadly and specifically. For regulatory purposes it is often narrowly defined as filter-feeding molluscs such as clams, mussels, and oyster to the exclusion of crustaceans and all else. Although their shells may differ, all shellfish are invertebrates. [https://en.wikipedia.org/wiki/Shellfish]</obo:IAO_0000115>
@@ -14981,11 +14995,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530074"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A dry or liquid product consisting of one or more ingredients processed so that a beverage can be prepared by adding liquid and possible a sweetener. Includes instant coffee or tea, sweetened or unsweetened, and cocoa mixes. Excludes juice concentrates and dried fruit juice, as well as plain cocoa and products that must be steeped.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0088</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage base</rdfs:label>
     </owl:Class>
     
 
@@ -14994,10 +15004,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530088"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0089</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage base, dry</rdfs:label>
     </owl:Class>
     
 
@@ -15019,10 +15026,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530088"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0091</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage base, liquid</rdfs:label>
     </owl:Class>
     
 
