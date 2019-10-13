@@ -744,6 +744,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22470">
@@ -1000,10 +1006,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_28934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28934">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27300"/>
-        <obo:IAO_0000118 xml:lang="en">ergocalciferol</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3769</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ergocalciferol</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -1012,9 +1017,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28940">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27300"/>
-        <obo:IAO_0000118 xml:lang="en">cholecalciferol</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3768</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">cholecalciferol</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -2008,6 +2013,12 @@ Sucralose is an artificial sweetener. The majority of ingested sucralose is not 
         <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:comment xml:lang="en">LanguaL term definition: Food additive.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963"/>
     
 
 
@@ -9917,12 +9928,23 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <!-- http://purl.obolibrary.org/obo/FOODON_03413763 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413763">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_21241"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413751"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119>DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 2002 on the approximation of the laws of the Member States relating to food supplements [http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:183:0051:0057:EN:PDF].</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3763</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">vitamin c</rdfs:label>
+        <rdfs:label xml:lang="en">vitamin C</rdfs:label>
     </owl:Class>
     
 
