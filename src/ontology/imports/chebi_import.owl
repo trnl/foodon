@@ -155,6 +155,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132502 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_132502">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_73155"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any trienoic fatty acid containing 18 carbons.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">fatty acid 18:3</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_133354 -->
 
     <owl:Class rdf:about="&obo;CHEBI_133354">
@@ -163,6 +174,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An aluminosilicate mineral consisting mostly of montmorillonite. The different types of bentonite (aluminium bentonite; calcium bentonite; potassium bentonite; sodium bentonite) are named after their dominant element.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">bentonite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134179 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_134179">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_72695"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any organic compound having an initial boiling point less than or equal to 250 degreeC (482 degreeF) measured at a standard atmospheric pressure of 101.3 kPa.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">volatile organic compound</rdfs:label>
     </owl:Class>
     
 
@@ -239,6 +261,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A palmitate ester of retinol with undefined geometry about the C=C bonds.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">retinyl palmitate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15354 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_15354">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23217"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A choline that is the parent compound of the cholines class, consisting of ethanolamine having three methyl substituents attached to the amino function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">choline</rdfs:label>
     </owl:Class>
     
 
@@ -368,6 +401,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15904 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_15904">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35366"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A fatty acid with a chain length ranging from C13 to C22.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">long-chain fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_15940 -->
 
     <owl:Class rdf:about="&obo;CHEBI_15940">
@@ -410,6 +454,19 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A carbonyl group with two C-bound amine groups.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">urea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16236 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16236">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_134179"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23982"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50584"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A primary alcohol that is ethane in which one of the hydrogens is substituted by a hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">ethanol</rdfs:label>
     </owl:Class>
     
 
@@ -942,6 +999,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18246 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18246">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_28793"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A beta-D-glucan in which the glucose units are connected by (1-&gt;4) linkages.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">(1-&gt;4)-beta-D-glucan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18310 -->
 
     <owl:Class rdf:about="&obo;CHEBI_18310">
@@ -1275,6 +1343,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23217 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23217">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35267"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quaternary ammonium ion based on the choline ion and its substituted derivatives thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cholines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23229 -->
 
     <owl:Class rdf:about="&obo;CHEBI_23229">
@@ -1381,6 +1460,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23818 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23818">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25348"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">dimethylxanthine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23824 -->
 
     <owl:Class rdf:about="&obo;CHEBI_23824">
@@ -1399,6 +1488,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any terpenoid derived from a diterpene. The term includes compounds in which the C20 skeleton of the parent diterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">diterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23982 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23982">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_15734"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any primary alcohol based on an ethanol skeleton.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">ethanols</rdfs:label>
     </owl:Class>
     
 
@@ -1830,6 +1930,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25048 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25048">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25633"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_59549"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A two-membered subclass of octadecatrienoic acid comprising the (9Z,12Z,15Z)- and (6Z,9Z,12Z)-isomers. Linolenic acids are nutrients essential to the formation of prostaglandins and are also used in making paints and synthetic resins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">linolenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_2509 -->
 
     <owl:Class rdf:about="&obo;CHEBI_2509">
@@ -1941,6 +2053,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25348 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25348">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26385"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">methylxanthine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25367 -->
 
     <owl:Class rdf:about="&obo;CHEBI_25367">
@@ -1970,6 +2092,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any terpenoid derived from a monoterpene. The term includes compounds in which the C10 skeleton of the parent monoterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">monoterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25413 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25413">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27208"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any fatty acid with one double or triple bond in the fatty acid chain and singly bonded carbon atoms in the rest of the chain. MUFAs have positive effects on the cardiovascular system, and in diabetes treatment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">monounsaturated fatty acid</rdfs:label>
     </owl:Class>
     
 
@@ -2020,6 +2153,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25633 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25633">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_132502"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_15904"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_59202"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any trienoic fatty acid having eighteen carbons.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">octadecatrienoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25676 -->
 
     <owl:Class rdf:about="&obo;CHEBI_25676">
@@ -2027,6 +2173,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A peptide containing a relatively small number of amino acids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">oligopeptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25681 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25681">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_59549"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A family of polyunsaturated fatty acids that have in common a final carbon-carbon double bond in the omega-3 position, i.e., the third bond from the methyl end of the fatty acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">omega-3 fatty acid</rdfs:label>
     </owl:Class>
     
 
@@ -2118,6 +2275,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Compounds of the general formula SO3HOR where R is an organyl group</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">organic sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2571 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_2571">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_30879"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An  alcohol derived from an aliphatic compound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">aliphatic alcohol</rdfs:label>
     </owl:Class>
     
 
@@ -2443,6 +2611,17 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_24384"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">pullulans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26385 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_26385">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22315"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26401"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">purine alkaloid</rdfs:label>
     </owl:Class>
     
 
@@ -2873,6 +3052,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27134 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27134">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25348"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">trimethylxanthine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27136 -->
 
     <owl:Class rdf:about="&obo;CHEBI_27136">
@@ -2958,6 +3147,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27432 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27432">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25048"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25681"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A linolenic acid with cis-double bonds at positions 9, 12 and 15. Shown to have an antithrombotic effect.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">alpha-linolenic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27470 -->
 
     <owl:Class rdf:about="&obo;CHEBI_27470">
@@ -2966,6 +3167,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An N-acyl-amino acid that is a form of the water-soluble vitamin B9. Its biologically active forms (tetrahydrofolate and others) are essential for nucleotide biosynthesis and homocysteine remethylation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">folic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27732 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27732">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27134"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A trimethylxanthine in which the three methyl groups are located at positions 1, 3, and 7. A purine alkaloid that occurs naturally in tea and coffee.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">caffeine</rdfs:label>
     </owl:Class>
     
 
@@ -2998,6 +3210,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Dehydroascorbic acid having the L-configuration.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">L-dehydroascorbic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28017 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_28017">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37163"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The most important reserve polysaccharide found in plants. It is a glucan consisting of amylose and amylopectin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">starch</rdfs:label>
     </owl:Class>
     
 
@@ -3110,6 +3333,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A hydroxy seco-steroid that is (5Z,7E)-9,10-secocholesta-5,7,10(19)-triene in which the pro-S hydrogen at position 3 has been replaced by a hydroxy group. It is the inactive form of vitamin D3, being hydroxylated in the liver to calcidiol (25-hydroxyvitamin D3), which is then further hydroxylated in the kidney to give calcitriol (1,25-dihydroxyvitamin D3), the active hormone.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">calciol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28946 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_28946">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23818"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A dimethylxanthine having the two methyl groups located at positions 3 and 7. A purine alkaloid derived from the cacao plant, it is found in chocolate, as well as in a number of other foods, and is a vasodilator, diuretic and heart stimulator.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">theobromine</rdfs:label>
     </owl:Class>
     
 
@@ -4411,6 +4645,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33695 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33695">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33694"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">information biomacromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33702 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33702">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36358"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36916"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cation consisting of more than one atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">polyatomic cation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33704 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33704">
@@ -4559,6 +4815,17 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33659"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">benzenoid aromatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33837 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33837">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36080"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Conjugated protein is a protein that contains a non-peptide component, usually in stoichiometric proportion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">conjugated protein</rdfs:label>
     </owl:Class>
     
 
@@ -4978,6 +5245,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35267 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35267">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25697"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35274"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A derivative of ammonium, NH4(+), in which all four of the hydrogens bonded to nitrogen have been replaced with univalent (usually organyl) groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">quaternary ammonium ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35274 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35274">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33702"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_51143"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A derivative of ammonium, NH4(+), in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">ammonium ion derivative</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35276 -->
 
     <owl:Class rdf:about="&obo;CHEBI_35276">
@@ -5324,6 +5615,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36009 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36009">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_59549"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A family of polyunsaturated fatty acids that have in common a final carbon-carbon double bond in the n-6 position, i.e., the sixth bond from the methyl end of the fatty acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">omega-6 fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_36054 -->
 
     <owl:Class rdf:about="&obo;CHEBI_36054">
@@ -5332,6 +5634,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Esters of benzoic acid or substituted benzoic acids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">benzoate ester</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36080">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33695"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological macromolecule minimally consisting of one polypeptide chain synthesized at the ribosome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
     </owl:Class>
     
 
@@ -6178,6 +6491,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39022 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_39022">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50967"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A complex in which one component (the host) forms a cavity or, in the case of a crystal, a crystal lattice containing spaces in the shape of long tunnels or channels in which molecular entities of a second chemical species (the guest) are located. There is no covalent bonding between guest and host, the attraction being generally due to van der Waals forces.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">inclusion compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39024 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_39024">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_39022"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Inclusion compound in which the guest molecule is in a cage formed by the host molecule or by a lattice of host molecules.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">clathrate compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39025 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_39025">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_6495"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A class of lipoproteins of small size (4-13 nm) and dense (greater than 1.063 g/ml) particles. They are synthesized in the liver without a lipid core, accumulate cholesterol esters from peripheral tissues and transport them to the liver for re-utilization or elimination from the body (the reverse cholesterol transport).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">high-density lipoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39026 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_39026">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_6495"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A class of lipoproteins of small size (18-25 nm) and low density (1.019-1.063 g/ml) particles with a core composed mainly of cholesterol esters and smaller amounts of triglycerides. The surface monolayer consists mostly of phospholipids, a single copy of apolipoprotein B-100, and free cholesterol molecules. The main function of LDL is to transport cholesterol and cholesterol esters from the liver. Excessive levels are associated with cardiovascular disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">low-density lipoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39087 -->
 
     <owl:Class rdf:about="&obo;CHEBI_39087">
@@ -6690,6 +7047,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50584 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_50584">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_2571"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An aliphatic alcohol in which the aliphatic alkane chain is substituted by a hydroxy group at unspecified position.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">alkyl alcohol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50699 -->
 
     <owl:Class rdf:about="&obo;CHEBI_50699">
@@ -6729,6 +7097,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A role is particular behaviour which a material entity may exhibit.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50967 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_50967">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Systems consisting of two or more molecular entities held together by non-covalent interactions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">non-covalently-bound molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -7030,6 +7409,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53339 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_53339">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27208"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_78840"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any fatty acid containing at least one C=C double bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">olefinic fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_53422 -->
 
     <owl:Class rdf:about="&obo;CHEBI_53422">
@@ -7151,6 +7542,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any salt prepared using acetic acid as the acid component.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">acetate salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59549 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_59549">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26208"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any member of the sub-set of polyunsaturated fatty acid for which there is an absolute dietary requirement.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">essential fatty acid</rdfs:label>
     </owl:Class>
     
 
@@ -7363,6 +7765,18 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An inorganic sulfate salt obtained by reaction of sulfuric acid with two equivalents of ammonia. A high-melting (decomposes above 280degreeC) white solid which is very soluble in water (70.6 g/100 g water at 0degreeC; 103.8 g/100 g water at 100degreeC), it is widely used as a fertilizer for alkaline soils.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">ammonium sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62968 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_62968">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_18246"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_72813"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A (1-&gt;4)-beta-D-glucan (cellulose) in crystalline form with a structure consisting of several hundred to over ten thousand D-glucose residues joined by beta(1-&gt;4) glycosidic linkages.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">crystalline cellulose</rdfs:label>
     </owl:Class>
     
 
@@ -7594,6 +8008,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6495 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_6495">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33837"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_39024"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A clathrate complex consisting of a lipid enwrapped in a protein host without covalent binding in such a way that the complex has a hydrophilic outer surface consisting of all the protein and the polar ends of any phospholipids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">lipoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_65212 -->
 
     <owl:Class rdf:about="&obo;CHEBI_65212">
@@ -7755,6 +8181,18 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A biomacromolecule composed of carbohydrate residues which is secreted by a microorganism into the surrounding environment.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">exopolysaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_73155 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_73155">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26208"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_53339"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any polyunsaturated fatty acid that contains three double bonds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">trienoic fatty acid</rdfs:label>
     </owl:Class>
     
 

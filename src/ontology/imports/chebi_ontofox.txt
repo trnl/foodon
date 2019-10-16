@@ -18,9 +18,12 @@ http://purl.obolibrary.org/obo/CHEBI_18346 # vanillin
 http://purl.obolibrary.org/obo/CHEBI_48408 # ethyl vanillin
 http://purl.obolibrary.org/obo/CHEBI_15409 # (-)-menthol
 http://purl.obolibrary.org/obo/CHEBI_61266 # hemicellulose
+http://purl.obolibrary.org/obo/CHEBI_62968 # crystalline cellulose
 
 # NOTE: LANGUAL IMPORT OVERWRITES THIS FILE.  MODIFY TEMPLATE IN /langual/ FOLDER 
 # AND REDO LANGUAL IMPORT TO REVISE THIS FILE SO THAT make COMMAND WORKS.
+
+http://purl.obolibrary.org/obo/CHEBI_28017 # Starch
 
 http://purl.obolibrary.org/obo/CHEBI_30769 # CITRIC ACID
 http://purl.obolibrary.org/obo/CHEBI_64220 # MONOSODIUM GLUTAMATE
@@ -202,6 +205,20 @@ http://purl.obolibrary.org/obo/CHEBI_17855 # Triglyceride
 http://purl.obolibrary.org/obo/CHEBI_15889 # sterol
 http://purl.obolibrary.org/obo/CHEBI_16247 # phospholipid
 
+http://purl.obolibrary.org/obo/CHEBI_59549 # essential fatty acid
+http://purl.obolibrary.org/obo/CHEBI_25413 # mono-unsaturatedf fatty acid
+http://purl.obolibrary.org/obo/CHEBI_26208 # poly-unsaturated fatty acid
+http://purl.obolibrary.org/obo/CHEBI_26607 # saturated fatty acid
+http://purl.obolibrary.org/obo/CHEBI_27208 # unsaturated fatty acid
+
+http://purl.obolibrary.org/obo/CHEBI_36009 # omega-6
+http://purl.obolibrary.org/obo/CHEBI_25048 #    linolic acid
+http://purl.obolibrary.org/obo/CHEBI_25681 # omega-3
+http://purl.obolibrary.org/obo/CHEBI_27432 #    alpha linolic acid
+
+http://purl.obolibrary.org/obo/CHEBI_35381 # monosaccharide
+http://purl.obolibrary.org/obo/CHEBI_36233 # disaccharide
+
 http://purl.obolibrary.org/obo/CHEBI_50211 # RETINOL
 http://purl.obolibrary.org/obo/CHEBI_32095 # RETINYL ACETATE
 http://purl.obolibrary.org/obo/CHEBI_15040 # RETINYL PALMITATE
@@ -238,7 +255,8 @@ http://purl.obolibrary.org/obo/CHEBI_32879 # PROPANE
 http://purl.obolibrary.org/obo/CHEBI_27941 # PULLULAN
 http://purl.obolibrary.org/obo/CHEBI_131526 # POTASSIUM CARBONATES
 http://purl.obolibrary.org/obo/CHEBI_17309 # PECTINS
-http://purl.obolibrary.org/obo/CHEBI_18154 # POLYSACCHARIDE
+http://purl.obolibrary.org/obo/CHEBI_18154 # POLYSACCHARIDE / Complex carbohydrrate
+
 http://purl.obolibrary.org/obo/CHEBI_17306 # MALTOSE
 http://purl.obolibrary.org/obo/CHEBI_83163 # MOLASSES
 http://purl.obolibrary.org/obo/CHEBI_17716 # LACTOSE
@@ -251,7 +269,14 @@ http://purl.obolibrary.org/obo/CHEBI_28260 # GALACTOSE
 http://purl.obolibrary.org/obo/CHEBI_30911 # SORBITOL
 http://purl.obolibrary.org/obo/CHEBI_25140 # MALTODEXTRIN
 
+http://purl.obolibrary.org/obo/CHEBI_16236 # ethyl alchohol
+http://purl.obolibrary.org/obo/CHEBI_27732 # caffeine
 http://purl.obolibrary.org/obo/CHEBI_30805 # dodecanoic acid / lauric acid
+http://purl.obolibrary.org/obo/CHEBI_28946 # theobromine
+http://purl.obolibrary.org/obo/CHEBI_39026 # LDL cholesterol
+http://purl.obolibrary.org/obo/CHEBI_39025 # HDL cholesterol
+http://purl.obolibrary.org/obo/CHEBI_15354 # choline
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_50906 # role 
