@@ -883,9 +883,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26948">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413751"/>
-        <obo:IAO_0000118 xml:lang="en">vitamin b1</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3755</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">vitamin b1</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -1732,7 +1732,6 @@ Sucralose is an artificial sweetener. The majority of ingested sucralose is not 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33234"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413751"/>
         <obo:IAO_0000118 xml:lang="en">d-alpha-tocopherol</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">vitamin e</obo:IAO_0000118>
@@ -9940,6 +9939,7 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413751"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C944"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119>DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 2002 on the approximation of the laws of the Member States relating to food supplements [http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:183:0051:0057:EN:PDF].</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -31518,6 +31518,12 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_999584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_999584"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C944"/>
     
 
 

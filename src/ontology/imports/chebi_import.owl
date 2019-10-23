@@ -484,6 +484,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16449 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16449">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that consists of propionic acid bearing an amino substituent at position 2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">alanine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16526 -->
 
     <owl:Class rdf:about="&obo;CHEBI_16526">
@@ -527,6 +538,18 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A ribosyl or deoxyribosyl derivative of a pyrimidine or purine base in which C-5 of the ribose ring is mono-, di-, tri- or tetra-phosphorylated.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">nucleoside 5&apos;-phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16811 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16811">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26834"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sulfur-containing amino acid that is butyric acid bearing an amino substituent at position 2 and a methylthio substituent at position 4.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">methionine</rdfs:label>
     </owl:Class>
     
 
@@ -700,6 +723,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17376 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_17376">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23509"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26834"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35489"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sulfur-containing amino acid obtained by the oxidation of two cysteine molecules which are then linked via a disulfide bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cystine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17439 -->
 
     <owl:Class rdf:about="&obo;CHEBI_17439">
@@ -852,6 +888,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17822 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_17822">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is alanine substituted at position 3 by a hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">serine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17855 -->
 
     <owl:Class rdf:about="&obo;CHEBI_17855">
@@ -953,6 +1001,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18145 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18145">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22470"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-tocopherol that has R,R,R configuration. The naturally occurring stereoisomer of alpha-tocopherol, it is found particularly in sunflower and olive oils.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">(+)-alpha-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18154 -->
 
     <owl:Class rdf:about="&obo;CHEBI_18154">
@@ -972,6 +1031,19 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A tocopherol in which the chroman-6-ol core is substituted by methyl groups at positions 7 and 8. It is found particularly in maize (corn) oil and soya bean (soybean) oils.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">gamma-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18186 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18186">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33856"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is phenylalanine bearing a hydroxy substituent at position 4 on the phenyl ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">tyrosine</rdfs:label>
     </owl:Class>
     
 
@@ -1134,6 +1206,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22660 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_22660">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_66873"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that consists of succinic acid bearing a single alpha-amino substituent</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">aspartic acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22698 -->
 
     <owl:Class rdf:about="&obo;CHEBI_22698">
@@ -1203,6 +1288,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22728 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_22728">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27171"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38101"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38180"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">benzopyrrole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22743 -->
 
     <owl:Class rdf:about="&obo;CHEBI_22743">
@@ -1243,6 +1340,17 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33581"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">boron molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22918 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_22918">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any  amino acid  in which the parent hydrocarbon chain has one or more alkyl substituents</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">branched-chain amino acid</rdfs:label>
     </owl:Class>
     
 
@@ -1417,6 +1525,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23377 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23377">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33745"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">copper molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23390 -->
 
     <owl:Class rdf:about="&obo;CHEBI_23390">
@@ -1449,6 +1567,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23509 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23509">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_83821"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An amino acid derivative resulting from reaction of cysteine at the amino group, carboxy group, or thiol group, or from the replacement of any hydrogen of cysteine by a heteroatom. The definition normally excludes peptides containing cysteine residues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cysteine derivative</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23652 -->
 
     <owl:Class rdf:about="&obo;CHEBI_23652">
@@ -1456,6 +1585,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Glucans produced by the hydrolysis of starch or glycogen. They are mixtures of polymers of D-glucose units linked by alpha(1-&gt;4) or alpha(1-&gt;6) glycosidic bonds.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">dextrins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23677 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23677">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_68452"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An azole that is either one of a pair of heterocyclic organic compounds comprising three carbon atoms and two nitrogen atoms arranged in a ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">diazole</rdfs:label>
     </owl:Class>
     
 
@@ -1488,6 +1628,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any terpenoid derived from a diterpene. The term includes compounds in which the C20 skeleton of the parent diterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">diterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23888 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23888">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_52217"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">drug</rdfs:label>
     </owl:Class>
     
 
@@ -1630,6 +1781,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24436 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24436">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35352"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any organonitrogen compound containing a carbamimidamido (guanidino) group. Guanidines have the general structure (R(1)R(2)N)(R(3)R(4)N)C=N-R(5) and are related structurally to amidines and ureas.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">guanidines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24471 -->
 
     <owl:Class rdf:about="&obo;CHEBI_24471">
@@ -1722,12 +1884,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24780 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24780">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23677"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A five-membered organic heterocycle containing two nitrogen atoms at positions 1 and 3, or any of its derivatives; compounds containing an imidazole skeleton.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">imidazoles</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24782 -->
 
     <owl:Class rdf:about="&obo;CHEBI_24782">
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33257"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">imide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24828 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24828">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22728"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any compound containing an indole skeleton.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">indoles</rdfs:label>
     </owl:Class>
     
 
@@ -1861,6 +2045,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24898 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24898">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38264"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 2-amino-3-methylpentanoic acid having either (2R,3R)- or (2S,3S)-configuration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">isoleucine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24913 -->
 
     <owl:Class rdf:about="&obo;CHEBI_24913">
@@ -1930,6 +2125,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25017 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25017">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22918"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A branched-chain amino acid that consists of glycine in which one of the hydrogens attached to the alpha-carbon is substituted by an isobutyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">leucine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25048 -->
 
     <owl:Class rdf:about="&obo;CHEBI_25048">
@@ -1949,6 +2156,19 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A complex mixture of polysaccharides extracted from species of red algae. Its two main components are agarose and agaropectin. Agarose is the component responsible for the high-strength gelling properties of agar, while agaropectin provides the viscous properties.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">agar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25094 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25094">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35987"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diamino acid that is caproic (hexanoic) acid bearing two amino substituents at positions 2 and 6.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">lysine</rdfs:label>
     </owl:Class>
     
 
@@ -1993,6 +2213,16 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A dextrin in which the D-glucose units are linked by alpha-(1-&gt;4) glycosidic bonds.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">maltodextrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25154 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25154">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33743"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">manganese molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -2563,6 +2793,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26271 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_26271">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38260"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is pyrrolidine bearing a carboxy substituent at position 2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">proline</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26284 -->
 
     <owl:Class rdf:about="&obo;CHEBI_26284">
@@ -3008,6 +3250,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26986 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_26986">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38263"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid in which one of the hydrogens attached to the alpha-carbon of glycine is substituted by a 1-hydroxyethyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">threonine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27013 -->
 
     <owl:Class rdf:about="&obo;CHEBI_27013">
@@ -3095,6 +3349,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27266 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27266">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22918"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A branched-chain amino acid that consists of glycine in which one of the hydrogens attached to the alpha-carbon is substituted by an isopropyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">valine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27300 -->
 
     <owl:Class rdf:about="&obo;CHEBI_27300">
@@ -3171,6 +3437,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27570 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27570">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24780"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33856"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is propanoic acid bearing an amino substituent at position 2 and a 1H-imidazol-4-yl group at position 3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">histidine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27732 -->
 
     <owl:Class rdf:about="&obo;CHEBI_27732">
@@ -3188,6 +3468,20 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_23334"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">hydroxocobalamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27897 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27897">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33856"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38631"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is alanine bearing an indol-3-yl substituent at position 3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">tryptophan</rdfs:label>
     </owl:Class>
     
 
@@ -3221,6 +3515,18 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The most important reserve polysaccharide found in plants. It is a glucan consisting of amylose and amylopectin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">starch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28044 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_28044">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33856"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An aromatic amino acid that is alanine in which one of the methyl hydrogens is substituted by a phenyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine</rdfs:label>
     </owl:Class>
     
 
@@ -3365,6 +3671,19 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_16997"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">(R)-propane-1,2-diol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29016 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_29016">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24436"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is glycine in which the alpha-is substituted by a 3-guanidinopropyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">arginine</rdfs:label>
     </owl:Class>
     
 
@@ -4271,6 +4590,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33464 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33464">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26082"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33465"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental phosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33465 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33465">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24835"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33259"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33302"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental pnictogen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33484 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33484">
@@ -4711,6 +5053,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33743 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33743">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">manganese group molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33744 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33744">
@@ -4877,6 +5229,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33856 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33856">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33659"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An amino acid whose structure includes an aromatic ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">aromatic amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33859 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33859">
@@ -5030,6 +5394,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33973 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33973">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25108"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33975 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33975">
@@ -5126,6 +5500,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35115 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35115">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25154"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental manganese</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35131 -->
 
     <owl:Class rdf:about="&obo;CHEBI_35131">
@@ -5154,6 +5538,16 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33989"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">calcium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35155 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35155">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22985"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental calcium</rdfs:label>
     </owl:Class>
     
 
@@ -5423,6 +5817,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35489 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35489">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33261"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_48343"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Compounds of structure RSSR in which R and R&apos; are organic groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">organic disulfide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35504 -->
 
     <owl:Class rdf:about="&obo;CHEBI_35504">
@@ -5600,6 +6006,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A hexadienoic acid with double bonds at C-2 and C-4; it has four geometrical isomers, of which the trans,trans-form is naturally occurring.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">sorbic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35987 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35987">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any amino acid carrying two amino groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">diamino acid</rdfs:label>
     </owl:Class>
     
 
@@ -6101,6 +6518,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37246 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37246">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26712"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental sodium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37247 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37247">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26217"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental potassium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37253 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37253">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27364"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental zinc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37404 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37404">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23377"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental copper</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37445 -->
 
     <owl:Class rdf:about="&obo;CHEBI_37445">
@@ -6349,6 +6806,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38180 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38180">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33833"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">polycyclic heteroarene</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38251 -->
 
     <owl:Class rdf:about="&obo;CHEBI_38251">
@@ -6356,6 +6823,41 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33976"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">magnesium tetrapyrrole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38260 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38260">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25693"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38101"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any of a class of heterocyclic amines having a saturated five-membered ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pyrrolidines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38263 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38263">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An alpha-amino acid that is butanoic acid substituted by an amino group at position 2 and a hydroxy group at position 3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">2-amino-3-hydroxybutanoic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38264 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38264">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22918"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A branched chain amino acid that consists of 3-methylpentanoic acid bearing an amino substituent at position 2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">2-amino-3-methylpentanoic acid</rdfs:label>
     </owl:Class>
     
 
@@ -6422,6 +6924,16 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_22727"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">1-benzopyran</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38631 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38631">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24828"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">aminoalkylindole</rdfs:label>
     </owl:Class>
     
 
@@ -6675,6 +7187,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46430 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_46430">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22470"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The (-)-steroisomer of alpha-tocopherol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">(-)-alpha-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_46640 -->
 
     <owl:Class rdf:about="&obo;CHEBI_46640">
@@ -6826,6 +7349,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47771 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_47771">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27013"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tocopherol in which the chroman-6-ol core is substituted by methyl groups at positions 5 and 8. While it is found in low concentrations in many vegetable oils, only cottonseed oil contains significant amounts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">beta-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_47772 -->
 
     <owl:Class rdf:about="&obo;CHEBI_47772">
@@ -6918,6 +7452,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A tetritol that is butane substituted by hydroxy groups at positions 1, 2, 3 and 4.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">butane-1,2,3,4-tetrol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48343 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_48343">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26835"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Compounds of structure RSSR&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">disulfide</rdfs:label>
     </owl:Class>
     
 
@@ -7065,6 +7610,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A compound in which monosaccharide units are joined by glycosidic linkages. The term is commonly used to refer to a defined structure as opposed to a polymer of unspecified length or a homologous mixture. When the linkages are of other types the compounds are regarded as oligosaccharide analogues.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">oligosaccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50733 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_50733">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23888"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A product in capsule, tablet or liquid form that provide essential nutrients, such as a vitamin, an essential mineral, a protein, an herb, or similar nutritional substance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">nutraceutical</rdfs:label>
     </owl:Class>
     
 
@@ -7305,6 +7861,17 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_24432"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">physiological role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52217 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_52217">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33232"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any substance introduced into a living organism with therapeutic or diagnostic purpose.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">pharmaceutical</rdfs:label>
     </owl:Class>
     
 
@@ -8115,6 +8682,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_70411 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_70411">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27013"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">dehydro-gamma-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_71629 -->
 
     <owl:Class rdf:about="&obo;CHEBI_71629">
@@ -8250,6 +8827,18 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A disaccharide consisting of beta-D-galactopyranose and D-glucitol joined by a 1-&gt;4 glycosidic bond. It is used as a laxative, as an excipient, and as replacement bulk sweetener in some low-calorie foods.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">lactitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75769 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_75769">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27314"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50733"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any of the group of eight water-soluble vitamins originally thought to be a single compound (vitamin B) that play important roles in cell metabolism. The group comprises vitamin B1, B2, B3, B5, B6, B7, B9, and B12. (Around 20 other compounds were once thought to be B vitamins but are no longer classified as such.)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">B vitamin</rdfs:label>
     </owl:Class>
     
 
@@ -8494,6 +9083,18 @@
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">Cyclamate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82663 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_82663">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24873"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33259"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An elemental molecular entity in which all of the atoms have atomic number 26.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">elemental iron</rdfs:label>
     </owl:Class>
     
 
@@ -8783,6 +9384,16 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A mixed diacylamine resulting from the formal condensation of the nitrogen of a carboxamide with a sulphonic acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">N-sulfonylcarboxamide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_93909 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_93909">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27013"/>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-3,4-dihydro-2H-1-benzopyran-6-ol</rdfs:label>
     </owl:Class>
     
 

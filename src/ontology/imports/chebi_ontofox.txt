@@ -34,7 +34,7 @@ http://purl.obolibrary.org/obo/CHEBI_15366 # ACETIC ACID
 http://purl.obolibrary.org/obo/CHEBI_30832 # ADIPIC ACID
 http://purl.obolibrary.org/obo/CHEBI_2509 # AGAR
 http://purl.obolibrary.org/obo/CHEBI_17548 # ALGINIC ACID
-http://purl.obolibrary.org/obo/CHEBI_22470 # ALPHA-TOCOPHEROL
+
 http://purl.obolibrary.org/obo/CHEBI_33628 # ALUMINIUM
 http://purl.obolibrary.org/obo/CHEBI_86463 # ALUMINIUM POTASSIUM SULPHATE
 http://purl.obolibrary.org/obo/CHEBI_74772 # ALUMINIUM SULPHATE
@@ -138,7 +138,7 @@ http://purl.obolibrary.org/obo/CHEBI_30768 # PROPIONIC ACID
 http://purl.obolibrary.org/obo/CHEBI_10607 # PROPYL GALLATE
 http://purl.obolibrary.org/obo/CHEBI_32063 # PROPYL P-HYDROXYBENZOATE
 http://purl.obolibrary.org/obo/CHEBI_53700 # QUINOLINE YELLOW
-http://purl.obolibrary.org/obo/CHEBI_17015 # RIBOFLAVIN
+
 http://purl.obolibrary.org/obo/CHEBI_17621 # RIBOFLAVIN-5'-PHOSPHATE
 http://purl.obolibrary.org/obo/CHEBI_32111 # SACCHARIN
 http://purl.obolibrary.org/obo/CHEBI_30563 # SILICON DIOXIDE
@@ -183,22 +183,31 @@ http://purl.obolibrary.org/obo/CHEBI_53258 # TRISODIUM CITRATE
 http://purl.obolibrary.org/obo/CHEBI_37583 # TRISODIUM PHOSPHATE
 http://purl.obolibrary.org/obo/CHEBI_17151 # XYLITOL
 http://purl.obolibrary.org/obo/CHEBI_30879 # ALCOHOL
+
+
+http://purl.obolibrary.org/obo/CHEBI_15956 # BIOTIN
+
+# VITAMIN
+
 http://purl.obolibrary.org/obo/CHEBI_12777 # VITAMIN A
 http://purl.obolibrary.org/obo/CHEBI_27300 # VITAMIN D
 http://purl.obolibrary.org/obo/CHEBI_33234 # VITAMIN E
 http://purl.obolibrary.org/obo/CHEBI_28384 # VITAMIN K
-http://purl.obolibrary.org/obo/CHEBI_26948 # VITAMIN B1
+http://purl.obolibrary.org/obo/CHEBI_26948 # VITAMIN B1 / Thiamine
 http://purl.obolibrary.org/obo/CHEBI_17015 # VITAMIN B2
-http://purl.obolibrary.org/obo/CHEBI_15940 # NIACIN
-http://purl.obolibrary.org/obo/CHEBI_7916 # PANTOTHENIC ACID
+http://purl.obolibrary.org/obo/CHEBI_15940 # NIACIN, B3 form
+http://purl.obolibrary.org/obo/CHEBI_7916 # PANTOTHENIC ACID, Vitamin B5
 http://purl.obolibrary.org/obo/CHEBI_27306 # VITAMIN B6
-http://purl.obolibrary.org/obo/CHEBI_27470 # FOLIC ACID
-http://purl.obolibrary.org/obo/CHEBI_15956 # BIOTIN
-
 http://purl.obolibrary.org/obo/CHEBI_21241 # VITAMIN C
 http://purl.obolibrary.org/obo/CHEBI_27956 #    L-dehydroascorbic acid
 http://purl.obolibrary.org/obo/CHEBI_22652 #    ASCORBIC ACID
 http://purl.obolibrary.org/obo/CHEBI_29073 #        L-ascorbic acid
+http://purl.obolibrary.org/obo/CHEBI_27470 # FOLIC ACID (product, precursor of folic acid)
+http://purl.obolibrary.org/obo/CHEBI_37445 # folate, Vitamin B9 
+http://purl.obolibrary.org/obo/CHEBI_17015 # RIBOFLAVIN
+# Tocopherol list
+http://purl.obolibrary.org/obo/CHEBI_27013 # Tocopherol
+includeAllChildren
 
 # Lipids
 http://purl.obolibrary.org/obo/CHEBI_17855 # Triglyceride
@@ -276,7 +285,52 @@ http://purl.obolibrary.org/obo/CHEBI_28946 # theobromine
 http://purl.obolibrary.org/obo/CHEBI_39026 # LDL cholesterol
 http://purl.obolibrary.org/obo/CHEBI_39025 # HDL cholesterol
 http://purl.obolibrary.org/obo/CHEBI_15354 # choline
+http://purl.obolibrary.org/obo/CHEBI_75769 # Vitamin B (B Vitamin)
 
+# CAROTENOID
+http://purl.obolibrary.org/obo/CHEBI_23044 # Carotenoid
+
+# AMINO ACID
+http://purl.obolibrary.org/obo/CHEBI_33709 # amino acid
+http://purl.obolibrary.org/obo/CHEBI_27897 # tryptophan
+http://purl.obolibrary.org/obo/CHEBI_26986 # threonine
+http://purl.obolibrary.org/obo/CHEBI_24898 # Isoleucine
+http://purl.obolibrary.org/obo/CHEBI_25017 # leucine
+http://purl.obolibrary.org/obo/CHEBI_25094 # lysine
+http://purl.obolibrary.org/obo/CHEBI_16811 # Methionine
+http://purl.obolibrary.org/obo/CHEBI_17376 # Cystine
+http://purl.obolibrary.org/obo/CHEBI_28044 # Phenylalanine
+http://purl.obolibrary.org/obo/CHEBI_18186 # tyrosine
+http://purl.obolibrary.org/obo/CHEBI_27266 # Valine
+http://purl.obolibrary.org/obo/CHEBI_29016 # arginine
+http://purl.obolibrary.org/obo/CHEBI_27570 # Histidine
+http://purl.obolibrary.org/obo/CHEBI_16449 # Alanine
+http://purl.obolibrary.org/obo/CHEBI_22660 # Aspartic acid
+http://purl.obolibrary.org/obo/CHEBI_18237 # Glutamic acid
+http://purl.obolibrary.org/obo/CHEBI_15428 # Glycine
+http://purl.obolibrary.org/obo/CHEBI_26271 # Proline
+http://purl.obolibrary.org/obo/CHEBI_17822 # Serine
+
+# MINERAL
+http://purl.obolibrary.org/obo/CHEBI_46662 # mineral
+# Calcium, Ca
+http://purl.obolibrary.org/obo/CHEBI_35155 # elemental calcium
+# Iron, Fe
+http://purl.obolibrary.org/obo/CHEBI_82663 # elemental iron
+# Magnesium, Mg
+http://purl.obolibrary.org/obo/CHEBI_33973 # elemental magnesium
+# Phosphorus, P
+http://purl.obolibrary.org/obo/CHEBI_33464 # elemental phosphorus
+# Potassium, K
+http://purl.obolibrary.org/obo/CHEBI_37247 # elemental potassium
+# Sodium, Na
+http://purl.obolibrary.org/obo/CHEBI_37246 # elemental sodium
+# Zinc, Zn
+http://purl.obolibrary.org/obo/CHEBI_37253 # elemental zinc
+# Copper, Cu
+http://purl.obolibrary.org/obo/CHEBI_37404 # elemental copper
+# Manganese, Mn
+http://purl.obolibrary.org/obo/CHEBI_35115 # elemental manganese
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_50906 # role 
