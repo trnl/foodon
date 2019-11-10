@@ -4469,29 +4469,33 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7689"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2032702"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001303"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7689"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2032702"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412115"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A sea cucumber that can be found from the Gulf of Alaska to Baja California.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/California_sea_cucumber"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7689"/>
         <oboInOwl:hasDbXref>FAO ASFIS:TKG</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:158344</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/597386</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B2433</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">giant California sea cucumber</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sea cucumber</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Parastichopus californicus (Stimpson, 1857)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Parastichopus californicus Stimpson</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasSynonym xml:lang="en">cucumaria spp.</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">parastichopus californicus</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">sea slug</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">sea cucumber</rdfs:label>
+        <rdfs:label xml:lang="en">california sea cucumber</rdfs:label>
     </owl:Class>
     
 
@@ -23511,12 +23515,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_195310 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195310"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_195334 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195334"/>
@@ -23673,6 +23671,12 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1983395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1983395"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_198537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198537"/>
@@ -23778,6 +23782,12 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_203262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203262"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2032702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2032702"/>
     
 
 
@@ -29784,12 +29794,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_768495 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_768495"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7689 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7689"/>
     
 
 
