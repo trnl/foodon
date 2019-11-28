@@ -1,4 +1,4 @@
-This project is an ALPHA version of the upcomming FoodOn ontology.  It is mainly based on a conversion of the LanguaL.org XML thesaurus facet data, integrated with OBOFoundry terms from UBERON, ChEBI, and NCBITaxon and others.  The approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
+This project is a BETA version of the FoodOn ontology.  It is mainly based on a conversion of the LanguaL.org XML thesaurus facet data, integrated with OBOFoundry terms from UBERON, ChEBI, and NCBITaxon and others.  The approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  Since 2018 FoodOn has included a large 10,000+ food product database that originates from the LanguaL indexed SIREN database, plus many more additions.
 
 ##To view
 
@@ -24,3 +24,9 @@ Then change directory to the "/src/ontology" folder, and run "make".  That will 
 langual.py may need a few python modules loaded up.  It can take a number of minutes to generate
 if database.json is already established; it will take much longer to run if database.json has been
 deleted since it fetches NCBITaxon related information using the EOL.org API (in batches)
+
+##To run SPARQL queries
+
+As Protege's sparql query engine has some odd startup phase that often stalls protege on large ontologies, one may need to launch sparql queries via command line directly. Here is an example using http://robot.obolibrary.org/query.html
+
+robot query --input foodon-merged.owl --query owl_get_labels.sparql --format TSV 
