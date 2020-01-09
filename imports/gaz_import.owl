@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl"/>
     
 
@@ -353,12 +353,6 @@
     <!-- http://purl.obolibrary.org/obo/GAZ_02000610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_02000610"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001655 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001655"/>
     
 
 
@@ -3346,23 +3340,23 @@
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000457">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continent that is surrounded by the Mediterranean Sea to the north, the Suez Canal and the Red Sea to the northeast, the Indian Ocean to the southeast, and the Atlantic Ocean to the west. There are 46 countries including Madagascar, and 53 including all the island groups.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Africa</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continent that is surrounded by the Mediterranean Sea to the north, the Suez Canal and the Red Sea to the northeast, the Indian Ocean to the southeast, and the Atlantic Ocean to the west. There are 46 countries including Madagascar, and 53 including all the island groups.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000458">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North America</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000459">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South America</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continent of the Americas, situated entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with about a quarter in the Northern Hemisphere. It is bordered on the west by the Pacific Ocean and on the north and east by the Atlantic Ocean. North America and the Caribbean Sea lie to the northwest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South America</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000460">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The convention used in gaz.obo is that the Europe-Asia boundary follows the watershed of the Ural Mountains from near Kara, Russia on the Kara Sea to the source of the Ural River, then follows that river to the Caspian Sea. The border then follows the watershed of the Caucasus Mountains from the Caspian Sea to the Black Sea.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eurasia</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The convention used in gaz.obo is that the Europe-Asia boundary follows the watershed of the Ural Mountains from near Kara, Russia on the Kara Sea to the source of the Ural River, then follows that river to the Caspian Sea. The border then follows the watershed of the Caucasus Mountains from the Caspian Sea to the Black Sea.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000462">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Earth&apos;s southernmost continent, overlying the South Pole. It is situated in the southern hemisphere, almost entirely south of the Antarctic Circle, and is surrounded by the Southern Ocean.</obo:IAO_0000115>
@@ -3376,13 +3370,13 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00001412">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An archipelago in the South Atlantic Ocean, located 483 km from the coast of Argentina, 1,080 km west of the Shag Rocks (South Georgia), and 940 km north of Antarctica (Elephant Island). They consist of two main islands, East Falkland and West Falkland, together with 776 smaller islands.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falkland Islands</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An archipelago in the South Atlantic Ocean, located 483 km from the coast of Argentina, 1,080 km west of the Shag Rocks (South Georgia), and 940 km north of Antarctica (Elephant Island). They consist of two main islands, East Falkland and West Falkland, together with 776 smaller islands.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002459">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States of America</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A federal constitutional republic comprising fifty states and a federal district. The country is situated mostly in central North America, where its forty-eight contiguous states and Washington, DC, the capital district, lie between the Pacific and Atlantic Oceans, bordered by Canada to the north and Mexico to the south. The State of Alaska is in the northwest of the continent, with Canada to its east and Russia to the west across the Bering Strait, and the State of Hawaii is in the mid-Pacific. The United States also possesses several territories, or insular areas, that are scattered around the Caribbean and Pacific. The states are divided into smaller administrative regions, called counties in most states, exceptions being Alaska (parts of the state are organized into subdivisions called boroughs; the rest of the state&apos;s territory that is not included in any borough is divided into &quot;census areas&quot;), and Louisiana (which is divided into county-equivalents that are called parishes). There are also independent cities which are within particular states but not part of any particular county or consolidated city-counties. Another type of organization is where the city and county are unified and function as an independent city. There are thirty-nine independent cities in Virginia and other independent cities or city-counties are San Francisco, California, Baltimore, Maryland, St. Louis, Missouri, Denver, Colorado and Carson City, Nevada. Counties can include a number of cities, towns, villages, or hamlets, or sometimes just a part of a city. Counties have varying degrees of political and legal significance, but they are always administrative divisions of the state. Counties in many states are further subdivided into townships, which, by definition, are administrative divisions of a county. In some states, such as Michigan, a township can file a charter with the state government, making itself into a &quot;charter township&quot;, which is a type of mixed municipal and township status (giving the township some of the rights of a city without all of the responsibilities), much in the way a metropolitan municipality is a mixed municipality and county.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States of America</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002561">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
@@ -3390,8 +3384,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002562">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of British Columbia</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The westernmost of Canada&apos;s provinces. British Columbia is bordered by the Pacific Ocean on the west, by the American State of Alaska on the northwest, and to the north by the Yukon and the Northwest Territories, on the east by the province of Alberta, and on the south by the States of Washington, Idaho, and Montana. The current southern border of British Columbia was established by the 1846 Oregon Treaty, although its history is tied with lands as far south as the California border. British Columbia&apos;s rugged coastline stretches for more than 27,000 km, and includes deep, mountainous fjords and about 6,000 islands, most of which are uninhabited. British Columbia is carved into 27 regional districts. These regional districts are federations of member municipalities and electoral areas. The unincorporated area of the regional district is carved into electoral areas.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of British Columbia</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002563">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A province located in the central part of Canada. Ontario is bordered by the provinces of Manitoba to the west, Quebec to the east, and the States of Michigan, New York, and Minnesota. Most of Ontario&apos;s borders with the United States are natural, starting at the Lake of the Woods and continuing through the four Great Lakes: Superior, Huron (which includes Georgian Bay), Erie, and Ontario (for which the province is named), then along the Saint Lawrence River near Cornwall. Ontario is the only Canadian Province that borders the Great Lakes. There are three different types of census divisions: single-tier municipalities, upper-tier municipalities (which can be regional municipalities or counties) and districts.</obo:IAO_0000115>
@@ -3400,22 +3394,22 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002564">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Saskatchewan</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prairie province in Canada. Saskatchewan is bounded on the west by Alberta, on the north by the Northwest Territories, on the east by Manitoba, and on the south by the States of Montana and North Dakota. It is divided into 18 census divisions according to Statistics Canada.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002565">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Canadian province located on Canada&apos;s southeastern coast. The province&apos;s mainland is the Nova Scotia peninsula surrounded by the Atlantic Ocean, including numerous bays and estuaries. No where in Nova Scotia is more than 67 km from the ocean. Cape Breton Island, a large island to the northeast of the Nova Scotia mainland, is also part of the province, as is Sable Island.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Nova Scotia</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Canadian province located on Canada&apos;s southeastern coast. The province&apos;s mainland is the Nova Scotia peninsula surrounded by the Atlantic Ocean, including numerous bays and estuaries. No where in Nova Scotia is more than 67 km from the ocean. Cape Breton Island, a large island to the northeast of the Nova Scotia mainland, is also part of the province, as is Sable Island.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002566">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of Canada&apos;s prairie provinces. It became a province on 1905-09-01. Alberta is located in western Canada, bounded by the provinces of British Columbia to the west and Saskatchewan to the east, Northwest Territories to the north, and by the State of Montana to the south. Statistics Canada divides the province of Alberta into nineteen census divisions, each with one or more municipal governments overseeing county municipalities, improvement districts, special areas, specialized municipalities, municipal districts, regional municipalities, cities, towns, villages, summer villages, Indian settlements, and Indian reserves. Census divisions are not a unit of local government in Alberta.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Alberta</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of Canada&apos;s prairie provinces. It became a province on 1905-09-01. Alberta is located in western Canada, bounded by the provinces of British Columbia to the west and Saskatchewan to the east, Northwest Territories to the north, and by the State of Montana to the south. Statistics Canada divides the province of Alberta into nineteen census divisions, each with one or more municipal governments overseeing county municipalities, improvement districts, special areas, specialized municipalities, municipal districts, regional municipalities, cities, towns, villages, summer villages, Indian settlements, and Indian reserves. Census divisions are not a unit of local government in Alberta.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002567">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Newfoundland and Labrador</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A province of Canada, the tenth and latest to join the Confederation. Geographically, the province consists of the island of Newfoundland and the mainland Labrador, on Canada&apos;s Atlantic coast.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Newfoundland and Labrador</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002569">
@@ -3424,14 +3418,14 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002570">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of Canada&apos;s three Maritime provinces. New Brunswick is bounded on the north by Quebec&apos;s Gaspe Peninsula and by Chaleur Bay. Along the east coast, the Gulf of Saint Lawrence and Northumberland Strait form the boundaries. In the south-east corner of the province, the narrow Isthmus of Chignecto connects New Brunswick to the Nova Scotia peninsula. The south of the province is bounded by the Bay of Fundy, which has the highest tides in the world with a rise of 16 m. To the west, the province borders the American State of Maine. New Brunswick is divided into 15 counties, which no longer have administrative roles except in the court system. The counties are divided into parishes.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of New Brunswick</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of Canada&apos;s three Maritime provinces. New Brunswick is bounded on the north by Quebec&apos;s Gaspe Peninsula and by Chaleur Bay. Along the east coast, the Gulf of Saint Lawrence and Northumberland Strait form the boundaries. In the south-east corner of the province, the narrow Isthmus of Chignecto connects New Brunswick to the Nova Scotia peninsula. The south of the province is bounded by the Bay of Fundy, which has the highest tides in the world with a rise of 16 m. To the west, the province borders the American State of Maine. New Brunswick is divided into 15 counties, which no longer have administrative roles except in the court system. The counties are divided into parishes.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002571">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Manitoba</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of Canada&apos;s 10 provinces. Manitoba is located at the longitudinal centre of Canada, although it is considered to be part of Western Canada. It borders Saskatchewan to the west, Ontario to the east, Nunavut and Hudson Bay to the north, and the American states of North Dakota and Minnesota to the south. Statistics Canada divides the province of Manitoba into 23 census divisions. Census divisions are not a unit of local government in Manitoba.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province of Manitoba</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002572">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Canadian province consisting of an island of the same name. It is divided into 3 counties.</obo:IAO_0000115>
@@ -3444,8 +3438,8 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingdom of Denmark</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002699">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country and constitutional monarchy in Northern Europe that occupies the western portion of the Scandinavian Peninsula. It is bordered by Sweden, Finland, and Russia. The Kingdom of Norway also includes the Arctic island territories of Svalbard and Jan Mayen. Norwegian sovereignty over Svalbard is based upon the Svalbard Treaty, but that treaty does not apply to Jan Mayen. Bouvet Island in the South Atlantic Ocean and Peter I Island and Queen Maud Land in Antarctica are external dependencies, but those three entities do not form part of the kingdom.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingdom of Norway</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country and constitutional monarchy in Northern Europe that occupies the western portion of the Scandinavian Peninsula. It is bordered by Sweden, Finland, and Russia. The Kingdom of Norway also includes the Arctic island territories of Svalbard and Jan Mayen. Norwegian sovereignty over Svalbard is based upon the Svalbard Treaty, but that treaty does not apply to Jan Mayen. Bouvet Island in the South Atlantic Ocean and Peter I Island and Queen Maud Land in Antarctica are external dependencies, but those three entities do not form part of the kingdom.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00002918">
@@ -3459,18 +3453,18 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003202">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the two special administrative regions of the People&apos;s Republic of China, the other being Hong Kong. Macau lies on the western side of the Pearl River Delta, bordering Guangdong province in the north and facing the South China Sea in the east and south. Macau is situated 60 kmsouthwest of Hong Kong and 145 km from Guangzhou. It consists of the Macau Peninsula itself and the islands of Taipa and Coloane. The peninsula is formed by the Zhujiang (Pearl River) estuary on the east and the Xijiang (West River) on the west. It borders the Zhuhai Special Economic Zone in mainland China.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macau</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macau</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003203">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A special administrative region of the People&apos;s Republic of China (PRC). The territory lies on the eastern side of the Pearl River Delta, bordering Guangdong province in the north and facing the South China Sea in the east, west and south. Hong Kong was a crown colony of the United Kingdom from 1842 until the transfer of its sovereignty to the People&apos;s Republic of China in 1997.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hong Kong</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A special administrative region of the People&apos;s Republic of China (PRC). The territory lies on the eastern side of the Pearl River Delta, bordering Guangdong province in the north and facing the South China Sea in the east, west and south. Hong Kong was a crown colony of the United Kingdom from 1842 until the transfer of its sovereignty to the People&apos;s Republic of China in 1997.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003706">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Territory of Guam</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unincorporated territory of the United States.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Territory of Guam</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003731">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
@@ -3478,54 +3472,54 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bali Province</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003934">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A country in North Africa that includes the Sinai Peninsula, a land bridge to Asia. Egypt borders Libya to the west, Sudan to the south, and the Gaza Strip and Israel to the east. The northern coast borders the Mediterranean Sea and the island of Cyprus; the eastern coast borders the Red Sea. Egypt is divided into 26 governorates (in Arabic, called muhafazat, singular muhafazah). The governorates are further divided into regions (markazes).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egypt</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003942">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Overseas Collectivity of France located in a group of small islands in the North Atlantic Ocean, the main ones being Saint Pierre and Miquelon, 25 km off the coast of Newfoundland, Canada. Saint Pierre and Miquelon became an overseas department in 1976, but its status changed to that of an Overseas collectivity in 1985.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Pierre and Miquelon</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Overseas Collectivity of France located in a group of small islands in the North Atlantic Ocean, the main ones being Saint Pierre and Miquelon, 25 km off the coast of Newfoundland, Canada. Saint Pierre and Miquelon became an overseas department in 1976, but its status changed to that of an Overseas collectivity in 1985.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003943">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayotte</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overseas collectivity of France consisting of a main island, Grande-Terre (or Mahore), a smaller island, Petite-Terre (or Pamanzi), and several islets around these two.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003955">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British Overseas Territory consisting of two groups of tropical islands in the West Indies. The Turks and Caicos Islands are divided into six administrative districts (two in the Turks Islands and four in the Caicos Islands.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turks and Caicos Islands</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British Overseas Territory consisting of two groups of tropical islands in the West Indies. The Turks and Caicos Islands are divided into six administrative districts (two in the Turks Islands and four in the Caicos Islands.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003959">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of islands in the Caribbean that are an insular area of the United States. The islands are geographically part of the Virgin Islands archipelago and are located in the Leeward Islands of the Lesser Antilles. The US Virgin Islands are an organized, unincorporated United States territory. The US Virgin Islands are administratively divided into two districts and subdivided into 20 sub-districts.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States Virgin Islands</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003961">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory, located in the Caribbean to the east of Puerto Rico. The islands make up part of the Virgin Islands archipelago, the remaining islands constituting the US Virgin Islands. The British Virgin Islands consist of the main islands of Tortola, Virgin Gorda, Anegada and Jost Van Dyke, along with over fifty other smaller islands and cays. Approximately fifteen of the islands are inhabited.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory, located in the Caribbean to the east of Puerto Rico. The islands make up part of the Virgin Islands archipelago, the remaining islands constituting the US Virgin Islands. The British Virgin Islands consist of the main islands of Tortola, Virgin Gorda, Anegada and Jost Van Dyke, along with over fifty other smaller islands and cays. Approximately fifteen of the islands are inhabited.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British Virgin Islands</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003985">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British Indian Ocean Territory</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overseas territory of the United Kingdom situated in the Indian Ocean, halfway between Africa and Indonesia. The territory comprises the six atolls of the Chagos Archipelago with over 1,000 individual islands.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British Indian Ocean Territory</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003986">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayman Islands</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory located in the western Caribbean Sea, comprising the islands of Grand Cayman, Cayman Brac, and Little Cayman. The Cayman Islands are divided into seven districts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayman Islands</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003987">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibraltar</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory located near the southernmost tip of the Iberian Peninsula overlooking the Strait of Gibraltar. The territory shares a border with Spain to the north.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00003988">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory located in the Leeward Islands. Montserrat is divided into three parishes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montserrat</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory located in the Leeward Islands. Montserrat is divided into three parishes.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00005206">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A &quot;sui generis collectivity&quot; (in practice an overseas territory) of France, made up of a main island (Grande Terre), the Loyalty Islands, and several smaller islands. It is located in the region of Melanesia in the southwest Pacific. Administratively, the archipelago is divided into three provinces, and then into 33 communes.</obo:IAO_0000115>
@@ -3533,14 +3527,14 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00005841">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overseas collectivity of France that came into being on 2007-02-22, encompassing the northern parts of the island of Saint Martin and neighboring islets. The southern part of the island, Sint Maarten, is part of the Netherlands Antilles. Formerly, with Saint-Barthelemy, an arrondissement of Guadeloupe.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Martin</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00005908">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Territory of Australia that includes Norfolk Island and neighboring islands.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Territory of Norfolk Island</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Territory of Australia that includes Norfolk Island and neighboring islands.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00006935">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Commonwealth of Puerto Rico</rdfs:label>
@@ -3553,17 +3547,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A statistical designation defined by ISO3166-1, consists of nine insular United States possessions. Palmyra Atoll is the only incorporated territory of the United States. Currently, none of the islands have any permanent residents.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00009159">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anguilla</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A British overseas territory in the Caribbean, one of the most northerly of the Leeward Islands in the Lesser Antilles. It consists of the main island of Anguilla itself, approximately 26 km long by 5 km wide at its widest point, together with a number of much smaller islands and cays with no permanent population.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anguilla</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00009571">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaza Strip</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00009715">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuvalu</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Polynesian island nation located in the Pacific Ocean midway between Hawaii and Australia.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuvalu</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00049570">
@@ -3572,21 +3566,21 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00067142">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overseas Region of France.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guadeloupe Region</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guadeloupe Region</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00067143">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martinique Region</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_02000610">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papua Province</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The largest province of Indonesia, comprising a majority part of the western half of the island of New Guinea and nearby islands (see also Western New Guinea). The province originally covered the entire western half of New Guinea, but in 2003, the western portion of the province, on the Bird&apos;s Head Peninsula, was declared by the Indonesian Government as a separate province named West Papua.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papua Province</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

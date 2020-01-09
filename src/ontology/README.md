@@ -29,4 +29,4 @@ deleted since it fetches NCBITaxon related information using the EOL.org API (in
 
 As Protege's sparql query engine has some odd startup phase that often stalls protege on large ontologies, one may need to launch sparql queries via command line directly. Here is an example using http://robot.obolibrary.org/query.html
 
-robot query --input foodon-merged.owl --query owl_get_labels.sparql --format TSV 
+robot query --input foodon-merged.owl --query owl_get_labels.sparql test.tsv --format TSV

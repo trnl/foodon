@@ -312,26 +312,48 @@ http://purl.obolibrary.org/obo/CHEBI_15428 # Glycine
 http://purl.obolibrary.org/obo/CHEBI_26271 # Proline
 http://purl.obolibrary.org/obo/CHEBI_17822 # Serine
 
+# macronutrient
+http://purl.obolibrary.org/obo/CHEBI_33937 # macronutrient
+
+http://purl.obolibrary.org/obo/CHEBI_22984 # calcium atom
+http://purl.obolibrary.org/obo/CHEBI_37971 # phosphorus-31 atom
+http://purl.obolibrary.org/obo/CHEBI_52632 # potassium-39 atom
+http://purl.obolibrary.org/obo/CHEBI_36938 # nitrogen-14 atom
+http://purl.obolibrary.org/obo/CHEBI_37979 # sulfur-32 atom
+http://purl.obolibrary.org/obo/CHEBI_52763 # magnesium-25 atom
+
+
+# micronutrient
+http://purl.obolibrary.org/obo/CHEBI_27027 # micronutrient
+
+http://purl.obolibrary.org/obo/CHEBI_18291 # manganese atom
+http://purl.obolibrary.org/obo/CHEBI_52457 # selenium-77 atom
+http://purl.obolibrary.org/obo/CHEBI_28694 # copper atom
+http://purl.obolibrary.org/obo/CHEBI_27363 # zinc atom
+http://purl.obolibrary.org/obo/CHEBI_52634 # sodium-23 atom
+http://purl.obolibrary.org/obo/CHEBI_52623 # iron-57 atom
+
+
 # MINERAL
 http://purl.obolibrary.org/obo/CHEBI_46662 # mineral
 # Calcium, Ca
-http://purl.obolibrary.org/obo/CHEBI_35155 # elemental calcium
+# http://purl.obolibrary.org/obo/CHEBI_35155 # elemental calcium
 # Iron, Fe
-http://purl.obolibrary.org/obo/CHEBI_82663 # elemental iron
+# http://purl.obolibrary.org/obo/CHEBI_82663 # elemental iron
 # Magnesium, Mg
-http://purl.obolibrary.org/obo/CHEBI_33973 # elemental magnesium
+# http://purl.obolibrary.org/obo/CHEBI_33973 # elemental magnesium
 # Phosphorus, P
-http://purl.obolibrary.org/obo/CHEBI_33464 # elemental phosphorus
+# http://purl.obolibrary.org/obo/CHEBI_33464 # elemental phosphorus
 # Potassium, K
-http://purl.obolibrary.org/obo/CHEBI_37247 # elemental potassium
+# http://purl.obolibrary.org/obo/CHEBI_37247 # elemental potassium
 # Sodium, Na
-http://purl.obolibrary.org/obo/CHEBI_37246 # elemental sodium
+# http://purl.obolibrary.org/obo/CHEBI_37246 # elemental sodium
 # Zinc, Zn
-http://purl.obolibrary.org/obo/CHEBI_37253 # elemental zinc
+# http://purl.obolibrary.org/obo/CHEBI_37253 # elemental zinc
 # Copper, Cu
-http://purl.obolibrary.org/obo/CHEBI_37404 # elemental copper
+# http://purl.obolibrary.org/obo/CHEBI_37404 # elemental copper
 # Manganese, Mn
-http://purl.obolibrary.org/obo/CHEBI_35115 # elemental manganese
+# http://purl.obolibrary.org/obo/CHEBI_35115 # elemental manganese
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_50906 # role 
@@ -341,7 +363,7 @@ includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
 http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119

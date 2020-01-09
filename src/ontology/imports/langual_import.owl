@@ -59,6 +59,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -3355,7 +3361,7 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411059">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002452"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002581"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Shellfish is a food source and fisheries term for exoskeleton-bearing aquatic invertebrates used as food, including various species of molluscs, crustaceans, and echinoderms. Although most kinds of shellfish are harvested from saltwater environments, some kinds are found in freshwater. In addition, a few species of land crabs are eaten, for example *Cardisoma guanhumi* in the Caribbean. [https://en.wikipedia.org/wiki/Shellfish]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -3467,16 +3473,6 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411215 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411215">
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1215</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">algae, bacteria or fungus (deprecated)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03411220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411220">
@@ -3533,7 +3529,7 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411374 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411374">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002581"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411433"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Crustaceans form a large, diverse arthropod taxon which includes such familiar animals as crabs, lobsters, crayfish, shrimp, krill, woodlice, and barnacles. [https://en.wikipedia.org/wiki/Crustacean]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -3552,11 +3548,11 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001293"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002452"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002581"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002452"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002581"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">The term shellfish is used both broadly and specifically. For regulatory purposes it is often narrowly defined as filter-feeding molluscs such as clams, mussels, and oyster to the exclusion of crustaceans and all else. Although their shells may differ, all shellfish are invertebrates. [https://en.wikipedia.org/wiki/Shellfish]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -4144,7 +4140,7 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002581"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411433"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">Echinoderm is the common name given to any member of the phylum *Echinodermata* of marine animals. The adults are recognizable by their (usually five-point) radial symmetry, and include such well-known animals as sea stars, sea urchins, sand dollars, and sea cucumbers, as well as the sea lilies or &quot;stone lilies&quot;. [https://en.wikipedia.org/wiki/Echinoderm]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -8145,17 +8141,6 @@ If used for food supplement substances, thissection and its narrover terms refer
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03413468 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413468">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3468</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">amphibian or reptile</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03413481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413481">
@@ -10743,21 +10728,6 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414416 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414416">
-        <obo:IAO_0000115 xml:lang="en">Food additive.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>Codex::460</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Europe::460</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4416</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">celluloses</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
-        <rdfs:label xml:lang="en">cellulose (deprecated)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03414417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414417">
@@ -11195,21 +11165,6 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414465 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414465">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">Chordates, members of the phylum *Chordata*, are deuterostome animals possessing a notochord, a hollow dorsal nerve cord, pharyngeal slits, an endostyle, and a post-anal tail for at least some period of their life cycles. Taxonomically, the phylum includes the subphyla *Vertebrata*, including mammals, fish, amphibians, reptiles, birds; *Tunicata*, including salps and sea squirts; and *Cephalochordata*, comprising the lancelets.</obo:IAO_0000115>
-        <obo:IAO_0000119>WIKIPEDIA:Chordate</obo:IAO_0000119>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://eol.org/pages/694</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4465</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">chordata</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">chordate  - deprecated</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03414466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414466">
@@ -11323,18 +11278,6 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4532</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">sepiolidae</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">bobtail squid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414587 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414587">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4587</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">unclassified bacteria (deprecated)</rdfs:label>
     </owl:Class>
     
 
@@ -11805,24 +11748,6 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <!-- http://purl.obolibrary.org/obo/FOODON_03430113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430113"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03480003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03480003">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not an ontological category directly.</obo:IAO_0000116>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03480020"/>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=K0003</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">packed in air</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">packing medium not used (or packed in air)</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">self-pack</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the product is not packed (a hand of bananas), is packed in air (bread in a plastic bag) or is the only product in container apart from an eventual head space (e.g. a canned condensed soup). If the product is packed in a gas other than air (e.g., applesauce packed with nitrogen in the head space) use *PACKED IN GAS OTHER THAN AIR*.</rdfs:comment>
-        <rdfs:label xml:lang="en">no packing medium used (deprecated)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
     
 
 
@@ -12590,17 +12515,6 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0034</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">cellulose acetate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500035">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0035</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">wood (deprecated)</rdfs:label>
     </owl:Class>
     
 
@@ -31528,12 +31442,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/NCIT_C944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C944"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
-
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
 </rdf:RDF>
 
 
