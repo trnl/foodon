@@ -291,7 +291,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03317130"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
@@ -5886,6 +5886,12 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: categorical tree specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
     
 
 
