@@ -11,15 +11,15 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;foodon/imports/chebi_import.owl#"
-     xml:base="&obo;foodon/imports/chebi_import.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/pfue2ihw.owl#"
+     xml:base="http://ontofox.hegroup.org/pfue2ihw.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="&obo;foodon/imports/chebi_import.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/pfue2ihw.owl"/>
     
 
 
@@ -3944,6 +3944,17 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An alkane that is propane substituted by a methyl group at position 2.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">isobutane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30411 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_30411">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23334"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cobalt-corrinoid hexaamide that is cobalamin with the oxidation state of the central cobalt atom unspecified.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cobalamin</rdfs:label>
     </owl:Class>
     
 
@@ -7942,6 +7953,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_51084 -->
 
     <owl:Class rdf:about="&obo;CHEBI_51084">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24835"/>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_51082"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">inorganic nitrate salt</rdfs:label>
