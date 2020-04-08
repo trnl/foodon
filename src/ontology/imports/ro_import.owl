@@ -124,7 +124,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty> -->
     
@@ -155,6 +154,52 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0000053">
+        <rdfs:range rdf:resource="&obo;BFO_0000020"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0000056">
+        <rdfs:range rdf:resource="&obo;BFO_0000003"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000079 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0000079"/> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000085 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0000085">
+        <rdfs:range rdf:resource="&obo;BFO_0000034"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0000086">
+        <rdfs:range rdf:resource="&obo;BFO_0000019"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0000087">
+        <rdfs:range rdf:resource="&obo;BFO_0000023"/>
+    </owl:AnnotationProperty> -->
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
     <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0001900">
@@ -162,6 +207,22 @@
         <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
         <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/oborel/obo-relations/wiki/ROAndTime</foaf:page>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002422"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0002162">
+        <rdfs:range rdf:resource="&obo;CARO_0001010"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002384 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0002384">
+        <rdfs:range rdf:resource="&obo;CARO_0000000"/>
     </owl:AnnotationProperty> -->
     
 
@@ -196,31 +257,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002423 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0009004 -->
 
-    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0002423">
-        <rdfs:label xml:lang="en">logical macro assertion on an annotation property</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002421"/>
-    </owl:AnnotationProperty> -->
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002575 -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0002575">
-        <obo:IAO_0000115>relation p is the direct form of relation q iff p is a subPropertyOf q, p does not have the Transitive characteristic, q does have the Transitive characteristic, and for all x, y: x q y -&gt; exists z1, z2, ..., zn such that x p z1 ... z2n y</obo:IAO_0000115>
-        <obo:IAO_0000116>The general property hierarchy is:
-
-  &quot;directly P&quot; SubPropertyOf &quot;P&quot;
-  Transitive(P)
-
-Where we have an annotation assertion
-
-  &quot;directly P&quot; &quot;is direct form of&quot; &quot;P&quot;</obo:IAO_0000116>
-        <obo:RO_0002423>If we have the annotation P is-direct-form-of Q, and we have inverses P&apos; and Q&apos;, then it follows that P&apos; is-direct-form-of Q&apos;</obo:RO_0002423>
-        <terms:creator>Chris Mungall</terms:creator>
-        <rdfs:label>is direct form of</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002422"/>
+    <!-- <owl:AnnotationProperty rdf:about="&obo;RO_0009004">
+        <rdfs:range rdf:resource="&obo;CARO_0001010"/>
     </owl:AnnotationProperty> -->
     
 
@@ -246,33 +286,9 @@ Where we have an annotation assertion
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&dc;description"/> -->
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <!-- <owl:AnnotationProperty rdf:about="&dc;source"/> -->
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/title -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&dc;title"/> -->
-    
-
-
-    <!-- http://purl.org/dc/terms/creator -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&terms;creator"/> -->
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&terms;license"/> -->
     
 
 
@@ -326,14 +342,6 @@ Where we have an annotation assertion
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand">
-        <rdfs:label rdf:datatype="&xsd;string">shorthand</rdfs:label>
-    </owl:AnnotationProperty> -->
-    
-
-
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <!-- <owl:AnnotationProperty rdf:about="&rdfs;comment"/> -->
@@ -351,12 +359,6 @@ Where we have an annotation assertion
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <!-- <owl:AnnotationProperty rdf:about="&rdfs;label"/> -->
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/homepage -->
-
-    <!-- <owl:AnnotationProperty rdf:about="&foaf;homepage"/> -->
     
 
 
@@ -493,19 +495,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0000053">
-        <rdfs:range rdf:resource="&obo;BFO_0000020"/>
-        <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">this vase is bearer of this fragility</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
-        <rdfs:label xml:lang="en">bearer of</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&obo;RO_0000053"/>
     
 
 
@@ -514,15 +504,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:ObjectProperty rdf:about="&obo;RO_0000056">
         <owl:inverseOf rdf:resource="&obo;RO_0000057"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000002"/>
-        <rdfs:range rdf:resource="&obo;BFO_0000003"/>
-        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">participates in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -561,13 +542,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000052"/>
         <owl:inverseOf rdf:resource="&obo;RO_0000085"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000034"/>
-        <obo:IAO_0000112 xml:lang="en">this catalysis function is a function of this enzyme</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">function_of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">is function of</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">function of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -609,13 +583,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:ObjectProperty rdf:about="&obo;RO_0000085">
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000053"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
-        <rdfs:range rdf:resource="&obo;BFO_0000034"/>
-        <obo:IAO_0000112 xml:lang="en">this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">has_function</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has function</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -624,13 +591,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:ObjectProperty rdf:about="&obo;RO_0000086">
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000053"/>
-        <rdfs:range rdf:resource="&obo;BFO_0000019"/>
-        <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has quality</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -640,13 +600,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:ObjectProperty rdf:about="&obo;RO_0000087">
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000053"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
-        <rdfs:range rdf:resource="&obo;BFO_0000023"/>
-        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has role</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -800,31 +753,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002160 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002160">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002162"/>
-        <obo:IAO_0000112>lactation SubClassOf &apos;only in taxon&apos; some &apos;Mammalia&apos;</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.</obo:IAO_0000115>
-        <obo:IAO_0000116>The original intent was to treat this as a macro that expands to &apos;in taxon&apos; only ?Y - however, this is not necessary if we instead have supplemental axioms that state that each pair of sibling tax have a disjointness axiom using the &apos;in taxon&apos; property - e.g.
-
- &apos;in taxon&apos; some Eukaryota DisjointWith &apos;in taxon&apos; some Eubacteria</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/17921072"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20973947"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">only in taxon</rdfs:label>
-        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002162">
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002320"/>
-        <rdfs:range rdf:resource="&obo;CARO_0001010"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
             <rdf:Description rdf:about="&obo;RO_0002162"/>
@@ -861,17 +793,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             <rdf:Description rdf:about="&obo;RO_0002295"/>
             <rdf:Description rdf:about="&obo;RO_0002162"/>
         </owl:propertyChainAxiom>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000117>Jennifer Deegan</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/17921072"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20973947"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ro/subsets#ro-eco"/>
-        <rdfs:comment rdf:datatype="&xsd;string">Connects a biological entity to its taxon of origin.</rdfs:comment>
-        <rdfs:label rdf:datatype="&xsd;string">in taxon</rdfs:label>
-        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
     </owl:ObjectProperty>
     
 
@@ -892,75 +813,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ro/subsets#ro-eco"/>
         <rdfs:label rdf:datatype="&xsd;string">spatially disjoint from</rdfs:label>
         <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Part-disjointness-Design-Pattern</foaf:page>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002170 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002170">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;RO_0002577"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;RO_0002577"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="&obo;RO_0002176"/>
-            </rdf:Description>
-            <rdf:Description rdf:about="&obo;RO_0002176"/>
-        </owl:propertyChainAxiom>
-        <obo:IAO_0000112>a &apos;toe distal phalanx bone&apos; that is connected to a &apos;toe medial phalanx bone&apos; (an interphalangeal joint *connects* these two bones).</obo:IAO_0000112>
-        <obo:IAO_0000115>a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">connected to</rdfs:label>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern</foaf:page>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern</foaf:page>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002176 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002176">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
-        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;RO_0002577"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <obo:IAO_0000112>The M8 connects Glasgow and Edinburgh</obo:IAO_0000112>
-        <obo:IAO_0000112>a &apos;toe distal phalanx bone&apos; that is connected to a &apos;toe medial phalanx bone&apos; (an interphalangeal joint *connects* these two bones).</obo:IAO_0000112>
-        <obo:IAO_0000115>c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">connects</rdfs:label>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern</foaf:page>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern</foaf:page>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002179 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002179">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002170"/>
-        <obo:IAO_0000115>Relation between an collecting structure and another structure, where the collecting structure acts as a conduit channeling fluid, substance or energy away from the other structure.</obo:IAO_0000115>
-        <obo:IAO_0000116>Individual ontologies should provide their own constraints on this abstract relation. For example, in the realm of anatomy this should hold between a vein and an anatomical structure</obo:IAO_0000116>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20064205"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">drains</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1007,65 +859,13 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002206 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002206">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002330"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0002292"/>
-        <rdfs:domain rdf:resource="&obo;BFO_0000002"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000031"/>
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="&obo;CARO_0000006"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002206"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <obo:IAO_0000112>&apos;neural crest cell&apos;  SubClassOf expresses some &apos;Wnt1 gene&apos;</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>x expressed in y if and only if there is a gene expression process (GO:0010467) that occurs in y, and one of the following holds: (i) x is a gene, and x is transcribed into a transcript as part of the gene expression process (ii) x is a transcript, and the transcription of x is part of the gene expression process (iii) x is a mature gene product such as a protein, and x was translated or otherwise processes from a transcript that was transcribed as part of this gene expression process</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">expressed in</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002206"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002207 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002207">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002202"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0002210"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CARO_0010000"/>
-                    <rdf:Description rdf:about="&obo;CL_0000000"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CARO_0010000"/>
-                    <rdf:Description rdf:about="&obo;CL_0000000"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y.</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
-        <obo:IAO_0000117>has developmental precursor</obo:IAO_0000117>
-        <obo:IAO_0000119>FBbt</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <obo:RO_0002575 rdf:resource="&obo;RO_0002202"/>
-        <rdfs:comment>TODO - add child relations from DOS</rdfs:comment>
-        <rdfs:label xml:lang="en">directly develops from</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002207"/>
     
 
 
@@ -1085,26 +885,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002214 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002214">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000004"/>
-                    <rdf:Description rdf:about="&obo;BFO_0000015"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <obo:IAO_0000112>&apos;human p53 protein&apos; SubClassOf some (&apos;has prototype&apos; some (&apos;participates in&apos; some &apos;DNA repair&apos;))</obo:IAO_0000112>
-        <obo:IAO_0000112>heart SubClassOf &apos;has prototype&apos; some (&apos;participates in&apos; some &apos;blood circulation&apos;)</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>x has prototype y if and only if x is an instance of C and y is a prototypical instance of C. For example, every instance of heart, both normal and abnormal is related by the has prototype relation to some instance of a &quot;canonical&quot; heart, which participates in blood circulation.</obo:IAO_0000115>
-        <obo:IAO_0000116>Experimental. In future there may be a formalization in which this relation is treated as a shortcut to some modal logic axiom. We may decide to obsolete this and adopt a more specific evolutionary relationship (e.g. evolved from)</obo:IAO_0000116>
-        <obo:IAO_0000116>TODO: add homeomorphy axiom</obo:IAO_0000116>
-        <obo:IAO_0000116>This property can be used to make weaker forms of certain relations by chaining an additional property. For example, we may say: retina SubClassOf has_prototype some &apos;detection of light&apos;. i.e. every retina is related to a prototypical retina instance which is detecting some light. Note that this is very similar to &apos;capable of&apos;, but this relation affords a wider flexibility. E.g. we can make a relation between continuants.</obo:IAO_0000116>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has prototype</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002214"/>
     
 
 
@@ -1315,41 +1096,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002254 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002254">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002258"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0002255"/>
-        <rdfs:domain rdf:resource="&obo;CARO_0000000"/>
-        <rdfs:range rdf:resource="&obo;CARO_0000000"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0002202"/>
-        </owl:propertyChainAxiom>
-        <obo:IAO_0000112>Mammalian thymus has developmental contribution from some pharyngeal pouch 3; Mammalian thymus has developmental contribution from some pharyngeal pouch 4 [Kardong]</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">x has developmental contribution from y iff x has some part z such that z develops from y</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has developmental contribution from</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002255 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002255">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002286"/>
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002385"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002203"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>inverse of has developmental contribution from</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/RO_0002259"/>
-        <rdfs:label xml:lang="en">developmentally contributes to</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002254"/>
     
 
 
@@ -1385,34 +1132,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002292">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002330"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>Inverse of &apos;expressed in&apos;</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">expresses</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002295 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002295">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002324"/>
-        <rdfs:domain rdf:resource="&obo;GO_0008150"/>
-        <rdfs:range rdf:resource="&obo;CARO_0000003"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000115>p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss).</obo:IAO_0000115>
-        <obo:IAO_0000116>This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint.</obo:IAO_0000116>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">results_in_developmental_progression_of</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">results in developmental progression of</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://wiki.geneontology.org/index.php/Ontology_extensions"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&obo;RO_0002295"/>
     
 
 
@@ -1485,20 +1207,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000232>This is a grouping relation that collects relations used for the purpose of connecting structure and function</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label xml:lang="en">functionally related to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002330 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002330">
-        <rdfs:domain rdf:resource="&obo;BFO_0000002"/>
-        <rdfs:range rdf:resource="&obo;BFO_0000002"/>
-        <obo:IAO_0000115>holds between two entities when some genome-level process such as gene expression is involved. This includes transcriptional, spliceosomal events. These relations can be used between either macromolecule entities (such as regions of nucleic acid) or between their abstract informational counterparts.</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving the genome of an organism</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">genomically related to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1580,25 +1288,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:ObjectProperty rdf:about="&obo;RO_0002384">
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002324"/>
         <rdfs:domain rdf:resource="&obo;CARO_0000000"/>
-        <rdfs:range rdf:resource="&obo;CARO_0000000"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has developmental potential involving</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002385 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002385">
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002384"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y</obo:IAO_0000115>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has potential to developmentally contribute to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1813,13 +1502,6 @@ Environmental exposures include those imposed by natural environments, experimen
 
     <owl:ObjectProperty rdf:about="&obo;RO_0009004">
         <rdfs:domain rdf:resource="&obo;BFO_0000040"/>
-        <rdfs:range rdf:resource="&obo;CARO_0001010"/>
-        <obo:IAO_0000112 xml:lang="en">sardine has consumer some homo sapiens</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between a material entity and an organism in which the former can normally be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">has consumer</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1911,23 +1593,7 @@ Environmental exposures include those imposed by natural environments, experimen
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000003">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_HOM0000000"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">occurrent</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000003"/>
     
 
 
@@ -1950,126 +1616,25 @@ Environmental exposures include those imposed by natural environments, experimen
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000006 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000006">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000141"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">spatial region</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000006"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000015">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002214"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000016">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000017"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">disposition</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000015"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000017">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000017"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000019">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000020">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000023">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000031">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000031"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000017"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000034">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">function</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000034"/>
     
 
 
@@ -2084,117 +1649,9 @@ Environmental exposures include those imposed by natural environments, experimen
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000141 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000141">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000004"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CARO_0000000 -->
 
-    <owl:Class rdf:about="&obo;CARO_0000000">
-        <rdfs:subClassOf rdf:resource="&obo;CARO_0030000"/>
-        <obo:IAO_0000412 rdf:resource="&obo;caro.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">anatomical entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
-
-    <owl:Class rdf:about="&obo;CARO_0000003">
-        <rdfs:subClassOf rdf:resource="&obo;CARO_0000006"/>
-        <obo:IAO_0000412 rdf:resource="&obo;caro.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">connected anatomical structure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
-
-    <owl:Class rdf:about="&obo;CARO_0000006">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
-        <rdfs:subClassOf rdf:resource="&obo;CARO_0000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002179"/>
-                <owl:allValuesFrom rdf:resource="&obo;CARO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="&obo;caro.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">material anatomical entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0001010 -->
-
-    <owl:Class rdf:about="&obo;CARO_0001010">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">organism or virus or viroid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0010000 -->
-
-    <owl:Class rdf:about="&obo;CARO_0010000">
-        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002207"/>
-                <owl:allValuesFrom rdf:resource="&obo;CARO_0010000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="&obo;caro.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">multicellular anatomical structure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0030000 -->
-
-    <owl:Class rdf:about="&obo;CARO_0030000">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000004"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">biological entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
-
-    <owl:Class rdf:about="&obo;CL_0000000">
-        <rdfs:subClassOf rdf:resource="&obo;CARO_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002207"/>
-                <owl:allValuesFrom rdf:resource="&obo;CL_0000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="&obo;cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label xml:lang="en">cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
-
-    <owl:Class rdf:about="&obo;GO_0008150">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">biological_process</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;CARO_0000000"/>
     
 
 
@@ -2209,95 +1666,6 @@ Environmental exposures include those imposed by natural environments, experimen
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <rdfs:label>system</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
-
-    <owl:NamedIndividual rdf:about="&obo;IAO_0000122">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:label xml:lang="en">ready for release</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
-
-    <owl:NamedIndividual rdf:about="&obo;IAO_0000125">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
-
-    <owl:NamedIndividual rdf:about="&obo;IAO_0000428">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:label xml:lang="en">requires discussion</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0001901 -->
-
-    <owl:NamedIndividual rdf:about="&obo;RO_0001901">
-        <obo:IAO_0000115>
-
-## Elucidation
-
-This is used when the statement/axiom is assumed to hold true &apos;eternally&apos;
-
-## How to interpret (informal)
-
-First the &quot;atemporal&quot; FOL is derived from the OWL using the standard
-interpretation. This axiom is temporalized by embedding the axiom
-within a for-all-times quantified sentence. The t argument is added to
-all instantiation predicates and predicates that use this relation.
-
-## Example
-
-    Class: nucleus
-    SubClassOf: part_of some cell
-
-    forall t :
-      forall n :
-        instance_of(n,Nucleus,t)
-         implies
-        exists c :
-          instance_of(c,Cell,t)
-          part_of(n,c,t)
-
-## Notes
-
-This interpretation is *not* the same as an at-all-times relation
-
-</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">axiom holds for all times</rdfs:label>
-    </owl:NamedIndividual>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </rdf:Description>
@@ -2321,11 +1689,88 @@ This interpretation is *not* the same as an at-all-times relation
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="&obo;ro.owl">
-        <dc:description xml:lang="en">The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies.</dc:description>
-        <dc:title xml:lang="en">OBO Relations Ontology</dc:title>
-        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <foaf:homepage rdf:datatype="&xsd;anyURI"> https://github.com/oborel/obo-relations/</foaf:homepage>
+    <rdf:Description rdf:about="&obo;RO_0000053">
+        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">bearer of</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">this vase is bearer of this fragility</obo:IAO_0000112>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0000056">
+        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0000079">
+        <obo:IAO_0000118 xml:lang="en">function_of</obo:IAO_0000118>
+        <obo:IAO_0000116 xml:lang="en">A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">this catalysis function is a function of this enzyme</obo:IAO_0000112>
+        <obo:IAO_0000118 xml:lang="en">is function of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">function of</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0000085">
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <obo:IAO_0000118 xml:lang="en">has_function</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has function</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists.</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)</obo:IAO_0000112>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0000086">
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
+        <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0000087">
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0002162">
+        <rdfs:comment rdf:datatype="&xsd;string">Connects a biological entity to its taxon of origin.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <obo:IAO_0000115>x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="&xsd;string">in taxon</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/17921072"/>
+        <obo:IAO_0000117>Jennifer Deegan</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ro/subsets#ro-eco"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20973947"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0002384">
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <obo:IAO_0000115 xml:lang="en">x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <rdfs:label xml:lang="en">has developmental potential involving</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0009004">
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+        <rdfs:label xml:lang="en">has consumer</rdfs:label>
+        <obo:IAO_0000112 xml:lang="en">sardine has consumer some homo sapiens</obo:IAO_0000112>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">&apos;has consumer&apos; is a relation between a material entity and an organism in which the former can normally be digested or otherwise absorbed by the latter without immediate or persistent ill effect.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
     </rdf:Description>
 </rdf:RDF>
 
