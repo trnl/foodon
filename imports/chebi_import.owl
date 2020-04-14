@@ -3948,6 +3948,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30411 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_30411">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23334"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cobalt-corrinoid hexaamide that is cobalamin with the oxidation state of the central cobalt atom unspecified.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
+        <rdfs:label rdf:datatype="&xsd;string">cobalamin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_30527 -->
 
     <owl:Class rdf:about="&obo;CHEBI_30527">
@@ -7942,6 +7953,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_51084 -->
 
     <owl:Class rdf:about="&obo;CHEBI_51084">
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24835"/>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_51082"/>
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <rdfs:label rdf:datatype="&xsd;string">inorganic nitrate salt</rdfs:label>
