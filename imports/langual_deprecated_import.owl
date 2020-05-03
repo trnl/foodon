@@ -5883,13 +5883,21 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <!-- http://purl.obolibrary.org/obo/hancestro_0032 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hancestro_0032"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hancestro_0032">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0032"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/hancestro_0033 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hancestro_0033"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hancestro_0033">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0033"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
