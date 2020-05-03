@@ -12734,20 +12734,6 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03520231 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0231</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  GL</rdfs:comment>
-        <rdfs:label xml:lang="en">greenland</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03520258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520258">
@@ -16940,12 +16926,8 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00000557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000557">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <obo:IAO_0000118 xml:lang="en">american samoa</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0113</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">samoa, american</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  AS</rdfs:comment>
     </owl:Class>
     
 
@@ -17651,8 +17633,9 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00001507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <obo:IAO_0000118 xml:lang="en">greenland</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0521</oboInOwl:hasDbXref>
     </owl:Class>
@@ -19455,6 +19438,18 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003957">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0113</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym xml:lang="en">samoa, american</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  AS</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00003958 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003958">
@@ -20739,17 +20734,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GAZ_00049570 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00049570">
-        <obo:IAO_0000118 xml:lang="en">grenada</obo:IAO_0000118>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0226</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  GD</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GAZ_00052663 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00052663">
@@ -20869,6 +20853,17 @@ For more on organic farming, see the European Commissions site on Organic Farmin
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0475</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">grenadine islands</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  VC</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_02000573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_02000573">
+        <obo:IAO_0000118 xml:lang="en">grenada</obo:IAO_0000118>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0226</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  GD</rdfs:comment>
     </owl:Class>
     
 
