@@ -75,7 +75,7 @@ imports/%_import.owl: imports/%_ontofox.txt
 
 	echo "Downloaded $@"
 
-	$(ROBOT) reduce -i $@ -r ELK --xml-entities -o $@
+	$(ROBOT) reduce -i $@ -r ELK -o $@
 
 	echo "Entity substitution."
 
