@@ -46,11 +46,9 @@ prepare_release: all
 #Annotates foodon.owl ( $(ONT).owl ) file with release
 $(ONT).owl: $(SRC)
 #Fix to solve plethora of rdf:Description and anonymous nodes
-	$(ROBOT) reduce -i $< annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl --typed-annotation http://purl.org/dc/terms/date `date +%Y-%m-%d` xsd:date -o "$<" 
+	$(ROBOT) convert -i $< annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl --typed-annotation http://purl.org/dc/terms/date `date +%Y-%m-%d` xsd:date -o "$<"
 
-	cp "$<" $(ONT).owl
-
-#	$(ROBOT) reduce -i $< annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl --typed-annotation http://purl.org/dc/terms/date `date +%Y-%m-%d` xsd:date -o "$@"
+	$(ROBOT) reduce -i $< annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl --typed-annotation http://purl.org/dc/terms/date `date +%Y-%m-%d` xsd:date -o "$@"
 
 # Merge ontology and imports into one file, and commment out imports tags
 	$(ROBOT) merge --input $(ONT).owl --xml-entities --output $(ONT)-merged.owl
