@@ -27,7 +27,6 @@ http://purl.obolibrary.org/obo/RO_0002219 # surrounded by
 http://purl.obolibrary.org/obo/RO_0003001 # produced by
 
 http://purl.obolibrary.org/obo/RO_0002162 # in taxon
-# http://purl.obolibrary.org/obo/RO_0002160 # only in taxon // being phased out in RO.
 
 # UNUSED. This is bringing in unnecessary CL and PATO axioms
 #http://purl.obolibrary.org/obo/RO_0002225 # develops from part of
@@ -57,19 +56,20 @@ http://purl.obolibrary.org/obo/BFO_0000055 # realizes
 http://purl.obolibrary.org/obo/RO_0000085 # has function
 http://purl.obolibrary.org/obo/RO_0001001 # derives into
 http://purl.obolibrary.org/obo/RO_0002202 # develops from
-# http://purl.obolibrary.org/obo/RO_0002207 # directly develops from
-# http://purl.obolibrary.org/obo/RO_0002203 # develops into
-# http://purl.obolibrary.org/obo/RO_0002206 # expressed in
 http://purl.obolibrary.org/obo/RO_0002221 # surrounds
 http://purl.obolibrary.org/obo/RO_0002224 # starts with
 http://purl.obolibrary.org/obo/RO_0002230 # ends with
-# http://purl.obolibrary.org/obo/RO_0002254 # has developmental contribution from
-# http://purl.obolibrary.org/obo/RO_0002295 # results in development al progression of 
 http://purl.obolibrary.org/obo/RO_0002608 # process has causal agent
 http://purl.obolibrary.org/obo/RO_HOM0000000 # in similarity relationship with
+http://purl.obolibrary.org/obo/RO_0002210 #directly develops into
+http://purl.obolibrary.org/obo/RO_0002225 #develops from part of
 
-http://purl.obolibrary.org/obo/RO_0002210 #
-http://purl.obolibrary.org/obo/RO_0002225 #
+# http://purl.obolibrary.org/obo/RO_0002207 # directly develops from
+# http://purl.obolibrary.org/obo/RO_0002203 # develops into
+# http://purl.obolibrary.org/obo/RO_0002206 # expressed in
+# http://purl.obolibrary.org/obo/RO_0002254 # has developmental contribution from
+# http://purl.obolibrary.org/obo/RO_0002295 # results in development al progression of 
+
 
 # http://purl.obolibrary.org/obo/RO_0002214 # has prototype
 # http://purl.obolibrary.org/obo/RO_0002255 # developmentally contributes to
@@ -85,12 +85,13 @@ http://www.w3.org/2002/07/owl#topObjectProperty
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxioms
-#http://www.w3.org/2000/01/rdf-schema#label
-#http://purl.obolibrary.org/obo/IAO_0000111
-#http://purl.obolibrary.org/obo/IAO_0000114
-#http://purl.obolibrary.org/obo/IAO_0000115
-#http://purl.obolibrary.org/obo/IAO_0000119
-#http://purl.obolibrary.org/obo/OBI_0001886
+# includeAllAxioms
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000119
+#http://purl.obolibrary.org/obo/OBI_0001886 # NAIAD GSC Alternate term
 
 [Source annotation URIs to be excluded]
+# http://purl.obolibrary.org/obo/RO_0002254 
