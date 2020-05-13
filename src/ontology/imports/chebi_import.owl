@@ -4236,6 +4236,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_55505"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_90852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001618"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1,2-benzisothiazole having a keto-group at the 3-position and two oxo substituents at the 1-position. It is used as an artificial sweetening agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin</rdfs:label>
@@ -9701,6 +9702,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tricalcium bis(phosphate)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001618"/>
     
 
 
