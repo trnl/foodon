@@ -631,14 +631,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03301305 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301305">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301305"/>
     
 
 
