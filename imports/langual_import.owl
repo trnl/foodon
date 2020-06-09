@@ -13844,12 +13844,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530268"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The stage of development of a plant or plant part. Maturity influences safety, nutrient composition and consumption characteristics.
-Use the appropriate narrower term only if ripeness is stated in the food name or label.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0050</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">degree of plant maturity</rdfs:label>
     </owl:Class>
     
 
@@ -13858,12 +13853,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">That stage of plant development at which a plant or plant part has not achieved full maturity. This condition does not necessarily preclude utilization, for example, green tomatoes are consumed despite their relative unripeness to red tomatoes.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0051</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Use only if ripeness is stated in the food name or label.</rdfs:comment>
-        <rdfs:label xml:lang="en">unripe or immature</rdfs:label>
     </owl:Class>
     
 
@@ -13872,13 +13862,7 @@ Use the appropriate narrower term only if ripeness is stated in the food name or
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">That stage of plant development at which a plant or plant part has achieved full maturity and is ready for utilization.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0052</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">mature</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Use only if ripeness is stated in the food name or label.</rdfs:comment>
-        <rdfs:label xml:lang="en">ripe or mature</rdfs:label>
     </owl:Class>
     
 
