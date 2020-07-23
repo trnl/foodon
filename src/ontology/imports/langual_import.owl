@@ -3495,7 +3495,7 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001293"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002581"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The term shellfish is used both broadly and specifically. For regulatory purposes it is often narrowly defined as filter-feeding molluscs such as clams, mussels, and oyster to the exclusion of crustaceans and all else. Although their shells may differ, all shellfish are invertebrates. [https://en.wikipedia.org/wiki/Shellfish]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The term shellfish is used both broadly and specifically. For regulatory purposes it is often narrowly defined as filter-feeding molluscs such as clams, mussels, and oyster to the exclusion of crustaceans and all else. Although their shells may differ, all shellfish are invertebrates.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1433</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">shellfish</rdfs:label>
@@ -7909,7 +7909,8 @@ If used for food supplement substances, thissection and its narrover terms refer
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">See also [http://www.marlin.ac.uk/species/pectenmaximus.htm]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A northeast Atlantic species of scallop, an edible saltwater clam, a marine bivalve mollusc in the family Pectinidae. This is the type species of the genus. This species may be conspecific with Pecten jacobaeus, the pilgrim&apos;s scallop, which has a much more restricted distribution.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Pecten_maximus"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6579"/>
         <oboInOwl:hasDbXref>2010 FDA Seafood List:</oboInOwl:hasDbXref>
@@ -7918,11 +7919,15 @@ If used for food supplement substances, thissection and its narrover terms refer
         <oboInOwl:hasDbXref>ITIS:79683</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/449733</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3481</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">St James shell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">escallop</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">king scallop</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Pecten maximus</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Pecten maximus (Linnaeus, 1758)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasSynonym xml:lang="en">coquille saint-jacques</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">pecten maximus</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">great atlantic scallop</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.marlin.ac.uk/species/pectenmaximus.htm"/>
     </owl:Class>
     
 
@@ -9322,9 +9327,8 @@ If used for food supplement substances, thissection and its narrover terms refer
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411041"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">This section list vitamins and mineral substances which may be used in the manufacture of food supplements.
-DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 2002 on the approximation of the laws of the Member States relating to food supplements [http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:183:0051:0057:EN:PDF].</obo:IAO_0000115>
-        <obo:IAO_0000119>This section list vitamins and mineral substances which may be used in the manufacture of food supplements.
-DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 2002 on the approximation of the laws of the Member States relating to food supplements [http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:183:0051:0057:EN:PDF].</obo:IAO_0000119>
+DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 2002 on the approximation of the laws of the Member States relating to food supplements.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:183:0051:0057:EN:PDF"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3749</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">food supplements, vitamin and mineral substances (ec)</rdfs:label>
@@ -9771,14 +9775,17 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411489"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The New Zealand queen scallop (*Zygochlamys delicatula*) is also known as the southern queen scallop, southern fan scallop, and gem scallop. This small pectinid species is distributed on the outer continental shelf along the east coast of the South Island, from Kaikoura down to Macquarie Island. There are nine other species in the genus, none of which have attracted commercial interest, probably because of their small size. [http://fs.fish.govt.nz/Doc/21772/74_QSC_09.pdf.ashx]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A small pectinid species is distributed on the outer continental shelf along the east coast of the South Island, from Kaikoura down to Macquarie Island. There are nine other species in the genus, none of which have attracted commercial interest, probably because of their small size.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://fs.fish.govt.nz/Doc/21772/74_QSC_09.pdf.ashx"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>2010 FDA Seafood List:</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4277</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">gem scallop</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gem shellfish</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">southern fan scallop</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">southern queen scallop</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Zygochlamys delicatula</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasSynonym xml:lang="en">chlamys delicatula</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">gem scallop</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">gem shellfish</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">tipa</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">zygochlamys delicatula</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">southern queen scallop</rdfs:label>
@@ -10569,9 +10576,11 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414458">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412973"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Advantame is a new ultrahigh potency sweetener and flavor enhancer developed by Ajinomoto. It is derived from aspartame and vanillin. Advantame is approximately 20,000 times sweeter than sugar and 100 times sweeter than aspartame. Advantame has been approved for use in Australia and New Zealand. It had been deemed Generally Recognized As Safe (GRAS) as a flavor for use in non-alcoholic beverages, chewing gum, milk products and frozen dairy products. A Food Additive Petition was submitted in April 2009 to the US FDA seeking approval for use of advantame as a sweetener in powdered beverages and for tabletop use and it is under review by the European Food Safety Authority (EFSA). [http://www.caloriecontrol.org/sweeteners-and-lite/sugar-substitutes/advantame]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Advantame is a new ultrahigh potency sweetener and flavor enhancer derived from aspartame and vanillin.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://caloriecontrol.org/sugar-substitutes/"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4458</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">&quot;Advantame is approximately 20,000 times sweeter than sugar and 100 times sweeter than aspartame.&quot; [https://caloriecontrol.org/sugar-substitutes/]</rdfs:comment>
         <rdfs:label xml:lang="en">advantame</rdfs:label>
     </owl:Class>
     
@@ -10701,7 +10710,8 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411331"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">*Plebidonax deltoides* (previously *Donax deltoides*) is a small, edible saltwater clam or marine bivalve mollusc of the family *Donacidae*, endemic to Australia. It is most widely known as the pipi in the eastern states of its native Australia, and as the Goolwa cockle or Coorong cockle in South Australia. [https://en.wikipedia.org/wiki/Plebidonax_deltoides]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">*Plebidonax deltoides* (previously *Donax deltoides*) is a small, edible saltwater clam or marine bivalve mollusc of the family *Donacidae*, endemic to Australia. It is most widely known as the pipi in the eastern states of its native Australia, and as the Goolwa cockle or Coorong cockle in South Australia.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Plebidonax_deltoides"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>FAO ASFIS:DNE</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/2286</oboInOwl:hasDbXref>
@@ -10719,12 +10729,13 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414631">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411331"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">*Polymesoda* is a genus of clams in the family *Corbiculidae$/I$, or alternately, the *Cyrenidae*. [https://en.wikipedia.org/wiki/Polymesoda]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Polymesoda is a genus of clams in the family Corbiculidae, or alternately, the Cyrenidae.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Polymesoda"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://eol.org/pages/50246</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4631</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">polymesoda</oboInOwl:hasExactSynonym>
         <oboInOwl:hasSynonym xml:lang="en">marshclam</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">polymesoda</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">mud mussel</rdfs:label>
     </owl:Class>
     
@@ -10735,7 +10746,8 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414632">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411331"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The shipworms are marine bivalve molluscs in the family *Teredinidae*: a group of saltwater clams with long, soft, naked bodies. They are notorious for boring into (and commonly eventually destroying) wood that is immersed in sea water. [https://en.wikipedia.org/wiki/Shipworms]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The shipworms are marine bivalve molluscs in the family *Teredinidae*: a group of saltwater clams with long, soft, naked bodies. They are notorious for boring into (and commonly eventually destroying) wood that is immersed in sea water.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Shipworms"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://eol.org/pages/56957</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4632</oboInOwl:hasDbXref>
@@ -10750,11 +10762,12 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411223"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The *Unionidae* are a family of freshwater mussels, the largest in the order *Unionoida*, the bivalve mollusks sometimes known as river mussels, or simply as unionids.[. [https://en.wikipedia.org/wiki/Freshwater_bivalve]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The *Unionidae* are a family of freshwater mussels, the largest in the order *Unionoida*, the bivalve mollusks sometimes known as river mussels, or simply as unionids.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Freshwater_bivalve"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://eol.org/pages/2274</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4633</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">unionidae</oboInOwl:hasSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">unionidae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasSynonym xml:lang="en">unionids</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">river mussel</rdfs:label>
     </owl:Class>
@@ -10772,7 +10785,8 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">*Pinctada margaritifera*, commonly known as the black-lip pearl oyster, is a species of pearl oyster, a saltwater clam, a marine bivalve mollusk in the family *Pteriidae$/I$. This species is common in the Indo-Pacific within tropical coral reefs. [https://en.wikipedia.org/wiki/Pinctada_margaritifera]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">*Pinctada margaritifera*, commonly known as the black-lip pearl oyster, is a species of pearl oyster, a saltwater clam, a marine bivalve mollusk in the family Pteriidae. This species is common in the Indo-Pacific within tropical coral reefs.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Pinctada_margaritifera"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_102329"/>
         <oboInOwl:hasDbXref>AFNS 2009 23:236002</oboInOwl:hasDbXref>
@@ -10780,10 +10794,10 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
         <oboInOwl:hasDbXref>ITIS:568098</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/468594</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4634</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">pinctada margaritifera</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Pinctada margaritifera (Linnaeus, 1758)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Pinctada margaritifera Linnaeus, 1758</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasSynonym xml:lang="en">black-lip oyster</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pinctada margaritifera</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">blacklip pearl oyster</rdfs:label>
     </owl:Class>
     
@@ -10942,10 +10956,11 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414803">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411223"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">*Hyriidae* is a taxonomic family of pearly freshwater mussels, aquatic bivalve molluscs in the order *Unionoida*. This family is native to South America, Australia, New Zealand and New Guinea. Like all members of that order, they go through a larval stage that is parasitic on fish.[https://en.wikipedia.org/wiki/Hyriidae]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Hyriidae is a taxonomic family of pearly freshwater mussels, aquatic bivalve molluscs in the order *Unionoida*. This family is native to South America, Australia, New Zealand and New Guinea. Like all members of that order, they go through a larval stage that is parasitic on fish.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Hyriidae"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4803</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">hyriidae</oboInOwl:hasSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hyriidae</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">pearly freshwater mussel</rdfs:label>
     </owl:Class>
     
@@ -11022,16 +11037,17 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The Portuguese oyster, *Crassostrea angulata*, is a species of oyster found in the southwest Iberian Peninsula, closely related to the Pacific oyster. Although first identified as a native European species, genetic studies have suggested the Portuguese oyster originated from the Pacific coast of Asia and was introduced to Europe by Portuguese trading ships in the 16th century. [https://en.wikipedia.org/wiki/Portuguese_oyster]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A species of oyster found in the southwest Iberian Peninsula, closely related to the Pacific oyster. Although first identified as a native European species, genetic studies have suggested the Portuguese oyster originated from the Pacific coast of Asia and was introduced to Europe by Portuguese trading ships in the 16th century.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Portuguese_oyster"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_558553"/>
         <oboInOwl:hasDbXref>2010 FDA Seafood List:</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ITIS:79875</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://eol.org/pages/449553</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4898</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Crassostrea angulate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Crassostrea angulata</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Crassostrea angulata Lamarck</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">crassostrea angulate</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">portuguese cupped oyster</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">portuguese oyster</rdfs:label>
     </owl:Class>
@@ -13451,10 +13467,10 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530005">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Additional groups of descriptors of a miscellaneous nature. [FDA CFSAN 1995]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Additional food descriptor of a miscellaneous nature. [FDA CFSAN 1995]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0005</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">adjunct characteristics of food</rdfs:label>
+        <rdfs:label xml:lang="en">adjunct characteristic of food</rdfs:label>
     </owl:Class>
     
 
@@ -14504,10 +14520,11 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530206"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A datum indicating the type of facility that one or more food items were prepared in.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0108</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">preparation establishment</rdfs:label>
+        <rdfs:label xml:lang="en">preparation establishment datum</rdfs:label>
     </owl:Class>
     
 
@@ -14596,7 +14613,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530108"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Foods prepared at on- or off-site locations, commissaries (e.g., wrapped fresh sandwiches) or food industry establishments (e.g., bagged potato chips), but which are sold from vending establishments. Examples include hot dog stands, trucksandwich vendors, etc.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Foods prepared at on- or off-site locations, commissaries (e.g., wrapped fresh sandwiches) or food industry establishments (e.g., bagged potato chips), but which are sold from vending establishments. Examples include hot dog stands, truck sandwich vendors, etc.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0120</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">street vendor prepared and/or sold</rdfs:label>
@@ -15016,7 +15033,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0154</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">domestic or cultivated</rdfs:label>
+        <rdfs:label xml:lang="en">domestic or cultivated production environment</rdfs:label>
     </owl:Class>
     
 
@@ -15626,7 +15643,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0204</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">semiwild or semidomestic</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used for food, for example, wild plants, that are tended and protected.</rdfs:comment>
-        <rdfs:label xml:lang="en">semidomestic or semiwild</rdfs:label>
+        <rdfs:label xml:lang="en">semidomestic or semiwild food production environment</rdfs:label>
     </owl:Class>
     
 
@@ -15638,7 +15655,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0206</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">production environment</rdfs:label>
+        <rdfs:label xml:lang="en">food production environment</rdfs:label>
     </owl:Class>
     
 
@@ -15651,7 +15668,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0207</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">growing condition</rdfs:label>
+        <rdfs:label xml:lang="en">food plant rearing condition</rdfs:label>
     </owl:Class>
     
 
@@ -16198,11 +16215,11 @@ Related term to PRESENCE OF PACKING MEDIUM is K.  PACKING MEDIUM.</obo:IAO_00001
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530251">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530151"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">&apos;Genetically modified food&apos; means food containing, consisting of or produced from GMOs - in accordance with REGULATION (EC) No 1829/2003 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 22 September 2003 on genetically modified food and feed.
-See http://ec.europa.eu/comm/food/food/biotechnology/index_en.htm.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">&apos;Genetically modified food&apos; means food containing, consisting of or produced from GMOs - in accordance with REGULATION (EC) No 1829/2003 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 22 September 2003 on genetically modified food and feed.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32003R1829"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0251</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">gmo</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">GMO</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">genetically modified food</rdfs:label>
     </owl:Class>
     
@@ -16233,7 +16250,7 @@ of 28 June 2007 on organic production and labelling of organic products and repe
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0253</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">organic plant production</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">organic growing condition</rdfs:label>
+        <rdfs:label xml:lang="en">organic plant growing condition</rdfs:label>
     </owl:Class>
     
 
@@ -16699,7 +16716,7 @@ See also European Commission,  http://ec.europa.eu/agriculture/quality/index_en.
 For more on organic farming, see the European Commissions site on Organic Farming [http://ec.europa.eu/agriculture/organic/splash_en].</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0291</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">organic production</rdfs:label>
+        <rdfs:label xml:lang="en">organic food production</rdfs:label>
     </owl:Class>
     
 
@@ -16714,7 +16731,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0292</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">free range</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">grass fed</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">free-range</rdfs:label>
+        <rdfs:label xml:lang="en">free-range production environment</rdfs:label>
     </owl:Class>
     
 
