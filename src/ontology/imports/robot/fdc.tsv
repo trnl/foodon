@@ -1,0 +1,78 @@
+Ontology ID	parent class	label	definition	definition source	exact synonym	example of usage	has output	term editor	see also	has curation status	curation notes	
+ID	SC % SPLIT=|	LABEL	A IAO:0000115	A IAO:000119 SPLIT=|		A example of usage SPLIT=|		A IAO:0000117 SPLIT=|	A rdfs:seeAlso	AI IAO:0000114		
+IAO:0000030		information content entity										
+IAO:0000027	information content entity	data item										
+IAO:0000109	data item	measurement datum										
+OBI:0000938	measurement datum	categorical measurement datum										
+FOODON:03530005	data item	adjunct characteristic of food (RENAME)	A data item consisting of a claim or record of a food product's origin or processing history or suitability for some purpose.					http://orcid.org/0000-0002-8844-9165				
+BFO:0000015		process										
+OBI:0000011	process	planned process										
+AGRO:00002071	planned process	agricultural process										
+												
+FOODON:00002403		food material										
+FOODON:00003374	food material	harvested food material										
+												
+FOODON:00001002	food material	food product										
+FOODON:00002645	food product	food product by process										
+FOODON:00002454	food product	food product by quality										
+FOODON:00001015	food product	plant food product										
+												
+		Geo-location										
+												
+												
+FDC:0000001		FDC Factor										
+												
+FDC:0000003	FDC Factor	agricultural production factor										
+FDC:0000002	agricultural production factor	genetic modification										
+												
+												
+												
+												
+												
+AGRO:?	agricultural process	sustainable agriculture	Farming in a sustainable way, which means meeting society's present food and other harvested product needs without compromising the ability for current or future generations to meet their needs.	https://en.wikipedia.org/wiki/Sustainable_agriculture			sustainable agricultural product	http://orcid.org/0000-0002-8844-9165	https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/288329/11-546-future-of-food-and-farming-report.pdf			
+												
+FOODON:00003375	food product by process|agricultural production factor	sustainable agriculture food product	A food product produced by sustainable agricultural practices.					http://orcid.org/0000-0002-8844-9165				
+FOODON:00002129	plant food product|sustainable agriculture food product	plant-based meat product analog	A food product designed to taste like animal meat but which is made from plant food sources.		plant-based meat substitute|plant-based meat product			http://orcid.org/0000-0002-8844-9165				
+FOODON:00003376	food product by process|sustainable agriculture food product	cell-based technology food product	A food product made from plant or animal cell lines incubated in a production facility.					http://orcid.org/0000-0002-8844-9165				
+FOODON:00003377	harvested food material|sustainable agriculture food product	food harvested by hunting	food material that is obtained by hunting, the practice of seeking, pursuing and capturing or killing wild animals.	https://en.wikipedia.org/wiki/Hunting				http://orcid.org/0000-0002-8844-9165				
+FOODON:00003378	harvested food material|sustainable agriculture food product	food harvested by gathering	Food material that is obtained by foraging the natural environment for food.	https://en.wikipedia.org/wiki/Foraging				http://orcid.org/0000-0002-8844-9165				
+												
+FOODON:03530251	food product by quality|genetic modification	food (genetically-modified)	A food product which is produced from an organism which has changes in its DNA as a result of genetic engineering.		GMO food							
+FOODON:00003379	food product by quality|genetic modification	food (not genetically-modified)	A food product which is produced from one or more organisms, none of which have changes in their DNA as a result of genetic engineering.		non-GMO food							
+												
+		food production proximity to consumer distrobution										
+FOODON:00003381	categorical measurement datum|FDC Factor	country-of-origin datum	A data item about the country or countries of manufacture, production, design, or brand origin where an article or product comes from. For multinational brands, this may include multiple countries within the value-creation process.	https://en.wikipedia.org/wiki/Country_of_origin	COO|country of origin							
+FOODON:00003382	country-of-origin datum	single-country-of-origin datum	A product primarily manufactured in a single country of origin, and with components coming from that country.	https://en.wikipedia.org/wiki/Country_of_origin								
+FOODON:00003383	single-country-of-origin datum	American-made product datum	A product primarily manufactured within America.	https://en.wikipedia.org/wiki/Made_in_USA	Made in America|Made in USA							
+FOODON:00003384	categorical measurement datum|FDC Factor	food retailed within its country-of-origin datum	A single-country-of-origin food product which is retailed in that country.									
+FOODON:00003385	food retailed within its country-of-origin datum	local food datum	Food produced within a relatively short distance of where it is consumed.	https://en.wikipedia.org/wiki/Local_food	100-mile food|100 mile diet|local food				https://en.wikipedia.org/wiki/The_100-Mile_Diet			
+												
+		climactic food production factor										
+												
+PECO:0001001	categorical measurement datum	plant exposure										
+PECO:0007027	plant exposure|agricultural production factor	seasonal environment exposure			agronomic growing season							
+PECO:0007035	seasonal environment exposure	winter season exposure										
+PECO:0007036	seasonal environment exposure	summer season exposure										
+PECO:0007037	seasonal environment exposure	spring season exposure										
+PECO:0007038	seasonal environment exposure	autumn season exposure										
+PECO:0007285	seasonal environment exposure	rainy season exposure										
+PECO:0007286	seasonal environment exposure	dry season exposure										
+												
+FOODON:03530206		food production environment										
+FOODON:03530152	food production environment	agricultural production environment										
+FOODON:03530153	agricultural production environment	wild harvested organism			wild or gathered							
+FOODON:00002910	wild harvested organism	wild harvested animal	An organism that originated from a wild caught population.		wild caught							
+	wild harvested organism	wild harvested plant										
+FOODON:03530204	agricultural production environment	semidomestic or semiwild food production environment										
+FOODON:03530154	agricultural production environment	domestic or cultivated food production environment										
+FOODON:03530208	domestic or cultivated food production environment	outdoor/open-air growing condition										
+FOODON:03530209	outdoor/open-air growing condition	conventional outdoor/open-air production growing condition										
+FOODON:03530292	outdoor/open-air growing condition	free-range food production environment										
+FOODON:temp3	outdoor/open-air growing condition	irrigated field plant production										
+FOODON:03530210	outdoor/open-air growing condition	organic outdoor/open-air production growing condition										
+FOODON:temp1	domestic or cultivated food production environment	controlled environment agriculture (CEA)	A technology-based approach toward food production in which  growing conditions are optimized within an enclosed growing structure such as a greenhouse or building throughout the development of a crop.									
+FOODON:temp2	controlled environment agriculture (CEA)	tunnel farming / polytunnel farming process		https://en.wikipedia.org/wiki/Polytunnel	tunnel production; A polytunnel (also known as a polyhouse, hoop greenhouse or hoophouse, grow tunnel or high tunnel)							
+FOODON:03530211	controlled environment agriculture (CEA)	under glass/protected growing condition			indoor gardening							
+FOODON:03530212	under glass/protected growing condition	conventional under glass/protected production growing condition										
+FOODON:03530213	under glass/protected growing condition	organic under glass/protected production growing condition										
+FOODON:03530214	under glass/protected growing condition	hydroponic growing condition (conventional or organic)										
