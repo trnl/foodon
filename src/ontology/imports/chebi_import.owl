@@ -24,13 +24,23 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/> -->
     
 
 
@@ -238,6 +248,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13&apos;-carboxy-alpha-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_145232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_145232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47622"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_71298"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glucan derivative obtained through the esterification of cellulose by acetic anhydride or acetic acid, resulting in the substitution of some of the hydroxy groups of cellulose by acetyl groups. It is used in a variety of applications including base material for photographic film, clothing, membrane filters, coatings, food packaging, and as a frame material for eyeglasses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellulose acetate</rdfs:label>
     </owl:Class>
     
 
@@ -872,6 +894,18 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycerol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37578"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound containing at least one carbon-halogen bond (where X is a halogen atom).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organohalogen compound</rdfs:label>
     </owl:Class>
     
 
@@ -2748,6 +2782,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35701"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of units connected by carboxylic ester (-O-CO-) linkages.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyester macromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26188">
@@ -3347,6 +3393,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33306"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33521"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tin atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27013">
@@ -3461,7 +3518,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36853"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin D is a group of fat-soluble prohormones, which can be obtained from sun exposure, food and supplements. Vitamin D is biologically inactive and converted to the biologically active calcitriol via double hydroxylation in the body.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin D is a group of fat-soluble prohormones, which can be obtained from sun exposure, food and supplements. Vitamin D is biologically inactive and converted into the biologically active calcitriol via double hydroxylation in the body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin D</rdfs:label>
     </owl:Class>
@@ -3572,7 +3629,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27732">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27134"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412972"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trimethylxanthine in which the three methyl groups are located at positions 1, 3, and 7. A purine alkaloid that occurs naturally in tea and coffee.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caffeine</rdfs:label>
@@ -3811,6 +3867,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16997"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(R)-propane-1,2-diol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33521"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminium atom</rdfs:label>
     </owl:Class>
     
 
@@ -4236,7 +4303,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_55505"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_90852"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001618"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1,2-benzisothiazole having a keto-group at the 3-position and two oxo substituents at the 1-position. It is used as an artificial sweetening agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin</rdfs:label>
@@ -4696,6 +4762,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33560"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group element atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33308">
@@ -4704,6 +4780,16 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxylic ester</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33560"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boron group element atom</rdfs:label>
     </owl:Class>
     
 
@@ -6485,23 +6571,11 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_36683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17792"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36684"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochlorine compound is a compound containing at least one carbon-chlorine bond.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochlorine compound</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_36684 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37578"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound containing at least one carbon-halogen bond.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organohalogen compound</rdfs:label>
     </owl:Class>
     
 
@@ -6706,8 +6780,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_37142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17792"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24860"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36684"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organoiodine compound is a compound containing at least one carbon-iodine bond.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organoiodine compound</rdfs:label>
@@ -8207,6 +8281,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53226"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of ethane units.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(ethylene)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_53242 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53242">
@@ -8214,6 +8299,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating -CHR-CH2- units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vinyl polymer macromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53242"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of repeating chloroethyl units.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(vinyl chloride)</rdfs:label>
     </owl:Class>
     
 
@@ -8229,6 +8325,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53226"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of repeating -CR2-CR2- units.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(vinylidene)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53249"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of repeating tetrafluoroethyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(tetrafluoroethylene)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_53258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53258">
@@ -8236,6 +8354,28 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The trisodium salt of citric acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium citrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53242"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macromolecules composed of repeating substituted or unsubstituted ethylbenzene units.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polystyrene macromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53270"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of repeating ethyl benzene groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(styrene)</rdfs:label>
     </owl:Class>
     
 
@@ -8339,6 +8479,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A (1-&gt;4)-beta-D-glucan compound formed by methylating cellulose through exposure to NaOH/CH3Cl.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methyl cellulose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53226"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer compose of repeating propane-1,2-diyl units.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(propylene)</rdfs:label>
     </owl:Class>
     
 
@@ -8979,6 +9130,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37164"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A homopolysaccharide derivative which is formally derived from a glucan.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucan derivative</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_71629 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71629">
@@ -9181,7 +9343,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35505"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydrate that is tin dichloride (anh.) combined with 2 mol eq. of water.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tin dichloride dihydrate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tin(II) chloride dihydrate</rdfs:label>
     </owl:Class>
     
 
@@ -9354,6 +9516,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60027"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinylidene chloride-vinyl chloride copolymer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_82411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82411">
@@ -9370,6 +9542,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclamate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60027"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nylon 6</rdfs:label>
     </owl:Class>
     
 
@@ -9702,21 +9884,9 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tricalcium bis(phosphate)</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001618 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001618"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412972 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412972"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

@@ -5,6 +5,9 @@ http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl
 GAZ
 
 [Low level source term URIs]
+
+http://purl.obolibrary.org/obo/GAZ_00000448 # geographic location
+
 http://purl.obolibrary.org/obo/GAZ_00006882 # AFGHANISTAN
 http://purl.obolibrary.org/obo/GAZ_00002953 # ALBANIA
 http://purl.obolibrary.org/obo/GAZ_00000563 # ALGERIA
@@ -304,6 +307,7 @@ http://purl.obolibrary.org/obo/GAZ_00001107 # ZAMBIA
 http://purl.obolibrary.org/obo/GAZ_00001106 # ZIMBABWE
 
 # REGIONS
+http://purl.obolibrary.org/obo/GAZ_00000013 # continent
 
 http://purl.obolibrary.org/obo/GAZ_00000457 # AFRICA
 http://purl.obolibrary.org/obo/GAZ_00000555 #   NORTH AFRICA
@@ -381,7 +385,10 @@ http://purl.obolibrary.org/obo/GAZ_00002553 # WASHINGTON
 http://purl.obolibrary.org/obo/GAZ_00004414 # WEST VIRGINIA
 http://purl.obolibrary.org/obo/GAZ_00002586 # WISCONSIN
 http://purl.obolibrary.org/obo/GAZ_00002533 # WYOMING
-http://purl.obolibrary.org/obo/GAZ_00003096 # WESTERN STATES
+
+http://purl.obolibrary.org/obo/GAZ_00003096 # WEST REGION
+
+
 
 # Canadian Provinces and Territories
 http://purl.obolibrary.org/obo/GAZ_00002566 # ALBERTA
@@ -396,6 +403,18 @@ http://purl.obolibrary.org/obo/GAZ_00002572 # PRINCE EDWARD ISLAND
 http://purl.obolibrary.org/obo/GAZ_00002566 # QUEBEC
 http://purl.obolibrary.org/obo/GAZ_00002569 # SASKATCHEWAN
 http://purl.obolibrary.org/obo/GAZ_00002564 # YUKON TERRITORY
+
+http://purl.obolibrary.org/obo/GAZ_00003730 # bali province
+
+http://purl.obolibrary.org/obo/GAZ_00003092 # Region (contiguous United States of America)
+
+http://purl.obolibrary.org/obo/GAZ_00000590 # Oceans and Seas
+
+http://purl.obolibrary.org/obo/GAZ_00000468 # Oceana
+http://purl.obolibrary.org/obo/GAZ_00005863 #   Australasia
+http://purl.obolibrary.org/obo/GAZ_00005860 #   Melanesia
+http://purl.obolibrary.org/obo/GAZ_00005862 #   Micronesia
+http://purl.obolibrary.org/obo/GAZ_00005861 #   Polynesia
 
 # http://purl.obolibrary.org/obo/GAZ_00009812 # KENT COUNTY
 # http://purl.obolibrary.org/obo/GAZ_22222226 # NEW CASTLE COUNTY
@@ -416,5 +435,6 @@ http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000118
 http://purl.obolibrary.org/obo/IAO_0000119
 http://purl.obolibrary.org/obo/OBI_0001886
-
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 [Source annotation URIs to be excluded]

@@ -29,6 +29,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
@@ -145,6 +151,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
     
 
 
@@ -3105,6 +3117,12 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00003064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003064">
@@ -3124,6 +3142,48 @@ Neotame is an artificial sweetener made by NutraSweet that is between 7,000 and 
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3323</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">table water</oboInOwl:hasSynonym>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003895"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000404"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000480"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000575"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001069"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000090"/>
     
 
 
@@ -11642,595 +11702,10 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500010">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0010</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">food product contact surface</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0011</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage can enamel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500011"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0012</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage can enamel, noncarbonated beverage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500011"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0013</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage can enamel, carbonated soft drink</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500011"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0014</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">beverage can enamel, beer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Wax may be applied directly as a coating to the food product or may be used as a container material. Examples include wax-coated cheese, wax-coated cucumber, waxed fiberboard container, etc.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0015</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">wax</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0016</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">f-enamel</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">fruit enamel (f-enamel)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">PE</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0017</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">polyethylene</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0018</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">citrus enamel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0019</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">milk enamel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0020</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">meat enamel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0021</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Pp</rdfs:comment>
-        <rdfs:label xml:lang="en">polypropylene</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0022</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">styrofoam</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Ps</rdfs:comment>
-        <rdfs:label xml:lang="en">polystyrene</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0023</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">seafood enamel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A class of coatings that contains a specially prepared vehicle, instead of raw oil. Sometimes referred to as varnish or lacquer.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0024</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">coating enamel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500029"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Trade name of polyvinylidene chloride copolymer film. Chief packaging uses are in film and in coatings for other flexible substrates such as cellophane and paper.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0025</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">saran</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500033"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Trade name of polyester used in the usa.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0026</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mylar</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A generic term for a class of polyamides containing repeating amide groups connected by methylene units. The most common types used in food industry are ny-lon-66 and nylon-11.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0027</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">nylon</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500029"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Trade name of a shrinkable version of pvdc used for vacuum packaging, e.g. of red meat.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0028</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cryovac</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">PVDC</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0029</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">vinylidene</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500024"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0030</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">c-enamel</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">corn enamel (c-enamel)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03500031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500054"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0031</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cellophane</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A rubber hydrochloride, first introduced as a packaging film in 1936 in the U.S.A.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0032</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pliofilm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0033</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">polyester</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">CA: thermoplastic material made by the esterification of cellulose with acetic anhydride and acetic acid.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0034</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cellulose acetate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0036</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">plastic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">PVC</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0037</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">polyvinyl chloride</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0038</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">ceramic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0039</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">paperboard or paper</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">paper or paperboard</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">An amorphous, inorganic, inert substance consisting of a mixture of silicates, borates or phosphates, and usually transparent or translucent.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0040</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">glass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0041</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">metal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500041"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0042</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">aluminum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500041"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0043</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">tin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500041"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0044</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">steel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500051"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0045</oboInOwl:hasDbXref>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">cloth</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">fabric</oboInOwl:hasNarrowSynonym>
-        <rdfs:label xml:lang="en">textile</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0046</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cork</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Some cheeses are surrounded by a layer of ashes.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0047</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">ash</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0048</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">leaf, food contact surface</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0049</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">husk, food contact surface</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500010"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0050</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">food contact surface from natural material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500051 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500010"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0051</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">food contact surface from human-made material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0052</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">egg shell, food contact surface</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A calcareous exoskeleton which encloses, supports and protects the soft parts of an animal in the phylum Mollusca.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Anoosha Sehar</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Mollusc_shell"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0053</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">mollusk shell</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">mollusc shell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500029"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0054</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">latex</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500055 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500036"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Trade name for a polymer used to provide better protection and longer life to porous metals (nickel alloys) in coextruded sheets and films.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0055</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">teflon</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A very thin edible covering, either natural or some form of a synthetic, that is used to enclose ground meat and other ingredients.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Anoosha Sehar</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:resource="https://www.recipetips.com/glossary-term/t--34277/casing.asp"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0056</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the container or coating materials are edible, e.g. wafer, polyoside films, edible paper.</rdfs:comment>
-        <rdfs:label xml:lang="en">edible casing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=N0057</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">natural-based polymers</rdfs:label>
     </owl:Class>
     
 
@@ -12238,11 +11713,7 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <!-- http://purl.obolibrary.org/obo/FOODON_03520010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520010">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Contains names of the continents, regions and countries of the world, as well as worldwide fishing regions and geopolitical designations.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0010</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">geographic places and regions</rdfs:label>
     </owl:Class>
     
 
@@ -12255,7 +11726,7 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0111</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  AQU1</rdfs:comment>
-        <rdfs:label xml:lang="en">aquaculture</rdfs:label>
+        <rdfs:label xml:lang="en">aquaculture area</rdfs:label>
     </owl:Class>
     
 
@@ -12268,7 +11739,7 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0116</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  ATOC: *ATLANTIC OCEAN*.</rdfs:comment>
-        <rdfs:label xml:lang="en">atlantic ocean and adjacent seas</rdfs:label>
+        <rdfs:label xml:lang="en">atlantic ocean and adjacent sea fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -12276,12 +11747,12 @@ DIRECTIVE 2002/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 June 20
     <!-- http://purl.obolibrary.org/obo/FOODON_03520124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">US FDA 1995 Code:  AA</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0124</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">fishing areas</rdfs:label>
+        <rdfs:label xml:lang="en">fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -12774,7 +12245,7 @@ FAO Major Fishing Area 88 [http://www.fao.org/fishery/area/Area88].</obo:IAO_000
     <!-- http://purl.obolibrary.org/obo/FOODON_03520193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000115 xml:lang="en">US FDA 1995 Code:  CLZ
 
@@ -12809,7 +12280,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0258</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  INOC</rdfs:comment>
-        <rdfs:label xml:lang="en">indian ocean</rdfs:label>
+        <rdfs:label xml:lang="en">indian ocean fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -12835,7 +12306,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0324</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  PAOC</rdfs:comment>
-        <rdfs:label xml:lang="en">pacific ocean</rdfs:label>
+        <rdfs:label xml:lang="en">pacific ocean fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -12857,7 +12328,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520352 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520352">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000468"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0352</oboInOwl:hasDbXref>
@@ -12936,7 +12407,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000468"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0361</oboInOwl:hasDbXref>
@@ -12949,7 +12420,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000468"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0363</oboInOwl:hasDbXref>
@@ -12963,11 +12434,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">US FDA 1995 Code:  QZ</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0365</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">geopolitical designation</rdfs:label>
     </owl:Class>
     
 
@@ -12975,14 +12442,15 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520366 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520366">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520365"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0366</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">european community</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">european economic community</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  QZ01</rdfs:comment>
-        <rdfs:label xml:lang="en">european union</rdfs:label>
+        <rdfs:label xml:lang="en">European Union</rdfs:label>
     </owl:Class>
     
 
@@ -12990,12 +12458,15 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520367">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520365"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A commission that administrates a collection of internationally recognized standards, codes of practice, guidelines, and other recommendations relating to foods, food production, and food safety.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Codex_Alimentarius"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0367</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  QZ02</rdfs:comment>
-        <rdfs:label xml:lang="en">codex alimentarius commission countries</rdfs:label>
+        <rdfs:label xml:lang="en">Codex Alimentarius Commission</rdfs:label>
     </owl:Class>
     
 
@@ -13008,7 +12479,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0387</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  SUB1</rdfs:comment>
-        <rdfs:label xml:lang="en">subtropical waters</rdfs:label>
+        <rdfs:label xml:lang="en">subtropical fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13021,7 +12492,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0388</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  SUB2</rdfs:comment>
-        <rdfs:label xml:lang="en">subtropical reef</rdfs:label>
+        <rdfs:label xml:lang="en">subtropical reef fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13047,7 +12518,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0404</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  TRO1</rdfs:comment>
-        <rdfs:label xml:lang="en">tropical waters</rdfs:label>
+        <rdfs:label xml:lang="en">tropical fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13060,7 +12531,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0405</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: US FDA 1995 Code:  TRO2</rdfs:comment>
-        <rdfs:label xml:lang="en">tropical reef</rdfs:label>
+        <rdfs:label xml:lang="en">tropical reef fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13068,7 +12539,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003092"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0465</oboInOwl:hasDbXref>
@@ -13081,7 +12552,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520466">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003092"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0466</oboInOwl:hasDbXref>
@@ -13094,7 +12565,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520467">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003092"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0467</oboInOwl:hasDbXref>
@@ -13107,7 +12578,6 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520468">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0468</oboInOwl:hasDbXref>
@@ -13120,7 +12590,6 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520469">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0469</oboInOwl:hasDbXref>
@@ -13133,7 +12602,6 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520470">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0470</oboInOwl:hasDbXref>
@@ -13386,12 +12854,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520509 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520509">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0509</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
-        <rdfs:label xml:lang="en">continents, regions and countries</rdfs:label>
     </owl:Class>
     
 
@@ -13417,7 +12880,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">For more information, see FAO major fishing areas [http://www.fao.org/fishery/area/search].</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0511</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">fao statistical areas for fishery purposes</rdfs:label>
+        <rdfs:label xml:lang="en">FAO statistical areas for fishery purposes</rdfs:label>
     </owl:Class>
     
 
@@ -13430,7 +12893,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">Eight major inland fishing areas covering the inland waters of the continents [http://www.fao.org/fishery/cwp/handbook/H].</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0512</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">inland waters</rdfs:label>
+        <rdfs:label xml:lang="en">inland water fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13443,7 +12906,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">Nineteen major marine fishing areas covering the waters of the Atlantic, Indian, Pacific and Southern Oceans, with their adjacent seas [http://www.fao.org/fishery/cwp/handbook/H].</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0513</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">marine areas</rdfs:label>
+        <rdfs:label xml:lang="en">marine water fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13455,7 +12918,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0514</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">southern ocean</rdfs:label>
+        <rdfs:label xml:lang="en">southern ocean fishing area</rdfs:label>
     </owl:Class>
     
 
@@ -13463,11 +12926,14 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03520518 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520518">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520365"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An intergovernmental economic organisation with 37 member countries, founded in 1961 to stimulate economic progress and world trade.</obo:IAO_0000115>
+        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/OECD"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0518</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">organization for economic cooperation and development (oecd)</rdfs:label>
+        <rdfs:label xml:lang="en">Organization for Economic Co-operation and Development (OECD)</rdfs:label>
     </owl:Class>
     
 
@@ -14425,7 +13891,7 @@ US FDA 1995 Code:  FRWA</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_03530096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530102"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0096</oboInOwl:hasDbXref>
@@ -16832,10 +16298,22 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000013"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00000457 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000457">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000013"/>
         <obo:IAO_0000118 xml:lang="en">africa</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0339</oboInOwl:hasDbXref>
@@ -16847,7 +16325,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00000458 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000013"/>
         <obo:IAO_0000118 xml:lang="en">north america</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0362</oboInOwl:hasDbXref>
@@ -16859,7 +16337,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00000459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000459">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000013"/>
         <obo:IAO_0000118 xml:lang="en">south america</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0364</oboInOwl:hasDbXref>
@@ -16868,10 +16346,16 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000460"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00000462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000462">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000013"/>
         <obo:IAO_0000118 xml:lang="en">antarctica</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0110</oboInOwl:hasDbXref>
@@ -16883,7 +16367,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000463">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">australia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0117</oboInOwl:hasDbXref>
@@ -16895,7 +16379,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00000464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000464">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000460"/>
         <obo:IAO_0000118 xml:lang="en">europe</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0355</oboInOwl:hasDbXref>
@@ -16907,7 +16391,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000013"/>
         <obo:IAO_0000118 xml:lang="en">asia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0345</oboInOwl:hasDbXref>
@@ -16916,11 +16400,17 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000468"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">new zealand</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0321</oboInOwl:hasDbXref>
@@ -17018,7 +16508,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">sudan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0375</oboInOwl:hasDbXref>
@@ -17053,7 +16543,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000564">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">western sahara</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0211</oboInOwl:hasDbXref>
@@ -17088,7 +16578,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000567">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">ethiopia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0213</oboInOwl:hasDbXref>
@@ -17101,7 +16591,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000582">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">djibouti</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0203</oboInOwl:hasDbXref>
@@ -17116,7 +16606,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000583">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">mauritania</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0300</oboInOwl:hasDbXref>
@@ -17129,7 +16619,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">mali</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0294</oboInOwl:hasDbXref>
@@ -17142,7 +16632,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000585">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">niger</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0311</oboInOwl:hasDbXref>
@@ -17180,7 +16670,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000843">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">iceland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0262</oboInOwl:hasDbXref>
@@ -17193,7 +16683,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000904">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">benin</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0160</oboInOwl:hasDbXref>
@@ -17207,7 +16697,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000905">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">burkina faso</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0156</oboInOwl:hasDbXref>
@@ -17221,7 +16711,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000906">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">cote d&apos;ivoire</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0190</oboInOwl:hasDbXref>
@@ -17235,7 +16725,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000907">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">gambia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0232</oboInOwl:hasDbXref>
@@ -17248,7 +16738,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000908">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">ghana</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0229</oboInOwl:hasDbXref>
@@ -17261,7 +16751,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000909">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">guinea</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0233</oboInOwl:hasDbXref>
@@ -17274,7 +16764,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000910">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">guinea-bissau</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0239</oboInOwl:hasDbXref>
@@ -17287,7 +16777,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">liberia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0283</oboInOwl:hasDbXref>
@@ -17300,7 +16790,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000912">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">nigeria</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0313</oboInOwl:hasDbXref>
@@ -17313,7 +16803,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">senegal</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0383</oboInOwl:hasDbXref>
@@ -17326,7 +16816,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000914">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">sierra leone</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0381</oboInOwl:hasDbXref>
@@ -17339,7 +16829,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000915">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000554"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">togo</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0395</oboInOwl:hasDbXref>
@@ -17363,7 +16853,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">rwanda</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0371</oboInOwl:hasDbXref>
@@ -17398,7 +16888,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">burundi</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0159</oboInOwl:hasDbXref>
@@ -17444,7 +16934,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">south africa</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0120</oboInOwl:hasDbXref>
@@ -17457,7 +16947,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">angola</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0109</oboInOwl:hasDbXref>
@@ -17470,7 +16960,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">namibia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0309</oboInOwl:hasDbXref>
@@ -17484,7 +16974,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">botswana</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0168</oboInOwl:hasDbXref>
@@ -17497,7 +16987,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">lesotho</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0284</oboInOwl:hasDbXref>
@@ -17510,7 +17000,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">swaziland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0391</oboInOwl:hasDbXref>
@@ -17523,7 +17013,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">mozambique</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0308</oboInOwl:hasDbXref>
@@ -17536,7 +17026,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">kenya</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0267</oboInOwl:hasDbXref>
@@ -17549,7 +17039,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">uganda</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0411</oboInOwl:hasDbXref>
@@ -17562,7 +17052,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">tanzania</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0409</oboInOwl:hasDbXref>
@@ -17575,7 +17065,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">somalia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0384</oboInOwl:hasDbXref>
@@ -17588,7 +17078,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">madagascar</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0292</oboInOwl:hasDbXref>
@@ -17602,7 +17092,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">zimbabwe</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0123</oboInOwl:hasDbXref>
@@ -17616,7 +17106,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">zambia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0121</oboInOwl:hasDbXref>
@@ -17629,7 +17119,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">cape verde</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0189</oboInOwl:hasDbXref>
@@ -17653,7 +17143,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bermuda</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0161</oboInOwl:hasDbXref>
@@ -17693,7 +17183,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00001507">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0521</oboInOwl:hasDbXref>
     </owl:Class>
@@ -17704,7 +17194,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002459">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000458"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">united states</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0413</oboInOwl:hasDbXref>
@@ -17767,7 +17257,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002473">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">jordan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0265</oboInOwl:hasDbXref>
@@ -17780,7 +17270,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002474">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">syria</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0390</oboInOwl:hasDbXref>
@@ -17794,7 +17284,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002476">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">israel</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0256</oboInOwl:hasDbXref>
@@ -17807,7 +17297,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002478">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">lebanon</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0279</oboInOwl:hasDbXref>
@@ -17820,7 +17310,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bolivia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0163</oboInOwl:hasDbXref>
@@ -17857,7 +17347,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002516">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">french guiana</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0227</oboInOwl:hasDbXref>
@@ -17918,7 +17408,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002522">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">guyana</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0240</oboInOwl:hasDbXref>
@@ -18039,7 +17529,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000458"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">canada</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0171</oboInOwl:hasDbXref>
@@ -18051,7 +17541,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002561">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <obo:IAO_0000118 xml:lang="en">newfoundland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0176</oboInOwl:hasDbXref>
@@ -18063,7 +17553,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">british columbia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0173</oboInOwl:hasDbXref>
@@ -18075,7 +17565,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">ontario</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0179</oboInOwl:hasDbXref>
@@ -18087,7 +17577,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002564">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">yukon territory</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0183</oboInOwl:hasDbXref>
@@ -18099,7 +17589,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002565">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">nova scotia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0178</oboInOwl:hasDbXref>
@@ -18111,7 +17601,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002566">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">alberta</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">quebec</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
@@ -18126,7 +17616,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002567">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">northwest territories</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0177</oboInOwl:hasDbXref>
@@ -18138,7 +17628,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002569 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002569">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">saskatchewan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0182</oboInOwl:hasDbXref>
@@ -18150,7 +17640,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">new brunswick</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0175</oboInOwl:hasDbXref>
@@ -18162,7 +17652,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">manitoba</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0174</oboInOwl:hasDbXref>
@@ -18174,7 +17664,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002572">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002561"/>
         <obo:IAO_0000118 xml:lang="en">prince edward island</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0180</oboInOwl:hasDbXref>
@@ -18259,7 +17749,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002635">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <obo:IAO_0000118 xml:lang="en">denmark</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0204</oboInOwl:hasDbXref>
@@ -18285,7 +17775,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002637"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">scotland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0224</oboInOwl:hasDbXref>
@@ -18298,7 +17788,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002640">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002637"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">wales</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0225</oboInOwl:hasDbXref>
@@ -18311,7 +17801,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002641">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002637"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">england</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0223</oboInOwl:hasDbXref>
@@ -18324,7 +17814,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002646">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520356"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">german federal republic</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0202</oboInOwl:hasDbXref>
@@ -18339,7 +17829,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002650">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520358"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">italy</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0263</oboInOwl:hasDbXref>
@@ -18352,7 +17842,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002699">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <obo:IAO_0000118 xml:lang="en">norway</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0316</oboInOwl:hasDbXref>
@@ -18365,7 +17855,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002719">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">croatia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0245</oboInOwl:hasDbXref>
@@ -18389,7 +17879,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002724">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">ukraine</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0410</oboInOwl:hasDbXref>
@@ -18402,7 +17892,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002729">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">sweden</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0376</oboInOwl:hasDbXref>
@@ -18415,7 +17905,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002733">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520352"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bahamas</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0165</oboInOwl:hasDbXref>
@@ -18428,7 +17918,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002747">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">japan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0266</oboInOwl:hasDbXref>
@@ -18441,7 +17931,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002801">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">korea, democratic people&apos;s republic of</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0273</oboInOwl:hasDbXref>
@@ -18457,7 +17947,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002802">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">korea, republic of</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0274</oboInOwl:hasDbXref>
@@ -18473,7 +17963,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002825">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">chile</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0192</oboInOwl:hasDbXref>
@@ -18486,7 +17976,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002828">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">brazil</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0164</oboInOwl:hasDbXref>
@@ -18510,7 +18000,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002845">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">china, peoples republic of</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0195</oboInOwl:hasDbXref>
@@ -18537,7 +18027,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002852">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000458"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">mexico</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0306</oboInOwl:hasDbXref>
@@ -18573,7 +18063,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00002891 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002891">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520509"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000458"/>
         <obo:IAO_0000118 xml:lang="en">central america</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0354</oboInOwl:hasDbXref>
@@ -18586,7 +18076,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002892">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">panama</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0323</oboInOwl:hasDbXref>
@@ -18599,7 +18089,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002894">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">honduras</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0244</oboInOwl:hasDbXref>
@@ -18612,7 +18102,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002901">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">costa rica</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0198</oboInOwl:hasDbXref>
@@ -18638,7 +18128,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002912">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">ecuador</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0208</oboInOwl:hasDbXref>
@@ -18663,7 +18153,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002928">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">argentina</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0112</oboInOwl:hasDbXref>
@@ -18676,7 +18166,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002929">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">colombia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0196</oboInOwl:hasDbXref>
@@ -18689,7 +18179,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002930">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">uruguay</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0472</oboInOwl:hasDbXref>
@@ -18702,7 +18192,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002931">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">venezuela</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0476</oboInOwl:hasDbXref>
@@ -18715,7 +18205,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002932">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">peru</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0325</oboInOwl:hasDbXref>
@@ -18728,7 +18218,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002933">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">paraguay</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0337</oboInOwl:hasDbXref>
@@ -18741,7 +18231,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002934">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">belize</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0170</oboInOwl:hasDbXref>
@@ -18754,7 +18244,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002935">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">el salvador</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0389</oboInOwl:hasDbXref>
@@ -18767,7 +18257,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002936">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">guatemala</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0237</oboInOwl:hasDbXref>
@@ -18780,7 +18270,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002937">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520360"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">finland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0214</oboInOwl:hasDbXref>
@@ -18793,7 +18283,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002938">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">belgium</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0155</oboInOwl:hasDbXref>
@@ -18806,7 +18296,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002939">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">poland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0331</oboInOwl:hasDbXref>
@@ -18819,7 +18309,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002941">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">switzerland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0188</oboInOwl:hasDbXref>
@@ -18832,7 +18322,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002942">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520356"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">austria</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0115</oboInOwl:hasDbXref>
@@ -18845,7 +18335,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002943">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">ireland</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0255</oboInOwl:hasDbXref>
@@ -18858,7 +18348,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002945">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520358"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">greece</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0236</oboInOwl:hasDbXref>
@@ -18871,7 +18361,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002946">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">netherlands</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0315</oboInOwl:hasDbXref>
@@ -18885,7 +18375,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002947">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">luxembourg</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0286</oboInOwl:hasDbXref>
@@ -18898,7 +18388,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002948">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">andorra</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0100</oboInOwl:hasDbXref>
@@ -18911,7 +18401,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002950">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bulgaria</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0157</oboInOwl:hasDbXref>
@@ -18924,7 +18414,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002951">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">romania</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0369</oboInOwl:hasDbXref>
@@ -18937,7 +18427,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002952">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">hungary</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0247</oboInOwl:hasDbXref>
@@ -18950,7 +18440,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002953">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">albania</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0105</oboInOwl:hasDbXref>
@@ -18963,7 +18453,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002954">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">czech republic</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0515</oboInOwl:hasDbXref>
@@ -18975,7 +18465,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002955">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">slovenia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0379</oboInOwl:hasDbXref>
@@ -18988,7 +18478,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002956">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">slovakia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0516</oboInOwl:hasDbXref>
@@ -19000,7 +18490,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002957">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">serbia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0517</oboInOwl:hasDbXref>
@@ -19012,7 +18502,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002958">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">latvia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0287</oboInOwl:hasDbXref>
@@ -19025,7 +18515,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002959">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">estonia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0209</oboInOwl:hasDbXref>
@@ -19038,7 +18528,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002960">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">lithuania</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0285</oboInOwl:hasDbXref>
@@ -19051,7 +18541,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00002978">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">nicaragua</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0314</oboInOwl:hasDbXref>
@@ -19060,10 +18550,16 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003092"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00003096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002459"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003092"/>
         <obo:IAO_0000118 xml:lang="en">western states</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0471</oboInOwl:hasDbXref>
@@ -19076,7 +18572,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520358"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">san marino</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0382</oboInOwl:hasDbXref>
@@ -19151,7 +18647,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">macau</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0297</oboInOwl:hasDbXref>
@@ -19164,7 +18660,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">hong kong</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0242</oboInOwl:hasDbXref>
@@ -19196,10 +18692,16 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003730"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00003731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003731">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003727"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003730"/>
         <obo:IAO_0000118 xml:lang="en">bali</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0249</oboInOwl:hasDbXref>
@@ -19279,7 +18781,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003857">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520358"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">monaco</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0290</oboInOwl:hasDbXref>
@@ -19292,7 +18794,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003858">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520359"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">liechtenstein</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0281</oboInOwl:hasDbXref>
@@ -19305,7 +18807,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003897">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">moldova</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0291</oboInOwl:hasDbXref>
@@ -19341,7 +18843,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003920">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002463"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bhutan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0166</oboInOwl:hasDbXref>
@@ -19354,7 +18856,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003922">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">papua new guinea</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0328</oboInOwl:hasDbXref>
@@ -19379,7 +18881,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003924">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000459"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">suriname</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0385</oboInOwl:hasDbXref>
@@ -19403,7 +18905,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00003936">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520358"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">spain</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0212</oboInOwl:hasDbXref>
@@ -19629,7 +19131,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">armenia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0106</oboInOwl:hasDbXref>
@@ -19642,7 +19144,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520358"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">portugal</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0335</oboInOwl:hasDbXref>
@@ -19655,7 +19157,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002463"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">nepal</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0317</oboInOwl:hasDbXref>
@@ -19884,7 +19386,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004474">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">iran</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0261</oboInOwl:hasDbXref>
@@ -19897,7 +19399,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004483">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">iraq</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0260</oboInOwl:hasDbXref>
@@ -19910,7 +19412,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004525">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">philippines</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0329</oboInOwl:hasDbXref>
@@ -19935,7 +19437,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004941">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">azerbaijan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0119</oboInOwl:hasDbXref>
@@ -19948,7 +19450,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004942">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">georgia (country)</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0228</oboInOwl:hasDbXref>
@@ -19961,7 +19463,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004979">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">uzbekistan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0473</oboInOwl:hasDbXref>
@@ -19974,7 +19476,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00004999">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">kazakhstan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0277</oboInOwl:hasDbXref>
@@ -19987,7 +19489,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">turkmenistan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0399</oboInOwl:hasDbXref>
@@ -20024,7 +19526,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">pakistan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0330</oboInOwl:hasDbXref>
@@ -20037,7 +19539,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">solomon islands</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0373</oboInOwl:hasDbXref>
@@ -20050,7 +19552,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">saudi arabia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0372</oboInOwl:hasDbXref>
@@ -20063,7 +19565,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bahrain</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0158</oboInOwl:hasDbXref>
@@ -20076,7 +19578,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">united arab emirates</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0101</oboInOwl:hasDbXref>
@@ -20089,7 +19591,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">oman</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0322</oboInOwl:hasDbXref>
@@ -20102,7 +19604,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">yemen arab republic</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0483</oboInOwl:hasDbXref>
@@ -20117,7 +19619,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">kuwait</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0275</oboInOwl:hasDbXref>
@@ -20130,7 +19632,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">qatar</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0338</oboInOwl:hasDbXref>
@@ -20155,7 +19657,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002846"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">china, republic of</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0408</oboInOwl:hasDbXref>
@@ -20183,7 +19685,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005820">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000556"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">comoros islands</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0271</oboInOwl:hasDbXref>
@@ -20207,7 +19709,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00005862 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005862">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000468"/>
         <obo:IAO_0000118 xml:lang="en">micronesia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0217</oboInOwl:hasDbXref>
@@ -20231,7 +19733,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00005915 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00005915">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000463"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520361"/>
         <obo:IAO_0000118 xml:lang="en">christmas island</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0197</oboInOwl:hasDbXref>
@@ -20280,7 +19782,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006882">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">afghanistan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0102</oboInOwl:hasDbXref>
@@ -20305,7 +19807,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006886">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">belarus</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0169</oboInOwl:hasDbXref>
@@ -20319,7 +19821,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006887">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">bosnia and herzegovina</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0152</oboInOwl:hasDbXref>
@@ -20367,7 +19869,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006891">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">fiji</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0215</oboInOwl:hasDbXref>
@@ -20380,7 +19882,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006893">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">kyrgyzstan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0268</oboInOwl:hasDbXref>
@@ -20394,7 +19896,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006894">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">kiribati</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0270</oboInOwl:hasDbXref>
@@ -20408,7 +19910,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006895">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">macedonia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0519</oboInOwl:hasDbXref>
@@ -20433,7 +19935,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006900">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">nauru</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0318</oboInOwl:hasDbXref>
@@ -20446,7 +19948,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006902">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">niue</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0320</oboInOwl:hasDbXref>
@@ -20459,7 +19961,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006905">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">palau</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0336</oboInOwl:hasDbXref>
@@ -20495,7 +19997,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006910">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">western samoa</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0482</oboInOwl:hasDbXref>
@@ -20509,7 +20011,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006912">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520350"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">tadjikistan</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0397</oboInOwl:hasDbXref>
@@ -20534,7 +20036,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006916">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">tonga</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0401</oboInOwl:hasDbXref>
@@ -20547,7 +20049,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006918">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">vanuatu</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0480</oboInOwl:hasDbXref>
@@ -20561,7 +20063,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00006922">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520361"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">seychelles</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0374</oboInOwl:hasDbXref>
@@ -20658,7 +20160,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00008744">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002463"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">mongolia</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0296</oboInOwl:hasDbXref>
@@ -20681,8 +20183,8 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00009571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00009571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00002464"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
         <obo:IAO_0000118 xml:lang="en">gaza strip</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0241</oboInOwl:hasDbXref>
@@ -20695,7 +20197,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00009715">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">tuvalu</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0407</oboInOwl:hasDbXref>
@@ -20722,7 +20224,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00011337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520357"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">kosovo</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0520</oboInOwl:hasDbXref>
@@ -20747,7 +20249,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00024383 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00024383">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003727"/>
         <obo:IAO_0000118 xml:lang="en">java</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0250</oboInOwl:hasDbXref>
@@ -20759,7 +20260,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00024432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00024432">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003727"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003730"/>
         <obo:IAO_0000118 xml:lang="en">sumatra</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0254</oboInOwl:hasDbXref>
@@ -20771,7 +20272,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00024553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00024553">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003727"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003730"/>
         <obo:IAO_0000118 xml:lang="en">sulawesi</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0253</oboInOwl:hasDbXref>
@@ -20783,7 +20284,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_00025355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00025355">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003727"/>
         <obo:IAO_0000118 xml:lang="en">borneo</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0252</oboInOwl:hasDbXref>
@@ -20820,7 +20320,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00056925">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000553"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">malawi</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0305</oboInOwl:hasDbXref>
@@ -20869,7 +20369,7 @@ For more on organic farming, see the European Commissions site on Organic Farmin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00233439">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000588"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hancestro_0003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <obo:IAO_0000118 xml:lang="en">st. helena</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0378</oboInOwl:hasDbXref>
@@ -20929,7 +20429,6 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     <!-- http://purl.obolibrary.org/obo/GAZ_02000610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_02000610">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00003727"/>
         <obo:IAO_0000118 xml:lang="en">irian jaya</obo:IAO_0000118>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0251</oboInOwl:hasDbXref>
@@ -31030,9 +30529,21 @@ For more on organic farming, see the European Commissions site on Organic Farmin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C944"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
     
 
 

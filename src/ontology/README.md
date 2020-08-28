@@ -30,3 +30,9 @@ deleted since it fetches NCBITaxon related information using the EOL.org API (in
 As Protege's sparql query engine has some odd startup phase that often stalls protege on large ontologies, one may need to launch sparql queries via command line directly. Here is an example using http://robot.obolibrary.org/query.html
 
 robot query --input foodon-merged.owl --query owl_get_labels.sparql test.tsv --format TSV
+
+##To run ontofetch.py on local foodon-merged.owl and get a json or tsv output of all foodon terms and their ids, synonyms and parents:
+
+python ../../../ontofetch/ontofetch.py foodon-merged.owl -r http://purl.obolibrary.org/obo/BFO_0000001 -o test/
+
+Ontofetch is available at: https://github.com/Public-Health-Bioinformatics/ontofetch .  It requires python 3, and the python rdflib module.

@@ -360,6 +360,23 @@ http://purl.obolibrary.org/obo/CHEBI_46662 # mineral
 # Manganese, Mn
 # http://purl.obolibrary.org/obo/CHEBI_35115 # elemental manganese
 
+# Container metals
+http://purl.obolibrary.org/obo/CHEBI_27007 # Tin atom
+http://purl.obolibrary.org/obo/CHEBI_28984 # Aluminum atom
+http://purl.obolibrary.org/obo/CHEBI_53251 # teflon
+http://purl.obolibrary.org/obo/CHEBI_53243 # polyvinyl chloride
+http://purl.obolibrary.org/obo/CHEBI_145232 # cellulose acetate
+http://purl.obolibrary.org/obo/CHEBI_26178 # polyester
+http://purl.obolibrary.org/obo/CHEBI_82130 # saran / Vinylidene chloride-vinyl chloride copolymer
+http://purl.obolibrary.org/obo/CHEBI_53249 # vinylidine
+http://purl.obolibrary.org/obo/CHEBI_82519 # nylon-6
+http://purl.obolibrary.org/obo/CHEBI_53276 # polystyrene
+http://purl.obolibrary.org/obo/CHEBI_53550 # polypropylene
+http://purl.obolibrary.org/obo/CHEBI_53227 # polyethylene
+
+
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_50906 # role 
 
@@ -374,4 +391,6 @@ http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
 http://purl.obolibrary.org/obo/OBI_0001886
 
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 [Source annotation URIs to be excluded]
