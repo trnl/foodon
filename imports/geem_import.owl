@@ -388,23 +388,6 @@
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001927"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500010"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001927"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03510032"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -524,12 +507,6 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03490100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03490100"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03500010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03500010"/>
     
 
 
