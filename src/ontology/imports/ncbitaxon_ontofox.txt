@@ -2690,10 +2690,24 @@ http://purl.obolibrary.org/obo/NCBITaxon_9995 # species:Marmota monax (Linnaeus,
 http://purl.obolibrary.org/obo/NCBITaxon_999584 # species:Mammea africana Sabine
 http://purl.obolibrary.org/obo/NCBITaxon_9996 # genus:Spermophilus F. Cuvier, 1825
 
+# Bacteria
+
+http://purl.obolibrary.org/obo/NCBITaxon_186802 # Clostridiales
+http://purl.obolibrary.org/obo/NCBITaxon_2085 # mycoplasmatales
+http://purl.obolibrary.org/obo/NCBITaxon_768507  # Cytophagales
+http://purl.obolibrary.org/obo/NCBITaxon_766 # Rickettsiales
+http://purl.obolibrary.org/obo/NCBITaxon_72274 # Pseudomonadales
+http://purl.obolibrary.org/obo/NCBITaxon_136 # Spirochaetales
+http://purl.obolibrary.org/obo/NCBITaxon_2037 # Actinomycetales
+http://purl.obolibrary.org/obo/NCBITaxon_85004 # Bifidobacteriales
+http://purl.obolibrary.org/obo/NCBITaxon_544448 # Tenericutes
+
+http://purl.obolibrary.org/obo/NCBITaxon_976 # Bacteroidetes 
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCBITaxon_2
+http://purl.obolibrary.org/obo/NCBITaxon_2 # Bacteria
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
+
 http://purl.obolibrary.org/obo/NCBITaxon_2759
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
 
