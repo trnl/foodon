@@ -7,22 +7,22 @@ RELEASEDIR=../..
 ROBOT= robot
 OWLTOOLS= owltools
 
-# THE "make" PROCESS VIA robot/owlapi PAYS ATTENTION TO THE catalog-v001.xml 
-# file residing in this directory.  If you are running into the problem of 
+# THE "make" PROCESS VIA robot/owlapi PAYS ATTENTION TO THE catalog-v001.xml
+# file residing in this directory.  If you are running into the problem of
 # local files not being found, e.g. with this error coming up:
 #
 #   org.semanticweb.owlapi.model.UnloadableImportException: Could not load \
 #   imported ontology: <http://purl.obolibrary.org/obo/FOODON/imports/efo_import.owl> \
 #   Cause: https://raw.githubusercontent.com/FoodOntology/foodon/master/src/imports/efo_import.owl
 
-# then the catalog catalog-v001.xml file likely needs to be edited, or delete it 
-# and load the root [ontology]-edit.owl file in Protege and ensure the 
+# then the catalog catalog-v001.xml file likely needs to be edited, or delete it
+# and load the root [ontology]-edit.owl file in Protege and ensure the
 # import file connections are established correctly.  This will rewrite the
 # catalog-v001.xml file, and the make process should succeed.
 
 # Temporarily foodon.owl and foodon_core.owl are the same.
 
-all: all_imports $(ONT).owl 
+all: all_imports $(ONT).owl
 
 .PHONY: test
 test: reason
@@ -32,7 +32,7 @@ test: reason
 reason: foodon-merged.owl
 	$(ROBOT) reason --input $< --reasoner ELK
 
-prepare_release: all 
+prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\
 	cp $(ONT).owl $(ONT)_core.owl &&\
 	cp $(ONT)_core.owl $(RELEASEDIR) &&\
@@ -56,7 +56,7 @@ $(ONT).owl: $(SRC)
 #	robot query --format TSV --input foodon-merged.owl -s owl_get_labels.sparql foodon-labels.tsv
 
 # ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
-# ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro 
+# ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro
 # ISSUE WITH BFO: Ontofox doesn't download disjointWith axioms????
 IMPORTS = agro chebi envo eupath gaz hancestro ncit ncbitaxon obi pato peco po ro uo uberon
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
@@ -92,5 +92,17 @@ imports/%_import.owl: imports/%_ontofox.txt
 
 .PRECIOUS: imports/%_import.owl
 
-release: $(ONT).owl 
+
+
+## Make Targets for Robot Templates: ##
+
+# Organismal Materials Robot template
+imports/robot/organismal_materials.owl: imports/robot/organismal_materials.tsv
+	$(ROBOT) template --template $< -i foodon-edit.owl --prefix "FOODON:http://purl.obolibrary.org/obo/FOODON_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "PO:http://purl.obolibrary.org/obo/PO_" --prefix "NCBITaxon:http://purl.obolibrary.org/obo/NCBITaxon_" --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" --prefix "schema:http://schema.org/"  --ontology-iri "http://purl.obolibrary.org/foodon/imports/organismal_materials.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+
+
+
+
+
+release: $(ONT).owl
 	cp $^ $RELEASEDIR && cp imports/*.owl $RELEASEDIR/imports
