@@ -98,7 +98,7 @@ imports/%_import.owl: imports/%_ontofox.txt
 
 # Organismal Materials Robot template
 imports/robot/organismal_materials.owl: imports/robot/organismal_materials.tsv
-	$(ROBOT) template --template $< -i foodon-edit.owl --prefix "FOODON:http://purl.obolibrary.org/obo/FOODON_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "PO:http://purl.obolibrary.org/obo/PO_" --prefix "NCBITaxon:http://purl.obolibrary.org/obo/NCBITaxon_" --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" --prefix "schema:http://schema.org/"  --ontology-iri "http://purl.obolibrary.org/foodon/imports/organismal_materials.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+	$(ROBOT) template --template $< -i foodon-edit.owl --prefix "FOODON:http://purl.obolibrary.org/obo/FOODON_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "PO:http://purl.obolibrary.org/obo/PO_" --prefix "NCBITaxon:http://purl.obolibrary.org/obo/NCBITaxon_" --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" --prefix "schema:http://schema.org/"  --ontology-iri "http://purl.obolibrary.org/foodon/imports/robot_organismal_materials.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
 
 
 
