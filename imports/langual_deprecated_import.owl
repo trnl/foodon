@@ -855,7 +855,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304298">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03420157</obo:IAO_0100001>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">obsolete: white sugar (granulated)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1467,15 +1466,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310241">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302317"/>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F10241</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;semisolid with smooth consistency&apos; (http://purl.obolibrary.org/obo/FOODON_03430119)
-* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)
-* derives from &apos;seed, skin removed, germ removed (endosperm)&apos; (http://purl.obolibrary.org/obo/FOODON_03420208)
-* has substance added  &apos;sucrose added&apos; (http://purl.obolibrary.org/obo/FOODON_03460158)
-* has substance added  &apos;fat or oil added&apos; (http://purl.obolibrary.org/obo/FOODON_03460221)
-        </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: wheat bread dough</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1510,12 +1500,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310419">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F10419</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;whole, natural shape&apos; (http://purl.obolibrary.org/obo/FOODON_03430150)
-* derives from &apos;whole plant or most parts used&apos; (http://purl.obolibrary.org/obo/FOODON_03420150)
-        </rdfs:comment>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001184"/>
         <rdfs:label xml:lang="en">obsolete: algae (food product)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1634,13 +1619,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310770">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00001579</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F10770</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;liquid&apos; (http://purl.obolibrary.org/obo/FOODON_03430130)
-* formed as a result of &apos;alcohol fermentation process&apos; (http://purl.obolibrary.org/obo/FOODON_03460232)
-* has substance added  &apos;alcohol&apos; (http://purl.obolibrary.org/obo/CHEBI_30879)
-                </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: alcoholic beverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1700,16 +1678,8 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03310889 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03310889">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/FOODON_03311884</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F10889</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;whole, shape achieved by forming&apos; (http://purl.obolibrary.org/obo/FOODON_03430147)
-* derives from &apos;whole animal or most parts used&apos; (http://purl.obolibrary.org/obo/FOODON_03420173)
-* formed as a result of &apos;water removal process&apos; (http://purl.obolibrary.org/obo/FOODON_03460138)
-        </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: yeast pressed</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -2695,16 +2665,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315941">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03317551</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F15941</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;liquid, low viscosity, with no visible particles&apos; (http://purl.obolibrary.org/obo/FOODON_03430123)
-* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)
-* derives from &apos;fruit, peel present, core, pit or seed present&apos; (http://purl.obolibrary.org/obo/FOODON_03420140)
-* formed as a result of &apos;alcohol fermentation process&apos; (http://purl.obolibrary.org/obo/FOODON_03460232)
-* formed as a result of &apos;preservation by fermentation&apos; (http://purl.obolibrary.org/obo/FOODON_03470104)
-* has substance added  &apos;flavoring or taste ingredient added&apos; (http://purl.obolibrary.org/obo/FOODON_03460117)
-        </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: wine (aromatized)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3239,15 +3199,8 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03316990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03316990">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002346</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F16990</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;solid&apos; (http://purl.obolibrary.org/obo/FOODON_03430151)
-* derives from &apos;skeletal meat part&apos; (http://purl.obolibrary.org/obo/FOODON_03420175)
-        </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: whale meat product</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3442,14 +3395,6 @@
         <obo:IAO_0000231 xml:lang="en">Unable to locate product to match this term to</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>SUBSET_SIREN:F17457</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;semisolid&apos; (http://purl.obolibrary.org/obo/FOODON_03430144)
-* has quality &apos;partially heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440018)
-* derives from &apos;milk (mammary secretion)&apos; (http://purl.obolibrary.org/obo/UBERON_0001913)
-* formed as a result of &apos;lactic acid fermentation process&apos; (http://purl.obolibrary.org/obo/FOODON_03460101)
-* formed as a result of &apos;pasteurization by heating&apos; (http://purl.obolibrary.org/obo/FOODON_03470135)
-        </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: zurra</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3670,7 +3615,6 @@
         <obo:IAO_0000115 xml:lang="en">Includes any products that can be described/observed as a specific confectionery item that is covered in chocolate, such as toffee, marshmallow, liquorice and fudge. Excludes products such as pure Chocolate products with a sweet filling such as liqueur or fondant, pure Sugar Candy Products with no chocolate coating.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A0979</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000046 - chocolate/sugar candy combination - confectionery (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3683,7 +3627,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A0998</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000209 - fruit/nuts/seeds mixes - unprepared/unprocessed (shelf stable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3696,7 +3639,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1017</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000013 - meat/poultry/game/batrachian - prepared/processed (frozen) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3709,7 +3651,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1018</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000012 - meat/poultry/game/batrachian - prepared/processed (perishable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3722,7 +3663,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1019</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000014 - meat/poultry/game/batrachian - prepared/processed (shelf stable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3735,7 +3675,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1021</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000010 - meat/poultry/game/batrachian - unprepared/unprocessed (frozen) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3748,7 +3687,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1022</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000009 - meat/poultry/game/batrachian - unprepared/unprocessed (perishable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3761,7 +3699,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1023</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000011 - meat/poultry/game/batrachian - unprepared/unprocessed (shelf stable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3774,7 +3711,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1024</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 50112100 - meat/poultry/game/batrachian variety packs (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3787,7 +3723,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1039</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000582 - eggs/eggs substitutes (frozen) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3800,7 +3735,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1040</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000031 - eggs/eggs substitutes (perishable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3813,7 +3747,6 @@
         <obo:IAO_0000115 xml:lang="en">Term not in GS1 2017: deprecated.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=A1041</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: 10000032 - eggs/eggs substitutes (shelf stable) (gs1 gpc)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3931,7 +3864,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03411215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411215">
-        <obo:IAO_0000231 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:IAO_0000231>
+        <obo:IAO_0000231 xml:lang="en">Disjunction discouraged, use specific item instead.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B1215</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: algae, bacteria or fungus</rdfs:label>
@@ -4264,10 +4197,8 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03412387 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412387">
-        <obo:IAO_0000115 xml:lang="en">Synonym of *PIKE PERCH [B1399]*</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B2387</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: This term is only kept for backward compatibility. DO NOT USE for new indexing.</rdfs:comment>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411399"/>
         <rdfs:label xml:lang="en">obsolete: zander</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4406,11 +4337,9 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03413468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413468">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000231 xml:lang="en">Disjunction discouraged, use specific item instead.</obo:IAO_0000231>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3468</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">amphibian or reptile</rdfs:label>
         <rdfs:label xml:lang="en">obsolete: amphibian or reptile as food source</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4549,10 +4478,8 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03420274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420274">
-        <obo:IAO_0000115 xml:lang="en">A whole egg is an egg including the shell, albumen and egg yolk</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/UBERON_0007379</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0274</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: whole egg</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4679,10 +4606,8 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03420309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420309">
-        <obo:IAO_0000115 xml:lang="en">The hard, fibrous substance beneath the bark in the stems and branches of trees and shrubs; xylem (Source: Webster&apos;s)</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/ENVO_00002040</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0309</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: wood</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -5006,10 +4931,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <!-- http://purl.obolibrary.org/obo/FOODON_03460222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460222">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301595</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0222</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: wheat germ added</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -5390,7 +5313,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530001">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=Z0001</oboInOwl:hasDbXref>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530005"/>
         <rdfs:label xml:lang="en">obsolete: adjunct characteristics of food not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
