@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/foodon/imports/fao_import.owl
+
+[Source ontology]
+FAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FAO_0000001
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FAO_0000001 # fungal structure
+http://purl.obolibrary.org/obo/FOODON_03420116 # part of organism
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
