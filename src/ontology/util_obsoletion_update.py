@@ -26,10 +26,10 @@ input_file_path = sys.argv[2];
 output_file_path = sys.argv[2] + '.bak.owl';
 
 if not path.exists(deprecated_file_path):
-	sys.exit('Unable to locate deprecated ontology term file!', deprecated_file_path);
+	sys.exit('Unable to locate deprecated ontology term file: ' + deprecated_file_path);
 
 if not path.exists(input_file_path):
-	sys.exit('Unable to locate ontology update file: ', input_file_path);
+	sys.exit('Unable to locate ontology update file: ' + input_file_path);
 
 
 # Had to dig for this code to re-establish namespace from given XML file:
@@ -59,17 +59,18 @@ ns = {
 }
 
 rdf_resource_lookup = {};
-#rdf_resources = root.findall('.//*[@rdf:resource]', namespace);
-# Look in target ontology for resource iri to replace
+# Create index on all rdf:resource tags
 for tag in root.findall('.//*[@rdf:resource]', namespace): # ="'+about+'" # [@{rdf}resource]'.format(**ns), namespace
 
-	try:
+	# Somehow some tags are matching above, but tag.attrib doesn't work, esp.
+	# with "someValuesFrom" tags?
+	try: 
 		target = tag.attrib['{rdf}resource'.format(**ns)];
 		if target in rdf_resource_lookup:
 			rdf_resource_lookup[target].push(tag)
 		else:
 			rdf_resource_lookup[target] = [tag];
-		print ("adding", tag)
+		#print ("adding", target)
 	except:
 		continue;
 
@@ -93,24 +94,19 @@ for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
 			else:	
 				replaced_iri = owl_replacements[0].attrib['{rdf}resource'.format(**ns)]
 
-			#if (about == "http://purl.obolibrary.org/obo/FOODON_03412420"):
-			#	print ("working on deprecation ", about, "to", replaced_iri);
-			#else:
-			#	continue;
-
 			if (about in rdf_resource_lookup):
 				rdf_resources = rdf_resource_lookup[about]
 				# Look in target ontology for resource iri to replace
 				for tag in rdf_resources:
 					# Replace existing rdf:resource tag:
 					tag.attrib.pop('{rdf}resource'.format(**ns), None)
-					tag.set('rdf:resource', replaced_iri); # [@rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"]
+					tag.set('rdf:resource', replaced_iri);
 					print ('Updated', about, 'to', replaced_iri)
 					count += 1;
 
 print ('Updated', count , 'rdf:resource references.');
 
-if (count> 0):
+if (count > 0):
 	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml")
 
 
