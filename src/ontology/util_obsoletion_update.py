@@ -19,23 +19,24 @@ import sys
 from os import path
 
 if len(sys.argv) < 2:
-	sys.exit('util_obsoletion_update.py [deprecated term .owl file path] [path of ontology to update rdf:resource links in]')
+	sys.exit('Help Info:\n util_obsoletion_update.py [deprecated term .owl file path] [path of ontology to update rdf:resource links in]')
 
-deprecated_file_path = sys.argv[0];
-output_file_path = 'test+' + sys.argv[1];
+deprecated_file_path = sys.argv[1];
+input_file_path = sys.argv[2];
+output_file_path = sys.argv[2] + '.bak.owl';
 
 if not path.exists(deprecated_file_path):
-	sys.exit('Unable to locate deprecated ontology term file!');
+	sys.exit('Unable to locate deprecated ontology term file!', deprecated_file_path);
 
-if not path.exists(sys.argv[1]):
-	sys.exit('Unable to locate ontology update file!');
+if not path.exists(input_file_path):
+	sys.exit('Unable to locate ontology update file: ', input_file_path);
 
 
 # Had to dig for this code to re-establish namespace from given XML file:
 # Have to fetch existing file's dictionary of prefix:uri namespaces
 namespace = dict([
-    node for (_, node) in ET.iterparse(output_file_path, events=['start-ns'])
-])
+    node for (_, node) in ET.iterparse(input_file_path, events=['start-ns'])
+]);
 for prefix in namespace:
 	ET.register_namespace(prefix, namespace[prefix]);
 
@@ -43,8 +44,11 @@ for prefix in namespace:
 deprecations = ET.parse(deprecated_file_path);
 deprecation_root = deprecations.getroot();
 
-tree = ET.parse(output_file_path);
+tree = ET.parse(input_file_path);
 root = tree.getroot();
+
+print ("Using deprecated terms from:", deprecated_file_path)
+print ("Updating ontology:", input_file_path)
 
 # For working with ElementTree attributes, it seems we need to use this format of namespace:
 ns = {
@@ -54,70 +58,59 @@ ns = {
 	'obo':  '{http://purl.obolibrary.org/obo/}'
 }
 
+rdf_resource_lookup = {};
+#rdf_resources = root.findall('.//*[@rdf:resource]', namespace);
+# Look in target ontology for resource iri to replace
+for tag in root.findall('.//*[@rdf:resource]', namespace): # ="'+about+'" # [@{rdf}resource]'.format(**ns), namespace
+
+	try:
+		target = tag.attrib['{rdf}resource'.format(**ns)];
+		if target in rdf_resource_lookup:
+			rdf_resource_lookup[target].push(tag)
+		else:
+			rdf_resource_lookup[target] = [tag];
+		print ("adding", tag)
+	except:
+		continue;
+
 count = 0;
 
-for owl_class in deprecation_root.find('owl:Class', namespace):
-	about = owl_class.attrib['{rdf}about'.format(**ns)];
-	if (about and 'FOODON_' in about):
-		for owl_subclassof in owl_class.findall('rdfs:subClassOf', namespace):
+# Look in all deprecated .owl file classes
+for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
+	about = deprecated_cursor.attrib['{rdf}about'.format(**ns)];
 
-			for owl_restriction in owl_subclassof.findall('owl:Restriction', namespace):
+	# Find any that are mentioned to be deprecated (not bothering with boolean value).
+	for owl_deprecated in deprecated_cursor.findall('owl:deprecated', namespace):
+		# Term replaced by IRI
+		# Note that sometimes an "X or Y ..." disjunction term can have two or
+		# more replacement axioms. Not sure whats best for that case.
 
-				owl_property = owl_restriction.findall('owl:onProperty[@rdf:resource = "http://purl.obolibrary.org/obo/RO_0002162"]', namespace)
+		owl_replacements = deprecated_cursor.findall('obo:IAO_0100001', namespace);
+		if owl_replacements:
+			# Some tags are 
+			if owl_replacements[0].text:
+				replaced_iri = owl_replacements[0].text;
+			else:	
+				replaced_iri = owl_replacements[0].attrib['{rdf}resource'.format(**ns)]
 
-				if owl_property:
-					owl_taxon = owl_restriction.findall('owl:someValuesFrom[@rdf:resource]', namespace);
+			#if (about == "http://purl.obolibrary.org/obo/FOODON_03412420"):
+			#	print ("working on deprecation ", about, "to", replaced_iri);
+			#else:
+			#	continue;
 
-					if owl_taxon:
-						owl_taxon_uri = owl_taxon[0].attrib['{rdf}resource'.format(**ns)];
-						#print ('doing', owl_taxon_uri);
+			if (about in rdf_resource_lookup):
+				rdf_resources = rdf_resource_lookup[about]
+				# Look in target ontology for resource iri to replace
+				for tag in rdf_resources:
+					# Replace existing rdf:resource tag:
+					tag.attrib.pop('{rdf}resource'.format(**ns), None)
+					tag.set('rdf:resource', replaced_iri); # [@rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"]
+					print ('Updated', about, 'to', replaced_iri)
+					count += 1;
 
-						# HERE WE MAKE CHANGES
-						taxon_xref = owl_class.findall('oboInOwl:hasDbXref[@rdf:resource = "'+owl_taxon_uri+'"]', namespace)
-						if taxon_xref:
-							#print('dbxref', about, taxon_xref[0]);
-							owl_class.remove(taxon_xref[0]);
- 
-						label = owl_class.findall('rdfs:label[@xml:lang="en"]', namespace);
-						if label:
-							alt_term = owl_class.makeelement('obo:IAO_0000118', {'xml:lang': 'en'});
-							alt_term.text = label[0].text;
-							owl_class.append(alt_term);
-							owl_class.remove(label[0]);
+print ('Updated', count , 'rdf:resource references.');
 
-						# Remove existing rdf:about and add new one to class:
-						owl_class.attrib.pop('{rdf}about'.format(**ns), None)
-						owl_class.set('rdf:about', owl_taxon_uri);
-						owl_class.remove(owl_subclassof);
-
-						# Prepare the obsoleted FoodOn class
-						obs_element = root.makeelement('owl:Class', {'rdf:about': about});
-
-						deprecated = obs_element.makeelement('owl:deprecated', {'rdf:datatype': 'http://www.w3.org/2001/XMLSchema#boolean'});
-						deprecated.text = 'true';
-						obs_element.append(deprecated);
-
-						obs_label = obs_element.makeelement('rdfs:label', {'xml:lang':'en'});
-						obs_label.text = 'obsolete: ' + label[0].text;
-						obs_element.append(obs_label);
-
-						# "replaced by" (IAO:0100001) taxonomy term.
-						replaced = obs_element.makeelement('obo:IAO_0100001', {'rdf:resource':owl_taxon_uri});
-						obs_element.append(replaced);
-
-						root.append(obs_element);
-						count += 1;
-
-					else:
-						print ("Check ", about, "for multiple taxa");
-
-
-
-
-tree.write(output_file_path, 
-	xml_declaration=True, 
-	encoding='utf-8', 
-	method="xml"
-)
+if (count> 0):
+	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml")
 
 

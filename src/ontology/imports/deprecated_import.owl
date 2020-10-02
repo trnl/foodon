@@ -3871,7 +3871,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414416">
         <obo:IAO_0000115 xml:lang="en">Cellulose used as a food additive.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301343"/>
         <oboInOwl:hasDbXref>Codex::460</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Europe::460</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4416</oboInOwl:hasDbXref>
@@ -3993,7 +3993,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03420220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420220">
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301343"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: cellulose</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4433,12 +4433,11 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460188">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002661</obo:IAO_0100001>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002662</obo:IAO_0100001>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0188</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym xml:lang="en">batter-coated</oboInOwl:hasSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Always used regardless of the level at which the coating ingredients are reported.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: breaded or batter-coated</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002661</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_00002662</rdfs:seeAlso>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -4480,7 +4479,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460218">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301343"/>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0218</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when cellulose is the second to fifth ingredient in order of predominance or when cellulose content is known to be above 5%.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: cellulose added 2</rdfs:label>
@@ -4691,7 +4690,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460795">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/FOODON_03301343</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301343"/>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=H0795</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: cellulose added</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -5167,9 +5166,6 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: Northern America</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
-
-
 </rdf:RDF>
 
 

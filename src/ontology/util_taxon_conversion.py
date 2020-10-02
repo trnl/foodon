@@ -19,8 +19,14 @@
 # see https://stackabuse.com/reading-and-writing-xml-files-in-python/
 import xml.etree.ElementTree as ET
 
+# .owl file to store new deprecations in
+deprecated_file_path = 'imports/deprecated_import.owl';
+
+# .owl file to look for items to be converted from foodon to ncbitaxon.
 input_file_path = 'foodon-edit.owl'
-output_file_path = 'test' + input_file_path;
+output_file_path = 'test-' + input_file_path;
+
+
 
 # Had to dig for this code to re-establish namespace from given XML file:
 # Have to fetch existing file's dictionary of prefix:uri namespaces
@@ -33,6 +39,9 @@ for prefix in namespace:
 tree = ET.parse(input_file_path) 
 root = tree.getroot();
 
+deprecations = ET.parse(deprecated_file_path);
+deprecation_root = deprecations.getroot();
+
 # For working with ElementTree attributes, it seems we need to use this format of namespace:
 ns = {
 	'owl':  '{http://www.w3.org/2002/07/owl#}',
@@ -40,6 +49,34 @@ ns = {
 	'rdf':  '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}',
 	'obo':  '{http://purl.obolibrary.org/obo/}'
 }
+
+#
+# IN deprecation_root owl file, add an XML/RDF owl:Class about about_uri, with
+# replaced_by link to owl_taxon_uri.
+#
+def deprecate_term(deprecation_root, about_uri, owl_taxon_uri):
+
+	# One extra check could be done to ensure duplicate deprecation not added.
+	obs_element = deprecation_root.makeelement('owl:Class', {'rdf:about': about_uri});
+
+	deprecated = obs_element.makeelement('owl:deprecated', {'rdf:datatype': 'http://www.w3.org/2001/XMLSchema#boolean'});
+	deprecated.text = 'true';
+	obs_element.append(deprecated);
+
+	obs_label = obs_element.makeelement('rdfs:label', {'xml:lang':'en'});
+	obs_label.text = 'obsolete: ' + label[0].text;
+	obs_element.append(obs_label);
+
+	# "replaced by" (IAO:0100001) taxonomy term.
+	replaced = obs_element.makeelement('obo:IAO_0100001', {'rdf:resource':owl_taxon_uri});
+	obs_element.append(replaced);
+
+	deprecation_root.append(obs_element);
+
+
+# For all classes in main ontology file, see if they are FoodOn uri's and have
+# an "'in taxon' some [taxon]" axiom, and if so, convert class to be about 
+# [taxon], and deprecate the class'es existing uri in deprecated terms owl file
 
 count = 0;
 
@@ -78,30 +115,16 @@ for owl_class in root.findall('owl:Class', namespace):
 						owl_class.remove(owl_subclassof);
 
 						# Prepare the obsoleted FoodOn class
-						obs_element = root.makeelement('owl:Class', {'rdf:about': about});
-
-						deprecated = obs_element.makeelement('owl:deprecated', {'rdf:datatype': 'http://www.w3.org/2001/XMLSchema#boolean'});
-						deprecated.text = 'true';
-						obs_element.append(deprecated);
-
-						obs_label = obs_element.makeelement('rdfs:label', {'xml:lang':'en'});
-						obs_label.text = 'obsolete: ' + label[0].text;
-						obs_element.append(obs_label);
-
-						# "replaced by" (IAO:0100001) taxonomy term.
-						replaced = obs_element.makeelement('obo:IAO_0100001', {'rdf:resource':owl_taxon_uri});
-						obs_element.append(replaced);
-
-						root.append(obs_element);
+						deprecate_term(deprecation_root, about, owl_taxon_uri);
+						
 						count += 1;
 
 					else:
 						print ("Skipped ", about, "as it has multiple taxa expression");
 
-print ('processed', count , 'taxa conversions');
+print ('Processed', count , 'taxa conversions.');
 
-tree.write(output_file_path, 
-	xml_declaration=True, 
-	encoding='utf-8', 
-	method="xml"
-)
+if (count > 0):
+	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml");
+	deprecations.write(deprecated_file_path+'.bak.owl', xml_declaration=True, encoding='utf-8', method="xml");
+
