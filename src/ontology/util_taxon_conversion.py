@@ -19,14 +19,27 @@
 # see https://stackabuse.com/reading-and-writing-xml-files-in-python/
 import xml.etree.ElementTree as ET
 
+
 # .owl file to store new deprecations in
-deprecated_file_path = 'imports/deprecated_import.owl';
+deprecated_file_path = 'imports/deprecation_import.owl';
 
 # .owl file to look for items to be converted from foodon to ncbitaxon.
 input_file_path = 'foodon-edit.owl'
 output_file_path = 'test-' + input_file_path;
 
+# Preserve comments in XML files: 
+# https://stackoverflow.com/questions/33573807/faithfully-preserve-comments-in-parsed-xml
+#class CommentedTreeBuilder(ET.TreeBuilder):
+#    def comment(self, data):
+#        self.start(ET.Comment, {})
+#        self.data(data)
+#        self.end(ET.Comment)
+#
+#parser = ET.XMLParser(target=CommentedTreeBuilder())
 
+#Python 3.8
+#parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
+# problem is it errors out on owl rdf/xml
 
 # Had to dig for this code to re-establish namespace from given XML file:
 # Have to fetch existing file's dictionary of prefix:uri namespaces
@@ -36,10 +49,10 @@ namespace = dict([
 for prefix in namespace:
 	ET.register_namespace(prefix, namespace[prefix])
 
-tree = ET.parse(input_file_path) 
+tree = ET.parse(input_file_path); 
 root = tree.getroot();
 
-deprecations = ET.parse(deprecated_file_path);
+deprecations = ET.parse(deprecated_file_path); # replaced ET.parse()
 deprecation_root = deprecations.getroot();
 
 # For working with ElementTree attributes, it seems we need to use this format of namespace:
@@ -126,5 +139,5 @@ print ('Processed', count , 'taxa conversions.');
 
 if (count > 0):
 	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml");
-	deprecations.write(deprecated_file_path+'.bak.owl', xml_declaration=True, encoding='utf-8', method="xml");
+	deprecations.write(deprecated_file_path, xml_declaration=True, encoding='utf-8', method="xml");
 
