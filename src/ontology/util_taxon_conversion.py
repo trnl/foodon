@@ -25,7 +25,7 @@ deprecated_file_path = 'imports/deprecation_import.owl';
 
 # .owl file to look for items to be converted from foodon to ncbitaxon.
 input_file_path = 'foodon-edit.owl'
-output_file_path = 'test-' + input_file_path;
+output_file_path = input_file_path;
 
 # Preserve comments in XML files: 
 # https://stackoverflow.com/questions/33573807/faithfully-preserve-comments-in-parsed-xml
@@ -106,21 +106,29 @@ for owl_class in root.findall('owl:Class', namespace):
 					owl_taxon = owl_restriction.findall('owl:someValuesFrom[@rdf:resource]', namespace);
 
 					if owl_taxon:
+
+						# ONLY DO TAXON CONVERSION IF THIS CLASS HAS NO SUBCLASSES.
+						# PARENT CONVERSIONS MUST BE MANUALLY REVIEWED - TO OFTEN THEY HAVE
+						# THEMSELVES AS A CHILD.
 						owl_taxon_uri = owl_taxon[0].attrib['{rdf}resource'.format(**ns)];
 						#print ('doing', owl_taxon_uri);
+
+						label = owl_class.findall('rdfs:label[@xml:lang="en"]', namespace);
+						if label:
+							# not converting items that are animal /human as consumer
+							if label.find('consumer') != -1: 
+								continue;
+							alt_term = owl_class.makeelement('obo:IAO_0000118', {'xml:lang': 'en'});
+							alt_term.text = label[0].text;
+							owl_class.append(alt_term);
+							owl_class.remove(label[0]);
 
 						# HERE WE MAKE CHANGES
 						taxon_xref = owl_class.findall('oboInOwl:hasDbXref[@rdf:resource = "'+owl_taxon_uri+'"]', namespace)
 						if taxon_xref:
 							#print('dbxref', about, taxon_xref[0]);
 							owl_class.remove(taxon_xref[0]);
- 
-						label = owl_class.findall('rdfs:label[@xml:lang="en"]', namespace);
-						if label:
-							alt_term = owl_class.makeelement('obo:IAO_0000118', {'xml:lang': 'en'});
-							alt_term.text = label[0].text;
-							owl_class.append(alt_term);
-							owl_class.remove(label[0]);
+
 
 						# Remove existing rdf:about and add new one to class:
 						owl_class.attrib.pop('{rdf}about'.format(**ns), None)

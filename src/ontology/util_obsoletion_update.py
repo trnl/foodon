@@ -23,7 +23,7 @@ if len(sys.argv) < 2:
 
 deprecated_file_path = sys.argv[1];
 input_file_path = sys.argv[2];
-output_file_path = sys.argv[2] + '.bak.owl';
+output_file_path = sys.argv[2];
 
 if not path.exists(deprecated_file_path):
 	sys.exit('Unable to locate deprecated ontology term file: ' + deprecated_file_path);
