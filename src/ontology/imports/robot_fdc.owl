@@ -52,6 +52,12 @@
     
 
 
+    <!-- FOODON_00003391 -->
+
+    <owl:Class rdf:about="FOODON_00003391"/>
+    
+
+
     <!-- FOODON_03530050 -->
 
     <owl:Class rdf:about="FOODON_03530050"/>
@@ -397,20 +403,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00003391 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003391">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003388"/>
-        <IAO_0000115:en rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The rearing of domesticated animals for food.</IAO_0000115:en>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">       aquaculture production</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00003392 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003391"/>
+        <rdfs:subClassOf rdf:resource="FOODON_00003391"/>
         <obo:IAO_000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.seachoice.org/info-centre/aquaculture/aquaculture-methods/</obo:IAO_000119>
         <IAO_0000115:en rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquatic farmed food production located offshore, in coastal areas or in freshwater lakes, open-net pens, or “cages”, that allow for free exchange between the farm and the surrounding environment.</IAO_0000115:en>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">          aquaculture open-pen rearing</rdfs:label>
@@ -421,7 +417,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00003393 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003391"/>
+        <rdfs:subClassOf rdf:resource="FOODON_00003391"/>
         <IAO_0000115:en rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquatic farmed food production in which fish rearing pens are isolated from ocean or lake water.</IAO_0000115:en>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">          aquaculture closed containment pen rearing</rdfs:label>
     </owl:Class>
@@ -886,21 +882,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant experimental condition</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/AGRO_?
-    https://github.com/AgriculturalSemantics/agro/issues/66 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_?
-https://github.com/AgriculturalSemantics/agro/issues/66">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002071"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
-        <obo:IAO_000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/288329/11-546-future-of-food-and-farming-report.pdf</obo:IAO_000119>
-        <IAO_0000115:en rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A method of production using processes and systems that are non-polluting, conserve non-renewable energy and natural resources, are economically efficient, are safe for workers, communities and consumers, and do not compromise the needs of future generations.</IAO_0000115:en>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sustainable agriculture</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/288329/11-546-future-of-food-and-farming-report.pdf</rdfs:seeAlso>
     </owl:Class>
 </rdf:RDF>
 
