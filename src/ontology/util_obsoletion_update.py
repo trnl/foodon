@@ -60,7 +60,7 @@ ns = {
 
 rdf_resource_lookup = {};
 # Create index on all rdf:resource tags
-for tag in root.findall('.//*[@rdf:resource]', namespace): # ="'+about+'" # [@{rdf}resource]'.format(**ns), namespace
+for tag in root.findall('.//*[@rdf:resource]', namespace):
 
 	# Somehow some tags are matching above, but tag.attrib doesn't work, esp.
 	# with "someValuesFrom" tags?
@@ -88,7 +88,7 @@ for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
 
 		owl_replacements = deprecated_cursor.findall('obo:IAO_0100001', namespace);
 		if owl_replacements:
-			# Some tags are 
+			# Almost all deprecations have only one replacement
 			if owl_replacements[0].text:
 				replaced_iri = owl_replacements[0].text;
 			else:	
