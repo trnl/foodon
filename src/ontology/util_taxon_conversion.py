@@ -23,9 +23,15 @@
 # section but file content still contains this prefix, so searches for xml:...
 # error out.
 #  
+# NOTE: In case one needs to retrieve a good deprecation_import.owl file:
+# git show 8ab64c7:imports/deprecation_import.owl > imports/deprecation_import.owl
+# This one not infected with output of 'in taxon' script:
+# git show f0aed4b:src/ontology/imports/deprecated_import.owl > imports/deprecation_import.owl
+#
+
 # see https://stackabuse.com/reading-and-writing-xml-files-in-python/
 import xml.etree.ElementTree as ET
-
+import os
 
 # .owl file to store new deprecations in
 deprecated_file_path = 'imports/deprecation_import.owl';
@@ -125,6 +131,7 @@ for owl_class in root.findall('owl:Class', namespace):
 
 			for owl_restriction in owl_subclassof.findall('owl:Restriction', namespace):
 
+				# Find 'in taxon'
 				owl_property = owl_restriction.find('owl:onProperty[@rdf:resource = "http://purl.obolibrary.org/obo/RO_0002162"]', namespace)
 
 				if owl_property != None:
@@ -157,11 +164,13 @@ for owl_class in root.findall('owl:Class', namespace):
 						# Remove existing rdf:about and add new one to class:
 						owl_class.attrib.pop('{rdf}about'.format(**ns), None)
 						owl_class.set('rdf:about', owl_taxon_uri);
+
+						# Remove 'in taxon' some NCBITaxon axiom
 						owl_class.remove(owl_subclassof);
 
 						# Prepare the obsoleted FoodOn class
 						deprecate_term(deprecation_root, about, label, owl_taxon_uri);
-						
+
 						count += 1;
 
 					else:
@@ -189,6 +198,11 @@ for owl_class in root.findall('owl:Class', namespace):
 
 
 if (count > 0):
-	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml");
+	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml", );
+	cmd = f'robot reduce -i {output_file_path} -r ELK -o {output_file_path}' # Note no --xml-entities
+	os.system(cmd)
+
 	deprecations.write(deprecated_file_path, xml_declaration=True, encoding='utf-8', method="xml");
+	cmd = f'robot reduce -i {deprecated_file_path} -r ELK -o {deprecated_file_path}' # Note no --xml-entities
+	os.system(cmd)
 

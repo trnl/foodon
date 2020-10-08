@@ -4166,8 +4166,10 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03420308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420308">
+        <obo:IAO_0000115 xml:lang="en">A short, thickened, fleshy part of an underground stem, as a potato: new plants develop from the buds, or eyes, that grow in the axils of the minute scale leaves of a tuber (Source: Webster&apos;s)</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PO_0025522</obo:IAO_0100001>
+        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0308</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: tuber</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -5164,24 +5166,6 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: Northern America</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420165">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <rdfs:label xml:lang="en">obsolete: fruit or seed</rdfs:label>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=C0165</oboInOwl:hasDbXref>
-    </rdf:Description>
 </rdf:RDF>
 
 

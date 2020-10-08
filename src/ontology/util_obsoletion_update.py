@@ -11,12 +11,19 @@
 # Command line parameters:
 # argv[0]: path to deprecated terms .owl file.
 # argv[1]: path of ontology file to update rdf:resource links in.
+#
+# example: 
+# python util_obsoletion_update.py imports/deprecation_import.owl foodon-edit.owl
+# python util_obsoletion_update.py imports/deprecation_import.owl imports/foodon_product_import.owl
+#
+
 
 
 # For CRUD see https://stackabuse.com/reading-and-writing-xml-files-in-python/
 import xml.etree.ElementTree as ET
 import sys
 from os import path
+import os
 
 if len(sys.argv) < 2:
 	sys.exit('Help Info:\n util_obsoletion_update.py [deprecated term .owl file path] [path of ontology to update rdf:resource links in]')
@@ -60,6 +67,9 @@ ns = {
 
 rdf_resource_lookup = {};
 # Create index on all rdf:resource tags
+# Issue: search string is a bit odd because it looks for all children with // 
+# but adds * children because error generated if you don't mention a tag name.
+#
 for tag in root.findall('.//*[@rdf:resource]', namespace):
 
 	# Somehow some tags are matching above, but tag.attrib doesn't work, esp.
@@ -76,7 +86,7 @@ for tag in root.findall('.//*[@rdf:resource]', namespace):
 
 count = 0;
 
-# Look in all deprecated .owl file classes
+# Look in all deprecated .owl file classes that have a replacement iri,
 for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
 	about = deprecated_cursor.attrib['{rdf}about'.format(**ns)];
 
@@ -95,9 +105,8 @@ for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
 				replaced_iri = owl_replacements[0].attrib['{rdf}resource'.format(**ns)]
 
 			if (about in rdf_resource_lookup):
-				rdf_resources = rdf_resource_lookup[about]
 				# Look in target ontology for resource iri to replace
-				for tag in rdf_resources:
+				for tag in rdf_resource_lookup[about]:
 					# Replace existing rdf:resource tag:
 					tag.attrib.pop('{rdf}resource'.format(**ns), None)
 					tag.set('rdf:resource', replaced_iri);
@@ -107,6 +116,53 @@ for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
 print ('Updated', count , 'rdf:resource references.');
 
 if (count > 0):
-	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml")
+	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml");
+	# This reestablishes OWL-API comments etc. as though saved by protege, to cut down on git diff.
+	cmd = f'robot reduce -i {output_file_path} -r ELK -o {output_file_path}' # Note no --xml-entities
+	os.system(cmd)
+
+"""
 
 
+<owl:intersectionOf rdf:parseType="Collection">
+	<owl:Class>
+	    <owl:intersectionOf rdf:parseType="Collection">
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+	            <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+	        </owl:Restriction>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
+	            <owl:someValuesFrom>
+	                <owl:Class>
+	                    <owl:unionOf rdf:parseType="Collection">
+	                        <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411136"/>
+	                        <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+	                    </owl:unionOf>
+	                </owl:Class>
+	            </owl:someValuesFrom>
+	        </owl:Restriction>
+	    </owl:intersectionOf>
+	</owl:Class>
+
+
+	    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03312067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001605"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+
+
+
+"""
