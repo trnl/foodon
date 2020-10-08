@@ -15,6 +15,7 @@
 #
 # Classes that have 'in taxon' (x or y or z...) are left alone.
 #
+# NOTE: trick with result = elementTree.find(...) - it can't be tested with "if result:" 
 
 # see https://stackabuse.com/reading-and-writing-xml-files-in-python/
 import xml.etree.ElementTree as ET
@@ -67,7 +68,7 @@ ns = {
 # IN deprecation_root owl file, add an XML/RDF owl:Class about about_uri, with
 # replaced_by link to owl_taxon_uri.
 #
-def deprecate_term(deprecation_root, about_uri, owl_taxon_uri):
+def deprecate_term(deprecation_root, about_uri, label, owl_taxon_uri):
 
 	# One extra check could be done to ensure duplicate deprecation not added.
 	obs_element = deprecation_root.makeelement('owl:Class', {'rdf:about': about_uri});
@@ -77,7 +78,7 @@ def deprecate_term(deprecation_root, about_uri, owl_taxon_uri):
 	obs_element.append(deprecated);
 
 	obs_label = obs_element.makeelement('rdfs:label', {'xml:lang':'en'});
-	obs_label.text = 'obsolete: ' + label[0].text;
+	obs_label.text = 'obsolete: ' + label.text;
 	obs_element.append(obs_label);
 
 	# "replaced by" (IAO:0100001) taxonomy term.
@@ -94,8 +95,18 @@ def deprecate_term(deprecation_root, about_uri, owl_taxon_uri):
 count = 0;
 
 for owl_class in root.findall('owl:Class', namespace):
-	about = owl_class.attrib['{rdf}about'.format(**ns)];
+	about = owl_class.get('{rdf}about'.format(**ns)); # owl_class.attrib['{rdf}about'.format(**ns)];
+	print (about);
 	if (about and 'FOODON_' in about):
+
+		# ONLY DO TAXON CONVERSION IF THIS CLASS HAS NO SUBCLASSES.
+		# PARENT CONVERSIONS MUST BE MANUALLY REVIEWED - TOO OFTEN THEY HAVE
+		# THEMSELVES AS A CHILD if 'in taxon' Y is too general.
+		subclass_flag = root.find('rdfs:subClassOf[@rdf:resource="' + about + '"]', namespace);
+		if subclass_flag:
+			continue;
+
+		# Here we're only dealing with a leaf (no subclasses)
 		for owl_subclassof in owl_class.findall('rdfs:subClassOf', namespace):
 
 			for owl_restriction in owl_subclassof.findall('owl:Restriction', namespace):
@@ -107,27 +118,29 @@ for owl_class in root.findall('owl:Class', namespace):
 
 					if owl_taxon:
 
-						# ONLY DO TAXON CONVERSION IF THIS CLASS HAS NO SUBCLASSES.
-						# PARENT CONVERSIONS MUST BE MANUALLY REVIEWED - TO OFTEN THEY HAVE
-						# THEMSELVES AS A CHILD.
 						owl_taxon_uri = owl_taxon[0].attrib['{rdf}resource'.format(**ns)];
 						#print ('doing', owl_taxon_uri);
 
-						label = owl_class.findall('rdfs:label[@xml:lang="en"]', namespace);
-						if label:
-							# not converting items that are animal /human as consumer
-							if label.find('consumer') != -1: 
+						label = owl_class.find('rdfs:label[@xml:lang="en"]', namespace);
+						if len(label.text) > 0:
+							#if label.text == 'donkey':
+							# Not converting items that are animal /human as consumer
+							if label.text.find('consumer') != -1: 
+								print ("Skipping consumer ", label.text);
 								continue;
+
 							alt_term = owl_class.makeelement('obo:IAO_0000118', {'xml:lang': 'en'});
-							alt_term.text = label[0].text;
+							alt_term.text = label.text;
 							owl_class.append(alt_term);
-							owl_class.remove(label[0]);
+							owl_class.remove(label);
 
 						# HERE WE MAKE CHANGES
-						taxon_xref = owl_class.findall('oboInOwl:hasDbXref[@rdf:resource = "'+owl_taxon_uri+'"]', namespace)
+						# FoodOn plant and animal organism may have duplicate dbxref to taxon:
+						taxon_xref = owl_class.find('oboInOwl:hasDbXref[@rdf:resource = "'+owl_taxon_uri+'"]', namespace)
 						if taxon_xref:
+							print ('found dbxref')
 							#print('dbxref', about, taxon_xref[0]);
-							owl_class.remove(taxon_xref[0]);
+							owl_class.remove(taxon_xref);
 
 
 						# Remove existing rdf:about and add new one to class:
@@ -136,7 +149,7 @@ for owl_class in root.findall('owl:Class', namespace):
 						owl_class.remove(owl_subclassof);
 
 						# Prepare the obsoleted FoodOn class
-						deprecate_term(deprecation_root, about, owl_taxon_uri);
+						deprecate_term(deprecation_root, about, label, owl_taxon_uri);
 						
 						count += 1;
 
@@ -144,6 +157,25 @@ for owl_class in root.findall('owl:Class', namespace):
 						print ("Skipped ", about, "as it has multiple taxa expression");
 
 print ('Processed', count , 'taxa conversions.');
+
+# 2nd pass eliminates synonomy tags and IAO:0000118 alternate term tags that match rdfs:label
+for owl_class in root.findall('owl:Class', namespace):
+	label = owl_class.find('rdfs:label[@xml:lang="en"]', namespace);
+	if len(label.text) > 0:
+		# Housecleaning: get rid of synonyms that match label
+		# See https://docs.python.org/2/library/xml.etree.elementtree.html
+		synonym = owl_class.find('[oboInOwl:hasSynonym="{label.text}"]', namespace);
+		if synonym:
+			print ("found duplicate synonym", synonym.text)
+			owl_class.remove(synonym);
+		exact_synonym = owl_class.find('[oboInOwl:hasExactSynonym="{label.text}"]', namespace);
+		if exact_synonym:
+			print ("found duplicate exactsynonym", exact_synonym.text)
+			owl_class.remove(exact_synonym);
+		alternate_label = owl_class.find('[obo:IAO_0000118="{label.text}"]', namespace);
+		if alternate_label:
+			print ("found duplicate alternate term", alternate_label.text)
+			owl_class.remove(alternate_label);
 
 if (count > 0):
 	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml");
