@@ -65,60 +65,68 @@ ns = {
 	'obo':  '{http://purl.obolibrary.org/obo/}'
 }
 
-rdf_resource_lookup = {};
-# Create index on all rdf:resource tags
-# Issue: search string is a bit odd because it looks for all children with // 
-# but adds * children because error generated if you don't mention a tag name.
-#
-for tag in root.findall('.//*[@rdf:resource]', namespace):
+change = True;
+any_output = False;
+while change:
 
-	# Somehow some tags are matching above, but tag.attrib doesn't work, esp.
-	# with "someValuesFrom" tags?
-	try: 
-		target = tag.attrib['{rdf}resource'.format(**ns)];
-		if target in rdf_resource_lookup:
-			rdf_resource_lookup[target].push(tag)
-		else:
-			rdf_resource_lookup[target] = [tag];
-		#print ("adding", target)
-	except:
-		continue;
+	rdf_resource_lookup = {};
+	# Create index on all rdf:resource tags
+	# Issue: search string is a bit odd because it looks for all children with // 
+	# but adds * children because error generated if you don't mention a tag name.
+	#
+	for tag in root.findall('.//*[@rdf:resource]', namespace):
 
-count = 0;
+		# Somehow some tags are matching above, but tag.attrib doesn't work, esp.
+		# with "someValuesFrom" tags?
+		try: 
+			target = tag.attrib['{rdf}resource'.format(**ns)];
+			if target in rdf_resource_lookup:
+				rdf_resource_lookup[target].push(tag)
+			else:
+				rdf_resource_lookup[target] = [tag];
+			#print ("adding", target)
+		except:
+			continue;
 
-# Look in all deprecated .owl file classes that have a replacement iri,
-for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
-	about = deprecated_cursor.attrib['{rdf}about'.format(**ns)];
+	change = False;
+	count = 0;
 
-	# Find any that are mentioned to be deprecated (not bothering with boolean value).
-	for owl_deprecated in deprecated_cursor.findall('owl:deprecated', namespace):
-		# Term replaced by IRI
-		# Note that sometimes an "X or Y ..." disjunction term can have two or
-		# more replacement axioms. Not sure whats best for that case.
+	# Look in all deprecated .owl file classes that have a replacement iri,
+	for deprecated_cursor in deprecation_root.findall('owl:Class', namespace):
+		about = deprecated_cursor.attrib['{rdf}about'.format(**ns)];
 
-		owl_replacements = deprecated_cursor.findall('obo:IAO_0100001', namespace);
-		if owl_replacements:
-			# Almost all deprecations have only one replacement
-			if owl_replacements[0].text:
-				replaced_iri = owl_replacements[0].text;
-			else:	
-				replaced_iri = owl_replacements[0].attrib['{rdf}resource'.format(**ns)]
+		# Find any that are mentioned to be deprecated (not bothering with boolean value).
+		for owl_deprecated in deprecated_cursor.findall('owl:deprecated', namespace):
+			# Term replaced by IRI
+			# Note that sometimes an "X or Y ..." disjunction term can have two or
+			# more replacement axioms. Not sure whats best for that case.
 
-			if (about in rdf_resource_lookup):
-				# Look in target ontology for resource iri to replace
-				for tag in rdf_resource_lookup[about]:
-					# Replace existing rdf:resource tag:
-					tag.attrib.pop('{rdf}resource'.format(**ns), None)
-					tag.set('rdf:resource', replaced_iri);
-					print ('Updated', about, 'to', replaced_iri)
-					count += 1;
+			owl_replacements = deprecated_cursor.findall('obo:IAO_0100001', namespace);
+			if owl_replacements:
+				# Almost all deprecations have only one replacement
+				if owl_replacements[0].text:
+					replaced_iri = owl_replacements[0].text;
+				else:	
+					replaced_iri = owl_replacements[0].attrib['{rdf}resource'.format(**ns)]
 
-print ('Updated', count , 'rdf:resource references.');
+				if (about in rdf_resource_lookup):
+					# Look in target ontology for resource iri to replace
+					for tag in rdf_resource_lookup[about]:
+						# Replace existing rdf:resource tag:
+						tag.attrib.pop('{rdf}resource'.format(**ns), None)
+						tag.set('rdf:resource', replaced_iri);
+						#print ('Updated', about, 'to', replaced_iri);
+						change = True;
+						any_output = True;
+						count += 1;
 
-if (count > 0):
+	print ('Updated', count , 'rdf:resource references.');
+
+if (any_output):
 	tree.write(output_file_path, xml_declaration=True, encoding='utf-8', method="xml");
 	# This reestablishes OWL-API comments etc. as though saved by protege, to cut down on git diff.
-	cmd = f'robot reduce -i {output_file_path} -r ELK -o {output_file_path}' # Note no --xml-entities
+	cmd = f'robot reduce -i {output_file_path} -r ELK -o {output_file_path}'; # Note no --xml-entities
+	print (cmd)
 	os.system(cmd)
 
 """

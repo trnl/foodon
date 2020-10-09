@@ -24,10 +24,14 @@
 # error out.
 #  
 # NOTE: In case one needs to retrieve a good deprecation_import.owl file:
-# git show 8ab64c7:imports/deprecation_import.owl > imports/deprecation_import.owl
 # This one not infected with output of 'in taxon' script:
 # git show f0aed4b:src/ontology/imports/deprecated_import.owl > imports/deprecation_import.owl
 #
+#
+# Order of operations:
+# python util_taxon_conversion.py
+# python util_obsoletion_update.py imports/deprecation_import.owl foodon-edit.owl
+# python util_obsoletion_update.py imports/deprecation_import.owl imports/foodon_product_import.owl
 
 # see https://stackabuse.com/reading-and-writing-xml-files-in-python/
 import xml.etree.ElementTree as ET
