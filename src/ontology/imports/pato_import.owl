@@ -1,25 +1,13 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
-<rdf:RDF xmlns="&obo;foodon/imports/pato_import.owl#"
-     xml:base="&obo;foodon/imports/pato_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="&obo;foodon/imports/pato_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl"/>
     
 
 
@@ -34,17 +22,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/> -->
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <!-- <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty> -->
     
@@ -52,7 +47,7 @@
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <!-- <owl:AnnotationProperty rdf:about="&rdfs;label"/> -->
+    <!-- <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/> -->
     
 
 
@@ -67,1136 +62,2095 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000001">
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A composite chromatic quality composed of hue, saturation and intensity parts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">color</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000047 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000047">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001995"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">biological sex</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000048 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000048">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s resistance to pressure, being broken, or pierced</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">hardness</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s resistance to pressure, being broken, or pierced</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hardness</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000051 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000051">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of a single physical entity inhering in the bearer by virtue of the bearer&apos;s size or shape or structure.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">morphology</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a single physical entity inhering in the bearer by virtue of the bearer&apos;s size or shape or structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000068 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000068">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000001"/>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">qualitative</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualitative</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000069 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000069">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000068"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">deviation(from_normal)</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000068"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deviation (from_normal)</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000117 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000117">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000051"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">size</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000119 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000119">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001708"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">height</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">height</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000122">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001708"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 1-D extent quality which is equal to the distance between two points.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">length</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1-D extent quality which is equal to the distance between two points.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000146 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000146">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality of the thermal energy of a system.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality of the thermal energy of a system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color that lacks any hues as parts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with low wavelength of that portion of the visible spectrum lying between green and indigo, evoked in the human observer by radiant energy with wavelengths of approximately 420 to 490 nanometers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of green and blue hue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with medium-low wavelength of that portion of the visible spectrum lying between yellow and blue, evoked in the human observer by radiant energy with wavelengths of approximately 490 to 570 nanometers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red and blue hues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with high wavelength of the long-wave end of the visible spectrum, evoked in the human observer by radiant energy with wavelengths of approximately 630 to 750 nanometers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An achromatic color of maximum brightness; the color of objects that reflect nearly all light of all visible wavelengths.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with medium wavelength of that portion of the visible spectrum lying between orange and green, evoked in the human observer by radiant energy with wavelengths of approximately 570 to 590 nanometers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color quality inhering in a bearer by virtue of the bearer&apos;s having color.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colored</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000383 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000383">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">female</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000384 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000384">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">male</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000386 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000386">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of being rigid and resistant to pressure.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">hard</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hardness quality of being rigid and resistant to pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hard</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000387 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000387">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of giving little resistance to pressure.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">soft</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hardness quality of giving little resistance to pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soft</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000569 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000569">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000119"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000587"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A height which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased height</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A height which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased height</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000570 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000570">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000119"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000586"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A height which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased height</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A height which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased height</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000573 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000573">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000586"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A length quality which is relatively large.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased length</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is relatively large.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased length</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000574 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000574">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000587"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A length quality which is relatively small.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased length</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is relatively small.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased length</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000586 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000586">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000117"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A size quality which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased size</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A size quality which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased size</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000587 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000587">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000117"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A size quality which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased size</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A size quality which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased size</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000591 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000591">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000586"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000915"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A thickness which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased thickness</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thickness which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased thickness</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000592 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000592">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000587"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000915"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A thickness which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased thickness</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thickness which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased thickness</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000599 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000599">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000587"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000921"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A width which is relatively small.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased width</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width which is relatively small.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased width</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000600 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000600">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000586"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000921"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A width which is relatively large.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased width</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width which is relatively large.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased width</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000915 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000915">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001708"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">thickness</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000915">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thickness</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000921 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000921">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001708"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">width</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000921">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color between white and black colors.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000951">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color that falls about midway between red and blue in hue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of dark orange, red, of very low intensity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with high-medium wavelength that of that portion of the visible spectrum lying between red and yellow, evoked in the human observer by radiant energy with wavelengths of approximately 585 to 620 nanometers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000954">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red color having medium to high brightness and low to moderate saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pink</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000992 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000992">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001548"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality of a liquid inhering in a bearer by virtue of the bearer&apos;s disposition to internal resistance to flow.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">viscosity</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality of a liquid inhering in a bearer by virtue of the bearer&apos;s disposition to internal resistance to flow.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscosity</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000998 -->
 
-    <owl:Class rdf:about="&obo;PATO_0000998">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000992"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity quality inhering in a bearer by virtue of the bearer&apos;s having viscosity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">viscous</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000998">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000992"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A viscosity quality inhering in a bearer by virtue of the bearer&apos;s having viscosity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscous</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001018">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">physical quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001241">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality which inheres in a continuant.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">physical object quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in a continuant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000318"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of blue hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000318"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of blue hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of brown hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of brown hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000319"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of cyan hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light cyan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000319"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of cyan hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark cyan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000320"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of green hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000320"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of green hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000950"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of grey color and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark grey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000950"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of grey color and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light grey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000321"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of magenta color and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light magenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000321"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of magenta with low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark magenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000953"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of orange hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000953"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of orange color and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000954"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pink color having high brightness and moderate saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light deep pink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000954"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pink color having medium brightness and moderate saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deep pink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000951"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of purple color and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark purple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000951"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of purple color and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light purple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark yellow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light yellow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000318"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of blue hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000318"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of blue hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of brown hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of brown hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000319"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of cyan colour and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated cyan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000319"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of cyan colour and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated cyan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000320"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of green hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000320"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of green hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000321"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of magenta color and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated magenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000321"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of magenta color and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated magenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000953"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of orange hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000953"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of orange hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000954"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pink color having medium brightness and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark pale pink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000951"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of purple color and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated purple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000951"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of purple color and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated purple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated yellow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated yellow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red and brown hue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001287"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red and brown hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark red brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001287"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red and brown hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light red brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001739"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electromagnetic (EM) radiation quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001291"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optical quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of red and orange hue with a slight amount of gray.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vermilion</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001305 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001305">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased temperature</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001306 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001306">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased temperature</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001315 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001315">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is increased by a low degree.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">mild increased temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature which is increased by a low degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild increased temperature</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001316 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001316">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is increased by a medium degree.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">moderate increased temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature which is increased by a medium degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate increased temperature</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001317 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001317">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is increased by a high degree.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">severe increased temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature which is increased by a high degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe increased temperature</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001334 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001334">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A length quality which is equal to the length of any straight line segment that passes through the center of a circle and whose endpoints are on the circular boundary.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is equal to the length of any straight line segment that passes through the center of a circle and whose endpoints are on the circular boundary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001340 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001340">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an organism or a population with both male and female sexual organs in one individual.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">hermaphrodite</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an organism or a population with both male and female sexual organs in one individual.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hermaphrodite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001424">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with very low wavelength of that portion of the visible spectrum lying between reddish blue or bluish purple, evoked in the human observer by radiant energy with wavelengths of approximately 420 to 380 nanometers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">violet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue consisting of red hue and yellow hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rosy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of purple and brown hue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maroon</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001472 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001472">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000587"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001595"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A depth which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased depth</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001472">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A depth which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased depth</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001543 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001543">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">flexibility</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flexibility</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001544 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001544">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001543"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s ability of being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">flexible</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001543"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s ability of being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flexible</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001545 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001545">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001543"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s inability of being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">inflexible</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001543"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s inability of being turned, bowed, or twisted without breaking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflexible</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001546 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001546">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">quality of a solid</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002198"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a solid</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001547 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001547">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">quality of a gas</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002198"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a gas</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001548 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001548">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">quality of a liquid</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002198"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a liquid</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001595 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001595">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001708"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s downward or backward or inward dimenision.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">depth</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s downward or backward or inward dimenision.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depth</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001596 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001596">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000586"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001595"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A depth quality which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased depth</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A depth quality which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased depth</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001648 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001648">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001711"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An 1-D extent quality which is equal to the length of the closed curve of a circle.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">circumference</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001711"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An 1-D extent quality which is equal to the length of the closed curve of a circle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circumference</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001693 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001693">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000998"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity which relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased viscosity</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A viscosity which relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased viscosity</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001694 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001694">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000998"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity which relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased viscosity</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A viscosity which relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased viscosity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001424"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of violet hue and high saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saturated violet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001424"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of violet hue and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desaturated violet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001424"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of violet hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light violet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001424"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of violet hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark violet</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001708 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001708">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000117"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A size quality inhering in an bearer by virtue of the bearer&apos;s extension in one dimension.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">1-D extent</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A size quality inhering in an bearer by virtue of the bearer&apos;s extension in one dimension.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-D extent</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001711 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001711">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An 1-D extent quality inhering in two-dimensional bearer by virtue of being equal to the distance around it.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">perimeter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An 1-D extent quality inhering in two-dimensional bearer by virtue of being equal to the distance around it.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perimeter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001712 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001712">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000573"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001711"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A perimeter which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased perimeter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000573"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001711"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A perimeter which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased perimeter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001713 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001713">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000574"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001711"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A perimeter which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased perimeter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001711"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A perimeter which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased perimeter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001714 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001714">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000573"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001334"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter which is relatively large.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000573"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diameter which is relatively large.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001715 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001715">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000574"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001334"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter which is relatively small.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diameter which is relatively small.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001735 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001735">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001548"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s parts having the arrangement which exhibits characteristics of liquids.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">liquid configuration</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s parts having the arrangement which exhibits characteristics of liquids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid configuration</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001736 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001736">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s parts having the arrangement which exhibits characteristics of solids.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">solid configuration</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001736">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s parts having the arrangement which exhibits characteristics of solids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that inheres in an bearer by virtue of how that bearer interacts with radiation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001776 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001776">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001544"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A flexibility which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased flexibility</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001544"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flexibility which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased flexibility</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001777 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001777">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001544"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002303"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A flexibility which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased flexibility</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001544"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flexibility which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased flexibility</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001781 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001781">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000915"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A thickness quality which lacks pattern.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">irregular thickness</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001781">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thickness quality which lacks pattern.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">irregular thickness</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001827 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001827">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001894"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">pseudohermaphrodite</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001894"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudohermaphrodite</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001828 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001828">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001827"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of male and external sexual characteristics of female.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">male pseudohermaphrodite</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001827"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of male and external sexual characteristics of female.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male pseudohermaphrodite</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001829 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001829">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001827"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of female and external sexual characteristics of male.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">female pseudohermaphrodite</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001829">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001827"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of female and external sexual characteristics of male.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female pseudohermaphrodite</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001888 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001888">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001548"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of a liquid inhering in a bearer by virtue of the bearer&apos;s ability to mix with (dissolve in) another liquid.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">miscibility</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001888">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a liquid inhering in a bearer by virtue of the bearer&apos;s ability to mix with (dissolve in) another liquid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miscibility</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001894 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001894">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000047"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organismal quality inhering in a bearer by virtue of the bearer&apos;s physical expression of sexual characteristics.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">phenotypic sex</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001894">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organismal quality inhering in a bearer by virtue of the bearer&apos;s physical expression of sexual characteristics.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotypic sex</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001898 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001898">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001648"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001712"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A circumference which is relatively high.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased circumference</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001712"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumference which is relatively high.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased circumference</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001899 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001899">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001648"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001713"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A circumference which is relatively low.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased circumference</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001713"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumference which is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000320"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow and green hues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000320"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of brown and green hues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001943">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000951"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A purple color which has low saturation and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lilac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000953"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow and orange hue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A moderate yellow-orange to orange color.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ochre</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001985 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001985">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer&apos;s being kept below its freezing point.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">frozen</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001985">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality inhering in a bearer by virtue of the bearer&apos;s being kept below its freezing point.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frozen</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001995">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality that inheres in an entire organism or part of an organism.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">organismal quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that inheres in an entire organism or part of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organismal quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000954"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pink color having high brightness and low saturation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pale pink</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002041 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002041">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001334"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter that is along the anterior-posterior axis.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">anterior-posterior diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diameter that is along the anterior-posterior axis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior-posterior diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002042 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002042">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001715"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002041"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anterior-posterior diameter quality which is relatively small.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased anterior-posterior diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001715"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002041"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anterior-posterior diameter quality which is relatively small.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased anterior-posterior diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002043 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002043">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001714"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002041"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anterior-posterior diameter quality which is relatively large.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased anterior-posterior diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001714"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002041"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anterior-posterior diameter quality which is relatively large.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased anterior-posterior diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002066 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002066">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001736"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A solid configuration inhering in a material entity by virtue of its constituent atoms, molecules, or ions being arranged in an orderly repeating pattern extending in all three spatial dimensions.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">crystal configuration</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001736"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A solid configuration inhering in a material entity by virtue of its constituent atoms, molecules, or ions being arranged in an orderly repeating pattern extending in all three spatial dimensions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crystal configuration</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002127 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002127">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000386"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of being rigid and resistant to pressure and fibrous.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">scirrhous</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000386"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hardness quality of being rigid and resistant to pressure and fibrous.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scirrhous</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002198 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002198">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of its constitution.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">quality of a substance</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality inhering in a bearer by virtue of its constitution.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a substance</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002300 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002300">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000069"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality that has a value that is increased compared to normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000069"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that has a value that is increased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002301 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002301">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000069"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000069"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002303 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002303">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002301"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">decreased object quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002301"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of an object that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased object quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002305 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002305">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002300"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is increased compared to normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">increased object quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002300"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of an object that has a value that is increased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medium brown color with a metallic sheen, resembles the actual alloy bronze.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronze</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002365 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002365">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000383"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Female quality of having complete, unaltered reproductive organs</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">intact female</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000383"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female quality of having complete, unaltered reproductive organs</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intact female</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002366 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002366">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000384"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Male quality of having complete, unaltered reproductive organs.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">intact male</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000384"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male quality of having complete, unaltered reproductive organs.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intact male</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002367 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002367">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000384"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Male quality of being incapable to reproduce because of functional loss of the testicles from surgical removal or chemical means.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">castrated male</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000384"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male quality of being incapable to reproduce because of functional loss of the testicles from surgical removal or chemical means.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">castrated male</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002390 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002390">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A length quality which is equal to the length of any straight line segment that passes from the center of a circle to any endpoint on the circular boundary. The radius is half of the diameter.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">radius</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is equal to the length of any straight line segment that passes from the center of a circle to any endpoint on the circular boundary. The radius is half of the diameter.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002413"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colour that is very pale yellowish brown.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beige</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow and brown hue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002411"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow and brown hue and low brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark yellow brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002411"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color consisting of yellow and brown hue and high brightness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light yellow brown</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002450 -->
 
-    <owl:Class rdf:about="&obo;PATO_0002450">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hardness quality of giving significant resistance to pressure.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">firm</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000048"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hardness quality of giving significant resistance to pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">firm</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0005022 -->
 
-    <owl:Class rdf:about="&obo;PATO_0005022">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001334"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter that remains constant throughout the extent of an entity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">uniform diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0005022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diameter that remains constant throughout the extent of an entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniform diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0040020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0040020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000383"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female quality of being incapable to reproduce because of functional loss of the ovaries and/or uterus from surgical removal.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spayed female</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0040030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0040030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000599"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width and length quality which is relatively small, where both width and length are decreased.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased width and length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0040031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0040031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000573"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000600"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width and length quality that is relatively large, where both width and length are increased.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased width and length</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045001 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045001">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quality of an object that has a value that is normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal object quality</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of an object that has a value that is normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal object quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045021 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045021">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001544"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A flexibility which is relatively normal or average.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal flexibility</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001544"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flexibility which is relatively normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal flexibility</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045050 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045050">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000117"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A size quality which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal size</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A size quality which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal size</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045052 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045052">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001595"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A depth quality which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal depth</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A depth quality which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal depth</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045053 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045053">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000119"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A height which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal height</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A height which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal height</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045054 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045054">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000122"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A length quality which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal length</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal length</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045055 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045055">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001334"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045054"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A diameter which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045054"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diameter which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045056 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045056">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0002041"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045055"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anterior-posterior diameter which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal anterior-posterior diameter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045055"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anterior-posterior diameter which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal anterior-posterior diameter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045057 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045057">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001711"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045054"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A perimeter which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal perimeter</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001711"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045054"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A perimeter which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal perimeter</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045058 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045058">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001648"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045057"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A circumference which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal circumference</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045057"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumference which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal circumference</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045059 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045059">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000915"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A thickness which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal thickness</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thickness which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal thickness</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045061 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045061">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000921"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045050"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A width which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal width</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045050"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal width</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045067 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045067">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000146"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A temperature which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal temperature</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal temperature</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0045081 -->
 
-    <owl:Class rdf:about="&obo;PATO_0045081">
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0000998"/>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0045001"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A viscosity which is relatively normal or average</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-        <rdfs:label rdf:datatype="&xsd;string">normal viscosity</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0045081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0045001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A viscosity which is relatively normal or average</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal viscosity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

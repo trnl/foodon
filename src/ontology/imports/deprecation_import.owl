@@ -22010,6 +22010,11 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
+        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420165">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <rdfs:label xml:lang="en">obsolete: fruit or seed</rdfs:label>
