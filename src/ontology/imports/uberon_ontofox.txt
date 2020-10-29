@@ -14,6 +14,11 @@ includeAllChildren
 http://purl.obolibrary.org/obo/UBERON_0001630 # muscle organ
 http://purl.obolibrary.org/obo/UBERON_0002385 # muscle tissue
 
+http://purl.obolibrary.org/obo/UBERON_0002472 # stylopod
+includeAllChildren
+http://purl.obolibrary.org/obo/UBERON_0002471 # zeugopod
+includeAllChildren
+
 http://purl.obolibrary.org/obo/UBERON_0006314 # body fluid
 
 # NOTE: LANGUAL IMPORT OVERWRITES THIS FILE.  MODIFY TEMPLATE IN /langual/ FOLDER 
