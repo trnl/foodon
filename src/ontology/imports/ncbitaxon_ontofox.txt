@@ -5,6 +5,10 @@ http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl
 NCBITaxon
 
 [Low level source term URIs]
+
+http://purl.obolibrary.org/obo/NCBITaxon_328401 # Zanthoxylum bungeanum
+http://purl.obolibrary.org/obo/NCBITaxon_67938 # Zanthoxylum armatum
+
 http://purl.obolibrary.org/obo/NCBITaxon_1000425 # species:Pimpinella major (L.) Huds.
 http://purl.obolibrary.org/obo/NCBITaxon_1003242 # family:Ximeniaceae
 http://purl.obolibrary.org/obo/NCBITaxon_1003799 # species:Scomberomorus plurilineatus Fourmanoir, 1966
@@ -354,7 +358,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_161923 # species:Penaeus esculentus Has
 http://purl.obolibrary.org/obo/NCBITaxon_161924 # species:Fenneropenaeus penicillatus (Alcock, 1905)
 http://purl.obolibrary.org/obo/NCBITaxon_161925 # species:Melicertus latisulcatus (Kishinouye, 1896)
 http://purl.obolibrary.org/obo/NCBITaxon_161926 # species:Melicertus plebejus (Hess, 1865)
-http://purl.obolibrary.org/obo/NCBITaxon_161934 # species:Beta vulgaris ssp. maritima (L.) Arcang.
+http://purl.obolibrary.org/obo/NCBITaxon_161934 # Beta vulgaris
+includeAllChildren
+
 http://purl.obolibrary.org/obo/NCBITaxon_162300 # species:Epinephelus malabaricus (Bloch and Schneider, 1801)
 http://purl.obolibrary.org/obo/NCBITaxon_162743 # species:Dialium guineense Willd.
 http://purl.obolibrary.org/obo/NCBITaxon_163111 # genus:Molva Lesueur, 1819
@@ -1096,6 +1102,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_34984 # family:Pythonidae Fitzinger, 18
 http://purl.obolibrary.org/obo/NCBITaxon_3499 # family:Urticaceae
 http://purl.obolibrary.org/obo/NCBITaxon_3501 # species:Urtica dioica L.
 http://purl.obolibrary.org/obo/NCBITaxon_3503 # family:Fagaceae
+http://purl.obolibrary.org/obo/NCBITaxon_350892 # Beta vulgaris subsp. maritima
 http://purl.obolibrary.org/obo/NCBITaxon_3511 # species:Quercus L.
 http://purl.obolibrary.org/obo/NCBITaxon_3514 # family:Betulaceae
 http://purl.obolibrary.org/obo/NCBITaxon_3525 # family:Phytolaccaceae
@@ -1221,7 +1228,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_375274 # species:Psidium cattleianum Sa
 http://purl.obolibrary.org/obo/NCBITaxon_3754 # genus:Prunus L.
 http://purl.obolibrary.org/obo/NCBITaxon_3755 # species:Prunus dulcis (P. Mill.) D.A. Webber
 http://purl.obolibrary.org/obo/NCBITaxon_3758 # species:Prunus domestica L.
-http://purl.obolibrary.org/obo/NCBITaxon_3760 # species:Prunus persica (L.) Batsch
+http://purl.obolibrary.org/obo/NCBITaxon_3760 # species:Prunus persica
+includeAllChildren
+
 http://purl.obolibrary.org/obo/NCBITaxon_37623 # species:Ostrea edulis Linnaeus, 1758
 http://purl.obolibrary.org/obo/NCBITaxon_37643 # species:Crassostrea rhizophorae Guilding
 http://purl.obolibrary.org/obo/NCBITaxon_376534 # species:Triticum turanicum Jakubz.
@@ -1580,6 +1589,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_4679 # species:Allium cepa L.
 http://purl.obolibrary.org/obo/NCBITaxon_4681 # species:Allium ampeloprasum L.
 http://purl.obolibrary.org/obo/NCBITaxon_4682 # species:Allium sativum L.
 http://purl.obolibrary.org/obo/NCBITaxon_4684 # species:Allium ursinum L.
+http://purl.obolibrary.org/obo/NCBITaxon_4686 # Asparagus officinalis
 http://purl.obolibrary.org/obo/NCBITaxon_469659 # species:Alosa mediocris (Mitchill, 1814)
 http://purl.obolibrary.org/obo/NCBITaxon_47083 # species:Melilotus officinalis (L.) Lam.
 http://purl.obolibrary.org/obo/NCBITaxon_4710 # family:Arecaceae
@@ -1744,6 +1754,55 @@ http://purl.obolibrary.org/obo/NCBITaxon_38945 # Flammulina velutipes
 http://purl.obolibrary.org/obo/NCBITaxon_47721 # Lyophyllum shimeji
 http://purl.obolibrary.org/obo/NCBITaxon_64660 # Lyophyllum decastes
 http://purl.obolibrary.org/obo/NCBITaxon_71891 # Hypsizygus ulmarius
+http://purl.obolibrary.org/obo/NCBITaxon_492052 # Clitocybe nuda
+http://purl.obolibrary.org/obo/NCBITaxon_71933 # Amanita rubescens
+http://purl.obolibrary.org/obo/NCBITaxon_405908 # Amanita novinupta
+http://purl.obolibrary.org/obo/NCBITaxon_67695 # Amanita caesarea
+http://purl.obolibrary.org/obo/NCBITaxon_57192 # Boletus pinophilus
+http://purl.obolibrary.org/obo/NCBITaxon_121051 # Leccinum scabrum
+http://purl.obolibrary.org/obo/NCBITaxon_5384 # Suillus luteus
+http://purl.obolibrary.org/obo/NCBITaxon_36056 # Boletus edulis
+includeAllChildren
+http://purl.obolibrary.org/obo/NCBITaxon_139825 # Sparassis crispa
+http://purl.obolibrary.org/obo/NCBITaxon_36066 # Cantharellus cibarius
+http://purl.obolibrary.org/obo/NCBITaxon_2558045 # Phallus duplicatus
+http://purl.obolibrary.org/obo/NCBITaxon_100756 # Hericium coralloides
+http://purl.obolibrary.org/obo/NCBITaxon_56157 # Agaricus campestris
+http://purl.obolibrary.org/obo/NCBITaxon_139090 # Albatrellus ovinus
+http://purl.obolibrary.org/obo/NCBITaxon_94198 # Craterellus aurora
+http://purl.obolibrary.org/obo/NCBITaxon_40488 # Sarcomyxa serotina
+http://purl.obolibrary.org/obo/NCBITaxon_75324 # Cortinarius caperatus
+http://purl.obolibrary.org/obo/NCBITaxon_94199 # Craterellus cornucopioides
+http://purl.obolibrary.org/obo/NCBITaxon_34428 # Agaricus arvensis
+http://purl.obolibrary.org/obo/NCBITaxon_71694 # Coprinopsis atramentaria
+http://purl.obolibrary.org/obo/NCBITaxon_181775 # Psilocybe semilanceata
+http://purl.obolibrary.org/obo/NCBITaxon_152937 # Lactarius helvus
+http://purl.obolibrary.org/obo/NCBITaxon_41956 # Amanita muscaria * NEED TO ADD to Mushroom
+http://purl.obolibrary.org/obo/NCBITaxon_61267 # Pholiota nameko
+http://purl.obolibrary.org/obo/NCBITaxon_98342 # Pleurotus citrinopileatus
+http://purl.obolibrary.org/obo/NCBITaxon_50053 # Lentinus sajor-caju (https://kingfishermushrooms.wordpress.com/2017/07/07/lentinus-sajor-caju/) * NEED TO DIFFERENTIATE FROM grey oyster mushroom AND formerly known as Pleurotus sajor-caju)
+http://purl.obolibrary.org/obo/NCBITaxon_34470 # Pleurotus djamor
+http://purl.obolibrary.org/obo/NCBITaxon_98346 # Pleurotus floridanus
+http://purl.obolibrary.org/obo/NCBITaxon_75103 # Cantharellus pallens
+http://purl.obolibrary.org/obo/NCBITaxon_56183 # Macrolepiota procera
+http://purl.obolibrary.org/obo/NCBITaxon_5315 # Ganoderma lucidum # COORDINATE WITH REISHI MUSHROOM
+http://purl.obolibrary.org/obo/NCBITaxon_1233435 # Ganoderma lingzhi
+http://purl.obolibrary.org/obo/NCBITaxon_34467 # Ganoderma tsugae
+http://purl.obolibrary.org/obo/NCBITaxon_937743 # Hymenopellis radicata
+http://purl.obolibrary.org/obo/NCBITaxon_181124 # Marasmius oreades
+http://purl.obolibrary.org/obo/NCBITaxon_56187 # Coprinus comatus
+http://purl.obolibrary.org/obo/NCBITaxon_64657 # Tremella fuciformis
+http://purl.obolibrary.org/obo/NCBITaxon_64608 # Agrocybe cylindracea
+http://purl.obolibrary.org/obo/NCBITaxon_40145 # Tricholoma matsutake
+http://purl.obolibrary.org/obo/NCBITaxon_5343 # Agaricus bitorquis
+http://purl.obolibrary.org/obo/NCBITaxon_56469 # Calocybe gambosa
+http://purl.obolibrary.org/obo/NCBITaxon_36659 # Volvariella volvacea
+http://purl.obolibrary.org/obo/NCBITaxon_139363 # Hydnum rufescens
+http://purl.obolibrary.org/obo/NCBITaxon_5365 # Lentinus tigrinus
+http://purl.obolibrary.org/obo/NCBITaxon_57200 # Craterellus tubaeformis
+http://purl.obolibrary.org/obo/NCBITaxon_201217 # Leucoagaricus leucothites
+http://purl.obolibrary.org/obo/NCBITaxon_5217 # Tremella mesenterica
+
 
 http://purl.obolibrary.org/obo/NCBITaxon_53749 # species:Echinacea pallida (Nutt.) Nutt.
 http://purl.obolibrary.org/obo/NCBITaxon_53751 # species:Echinacea purpurea (L.) Moench
