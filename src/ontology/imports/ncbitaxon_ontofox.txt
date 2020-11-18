@@ -6,6 +6,10 @@ NCBITaxon
 
 [Low level source term URIs]
 
+http://purl.obolibrary.org/obo/NCBITaxon_3714 # Brassica oleracea var. alboglabra
+
+http://purl.obolibrary.org/obo/NCBITaxon_1574408 # Cervus canadensis
+
 http://purl.obolibrary.org/obo/NCBITaxon_328401 # Zanthoxylum bungeanum
 http://purl.obolibrary.org/obo/NCBITaxon_67938 # Zanthoxylum armatum
 
@@ -73,6 +77,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_110284 # species:Eleocharis dulcis (Bur
 http://purl.obolibrary.org/obo/NCBITaxon_110741 # species:Diospyros digyna Jacq.
 http://purl.obolibrary.org/obo/NCBITaxon_110835 # species:Eragrostis tef (Zuccagni) Trotter
 http://purl.obolibrary.org/obo/NCBITaxon_110923 # species:Jasus frontalis (H. Milne-Edwards, 1837)
+
+
+
 http://purl.obolibrary.org/obo/NCBITaxon_110924 # species:Jasus paulensis (Heller, 1862)
 http://purl.obolibrary.org/obo/NCBITaxon_110925 # species:Jasus tristani Holthuis, 1963
 http://purl.obolibrary.org/obo/NCBITaxon_1110592 # species:Pangasius micronemus Bleeker, 1847
@@ -138,6 +145,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_119260 # species:Cinnamomum cassia (L.)
 http://purl.obolibrary.org/obo/NCBITaxon_119261 # species:Cinnamomum burmannii (Nees & T. Nees) Blume
 http://purl.obolibrary.org/obo/NCBITaxon_1192867 # species:Chroicocephalus ridibundus (Linnaeus, 1766)
 http://purl.obolibrary.org/obo/NCBITaxon_119374 # species:Haemulon Cuvier, 1829
+http://purl.obolibrary.org/obo/NCBITaxon_1193840 # Amaranthus dubius
 http://purl.obolibrary.org/obo/NCBITaxon_119488 # species:Siniperca chuatsi (Basilewsky, 1855)
 http://purl.obolibrary.org/obo/NCBITaxon_119682 # species:Archosargus probatocephalus (Walbaum, 1792)
 http://purl.obolibrary.org/obo/NCBITaxon_119693 # genus:Caesio Lacepède, 1801
@@ -145,10 +153,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_119695 # genus:Calamus Swainson, 1839
 http://purl.obolibrary.org/obo/NCBITaxon_119720 # genus:Lethrinus Cuvier, 1829
 http://purl.obolibrary.org/obo/NCBITaxon_119830 # species:Solanum torvum Sw.
 http://purl.obolibrary.org/obo/NCBITaxon_119949 # species:Myrtus communis L.
-http://purl.obolibrary.org/obo/NCBITaxon_119950 # genus:Eugenia L.
+http://purl.obolibrary.org/obo/NCBxITaxon_119950 # genus:Eugenia L.
 http://purl.obolibrary.org/obo/NCBITaxon_119951 # species:Eugenia uniflora L.
+
 http://purl.obolibrary.org/obo/NCBITaxon_120290 # species:Psidium guajava L.
 http://purl.obolibrary.org/obo/NCBITaxon_1203427 # species:Rhombosolea leporina Günther, 1862
+
 http://purl.obolibrary.org/obo/NCBITaxon_1203428 # species:Rhombosolea plebeia (Richardson, 1843)
 http://purl.obolibrary.org/obo/NCBITaxon_120427 # species:Ensis ensis (Linnaeus, 1758)
 http://purl.obolibrary.org/obo/NCBITaxon_1204434 # species:Brassica ruvo L. H. Bailey
@@ -1201,6 +1211,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_3709 # Brassica napus subsp. rapifera
 http://purl.obolibrary.org/obo/NCBITaxon_3710 # species:Brassica nigra (L.) W.D.J. Koch
 http://purl.obolibrary.org/obo/NCBITaxon_3711 # species:Brassica rapa L.
 http://purl.obolibrary.org/obo/NCBITaxon_3712 # species:Brassica oleracea L.
+includeAllChildren
+
 http://purl.obolibrary.org/obo/NCBITaxon_3715 # Brassica oleracea var. botrytis
 http://purl.obolibrary.org/obo/NCBITaxon_3716 # Brassica oleracea var. capitata
 http://purl.obolibrary.org/obo/NCBITaxon_371729 # species:Palinurus charlestoni Forest and Postel, 1964
@@ -1430,7 +1442,11 @@ http://purl.obolibrary.org/obo/NCBITaxon_4233 # species:Helianthus tuberosus L.
 http://purl.obolibrary.org/obo/NCBITaxon_42330 # species:Acipenser naccarii Bonaparte, 1836
 http://purl.obolibrary.org/obo/NCBITaxon_42337 # species:Bidens pilosa L.
 http://purl.obolibrary.org/obo/NCBITaxon_42345 # species:Phoenix dactylifera L.
-http://purl.obolibrary.org/obo/NCBITaxon_4236 # species:Lactuca sativa L.
+http://purl.obolibrary.org/obo/NCBITaxon_4236 # species:Lactuca sativa
+includeAllChildren
+
+http://purl.obolibrary.org/obo/NCBITaxon_124778 # Illicium verum
+
 http://purl.obolibrary.org/obo/NCBITaxon_42526 # species:Colossoma macropomum (Cuvier, 1816)
 http://purl.obolibrary.org/obo/NCBITaxon_42528 # species:Piaractus mesopotamicus (Holmberg, 1887)
 http://purl.obolibrary.org/obo/NCBITaxon_42529 # species:Piaractus brachypomus (Cuvier, 1817)
