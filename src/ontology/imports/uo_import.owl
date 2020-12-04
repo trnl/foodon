@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/uo_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/foodon/imports/uo_import.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/uo_import.owl"/>
     
 
@@ -19,14 +18,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty> -->
     
 
 
@@ -44,8 +49,8 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -53,9 +58,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length unit</rdfs:label>
     </owl:Class>
     
 
@@ -63,9 +68,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
     </owl:Class>
     
 
@@ -73,9 +78,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time unit</rdfs:label>
     </owl:Class>
     
 
@@ -83,9 +88,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature unit</rdfs:label>
     </owl:Class>
     
 
@@ -93,8 +98,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000008"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -102,8 +110,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -111,8 +121,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000010"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -120,7 +133,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -128,7 +143,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -136,7 +153,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000021"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -144,7 +164,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -152,7 +174,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000027"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -160,7 +185,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000031"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -168,7 +196,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000032"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -176,7 +207,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000033"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -184,7 +218,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">week</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000034"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -192,7 +229,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000035"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -200,7 +240,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000036"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -208,9 +251,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000045">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base unit</rdfs:label>
     </owl:Class>
     
 
@@ -218,9 +261,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration unit</rdfs:label>
     </owl:Class>
     
 
@@ -228,9 +271,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000052">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass density unit</rdfs:label>
     </owl:Class>
     
 
@@ -238,9 +281,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</rdfs:label>
     </owl:Class>
     
 
@@ -248,7 +291,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -256,7 +301,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000099">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000099"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -264,9 +312,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000109">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressure unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressure unit</rdfs:label>
     </owl:Class>
     
 
@@ -274,7 +322,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000110"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -282,9 +333,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000111">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy unit</rdfs:label>
     </owl:Class>
     
 
@@ -292,7 +343,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000112"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -300,9 +354,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">power unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">power unit</rdfs:label>
     </owl:Class>
     
 
@@ -310,7 +364,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000114">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000113"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000114"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -318,7 +375,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000163">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass percentage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000163"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -326,7 +387,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass volume percentage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000164"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -334,7 +399,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume percentage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000165"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -342,7 +411,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000173">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per milliliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000173"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -350,9 +422,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000182">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">density unit</rdfs:label>
     </owl:Class>
     
 
@@ -360,9 +432,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionless unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionless unit</rdfs:label>
     </owl:Class>
     
 
@@ -370,9 +442,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent</rdfs:label>
     </owl:Class>
     
 
@@ -380,9 +452,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000190">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ratio</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ratio</rdfs:label>
     </owl:Class>
     
 
@@ -390,9 +462,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000191">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fraction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fraction</rdfs:label>
     </owl:Class>
     
 
@@ -400,7 +472,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000193"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -408,7 +483,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -416,7 +494,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000195"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -424,7 +505,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000196"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -432,9 +517,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume per unit volume</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume per unit volume</rdfs:label>
     </owl:Class>
     
 
@@ -442,8 +527,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010011"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -451,8 +539,11 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010013"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -460,7 +551,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluid ounce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010026"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -468,7 +562,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gill</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010027"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -476,7 +573,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010028"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -484,7 +584,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quart</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010029"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -492,7 +595,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010030"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -500,7 +606,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ounce</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010033"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -508,7 +617,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010034"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -516,7 +628,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaspoon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010040"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -524,9 +639,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010041">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states customary teaspoon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states customary teaspoon</rdfs:label>
     </owl:Class>
     
 
@@ -534,9 +649,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tablespoon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tablespoon</rdfs:label>
     </owl:Class>
     
 
@@ -544,9 +659,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010043">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">australian metric tablespoon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">australian metric tablespoon</rdfs:label>
     </owl:Class>
     
 
@@ -554,9 +669,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010044">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states customary tablespoon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states customary tablespoon</rdfs:label>
     </owl:Class>
     
 
@@ -564,9 +679,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010045">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metric cup</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metric cup</rdfs:label>
     </owl:Class>
     
 
@@ -574,9 +689,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states customary cup</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states customary cup</rdfs:label>
     </owl:Class>
     
 
@@ -584,9 +699,20 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states fda cup</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">united states fda cup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010051"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -594,9 +720,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter based unit</rdfs:label>
     </owl:Class>
     
 
@@ -604,9 +730,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second based unit</rdfs:label>
     </owl:Class>
     
 
@@ -614,9 +740,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram based unit</rdfs:label>
     </owl:Class>
     
 
@@ -624,9 +750,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius based unit</rdfs:label>
     </owl:Class>
     
 
@@ -634,9 +760,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute based unit</rdfs:label>
     </owl:Class>
     
 
@@ -644,9 +770,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour based unit</rdfs:label>
     </owl:Class>
     
 
@@ -654,9 +780,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day based unit</rdfs:label>
     </owl:Class>
     
 
@@ -664,9 +790,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">week based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">week based unit</rdfs:label>
     </owl:Class>
     
 
@@ -674,9 +800,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month based unit</rdfs:label>
     </owl:Class>
     
 
@@ -684,9 +810,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year based unit</rdfs:label>
     </owl:Class>
     
 
@@ -694,9 +820,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000099">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter based unit</rdfs:label>
     </owl:Class>
     
 
@@ -704,9 +830,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal based unit</rdfs:label>
     </owl:Class>
     
 
@@ -714,9 +840,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joule based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joule based unit</rdfs:label>
     </owl:Class>
     
 
@@ -724,9 +850,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000114">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000113"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt based unit</rdfs:label>
     </owl:Class>
     
 
@@ -734,10 +860,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000163">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass percentage based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass percentage based unit</rdfs:label>
     </owl:Class>
     
 
@@ -745,10 +871,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass volume percentage based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass volume percentage based unit</rdfs:label>
     </owl:Class>
     
 
@@ -756,10 +882,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume percentage based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume percentage based unit</rdfs:label>
     </owl:Class>
     
 
@@ -767,9 +893,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000173">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per milliliter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per milliliter based unit</rdfs:label>
     </owl:Class>
     
 
@@ -777,9 +903,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage based unit</rdfs:label>
     </owl:Class>
     
 
@@ -787,9 +913,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage based unit</rdfs:label>
     </owl:Class>
     
 
@@ -797,9 +923,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000195">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit based unit</rdfs:label>
     </owl:Class>
     
 
@@ -807,10 +933,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH based unit</rdfs:label>
     </owl:Class>
     
 
@@ -818,9 +944,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inch based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inch based unit</rdfs:label>
     </owl:Class>
     
 
@@ -828,9 +954,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot based unit</rdfs:label>
     </owl:Class>
     
 
@@ -838,9 +964,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluid ounce based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluid ounce based unit</rdfs:label>
     </owl:Class>
     
 
@@ -848,9 +974,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gill based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gill based unit</rdfs:label>
     </owl:Class>
     
 
@@ -858,9 +984,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pint based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pint based unit</rdfs:label>
     </owl:Class>
     
 
@@ -868,9 +994,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quart based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quart based unit</rdfs:label>
     </owl:Class>
     
 
@@ -878,9 +1004,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon based unit</rdfs:label>
     </owl:Class>
     
 
@@ -888,9 +1014,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ounce based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ounce based unit</rdfs:label>
     </owl:Class>
     
 
@@ -898,9 +1024,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound based unit</rdfs:label>
     </owl:Class>
     
 
@@ -908,9 +1034,19 @@
     <!-- http://purl.obolibrary.org/obo/UO_1010040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaspoon based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaspoon based unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:Class>
     
 
@@ -928,385 +1064,346 @@
 
     <!-- http://purl.obolibrary.org/obo/UO_0000008 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000008"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000009 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000009"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000010 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000010"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000015 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000015"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000016 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000016"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000021 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000021"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000022 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000022"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000027 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000027"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000031 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000031"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000032 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000032"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000033 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000033"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000034 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000034"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">week</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000035 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000035"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000036 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000036"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000098 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000098"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000099 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000099"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000099">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000110 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000110"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000112 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000112"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joule</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000114 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000114"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000114">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000163 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000163"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000163">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass percentage</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000164 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000164"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass volume percentage</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000165 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000165"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume percentage</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000173 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000173"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000173">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per milliliter</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000193 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000193"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000194 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000194"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000195"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0000196 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000196"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010011 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010011"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inch</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010013 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010013"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010026 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010026"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluid ounce</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010027 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010027"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gill</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010028 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010028"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pint</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010029 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010029"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quart</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010030 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010030"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010033 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010033"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ounce</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010034 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010034"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010040 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010040"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaspoon</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/UO_0010051 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000008">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000010">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000016">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000022">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000034">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">week</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000099">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000110">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000112">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joule</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000114">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000163">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass percentage</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000164">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass volume percentage</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000165">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume percentage</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000173">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per milliliter</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000193">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000194">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010011">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inch</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010013">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010026">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluid ounce</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gill</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010028">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pint</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quart</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010030">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010033">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ounce</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010034">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010040">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaspoon</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-    </rdf:Description>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
 

@@ -74,6 +74,12 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
@@ -614,11 +620,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_00003333 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003333">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-        <rdfs:label xml:lang="en">obsolete: sow</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003333"/>
     
 
 
@@ -2370,13 +2372,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315554">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001>http://purl.obolibrary.org/obo/FOODON_03301109</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>SUBSET_SIREN:F15554</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* has quality &apos;semisolid&apos; (http://purl.obolibrary.org/obo/FOODON_03430144)
-* derives from &apos;fruit, peel removed, core, pit or seed removed&apos; (http://purl.obolibrary.org/obo/FOODON_03420229)
-* formed as a result of &apos;water removal process&apos; (http://purl.obolibrary.org/obo/FOODON_03460138)
-        </rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: fruit pulped</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3537,11 +3532,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411078 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411078">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4081"/>
-        <rdfs:label xml:lang="en">obsolete: globe tomato plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411078"/>
     
 
 
@@ -4226,11 +4217,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411266 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411266">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89151"/>
-        <rdfs:label xml:lang="en">obsolete: common banana plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411266"/>
     
 
 
@@ -4256,11 +4243,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411280 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411280">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-        <rdfs:label xml:lang="en">obsolete: barrow</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411280"/>
     
 
 
@@ -4622,11 +4605,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411439 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411439">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89151"/>
-        <rdfs:label xml:lang="en">obsolete: plantain (musa) plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411439"/>
     
 
 
@@ -4705,11 +4684,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411456 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411456">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3663"/>
-        <rdfs:label xml:lang="en">obsolete: pumpkin plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411456"/>
     
 
 
@@ -4725,11 +4700,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411462 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411462">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3663"/>
-        <rdfs:label xml:lang="en">obsolete: zucchini plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411462"/>
     
 
 
@@ -5682,11 +5653,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411728 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411728">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4236"/>
-        <rdfs:label xml:lang="en">obsolete: celtuce plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411728"/>
     
 
 
@@ -7495,21 +7462,13 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412068 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412068">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3711"/>
-        <rdfs:label xml:lang="en">obsolete: field mustard plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412068"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412072 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412072">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <rdfs:label xml:lang="en">obsolete: red cabbage plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412072"/>
     
 
 
@@ -7525,51 +7484,31 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412080 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412080">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_23211"/>
-        <rdfs:label xml:lang="en">obsolete: Bosc pear plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412080"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412081 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412081">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_23211"/>
-        <rdfs:label xml:lang="en">obsolete: Anjou pear plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412081"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412086 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412086">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4236"/>
-        <rdfs:label xml:lang="en">obsolete: boston lettuce plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412086"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412088 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412088">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4236"/>
-        <rdfs:label xml:lang="en">obsolete: lollo rosso plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412088"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412089 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412089">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4236"/>
-        <rdfs:label xml:lang="en">obsolete: romaine plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412089"/>
     
 
 
@@ -8318,11 +8257,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412248 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412248">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-        <rdfs:label xml:lang="en">obsolete: boar</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412248"/>
     
 
 
@@ -9190,11 +9125,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412415 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412415">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <rdfs:label xml:lang="en">obsolete: savoy cabbage plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412415"/>
     
 
 
@@ -9241,8 +9172,8 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03412421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412421">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <rdfs:label xml:lang="en">obsolete: gai lan plant</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3714"/>
+        <rdfs:label xml:lang="en">obsolete:gai lan plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -9340,11 +9271,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412452 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412452">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13427"/>
-        <rdfs:label xml:lang="en">obsolete: radicchio plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412452"/>
     
 
 
@@ -9940,11 +9867,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412611 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412611">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
-        <rdfs:label xml:lang="en">obsolete: doe (goat)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412611"/>
     
 
 
@@ -10288,11 +10211,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412702 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412702">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
-        <rdfs:label xml:lang="en">obsolete: kid</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412702"/>
     
 
 
@@ -10470,19 +10389,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412720">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3755"/>
-        <rdfs:label xml:lang="en">obsolete: almond, sweet (plant)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412721 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412721">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3755"/>
-        <rdfs:label xml:lang="en">obsolete: almond, bitter (plant)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412721"/>
     
 
 
@@ -10548,11 +10461,7 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412752 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412752">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_175226"/>
-        <rdfs:label xml:lang="en">obsolete: white currant plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412752"/>
     
 
 
@@ -11308,31 +11217,19 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412941 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412941">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114280"/>
-        <rdfs:label xml:lang="en">obsolete: curled endive plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412941"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412942 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412942">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114280"/>
-        <rdfs:label xml:lang="en">obsolete: broadleaved endive plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412942"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03412943 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412943">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13427"/>
-        <rdfs:label xml:lang="en">obsolete: coffee chicory plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412943"/>
     
 
 
@@ -11663,7 +11560,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03413340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413340">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4513"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_112509"/>
         <rdfs:label xml:lang="en">obsolete: two row barley plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -11672,11 +11569,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413341 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413341">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4513"/>
-        <rdfs:label xml:lang="en">obsolete: six row barley plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413341"/>
     
 
 
@@ -11692,11 +11585,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413343 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413343">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4236"/>
-        <rdfs:label xml:lang="en">obsolete: curled lettuce plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413343"/>
     
 
 
@@ -11782,11 +11671,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413355 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413355">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <rdfs:label xml:lang="en">obsolete: pointed headed cabbage plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413355"/>
     
 
 
@@ -11853,7 +11738,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03413375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413375">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_178615"/>
         <rdfs:label xml:lang="en">obsolete: marrow-stem kale plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -11862,11 +11747,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413376 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413376">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3712"/>
-        <rdfs:label xml:lang="en">obsolete: curly kale plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413376"/>
     
 
 
@@ -12155,12 +12036,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03413442 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413442">
-        <obo:IAO_0000119>WIKIPEDIA:Allium_ampeloprasum</obo:IAO_0000119>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413716"/>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B3442</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">obsolete: kurrat plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -12409,11 +12285,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413486 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413486">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4681"/>
-        <rdfs:label xml:lang="en">obsolete: great-headed garlic plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413486"/>
     
 
 
@@ -14029,11 +13901,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413716 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413716">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4681"/>
-        <rdfs:label xml:lang="en">obsolete: broadleaf wild leek plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413716"/>
     
 
 
@@ -14070,9 +13938,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03413721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413721">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4679"/>
-        <rdfs:label xml:lang="en">obsolete: sweet onion plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">sweet onion plant</rdfs:label>
     </owl:Class>
     
 
@@ -14159,30 +14025,20 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413745 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413745">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4081"/>
-        <rdfs:label xml:lang="en">obsolete: cocktail tomato plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413745"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413747 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413747">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3711"/>
-        <rdfs:label xml:lang="en">obsolete: japanese mustard plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413747"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03413748 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413748">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4679"/>
-        <rdfs:label xml:lang="en">obsolete: red onion plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">red onion plant</rdfs:label>
     </owl:Class>
     
 
@@ -17030,11 +16886,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03414301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414301">
-        <obo:IAO_0000115 xml:lang="en">seedlings of white mustard and garden cress, used in salads [Collins English Dictionary]</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4301</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">obsolete: mustard and cress</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -17092,9 +16944,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03414314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414314">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4679"/>
-        <rdfs:label xml:lang="en">obsolete: yellow onion plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">yellow onion plant</rdfs:label>
     </owl:Class>
     
 
@@ -17122,9 +16972,7 @@ If used for food supplement substances, this descriptor refers to the European C
     <!-- http://purl.obolibrary.org/obo/FOODON_03414323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414323">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4679"/>
-        <rdfs:label xml:lang="en">obsolete: silverskin onion plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">silverskin onion plant</rdfs:label>
     </owl:Class>
     
 
@@ -17141,11 +16989,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03414325 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414325">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4081"/>
-        <rdfs:label xml:lang="en">obsolete: beefsteak tomato plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414325"/>
     
 
 
@@ -17171,11 +17015,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03414329 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414329">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13427"/>
-        <rdfs:label xml:lang="en">obsolete: sugar loaf chicory plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414329"/>
     
 
 
@@ -17395,11 +17235,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03414369 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414369">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8839"/>
-        <rdfs:label xml:lang="en">obsolete: pekin duck</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414369"/>
     
 
 
@@ -19283,11 +19119,7 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03414950 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414950">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_175226"/>
-        <rdfs:label xml:lang="en">obsolete: skunk currant plant</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414950"/>
     
 
 
@@ -22003,9 +21835,41 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: Northern America</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00003040">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">obsolete: fruit (whole)</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-24T14:42:31Z</dc:date>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
+        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414554">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414184"/>
+        <rdfs:label xml:lang="en">obsolete: wood cauliflower</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420165">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">obsolete: fruit or seed</rdfs:label>
+        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0165"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

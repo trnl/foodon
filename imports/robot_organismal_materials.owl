@@ -71,6 +71,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -85,6 +91,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FAO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000007"/>
     
 
 
@@ -186,7 +198,17 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-13T05:53:56Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">macadamia nut|bauple nut|bauple|boombera|bush nut|gyndl|Hawaii nut|jindilli|macadamia|maroochi nut|Queensland nut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Hawaii nut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Queensland nut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bauple</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bauple nut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">boombera</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bush nut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gyndl</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">jindilli</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">macadamia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">macadamia nut</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">maroochi nut</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">macadamia nut (whole)</rdfs:label>
     </owl:Class>
     
@@ -212,7 +234,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Common_wheat</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-25T16:34:00Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">bread wheat kernel|bread wheat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bread wheat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bread wheat kernel</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">About 95% of wheat produced worldwide is common wheat.</rdfs:comment>
         <rdfs:label xml:lang="en">common wheat kernel</rdfs:label>
     </owl:Class>
@@ -290,7 +313,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-07T16:25:15Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">arabica coffee bean|arabica bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">arabica bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">arabica coffee bean</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">arabica coffee bean (whole)</rdfs:label>
     </owl:Class>
     
@@ -561,7 +585,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030103"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00003478"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42229"/>
@@ -569,7 +593,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030103"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003478"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A drupe fruit of a sweet cherry plant (Prunus avium).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
@@ -784,7 +808,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T15:53:41Z</terms:date>
         <oboInOwl:hasExactSynonym xml:lang="en">lettuce</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">lettuce leaf (whole)</rdfs:label>
+        <rdfs:label xml:lang="en">lettuce leaf (anatomical)</rdfs:label>
     </owl:Class>
     
 
@@ -809,7 +833,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T22:30:15Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">maize kernel|corn kernel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">corn kernel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">maize kernel</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">maize kernel (whole)</rdfs:label>
     </owl:Class>
     
@@ -835,7 +860,8 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T22:30:40Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">maize cob|corn cob</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">corn cob</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">maize cob</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">maize cob (whole)</rdfs:label>
     </owl:Class>
     
@@ -1230,6 +1256,157 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003462">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FAO_0000007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000323"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5341"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007021"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003465"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A white-colored immature fruitbody of a cultivated mushroom fungus (Agaricus bisporus).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-13T05:45:46Z</terms:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">button mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">champignon mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">common mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cultivated mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">table mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">white mushroom</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">white mushroom (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003463">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FAO_0000007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000952"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5341"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007021"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003465"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A brown-colored immature fruitbody of a cultivated mushroom fungus (Agaricus bisporus).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-13T05:45:46Z</terms:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">Italian brown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Italian mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Roman brown mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Swiss brown mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">brown cap mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">chestnut mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cremini</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">crimini mushroom</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">brown mushroom (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003464">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FAO_0000007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5341"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007023"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003465"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A mature fruitbody of a cultivated mushroom fungus (Agaricus bisporus).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-13T05:45:46Z</terms:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">portabella mushroom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">portobella mushroom</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">portobello mushroom (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003465">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FAO_0000007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5341"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000007"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A fruitbody of a cultivated mushroom fungus (Agaricus bisporus).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-13T05:45:46Z</terms:date>
+        <rdfs:label xml:lang="en">cultivated mushroom (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003478"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301227">
@@ -1249,7 +1426,11 @@
         <obo:IAO_0000115 xml:lang="en">A seed of a broad bean plant (Vicia faba).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym xml:lang="en">broad bean|broadbean|faba bean|fava bean|Windsor bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Windsor bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">broad bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">broadbean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">faba bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">fava bean</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">broad bean (whole)</rdfs:label>
     </owl:Class>
     
@@ -1299,7 +1480,9 @@
         <obo:IAO_0000115 xml:lang="en">A seed of a soyabean plant (Glycine max).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym xml:lang="en">soy bean|soya bean|soybean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">soy bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">soya bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">soybean</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">soybean (whole)</rdfs:label>
     </owl:Class>
     
@@ -1349,7 +1532,8 @@
         <obo:IAO_0000115 xml:lang="en">A seed of a chickpea plant (Cicer arietinum).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym xml:lang="en">chickpea|chick pea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">chick pea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">chickpea</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">chickpea (whole)</rdfs:label>
     </owl:Class>
     
@@ -1524,7 +1708,8 @@
         <obo:IAO_0000115 xml:lang="en">A primary root of a beetroot plant (Beta vulgaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym xml:lang="en">beetroot|beet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">beet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">beetroot</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">beetroot (whole)</rdfs:label>
     </owl:Class>
     
@@ -1836,6 +2021,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5341"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_60698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_60698"/>
@@ -1845,6 +2036,18 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_82528 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_82528"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000323"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000952"/>
     
 
 
@@ -1989,9 +2192,21 @@
     <!-- http://purl.obolibrary.org/obo/PO_0030115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007021"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007023"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
