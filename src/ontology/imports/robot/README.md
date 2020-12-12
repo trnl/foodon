@@ -34,6 +34,9 @@ robot template --template fdc.tsv \
 robot template --template organismal_materials.tsv \
   --input "../../foodon-merged.owl" \
   --prefix "PO:http://purl.obolibrary.org/obo/PO_" \
+  --prefix "FAO:http://purl.obolibrary.org/obo/FAO_" \
+  --prefix "NCBITaxon:http://purl.obolibrary.org/obo/NCBITaxon_" \
+  --prefix "BFO:http://purl.obolibrary.org/obo/BFO_" \
   --prefix "FOODON:http://purl.obolibrary.org/obo/FOODON_" \
   --prefix "IAO:http://purl.obolibrary.org/obo/IAO_" \
   --prefix "RO:http://purl.obolibrary.org/obo/RO_" \
