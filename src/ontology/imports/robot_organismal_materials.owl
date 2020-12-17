@@ -126,6 +126,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002753"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00002775 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002775">
@@ -334,14 +340,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002753"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a common bean plant (Phaseolus vulgaris).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-08T18:42:03Z</terms:date>
         <oboInOwl:hasExactSynonym xml:lang="en">common bean</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">common bean seed</rdfs:label>
+        <rdfs:label xml:lang="en">common bean (whole)</rdfs:label>
     </owl:Class>
     
 
@@ -977,7 +983,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00003477"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32247"/>
@@ -985,7 +991,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003477"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A fruit of a raspberry plant (Rubus idaeus).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
@@ -1106,7 +1112,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030107"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00003592"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3747"/>
@@ -1114,7 +1120,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003592"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An achene fruit of strawberry plant  (Fragaria × ananassa).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
@@ -1401,9 +1407,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003477"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00003478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003478"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003592"/>
     
 
 
