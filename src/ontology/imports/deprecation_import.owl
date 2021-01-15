@@ -3885,7 +3885,11 @@
 
     <!-- http://purl.obolibrary.org/obo/FOODON_03411161 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411161">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:label xml:lang="en">obsolete: cattle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -21862,8 +21866,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: peach tree</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
-        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
+        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414316">

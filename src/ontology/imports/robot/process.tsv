@@ -1,16 +1,16 @@
 Ontology Id	label	parent	has input	has output	equivalency	definition	comment	cross reference	see also	synonym	exact synonym	narrow synonym	definition source	author	curation status	created
-ID	LABEL	SC % SPLIT=|	SC 'has input' some % SPLIT=|	SC 'has output' some % SPLIT=|	EC %	AL IAO:0000115@en	A rdfs:comment	A oboInOwl:hasDbXref SPLIT=|	A rdfs:seeAlso SPLIT=|	AL oboInOwl:hasSynonym@en	AL oboInOwl:hasExactSynonym@en	AL oboInOwl:hasNarrowSynonym@en	A IAO:0000119	A IAO:0000117 SPLIT=|	A IAO:0000114	A dc:date
+ID	AL rdfs:label@en	SC % SPLIT=|	SC 'has input' some % SPLIT=|	SC 'has output' some % SPLIT=|	EC %	AL IAO:0000115@en	AL rdfs:comment@en	A oboInOwl:hasDbXref SPLIT=|	A rdfs:seeAlso SPLIT=|	AL oboInOwl:hasSynonym@en	AL oboInOwl:hasExactSynonym@en	AL oboInOwl:hasNarrowSynonym@en	A IAO:0000119	A IAO:0000117 SPLIT=|	A IAO:0000114	A dc:date
 BFO:0000015	process															
 FOODON:00003374	harvested food material															
 FOODON:00003402	pre-harvest food material															
-														
+FOODON:00001868	food filling product															
 FOODON:00002403	food material															
-														
+FOODON:03411345	yeast															
 																
 																
 FOODON:00002451	food transformation process	process		food material		A process involving the physical transformation of a food source or food product into some derived organic material or food product								Damion Dooley	requires discussion	
 FOODON:00000071	food cutting process	physical/chemical modification process				A process of cutting food into smaller pieces, chunks or slices.								Damion Dooley		
-FOODON:00001304	food fermentation	food preservation process|microbial/enzymatic modification process		food (fermented)		A fermentation process in which either carbohydrates, proteins or fats are modified through microbial, enzymatic and/or other biological process.								Damion Dooley		
+FOODON:00001304	food fermentation	food preservation process | microbial/enzymatic modification process		food (fermented)		A fermentation process in which either carbohydrates, proteins or fats are modified through microbial, enzymatic and/or other biological process.								Damion Dooley		
 FOODON:00002404	meat roasting	food baking				Roasting is a baking process when the food being baked is meats								Damion Dooley		
 FOODON:00002409	food physical forming process	physical/chemical modification process				Modification through physical treatment to affect the shape quality of a food product.								Damion Dooley		
 FOODON:00002414	food solvent extraction process	physical/chemical modification process				Extraction of substance(s) from a food source using a solvent such as alcohol, hexane, or ethanol.								Damion Dooley		
