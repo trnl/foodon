@@ -21861,6 +21861,11 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301071"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03310858">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002426"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">obsolete: rocket (raw)</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411350">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3760"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21871,9 +21876,14 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: muskmelon plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412474">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29727"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">obsolete: rocket plant</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
-        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
+        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414316">
