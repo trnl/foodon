@@ -58,6 +58,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411324"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411563"/>
@@ -21570,6 +21576,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411324"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147429"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</rdfs:label>
