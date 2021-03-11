@@ -47,6 +47,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -55,6 +61,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411324"/>
     
 
 
@@ -21570,6 +21582,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411324"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147429"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</rdfs:label>
@@ -30531,6 +30544,13 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reperepe</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callorhinchus milii</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7868"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghost shark</owl:annotatedTarget>
+        <oboInOwl:inSubset xml:lang="en">FDA Seafood:market name</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">Used only in Washington state</rdfs:comment>
+    </owl:Axiom>
     
 
 

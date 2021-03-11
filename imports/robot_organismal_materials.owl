@@ -251,17 +251,6 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00003206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003206">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3818"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a peanut plant (Arachis hypogaea).</obo:IAO_0000115>
@@ -419,12 +408,12 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000014"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A rosette leaf of a cabbage plant (Brassica oleracea var. capitata).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A rosette of a cabbage plant (Brassica oleracea var. capitata).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoodOn</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-09T07:20:47Z</terms:date>
         <oboInOwl:hasExactSynonym xml:lang="en">cabbage</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">cabbage (whole)</rdfs:label>
+        <rdfs:label xml:lang="en">cabbage head</rdfs:label>
     </owl:Class>
     
 
