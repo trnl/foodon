@@ -1,0 +1,253 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/foodon/imports/general_import.owl
+
+[Source ontology]
+AGRO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/AGRO_00002071 # agricultural process
+http://purl.obolibrary.org/obo/AGRO_00000025 #      plant harvesting process
+http://purl.obolibrary.org/obo/AGRO_01000020 #      crop cultivation process
+http://purl.obolibrary.org/obo/AGRO_00000322 #      treatment
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+###########################################
+
+[Source ontology]
+ONS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ONS_1000001 # diet
+includeAllChildren
+http://purl.obolibrary.org/obo/ONS_0000094 # dietary pattern
+includeAllChildren
+http://purl.obolibrary.org/obo/ONS_0000085 # Meal
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+#http://www.w3.org/2000/01/rdf-schema#label
+#http://purl.obolibrary.org/obo/IAO_0000115 
+#http://purl.obolibrary.org/obo/IAO_0000111
+#http://purl.obolibrary.org/obo/IAO_0000114
+#http://purl.obolibrary.org/obo/IAO_0000119
+#http://purl.obolibrary.org/obo/OBI_0001886
+
+###########################################
+
+[Source ontology]
+FAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FAO_0000001
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FAO_0000001 # fungal structure
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
+
+[Source ontology]
+CDNO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CDNO_0000001 # dietary nutritional component
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
+
+[Source ontology]
+HANCESTRO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HANCESTRO_0004 # ancestry category
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+###########################################
+
+[Source ontology]
+COB
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/COB_0000066 # physico-chemical process
+http://purl.obolibrary.org/obo/COB_0000037 # biological process
+#http://purl.obolibrary.org/obo/COB_0000082 # planned process
+
+http://purl.obolibrary.org/obo/COB_0000086 # executes
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/COB_0000034 # process
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+###########################################
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/NCIT_C25464 # country
+
+http://purl.obolibrary.org/obo/NCIT_C45305 # Mixture
+http://purl.obolibrary.org/obo/NCIT_C944 # vitamin
+http://purl.obolibrary.org/obo/NCIT_C80248 # Meal
+includeAllChildren
+
+# Accepting these animal terms though they resolve to another ontology?
+http://purl.obolibrary.org/obo/NCIT_C14238 # Mouse
+http://purl.obolibrary.org/obo/NCIT_C14212 # Hamster
+http://purl.obolibrary.org/obo/NCIT_C14191 # cat
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
+
+###########################################
+
+[Source ontology]
+PECO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PECO_0007027 #seasonal environment exposure
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+###########################################
+
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0002303 # decreased quality
+http://purl.obolibrary.org/obo/PATO_0002305 # increased quality
+http://purl.obolibrary.org/obo/PATO_0000069 # deviation from normal
+
+http://purl.obolibrary.org/obo/PATO_0002138 # edibility
+includeAllChildren
+
+http://purl.obolibrary.org/obo/PATO_0001800 # water composition
+includeAllChildren
+
+http://purl.obolibrary.org/obo/PATO_0001894 # phenotypic sex
+includeAllChildren
+
+http://purl.obolibrary.org/obo/PATO_0001546 # quality of a solid
+includeAllChildren
+http://purl.obolibrary.org/obo/PATO_0001547 # quality of a gas 
+http://purl.obolibrary.org/obo/PATO_0001548 # quality of a liquid 
+includeAllChildren
+http://purl.obolibrary.org/obo/PATO_0000586 # increased size
+http://purl.obolibrary.org/obo/PATO_0000587 # decreased size
+http://purl.obolibrary.org/obo/PATO_0001708 # 1-D extent
+includeAllChildren
+http://purl.obolibrary.org/obo/PATO_0000146 # temperature
+includeAllChildren
+
+http://purl.obolibrary.org/obo/PATO_0000014 # color
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+
+###########################################
+
+[Source ontology]
+ECOCORE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ECOCORE_00000008 #trophic process
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
