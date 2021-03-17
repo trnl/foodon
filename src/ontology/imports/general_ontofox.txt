@@ -1,6 +1,89 @@
 [URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/foodon/imports/general_import.owl
 
+###########################################
+
+
+[Source ontology]
+OBI
+
+[Low level source term URIs] 
+http://purl.obolibrary.org/obo/OBI_0100026 # organism
+
+http://purl.obolibrary.org/obo/OBI_0001886 # NIAID GSCID-BRC alternative term
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/IAO_0000027 #    data item
+http://purl.obolibrary.org/obo/OBI_0000679 #        average value
+http://purl.obolibrary.org/obo/IAO_0000100 #        data set
+http://purl.obolibrary.org/obo/OBI_0001933 #    value specification
+http://purl.obolibrary.org/obo/OBI_0001930 #       categorical value specification
+http://purl.obolibrary.org/obo/OBI_0001931 #       scalar value specification
+http://purl.obolibrary.org/obo/OBI_0001929 #           mass value specification
+http://purl.obolibrary.org/obo/OBI_0002138 #           temperature value specification
+http://purl.obolibrary.org/obo/OBI_0002139 #           volume value specification
+
+http://purl.obolibrary.org/obo/IAO_0000028 #    symbol
+
+http://purl.obolibrary.org/obo/OBI_0000938 # categorical measurement datum
+http://purl.obolibrary.org/obo/IAO_0000032 #       scalar measurement datum
+
+http://purl.obolibrary.org/obo/IAO_0000408 #          length measurement datum
+http://purl.obolibrary.org/obo/IAO_0000414 #          mass measurement datum
+http://purl.obolibrary.org/obo/IAO_0000416 #          time measurement datum
+http://purl.obolibrary.org/obo/OBI_0001619 #             specimen collection time measurement datum
+
+http://purl.obolibrary.org/obo/IAO_0000078 # curation status specification
+http://purl.obolibrary.org/obo/IAO_0000428 #    requires discussion 
+http://purl.obolibrary.org/obo/IAO_0000120 #    metadata complete 
+http://purl.obolibrary.org/obo/IAO_0000122 #ready for release
+http://purl.obolibrary.org/obo/IAO_0000124 #uncurated
+http://purl.obolibrary.org/obo/IAO_0000002 #example to be eventually removed
+http://purl.obolibrary.org/obo/IAO_0000121 #organizational term
+http://purl.obolibrary.org/obo/IAO_0000423 #to be replaced with external ontology term
+http://purl.obolibrary.org/obo/IAO_0000123 #metadata incomplete
+http://purl.obolibrary.org/obo/IAO_0000125 #pending final vetting
+
+http://purl.obolibrary.org/obo/OBI_0000437 # analyte measurement objective
+
+# INFORMATION CONTENT 
+http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
+http://purl.obolibrary.org/obo/OBI_0200170 #    averaging data transformation
+http://purl.obolibrary.org/obo/OBI_0200079 # arithmetic mean calculation
+
+http://purl.obolibrary.org/obo/OBI_0001755 # selection criterion
+http://purl.obolibrary.org/obo/OBI_0001885 # specimen repository organization
+http://purl.obolibrary.org/obo/OBI_0001619 # specimen collection time measurement datum
+
+# PROCESSES
+http://purl.obolibrary.org/obo/OBI_0000659 # specimen collection process
+http://purl.obolibrary.org/obo/OBI_0000443 # analyte assay
+
+# RELATIONS
+http://purl.obolibrary.org/obo/BFO_0000050 # is part of
+http://purl.obolibrary.org/obo/RO_0000052 # inheres in
+http://purl.obolibrary.org/obo/IAO_0000136 # is about
+http://purl.obolibrary.org/obo/OBI_0001927 # specifies value of
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001
+#subClassOf
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+
+[Source annotation URIs]
+#includeAllAxioms
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+###########################################
+
 [Source ontology]
 AGRO
 
@@ -14,7 +97,7 @@ http://purl.obolibrary.org/obo/AGRO_00000322 #      treatment
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
 includeAllAnnotationProperties
@@ -190,7 +273,8 @@ PATO
 http://purl.obolibrary.org/obo/PATO_0002303 # decreased quality
 http://purl.obolibrary.org/obo/PATO_0002305 # increased quality
 http://purl.obolibrary.org/obo/PATO_0000069 # deviation from normal
-
+http://purl.obolibrary.org/obo/PATO_0000125 # mass
+http://purl.obolibrary.org/obo/PATO_0000918 # volume
 http://purl.obolibrary.org/obo/PATO_0002138 # edibility
 includeAllChildren
 
@@ -251,3 +335,352 @@ http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
 http://purl.obolibrary.org/obo/OBI_0001886
+
+###########################################
+
+
+[Source ontology]
+PO
+
+[Low level source term URIs]
+
+
+http://purl.obolibrary.org/obo/PO_0000056 # flower bud
+http://purl.obolibrary.org/obo/PO_0000003 # whole plant
+
+http://purl.obolibrary.org/obo/PO_0009001 #fruit
+includeAllChildren
+http://purl.obolibrary.org/obo/PO_0009010 # seed
+http://purl.obolibrary.org/obo/PO_0025034 # leaf
+includeAllChildren
+http://purl.obolibrary.org/obo/PO_0025099 # plant embryo structure
+http://purl.obolibrary.org/obo/PO_0009072 # plant ovary
+http://purl.obolibrary.org/obo/PO_0030100 # legume fruit
+
+http://purl.obolibrary.org/obo/PO_0009086 # hardened endocarp
+http://purl.obolibrary.org/obo/PO_0009087 # fleshy mesocarp 
+http://purl.obolibrary.org/obo/PO_0009084 # pericarp
+http://purl.obolibrary.org/obo/PO_0009085 # exocarp
+http://purl.obolibrary.org/obo/PO_0009065 # hypanthium
+http://purl.obolibrary.org/obo/PO_0009064 # receptacle
+# The apple flesh part we eat is actually the hypanthium (PO:0009065), (but some sources refer to it as a receptacle (PO:0009064) ("indistinguishable from persistent, accrescent receptacle").
+http://purl.obolibrary.org/obo/PO_0020038 # petiole
+
+http://purl.obolibrary.org/obo/PO_0004547 # subterranian shoot axis tuber
+http://purl.obolibrary.org/obo/PO_0025476 # tuberous root tuber
+http://purl.obolibrary.org/obo/PO_0025356 # bulb
+http://purl.obolibrary.org/obo/PO_0025355 # corm
+http://purl.obolibrary.org/obo/PO_0004542 # rhizome
+http://purl.obolibrary.org/obo/PO_0009005 # root
+http://purl.obolibrary.org/obo/PO_0020100 # hypocotyl
+http://purl.obolibrary.org/obo/PO_0004518 # bark
+
+http://purl.obolibrary.org/obo/PO_0025475 # coleorhiza emergence stage
+
+http://purl.obolibrary.org/obo/PO_0030103 # drupe fruit
+http://purl.obolibrary.org/obo/PO_0020127 # primary root
+http://purl.obolibrary.org/obo/PO_0006320 # ear spikelet
+http://purl.obolibrary.org/obo/PO_0030108 # berry fruit
+http://purl.obolibrary.org/obo/PO_0030107 # achene fruit
+http://purl.obolibrary.org/obo/PO_0030104 # caryopsis fruit
+http://purl.obolibrary.org/obo/PO_0004709 # axillary bud
+http://purl.obolibrary.org/obo/PO_0004543 # shoot axis tuber
+http://purl.obolibrary.org/obo/PO_0030109 # hesperidium fruit
+http://purl.obolibrary.org/obo/PO_0030111 # pepo fruit
+http://purl.obolibrary.org/obo/PO_0000014 # rosette leaf
+http://purl.obolibrary.org/obo/PO_0025615 # rosette
+http://purl.obolibrary.org/obo/PO_0009066 # anther
+http://purl.obolibrary.org/obo/PO_0030123 # panicle inflorescence
+http://purl.obolibrary.org/obo/PO_0030110 # pome fruit
+http://purl.obolibrary.org/obo/PO_0030102 # nut fruit
+http://purl.obolibrary.org/obo/PO_0009047 # stem
+http://purl.obolibrary.org/obo/PO_0030115 # raceme inflorescence
+http://purl.obolibrary.org/obo/PO_0025597 # ear infructescence
+
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PO_0009011 # plant structure
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+#http://www.w3.org/2000/01/rdf-schema#label
+#http://purl.obolibrary.org/obo/IAO_0000115 
+#http://purl.obolibrary.org/obo/IAO_0000111
+#http://purl.obolibrary.org/obo/IAO_0000114
+#http://purl.obolibrary.org/obo/IAO_0000119
+#http://purl.obolibrary.org/obo/OBI_0001886
+
+
+[Source ontology]
+PO
+
+[Low level source term URIs]
+
+# This section exists just to organize classes that would otherwise just
+# hang out at top level because they were introduced with the includeAllAxioms
+# command
+http://purl.obolibrary.org/obo/PO_0006089 # anther primordium
+http://purl.obolibrary.org/obo/PO_0025073 # branch
+http://purl.obolibrary.org/obo/PO_0025528 # bud development stage
+http://purl.obolibrary.org/obo/PO_0009030 # carpel
+http://purl.obolibrary.org/obo/PO_0000015 # cotyledon primordium
+http://purl.obolibrary.org/obo/PO_0020136 # ear inflorescence
+http://purl.obolibrary.org/obo/PO_0009046 # flower
+http://purl.obolibrary.org/obo/PO_0030018 # gametophore
+http://purl.obolibrary.org/obo/PO_0009062 # gynoecium
+http://purl.obolibrary.org/obo/PO_0001083 # inflorescence development stage
+http://purl.obolibrary.org/obo/PO_0025128 # phyllome primordium
+http://purl.obolibrary.org/obo/PO_0009009 # plant embryo
+http://purl.obolibrary.org/obo/PO_0020003 # plant ovule
+http://purl.obolibrary.org/obo/PO_0025277 # pollen sac
+http://purl.obolibrary.org/obo/PO_0025530 # reproductive shoot system development stage
+http://purl.obolibrary.org/obo/PO_0005029 # root primordium
+http://purl.obolibrary.org/obo/PO_0025025 # root system
+http://purl.obolibrary.org/obo/PO_0005043 # secondary phloem
+http://purl.obolibrary.org/obo/PO_0007057 # seed germination stage
+http://purl.obolibrary.org/obo/PO_0025297 # seedling radicle
+http://purl.obolibrary.org/obo/PO_0028002 # sporophyte development stage
+http://purl.obolibrary.org/obo/PO_0009029 # stamen
+http://purl.obolibrary.org/obo/PO_0025523 # tuberous root
+http://purl.obolibrary.org/obo/PO_0000017 # vascular leaf primordium
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PO_0009011 # plant structure
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+###########################################
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002577 # system
+
+http://purl.obolibrary.org/obo/RO_0001900 # temporal interpretation
+http://purl.obolibrary.org/obo/BFO_0000051 # has part
+http://purl.obolibrary.org/obo/BFO_0000054 # part of
+http://purl.obolibrary.org/obo/RO_0002473 # composed primarily of
+http://purl.obolibrary.org/obo/RO_0002350 # member of
+http://purl.obolibrary.org/obo/RO_0002351 # has member
+
+http://purl.obolibrary.org/obo/RO_0000086 # has quality
+http://purl.obolibrary.org/obo/RO_0000087 # has_role
+http://purl.obolibrary.org/obo/RO_0001000 # Derives from
+http://purl.obolibrary.org/obo/RO_0001020 # [material entity] is allergic triger for [phenotype/disease]
+http://purl.obolibrary.org/obo/RO_0001022 # [phenotype/disease] has allergic trigger [material entity]
+http://purl.obolibrary.org/obo/RO_0001025 # Located In (preferrably "immersed in")
+http://purl.obolibrary.org/obo/RO_0002220 # Adjacent to (AT SOME POINT IN TIME)
+
+http://purl.obolibrary.org/obo/RO_0002215 # capable of
+ 
+http://purl.obolibrary.org/obo/RO_0002219 # surrounded by
+http://purl.obolibrary.org/obo/RO_0003001 # produced by
+
+http://purl.obolibrary.org/obo/RO_0002162 # in taxon
+
+# Added specially for FoodOn:
+http://purl.obolibrary.org/obo/RO_0009001 # has substance added
+http://purl.obolibrary.org/obo/RO_0009005 # has primary substance added
+http://purl.obolibrary.org/obo/RO_0009002 # has substance removed
+http://purl.obolibrary.org/obo/RO_0009003 # immersed in
+http://purl.obolibrary.org/obo/RO_0009004 # has consumer
+
+http://purl.obolibrary.org/obo/RO_0000052 # inheres in
+includeAllChildren
+
+http://purl.obolibrary.org/obo/RO_0002233 # has input
+http://purl.obolibrary.org/obo/RO_0002234 # has output
+
+http://purl.obolibrary.org/obo/RO_0000056 # participates in
+http://purl.obolibrary.org/obo/RO_0002352 # input of
+http://purl.obolibrary.org/obo/RO_0002353 # output of
+http://purl.obolibrary.org/obo/RO_0002233 # has input
+http://purl.obolibrary.org/obo/RO_0002234 # has output
+
+http://purl.obolibrary.org/obo/RO_0002354 #     formed as a result of [process]
+
+http://purl.obolibrary.org/obo/BFO_0000055 # realizes
+http://purl.obolibrary.org/obo/RO_0000085 # has function
+http://purl.obolibrary.org/obo/RO_0001001 # derives into
+http://purl.obolibrary.org/obo/RO_0002221 # surrounds
+http://purl.obolibrary.org/obo/RO_0002224 # starts with
+http://purl.obolibrary.org/obo/RO_0002230 # ends with
+http://purl.obolibrary.org/obo/RO_0002608 # process has causal agent
+http://purl.obolibrary.org/obo/RO_HOM0000000 # in similarity relationship with
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.w3.org/2002/07/owl#topObjectProperty
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+# includeAllAxioms
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000119
+
+###########################################
+
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000978 # leg
+http://purl.obolibrary.org/obo/UBERON_0001474 # bone element
+http://purl.obolibrary.org/obo/UBERON_0006611 # exoskeleton / shell
+http://purl.obolibrary.org/obo/UBERON_0000468 # multicellular organism
+includeAllChildren
+
+http://purl.obolibrary.org/obo/UBERON_0001630 # muscle organ
+http://purl.obolibrary.org/obo/UBERON_0002385 # muscle tissue
+
+http://purl.obolibrary.org/obo/UBERON_0002472 # stylopod
+includeAllChildren
+http://purl.obolibrary.org/obo/UBERON_0002471 # zeugopod
+includeAllChildren
+
+http://purl.obolibrary.org/obo/UBERON_0006314 # body fluid
+
+http://purl.obolibrary.org/obo/UBERON_0001911 # Mammary gland
+http://purl.obolibrary.org/obo/UBERON_0005052 # GIZZARD
+http://purl.obolibrary.org/obo/UBERON_0007379 # WHOLE EGG IN SHELL
+http://purl.obolibrary.org/obo/UBERON_0002371 # BONE MARROW
+http://purl.obolibrary.org/obo/UBERON_0002107 # LIVER
+http://purl.obolibrary.org/obo/UBERON_0000178 # BLOOD
+http://purl.obolibrary.org/obo/UBERON_0002048 # LUNG
+http://purl.obolibrary.org/obo/UBERON_0036016 # HONEY
+http://purl.obolibrary.org/obo/UBERON_0001723 # TONGUE
+http://purl.obolibrary.org/obo/UBERON_0002106 # SPLEEN
+http://purl.obolibrary.org/obo/UBERON_0002097 # SKIN, ANIMAL
+http://purl.obolibrary.org/obo/UBERON_0002113 # KIDNEY
+http://purl.obolibrary.org/obo/UBERON_0000955 # BRAIN
+http://purl.obolibrary.org/obo/UBERON_0000948 # HEART (ANIMAL)
+http://purl.obolibrary.org/obo/UBERON_0001264 # PANCREAS
+http://purl.obolibrary.org/obo/UBERON_0000945 # STOMACH
+http://purl.obolibrary.org/obo/UBERON_0000160 # INTESTINE
+http://purl.obolibrary.org/obo/UBERON_0000022 # FEATHER
+http://purl.obolibrary.org/obo/UBERON_0007366 # RUMINANT STOMACH
+http://purl.obolibrary.org/obo/UBERON_0001913 # MILK
+http://purl.obolibrary.org/obo/UBERON_0008944 # EGG WHITE, ALBUMEN
+http://purl.obolibrary.org/obo/UBERON_0000970 # EYE
+http://purl.obolibrary.org/obo/UBERON_0002370 # THYMUS
+http://purl.obolibrary.org/obo/UBERON_0005079 # EGG SHELL
+http://purl.obolibrary.org/obo/UBERON_0008897 # FIN
+http://purl.obolibrary.org/obo/UBERON_0006860 # AIR BLADDER
+http://purl.obolibrary.org/obo/UBERON_0001690 # EAR
+
+http://purl.obolibrary.org/obo/UBERON_0007378 # EGG YOLK
+http://purl.obolibrary.org/obo/UBERON_0007379 # egg with shell
+http://purl.obolibrary.org/obo/UBERON_0005079 # eggshell
+http://purl.obolibrary.org/obo/UBERON_0008944 # albumen
+
+http://purl.obolibrary.org/obo/UBERON_0001013 # adipose tissue
+
+http://purl.obolibrary.org/obo/UBERON_0008270 # mollusc shell
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
+
+###########################################
+
+[Source ontology]
+UO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UO_0010033 #ounce
+http://purl.obolibrary.org/obo/UO_0010026 #fluid ounce
+http://purl.obolibrary.org/obo/UO_0000021 #gram
+http://purl.obolibrary.org/obo/UO_0000022 #milligram
+http://purl.obolibrary.org/obo/UO_0000098 #milliliter
+http://purl.obolibrary.org/obo/UO_0000099 #liter
+http://purl.obolibrary.org/obo/UO_0010034 #pound
+http://purl.obolibrary.org/obo/UO_0000009 #kilogram
+http://purl.obolibrary.org/obo/UO_0010011 #inch
+http://purl.obolibrary.org/obo/UO_0010013 #foot
+http://purl.obolibrary.org/obo/UO_0000008 #meter
+http://purl.obolibrary.org/obo/UO_0000015 #centimeter
+http://purl.obolibrary.org/obo/UO_0000016 #millimeter
+http://purl.obolibrary.org/obo/UO_0000110 #pascal
+http://purl.obolibrary.org/obo/UO_0000112 #joule
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+
+http://purl.obolibrary.org/obo/UO_0010051 # large calorie
+
+http://purl.obolibrary.org/obo/UO_0000114 #watt
+http://purl.obolibrary.org/obo/UO_0010030 #gallon
+http://purl.obolibrary.org/obo/UO_0010028 #pint
+http://purl.obolibrary.org/obo/UO_0010029 #quart
+http://purl.obolibrary.org/obo/UO_0010027 #gill
+
+http://purl.obolibrary.org/obo/UO_0010040 # teaspoon 
+http://purl.obolibrary.org/obo/UO_0010041 # united states customary teaspoon
+http://purl.obolibrary.org/obo/UO_0010042 # tablespoon
+http://purl.obolibrary.org/obo/UO_0010043 # australian metric tablespoon
+http://purl.obolibrary.org/obo/UO_0010044 # united states customary tablespoon 
+http://purl.obolibrary.org/obo/UO_0010045 # metric cup
+http://purl.obolibrary.org/obo/UO_0010046 # united states customary cup
+http://purl.obolibrary.org/obo/UO_0010047 # united states fda cup
+
+http://purl.obolibrary.org/obo/UO_0000010 #second
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+http://purl.obolibrary.org/obo/UO_0000033 #day
+http://purl.obolibrary.org/obo/UO_0000034 #week
+http://purl.obolibrary.org/obo/UO_0000035 #month
+http://purl.obolibrary.org/obo/UO_0000036 #year
+
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+
+http://purl.obolibrary.org/obo/UO_0000173 #gram per milliliter
+
+http://purl.obolibrary.org/obo/UO_0000191 #fraction
+http://purl.obolibrary.org/obo/UO_0000187 #percent
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UO_0000000
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://www.w3.org/2000/01/rdf-schema#seeAlso
