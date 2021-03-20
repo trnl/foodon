@@ -98,17 +98,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_12777 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_12777">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26537"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of fat-soluble retinoids produced via metabolism of provitamin A carotenoids. Vitamin A is involved in immune function, vision, reproduction, and cellular communication.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin A</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_131526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_131526">
@@ -445,23 +434,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_15956 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15956">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51570"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic heterobicyclic compound that consists of 2-oxohexahydro-1H-thieno[3,4-d]imidazole having a valeric acid substituent attached to the tetrahydrothiophene ring. The parent of the class of biotins.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotin</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_16199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29347"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbonyl group with two C-bound amine groups.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbonyl group with two C-bound amine groups. The commercially available fertilizer has an analysis of 46-0-0 (N-P2O5-K2O).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea</rdfs:label>
     </owl:Class>
@@ -548,6 +526,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribosyl or deoxyribosyl derivative of a pyrimidine or purine base in which C-5 of the ribose ring is mono-, di-, tri- or tetra-phosphorylated.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoside 5&apos;-phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_167559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_167559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78616"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any oligosaccharide, polysaccharide or their derivatives consisting of monosaccharides or monosaccharide derivatives linked by glycosidic bonds. See also http://www.ontobee.org/ontology/GNO?iri=http://purl.obolibrary.org/obo/GNO_00000001.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycan</rdfs:label>
     </owl:Class>
     
 
@@ -926,6 +915,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47778"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76579"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any glyceride resulting from the condensation of all three hydroxy groups of glycerol (propane-1,2,3-triol) with fatty acids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triglyceride</rdfs:label>
@@ -1038,6 +1028,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167559"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -1156,17 +1147,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48154"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur dioxide</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_85046"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin C</rdfs:label>
     </owl:Class>
     
 
@@ -1374,16 +1354,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds containing a phenylmethanol skeleton.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzyl alcohols</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_22823 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22823">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83812"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-alanine derivative</rdfs:label>
     </owl:Class>
     
 
@@ -2664,18 +2634,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25848 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25848">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22823"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class of amides formed from pantoic acid and beta-alanine and its derivatives.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pantothenic acids</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_25899 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25899">
@@ -2702,6 +2660,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25903">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemically diverse class of peptides that exhibit antimicrobial properties.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide antibiotic</rdfs:label>
     </owl:Class>
@@ -3726,17 +3685,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28384 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fat-soluble vitamin required for the synthesis of prothrombin and certain other blood coagulation factors.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin K</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_28659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28659">
@@ -3907,17 +3855,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_29073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22652"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The L-enantiomer of ascorbic acid and conjugate acid of L-ascorbate.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-ascorbic acid</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_29075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29075">
@@ -3990,17 +3927,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alkane that is propane substituted by a methyl group at position 2.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isobutane</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_30411 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23334"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cobalt-corrinoid hexaamide that is cobalamin with the oxidation state of the central cobalt atom unspecified.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalamin</rdfs:label>
     </owl:Class>
     
 
@@ -4441,9 +4367,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_3309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35156"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcium Gluconate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium gluconate</rdfs:label>
     </owl:Class>
     
 
@@ -4509,7 +4435,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27027"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52206"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any micronutrient that is an organic compound. The term &quot;vitamines&quot; (from vita + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biochemical role played by any micronutrient that is an organic compound. Vitamins are present in foods in small amounts and are essential to normal metabolism and biochemical functions, usually as coenzymes. The term &quot;vitamines&quot; (from vita + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin</rdfs:label>
     </owl:Class>
@@ -4689,7 +4615,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52211"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any material that can be ingested by an organism.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physiological role played by any substance of either plant, animal or artificial origin which contains essential body nutrients that can be ingested by an organism to provide energy, promote growth, and maintain the processes of life.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food</rdfs:label>
     </owl:Class>
@@ -5692,16 +5618,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hexose with a (potential) aldehyde group at one end.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aldohexose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33937 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33937">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33284"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macronutrient</rdfs:label>
     </owl:Class>
     
 
@@ -7167,28 +7083,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_38295 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azabicycloalkane</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_38297 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiabicycloalkane</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_38313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38313">
@@ -7688,16 +7582,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_47857 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47857">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ureas</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_47882 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47882">
@@ -7912,6 +7796,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50699">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167559"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound in which monosaccharide units are joined by glycosidic linkages. The term is commonly used to refer to a defined structure as opposed to a polymer of unspecified length or a homologous mixture. When the linkages are of other types the compounds are regarded as oligosaccharide analogues.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligosaccharide</rdfs:label>
@@ -8076,20 +7961,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carboxamide resulting from the formal condensation of a carboxylic acid with the amino group of an amino acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acyl-amino acid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_51570 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25384"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38295"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38297"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47857"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds containing a biotin (5-[(3aS,4S,6aR)-2-oxohexahydro-1H-thieno[3,4-d]imidazol-4-yl]pentanoic acid) skeleton.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotins</rdfs:label>
     </owl:Class>
     
 
@@ -9002,17 +8873,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_64857 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64857">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role played by a substance in enhancing the appearance or odour of the human body; a name given to the substance itself or to a component of it.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cosmetic</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_6495 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6495">
@@ -9028,6 +8888,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_65212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167559"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63299"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbohydrate derivative that is any derivative of a polysaccharide.</obo:IAO_0000115>
@@ -9285,7 +9146,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75769">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50733"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the group of eight water-soluble vitamins originally thought to be a single compound (vitamin B) that play important roles in cell metabolism. The group comprises vitamin B1, B2, B3, B5, B6, B7, B9, and B12. (Around 20 other compounds were once thought to be B vitamins but are no longer classified as such.)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role played by any of the group of eight water-soluble vitamins originally thought to be a single compound (vitamin B). The group comprises of vitamin B1, B2, B3, B5, B6, B7, B9, and B12 (Around 20 other compounds were once thought to be B vitamins but are no longer classified as such). B vitamins play important roles in cell metabolism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B vitamin</rdfs:label>
     </owl:Class>
@@ -9310,6 +9171,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mixture of 2-tert-butyl-4-hydroxyanisole and 3-tert-butyl-4-hydroxyanisole. Is is used as an antioxidant and preservative in food, cosmetics, pharmaceuticals, rubber and petroleum products.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">butylated hydroxyanisole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35741"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycerol compound having one of three possible substituent groups - either acyl, alkyl, or alk-1-enyl - at each of the three possible positions sn-1, sn-2 or sn-3. has functional parent glycerol (CHEBI:17754), children: triglyceride (CHEBI:17855). Parent: is_a glycerolipid (CHEBI:35741)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triradylglycerol</rdfs:label>
     </owl:Class>
     
 
@@ -9352,7 +9224,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52211"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food component</rdfs:label>
     </owl:Class>
@@ -9457,17 +9329,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A monocarboxylic acid in which the carbon of the carboxy group is directly attached to a C=C or C#C bond.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,beta-unsaturated monocarboxylic acid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_7916 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7916">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25848"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of pantothenic acids that is an amide formed from pantoic acid and beta-alanine.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pantothenic acid</rdfs:label>
     </owl:Class>
     
 
@@ -9614,17 +9475,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_83812 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83812">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83821"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any derivative of a non-proteinogenic amino acid resulting from reaction at an amino group or carboxy group, or from the replacement of any hydrogen by a heteroatom.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-proteinogenic amino acid derivative</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_83813 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83813">
@@ -9679,17 +9529,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic sodium salt having D-gluconate as the counterion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium gluconate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_85046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_85046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64857"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any cosmetic used to lighten the colour of skin by reducing the concentration of melanin.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin lightening agent</rdfs:label>
     </owl:Class>
     
 
