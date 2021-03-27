@@ -192,8 +192,11 @@ COB
 http://purl.obolibrary.org/obo/COB_0000066 # physico-chemical process
 http://purl.obolibrary.org/obo/COB_0000037 # biological process
 #http://purl.obolibrary.org/obo/COB_0000082 # planned process
-
 http://purl.obolibrary.org/obo/COB_0000086 # executes
+
+http://purl.obolibrary.org/obo/COB_0000511 # has quantity
+http://purl.obolibrary.org/obo/COB_0000512 # has characteristic
+http://purl.obolibrary.org/obo/COB_0000023 # characteristic of
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/COB_0000034 # process
@@ -203,6 +206,29 @@ includeAllIntermediates
 
 [Source annotation URIs]
 includeAllAnnotationProperties
+
+###########################################
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0042756 # drinking behaviour
+http://purl.obolibrary.org/obo/GO_0042755 # eating behaviour
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 # biological process
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
 
 ###########################################
 
@@ -338,6 +364,22 @@ http://purl.obolibrary.org/obo/OBI_0001886
 
 ###########################################
 
+[Source ontology]
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0000262 # clove
+http://purl.obolibrary.org/obo/BTO_0001217 # scape
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+###########################################
 
 [Source ontology]
 PO
@@ -425,9 +467,11 @@ http://purl.obolibrary.org/obo/PO_0009029 # stamen
 http://purl.obolibrary.org/obo/PO_0025523 # tuberous root
 http://purl.obolibrary.org/obo/PO_0000017 # vascular leaf primordium
 
-
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PO_0009011 # plant structure
+http://purl.obolibrary.org/obo/BFO_0000003 # occurrent
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+http://purl.obolibrary.org/obo/PO_0009012 # plant structure development stage
+http://purl.obolibrary.org/obo/PO_0025131 # plant anatomical entity
 
 [Source term retrieval setting]
 includeAllIntermediates
