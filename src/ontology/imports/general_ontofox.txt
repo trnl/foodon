@@ -93,6 +93,9 @@ http://purl.obolibrary.org/obo/AGRO_00000025 #      plant harvesting process
 http://purl.obolibrary.org/obo/AGRO_01000020 #      crop cultivation process
 http://purl.obolibrary.org/obo/AGRO_00000322 #      treatment
 
+http://purl.obolibrary.org/obo/AGRO_00000363 # greenhouse
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
@@ -441,6 +444,9 @@ http://purl.obolibrary.org/obo/PO_0009047 # stem
 http://purl.obolibrary.org/obo/PO_0030115 # raceme inflorescence
 http://purl.obolibrary.org/obo/PO_0025597 # ear infructescence
 
+http://purl.obolibrary.org/obo/PO_0025538 # plant sap
+
+
 # This section exists just to organize classes that would otherwise just
 # hang out at top level because they were introduced with the includeAllAxioms
 # command
@@ -585,6 +591,7 @@ http://purl.obolibrary.org/obo/UBERON_0002471 # zeugopod
 includeAllChildren
 
 http://purl.obolibrary.org/obo/UBERON_0006314 # body fluid
+http://purl.obolibrary.org/obo/UBERON_0036017 # regurgitated substance
 
 http://purl.obolibrary.org/obo/UBERON_0001911 # Mammary gland
 http://purl.obolibrary.org/obo/UBERON_0005052 # GIZZARD
