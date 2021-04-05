@@ -1,0 +1,1738 @@
+<http://purl.obolibrary.org/obo/foodon/imports/robot_organismal_materials.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/RO_0000086
+<http://purl.obolibrary.org/obo/RO_0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0001000
+<http://purl.obolibrary.org/obo/RO_0001000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/FAO_0000007
+<http://purl.obolibrary.org/obo/FAO_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002473
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030110> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3750> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030110> .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://purl.obolibrary.org/obo/IAO_0000115> "A pome fruit of an apple tree (Malus domestica)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "apple"@en .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://www.w3.org/2000/01/rdf-schema#comment> "A whole apple may include a stem."@en .
+<http://purl.obolibrary.org/obo/FOODON_00002473> <http://www.w3.org/2000/01/rdf-schema#label> "apple (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002753
+<http://purl.obolibrary.org/obo/FOODON_00002753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002775
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_115715> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a bambara groundnut plant (Vigna subterranea)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://purl.org/dc/terms/date> "2019-07-09T17:59:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "bambara groundnut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00002775> <http://www.w3.org/2000/01/rdf-schema#label> "bambara groundnut (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002781
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3821> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a pigeon pea plant (Cajanus cajan)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Pigeon_pea" .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://purl.org/dc/terms/date> "2019-07-09T22:29:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "pigeon pea"@en .
+<http://purl.obolibrary.org/obo/FOODON_00002781> <http://www.w3.org/2000/01/rdf-schema#label> "pigeon pea (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003003
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_60698> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a macadamia nut tree (Macadamia integrifolia)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://purl.org/dc/terms/date> "2019-08-13T05:53:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Hawaii nut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Queensland nut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "bauple"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "bauple nut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "boombera"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "bush nut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "gyndl"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "jindilli"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "macadamia"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "macadamia nut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "maroochi nut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003003> <http://www.w3.org/2000/01/rdf-schema#label> "macadamia nut (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003131
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4565> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a common wheat plant (Triticum aestivum)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Common_wheat" .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://purl.org/dc/terms/date> "2019-08-25T16:34:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "bread wheat"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "bread wheat kernel"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.w3.org/2000/01/rdf-schema#comment> "About 95% of wheat produced worldwide is common wheat."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003131> <http://www.w3.org/2000/01/rdf-schema#label> "common wheat kernel"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003206
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a peanut plant (Arachis hypogaea)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "peanut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003206> <http://www.w3.org/2000/01/rdf-schema#label> "peanut (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003394
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_112509> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a barley plant (Hordeum vulgare subsp. vulgare)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://purl.org/dc/terms/date> "2020-09-06T15:28:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "barley seed"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003394> <http://www.w3.org/2000/01/rdf-schema#label> "barley seed (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003399
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030103> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_13443> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030103> .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://purl.obolibrary.org/obo/IAO_0000115> "A drupe fruit of the arabica coffee plant (Coffea arabica)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://purl.org/dc/terms/date> "2020-09-07T16:25:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "arabica bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "arabica coffee bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003399> <http://www.w3.org/2000/01/rdf-schema#label> "arabica coffee bean (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003403
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3885> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002753> .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a common bean plant (Phaseolus vulgaris)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://purl.org/dc/terms/date> "2020-09-08T18:42:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "common bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003403> <http://www.w3.org/2000/01/rdf-schema#label> "common bean (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003404
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030100> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3885> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030100> .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://purl.obolibrary.org/obo/IAO_0000115> "A legume fruit of a common bean plant (Phaseolus vulgaris)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://purl.org/dc/terms/date> "2020-09-08T18:42:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003404> <http://www.w3.org/2000/01/rdf-schema#label> "common bean pod"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003405
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030115> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_36774> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030115> .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://purl.obolibrary.org/obo/IAO_0000115> "A raceme inflorescence of a broccoli plant(Brassica oleracea var. italica)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://purl.org/dc/terms/date> "2020-09-09T07:15:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "broccoli"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003405> <http://www.w3.org/2000/01/rdf-schema#label> "broccoli floret (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003406
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0000014> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid43 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3716> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0000014> .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://purl.obolibrary.org/obo/IAO_0000115> "A rosette of a cabbage plant (Brassica oleracea var. capitata)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://purl.org/dc/terms/date> "2020-09-09T07:20:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cabbage"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003406> <http://www.w3.org/2000/01/rdf-schema#label> "cabbage head"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003407
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_138011> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a rapseed plant (Brassica napus subsp. napus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://purl.org/dc/terms/date> "2020-09-09T07:24:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "rapeseed"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003407> <http://www.w3.org/2000/01/rdf-schema#label> "rapeseed (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003408
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020127> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4039> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020127> .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://purl.obolibrary.org/obo/IAO_0000115> "A primary root of a carrot plant (Daucus carota)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://purl.org/dc/terms/date> "2020-09-09T07:27:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "carrot"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003408> <http://www.w3.org/2000/01/rdf-schema#label> "carrot root (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003409
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0025476> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid55 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3983> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0025476> .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://purl.obolibrary.org/obo/IAO_0000115> "A tuberous root tuber of a cassava plant (Manihot esculenta)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://purl.org/dc/terms/date> "2020-09-09T07:33:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cassava"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003409> <http://www.w3.org/2000/01/rdf-schema#label> "cassava (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003410
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030115> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3715> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030115> .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://purl.obolibrary.org/obo/IAO_0000115> "A raceme inflorescence of a cauliflower plant (Brassica oleracea var. botrytis)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://purl.org/dc/terms/date> "2020-09-09T07:39:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cauliflower"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003410> <http://www.w3.org/2000/01/rdf-schema#label> "cauliflower (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003411
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020038> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid63 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4045> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020038> .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://purl.obolibrary.org/obo/IAO_0000115> "A petiole of a celery plant (Apium graveolens)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://purl.org/dc/terms/date> "2020-09-09T07:43:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "celery stalk"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003411> <http://www.w3.org/2000/01/rdf-schema#label> "celery stalk (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003412
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid65 .
+_:genid65 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020127> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_161934> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020127> .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://purl.obolibrary.org/obo/IAO_0000115> "A primary root of a sugar beet plant (Beta vulgaris)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://purl.org/dc/terms/date> "2020-09-09T07:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "sugar beet"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003412> <http://www.w3.org/2000/01/rdf-schema#label> "sugar beet (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003413
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FOODON_00003478> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_42229> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003478> .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://purl.obolibrary.org/obo/IAO_0000115> "A drupe fruit of a sweet cherry plant (Prunus avium)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://purl.org/dc/terms/date> "2020-09-09T07:48:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "sweet cherry"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003413> <http://www.w3.org/2000/01/rdf-schema#label> "sweet cherry (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003414
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid75 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3917> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a cowpea plant (Vigna unguiculata)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://purl.org/dc/terms/date> "2020-09-09T14:09:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cowpea"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003414> <http://www.w3.org/2000/01/rdf-schema#label> "cowpea (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003415
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030111> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid79 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3659> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030111> .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://purl.obolibrary.org/obo/IAO_0000115> "A pepo fruit of a cucumber plant (Cucumis sativus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://purl.org/dc/terms/date> "2020-09-09T14:18:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cucumber"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003415> <http://www.w3.org/2000/01/rdf-schema#label> "cucumber (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003416
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4567> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a durum wheat plant (Triticum turgidum subsp. durum)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://purl.org/dc/terms/date> "2020-09-09T14:22:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "durum wheat"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003416> <http://www.w3.org/2000/01/rdf-schema#label> "durum wheat kernel"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003417
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030108> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid87 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_29760> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030108> .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://purl.obolibrary.org/obo/IAO_0000115> "A berry fruit of a grape plant (Vitis vinifera)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://purl.org/dc/terms/date> "2020-09-09T14:38:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "grape"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003417> <http://www.w3.org/2000/01/rdf-schema#label> "grape (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003418
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030102> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid91 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_13451> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030102> .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://purl.obolibrary.org/obo/IAO_0000115> "A nut fruit of a common hazelnut tree (Corylus avellana)"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://purl.org/dc/terms/date> "2020-09-09T14:47:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "common hazelnut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003418> <http://www.w3.org/2000/01/rdf-schema#label> "common hazelnut (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003421
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_1940530> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of an indian mustard plant (Brassica juncea subsp. integrifolia)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://purl.org/dc/terms/date> "2020-09-09T15:16:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "indian mustard seed"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003421> <http://www.w3.org/2000/01/rdf-schema#label> "indian mustard seed (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003422
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009047> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid99 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_109379> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009047> .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://purl.obolibrary.org/obo/IAO_0000115> "A stem of a kohlrabi plant (Brassica oleracea var. gongylodes)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://purl.org/dc/terms/date> "2020-09-09T15:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "kohlrabi stem"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003422> <http://www.w3.org/2000/01/rdf-schema#label> "kohlrabi stem (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003423
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0000014> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid103 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4236> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0000014> .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://purl.obolibrary.org/obo/IAO_0000115> "A rosette leaf of a lettuce plant (Lactuca sativa)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://purl.org/dc/terms/date> "2020-09-09T15:53:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "lettuce"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003423> <http://www.w3.org/2000/01/rdf-schema#label> "lettuce leaf (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003427
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid107 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_381124> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a maize plant  (Zea mays subsp. mays)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://purl.org/dc/terms/date> "2020-09-09T22:30:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "corn kernel"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "maize kernel"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003427> <http://www.w3.org/2000/01/rdf-schema#label> "maize kernel (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003428
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid109 .
+_:genid109 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0025597> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid111 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_381124> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0025597> .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://purl.obolibrary.org/obo/IAO_0000115> "An ear infructescence of a maize plant (Zea mays subsp. mays)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://purl.org/dc/terms/date> "2020-09-09T22:30:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "corn cob"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "maize cob"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003428> <http://www.w3.org/2000/01/rdf-schema#label> "maize cob (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003429
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid115 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid115 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4498> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of an oat plant (Avena sativa)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://purl.org/dc/terms/date> "2020-09-09T22:33:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "oats"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003429> <http://www.w3.org/2000/01/rdf-schema#label> "whole oats"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003430
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid119 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid119 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4543> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a perl millet plant (Cenchrus americanus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://purl.org/dc/terms/date> "2020-09-10T02:58:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "perl millet"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003430> <http://www.w3.org/2000/01/rdf-schema#label> "perl millet kernel"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003431
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid121 .
+_:genid121 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009005> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid123 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid123 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3726> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009005> .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://purl.obolibrary.org/obo/IAO_0000115> "A root of a radish plant (Raphanus sativus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://purl.org/dc/terms/date> "2020-09-10T03:13:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "radish"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003431> <http://www.w3.org/2000/01/rdf-schema#label> "radish (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003432
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid125 .
+_:genid125 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020038> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid127 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid127 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3621> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020038> .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://purl.obolibrary.org/obo/IAO_0000115> "A petiole of a rhubarb plant (Rheum rhabarbarum)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://purl.org/dc/terms/date> "2020-09-10T03:17:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "rhubart stalk"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003432> <http://www.w3.org/2000/01/rdf-schema#label> "rhubarb stalk (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003433
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129 .
+_:genid129 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FOODON_00003477> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid131 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid131 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_32247> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003477> .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://purl.obolibrary.org/obo/IAO_0000115> "A fruit of a raspberry plant (Rubus idaeus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://purl.org/dc/terms/date> "2020-09-10T03:24:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "raspberry"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003433> <http://www.w3.org/2000/01/rdf-schema#label> "raspberry (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003434
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid133 .
+_:genid133 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid135 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid135 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4530> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a rice plant (Oryza sativa)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://purl.org/dc/terms/date> "2020-09-10T03:37:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003434> <http://www.w3.org/2000/01/rdf-schema#label> "whole grain rice"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003440
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid137 .
+_:genid137 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020100> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid139 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid139 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3709> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020100> .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://purl.obolibrary.org/obo/IAO_0000115> "A hypocotyl of a rutabaga plant (Brassica napus subsp. rapifera)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://purl.org/dc/terms/date> "2020-09-10T04:30:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "rutabaga"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003440> <http://www.w3.org/2000/01/rdf-schema#label> "rutabaga (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003441
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid141 .
+_:genid141 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009066> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid143 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid143 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_82528> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009066> .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://purl.obolibrary.org/obo/IAO_0000115> "An anther of a saffron plant (Crocus sativus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Saffron" .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://purl.org/dc/terms/date> "2020-09-10T04:36:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "saffron"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003441> <http://www.w3.org/2000/01/rdf-schema#label> "saffron thread"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003442
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid145 .
+_:genid145 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0025034> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid147 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid147 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_2070381> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0025034> .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://purl.obolibrary.org/obo/IAO_0000115> "A leaf of a siberian kale plant (Brassica napus var. pabularia)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://purl.org/dc/terms/date> "2020-09-10T04:47:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "siberian kale leaf"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003442> <http://www.w3.org/2000/01/rdf-schema#label> "siberian kale leaf (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003443
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid149 .
+_:genid149 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FOODON_00003592> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid151 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid151 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3747> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003592> .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://purl.obolibrary.org/obo/IAO_0000115> "An aggregate fruit of a strawberry plant  (Fragaria × ananassa)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://purl.org/dc/terms/date> "2020-09-10T04:57:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "strawberry"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003443> <http://www.w3.org/2000/01/rdf-schema#label> "strawberry (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003444
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid153 .
+_:genid153 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009047> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid155 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid155 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4547> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009047> .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://purl.obolibrary.org/obo/IAO_0000115> "A stem of a sugar cane plant (Saccharum officinarum)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://purl.org/dc/terms/date> "2020-09-10T05:06:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "sugar cane"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003444> <http://www.w3.org/2000/01/rdf-schema#label> "sugar cane stem"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003445
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid157 .
+_:genid157 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid160 .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0025476> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid159 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid159 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4120> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0025476> .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://purl.obolibrary.org/obo/IAO_0000115> "A tuberous root tuber of a sweet potato plant (Ipomoea batatas)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://purl.org/dc/terms/date> "2020-09-10T05:12:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "sweet potato"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003445> <http://www.w3.org/2000/01/rdf-schema#label> "sweet potato (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003447
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid161 .
+_:genid161 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid164 .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020100> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid163 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid163 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_51350> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020100> .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://purl.obolibrary.org/obo/IAO_0000115> "A hypocotyl of a turnip plant (Brassica rapa subsp. rapa)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://purl.org/dc/terms/date> "2020-09-10T05:38:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "turnip"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003447> <http://www.w3.org/2000/01/rdf-schema#label> "turnip (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003448
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid165 .
+_:genid165 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid168 .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0004543> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid166 .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid167 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid167 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4672> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0004543> .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://purl.obolibrary.org/obo/IAO_0000115> "A shoot axis tuber of a yam plant (Dioscorea)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://purl.org/dc/terms/date> "2020-09-10T05:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "yam"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003448> <http://www.w3.org/2000/01/rdf-schema#label> "yam (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003449
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid169 .
+_:genid169 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid172 .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030103> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid171 .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid171 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid171 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_13894> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030103> .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://purl.obolibrary.org/obo/IAO_0000115> "A drupe fruit of a coconut palm tree (Cocos nucifera)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://purl.org/dc/terms/date> "2020-09-10T05:53:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "coconut"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003449> <http://www.w3.org/2000/01/rdf-schema#label> "coconut (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003462
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid173 .
+_:genid173 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FAO_0000007> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid179 .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid180 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000086> .
+_:genid180 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/PATO_0000323> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid175 .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid175 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid175 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid176 .
+_:genid176 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid178 .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/NCBITaxon_5341> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/UBERON_0007021> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003465> .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://purl.obolibrary.org/obo/IAO_0000115> "A white-colored immature fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://purl.org/dc/terms/date> "2020-10-13T05:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "button mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "champignon mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "common mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cultivated mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "table mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "white mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003462> <http://www.w3.org/2000/01/rdf-schema#label> "white mushroom"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003463
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid182 .
+_:genid182 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid190 .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FAO_0000007> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid189 .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid189 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000086> .
+_:genid189 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/PATO_0000952> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid183 .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid184 .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid184 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid184 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid185 .
+_:genid185 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid187 .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/NCBITaxon_5341> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid186 .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/UBERON_0007021> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003465> .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://purl.obolibrary.org/obo/IAO_0000115> "A brown-colored immature fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://purl.org/dc/terms/date> "2020-10-13T05:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Italian brown"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Italian mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Roman brown mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Swiss brown mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "brown cap mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "chestnut mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "cremini"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "crimini mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003463> <http://www.w3.org/2000/01/rdf-schema#label> "brown mushroom"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003464
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid191 .
+_:genid191 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FAO_0000007> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid192 .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid193 .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid193 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid193 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid194 .
+_:genid194 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid196 .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/NCBITaxon_5341> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid195 .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/UBERON_0007023> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003465> .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://purl.obolibrary.org/obo/IAO_0000115> "A mature fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://purl.org/dc/terms/date> "2020-10-13T05:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "portabella mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "portobella mushroom"@en .
+<http://purl.obolibrary.org/obo/FOODON_00003464> <http://www.w3.org/2000/01/rdf-schema#label> "portobello mushroom"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003465
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid198 .
+_:genid198 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid201 .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/FAO_0000007> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid199 .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid200 .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid200 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid200 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_5341> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FAO_0000007> .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://purl.obolibrary.org/obo/IAO_0000115> "A fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."@en .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://purl.org/dc/terms/date> "2020-10-13T05:45:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.obolibrary.org/obo/FOODON_00003465> <http://www.w3.org/2000/01/rdf-schema#label> "cultivated mushroom"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003477
+<http://purl.obolibrary.org/obo/FOODON_00003477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003478
+<http://purl.obolibrary.org/obo/FOODON_00003478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003592
+<http://purl.obolibrary.org/obo/FOODON_00003592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03301227
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid202 .
+_:genid202 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid205 .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid203 .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid204 .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid204 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid204 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3906> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a broad bean plant (Vicia faba)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Windsor bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "broad bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "broadbean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "faba bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "fava bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301227> <http://www.w3.org/2000/01/rdf-schema#label> "broad bean (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03301275
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid206 .
+_:genid206 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid209 .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid207 .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid208 .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid208 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid208 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3916> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a mung bean plant (Vigna radiata var. radiata)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "mung bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301275> <http://www.w3.org/2000/01/rdf-schema#label> "mung bean (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03301415
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid210 .
+_:genid210 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid213 .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid211 .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid212 .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid212 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid212 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3847> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a soyabean plant (Glycine max)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "soy bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "soya bean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "soybean"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301415> <http://www.w3.org/2000/01/rdf-schema#label> "soybean (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03301453
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid214 .
+_:genid214 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid217 .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030108> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid215 .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid216 .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid216 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid216 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4081> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030108> .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://purl.obolibrary.org/obo/IAO_0000115> "A berry fruit of a tomato plant (Solanum lycopersicum L.)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "tomato"@en .
+<http://purl.obolibrary.org/obo/FOODON_03301453> <http://www.w3.org/2000/01/rdf-schema#label> "tomato (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03306811
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid218 .
+_:genid218 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid221 .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid219 .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid220 .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid220 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid220 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3827> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a chickpea plant (Cicer arietinum)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "chick pea"@en .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "chickpea"@en .
+<http://purl.obolibrary.org/obo/FOODON_03306811> <http://www.w3.org/2000/01/rdf-schema#label> "chickpea (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03309978
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid222 .
+_:genid222 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid225 .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030104> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid223 .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid224 .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid224 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid224 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4558> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030104> .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://purl.obolibrary.org/obo/IAO_0000115> "A caryopsis fruit of a sorghum plant (Sorghum bicolor)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "sorghum"@en .
+<http://purl.obolibrary.org/obo/FOODON_03309978> <http://www.w3.org/2000/01/rdf-schema#label> "sorghum kernel"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03310641
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid226 .
+_:genid226 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid229 .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0009010> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid227 .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid228 .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid228 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid228 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_3864> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0009010> .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://purl.obolibrary.org/obo/IAO_0000115> "A seed of a lentil plant (Lens culinaris)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "lentil"@en .
+<http://purl.obolibrary.org/obo/FOODON_03310641> <http://www.w3.org/2000/01/rdf-schema#label> "lentil (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03311885
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid230 .
+_:genid230 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid233 .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0004709> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid231 .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid232 .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid232 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid232 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_178616> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0004709> .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://purl.obolibrary.org/obo/IAO_0000115> "An axillary bud of the brussels sprout plant (Brassica oleracea var. gemmifera)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "brussels sprouts"@en .
+<http://purl.obolibrary.org/obo/FOODON_03311885> <http://www.w3.org/2000/01/rdf-schema#label> "brussels sprout (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03315106
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid234 .
+_:genid234 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid237 .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030109> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid235 .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid236 .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid236 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid236 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_2711> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030109> .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://purl.obolibrary.org/obo/IAO_0000115> "A hesperidium fruit of an orange tree (Citrus sinensis)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Orange_(fruit)" .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "orange"@en .
+<http://purl.obolibrary.org/obo/FOODON_03315106> <http://www.w3.org/2000/01/rdf-schema#label> "orange (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03315354
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid238 .
+_:genid238 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid241 .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0004543> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid239 .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid240 .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid240 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid240 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_4113> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0004543> .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://purl.obolibrary.org/obo/IAO_0000115> "A shoot axis tuber of a potato plant (Solanum tuberosum)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "potato"@en .
+<http://purl.obolibrary.org/obo/FOODON_03315354> <http://www.w3.org/2000/01/rdf-schema#label> "potato (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03316257
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid242 .
+_:genid242 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid245 .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0030108> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid243 .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid244 .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid244 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid244 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_214697> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0030108> .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://purl.obolibrary.org/obo/IAO_0000115> "A berry fruit of a banana tree (Musa acuminata AAA Group)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "banana"@en .
+<http://purl.obolibrary.org/obo/FOODON_03316257> <http://www.w3.org/2000/01/rdf-schema#label> "banana (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03317254
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid246 .
+_:genid246 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid249 .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/PO_0020127> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid247 .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid248 .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid248 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001000> .
+_:genid248 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_161934> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PO_0020127> .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://purl.obolibrary.org/obo/IAO_0000115> "A primary root of a beetroot plant (Beta vulgaris)."@en .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://purl.obolibrary.org/obo/IAO_0000119> "FoodOn" .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "beet"@en .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "beetroot"@en .
+<http://purl.obolibrary.org/obo/FOODON_03317254> <http://www.w3.org/2000/01/rdf-schema#label> "beetroot (whole)"@en .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_109379
+<http://purl.obolibrary.org/obo/NCBITaxon_109379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_112509
+<http://purl.obolibrary.org/obo/NCBITaxon_112509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_115715
+<http://purl.obolibrary.org/obo/NCBITaxon_115715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_13443
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_13451
+<http://purl.obolibrary.org/obo/NCBITaxon_13451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_138011
+<http://purl.obolibrary.org/obo/NCBITaxon_138011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_13894
+<http://purl.obolibrary.org/obo/NCBITaxon_13894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_161934
+<http://purl.obolibrary.org/obo/NCBITaxon_161934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_178616
+<http://purl.obolibrary.org/obo/NCBITaxon_178616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_1940530
+<http://purl.obolibrary.org/obo/NCBITaxon_1940530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_2070381
+<http://purl.obolibrary.org/obo/NCBITaxon_2070381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_214697
+<http://purl.obolibrary.org/obo/NCBITaxon_214697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_2711
+<http://purl.obolibrary.org/obo/NCBITaxon_2711> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_29760
+<http://purl.obolibrary.org/obo/NCBITaxon_29760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_32247
+<http://purl.obolibrary.org/obo/NCBITaxon_32247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3621
+<http://purl.obolibrary.org/obo/NCBITaxon_3621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3659
+<http://purl.obolibrary.org/obo/NCBITaxon_3659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_36774
+<http://purl.obolibrary.org/obo/NCBITaxon_36774> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3709
+<http://purl.obolibrary.org/obo/NCBITaxon_3709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3715
+<http://purl.obolibrary.org/obo/NCBITaxon_3715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3716
+<http://purl.obolibrary.org/obo/NCBITaxon_3716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3726
+<http://purl.obolibrary.org/obo/NCBITaxon_3726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3747
+<http://purl.obolibrary.org/obo/NCBITaxon_3747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3750
+<http://purl.obolibrary.org/obo/NCBITaxon_3750> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_381124
+<http://purl.obolibrary.org/obo/NCBITaxon_381124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3818
+<http://purl.obolibrary.org/obo/NCBITaxon_3818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3821
+<http://purl.obolibrary.org/obo/NCBITaxon_3821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3827
+<http://purl.obolibrary.org/obo/NCBITaxon_3827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3847
+<http://purl.obolibrary.org/obo/NCBITaxon_3847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3864
+<http://purl.obolibrary.org/obo/NCBITaxon_3864> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3885
+<http://purl.obolibrary.org/obo/NCBITaxon_3885> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3906
+<http://purl.obolibrary.org/obo/NCBITaxon_3906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3916
+<http://purl.obolibrary.org/obo/NCBITaxon_3916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3917
+<http://purl.obolibrary.org/obo/NCBITaxon_3917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3983
+<http://purl.obolibrary.org/obo/NCBITaxon_3983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4039
+<http://purl.obolibrary.org/obo/NCBITaxon_4039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4045
+<http://purl.obolibrary.org/obo/NCBITaxon_4045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4081
+<http://purl.obolibrary.org/obo/NCBITaxon_4081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4113
+<http://purl.obolibrary.org/obo/NCBITaxon_4113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4120
+<http://purl.obolibrary.org/obo/NCBITaxon_4120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_42229
+<http://purl.obolibrary.org/obo/NCBITaxon_42229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4236
+<http://purl.obolibrary.org/obo/NCBITaxon_4236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4498
+<http://purl.obolibrary.org/obo/NCBITaxon_4498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4530
+<http://purl.obolibrary.org/obo/NCBITaxon_4530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4543
+<http://purl.obolibrary.org/obo/NCBITaxon_4543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4547
+<http://purl.obolibrary.org/obo/NCBITaxon_4547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4558
+<http://purl.obolibrary.org/obo/NCBITaxon_4558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4565
+<http://purl.obolibrary.org/obo/NCBITaxon_4565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4567
+<http://purl.obolibrary.org/obo/NCBITaxon_4567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4672
+<http://purl.obolibrary.org/obo/NCBITaxon_4672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_51350
+<http://purl.obolibrary.org/obo/NCBITaxon_51350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_5341
+<http://purl.obolibrary.org/obo/NCBITaxon_5341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_60698
+<http://purl.obolibrary.org/obo/NCBITaxon_60698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_82528
+<http://purl.obolibrary.org/obo/NCBITaxon_82528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PATO_0000323
+<http://purl.obolibrary.org/obo/PATO_0000323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PATO_0000952
+<http://purl.obolibrary.org/obo/PATO_0000952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0000014
+<http://purl.obolibrary.org/obo/PO_0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0004543
+<http://purl.obolibrary.org/obo/PO_0004543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0004709
+<http://purl.obolibrary.org/obo/PO_0004709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0009001
+<http://purl.obolibrary.org/obo/PO_0009001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0009005
+<http://purl.obolibrary.org/obo/PO_0009005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0009010
+<http://purl.obolibrary.org/obo/PO_0009010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0009047
+<http://purl.obolibrary.org/obo/PO_0009047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0009066
+<http://purl.obolibrary.org/obo/PO_0009066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0020038
+<http://purl.obolibrary.org/obo/PO_0020038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0020100
+<http://purl.obolibrary.org/obo/PO_0020100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0020127
+<http://purl.obolibrary.org/obo/PO_0020127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0025034
+<http://purl.obolibrary.org/obo/PO_0025034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0025476
+<http://purl.obolibrary.org/obo/PO_0025476> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0025597
+<http://purl.obolibrary.org/obo/PO_0025597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030100
+<http://purl.obolibrary.org/obo/PO_0030100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030102
+<http://purl.obolibrary.org/obo/PO_0030102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030103
+<http://purl.obolibrary.org/obo/PO_0030103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030104
+<http://purl.obolibrary.org/obo/PO_0030104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030107
+<http://purl.obolibrary.org/obo/PO_0030107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030108
+<http://purl.obolibrary.org/obo/PO_0030108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030109
+<http://purl.obolibrary.org/obo/PO_0030109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030110
+<http://purl.obolibrary.org/obo/PO_0030110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030111
+<http://purl.obolibrary.org/obo/PO_0030111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/PO_0030115
+<http://purl.obolibrary.org/obo/PO_0030115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007021
+<http://purl.obolibrary.org/obo/UBERON_0007021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007023
+<http://purl.obolibrary.org/obo/UBERON_0007023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

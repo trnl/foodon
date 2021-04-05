@@ -1,0 +1,1105 @@
+[ {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "one of the epidermal growths that form the distinctive outer covering, or plumage, on birds. Feathers are formed in tiny follicles in the epidermis, or outer skin layer, that produce keratin proteins."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "feather"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000085",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A spherical embryonic mass of blastomeres formed before the blastula and resulting from cleavage of the fertilized ovum."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "morula"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "intestine"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A fluid that is composed of blood plasma and erythrocytes."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "blood"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000307",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Organism at the blastula stage - an early stage of embryonic development in animals. It is produced by cleavage of a fertilized ovum and consists of a spherical layer of around 128 cells surrounding a central fluid-filled cavity called the blastocoel. The blastula follows the morula and precedes the gastrula in the developmental sequence."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "blastula"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000323",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An embryo that is at the late embryonic stage; this stage covers late steps of the embryogenesis with a fully formed embryo still developing before birth or egg hatching."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "late embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000376",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The part of the hindlimb between pelvis and the knee, corresponding to the femur."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hindlimb stylopod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002472"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Anatomical structure that is an individual member of a species and consists of more than one cell."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "multicellular organism"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000945",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "stomach"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000948",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "heart"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000955",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "brain"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000970",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An organ that detects light."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "eye"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0000978",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The portion of the hindlimb that contains both the stylopod and zeugopod."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "leg"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Portion of connective tissue composed of adipocytes enmeshed in areolar tissue"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "adipose tissue"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001264",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "pancreas"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001474",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Skeletal element that is composed of bone tissue."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "bone element"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001630",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "muscle organ"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001690",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Sense organ in vertebrates that is specialized for the detection of sound, and the maintenance of balance. Includes the outer ear and middle ear, which collect and transmit sound waves; and the inner ear, which contains the organs of balance and (except in fish) hearing. Also includes the pinna, the visible part of the outer ear, present in some mammals."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ear"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001723",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A muscular organ in the floor of the mouth."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "tongue"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001911",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mammary gland"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0001913",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "milk"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002048",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Respiration organ that develops as an outpocketing of the esophagus."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "lung"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002097",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The organ covering the body that consists of the dermis and epidermis."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "skin of body"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "the organ that functions to filter blood and to store red corpuscles and platelets"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "spleen"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "liver"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A paired organ of the urinary tract which has the production of urine as its primary function."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "kidney"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002370",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "thymus"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002371",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "the soft tissue that fills the cavities of bones"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "bone marrow"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002385",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Muscle tissue is a contractile tissue made up of actin and myosin fibers[GO]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "muscle tissue"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002386",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "forelimb zeugopod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002471"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002471",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The middle free limb segment, between the autopod and stylopod segments. Includes as parts the zeugopodial skeleton. Examples: There are two types of zeugopod: forelimb zeugopod (aka forearm), hindlimb zeugopod (aka crus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "zeugopod"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002472",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The proximal free limb segment. Includes as parts the stylopod skeleton."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "stylopod"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002547",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An an organism at the tadpole stage"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "tadpole"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A distinct juvenile form many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "larva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0003100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Gonochoristic organism that can produce female gametes."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "female organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0003101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Gonochoristic organism that can produce male gametes."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "male organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0003142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An organism at the prepupal stage. The prepupal stage is a life stage interposed between the larval and the pupal stages in insects that undergo a complete metamorphosis. The start of the pre-pupal stage is marked by pupariation, and the end is marked by pupation"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "prepupa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0003143",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An organism at the pupal stage. A life cycle stage of holometabolous insects in which the organism is a pupa and starts with the larval-pupal apolysis and ends with pupal-adult apolysis."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "pupa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0003822",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The part of the forelimb between pectoral region and the elbow, corresponding to the humerus."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "forelimb stylopod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002472"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0003823",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hindlimb zeugopod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002471"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0004455",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An embryo at the neurula stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "neurula embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0004734",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Organism at the gastrula stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "gastrula"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0005052",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The muscular enlargement of the alimentary canal that has usually thick muscular walls and a tough horny lining for grinding the food and when the crop is present follows it and the proventriculus."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "gizzard"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0005079",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A product of the somatic follicle cell epithelium and a structure that supports the egg in a hostile environment, minimizing water loss whilst allowing gas exchanges essential for embryonic respiration[GO]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "eggshell"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0006314",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "bodily fluid"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0006611",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Exoskeleton or shell, including those of mollusks, turtles, insects and crustaceans."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "exoskeleton"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0006860",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A thin membranous, sometimes alveolated sac in the dorsal portion of the abdominal cavity. Contains a varying mixture of gases, not identical to the composition of air. May be one, two or three chambered. May be connected to the gut by a tube, the ductus pneumaticus (then called physostomous) or unconnected (then called physoclistous)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "swim bladder"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Organism at the cleavage stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cleaving embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A multicellular organism that is at the juvenile stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "sexually immature organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A multicellular organism that existence_ends_with a post-juvenile adult stage and existence_starts_with a post-juvenile adult stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "adult organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007197",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "multicellular organism that can produce both male and female gametes."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hermaphroditic organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007366",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The ruminants' stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach (proventriculus). They are lined with nonglandular membrane. The fourth compartment, the abomasum comprises the true stomach of the ruminants. It is lined with glandular mucous membrane. The rumen lies on the left of the abdominal cavity, the reticulum cranially and the omasum on the right. The abomasum lies ventrally, its proximal end lies ventral to the rumen, reticulum and omasum"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ruminant stomach"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007378",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The yellow spheroidal mass of stored food that forms the inner portion of the egg of a bird or reptile and is surrounded by the white."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "egg yolk"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007379",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The hard-shelled reproductive body produced by a bird and especially by the common domestic chicken; also: its contents used as food."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "shelled egg"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0008265",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A planktonic and feeding larval form that possesses limb-like outgrowths bearing ciliated bands."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "echinopluteus larva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0008270",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A calcareous exoskeleton which encloses, supports and protects the soft parts of an animal in the phylum Mollusca, which includes snails, clams, tusk shells, and several other classes. Not all shelled molluscs live in the sea, many live on the land and in freshwater."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mollusc shell"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0008897",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An external projection of an aquatic animal as a fish used in propelling or guiding the body[BTO]."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fin"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0008944",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Albumen is the clear liquid contained within an egg and consists of water and proteins, among which are ovomucin and ovomucoid. It protects the egg yolk and provides additional nutrition for the growth of the embryo."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "albumen"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0008979",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A body of a multi-cellular organism that is no longer living."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "carcass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0009097",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An organism containing a developing embryo, fetus, or unborn offspring within the body."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "gravid organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0007023"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0009101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "lamprey at larval stage"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ammocoete"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0009850",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A multicellular organism that existence_starts_and_ends_during a nematode larval stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "nematode larva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0009953",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A multicellular organism that existence_starts_with a post-embryonic stage."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "post-embryonic organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0010895",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "sequential hermaphroditic organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0007197"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0010899",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Hermaphroditic organism that produces both male and female gametes at the same time."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "synchronous hermaphroditic organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0007197"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0012641",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "body of tubeworm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0018379",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The larval (metacestode) stage of the tapeworm Echinococcus multilocularis."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "metacestode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0018382",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Instar: a stage in the life of an arthropod (as an insect) between two successive molts."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "second instar larva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0018385",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A tailless encysted late larva of a trematode parasite that is usually the form which is infective for the definitive host."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "metacercaria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0018387",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Any of a class (Cestoda) of bilaterally symmetrical flatworms parasitic especially in the intestines of vertebrates."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cestode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0018388",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A usually tadpole-shaped larval trematode worm that develops in a molluscan host from a redia."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cercaria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0019248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "early embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000922"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0019249",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "2-cell stage embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0019248"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0019250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "4-8 cell stage embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0019248"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0019251",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "4-cell stage embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0019248"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0019252",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "8-cell stage embryo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0019250"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0036016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A sweet viscid material elaborated out of the nectar of flowers in the honey sac of various bees."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "honey"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_2002079",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Larval stage in some teleosts before metomorphosis."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "leptocephalous larva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0002548"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_3010039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Sequential hermaphroditic organism that produces gametes first of the male sex, and then later of the female sex."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "protandrous hermaphroditic organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0010895"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_3010042",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Sequential hermaphroditic organism that produces gametes first of the female sex, and then later of the male sex."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "protogynous hermaphroditic organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0010895"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_6006011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The developing adult after pupal-adult apolysis, i.e. from stage P8 (when yellow eye color first becomes visible through the pupal case), to eclosion."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/uberon.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "pharate adult"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+} ]

@@ -1,0 +1,525 @@
+<http://purl.obolibrary.org/foodon/imports/robot_fdc.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_000119
+<http://purl.obolibrary.org/obo/IAO_000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115@en
+<http://purl.obolibrary.org/obo/IAO_0000115@en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# FDC:0000001
+<FDC:0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<FDC:0000001> <http://www.w3.org/2000/01/rdf-schema#label> "FDC Factor" .
+# 
+# FDC:0000002
+<FDC:0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<FDC:0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000003> .
+<FDC:0000002> <http://www.w3.org/2000/01/rdf-schema#label> "genetic modification" .
+# 
+# FDC:0000003
+<FDC:0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<FDC:0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000001> .
+<FDC:0000003> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural production factor" .
+# 
+# http://purl.obolibrary.org/foodon/imports/FOODON_00003391
+<http://purl.obolibrary.org/foodon/imports/FOODON_00003391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/foodon/imports/FOODON_03530050
+<http://purl.obolibrary.org/foodon/imports/FOODON_03530050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/AGRO_00002071
+<http://purl.obolibrary.org/obo/AGRO_00002071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/AGRO_00002071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000011> .
+<http://purl.obolibrary.org/obo/AGRO_00002071> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural process" .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000008
+<http://purl.obolibrary.org/obo/BFO_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "temporal region" .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "process" .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000040
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/2000/01/rdf-schema#label> "material entity" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000009
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://www.w3.org/2000/01/rdf-schema#label> "national geopolitical entity" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003074
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://www.w3.org/2000/01/rdf-schema#label> "manufactured product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00001002
+<http://purl.obolibrary.org/obo/FOODON_00001002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00001002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002403> .
+<http://purl.obolibrary.org/obo/FOODON_00001002> <http://www.w3.org/2000/01/rdf-schema#label> "food product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00001015
+<http://purl.obolibrary.org/obo/FOODON_00001015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00001015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00001002> .
+<http://purl.obolibrary.org/obo/FOODON_00001015> <http://www.w3.org/2000/01/rdf-schema#label> "plant food product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002129
+<http://purl.obolibrary.org/obo/FOODON_00002129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002129> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00001015> .
+<http://purl.obolibrary.org/obo/FOODON_00002129> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003375> .
+<http://purl.obolibrary.org/obo/FOODON_00002129> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00002129> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A food product designed to taste like animal meat but which is made from plant food sources." .
+<http://purl.obolibrary.org/obo/FOODON_00002129> <http://www.w3.org/2000/01/rdf-schema#label> "plant-based meat product analog" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002403
+<http://purl.obolibrary.org/obo/FOODON_00002403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002403> <http://www.w3.org/2000/01/rdf-schema#label> "food material" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002454
+<http://purl.obolibrary.org/obo/FOODON_00002454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002454> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00001002> .
+<http://purl.obolibrary.org/obo/FOODON_00002454> <http://www.w3.org/2000/01/rdf-schema#label> "food product by quality" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002645
+<http://purl.obolibrary.org/obo/FOODON_00002645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002645> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00001002> .
+<http://purl.obolibrary.org/obo/FOODON_00002645> <http://www.w3.org/2000/01/rdf-schema#label> "food product by process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002910
+<http://purl.obolibrary.org/obo/FOODON_00002910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002910> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003374> .
+<http://purl.obolibrary.org/obo/FOODON_00002910> <http://purl.obolibrary.org/obo/IAO_0000115@en> "An organism that originated from a wild caught population." .
+<http://purl.obolibrary.org/obo/FOODON_00002910> <http://www.w3.org/2000/01/rdf-schema#label> "wild harvested animal" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003346
+<http://purl.obolibrary.org/obo/FOODON_00003346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003346> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/foodon/imports/FOODON_03530050> .
+<http://purl.obolibrary.org/obo/FOODON_00003346> <http://www.w3.org/2000/01/rdf-schema#label> "overripe or decaying (NEW)" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003347
+<http://purl.obolibrary.org/obo/FOODON_00003347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003347> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/foodon/imports/FOODON_03530050> .
+<http://purl.obolibrary.org/obo/FOODON_00003347> <http://www.w3.org/2000/01/rdf-schema#label> "slightly ripe (NEW)" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003374
+<http://purl.obolibrary.org/obo/FOODON_00003374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003374> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002403> .
+<http://purl.obolibrary.org/obo/FOODON_00003374> <http://www.w3.org/2000/01/rdf-schema#label> "harvested food material" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003375
+<http://purl.obolibrary.org/obo/FOODON_00003375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003375> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000003> .
+<http://purl.obolibrary.org/obo/FOODON_00003375> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002645> .
+<http://purl.obolibrary.org/obo/FOODON_00003375> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003375> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A nutritious food product produced by sustainable agricultural practices." .
+<http://purl.obolibrary.org/obo/FOODON_00003375> <http://www.w3.org/2000/01/rdf-schema#label> "sustainable agriculture food product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003376
+<http://purl.obolibrary.org/obo/FOODON_00003376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003376> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002645> .
+<http://purl.obolibrary.org/obo/FOODON_00003376> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003375> .
+<http://purl.obolibrary.org/obo/FOODON_00003376> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003376> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A food product made from plant or animal cell lines incubated in a production facility." .
+<http://purl.obolibrary.org/obo/FOODON_00003376> <http://www.w3.org/2000/01/rdf-schema#label> "cell-based technology food product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003377
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003374> .
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003375> .
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Hunting" .
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://purl.obolibrary.org/obo/IAO_0000115@en> "food material that is obtained by hunting, the practice of seeking, pursuing and capturing or killing wild animals." .
+<http://purl.obolibrary.org/obo/FOODON_00003377> <http://www.w3.org/2000/01/rdf-schema#label> "food harvested by hunting" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003378
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003374> .
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003375> .
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Foraging" .
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Food material that is obtained by foraging the natural environment for food." .
+<http://purl.obolibrary.org/obo/FOODON_00003378> <http://www.w3.org/2000/01/rdf-schema#label> "food harvested by gathering" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003379
+<http://purl.obolibrary.org/obo/FOODON_00003379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003379> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000002> .
+<http://purl.obolibrary.org/obo/FOODON_00003379> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002454> .
+<http://purl.obolibrary.org/obo/FOODON_00003379> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A food product which is produced from one or more organisms, none of which have changes in their DNA as a result of genetic engineering." .
+<http://purl.obolibrary.org/obo/FOODON_00003379> <http://www.w3.org/2000/01/rdf-schema#label> "food (not genetically-modified)" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003381
+<http://purl.obolibrary.org/obo/FOODON_00003381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003381> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000001> .
+<http://purl.obolibrary.org/obo/FOODON_00003381> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000027> .
+<http://purl.obolibrary.org/obo/FOODON_00003381> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Country_of_origin" .
+<http://purl.obolibrary.org/obo/FOODON_00003381> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The country or countries of manufacture, production, design, or brand origin where an article or product comes from. For multinational brands, this may include multiple countries within the value-creation process." .
+<http://purl.obolibrary.org/obo/FOODON_00003381> <http://www.w3.org/2000/01/rdf-schema#label> "product country-of-origin" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003382
+<http://purl.obolibrary.org/obo/FOODON_00003382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003382> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000001> .
+<http://purl.obolibrary.org/obo/FOODON_00003382> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003074> .
+<http://purl.obolibrary.org/obo/FOODON_00003382> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Country_of_origin" .
+<http://purl.obolibrary.org/obo/FOODON_00003382> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A claim that a product primarily manufactured in a single country of origin, and with components coming only from that country." .
+<http://purl.obolibrary.org/obo/FOODON_00003382> <http://www.w3.org/2000/01/rdf-schema#label> "single country-of-origin product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003383
+<http://purl.obolibrary.org/obo/FOODON_00003383> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003383> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003382> .
+<http://purl.obolibrary.org/obo/FOODON_00003383> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Made_in_USA" .
+<http://purl.obolibrary.org/obo/FOODON_00003383> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A claim that a product is primarily manufactured within America." .
+<http://purl.obolibrary.org/obo/FOODON_00003383> <http://www.w3.org/2000/01/rdf-schema#label> "American-made product" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003384
+<http://purl.obolibrary.org/obo/FOODON_00003384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003384> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000001> .
+<http://purl.obolibrary.org/obo/FOODON_00003384> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00001002> .
+<http://purl.obolibrary.org/obo/FOODON_00003384> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A single-country-of-origin food product which is retailed in that country." .
+<http://purl.obolibrary.org/obo/FOODON_00003384> <http://www.w3.org/2000/01/rdf-schema#label> "food retailed within its country-of-origin" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003385
+<http://purl.obolibrary.org/obo/FOODON_00003385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003385> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003384> .
+<http://purl.obolibrary.org/obo/FOODON_00003385> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Local_food" .
+<http://purl.obolibrary.org/obo/FOODON_00003385> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Food produced within a relatively short distance of where it is consumed." .
+<http://purl.obolibrary.org/obo/FOODON_00003385> <http://www.w3.org/2000/01/rdf-schema#label> "local food" .
+<http://purl.obolibrary.org/obo/FOODON_00003385> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/The_100-Mile_Diet" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003386
+<http://purl.obolibrary.org/obo/FOODON_00003386> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003386> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003374> .
+<http://purl.obolibrary.org/obo/FOODON_00003386> <http://www.w3.org/2000/01/rdf-schema#label> "wild harvested plant" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003387
+<http://purl.obolibrary.org/obo/FOODON_00003387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003387> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530211> .
+<http://purl.obolibrary.org/obo/FOODON_00003387> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Polytunnel" .
+<http://purl.obolibrary.org/obo/FOODON_00003387> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Cultivation of plants within a polytunnel or similar tunnel." .
+<http://purl.obolibrary.org/obo/FOODON_00003387> <http://www.w3.org/2000/01/rdf-schema#label> "          tunnel farming  " .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003388
+<http://purl.obolibrary.org/obo/FOODON_00003388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003388> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530154> .
+<http://purl.obolibrary.org/obo/FOODON_00003388> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The rearing of domesticated animals for food." .
+<http://purl.obolibrary.org/obo/FOODON_00003388> <http://www.w3.org/2000/01/rdf-schema#label> "     food animal rearing" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003389
+<http://purl.obolibrary.org/obo/FOODON_00003389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003389> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003388> .
+<http://purl.obolibrary.org/obo/FOODON_00003389> <http://purl.obolibrary.org/obo/IAO_0000115@en> "An approach to animal husbandry designed to maximize production, while minimizing costs by keeping livestock such as cattle, poultry, and fish at high stocking densities, at large scale, and using automated feeding systems." .
+<http://purl.obolibrary.org/obo/FOODON_00003389> <http://www.w3.org/2000/01/rdf-schema#label> "       industrial livestock production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003390
+<http://purl.obolibrary.org/obo/FOODON_00003390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003390> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530211> .
+<http://purl.obolibrary.org/obo/FOODON_00003390> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Controlled-environment_agriculture" .
+<http://purl.obolibrary.org/obo/FOODON_00003390> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A technology-based approach toward food production in which growing conditions are optimized within an enclosed growing structure such as a greenhouse or building throughout the development of a crop." .
+<http://purl.obolibrary.org/obo/FOODON_00003390> <http://www.w3.org/2000/01/rdf-schema#label> "          controlled environment agriculture (CEA) process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003392
+<http://purl.obolibrary.org/obo/FOODON_00003392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003392> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/foodon/imports/FOODON_00003391> .
+<http://purl.obolibrary.org/obo/FOODON_00003392> <http://purl.obolibrary.org/obo/IAO_000119> "https://www.seachoice.org/info-centre/aquaculture/aquaculture-methods/" .
+<http://purl.obolibrary.org/obo/FOODON_00003392> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Aquatic farmed food production located offshore, in coastal areas or in freshwater lakes, open-net pens, or “cages”, that allow for free exchange between the farm and the surrounding environment." .
+<http://purl.obolibrary.org/obo/FOODON_00003392> <http://www.w3.org/2000/01/rdf-schema#label> "          aquaculture open-pen rearing" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00003393
+<http://purl.obolibrary.org/obo/FOODON_00003393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00003393> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/foodon/imports/FOODON_00003391> .
+<http://purl.obolibrary.org/obo/FOODON_00003393> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Aquatic farmed food production in which fish rearing pens are isolated from ocean or lake water." .
+<http://purl.obolibrary.org/obo/FOODON_00003393> <http://www.w3.org/2000/01/rdf-schema#label> "          aquaculture closed containment pen rearing" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530005
+<http://purl.obolibrary.org/obo/FOODON_03530005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000027> .
+<http://purl.obolibrary.org/obo/FOODON_03530005> <http://purl.obolibrary.org/obo/IAO_0000117> "http://orcid.org/0000-0002-8844-9165" .
+<http://purl.obolibrary.org/obo/FOODON_03530005> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A data item consisting of a claim or record of a food product's origin or processing history or suitability for some purpose." .
+<http://purl.obolibrary.org/obo/FOODON_03530005> <http://www.w3.org/2000/01/rdf-schema#label> "food datum" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530051
+<http://purl.obolibrary.org/obo/FOODON_03530051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530051> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/foodon/imports/FOODON_03530050> .
+<http://purl.obolibrary.org/obo/FOODON_03530051> <http://www.w3.org/2000/01/rdf-schema#label> "unripe or immature" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530052
+<http://purl.obolibrary.org/obo/FOODON_03530052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530052> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/foodon/imports/FOODON_03530050> .
+<http://purl.obolibrary.org/obo/FOODON_03530052> <http://www.w3.org/2000/01/rdf-schema#label> "ripe or mature" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530108
+<http://purl.obolibrary.org/obo/FOODON_03530108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530108> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000001> .
+<http://purl.obolibrary.org/obo/FOODON_03530108> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530206> .
+<http://purl.obolibrary.org/obo/FOODON_03530108> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of producing or retailing post-harvest food in a consumer or industrial context." .
+<http://purl.obolibrary.org/obo/FOODON_03530108> <http://www.w3.org/2000/01/rdf-schema#label> "food facility preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530109
+<http://purl.obolibrary.org/obo/FOODON_03530109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530108> .
+<http://purl.obolibrary.org/obo/FOODON_03530109> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of preparing food at a human residence." .
+<http://purl.obolibrary.org/obo/FOODON_03530109> <http://www.w3.org/2000/01/rdf-schema#label> "home food preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530110
+<http://purl.obolibrary.org/obo/FOODON_03530110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530110> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530119> .
+<http://purl.obolibrary.org/obo/FOODON_03530110> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of preparing and serving food in a restaurant." .
+<http://purl.obolibrary.org/obo/FOODON_03530110> <http://www.w3.org/2000/01/rdf-schema#label> "  restaurant food preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530111
+<http://purl.obolibrary.org/obo/FOODON_03530111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530119> .
+<http://purl.obolibrary.org/obo/FOODON_03530111> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of preparing and serving food in a fast food outlet." .
+<http://purl.obolibrary.org/obo/FOODON_03530111> <http://www.w3.org/2000/01/rdf-schema#label> "  fast food outlet preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530112
+<http://purl.obolibrary.org/obo/FOODON_03530112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530108> .
+<http://purl.obolibrary.org/obo/FOODON_03530112> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of preparing food in an industrial facility." .
+<http://purl.obolibrary.org/obo/FOODON_03530112> <http://www.w3.org/2000/01/rdf-schema#label> "food industry preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530113
+<http://purl.obolibrary.org/obo/FOODON_03530113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530113> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530108> .
+<http://purl.obolibrary.org/obo/FOODON_03530113> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of preparing food in a commissary." .
+<http://purl.obolibrary.org/obo/FOODON_03530113> <http://www.w3.org/2000/01/rdf-schema#label> "commissary food preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530119
+<http://purl.obolibrary.org/obo/FOODON_03530119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530119> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530108> .
+<http://purl.obolibrary.org/obo/FOODON_03530119> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of preparing and serving food in a restaurant or fast food outlet." .
+<http://purl.obolibrary.org/obo/FOODON_03530119> <http://www.w3.org/2000/01/rdf-schema#label> "restaurant or fast food preparation process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530120
+<http://purl.obolibrary.org/obo/FOODON_03530120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530120> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530108> .
+<http://purl.obolibrary.org/obo/FOODON_03530120> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The process of sourcing and selling food at a street vending establishment." .
+<http://purl.obolibrary.org/obo/FOODON_03530120> <http://www.w3.org/2000/01/rdf-schema#label> "street vendor food retail process" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530152
+<http://purl.obolibrary.org/obo/FOODON_03530152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530152> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000003> .
+<http://purl.obolibrary.org/obo/FOODON_03530152> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530206> .
+<http://purl.obolibrary.org/obo/FOODON_03530152> <http://purl.obolibrary.org/obo/IAO_000119> "https://en.wikipedia.org/wiki/Agriculture" .
+<http://purl.obolibrary.org/obo/FOODON_03530152> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A food production process involving the rearing of an organism." .
+<http://purl.obolibrary.org/obo/FOODON_03530152> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural food production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530153
+<http://purl.obolibrary.org/obo/FOODON_03530153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530153> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530152> .
+<http://purl.obolibrary.org/obo/FOODON_03530153> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The hunting or foraging for wild food resources." .
+<http://purl.obolibrary.org/obo/FOODON_03530153> <http://www.w3.org/2000/01/rdf-schema#label> "  wild food harvesting" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530154
+<http://purl.obolibrary.org/obo/FOODON_03530154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530154> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530152> .
+<http://purl.obolibrary.org/obo/FOODON_03530154> <http://purl.obolibrary.org/obo/IAO_0000115@en> "An agricultural production process involving a domesticated organism." .
+<http://purl.obolibrary.org/obo/FOODON_03530154> <http://www.w3.org/2000/01/rdf-schema#label> "  domestic or cultivated food production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530204
+<http://purl.obolibrary.org/obo/FOODON_03530204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530204> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530152> .
+<http://purl.obolibrary.org/obo/FOODON_03530204> <http://purl.obolibrary.org/obo/IAO_0000115@en> "An agricultural production process involving wild plants, insects or other organisms that are tended and protected." .
+<http://purl.obolibrary.org/obo/FOODON_03530204> <http://www.w3.org/2000/01/rdf-schema#label> "  semidomestic or semiwild food production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530206
+<http://purl.obolibrary.org/obo/FOODON_03530206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530206> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000011> .
+<http://purl.obolibrary.org/obo/FOODON_03530206> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A planned process involving the rearing, manufacture or distribution of food material." .
+<http://purl.obolibrary.org/obo/FOODON_03530206> <http://www.w3.org/2000/01/rdf-schema#label> "food production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530207
+<http://purl.obolibrary.org/obo/FOODON_03530207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530207> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530154> .
+<http://purl.obolibrary.org/obo/FOODON_03530207> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The cultivation of a plant for food." .
+<http://purl.obolibrary.org/obo/FOODON_03530207> <http://www.w3.org/2000/01/rdf-schema#label> "     food plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530208
+<http://purl.obolibrary.org/obo/FOODON_03530208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530208> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530154> .
+<http://purl.obolibrary.org/obo/FOODON_03530208> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The cultivation of plants in an unsheltered area." .
+<http://purl.obolibrary.org/obo/FOODON_03530208> <http://www.w3.org/2000/01/rdf-schema#label> "       outdoor/open-air plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530209
+<http://purl.obolibrary.org/obo/FOODON_03530209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530209> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530208> .
+<http://purl.obolibrary.org/obo/FOODON_03530209> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Open-air plant cultivation using non-organic fertilizer, pest and weed control treatments," .
+<http://purl.obolibrary.org/obo/FOODON_03530209> <http://www.w3.org/2000/01/rdf-schema#label> "          conventional outdoor/open-air plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530210
+<http://purl.obolibrary.org/obo/FOODON_03530210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530210> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530208> .
+<http://purl.obolibrary.org/obo/FOODON_03530210> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530253> .
+<http://purl.obolibrary.org/obo/FOODON_03530210> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The organic cultivation of plants in an unsheltered area." .
+<http://purl.obolibrary.org/obo/FOODON_03530210> <http://www.w3.org/2000/01/rdf-schema#label> "        outdoor/open-air organic plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530211
+<http://purl.obolibrary.org/obo/FOODON_03530211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530211> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530207> .
+<http://purl.obolibrary.org/obo/FOODON_03530211> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Plant cultivation occuring within a partially or fully enclosed environment." .
+<http://purl.obolibrary.org/obo/FOODON_03530211> <http://www.w3.org/2000/01/rdf-schema#label> "       under glass/protected plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530212
+<http://purl.obolibrary.org/obo/FOODON_03530212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530212> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530211> .
+<http://purl.obolibrary.org/obo/FOODON_03530212> <http://www.w3.org/2000/01/rdf-schema#label> "          conventional under glass/protected plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530213
+<http://purl.obolibrary.org/obo/FOODON_03530213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530213> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530211> .
+<http://purl.obolibrary.org/obo/FOODON_03530213> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530253> .
+<http://purl.obolibrary.org/obo/FOODON_03530213> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The organic cultivation of plants in a sheltered area which may have additional environmental controls." .
+<http://purl.obolibrary.org/obo/FOODON_03530213> <http://www.w3.org/2000/01/rdf-schema#label> "        under glass/protected organic plant cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530214
+<http://purl.obolibrary.org/obo/FOODON_03530214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530214> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530211> .
+<http://purl.obolibrary.org/obo/FOODON_03530214> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A method of growing plants, usually crops, without soil, by using mineral nutrient solutions in an aqueous solvent." .
+<http://purl.obolibrary.org/obo/FOODON_03530214> <http://www.w3.org/2000/01/rdf-schema#label> "          hydroponic cultivation" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530251
+<http://purl.obolibrary.org/obo/FOODON_03530251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530251> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000002> .
+<http://purl.obolibrary.org/obo/FOODON_03530251> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002454> .
+<http://purl.obolibrary.org/obo/FOODON_03530251> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A food product which is produced from an organism which has changes in its DNA as a result of genetic engineering." .
+<http://purl.obolibrary.org/obo/FOODON_03530251> <http://www.w3.org/2000/01/rdf-schema#label> "food (genetically-modified)" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530253
+<http://purl.obolibrary.org/obo/FOODON_03530253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530253> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530207> .
+<http://purl.obolibrary.org/obo/FOODON_03530253> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530291> .
+<http://purl.obolibrary.org/obo/FOODON_03530253> <http://purl.obolibrary.org/obo/IAO_0000115@en> "Plant cultivation according to organic food production methods including the use of fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting, biological pest control and the fostering of insect predators." .
+<http://purl.obolibrary.org/obo/FOODON_03530253> <http://www.w3.org/2000/01/rdf-schema#label> "     organic plant production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530291
+<http://purl.obolibrary.org/obo/FOODON_03530291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530291> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_03530152> .
+<http://purl.obolibrary.org/obo/FOODON_03530291> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/FOODON_03530291> <http://purl.obolibrary.org/obo/IAO_000119> "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/288329/11-546-future-of-food-and-farming-report.pdf" .
+<http://purl.obolibrary.org/obo/FOODON_03530291> <http://purl.obolibrary.org/obo/IAO_0000115@en> "An agricultural production process that aims to produce food using natural substances and processes that have a limited negative environmental and human health impact as they encourage the responsible use of energy and natural resources like water, the maintenance of biodiversity, the preservation of regional ecological balances, enhancement of soil fertility, and animal welfare." .
+<http://purl.obolibrary.org/obo/FOODON_03530291> <http://www.w3.org/2000/01/rdf-schema#label> "organic food production" .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530292
+<http://purl.obolibrary.org/obo/FOODON_03530292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_03530292> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00003388> .
+<http://purl.obolibrary.org/obo/FOODON_03530292> <http://purl.obolibrary.org/obo/IAO_0000115@en> "A method of farming husbandry where the animals, for at least part of the day, can roam freely outdoors, rather than being confined in an enclosure for 24 hours each day. This term can be applied to egg, dairy, poultry, and meat production." .
+<http://purl.obolibrary.org/obo/FOODON_03530292> <http://www.w3.org/2000/01/rdf-schema#label> "       free-range animal production" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000027
+<http://purl.obolibrary.org/obo/IAO_0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000027> <http://www.w3.org/2000/01/rdf-schema#label> "data item" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000030
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://www.w3.org/2000/01/rdf-schema#label> "information content entity" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000109
+<http://purl.obolibrary.org/obo/IAO_0000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000027> .
+<http://purl.obolibrary.org/obo/IAO_0000109> <http://www.w3.org/2000/01/rdf-schema#label> "measurement datum" .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C94729
+<http://purl.obolibrary.org/obo/NCIT_C94729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCIT_C94729> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000008> .
+<http://purl.obolibrary.org/obo/NCIT_C94729> <http://www.w3.org/2000/01/rdf-schema#label> "season" .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C94730
+<http://purl.obolibrary.org/obo/NCIT_C94730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCIT_C94730> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCIT_C94729> .
+<http://purl.obolibrary.org/obo/NCIT_C94730> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The season between the winter solstice and the vernal equinox." .
+<http://purl.obolibrary.org/obo/NCIT_C94730> <http://www.w3.org/2000/01/rdf-schema#label> "winter" .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C94731
+<http://purl.obolibrary.org/obo/NCIT_C94731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCIT_C94731> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCIT_C94729> .
+<http://purl.obolibrary.org/obo/NCIT_C94731> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The season between the vernal equinox and the summer solstice." .
+<http://purl.obolibrary.org/obo/NCIT_C94731> <http://www.w3.org/2000/01/rdf-schema#label> "spring" .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C94732
+<http://purl.obolibrary.org/obo/NCIT_C94732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCIT_C94732> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCIT_C94729> .
+<http://purl.obolibrary.org/obo/NCIT_C94732> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The season between the summer solstice and the autumnal equinox." .
+<http://purl.obolibrary.org/obo/NCIT_C94732> <http://www.w3.org/2000/01/rdf-schema#label> "summer" .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C94733
+<http://purl.obolibrary.org/obo/NCIT_C94733> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCIT_C94733> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCIT_C94729> .
+<http://purl.obolibrary.org/obo/NCIT_C94733> <http://purl.obolibrary.org/obo/IAO_0000115@en> "The season between the autumnal equinox and the winter solstice." .
+<http://purl.obolibrary.org/obo/NCIT_C94733> <http://www.w3.org/2000/01/rdf-schema#label> "autumn" .
+# 
+# http://purl.obolibrary.org/obo/OBI_0000011
+<http://purl.obolibrary.org/obo/OBI_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<http://purl.obolibrary.org/obo/OBI_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "planned process" .
+# 
+# http://purl.obolibrary.org/obo/OBI_0000938
+<http://purl.obolibrary.org/obo/OBI_0000938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000938> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000109> .
+<http://purl.obolibrary.org/obo/OBI_0000938> <http://www.w3.org/2000/01/rdf-schema#label> "categorical measurement datum" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0001001
+<http://purl.obolibrary.org/obo/PECO_0001001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0001001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000938> .
+<http://purl.obolibrary.org/obo/PECO_0001001> <http://www.w3.org/2000/01/rdf-schema#label> "plant exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007027
+<http://purl.obolibrary.org/obo/PECO_0007027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <FDC:0000003> .
+<http://purl.obolibrary.org/obo/PECO_0007027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0001001> .
+<http://purl.obolibrary.org/obo/PECO_0007027> <http://www.w3.org/2000/01/rdf-schema#label> "seasonal environment exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007035
+<http://purl.obolibrary.org/obo/PECO_0007035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0007027> .
+<http://purl.obolibrary.org/obo/PECO_0007035> <http://www.w3.org/2000/01/rdf-schema#label> "winter season exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007036
+<http://purl.obolibrary.org/obo/PECO_0007036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007036> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0007027> .
+<http://purl.obolibrary.org/obo/PECO_0007036> <http://www.w3.org/2000/01/rdf-schema#label> "summer season exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007037
+<http://purl.obolibrary.org/obo/PECO_0007037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0007027> .
+<http://purl.obolibrary.org/obo/PECO_0007037> <http://www.w3.org/2000/01/rdf-schema#label> "spring season exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007038
+<http://purl.obolibrary.org/obo/PECO_0007038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007038> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0007027> .
+<http://purl.obolibrary.org/obo/PECO_0007038> <http://www.w3.org/2000/01/rdf-schema#label> "autumn season exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007285
+<http://purl.obolibrary.org/obo/PECO_0007285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007285> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0007027> .
+<http://purl.obolibrary.org/obo/PECO_0007285> <http://www.w3.org/2000/01/rdf-schema#label> "rainy season exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007286
+<http://purl.obolibrary.org/obo/PECO_0007286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007286> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/PECO_0007027> .
+<http://purl.obolibrary.org/obo/PECO_0007286> <http://www.w3.org/2000/01/rdf-schema#label> "dry season exposure" .
+# 
+# http://purl.obolibrary.org/obo/PECO_0007359
+<http://purl.obolibrary.org/obo/PECO_0007359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/PECO_0007359> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000027> .
+<http://purl.obolibrary.org/obo/PECO_0007359> <http://www.w3.org/2000/01/rdf-schema#label> "plant experimental condition" .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

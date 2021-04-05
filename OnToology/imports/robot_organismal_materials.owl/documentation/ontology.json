@@ -1,0 +1,3544 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030110"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0000014"
+    }, {
+      "@id" : "_:genid103"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4236"
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid107"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_381124"
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0025597"
+    }, {
+      "@id" : "_:genid111"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3821"
+  } ]
+}, {
+  "@id" : "_:genid111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_381124"
+  } ]
+}, {
+  "@id" : "_:genid113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid115"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4498"
+  } ]
+}, {
+  "@id" : "_:genid117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid119"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4543"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009005"
+    }, {
+      "@id" : "_:genid123"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3726"
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020038"
+    }, {
+      "@id" : "_:genid127"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3621"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00003477"
+    }, {
+      "@id" : "_:genid131"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_32247"
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid135"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid135",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4530"
+  } ]
+}, {
+  "@id" : "_:genid137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020100"
+    }, {
+      "@id" : "_:genid139"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3709"
+  } ]
+}, {
+  "@id" : "_:genid141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009066"
+    }, {
+      "@id" : "_:genid143"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid143",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_82528"
+  } ]
+}, {
+  "@id" : "_:genid145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0025034"
+    }, {
+      "@id" : "_:genid147"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2070381"
+  } ]
+}, {
+  "@id" : "_:genid149",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00003592"
+    }, {
+      "@id" : "_:genid151"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_60698"
+  } ]
+}, {
+  "@id" : "_:genid151",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3747"
+  } ]
+}, {
+  "@id" : "_:genid153",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009047"
+    }, {
+      "@id" : "_:genid155"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid155",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4547"
+  } ]
+}, {
+  "@id" : "_:genid157",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0025476"
+    }, {
+      "@id" : "_:genid159"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid159",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4120"
+  } ]
+}, {
+  "@id" : "_:genid161",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020100"
+    }, {
+      "@id" : "_:genid163"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_51350"
+  } ]
+}, {
+  "@id" : "_:genid165",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0004543"
+    }, {
+      "@id" : "_:genid167"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid167",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4672"
+  } ]
+}, {
+  "@id" : "_:genid169",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030103"
+    }, {
+      "@id" : "_:genid171"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid171",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13894"
+  } ]
+}, {
+  "@id" : "_:genid173",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FAO_0000007"
+    }, {
+      "@id" : "_:genid180"
+    }, {
+      "@id" : "_:genid175"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid176"
+  } ]
+}, {
+  "@id" : "_:genid176",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_5341"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0007021"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid180",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000323"
+  } ]
+}, {
+  "@id" : "_:genid182",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FAO_0000007"
+    }, {
+      "@id" : "_:genid189"
+    }, {
+      "@id" : "_:genid184"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid185"
+  } ]
+}, {
+  "@id" : "_:genid185",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_5341"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0007021"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid189",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000952"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4565"
+  } ]
+}, {
+  "@id" : "_:genid191",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FAO_0000007"
+    }, {
+      "@id" : "_:genid193"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid193",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid194"
+  } ]
+}, {
+  "@id" : "_:genid194",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_5341"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0007023"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid198",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FAO_0000007"
+    }, {
+      "@id" : "_:genid200"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_5341"
+  } ]
+}, {
+  "@id" : "_:genid202",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid204"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid204",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3906"
+  } ]
+}, {
+  "@id" : "_:genid206",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid208"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid208",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3916"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid210",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid212"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid212",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3847"
+  } ]
+}, {
+  "@id" : "_:genid214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030108"
+    }, {
+      "@id" : "_:genid216"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4081"
+  } ]
+}, {
+  "@id" : "_:genid218",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid220"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid220",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3827"
+  } ]
+}, {
+  "@id" : "_:genid222",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid224"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid224",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4558"
+  } ]
+}, {
+  "@id" : "_:genid226",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid228"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid228",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3864"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_112509"
+  } ]
+}, {
+  "@id" : "_:genid230",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0004709"
+    }, {
+      "@id" : "_:genid232"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid232",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_178616"
+  } ]
+}, {
+  "@id" : "_:genid234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030109"
+    }, {
+      "@id" : "_:genid236"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid236",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2711"
+  } ]
+}, {
+  "@id" : "_:genid238",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0004543"
+    }, {
+      "@id" : "_:genid240"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid240",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4113"
+  } ]
+}, {
+  "@id" : "_:genid242",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030108"
+    }, {
+      "@id" : "_:genid244"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid244",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_214697"
+  } ]
+}, {
+  "@id" : "_:genid246",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020127"
+    }, {
+      "@id" : "_:genid248"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_161934"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030103"
+    }, {
+      "@id" : "_:genid27"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid31"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3750"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3885"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030100"
+    }, {
+      "@id" : "_:genid35"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3885"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030115"
+    }, {
+      "@id" : "_:genid39"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_36774"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0000014"
+    }, {
+      "@id" : "_:genid43"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3716"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid47"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_138011"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020127"
+    }, {
+      "@id" : "_:genid51"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4039"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0025476"
+    }, {
+      "@id" : "_:genid55"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3983"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030115"
+    }, {
+      "@id" : "_:genid59"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3715"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020038"
+    }, {
+      "@id" : "_:genid63"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4045"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0020127"
+    }, {
+      "@id" : "_:genid67"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_161934"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00003478"
+    }, {
+      "@id" : "_:genid71"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_115715"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_42229"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid75"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3917"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030111"
+    }, {
+      "@id" : "_:genid79"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3659"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+    }, {
+      "@id" : "_:genid83"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4567"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030108"
+    }, {
+      "@id" : "_:genid87"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_29760"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0030102"
+    }, {
+      "@id" : "_:genid91"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13451"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+    }, {
+      "@id" : "_:genid95"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1940530"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/PO_0009047"
+    }, {
+      "@id" : "_:genid99"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001000"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_109379"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FAO_0000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002473",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A pome fruit of an apple tree (Malus domestica)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "apple"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A whole apple may include a stem."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "apple (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030110"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002753",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002775",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a bambara groundnut plant (Vigna subterranea)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-09T17:59:28Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "bambara groundnut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bambara groundnut (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002781",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a pigeon pea plant (Cajanus cajan)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Pigeon_pea"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-07-09T22:29:49Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "pigeon pea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pigeon pea (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a macadamia nut tree (Macadamia integrifolia)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-13T05:53:56Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "Hawaii nut"
+  }, {
+    "@language" : "en",
+    "@value" : "Queensland nut"
+  }, {
+    "@language" : "en",
+    "@value" : "bauple"
+  }, {
+    "@language" : "en",
+    "@value" : "bauple nut"
+  }, {
+    "@language" : "en",
+    "@value" : "boombera"
+  }, {
+    "@language" : "en",
+    "@value" : "bush nut"
+  }, {
+    "@language" : "en",
+    "@value" : "gyndl"
+  }, {
+    "@language" : "en",
+    "@value" : "jindilli"
+  }, {
+    "@language" : "en",
+    "@value" : "macadamia"
+  }, {
+    "@language" : "en",
+    "@value" : "macadamia nut"
+  }, {
+    "@language" : "en",
+    "@value" : "maroochi nut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "macadamia nut (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a common wheat plant (Triticum aestivum)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Common_wheat"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-25T16:34:00Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "bread wheat"
+  }, {
+    "@language" : "en",
+    "@value" : "bread wheat kernel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "About 95% of wheat produced worldwide is common wheat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "common wheat kernel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003206",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a peanut plant (Arachis hypogaea)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "peanut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "peanut (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003394",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a barley plant (Hordeum vulgare subsp. vulgare)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-06T15:28:35Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "barley seed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "barley seed (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003399",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A drupe fruit of the arabica coffee plant (Coffea arabica)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-07T16:25:15Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "arabica bean"
+  }, {
+    "@language" : "en",
+    "@value" : "arabica coffee bean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "arabica coffee bean (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030103"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003403",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a common bean plant (Phaseolus vulgaris)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-08T18:42:03Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "common bean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "common bean (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002753"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003404",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A legume fruit of a common bean plant (Phaseolus vulgaris)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-08T18:42:15Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "common bean pod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030100"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003405",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A raceme inflorescence of a broccoli plant(Brassica oleracea var. italica)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:15:35Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "broccoli"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "broccoli floret (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030115"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003406",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A rosette of a cabbage plant (Brassica oleracea var. capitata)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:20:47Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "cabbage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cabbage head"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0000014"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003407",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a rapseed plant (Brassica napus subsp. napus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:24:31Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "rapeseed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rapeseed (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003408",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A primary root of a carrot plant (Daucus carota)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:27:10Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "carrot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carrot root (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020127"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003409",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A tuberous root tuber of a cassava plant (Manihot esculenta)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:33:05Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "cassava"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cassava (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0025476"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003410",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A raceme inflorescence of a cauliflower plant (Brassica oleracea var. botrytis)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:39:07Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "cauliflower"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cauliflower (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030115"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003411",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A petiole of a celery plant (Apium graveolens)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:43:45Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "celery stalk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "celery stalk (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020038"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid61"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003412",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A primary root of a sugar beet plant (Beta vulgaris)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:45:46Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "sugar beet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sugar beet (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020127"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid65"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003413",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A drupe fruit of a sweet cherry plant (Prunus avium)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T07:48:03Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "sweet cherry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sweet cherry (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003478"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003414",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a cowpea plant (Vigna unguiculata)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T14:09:09Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "cowpea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cowpea (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid73"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003415",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A pepo fruit of a cucumber plant (Cucumis sativus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T14:18:28Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "cucumber"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cucumber (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030111"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid77"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003416",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a durum wheat plant (Triticum turgidum subsp. durum)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T14:22:09Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "durum wheat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "durum wheat kernel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid81"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003417",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A berry fruit of a grape plant (Vitis vinifera)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T14:38:33Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "grape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grape (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030108"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid85"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003418",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A nut fruit of a common hazelnut tree (Corylus avellana)"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T14:47:29Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "common hazelnut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "common hazelnut (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030102"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003421",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of an indian mustard plant (Brassica juncea subsp. integrifolia)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T15:16:24Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "indian mustard seed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "indian mustard seed (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid93"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003422",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A stem of a kohlrabi plant (Brassica oleracea var. gongylodes)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T15:32:09Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "kohlrabi stem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "kohlrabi stem (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009047"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid97"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003423",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A rosette leaf of a lettuce plant (Lactuca sativa)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T15:53:41Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "lettuce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lettuce leaf (anatomical)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0000014"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid101"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003427",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a maize plant  (Zea mays subsp. mays)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T22:30:15Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "corn kernel"
+  }, {
+    "@language" : "en",
+    "@value" : "maize kernel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maize kernel (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid105"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003428",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An ear infructescence of a maize plant (Zea mays subsp. mays)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T22:30:40Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "corn cob"
+  }, {
+    "@language" : "en",
+    "@value" : "maize cob"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maize cob (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0025597"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid109"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003429",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of an oat plant (Avena sativa)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-09T22:33:32Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "oats"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "whole oats"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid113"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003430",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a perl millet plant (Cenchrus americanus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T02:58:48Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "perl millet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "perl millet kernel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid117"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003431",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A root of a radish plant (Raphanus sativus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T03:13:06Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "radish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "radish (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009005"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid121"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003432",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A petiole of a rhubarb plant (Rheum rhabarbarum)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T03:17:01Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "rhubart stalk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rhubarb stalk (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020038"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid125"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003433",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A fruit of a raspberry plant (Rubus idaeus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T03:24:33Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "raspberry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "raspberry (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003477"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid129"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003434",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a rice plant (Oryza sativa)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T03:37:39Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "whole grain rice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid133"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003440",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A hypocotyl of a rutabaga plant (Brassica napus subsp. rapifera)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T04:30:20Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "rutabaga"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rutabaga (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020100"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid137"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003441",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An anther of a saffron plant (Crocus sativus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Saffron"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T04:36:16Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "saffron"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "saffron thread"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009066"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid141"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003442",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A leaf of a siberian kale plant (Brassica napus var. pabularia)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T04:47:48Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "siberian kale leaf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "siberian kale leaf (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0025034"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid145"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003443",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An aggregate fruit of a strawberry plant  (Fragaria × ananassa)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T04:57:07Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "strawberry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strawberry (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003592"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid149"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003444",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A stem of a sugar cane plant (Saccharum officinarum)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T05:06:55Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "sugar cane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sugar cane stem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009047"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid153"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003445",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A tuberous root tuber of a sweet potato plant (Ipomoea batatas)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T05:12:34Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "sweet potato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sweet potato (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0025476"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid157"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003447",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A hypocotyl of a turnip plant (Brassica rapa subsp. rapa)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T05:38:38Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "turnip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "turnip (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020100"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid161"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003448",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A shoot axis tuber of a yam plant (Dioscorea)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T05:45:46Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "yam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "yam (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0004543"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid165"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003449",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A drupe fruit of a coconut palm tree (Cocos nucifera)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-09-10T05:53:54Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "coconut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "coconut (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030103"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid169"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003462",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A white-colored immature fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Damion Dooley"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-10-13T05:45:46Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "button mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "champignon mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "common mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "cultivated mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "table mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "white mushroom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "white mushroom (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003465"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid173"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003463",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A brown-colored immature fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Damion Dooley"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-10-13T05:45:46Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "Italian brown"
+  }, {
+    "@language" : "en",
+    "@value" : "Italian mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "Roman brown mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "Swiss brown mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "brown cap mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "chestnut mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "cremini"
+  }, {
+    "@language" : "en",
+    "@value" : "crimini mushroom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brown mushroom (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003465"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid182"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003464",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A mature fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Damion Dooley"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-10-13T05:45:46Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "portabella mushroom"
+  }, {
+    "@language" : "en",
+    "@value" : "portobella mushroom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portobello mushroom (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003465"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid191"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003465",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A fruitbody of a cultivated mushroom fungus (Agaricus bisporus)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Damion Dooley"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-10-13T05:45:46Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cultivated mushroom (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FAO_0000007"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid198"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003477",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003478",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003592",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03301227",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a broad bean plant (Vicia faba)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "Windsor bean"
+  }, {
+    "@language" : "en",
+    "@value" : "broad bean"
+  }, {
+    "@language" : "en",
+    "@value" : "broadbean"
+  }, {
+    "@language" : "en",
+    "@value" : "faba bean"
+  }, {
+    "@language" : "en",
+    "@value" : "fava bean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "broad bean (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid202"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03301275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a mung bean plant (Vigna radiata var. radiata)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "mung bean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mung bean (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid206"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03301415",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a soyabean plant (Glycine max)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "soy bean"
+  }, {
+    "@language" : "en",
+    "@value" : "soya bean"
+  }, {
+    "@language" : "en",
+    "@value" : "soybean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "soybean (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid210"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03301453",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A berry fruit of a tomato plant (Solanum lycopersicum L.)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "tomato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tomato (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030108"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid214"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03306811",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a chickpea plant (Cicer arietinum)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "chick pea"
+  }, {
+    "@language" : "en",
+    "@value" : "chickpea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chickpea (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid218"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03309978",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A caryopsis fruit of a sorghum plant (Sorghum bicolor)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "sorghum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sorghum kernel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030104"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid222"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03310641",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A seed of a lentil plant (Lens culinaris)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "lentil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lentil (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0009010"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid226"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03311885",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An axillary bud of the brussels sprout plant (Brassica oleracea var. gemmifera)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "brussels sprouts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brussels sprout (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0004709"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid230"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03315106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A hesperidium fruit of an orange tree (Citrus sinensis)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Orange_(fruit)"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "orange"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "orange (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030109"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid234"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03315354",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A shoot axis tuber of a potato plant (Solanum tuberosum)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "potato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "potato (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0004543"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid238"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03316257",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A berry fruit of a banana tree (Musa acuminata AAA Group)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "banana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "banana (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0030108"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid242"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03317254",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A primary root of a beetroot plant (Beta vulgaris)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "FoodOn"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "beet"
+  }, {
+    "@language" : "en",
+    "@value" : "beetroot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "beetroot (whole)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PO_0020127"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid246"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_109379",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_112509",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_115715",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13451",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_138011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13894",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_161934",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_178616",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1940530",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2070381",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_214697",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2711",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_29760",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_32247",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3621",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3659",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_36774",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3709",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3715",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3716",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3726",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3747",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3750",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_381124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3818",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3821",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3827",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3847",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3864",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3885",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3906",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3916",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3917",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3983",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4045",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4081",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_42229",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4236",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4498",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4530",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4543",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4547",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4558",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4565",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4567",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4672",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_51350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_5341",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_60698",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_82528",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000323",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000952",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0000014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0004543",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0004709",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0009001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0009005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0009010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0009047",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0009066",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0020038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0020100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0020127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0025034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0025476",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0025597",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PO_0030115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0000086",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0001000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UBERON_0007023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/foodon/imports/robot_organismal_materials.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

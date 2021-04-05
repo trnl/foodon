@@ -1,0 +1,59 @@
+{
+  "@context" : {
+    "hasNarrowSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
+    },
+    "hasSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym"
+    },
+    "IAO_0000231" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000231"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "IAO_0000117" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000117"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "GENEPIO_0000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/GENEPIO_0000005"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+    },
+    "IAO_0100001" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0100001"
+    },
+    "IAO_0000114" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000114"
+    },
+    "RO_0000087" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "@type" : "@id"
+    },
+    "IAO_0000119" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000119"
+    },
+    "IAO_0000111" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000111"
+    },
+    "IAO_0000412" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000412"
+    },
+    "hasBroadSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "_taxonomic_rank" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    }
+  }
+}
