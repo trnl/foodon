@@ -1,0 +1,2620 @@
+{
+  "@context" : {
+    "CHEBI_51086" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    },
+    "CHEBI_39437" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39437"
+    },
+    "CHEBI_33837" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33837"
+    },
+    "CHEBI_26835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26835"
+    },
+    "CHEBI_33822" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33822"
+    },
+    "CHEBI_17621" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17621"
+    },
+    "CHEBI_32178" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32178"
+    },
+    "CHEBI_26420" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26420"
+    },
+    "CHEBI_53448" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53448"
+    },
+    "CHEBI_17992" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17992"
+    },
+    "CHEBI_78074" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78074"
+    },
+    "CHEBI_33619" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33619"
+    },
+    "CHEBI_17242" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17242"
+    },
+    "CHEBI_51026" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51026"
+    },
+    "CHEBI_36970" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36970"
+    },
+    "CHEBI_53550" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53550"
+    },
+    "CHEBI_23849" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23849"
+    },
+    "CHEBI_33250" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33250"
+    },
+    "CHEBI_76224" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76224"
+    },
+    "CHEBI_77868" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77868"
+    },
+    "CHEBI_15948" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15948"
+    },
+    "CHEBI_51234" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51234"
+    },
+    "CHEBI_78299" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78299"
+    },
+    "CHEBI_87113" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_87113"
+    },
+    "CHEBI_33261" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33261"
+    },
+    "CHEBI_33856" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33856"
+    },
+    "CHEBI_38631" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38631"
+    },
+    "CHEBI_31206" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31206"
+    },
+    "CHEBI_22984" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22984"
+    },
+    "CHEBI_33285" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33285"
+    },
+    "CHEBI_83811" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83811"
+    },
+    "CHEBI_88061" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88061"
+    },
+    "CHEBI_37577" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37577"
+    },
+    "CHEBI_25048" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25048"
+    },
+    "CHEBI_53311" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53311"
+    },
+    "CHEBI_53249" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53249"
+    },
+    "CHEBI_17306" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17306"
+    },
+    "CHEBI_17623" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17623"
+    },
+    "CHEBI_35505" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35505"
+    },
+    "CHEBI_51958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51958"
+    },
+    "CHEBI_33352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33352"
+    },
+    "CHEBI_17754" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17754"
+    },
+    "CHEBI_71298" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71298"
+    },
+    "CHEBI_3136" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3136"
+    },
+    "CHEBI_17716" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17716"
+    },
+    "CHEBI_33913" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33913"
+    },
+    "CHEBI_25108" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25108"
+    },
+    "CHEBI_26666" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26666"
+    },
+    "CHEBI_60892" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60892"
+    },
+    "CHEBI_59698" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59698"
+    },
+    "CHEBI_17234" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17234"
+    },
+    "CHEBI_18140" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18140"
+    },
+    "CHEBI_36357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36357"
+    },
+    "CHEBI_53270" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53270"
+    },
+    "CHEBI_37826" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37826"
+    },
+    "CHEBI_31794" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31794"
+    },
+    "CHEBI_26933" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26933"
+    },
+    "CHEBI_24583" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24583"
+    },
+    "CHEBI_26255" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26255"
+    },
+    "CHEBI_27081" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27081"
+    },
+    "CHEBI_132106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132106"
+    },
+    "CHEBI_26078" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26078"
+    },
+    "CHEBI_33832" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33832"
+    },
+    "CHEBI_23652" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23652"
+    },
+    "CHEBI_24838" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24838"
+    },
+    "CHEBI_26188" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26188"
+    },
+    "CHEBI_27266" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27266"
+    },
+    "CHEBI_33620" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33620"
+    },
+    "CHEBI_33579" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33579"
+    },
+    "CHEBI_26167" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26167"
+    },
+    "CHEBI_33854" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33854"
+    },
+    "CHEBI_76579" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76579"
+    },
+    "CHEBI_35788" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35788"
+    },
+    "CHEBI_49302" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49302"
+    },
+    "CHEBI_51143" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+    },
+    "CHEBI_35868" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35868"
+    },
+    "CHEBI_28793" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28793"
+    },
+    "CHEBI_53425" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53425"
+    },
+    "CHEBI_23014" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23014"
+    },
+    "CHEBI_28803" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28803"
+    },
+    "CHEBI_32159" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32159"
+    },
+    "CHEBI_17045" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17045"
+    },
+    "CHEBI_17202" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17202"
+    },
+    "CHEBI_33318" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33318"
+    },
+    "CHEBI_61459" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61459"
+    },
+    "CHEBI_30061" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30061"
+    },
+    "CHEBI_30879" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30879"
+    },
+    "CHEBI_33402" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33402"
+    },
+    "CHEBI_28838" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28838"
+    },
+    "CHEBI_38260" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38260"
+    },
+    "CHEBI_24174" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24174"
+    },
+    "CHEBI_3312" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3312"
+    },
+    "CHEBI_131927" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131927"
+    },
+    "CHEBI_35149" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35149"
+    },
+    "CHEBI_33595" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33595"
+    },
+    "CHEBI_29377" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29377"
+    },
+    "CHEBI_17855" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17855"
+    },
+    "CHEBI_26079" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26079"
+    },
+    "CHEBI_35350" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35350"
+    },
+    "CHEBI_39474" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39474"
+    },
+    "CHEBI_28940" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28940"
+    },
+    "CHEBI_33240" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33240"
+    },
+    "CHEBI_53243" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53243"
+    },
+    "CHEBI_33888" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33888"
+    },
+    "CHEBI_33676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33676"
+    },
+    "CHEBI_37585" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37585"
+    },
+    "CHEBI_82519" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82519"
+    },
+    "CHEBI_81862" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_81862"
+    },
+    "CHEBI_167559" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_167559"
+    },
+    "CHEBI_84997" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_84997"
+    },
+    "CHEBI_33836" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33836"
+    },
+    "CHEBI_30961" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30961"
+    },
+    "CHEBI_18186" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18186"
+    },
+    "CHEBI_17608" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17608"
+    },
+    "CHEBI_24828" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24828"
+    },
+    "CHEBI_113455" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_113455"
+    },
+    "CHEBI_27134" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27134"
+    },
+    "CHEBI_62196" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62196"
+    },
+    "CHEBI_22728" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22728"
+    },
+    "CHEBI_18246" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18246"
+    },
+    "CHEBI_31344" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31344"
+    },
+    "CHEBI_5686" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5686"
+    },
+    "CHEBI_35150" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35150"
+    },
+    "CHEBI_33229" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33229"
+    },
+    "CHEBI_51721" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51721"
+    },
+    "CHEBI_33672" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33672"
+    },
+    "CHEBI_36962" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36962"
+    },
+    "CHEBI_33661" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33661"
+    },
+    "CHEBI_33303" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33303"
+    },
+    "CHEBI_3310" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3310"
+    },
+    "CHEBI_33424" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33424"
+    },
+    "CHEBI_26650" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26650"
+    },
+    "CHEBI_35311" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35311"
+    },
+    "CHEBI_36054" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36054"
+    },
+    "CHEBI_63037" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63037"
+    },
+    "CHEBI_27786" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27786"
+    },
+    "CHEBI_38180" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38180"
+    },
+    "CHEBI_75323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75323"
+    },
+    "CHEBI_74772" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74772"
+    },
+    "CHEBI_25693" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25693"
+    },
+    "CHEBI_25248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25248"
+    },
+    "CHEBI_72544" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72544"
+    },
+    "CHEBI_26217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26217"
+    },
+    "CHEBI_15693" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15693"
+    },
+    "CHEBI_47778" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47778"
+    },
+    "CHEBI_37997" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37997"
+    },
+    "CHEBI_37142" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37142"
+    },
+    "CHEBI_23217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23217"
+    },
+    "CHEBI_50263" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50263"
+    },
+    "CHEBI_25701" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25701"
+    },
+    "CHEBI_33720" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33720"
+    },
+    "CHEBI_24963" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24963"
+    },
+    "CHEBI_24870" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24870"
+    },
+    "CHEBI_67265" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67265"
+    },
+    "CHEBI_23341" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23341"
+    },
+    "CHEBI_28984" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28984"
+    },
+    "CHEBI_27470" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27470"
+    },
+    "CHEBI_47882" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47882"
+    },
+    "CHEBI_33300" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33300"
+    },
+    "CHEBI_61468" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61468"
+    },
+    "CHEBI_22470" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22470"
+    },
+    "CHEBI_17188" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17188"
+    },
+    "CHEBI_145232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145232"
+    },
+    "CHEBI_26948" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26948"
+    },
+    "CHEBI_132502" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132502"
+    },
+    "CHEBI_63017" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63017"
+    },
+    "CHEBI_36688" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36688"
+    },
+    "CHEBI_63018" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63018"
+    },
+    "CHEBI_31793" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31793"
+    },
+    "CHEBI_35406" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35406"
+    },
+    "CHEBI_36916" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36916"
+    },
+    "CHEBI_35987" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35987"
+    },
+    "CHEBI_24431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    },
+    "CHEBI_81048" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_81048"
+    },
+    "CHEBI_134179" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_134179"
+    },
+    "CHEBI_48299" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48299"
+    },
+    "CHEBI_37445" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37445"
+    },
+    "CHEBI_51336" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51336"
+    },
+    "CHEBI_83503" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83503"
+    },
+    "CHEBI_46640" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46640"
+    },
+    "CHEBI_78618" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78618"
+    },
+    "CHEBI_25107" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25107"
+    },
+    "CHEBI_85122" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85122"
+    },
+    "CHEBI_38251" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38251"
+    },
+    "CHEBI_46663" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46663"
+    },
+    "CHEBI_36080" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36080"
+    },
+    "CHEBI_26819" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26819"
+    },
+    "CHEBI_15674" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15674"
+    },
+    "CHEBI_3375" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3375"
+    },
+    "CHEBI_36094" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36094"
+    },
+    "CHEBI_13643" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_13643"
+    },
+    "CHEBI_51689" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51689"
+    },
+    "CHEBI_25000" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25000"
+    },
+    "CHEBI_33745" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33745"
+    },
+    "CHEBI_60027" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60027"
+    },
+    "CHEBI_93909" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_93909"
+    },
+    "CHEBI_53248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53248"
+    },
+    "CHEBI_24268" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24268"
+    },
+    "CHEBI_15841" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15841"
+    },
+    "CHEBI_33675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33675"
+    },
+    "CHEBI_33975" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33975"
+    },
+    "CHEBI_63551" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63551"
+    },
+    "CHEBI_35724" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35724"
+    },
+    "CHEBI_33560" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33560"
+    },
+    "CHEBI_25696" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25696"
+    },
+    "CHEBI_48199" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48199"
+    },
+    "CHEBI_35681" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35681"
+    },
+    "CHEBI_18133" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18133"
+    },
+    "CHEBI_24868" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24868"
+    },
+    "CHEBI_33245" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33245"
+    },
+    "CHEBI_16526" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16526"
+    },
+    "CHEBI_26834" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26834"
+    },
+    "CHEBI_33257" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33257"
+    },
+    "CHEBI_37175" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37175"
+    },
+    "CHEBI_26178" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26178"
+    },
+    "CHEBI_33118" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33118"
+    },
+    "CHEBI_28017" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28017"
+    },
+    "CHEBI_50906" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50906"
+    },
+    "CHEBI_16701" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16701"
+    },
+    "CHEBI_63043" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63043"
+    },
+    "CHEBI_34247" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_34247"
+    },
+    "CHEBI_83631" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83631"
+    },
+    "CHEBI_15889" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15889"
+    },
+    "CHEBI_26271" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26271"
+    },
+    "CHEBI_36562" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36562"
+    },
+    "CHEBI_32112" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32112"
+    },
+    "CHEBI_10607" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_10607"
+    },
+    "CHEBI_26195" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26195"
+    },
+    "CHEBI_47916" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47916"
+    },
+    "CHEBI_33833" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33833"
+    },
+    "CHEBI_63299" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63299"
+    },
+    "CHEBI_37734" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37734"
+    },
+    "CHEBI_24651" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24651"
+    },
+    "CHEBI_5291" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5291"
+    },
+    "CHEBI_22660" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22660"
+    },
+    "CHEBI_29075" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29075"
+    },
+    "CHEBI_63019" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63019"
+    },
+    "CHEBI_35162" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35162"
+    },
+    "CHEBI_30911" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30911"
+    },
+    "CHEBI_17987" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17987"
+    },
+    "CHEBI_45979" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_45979"
+    },
+    "CHEBI_25367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25367"
+    },
+    "CHEBI_18237" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18237"
+    },
+    "CHEBI_87036" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_87036"
+    },
+    "CHEBI_28044" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28044"
+    },
+    "CHEBI_26935" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26935"
+    },
+    "CHEBI_23042" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23042"
+    },
+    "CHEBI_25697" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25697"
+    },
+    "CHEBI_35276" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35276"
+    },
+    "CHEBI_23044" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23044"
+    },
+    "CHEBI_133354" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_133354"
+    },
+    "CHEBI_50584" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50584"
+    },
+    "CHEBI_46648" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46648"
+    },
+    "CHEBI_24873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24873"
+    },
+    "CHEBI_50211" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50211"
+    },
+    "CHEBI_46662" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46662"
+    },
+    "CHEBI_48343" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48343"
+    },
+    "CHEBI_23230" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23230"
+    },
+    "CHEBI_26400" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26400"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CHEBI_39024" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39024"
+    },
+    "CHEBI_23390" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23390"
+    },
+    "CHEBI_24835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24835"
+    },
+    "CHEBI_71645" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71645"
+    },
+    "CHEBI_65212" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65212"
+    },
+    "CHEBI_51084" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51084"
+    },
+    "CHEBI_35990" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35990"
+    },
+    "CHEBI_32988" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32988"
+    },
+    "CHEBI_53276" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53276"
+    },
+    "CHEBI_24632" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24632"
+    },
+    "CHEBI_48154" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48154"
+    },
+    "CHEBI_33598" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33598"
+    },
+    "CHEBI_27364" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27364"
+    },
+    "CHEBI_24839" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24839"
+    },
+    "CHEBI_33597" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33597"
+    },
+    "CHEBI_73155" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73155"
+    },
+    "CHEBI_82411" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82411"
+    },
+    "CHEBI_23509" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23509"
+    },
+    "CHEBI_6636" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6636"
+    },
+    "CHEBI_39026" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39026"
+    },
+    "CHEBI_15356" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15356"
+    },
+    "CHEBI_2571" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2571"
+    },
+    "CHEBI_52217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52217"
+    },
+    "CHEBI_36360" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36360"
+    },
+    "CHEBI_33744" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33744"
+    },
+    "CHEBI_27314" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27314"
+    },
+    "CHEBI_53225" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53225"
+    },
+    "CHEBI_18059" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18059"
+    },
+    "CHEBI_37164" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37164"
+    },
+    "CHEBI_30363" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30363"
+    },
+    "CHEBI_23367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    },
+    "CHEBI_3362" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3362"
+    },
+    "CHEBI_28966" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28966"
+    },
+    "CHEBI_35433" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35433"
+    },
+    "CHEBI_33752" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33752"
+    },
+    "CHEBI_24384" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24384"
+    },
+    "CHEBI_26082" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26082"
+    },
+    "CHEBI_27897" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27897"
+    },
+    "CHEBI_32879" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32879"
+    },
+    "CHEBI_33232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33232"
+    },
+    "CHEBI_25140" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25140"
+    },
+    "CHEBI_59554" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59554"
+    },
+    "CHEBI_38835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38835"
+    },
+    "CHEBI_38106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38106"
+    },
+    "CHEBI_33582" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33582"
+    },
+    "CHEBI_26384" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26384"
+    },
+    "CHEBI_37010" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37010"
+    },
+    "CHEBI_36295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36295"
+    },
+    "CHEBI_26708" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26708"
+    },
+    "CHEBI_37578" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37578"
+    },
+    "CHEBI_88184" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88184"
+    },
+    "CHEBI_139322" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139322"
+    },
+    "CHEBI_15366" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15366"
+    },
+    "CHEBI_50126" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50126"
+    },
+    "CHEBI_33659" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33659"
+    },
+    "CHEBI_60004" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60004"
+    },
+    "CHEBI_47622" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47622"
+    },
+    "CHEBI_32029" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32029"
+    },
+    "CHEBI_33692" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33692"
+    },
+    "CHEBI_37176" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37176"
+    },
+    "CHEBI_32954" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32954"
+    },
+    "CHEBI_38179" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38179"
+    },
+    "CHEBI_25681" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25681"
+    },
+    "CHEBI_28946" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28946"
+    },
+    "CHEBI_35436" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35436"
+    },
+    "CHEBI_33260" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33260"
+    },
+    "CHEBI_90852" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90852"
+    },
+    "CHEBI_33859" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33859"
+    },
+    "CHEBI_38166" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38166"
+    },
+    "CHEBI_53423" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53423"
+    },
+    "CHEBI_17593" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17593"
+    },
+    "CHEBI_24266" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24266"
+    },
+    "CHEBI_33674" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33674"
+    },
+    "CHEBI_52623" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52623"
+    },
+    "CHEBI_33302" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33302"
+    },
+    "CHEBI_29864" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29864"
+    },
+    "CHEBI_18422" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18422"
+    },
+    "CHEBI_36141" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36141"
+    },
+    "CHEBI_27306" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27306"
+    },
+    "CHEBI_35618" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35618"
+    },
+    "CHEBI_33839" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33839"
+    },
+    "CHEBI_51069" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51069"
+    },
+    "CHEBI_75769" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75769"
+    },
+    "CHEBI_33497" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33497"
+    },
+    "CHEBI_81716" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_81716"
+    },
+    "CHEBI_36981" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36981"
+    },
+    "CHEBI_87034" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_87034"
+    },
+    "CHEBI_50860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    },
+    "CHEBI_85248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85248"
+    },
+    "CHEBI_24669" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24669"
+    },
+    "CHEBI_36820" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36820"
+    },
+    "CHEBI_26714" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26714"
+    },
+    "CHEBI_62968" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62968"
+    },
+    "CHEBI_53424" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53424"
+    },
+    "CHEBI_17151" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17151"
+    },
+    "CHEBI_25585" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25585"
+    },
+    "CHEBI_36938" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36938"
+    },
+    "CHEBI_27732" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27732"
+    },
+    "CHEBI_33273" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33273"
+    },
+    "CHEBI_25555" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25555"
+    },
+    "CHEBI_33561" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33561"
+    },
+    "CHEBI_78295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78295"
+    },
+    "CHEBI_22888" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22888"
+    },
+    "CHEBI_26385" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26385"
+    },
+    "CHEBI_42191" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_42191"
+    },
+    "CHEBI_36853" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36853"
+    },
+    "CHEBI_33978" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33978"
+    },
+    "CHEBI_33964" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33964"
+    },
+    "CHEBI_78840" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78840"
+    },
+    "CHEBI_33966" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33966"
+    },
+    "CHEBI_3962" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3962"
+    },
+    "CHEBI_64220" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64220"
+    },
+    "CHEBI_18154" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18154"
+    },
+    "CHEBI_25633" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25633"
+    },
+    "CHEBI_25106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25106"
+    },
+    "CHEBI_33655" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33655"
+    },
+    "CHEBI_3309" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3309"
+    },
+    "CHEBI_15428" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15428"
+    },
+    "CHEBI_61458" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61458"
+    },
+    "CHEBI_22563" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22563"
+    },
+    "CHEBI_26561" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26561"
+    },
+    "CHEBI_26421" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26421"
+    },
+    "CHEBI_33890" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33890"
+    },
+    "CHEBI_39447" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39447"
+    },
+    "CHEBI_30769" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30769"
+    },
+    "CHEBI_17522" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17522"
+    },
+    "CHEBI_30059" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30059"
+    },
+    "CHEBI_38697" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38697"
+    },
+    "CHEBI_15409" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15409"
+    },
+    "CHEBI_37583" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37583"
+    },
+    "CHEBI_35286" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35286"
+    },
+    "CHEBI_33457" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33457"
+    },
+    "CHEBI_78320" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78320"
+    },
+    "CHEBI_22315" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22315"
+    },
+    "CHEBI_114786" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_114786"
+    },
+    "CHEBI_24913" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24913"
+    },
+    "CHEBI_27208" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27208"
+    },
+    "CHEBI_33256" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33256"
+    },
+    "CHEBI_33234" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33234"
+    },
+    "CHEBI_24833" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24833"
+    },
+    "CHEBI_3992" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3992"
+    },
+    "CHEBI_77635" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77635"
+    },
+    "CHEBI_24041" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24041"
+    },
+    "CHEBI_17822" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17822"
+    },
+    "CHEBI_33680" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33680"
+    },
+    "CHEBI_26397" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26397"
+    },
+    "CHEBI_33484" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33484"
+    },
+    "CHEBI_18219" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18219"
+    },
+    "CHEBI_63944" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63944"
+    },
+    "CHEBI_25903" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25903"
+    },
+    "CHEBI_49105" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49105"
+    },
+    "CHEBI_23888" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    },
+    "CHEBI_26373" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26373"
+    },
+    "CHEBI_26127" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26127"
+    },
+    "CHEBI_46686" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46686"
+    },
+    "CHEBI_24780" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24780"
+    },
+    "CHEBI_37979" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37979"
+    },
+    "CHEBI_35748" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35748"
+    },
+    "CHEBI_33976" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33976"
+    },
+    "CHEBI_25806" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25806"
+    },
+    "CHEBI_17087" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17087"
+    },
+    "CHEBI_79020" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_79020"
+    },
+    "CHEBI_16449" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16449"
+    },
+    "CHEBI_25549" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25549"
+    },
+    "CHEBI_33581" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33581"
+    },
+    "CHEBI_38077" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38077"
+    },
+    "CHEBI_25608" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25608"
+    },
+    "CHEBI_27027" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27027"
+    },
+    "CHEBI_35163" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35163"
+    },
+    "CHEBI_33767" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33767"
+    },
+    "CHEBI_33906" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33906"
+    },
+    "CHEBI_50967" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50967"
+    },
+    "CHEBI_26208" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26208"
+    },
+    "CHEBI_46430" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46430"
+    },
+    "CHEBI_22918" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22918"
+    },
+    "CHEBI_55505" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55505"
+    },
+    "CHEBI_35131" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35131"
+    },
+    "CHEBI_38101" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38101"
+    },
+    "CHEBI_33673" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33673"
+    },
+    "CHEBI_15741" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15741"
+    },
+    "CHEBI_29347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29347"
+    },
+    "CHEBI_18012" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18012"
+    },
+    "CHEBI_23045" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23045"
+    },
+    "CHEBI_32036" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32036"
+    },
+    "CHEBI_53226" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53226"
+    },
+    "CHEBI_27115" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27115"
+    },
+    "CHEBI_25704" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25704"
+    },
+    "CHEBI_16966" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16966"
+    },
+    "CHEBI_83982" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83982"
+    },
+    "CHEBI_82130" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82130"
+    },
+    "CHEBI_83163" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83163"
+    },
+    "CHEBI_33671" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33671"
+    },
+    "CHEBI_51683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51683"
+    },
+    "CHEBI_30768" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30768"
+    },
+    "CHEBI_33694" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33694"
+    },
+    "CHEBI_31345" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31345"
+    },
+    "CHEBI_33855" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33855"
+    },
+    "CHEBI_52632" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52632"
+    },
+    "CHEBI_25741" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25741"
+    },
+    "CHEBI_35875" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35875"
+    },
+    "CHEBI_37586" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37586"
+    },
+    "CHEBI_35962" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35962"
+    },
+    "CHEBI_31835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31835"
+    },
+    "CHEBI_26288" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26288"
+    },
+    "CHEBI_39418" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39418"
+    },
+    "CHEBI_33447" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33447"
+    },
+    "CHEBI_27171" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27171"
+    },
+    "CHEBI_27570" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27570"
+    },
+    "CHEBI_2877" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2877"
+    },
+    "CHEBI_140785" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140785"
+    },
+    "CHEBI_23229" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23229"
+    },
+    "CHEBI_24436" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24436"
+    },
+    "CHEBI_53242" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53242"
+    },
+    "CHEBI_16236" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16236"
+    },
+    "CHEBI_53227" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53227"
+    },
+    "CHEBI_33327" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33327"
+    },
+    "CHEBI_24400" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24400"
+    },
+    "CHEBI_29016" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29016"
+    },
+    "CHEBI_33405" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33405"
+    },
+    "CHEBI_6824" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6824"
+    },
+    "CHEBI_86478" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_86478"
+    },
+    "CHEBI_26375" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26375"
+    },
+    "CHEBI_25835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25835"
+    },
+    "CHEBI_27300" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27300"
+    },
+    "CHEBI_33408" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33408"
+    },
+    "CHEBI_46789" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46789"
+    },
+    "CHEBI_71629" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71629"
+    },
+    "CHEBI_59549" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59549"
+    },
+    "CHEBI_9679" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_9679"
+    },
+    "CHEBI_87659" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_87659"
+    },
+    "CHEBI_26513" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26513"
+    },
+    "CHEBI_134438" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_134438"
+    },
+    "CHEBI_22727" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22727"
+    },
+    "CHEBI_46721" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46721"
+    },
+    "CHEBI_25186" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25186"
+    },
+    "CHEBI_33576" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33576"
+    },
+    "CHEBI_22712" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22712"
+    },
+    "CHEBI_30746" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30746"
+    },
+    "CHEBI_33679" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33679"
+    },
+    "CHEBI_26416" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26416"
+    },
+    "CHEBI_63161" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63161"
+    },
+    "CHEBI_26395" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26395"
+    },
+    "CHEBI_17097" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17097"
+    },
+    "CHEBI_37217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37217"
+    },
+    "CHEBI_35274" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35274"
+    },
+    "CHEBI_22958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22958"
+    },
+    "CHEBI_26712" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26712"
+    },
+    "CHEBI_36009" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36009"
+    },
+    "CHEBI_51959" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51959"
+    },
+    "CHEBI_50744" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50744"
+    },
+    "CHEBI_36819" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36819"
+    },
+    "CHEBI_33636" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33636"
+    },
+    "CHEBI_22314" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22314"
+    },
+    "CHEBI_18145" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18145"
+    },
+    "CHEBI_31608" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31608"
+    },
+    "CHEBI_59230" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59230"
+    },
+    "CHEBI_59601" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59601"
+    },
+    "CHEBI_145207" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145207"
+    },
+    "CHEBI_37015" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37015"
+    },
+    "CHEBI_33640" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33640"
+    },
+    "CHEBI_25529" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25529"
+    },
+    "CHEBI_18346" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18346"
+    },
+    "CHEBI_27093" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27093"
+    },
+    "CHEBI_28694" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28694"
+    },
+    "CHEBI_23114" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23114"
+    },
+    "CHEBI_24997" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24997"
+    },
+    "CHEBI_26836" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26836"
+    },
+    "CHEBI_31346" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31346"
+    },
+    "CHEBI_25698" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25698"
+    },
+    "CHEBI_22313" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22313"
+    },
+    "CHEBI_7488" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_7488"
+    },
+    "CHEBI_26020" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26020"
+    },
+    "CHEBI_24843" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24843"
+    },
+    "CHEBI_24532" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24532"
+    },
+    "CHEBI_16670" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16670"
+    },
+    "CHEBI_35510" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35510"
+    },
+    "CHEBI_35186" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35186"
+    },
+    "CHEBI_37576" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37576"
+    },
+    "CHEBI_64459" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64459"
+    },
+    "CHEBI_113451" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_113451"
+    },
+    "CHEBI_22290" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22290"
+    },
+    "CHEBI_31577" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31577"
+    },
+    "CHEBI_59765" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59765"
+    },
+    "CHEBI_32139" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32139"
+    },
+    "CHEBI_39203" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39203"
+    },
+    "CHEBI_25413" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25413"
+    },
+    "CHEBI_33241" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33241"
+    },
+    "CHEBI_51438" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51438"
+    },
+    "CHEBI_36586" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36586"
+    },
+    "CHEBI_61266" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61266"
+    },
+    "CHEBI_30527" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30527"
+    },
+    "CHEBI_17883" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17883"
+    },
+    "CHEBI_35701" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35701"
+    },
+    "CHEBI_37929" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37929"
+    },
+    "CHEBI_53700" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53700"
+    },
+    "CHEBI_24555" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24555"
+    },
+    "CHEBI_38104" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38104"
+    },
+    "CHEBI_35381" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35381"
+    },
+    "CHEBI_53426" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53426"
+    },
+    "CHEBI_26833" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26833"
+    },
+    "CHEBI_52763" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52763"
+    },
+    "CHEBI_28659" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28659"
+    },
+    "CHEBI_36309" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36309"
+    },
+    "CHEBI_33306" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33306"
+    },
+    "CHEBI_61466" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61466"
+    },
+    "CHEBI_36683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36683"
+    },
+    "CHEBI_24782" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24782"
+    },
+    "CHEBI_27432" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27432"
+    },
+    "CHEBI_63353" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63353"
+    },
+    "CHEBI_17792" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17792"
+    },
+    "CHEBI_18248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18248"
+    },
+    "CHEBI_82431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82431"
+    },
+    "CHEBI_25094" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25094"
+    },
+    "CHEBI_26392" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26392"
+    },
+    "CHEBI_15354" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15354"
+    },
+    "CHEBI_38443" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38443"
+    },
+    "CHEBI_24676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24676"
+    },
+    "CHEBI_25187" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25187"
+    },
+    "CHEBI_16247" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16247"
+    },
+    "CHEBI_83813" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83813"
+    },
+    "CHEBI_83501" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83501"
+    },
+    "CHEBI_47016" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47016"
+    },
+    "CHEBI_59202" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59202"
+    },
+    "CHEBI_25235" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25235"
+    },
+    "CHEBI_24405" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24405"
+    },
+    "CHEBI_78298" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78298"
+    },
+    "CHEBI_17309" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17309"
+    },
+    "CHEBI_23677" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23677"
+    },
+    "CHEBI_37808" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37808"
+    },
+    "CHEBI_33299" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33299"
+    },
+    "CHEBI_62732" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62732"
+    },
+    "CHEBI_23334" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23334"
+    },
+    "CHEBI_86463" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_86463"
+    },
+    "CHEBI_30618" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30618"
+    },
+    "CHEBI_78802" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78802"
+    },
+    "CHEBI_33729" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33729"
+    },
+    "CHEBI_32095" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32095"
+    },
+    "CHEBI_52206" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52206"
+    },
+    "CHEBI_22707" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22707"
+    },
+    "CHEBI_15040" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15040"
+    },
+    "CHEBI_17579" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17579"
+    },
+    "CHEBI_23333" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23333"
+    },
+    "CHEBI_35156" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35156"
+    },
+    "CHEBI_26401" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26401"
+    },
+    "CHEBI_22698" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22698"
+    },
+    "CHEBI_35196" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35196"
+    },
+    "CHEBI_79323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_79323"
+    },
+    "CHEBI_33853" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+    },
+    "CHEBI_27941" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27941"
+    },
+    "CHEBI_24840" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24840"
+    },
+    "CHEBI_75228" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75228"
+    },
+    "CHEBI_33628" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33628"
+    },
+    "CHEBI_26197" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26197"
+    },
+    "CHEBI_17478" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17478"
+    },
+    "CHEBI_37021" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37021"
+    },
+    "CHEBI_39025" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39025"
+    },
+    "CHEBI_36818" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36818"
+    },
+    "CHEBI_35741" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35741"
+    },
+    "CHEBI_52457" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52457"
+    },
+    "CHEBI_68452" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68452"
+    },
+    "CHEBI_24898" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24898"
+    },
+    "CHEBI_33290" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33290"
+    },
+    "CHEBI_22743" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22743"
+    },
+    "CHEBI_27956" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27956"
+    },
+    "CHEBI_36908" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36908"
+    },
+    "CHEBI_35504" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35504"
+    },
+    "CHEBI_32145" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32145"
+    },
+    "CHEBI_33308" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33308"
+    },
+    "CHEBI_36963" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36963"
+    },
+    "CHEBI_27136" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27136"
+    },
+    "CHEBI_26214" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26214"
+    },
+    "CHEBI_26216" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26216"
+    },
+    "CHEBI_32149" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32149"
+    },
+    "CHEBI_35479" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35479"
+    },
+    "CHEBI_495055" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_495055"
+    },
+    "CHEBI_33917" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33917"
+    },
+    "CHEBI_139120" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139120"
+    },
+    "CHEBI_36807" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36807"
+    },
+    "CHEBI_35692" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35692"
+    },
+    "CHEBI_23982" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23982"
+    },
+    "CHEBI_6650" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6650"
+    },
+    "CHEBI_76359" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76359"
+    },
+    "CHEBI_24432" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24432"
+    },
+    "CHEBI_33340" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33340"
+    },
+    "CHEBI_24315" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24315"
+    },
+    "CHEBI_35217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35217"
+    },
+    "CHEBI_52625" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52625"
+    },
+    "CHEBI_33695" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33695"
+    },
+    "CHEBI_26979" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26979"
+    },
+    "CHEBI_26191" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26191"
+    },
+    "CHEBI_38418" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38418"
+    },
+    "CHEBI_32032" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32032"
+    },
+    "CHEBI_38889" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38889"
+    },
+    "CHEBI_25703" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25703"
+    },
+    "CHEBI_52211" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52211"
+    },
+    "CHEBI_33704" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33704"
+    },
+    "CHEBI_24973" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24973"
+    },
+    "CHEBI_15734" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15734"
+    },
+    "CHEBI_68428" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68428"
+    },
+    "CHEBI_71644" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71644"
+    },
+    "CHEBI_18310" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18310"
+    },
+    "CHEBI_30805" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30805"
+    },
+    "CHEBI_30563" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30563"
+    },
+    "CHEBI_17439" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17439"
+    },
+    "CHEBI_33768" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33768"
+    },
+    "CHEBI_36244" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36244"
+    },
+    "CHEBI_23117" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23117"
+    },
+    "CHEBI_37971" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37971"
+    },
+    "CHEBI_37944" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37944"
+    },
+    "CHEBI_18291" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18291"
+    },
+    "CHEBI_46761" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46761"
+    },
+    "CHEBI_25348" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25348"
+    },
+    "CHEBI_33583" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33583"
+    },
+    "CHEBI_38264" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38264"
+    },
+    "CHEBI_33860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33860"
+    },
+    "CHEBI_3435" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3435"
+    },
+    "CHEBI_84055" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_84055"
+    },
+    "CHEBI_63367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63367"
+    },
+    "CHEBI_16811" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16811"
+    },
+    "CHEBI_32063" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32063"
+    },
+    "CHEBI_61120" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61120"
+    },
+    "IAO_0000412" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000412"
+    },
+    "CHEBI_15904" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15904"
+    },
+    "CHEBI_36364" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36364"
+    },
+    "CHEBI_36233" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36233"
+    },
+    "CHEBI_48857" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48857"
+    },
+    "CHEBI_33259" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33259"
+    },
+    "CHEBI_26820" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26820"
+    },
+    "CHEBI_33356" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33356"
+    },
+    "CHEBI_4194" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_4194"
+    },
+    "CHEBI_33296" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33296"
+    },
+    "CHEBI_22723" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22723"
+    },
+    "CHEBI_63036" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63036"
+    },
+    "CHEBI_35341" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35341"
+    },
+    "CHEBI_25216" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25216"
+    },
+    "CHEBI_27325" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27325"
+    },
+    "CHEBI_53310" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53310"
+    },
+    "CHEBI_33702" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33702"
+    },
+    "CHEBI_25830" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25830"
+    },
+    "CHEBI_83821" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83821"
+    },
+    "CHEBI_39166" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39166"
+    },
+    "CHEBI_36359" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36359"
+    },
+    "CHEBI_36294" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36294"
+    },
+    "CHEBI_25676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25676"
+    },
+    "CHEBI_46774" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46774"
+    },
+    "CHEBI_36093" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36093"
+    },
+    "CHEBI_51569" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51569"
+    },
+    "CHEBI_27013" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27013"
+    },
+    "CHEBI_33284" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33284"
+    },
+    "CHEBI_37947" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37947"
+    },
+    "CHEBI_38925" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38925"
+    },
+    "CHEBI_32035" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32035"
+    },
+    "CHEBI_25900" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25900"
+    },
+    "CHEBI_33977" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33977"
+    },
+    "CHEBI_47771" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47771"
+    },
+    "CHEBI_23456" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23456"
+    },
+    "CHEBI_24866" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24866"
+    },
+    "CHEBI_48408" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48408"
+    },
+    "CHEBI_25481" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25481"
+    },
+    "CHEBI_63409" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63409"
+    },
+    "CHEBI_16199" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16199"
+    },
+    "CHEBI_28260" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28260"
+    },
+    "CHEBI_53258" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53258"
+    },
+    "CHEBI_51082" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51082"
+    },
+    "CHEBI_26562" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26562"
+    },
+    "CHEBI_22916" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22916"
+    },
+    "CHEBI_34533" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_34533"
+    },
+    "CHEBI_24978" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24978"
+    },
+    "CHEBI_25111" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25111"
+    },
+    "CHEBI_25699" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25699"
+    },
+    "CHEBI_28972" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28972"
+    },
+    "CHEBI_32588" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32588"
+    },
+    "CHEBI_24278" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24278"
+    },
+    "CHEBI_47704" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47704"
+    },
+    "CHEBI_17113" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17113"
+    },
+    "CHEBI_35605" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35605"
+    },
+    "CHEBI_39022" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39022"
+    },
+    "CHEBI_37716" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37716"
+    },
+    "CHEBI_17634" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17634"
+    },
+    "CHEBI_138675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138675"
+    },
+    "CHEBI_33909" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33909"
+    },
+    "CHEBI_23824" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23824"
+    },
+    "CHEBI_30832" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30832"
+    },
+    "CHEBI_33969" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33969"
+    },
+    "CHEBI_24471" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24471"
+    },
+    "CHEBI_25899" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25899"
+    },
+    "CHEBI_33559" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33559"
+    },
+    "CHEBI_33304" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33304"
+    },
+    "CHEBI_33575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33575"
+    },
+    "CHEBI_72813" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72813"
+    },
+    "CHEBI_22715" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22715"
+    },
+    "CHEBI_25710" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25710"
+    },
+    "CHEBI_26823" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26823"
+    },
+    "CHEBI_22985" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22985"
+    },
+    "CHEBI_33317" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33317"
+    },
+    "CHEBI_22301" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22301"
+    },
+    "CHEBI_36587" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36587"
+    },
+    "CHEBI_18185" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18185"
+    },
+    "CHEBI_32234" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32234"
+    },
+    "CHEBI_25409" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25409"
+    },
+    "CHEBI_17154" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17154"
+    },
+    "CHEBI_50047" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50047"
+    },
+    "CHEBI_35193" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35193"
+    },
+    "CHEBI_3311" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3311"
+    },
+    "CHEBI_26106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26106"
+    },
+    "CHEBI_6495" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6495"
+    },
+    "CHEBI_28934" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28934"
+    },
+    "CHEBI_50699" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50699"
+    },
+    "CHEBI_48232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48232"
+    },
+    "CHEBI_62984" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62984"
+    },
+    "CHEBI_33653" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33653"
+    },
+    "CHEBI_17015" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17015"
+    },
+    "CHEBI_46792" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46792"
+    },
+    "CHEBI_33989" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33989"
+    },
+    "CHEBI_35352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    },
+    "CHEBI_26932" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26932"
+    },
+    "CHEBI_16646" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16646"
+    },
+    "CHEBI_26816" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26816"
+    },
+    "CHEBI_9405" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_9405"
+    },
+    "CHEBI_18067" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18067"
+    },
+    "CHEBI_48901" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48901"
+    },
+    "CHEBI_15940" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15940"
+    },
+    "CHEBI_73558" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73558"
+    },
+    "CHEBI_50733" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50733"
+    },
+    "CHEBI_35489" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35489"
+    },
+    "CHEBI_59999" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59999"
+    },
+    "CHEBI_86222" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_86222"
+    },
+    "CHEBI_37163" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37163"
+    },
+    "CHEBI_36358" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36358"
+    },
+    "CHEBI_47772" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47772"
+    },
+    "CHEBI_35313" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35313"
+    },
+    "CHEBI_36834" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36834"
+    },
+    "CHEBI_26537" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26537"
+    },
+    "CHEBI_25384" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25384"
+    },
+    "CHEBI_23818" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23818"
+    },
+    "CHEBI_36976" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36976"
+    },
+    "CHEBI_33670" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33670"
+    },
+    "CHEBI_26284" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26284"
+    },
+    "CHEBI_35267" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35267"
+    },
+    "CHEBI_33958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33958"
+    },
+    "CHEBI_2509" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2509"
+    },
+    "CHEBI_28757" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28757"
+    },
+    "CHEBI_17561" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17561"
+    },
+    "CHEBI_22652" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22652"
+    },
+    "CHEBI_26873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26873"
+    },
+    "CHEBI_131526" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131526"
+    },
+    "CHEBI_26607" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26607"
+    },
+    "CHEBI_52634" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52634"
+    },
+    "CHEBI_33892" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33892"
+    },
+    "CHEBI_33635" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33635"
+    },
+    "CHEBI_16997" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16997"
+    },
+    "CHEBI_78616" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78616"
+    },
+    "CHEBI_28383" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28383"
+    },
+    "CHEBI_70411" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70411"
+    },
+    "CHEBI_23448" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23448"
+    },
+    "CHEBI_35310" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35310"
+    },
+    "CHEBI_38702" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38702"
+    },
+    "CHEBI_61995" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61995"
+    },
+    "CHEBI_62946" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62946"
+    },
+    "CHEBI_64708" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64708"
+    },
+    "CHEBI_72695" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72695"
+    },
+    "CHEBI_27363" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27363"
+    },
+    "CHEBI_24407" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24407"
+    },
+    "CHEBI_35175" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35175"
+    },
+    "CHEBI_26912" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26912"
+    },
+    "CHEBI_35742" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35742"
+    },
+    "CHEBI_38313" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38313"
+    },
+    "CHEBI_33608" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33608"
+    },
+    "CHEBI_63005" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63005"
+    },
+    "CHEBI_27568" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27568"
+    },
+    "CHEBI_46793" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46793"
+    },
+    "CHEBI_64709" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64709"
+    },
+    "CHEBI_53251" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53251"
+    },
+    "CHEBI_38700" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38700"
+    },
+    "CHEBI_34683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_34683"
+    },
+    "CHEBI_33366" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33366"
+    },
+    "CHEBI_48730" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48730"
+    },
+    "CHEBI_25017" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25017"
+    },
+    "CHEBI_26218" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26218"
+    },
+    "CHEBI_33709" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33709"
+    },
+    "CHEBI_26764" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26764"
+    },
+    "CHEBI_66873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66873"
+    },
+    "CHEBI_87117" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_87117"
+    },
+    "CHEBI_32321" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32321"
+    },
+    "CHEBI_26986" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26986"
+    },
+    "CHEBI_35366" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35366"
+    },
+    "CHEBI_29067" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29067"
+    },
+    "CHEBI_53422" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53422"
+    },
+    "CHEBI_17376" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17376"
+    },
+    "CHEBI_27007" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27007"
+    },
+    "CHEBI_24836" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24836"
+    },
+    "CHEBI_23016" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23016"
+    },
+    "CHEBI_22390" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22390"
+    },
+    "CHEBI_38338" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38338"
+    },
+    "CHEBI_33861" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33861"
+    },
+    "CHEBI_53339" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53339"
+    },
+    "CHEBI_33262" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33262"
+    },
+    "CHEBI_24860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24860"
+    },
+    "CHEBI_86477" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_86477"
+    },
+    "CHEBI_15705" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15705"
+    },
+    "CHEBI_78870" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78870"
+    },
+    "CHEBI_26558" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26558"
+    },
+    "CHEBI_33145" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33145"
+    },
+    "CHEBI_33521" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33521"
+    },
+    "CHEBI_26677" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26677"
+    },
+    "CHEBI_38263" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38263"
+    },
+    "CHEBI_17548" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17548"
+    },
+    "CHEBI_37622" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37622"
+    },
+    "CHEBI_39087" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39087"
+    },
+    "CHEBI_32111" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32111"
+    },
+    "CHEBI_60979" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60979"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    }
+  }
+}

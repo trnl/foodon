@@ -1,0 +1,975 @@
+[ {
+  "@id" : "FDC:0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FDC Factor"
+  } ]
+}, {
+  "@id" : "FDC:0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "genetic modification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000003"
+  } ]
+}, {
+  "@id" : "FDC:0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "agricultural production factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000001"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_00003391",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_03530050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/foodon/imports/robot_fdc.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/AGRO_00002071",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "agricultural process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OBI_0000011"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "temporal region"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "process"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "material entity"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/ENVO_00000009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "national geopolitical entity"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/ENVO_00003074",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "manufactured product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000040"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00001002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002403"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00001015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "plant food product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001002"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A food product designed to taste like animal meat but which is made from plant food sources."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "plant-based meat product analog"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001015"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003375"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002403",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food material"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002454",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food product by quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001002"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002645",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food product by process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001002"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002910",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "An organism that originated from a wild caught population."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "wild harvested animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003374"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003346",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "overripe or decaying (NEW)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_03530050"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003347",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "slightly ripe (NEW)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_03530050"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003374",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "harvested food material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002403"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003375",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A nutritious food product produced by sustainable agricultural practices."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "sustainable agriculture food product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000003"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002645"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003376",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A food product made from plant or animal cell lines incubated in a production facility."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cell-based technology food product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002645"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003375"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003377",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "food material that is obtained by hunting, the practice of seeking, pursuing and capturing or killing wild animals."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Hunting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food harvested by hunting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003374"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003375"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003378",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Food material that is obtained by foraging the natural environment for food."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Foraging"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food harvested by gathering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003374"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003375"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003379",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A food product which is produced from one or more organisms, none of which have changes in their DNA as a result of genetic engineering."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food (not genetically-modified)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000002"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002454"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003381",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The country or countries of manufacture, production, design, or brand origin where an article or product comes from. For multinational brands, this may include multiple countries within the value-creation process."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Country_of_origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "product country-of-origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000001"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003382",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A claim that a product primarily manufactured in a single country of origin, and with components coming only from that country."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Country_of_origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "single country-of-origin product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000001"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/ENVO_00003074"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003383",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A claim that a product is primarily manufactured within America."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Made_in_USA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "American-made product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003382"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003384",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A single-country-of-origin food product which is retailed in that country."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food retailed within its country-of-origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000001"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001002"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003385",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Food produced within a relatively short distance of where it is consumed."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Local_food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "local food"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/The_100-Mile_Diet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003384"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003386",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "wild harvested plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003374"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003387",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Cultivation of plants within a polytunnel or similar tunnel."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Polytunnel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          tunnel farming  "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003388",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The rearing of domesticated animals for food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "     food animal rearing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530154"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003389",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "An approach to animal husbandry designed to maximize production, while minimizing costs by keeping livestock such as cattle, poultry, and fish at high stocking densities, at large scale, and using automated feeding systems."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "       industrial livestock production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003388"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003390",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A technology-based approach toward food production in which growing conditions are optimized within an enclosed growing structure such as a greenhouse or building throughout the development of a crop."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Controlled-environment_agriculture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          controlled environment agriculture (CEA) process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003392",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Aquatic farmed food production located offshore, in coastal areas or in freshwater lakes, open-net pens, or “cages”, that allow for free exchange between the farm and the surrounding environment."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://www.seachoice.org/info-centre/aquaculture/aquaculture-methods/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          aquaculture open-pen rearing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_00003391"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00003393",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Aquatic farmed food production in which fish rearing pens are isolated from ocean or lake water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          aquaculture closed containment pen rearing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_00003391"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A data item consisting of a claim or record of a food product's origin or processing history or suitability for some purpose."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "http://orcid.org/0000-0002-8844-9165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food datum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530051",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "unripe or immature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_03530050"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530052",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ripe or mature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/foodon/imports/FOODON_03530050"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of producing or retailing post-harvest food in a consumer or industrial context."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food facility preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000001"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530206"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of preparing food at a human residence."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "home food preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530108"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of preparing and serving food in a restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "  restaurant food preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530119"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of preparing and serving food in a fast food outlet."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "  fast food outlet preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530119"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of preparing food in an industrial facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food industry preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530108"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of preparing food in a commissary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "commissary food preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530108"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of preparing and serving food in a restaurant or fast food outlet."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "restaurant or fast food preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530108"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The process of sourcing and selling food at a street vending establishment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "street vendor food retail process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530108"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530152",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A food production process involving the rearing of an organism."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Agriculture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "agricultural food production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000003"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530206"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530153",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The hunting or foraging for wild food resources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "  wild food harvesting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530152"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "An agricultural production process involving a domesticated organism."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "  domestic or cultivated food production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530152"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530204",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "An agricultural production process involving wild plants, insects or other organisms that are tended and protected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "  semidomestic or semiwild food production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530152"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530206",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A planned process involving the rearing, manufacture or distribution of food material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OBI_0000011"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530207",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The cultivation of a plant for food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "     food plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530154"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530208",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The cultivation of plants in an unsheltered area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "       outdoor/open-air plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530154"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530209",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Open-air plant cultivation using non-organic fertilizer, pest and weed control treatments,"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          conventional outdoor/open-air plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530208"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530210",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The organic cultivation of plants in an unsheltered area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "        outdoor/open-air organic plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530208"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530253"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Plant cultivation occuring within a partially or fully enclosed environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "       under glass/protected plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530207"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530212",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          conventional under glass/protected plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530213",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The organic cultivation of plants in a sheltered area which may have additional environmental controls."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "        under glass/protected organic plant cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530211"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530253"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A method of growing plants, usually crops, without soil, by using mineral nutrient solutions in an aqueous solvent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "          hydroponic cultivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530251",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A food product which is produced from an organism which has changes in its DNA as a result of genetic engineering."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food (genetically-modified)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000002"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002454"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530253",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "Plant cultivation according to organic food production methods including the use of fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting, biological pest control and the fostering of insect predators."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "     organic plant production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530207"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530291"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530291",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "An agricultural production process that aims to produce food using natural substances and processes that have a limited negative environmental and human health impact as they encourage the responsible use of energy and natural resources like water, the maintenance of biodiversity, the preservation of regional ecological balances, enhancement of soil fertility, and animal welfare."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Damion Dooley"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_000119" : [ {
+    "@value" : "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/288329/11-546-future-of-food-and-farming-report.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "organic food production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_03530152"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_03530292",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "A method of farming husbandry where the animals, for at least part of the day, can roam freely outdoors, rather than being confined in an enclosure for 24 hours each day. This term can be applied to egg, dairy, poultry, and meat production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "       free-range animal production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00003388"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "data item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "information content entity"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "measurement datum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115@en",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCIT_C94729",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "season"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000008"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCIT_C94730",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The season between the winter solstice and the vernal equinox."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "winter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C94729"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCIT_C94731",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The season between the vernal equinox and the summer solstice."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "spring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C94729"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCIT_C94732",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The season between the summer solstice and the autumnal equinox."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "summer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C94729"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCIT_C94733",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115@en" : [ {
+    "@value" : "The season between the autumnal equinox and the winter solstice."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "autumn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C94729"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OBI_0000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "planned process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OBI_0000938",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "categorical measurement datum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000109"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0001001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "plant exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OBI_0000938"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "seasonal environment exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "FDC:0000003"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0001001"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "winter season exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0007027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "summer season exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0007027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007037",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "spring season exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0007027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "autumn season exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0007027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007285",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "rainy season exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0007027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007286",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "dry season exposure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PECO_0007027"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PECO_0007359",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "plant experimental condition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+  } ]
+} ]

@@ -1,0 +1,273 @@
+<http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/GENEPIO_0000006
+<http://purl.obolibrary.org/obo/GENEPIO_0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/GENEPIO_0000006> <http://purl.obolibrary.org/obo/IAO_0000115> "The user interface label is the label that should be placed on a datum when presented on a form or report"@en .
+<http://purl.obolibrary.org/obo/GENEPIO_0000006> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/GENEPIO_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "user interface label"@en .
+# 
+# http://purl.obolibrary.org/obo/GENEPIO_0000162
+<http://purl.obolibrary.org/obo/GENEPIO_0000162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/GENEPIO_0000162> <http://www.w3.org/2000/01/rdf-schema#label> "user interface definition"@en .
+# 
+# http://purl.obolibrary.org/obo/GENEPIO_0001763
+<http://purl.obolibrary.org/obo/GENEPIO_0001763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/GENEPIO_0001763> <http://purl.obolibrary.org/obo/IAO_0000115> "A user interface feature is a pre-set list of features and their acceptable values that a user interface rendering system should use to display an entity on a form or report"@en .
+<http://purl.obolibrary.org/obo/GENEPIO_0001763> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/GENEPIO_0001763> <http://www.w3.org/2000/01/rdf-schema#label> "user interface feature"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000112
+<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000116
+<http://purl.obolibrary.org/obo/IAO_0000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000232
+<http://purl.obolibrary.org/obo/IAO_0000232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000412
+<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0001900
+<http://purl.obolibrary.org/obo/RO_0001900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#inSubset
+<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#qualifiedCardinality
+<http://www.w3.org/2002/07/owl#qualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/OBI_0001927
+<http://purl.obolibrary.org/obo/OBI_0001927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/OBI_0001927> <http://www.w3.org/2000/01/rdf-schema#label> "specifies value of"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0002180
+<http://purl.obolibrary.org/obo/RO_0002180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IAO_0000115> "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IAO_0000116> "The definition of 'has component' is still under discussion. The challenge is in providing a definition that does not imply transitivity." .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IAO_0000232> "For use in recording has_part with a cardinality constraint, because OWL does not permit cardinality constraints to be used in combination with transitive object properties. In situations where you would want to say something like 'has part exactly 5 digit, you would instead use has_component exactly 5 digit."@en .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ro.owl> .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.oboInOwllibrary.org/oboInOwl/ro/subsets#ro-eco> .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://www.w3.org/2000/01/rdf-schema#label> "has component"@en .
+<http://purl.obolibrary.org/obo/RO_0002180> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ontologydesignpatterns.org/wiki/Submissions:Componency> .
+# 
+# http://purl.obolibrary.org/obo/RO_0002350
+<http://purl.obolibrary.org/obo/RO_0002350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.obolibrary.org/obo/RO_0002351> .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/IAO_0000112> "An organism that is a member of a population of organisms" .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/IAO_0000115> "is member of is a mereological relation between a item and a collection." .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/IAO_0000118> "is member of" .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/IAO_0000118> "member part of" .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/IAO_0000119> "SIO" .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ro.owl> .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0001901> .
+<http://purl.obolibrary.org/obo/RO_0002350> <http://www.w3.org/2000/01/rdf-schema#label> "member of"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0002351
+<http://purl.obolibrary.org/obo/RO_0002351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/IAO_0000115> "has member is a mereological relation between a collection and an item." .
+<http://purl.obolibrary.org/obo/RO_0002351> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000658> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180> <http://purl.obolibrary.org/obo/IAO_0000115> "A statement that defines conventions, guidelines, characteristics or methods for consistent data handling to facilitate exchange or processing of the data. This set of criteria are reviewed by and agreed upon by the user community or a governing body before they are released and adopted for use." .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180> <http://purl.obolibrary.org/obo/IAO_0000412> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103180> <http://www.w3.org/2000/01/rdf-schema#label> "data standard"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000040
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/IAO_0000115> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/2000/01/rdf-schema#label> "material entity"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00000000
+<http://purl.obolibrary.org/obo/FOODON_00000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002381
+<http://purl.obolibrary.org/obo/FOODON_00002381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03400361
+<http://purl.obolibrary.org/obo/FOODON_03400361> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03411564
+<http://purl.obolibrary.org/obo/FOODON_03411564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03430113
+<http://purl.obolibrary.org/obo/FOODON_03430113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03440011
+<http://purl.obolibrary.org/obo/FOODON_03440011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03480020
+<http://purl.obolibrary.org/obo/FOODON_03480020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03490100
+<http://purl.obolibrary.org/obo/FOODON_03490100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03510032
+<http://purl.obolibrary.org/obo/FOODON_03510032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03510136
+<http://purl.obolibrary.org/obo/FOODON_03510136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/FOODON_03530005
+<http://purl.obolibrary.org/obo/FOODON_03530005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/GENEPIO_0000106
+<http://purl.obolibrary.org/obo/GENEPIO_0000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GENEPIO_0000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000658> .
+<http://purl.obolibrary.org/obo/GENEPIO_0000106> <http://www.w3.org/2000/01/rdf-schema#label> "draft data standard"@en .
+# 
+# http://purl.obolibrary.org/obo/GENEPIO_0001342
+<http://purl.obolibrary.org/obo/GENEPIO_0001342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GENEPIO_0001342> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000658> .
+<http://purl.obolibrary.org/obo/GENEPIO_0001342> <http://www.w3.org/2000/01/rdf-schema#label> "data standard component"@en .
+# 
+# http://purl.obolibrary.org/obo/GENEPIO_0002031
+<http://purl.obolibrary.org/obo/GENEPIO_0002031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GENEPIO_0002031> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0001933> .
+<http://purl.obolibrary.org/obo/GENEPIO_0002031> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000428> .
+<http://purl.obolibrary.org/obo/GENEPIO_0002031> <http://purl.obolibrary.org/obo/IAO_0000117> "Damion Dooley" .
+<http://purl.obolibrary.org/obo/GENEPIO_0002031> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordinal tree specification is a value specification entity whose subclasses each represent a possible value selection, and which are ordered with respect to their siblings."@en .
+<http://purl.obolibrary.org/obo/GENEPIO_0002031> <http://www.w3.org/2000/01/rdf-schema#label> "ordinal tree specification"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000028
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000115> "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://www.w3.org/2000/01/rdf-schema#label> "symbol"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000030
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000111> "information content entity"@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000115> "A generically dependent continuant that is about some thing."@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Chris Stoeckert"@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000142"@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://www.w3.org/2000/01/rdf-schema#label> "information content entity"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000033
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000111> "directive information entity"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000115> "An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bjoern Peters"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://www.w3.org/2000/01/rdf-schema#label> "directive information entity"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000300
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000111> "textual entity"@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000123> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000115> "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc."@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Lawrence Hunter"@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://www.w3.org/2000/01/rdf-schema#label> "textual entity"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000577
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000028> .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000111> "centrally registered identifier symbol"@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000120> .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000115> "A symbol that is part of a CRID and that is sufficient to look up a record from the CRID's registry."@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bill Hogan"@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bjoern Peters"@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Melanie Courtot"@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000119> "Original proposal from Bjoern, discussions at IAO calls"@en .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/IAO_0000577> <http://www.w3.org/2000/01/rdf-schema#label> "centrally registered identifier symbol"@en .
+# 
+# http://purl.obolibrary.org/obo/OBI_0000245
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000111> "organization"@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg" .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bjoern Peters" .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Philippe Rocca-Serra" .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Susanna Sansone" .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP: OBI" .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://www.w3.org/2000/01/rdf-schema#label> "organization"@en .
+# 
+# http://purl.obolibrary.org/obo/OBI_0000658
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000033> .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://purl.obolibrary.org/obo/IAO_0000111> "data representational model" .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000120> .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://purl.obolibrary.org/obo/IAO_0000115> "Data representational model is an information content entity of the  relationships between data items. A data representational model is encoded in a data format specification such as for cytoscape or biopax." .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://purl.obolibrary.org/obo/IAO_0000117> "Melanie Courtot" .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP: OBI" .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/OBI_0000658> <http://www.w3.org/2000/01/rdf-schema#label> "data representational model" .
+# 
+# http://purl.obolibrary.org/obo/OBI_0001930
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0001933> .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://purl.obolibrary.org/obo/IAO_0000111> "categorical value specification" .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000123> .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://purl.obolibrary.org/obo/IAO_0000115> "A value specification that is specifies one category out of a fixed number of nominal categories" .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON:Bjoern Peters" .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/obi.owl> .
+<http://purl.obolibrary.org/obo/OBI_0001930> <http://www.w3.org/2000/01/rdf-schema#label> "categorical value specification" .
+# 
+# http://purl.obolibrary.org/obo/OBI_0001933
+<http://purl.obolibrary.org/obo/OBI_0001933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0001933> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/OBI_0001933> <http://purl.obolibrary.org/obo/IAO_0000115> "An information content entity that specifies a value within a classification scheme or on a quantitative scale." .
+<http://purl.obolibrary.org/obo/OBI_0001933> <http://www.w3.org/2000/01/rdf-schema#label> "value specification" .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

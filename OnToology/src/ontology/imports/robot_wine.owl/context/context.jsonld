@@ -1,0 +1,224 @@
+{
+  "@context" : {
+    "FOODON_00002621" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002621"
+    },
+    "FOODON_00002640" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002640"
+    },
+    "FOODON_00002627" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002627"
+    },
+    "FOODON_00002618" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002618"
+    },
+    "FOODON_00002589" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002589"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "IAO_0000117" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000117"
+    },
+    "FOODON_03311123" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03311123"
+    },
+    "FOODON_00002615" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002615"
+    },
+    "FOODON_00002612" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002612"
+    },
+    "FOODON_00002586" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002586"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image"
+    },
+    "FOODON_00002641" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002641"
+    },
+    "FOODON_00002619" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002619"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "FOODON_03411329" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03411329"
+    },
+    "FOODON_00002614" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002614"
+    },
+    "FOODON_00002592" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002592"
+    },
+    "FOODON_00002625" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002625"
+    },
+    "FOODON_00002869" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002869"
+    },
+    "FOODON_00002584" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002584"
+    },
+    "FOODON_00002590" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002590"
+    },
+    "FOODON_00002629" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002629"
+    },
+    "FOODON_00002600" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002600"
+    },
+    "FOODON_00002597" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002597"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "FOODON_03412121" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03412121"
+    },
+    "FOODON_00002617" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002617"
+    },
+    "FOODON_00002595" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002595"
+    },
+    "IAO_0000114" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000114"
+    },
+    "FOODON_00002599" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002599"
+    },
+    "FOODON_00002609" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002609"
+    },
+    "FOODON_00002623" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002623"
+    },
+    "FOODON_00002585" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002585"
+    },
+    "IAO_0000119" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000119"
+    },
+    "FOODON_00002626" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002626"
+    },
+    "FOODON_00002606" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002606"
+    },
+    "FOODON_00002863" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002863"
+    },
+    "FOODON_00002583" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002583"
+    },
+    "FOODON_00002611" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002611"
+    },
+    "FOODON_00002628" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002628"
+    },
+    "FOODON_00002613" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002613"
+    },
+    "FOODON_00002598" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002598"
+    },
+    "FOODON_03310272" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03310272"
+    },
+    "FOODON_00002868" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002868"
+    },
+    "FOODON_03301014" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03301014"
+    },
+    "FOODON_00002594" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002594"
+    },
+    "FOODON_00002607" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002607"
+    },
+    "FOODON_00002608" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002608"
+    },
+    "FOODON_00002591" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002591"
+    },
+    "FOODON_00002593" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002593"
+    },
+    "FOODON_00002577" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002577"
+    },
+    "FOODON_00002587" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002587"
+    },
+    "FOODON_00002864" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002864"
+    },
+    "RO_0001000" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "@type" : "@id"
+    },
+    "FOODON_00002622" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002622"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "FOODON_03311270" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03311270"
+    },
+    "FOODON_03310273" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_03310273"
+    },
+    "FOODON_00002603" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002603"
+    },
+    "FOODON_00002596" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002596"
+    },
+    "FOODON_00002620" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002620"
+    },
+    "FOODON_00002605" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002605"
+    },
+    "FOODON_00002588" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002588"
+    },
+    "FOODON_00002624" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002624"
+    },
+    "FOODON_00002602" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002602"
+    },
+    "FOODON_00002601" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002601"
+    },
+    "FOODON_00002630" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002630"
+    },
+    "FOODON_00002610" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002610"
+    },
+    "FOODON_00002604" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002604"
+    },
+    "FOODON_00002639" : {
+      "@id" : "http://purl.obolibrary.org/obo/FOODON_00002639"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    }
+  }
+}

@@ -1,0 +1,1539 @@
+<http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000412
+<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/BFO_0000001
+<http://purl.obolibrary.org/obo/BFO_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000001> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "entity"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000002
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en .
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "continuant"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000003
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000001> .
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity that has temporal parts and that happens, unfolds or develops through time."@en .
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "occurrent"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000004
+<http://purl.obolibrary.org/obo/BFO_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000002> .
+<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000115> "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en .
+<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000115> "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en .
+<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "independent continuant"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000015
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000003> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000115> "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t."@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000115> "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "process"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000024
+<http://purl.obolibrary.org/obo/BFO_0000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/BFO_0000024> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000024> <http://www.w3.org/2000/01/rdf-schema#label> "fiat object"@en .
+<http://purl.obolibrary.org/obo/BFO_0000024> <http://www.w3.org/2000/01/rdf-schema#label> "fiat object part"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000029
+<http://purl.obolibrary.org/obo/BFO_0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000141> .
+<http://purl.obolibrary.org/obo/BFO_0000029> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "site"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000040
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000004> .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/IAO_0000115> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000040> <http://www.w3.org/2000/01/rdf-schema#label> "material entity"@en .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000141
+<http://purl.obolibrary.org/obo/BFO_0000141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000141> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000004> .
+<http://purl.obolibrary.org/obo/BFO_0000141> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/BFO_0000141> <http://www.w3.org/2000/01/rdf-schema#label> "immaterial entity"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000000
+<http://purl.obolibrary.org/obo/ENVO_00000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000813> .
+<http://purl.obolibrary.org/obo/ENVO_00000000> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000000> <http://www.w3.org/2000/01/rdf-schema#label> "geographic feature" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000002
+<http://purl.obolibrary.org/obo/ENVO_00000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000000> .
+<http://purl.obolibrary.org/obo/ENVO_00000002> <http://purl.obolibrary.org/obo/IAO_0000115> "An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature." .
+<http://purl.obolibrary.org/obo/ENVO_00000002> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000002> <http://www.w3.org/2000/01/rdf-schema#label> "anthropogenic geographic feature" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000004
+<http://purl.obolibrary.org/obo/ENVO_00000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000029> .
+<http://purl.obolibrary.org/obo/ENVO_00000004> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000004> <http://www.w3.org/2000/01/rdf-schema#label> "administrative region" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000009
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000123> .
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://purl.obolibrary.org/obo/IAO_0000115> "A political association with effective dominion over a geographic area." .
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000009> <http://www.w3.org/2000/01/rdf-schema#label> "national geopolitical entity" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000011
+<http://purl.obolibrary.org/obo/ENVO_00000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000002> .
+<http://purl.obolibrary.org/obo/ENVO_00000011> <http://purl.obolibrary.org/obo/IAO_0000115> "An enclosure for displaying selected plant or animal life." .
+<http://purl.obolibrary.org/obo/ENVO_00000011> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000011> <http://www.w3.org/2000/01/rdf-schema#label> "garden" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000012
+<http://purl.obolibrary.org/obo/ENVO_00000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000000> .
+<http://purl.obolibrary.org/obo/ENVO_00000012> <http://purl.obolibrary.org/obo/IAO_0000115> "A geographical feature associated with water." .
+<http://purl.obolibrary.org/obo/ENVO_00000012> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000012> <http://www.w3.org/2000/01/rdf-schema#label> "hydrographic feature" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000014
+<http://purl.obolibrary.org/obo/ENVO_00000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000029> .
+<http://purl.obolibrary.org/obo/ENVO_00000014> <http://purl.obolibrary.org/obo/IAO_0000115> "Artificial watercourse with no flow or a controlled flow used for navigation, drainage or irrigation." .
+<http://purl.obolibrary.org/obo/ENVO_00000014> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000014> <http://www.w3.org/2000/01/rdf-schema#label> "canal" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000015
+<http://purl.obolibrary.org/obo/ENVO_00000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001999> .
+<http://purl.obolibrary.org/obo/ENVO_00000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001319> .
+<http://purl.obolibrary.org/obo/ENVO_00000015> <http://purl.obolibrary.org/obo/IAO_0000115> "A marine water body which is constitutes the majority of an astronomical body's hydrosphere." .
+<http://purl.obolibrary.org/obo/ENVO_00000015> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000015> <http://www.w3.org/2000/01/rdf-schema#label> "ocean" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000016
+<http://purl.obolibrary.org/obo/ENVO_00000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001999> .
+<http://purl.obolibrary.org/obo/ENVO_00000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001319> .
+<http://purl.obolibrary.org/obo/ENVO_00000016> <http://purl.obolibrary.org/obo/IAO_0000115> "A large expanse of saline water usually connected with an ocean." .
+<http://purl.obolibrary.org/obo/ENVO_00000016> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000016> <http://www.w3.org/2000/01/rdf-schema#label> "sea" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000020
+<http://purl.obolibrary.org/obo/ENVO_00000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000617> .
+<http://purl.obolibrary.org/obo/ENVO_00000020> <http://purl.obolibrary.org/obo/IAO_0000115> "A body of water or other liquid of considerable size contained in a depression on a landmass." .
+<http://purl.obolibrary.org/obo/ENVO_00000020> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000020> <http://www.w3.org/2000/01/rdf-schema#label> "lake" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000022
+<http://purl.obolibrary.org/obo/ENVO_00000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000023> .
+<http://purl.obolibrary.org/obo/ENVO_00000022> <http://purl.obolibrary.org/obo/IAO_0000115> "A stream which, through permanent or seasonal flow processes, moves from elevated land towards lower elevations through a definite channel and empties either into a sea, lake, or another river or ends on land as bed seepage and evapotranspiration exceed water supply." .
+<http://purl.obolibrary.org/obo/ENVO_00000022> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000022> <http://www.w3.org/2000/01/rdf-schema#label> "river" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000023
+<http://purl.obolibrary.org/obo/ENVO_00000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000029> .
+<http://purl.obolibrary.org/obo/ENVO_00000023> <http://purl.obolibrary.org/obo/IAO_0000115> "A watercourse which is linear and flows across the solid portion of a planetary surface." .
+<http://purl.obolibrary.org/obo/ENVO_00000023> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000023> <http://www.w3.org/2000/01/rdf-schema#label> "stream" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000026
+<http://purl.obolibrary.org/obo/ENVO_00000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000026> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000002> .
+<http://purl.obolibrary.org/obo/ENVO_00000026> <http://purl.obolibrary.org/obo/IAO_0000115> "A cylindrical hole, pit, or tunnel drilled or dug down to a depth from which water, oil, or gas can be pumped or brought to the surface." .
+<http://purl.obolibrary.org/obo/ENVO_00000026> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000026> <http://www.w3.org/2000/01/rdf-schema#label> "well" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000027
+<http://purl.obolibrary.org/obo/ENVO_00000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001479> .
+<http://purl.obolibrary.org/obo/ENVO_00000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001784> .
+<http://purl.obolibrary.org/obo/ENVO_00000027> <http://purl.obolibrary.org/obo/IAO_0000115> "A point where groundwater or steam flows out of the ground, and is thus where the aquifer surface meets the ground surface or where there is a fissure." .
+<http://purl.obolibrary.org/obo/ENVO_00000027> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000027> <http://www.w3.org/2000/01/rdf-schema#label> "spring" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000029
+<http://purl.obolibrary.org/obo/ENVO_00000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000618> .
+<http://purl.obolibrary.org/obo/ENVO_00000029> <http://purl.obolibrary.org/obo/IAO_0000115> "A flowing body of water." .
+<http://purl.obolibrary.org/obo/ENVO_00000029> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000029> <http://www.w3.org/2000/01/rdf-schema#label> "watercourse" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000033
+<http://purl.obolibrary.org/obo/ENVO_00000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000617> .
+<http://purl.obolibrary.org/obo/ENVO_00000033> <http://purl.obolibrary.org/obo/IAO_0000115> "A body of water, usually of smaller size than a lake." .
+<http://purl.obolibrary.org/obo/ENVO_00000033> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000033> <http://www.w3.org/2000/01/rdf-schema#label> "pond" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000037
+<http://purl.obolibrary.org/obo/ENVO_00000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000121> .
+<http://purl.obolibrary.org/obo/ENVO_00000037> <http://purl.obolibrary.org/obo/IAO_0000115> "A small, human-made channel which has been dug for draining or irrigating the land." .
+<http://purl.obolibrary.org/obo/ENVO_00000037> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000037> <http://www.w3.org/2000/01/rdf-schema#label> "ditch" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000043
+<http://purl.obolibrary.org/obo/ENVO_00000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000043> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001305> .
+<http://purl.obolibrary.org/obo/ENVO_00000043> <http://purl.obolibrary.org/obo/IAO_0000115> "An vegetated area which overlaps a wetland ecosystem." .
+<http://purl.obolibrary.org/obo/ENVO_00000043> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000043> <http://www.w3.org/2000/01/rdf-schema#label> "wetland area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000062
+<http://purl.obolibrary.org/obo/ENVO_00000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000062> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000408> .
+<http://purl.obolibrary.org/obo/ENVO_00000062> <http://purl.obolibrary.org/obo/IAO_0000115> "Place or area with clustered or scattered buildings and a permanent human population." .
+<http://purl.obolibrary.org/obo/ENVO_00000062> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000062> <http://www.w3.org/2000/01/rdf-schema#label> "populated place" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000063
+<http://purl.obolibrary.org/obo/ENVO_00000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000063> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000685> .
+<http://purl.obolibrary.org/obo/ENVO_00000063> <http://purl.obolibrary.org/obo/IAO_0000115> "An accumulation of water of varying size." .
+<http://purl.obolibrary.org/obo/ENVO_00000063> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000063> <http://www.w3.org/2000/01/rdf-schema#label> "water body" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000070
+<http://purl.obolibrary.org/obo/ENVO_00000070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000070> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001813> .
+<http://purl.obolibrary.org/obo/ENVO_00000070> <http://purl.obolibrary.org/obo/IAO_0000115> "A construction that has been assembled by deliberate human effort." .
+<http://purl.obolibrary.org/obo/ENVO_00000070> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000070> <http://www.w3.org/2000/01/rdf-schema#label> "human construction" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000073
+<http://purl.obolibrary.org/obo/ENVO_00000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000073> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000070> .
+<http://purl.obolibrary.org/obo/ENVO_00000073> <http://purl.obolibrary.org/obo/IAO_0000115> "A permanent walled and roofed construction." .
+<http://purl.obolibrary.org/obo/ENVO_00000073> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000073> <http://www.w3.org/2000/01/rdf-schema#label> "building" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000077
+<http://purl.obolibrary.org/obo/ENVO_00000077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001110> .
+<http://purl.obolibrary.org/obo/ENVO_00000077> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000077> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural ecosystem" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000078
+<http://purl.obolibrary.org/obo/ENVO_00000078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000078> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000077> .
+<http://purl.obolibrary.org/obo/ENVO_00000078> <http://purl.obolibrary.org/obo/IAO_0000115> "An area of land which is used for the cultivation of crops or grazing of livestock, including any agricultural constructions therein." .
+<http://purl.obolibrary.org/obo/ENVO_00000078> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000078> <http://www.w3.org/2000/01/rdf-schema#label> "farm" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000086
+<http://purl.obolibrary.org/obo/ENVO_00000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000086> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000191> .
+<http://purl.obolibrary.org/obo/ENVO_00000086> <http://purl.obolibrary.org/obo/IAO_0000115> "A region of general uniform slope, comparatively level, and of considerable extent." .
+<http://purl.obolibrary.org/obo/ENVO_00000086> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000086> <http://www.w3.org/2000/01/rdf-schema#label> "plain" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000091
+<http://purl.obolibrary.org/obo/ENVO_00000091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000191> .
+<http://purl.obolibrary.org/obo/ENVO_00000091> <http://purl.obolibrary.org/obo/IAO_0000115> "A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a body of water." .
+<http://purl.obolibrary.org/obo/ENVO_00000091> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000091> <http://www.w3.org/2000/01/rdf-schema#label> "beach" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000097
+<http://purl.obolibrary.org/obo/ENVO_00000097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000097> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000752> .
+<http://purl.obolibrary.org/obo/ENVO_00000097> <http://purl.obolibrary.org/obo/IAO_0000115> "A region rendered barren or partially barren by environmental extremes, especially by low rainfall." .
+<http://purl.obolibrary.org/obo/ENVO_00000097> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000097> <http://www.w3.org/2000/01/rdf-schema#label> "desert area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000106
+<http://purl.obolibrary.org/obo/ENVO_00000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001305> .
+<http://purl.obolibrary.org/obo/ENVO_00000106> <http://purl.obolibrary.org/obo/IAO_0000115> "An area in which grasses (Graminae) are a significant component of the vegetation." .
+<http://purl.obolibrary.org/obo/ENVO_00000106> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000106> <http://www.w3.org/2000/01/rdf-schema#label> "grassland area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000109
+<http://purl.obolibrary.org/obo/ENVO_00000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001305> .
+<http://purl.obolibrary.org/obo/ENVO_00000109> <http://purl.obolibrary.org/obo/IAO_0000115> "Land having a cover of trees, shrubs, or both." .
+<http://purl.obolibrary.org/obo/ENVO_00000109> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000109> <http://www.w3.org/2000/01/rdf-schema#label> "woodland area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000111
+<http://purl.obolibrary.org/obo/ENVO_00000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000109> .
+<http://purl.obolibrary.org/obo/ENVO_00000111> <http://purl.obolibrary.org/obo/IAO_0000115> "An area with a high density of trees. A small forest may be called a wood." .
+<http://purl.obolibrary.org/obo/ENVO_00000111> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000111> <http://www.w3.org/2000/01/rdf-schema#label> "forested area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000112
+<http://purl.obolibrary.org/obo/ENVO_00000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001305> .
+<http://purl.obolibrary.org/obo/ENVO_00000112> <http://purl.obolibrary.org/obo/IAO_0000115> "A vegetated area which is part of a tundra ecosystem." .
+<http://purl.obolibrary.org/obo/ENVO_00000112> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000112> <http://www.w3.org/2000/01/rdf-schema#label> "area of tundra" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000114
+<http://purl.obolibrary.org/obo/ENVO_00000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000114> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000352> .
+<http://purl.obolibrary.org/obo/ENVO_00000114> <http://purl.obolibrary.org/obo/IAO_0000115> "A field which is located on land and used for agricultural purposes, such as the grazing of livestock or the cultivation of crops." .
+<http://purl.obolibrary.org/obo/ENVO_00000114> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000114> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural field" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000117
+<http://purl.obolibrary.org/obo/ENVO_00000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000117> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000078> .
+<http://purl.obolibrary.org/obo/ENVO_00000117> <http://purl.obolibrary.org/obo/IAO_0000115> "An intentional planting of a crop, on a large scale, usually for uses other than cereal production or pasture. The term is currently most often used for plantings of trees and shrubs. The term tends also to be used for plantings maintained on economic bases other than that of subsistence farming." .
+<http://purl.obolibrary.org/obo/ENVO_00000117> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000117> <http://www.w3.org/2000/01/rdf-schema#label> "plantation" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000121
+<http://purl.obolibrary.org/obo/ENVO_00000121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000121> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000395> .
+<http://purl.obolibrary.org/obo/ENVO_00000121> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000121> <http://www.w3.org/2000/01/rdf-schema#label> "artificial channel" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000123
+<http://purl.obolibrary.org/obo/ENVO_00000123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000123> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000004> .
+<http://purl.obolibrary.org/obo/ENVO_00000123> <http://purl.obolibrary.org/obo/IAO_0000115> "A geographical region whose affairs and population are administered by an authority." .
+<http://purl.obolibrary.org/obo/ENVO_00000123> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000123> <http://www.w3.org/2000/01/rdf-schema#label> "political entity" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000124
+<http://purl.obolibrary.org/obo/ENVO_00000124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000124> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000123> .
+<http://purl.obolibrary.org/obo/ENVO_00000124> <http://purl.obolibrary.org/obo/IAO_0000115> "A political entitity established by more than one state and with at least some influence over the affairs of its member states." .
+<http://purl.obolibrary.org/obo/ENVO_00000124> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000124> <http://www.w3.org/2000/01/rdf-schema#label> "supranational geopolitical entity" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000139
+<http://purl.obolibrary.org/obo/ENVO_00000139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000139> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000037> .
+<http://purl.obolibrary.org/obo/ENVO_00000139> <http://purl.obolibrary.org/obo/IAO_0000115> "A ditch that supplies water to surrounding land." .
+<http://purl.obolibrary.org/obo/ENVO_00000139> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000139> <http://www.w3.org/2000/01/rdf-schema#label> "irrigation ditch" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000191
+<http://purl.obolibrary.org/obo/ENVO_00000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000191> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000813> .
+<http://purl.obolibrary.org/obo/ENVO_00000191> <http://purl.obolibrary.org/obo/IAO_0000115> "A part of an astronomical body which is primarily composed of a continuous volume of solid material, shaped by one or more environmental processes." .
+<http://purl.obolibrary.org/obo/ENVO_00000191> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000191> <http://www.w3.org/2000/01/rdf-schema#label> "solid astronomical body part" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000266
+<http://purl.obolibrary.org/obo/ENVO_00000266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000266> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000077> .
+<http://purl.obolibrary.org/obo/ENVO_00000266> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001206> .
+<http://purl.obolibrary.org/obo/ENVO_00000266> <http://purl.obolibrary.org/obo/IAO_0000115> "A grassland ecosystem which is used for grazing of ungulate livestock as part of a farm or ranch." .
+<http://purl.obolibrary.org/obo/ENVO_00000266> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000266> <http://www.w3.org/2000/01/rdf-schema#label> "pasture" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000292
+<http://purl.obolibrary.org/obo/ENVO_00000292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000292> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000191> .
+<http://purl.obolibrary.org/obo/ENVO_00000292> <http://purl.obolibrary.org/obo/IAO_0000115> "The separation between neighbouring drainage basins (catchments). In hilly country, the divide lies along topographical peaks and ridges, but in flat country or on a high plateau (especially where the ground is marshy) the divide may be invisible - just a more or less notional line on the ground on either side of which falling raindrops will start a journey to different rivers, and even to different sides of a country or continent." .
+<http://purl.obolibrary.org/obo/ENVO_00000292> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000292> <http://www.w3.org/2000/01/rdf-schema#label> "watershed" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000294
+<http://purl.obolibrary.org/obo/ENVO_00000294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000294> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000077> .
+<http://purl.obolibrary.org/obo/ENVO_00000294> <http://purl.obolibrary.org/obo/IAO_0000115> "A facility in which fish are raised commercially in tanks or enclosures, usually for food." .
+<http://purl.obolibrary.org/obo/ENVO_00000294> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000294> <http://www.w3.org/2000/01/rdf-schema#label> "fish farm" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000295
+<http://purl.obolibrary.org/obo/ENVO_00000295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000295> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001873> .
+<http://purl.obolibrary.org/obo/ENVO_00000295> <http://purl.obolibrary.org/obo/IAO_0000115> "A hatchery in which the eggs of fish are hatched under artificial conditions." .
+<http://purl.obolibrary.org/obo/ENVO_00000295> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000295> <http://www.w3.org/2000/01/rdf-schema#label> "fish hatchery" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000300
+<http://purl.obolibrary.org/obo/ENVO_00000300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001305> .
+<http://purl.obolibrary.org/obo/ENVO_00000300> <http://purl.obolibrary.org/obo/IAO_0000115> "Area covered with low-growing or stunted perennial vegetation and usually not mixed with trees." .
+<http://purl.obolibrary.org/obo/ENVO_00000300> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000300> <http://www.w3.org/2000/01/rdf-schema#label> "scrubland area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000309
+<http://purl.obolibrary.org/obo/ENVO_00000309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000309> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000191> .
+<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/IAO_0000115> "A landform sunken or depressed below the surrounding area." .
+<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000309> <http://www.w3.org/2000/01/rdf-schema#label> "depression" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000395
+<http://purl.obolibrary.org/obo/ENVO_00000395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000395> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000309> .
+<http://purl.obolibrary.org/obo/ENVO_00000395> <http://purl.obolibrary.org/obo/IAO_0000115> "The physical confine of a river, slough or ocean strait consisting of a bed and banks." .
+<http://purl.obolibrary.org/obo/ENVO_00000395> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000395> <http://www.w3.org/2000/01/rdf-schema#label> "channel of a watercourse" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000428
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001110> .
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://purl.obolibrary.org/obo/IAO_0000115> "A biome is an ecosystem to which resident ecological communities have evolved adaptations." .
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000428> <http://www.w3.org/2000/01/rdf-schema#label> "biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000446
+<http://purl.obolibrary.org/obo/ENVO_00000446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000446> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000428> .
+<http://purl.obolibrary.org/obo/ENVO_00000446> <http://purl.obolibrary.org/obo/IAO_0000115> "A biome which is  primarily or completely situated on a landmass." .
+<http://purl.obolibrary.org/obo/ENVO_00000446> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000446> <http://www.w3.org/2000/01/rdf-schema#label> "terrestrial biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000447
+<http://purl.obolibrary.org/obo/ENVO_00000447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000447> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002030> .
+<http://purl.obolibrary.org/obo/ENVO_00000447> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001788> .
+<http://purl.obolibrary.org/obo/ENVO_00000447> <http://purl.obolibrary.org/obo/IAO_0000115> "An aquatic biome which is determined by a marine water body." .
+<http://purl.obolibrary.org/obo/ENVO_00000447> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000447> <http://www.w3.org/2000/01/rdf-schema#label> "marine biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000508
+<http://purl.obolibrary.org/obo/ENVO_00000508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000508> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000191> .
+<http://purl.obolibrary.org/obo/ENVO_00000508> <http://purl.obolibrary.org/obo/IAO_0000115> "A step-like feature between higher and lower ground: a relatively flat or gently inclined shelf of earth, backed and fronted by steep slopes or manmade detaining walls." .
+<http://purl.obolibrary.org/obo/ENVO_00000508> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000508> <http://www.w3.org/2000/01/rdf-schema#label> "terrace" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000519
+<http://purl.obolibrary.org/obo/ENVO_00000519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000519> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000077> .
+<http://purl.obolibrary.org/obo/ENVO_00000519> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000508> .
+<http://purl.obolibrary.org/obo/ENVO_00000519> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000519> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural terrace" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000856
+<http://purl.obolibrary.org/obo/ENVO_00000856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000856> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000658> .
+<http://purl.obolibrary.org/obo/ENVO_00000856> <http://purl.obolibrary.org/obo/IAO_0000115> "Incorporated populated place." .
+<http://purl.obolibrary.org/obo/ENVO_00000856> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000856> <http://www.w3.org/2000/01/rdf-schema#label> "city" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00000873
+<http://purl.obolibrary.org/obo/ENVO_00000873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00000873> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002030> .
+<http://purl.obolibrary.org/obo/ENVO_00000873> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001789> .
+<http://purl.obolibrary.org/obo/ENVO_00000873> <http://purl.obolibrary.org/obo/IAO_0000115> "An aquatic biome which is determined by a body of freshwater." .
+<http://purl.obolibrary.org/obo/ENVO_00000873> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00000873> <http://www.w3.org/2000/01/rdf-schema#label> "freshwater biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00001998
+<http://purl.obolibrary.org/obo/ENVO_00001998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00001998> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_00001998> <http://purl.obolibrary.org/obo/IAO_0000115> "Soil is an environmental material which is primarily composed of minerals, varying proportions of sand, silt, and clay, organic material such as humus, gases, liquids, and a broad range of resident micro- and macroorganisms." .
+<http://purl.obolibrary.org/obo/ENVO_00001998> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00001998> <http://www.w3.org/2000/01/rdf-schema#label> "soil" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00001999
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000044> .
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000617> .
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001308> .
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://purl.obolibrary.org/obo/IAO_0000115> "A significant accumulation of water which is part of a marine biome." .
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00001999> <http://www.w3.org/2000/01/rdf-schema#label> "marine water body" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002000
+<http://purl.obolibrary.org/obo/ENVO_00002000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000191> .
+<http://purl.obolibrary.org/obo/ENVO_00002000> <http://purl.obolibrary.org/obo/IAO_0000115> "A solid astronomical body part which is part of the planetary surface between the peak of an elevation or the bottom of a depression and  relatively flat surrounding land." .
+<http://purl.obolibrary.org/obo/ENVO_00002000> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002000> <http://www.w3.org/2000/01/rdf-schema#label> "slope" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002001
+<http://purl.obolibrary.org/obo/ENVO_00002001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002186> .
+<http://purl.obolibrary.org/obo/ENVO_00002001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002264> .
+<http://purl.obolibrary.org/obo/ENVO_00002001> <http://purl.obolibrary.org/obo/IAO_0000115> "Water that has been adversely affected in quality by anthropogenic influence." .
+<http://purl.obolibrary.org/obo/ENVO_00002001> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002001> <http://www.w3.org/2000/01/rdf-schema#label> "waste water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002006
+<http://purl.obolibrary.org/obo/ENVO_00002006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000815> .
+<http://purl.obolibrary.org/obo/ENVO_00002006> <http://purl.obolibrary.org/obo/IAO_0000115> "An environmental material primarily composed of dihydrogen oxide in its liquid form." .
+<http://purl.obolibrary.org/obo/ENVO_00002006> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002006> <http://www.w3.org/2000/01/rdf-schema#label> "liquid water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002008
+<http://purl.obolibrary.org/obo/ENVO_00002008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000060> .
+<http://purl.obolibrary.org/obo/ENVO_00002008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000814> .
+<http://purl.obolibrary.org/obo/ENVO_00002008> <http://purl.obolibrary.org/obo/IAO_0000115> "Minute solid particles with diameters less than 500 micrometers. Occurs in and may be deposited from, the atmosphere." .
+<http://purl.obolibrary.org/obo/ENVO_00002008> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002008> <http://www.w3.org/2000/01/rdf-schema#label> "dust" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002010
+<http://purl.obolibrary.org/obo/ENVO_00002010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002006> .
+<http://purl.obolibrary.org/obo/ENVO_00002010> <http://purl.obolibrary.org/obo/IAO_0000115> "Water which contains a significant concentration of dissolved salts." .
+<http://purl.obolibrary.org/obo/ENVO_00002010> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002010> <http://www.w3.org/2000/01/rdf-schema#label> "saline water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002011
+<http://purl.obolibrary.org/obo/ENVO_00002011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002006> .
+<http://purl.obolibrary.org/obo/ENVO_00002011> <http://purl.obolibrary.org/obo/IAO_0000115> "Water which has a low concentration of dissolved solutes, particularly that of sodium chloride." .
+<http://purl.obolibrary.org/obo/ENVO_00002011> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002011> <http://www.w3.org/2000/01/rdf-schema#label> "fresh water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002018
+<http://purl.obolibrary.org/obo/ENVO_00002018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002001> .
+<http://purl.obolibrary.org/obo/ENVO_00002018> <http://purl.obolibrary.org/obo/IAO_0000115> "Wastewater that is contaminated with feces or urine," .
+<http://purl.obolibrary.org/obo/ENVO_00002018> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002018> <http://www.w3.org/2000/01/rdf-schema#label> "sewage" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002030
+<http://purl.obolibrary.org/obo/ENVO_00002030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000428> .
+<http://purl.obolibrary.org/obo/ENVO_00002030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001787> .
+<http://purl.obolibrary.org/obo/ENVO_00002030> <http://purl.obolibrary.org/obo/IAO_0000115> "A biome which is determined by a water body and which has ecological climax communities adapted to life in or on water." .
+<http://purl.obolibrary.org/obo/ENVO_00002030> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002030> <http://www.w3.org/2000/01/rdf-schema#label> "aquatic biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002040
+<http://purl.obolibrary.org/obo/ENVO_00002040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000155> .
+<http://purl.obolibrary.org/obo/ENVO_00002040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000814> .
+<http://purl.obolibrary.org/obo/ENVO_00002040> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002040> <http://www.w3.org/2000/01/rdf-schema#label> "wood" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002149
+<http://purl.obolibrary.org/obo/ENVO_00002149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002149> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002010> .
+<http://purl.obolibrary.org/obo/ENVO_00002149> <http://purl.obolibrary.org/obo/IAO_0000115> "Water which has physicochemical properties that have been determined by the processes occuring in a sea or ocean." .
+<http://purl.obolibrary.org/obo/ENVO_00002149> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002149> <http://www.w3.org/2000/01/rdf-schema#label> "sea water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002186
+<http://purl.obolibrary.org/obo/ENVO_00002186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002186> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002006> .
+<http://purl.obolibrary.org/obo/ENVO_00002186> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002186> <http://www.w3.org/2000/01/rdf-schema#label> "contaminated water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002191
+<http://purl.obolibrary.org/obo/ENVO_00002191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002191> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_00002191> <http://purl.obolibrary.org/obo/IAO_0000115> "Straw or other material strewn in an animal's enclosure (e.g. a stable) for it to sleep on and to absorb its faeces and urine." .
+<http://purl.obolibrary.org/obo/ENVO_00002191> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002191> <http://www.w3.org/2000/01/rdf-schema#label> "animal litter" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002221
+<http://purl.obolibrary.org/obo/ENVO_00002221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002221> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001222> .
+<http://purl.obolibrary.org/obo/ENVO_00002221> <http://purl.obolibrary.org/obo/IAO_0000115> "A building in which a business presents a selection of goods and offers to trade or sell them to customers for money or other goods." .
+<http://purl.obolibrary.org/obo/ENVO_00002221> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002221> <http://www.w3.org/2000/01/rdf-schema#label> "shop" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002222
+<http://purl.obolibrary.org/obo/ENVO_00002222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002222> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002221> .
+<http://purl.obolibrary.org/obo/ENVO_00002222> <http://purl.obolibrary.org/obo/IAO_0000115> "A shop in which a business offers food products for sale or trade." .
+<http://purl.obolibrary.org/obo/ENVO_00002222> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002222> <http://www.w3.org/2000/01/rdf-schema#label> "food shop" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002258
+<http://purl.obolibrary.org/obo/ENVO_00002258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002258> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001998> .
+<http://purl.obolibrary.org/obo/ENVO_00002258> <http://purl.obolibrary.org/obo/IAO_0000115> "A soil composed of sand, silt, and clay in relatively even concentration (about 40-40-20% concentration respectively)." .
+<http://purl.obolibrary.org/obo/ENVO_00002258> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002258> <http://www.w3.org/2000/01/rdf-schema#label> "loam" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002259
+<http://purl.obolibrary.org/obo/ENVO_00002259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002259> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001998> .
+<http://purl.obolibrary.org/obo/ENVO_00002259> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002259> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural soil" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002263
+<http://purl.obolibrary.org/obo/ENVO_00002263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002263> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001998> .
+<http://purl.obolibrary.org/obo/ENVO_00002263> <http://purl.obolibrary.org/obo/IAO_0000115> "A portion of soil which is found in a garden." .
+<http://purl.obolibrary.org/obo/ENVO_00002263> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002263> <http://www.w3.org/2000/01/rdf-schema#label> "garden soil" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002264
+<http://purl.obolibrary.org/obo/ENVO_00002264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002264> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_00002264> <http://purl.obolibrary.org/obo/IAO_0000115> "A material which is not the desired output of a process and which is typically the input of a process which removes it from its producer (e.g. a disposal process)." .
+<http://purl.obolibrary.org/obo/ENVO_00002264> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002264> <http://www.w3.org/2000/01/rdf-schema#label> "waste material" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00002297
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://purl.obolibrary.org/obo/IAO_0000115> "OBSOLETE A material entity which determines an environmental system." .
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://www.w3.org/2000/01/rdf-schema#label> "obsolete environmental feature" .
+<http://purl.obolibrary.org/obo/ENVO_00002297> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003030
+<http://purl.obolibrary.org/obo/ENVO_00003030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_0010003> .
+<http://purl.obolibrary.org/obo/ENVO_00003030> <http://purl.obolibrary.org/obo/IAO_0000115> "A fermented, high-moisture forage that can be fed to ruminants." .
+<http://purl.obolibrary.org/obo/ENVO_00003030> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003030> <http://www.w3.org/2000/01/rdf-schema#label> "silage" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003031
+<http://purl.obolibrary.org/obo/ENVO_00003031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003031> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_00003031> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003031> <http://www.w3.org/2000/01/rdf-schema#label> "animal manure" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003032
+<http://purl.obolibrary.org/obo/ENVO_00003032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003032> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_00003032> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003032> <http://www.w3.org/2000/01/rdf-schema#label> "fresh animal manure" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003040
+<http://purl.obolibrary.org/obo/ENVO_00003040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000417> .
+<http://purl.obolibrary.org/obo/ENVO_00003040> <http://purl.obolibrary.org/obo/IAO_0000115> "A house used for sheltering non-human animals." .
+<http://purl.obolibrary.org/obo/ENVO_00003040> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003040> <http://www.w3.org/2000/01/rdf-schema#label> "animal house" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003041
+<http://purl.obolibrary.org/obo/ENVO_00003041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003040> .
+<http://purl.obolibrary.org/obo/ENVO_00003041> <http://purl.obolibrary.org/obo/IAO_0000115> "An animal house which is used to shelter cows." .
+<http://purl.obolibrary.org/obo/ENVO_00003041> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003041> <http://www.w3.org/2000/01/rdf-schema#label> "cow shed" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003064
+<http://purl.obolibrary.org/obo/ENVO_00003064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003064> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002011> .
+<http://purl.obolibrary.org/obo/ENVO_00003064> <http://purl.obolibrary.org/obo/IAO_0000115> "Drinking water is water which may be consumed by humans with no adverse effects on their health." .
+<http://purl.obolibrary.org/obo/ENVO_00003064> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003064> <http://www.w3.org/2000/01/rdf-schema#label> "drinking water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003071
+<http://purl.obolibrary.org/obo/ENVO_00003071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003030> .
+<http://purl.obolibrary.org/obo/ENVO_00003071> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003071> <http://www.w3.org/2000/01/rdf-schema#label> "grass silage" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003074
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity that has been processed by humans or their technology in any way, including intermediate products as well as final products." .
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003074> <http://www.w3.org/2000/01/rdf-schema#label> "manufactured product" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003096
+<http://purl.obolibrary.org/obo/ENVO_00003096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003096> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00002011> .
+<http://purl.obolibrary.org/obo/ENVO_00003096> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003096> <http://www.w3.org/2000/01/rdf-schema#label> "tap water" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003859
+<http://purl.obolibrary.org/obo/ENVO_00003859> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003859> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_00003859> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003859> <http://www.w3.org/2000/01/rdf-schema#label> "horse manure" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003860
+<http://purl.obolibrary.org/obo/ENVO_00003860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003860> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_00003860> <http://purl.obolibrary.org/obo/IAO_0000115> "Manure which is primarily composed of pig feces." .
+<http://purl.obolibrary.org/obo/ENVO_00003860> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003860> <http://www.w3.org/2000/01/rdf-schema#label> "pig manure" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003861
+<http://purl.obolibrary.org/obo/ENVO_00003861> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003861> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000073> .
+<http://purl.obolibrary.org/obo/ENVO_00003861> <http://purl.obolibrary.org/obo/IAO_0000115> "An industrial building is a building within which goods are produced and, optionally, stored or within which services are rendered." .
+<http://purl.obolibrary.org/obo/ENVO_00003861> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003861> <http://www.w3.org/2000/01/rdf-schema#label> "industrial building" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003862
+<http://purl.obolibrary.org/obo/ENVO_00003862> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003862> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003861> .
+<http://purl.obolibrary.org/obo/ENVO_00003862> <http://purl.obolibrary.org/obo/IAO_0000115> "A dairy is a building in which animal milk is harvested and, optionally, processed for human consumption." .
+<http://purl.obolibrary.org/obo/ENVO_00003862> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003862> <http://www.w3.org/2000/01/rdf-schema#label> "dairy" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003863
+<http://purl.obolibrary.org/obo/ENVO_00003863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003863> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003861> .
+<http://purl.obolibrary.org/obo/ENVO_00003863> <http://purl.obolibrary.org/obo/IAO_0000115> "A food processing building is a building in which materials that contain or consist of essential body nutrients - such as carbohydrates, fats, proteins, vitamins, or minerals - and may be ingested and assimilated by an organism to produce energy, stimulate growth, and maintain life are converted alternative forms." .
+<http://purl.obolibrary.org/obo/ENVO_00003863> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003863> <http://www.w3.org/2000/01/rdf-schema#label> "food processing building" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003864
+<http://purl.obolibrary.org/obo/ENVO_00003864> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003864> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003861> .
+<http://purl.obolibrary.org/obo/ENVO_00003864> <http://purl.obolibrary.org/obo/IAO_0000115> "A bakery is a building in which raw flour-based food is baked in an oven to produce food products such as bread, cakes, pastries, and pies. These products are often sold from the bakery itself." .
+<http://purl.obolibrary.org/obo/ENVO_00003864> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003864> <http://www.w3.org/2000/01/rdf-schema#label> "bakery" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003884
+<http://purl.obolibrary.org/obo/ENVO_00003884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003884> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_00003884> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003884> <http://www.w3.org/2000/01/rdf-schema#label> "farmyard manure" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003885
+<http://purl.obolibrary.org/obo/ENVO_00003885> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003885> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003861> .
+<http://purl.obolibrary.org/obo/ENVO_00003885> <http://purl.obolibrary.org/obo/IAO_0000115> "A brewery is a building in which alcoholic beverages are produced by brewing, that is, steeping a starch source (commonly cereal grains) in water and fermenting the resulting sweet liquid with yeast. At times, the products are also sold from the brewery." .
+<http://purl.obolibrary.org/obo/ENVO_00003885> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003885> <http://www.w3.org/2000/01/rdf-schema#label> "brewery" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003895
+<http://purl.obolibrary.org/obo/ENVO_00003895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003895> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003074> .
+<http://purl.obolibrary.org/obo/ENVO_00003895> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003895> <http://www.w3.org/2000/01/rdf-schema#label> "paper product" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003900
+<http://purl.obolibrary.org/obo/ENVO_00003900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003900> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003071> .
+<http://purl.obolibrary.org/obo/ENVO_00003900> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003900> <http://www.w3.org/2000/01/rdf-schema#label> "rye grass silage" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003927
+<http://purl.obolibrary.org/obo/ENVO_00003927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003927> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_00003927> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003927> <http://www.w3.org/2000/01/rdf-schema#label> "stable manure" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00003978
+<http://purl.obolibrary.org/obo/ENVO_00003978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00003978> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003030> .
+<http://purl.obolibrary.org/obo/ENVO_00003978> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00003978> <http://www.w3.org/2000/01/rdf-schema#label> "potato silage" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00005747
+<http://purl.obolibrary.org/obo/ENVO_00005747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00005747> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001998> .
+<http://purl.obolibrary.org/obo/ENVO_00005747> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00005747> <http://www.w3.org/2000/01/rdf-schema#label> "compost soil" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00005749
+<http://purl.obolibrary.org/obo/ENVO_00005749> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00005749> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00001998> .
+<http://purl.obolibrary.org/obo/ENVO_00005749> <http://purl.obolibrary.org/obo/IAO_0000115> "A portion of soil which is part of a cropland or a rangeland biome." .
+<http://purl.obolibrary.org/obo/ENVO_00005749> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00005749> <http://www.w3.org/2000/01/rdf-schema#label> "farm soil" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00010483
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000024> .
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://purl.obolibrary.org/obo/IAO_0000115> "A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system." .
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00010483> <http://www.w3.org/2000/01/rdf-schema#label> "environmental material" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00010504
+<http://purl.obolibrary.org/obo/ENVO_00010504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00010504> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001684> .
+<http://purl.obolibrary.org/obo/ENVO_00010504> <http://purl.obolibrary.org/obo/IAO_0000115> "A layer of some material entity which is adjacent to one or more of its external boundaries and directly interacts with its immediate surroundings." .
+<http://purl.obolibrary.org/obo/ENVO_00010504> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00010504> <http://www.w3.org/2000/01/rdf-schema#label> "surface layer" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_00010625
+<http://purl.obolibrary.org/obo/ENVO_00010625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_00010625> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000011> .
+<http://purl.obolibrary.org/obo/ENVO_00010625> <http://purl.obolibrary.org/obo/IAO_0000115> "A facility in which animals are confined within enclosures and displayed to the public, and in which they may also be bred." .
+<http://purl.obolibrary.org/obo/ENVO_00010625> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_00010625> <http://www.w3.org/2000/01/rdf-schema#label> "zoological garden" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_0010001
+<http://purl.obolibrary.org/obo/ENVO_0010001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_0010001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_0010001> <http://purl.obolibrary.org/obo/IAO_0000115> "Anthropogenic material in or on which organisms may live." .
+<http://purl.obolibrary.org/obo/ENVO_0010001> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_0010001> <http://www.w3.org/2000/01/rdf-schema#label> "anthropogenic environmental material" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_0010003
+<http://purl.obolibrary.org/obo/ENVO_0010003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_0010003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_0010001> .
+<http://purl.obolibrary.org/obo/ENVO_0010003> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_0010003> <http://www.w3.org/2000/01/rdf-schema#label> "agricultural environmental material" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000001
+<http://purl.obolibrary.org/obo/ENVO_01000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000001> <http://purl.obolibrary.org/obo/IAO_0000115> "A liquid or semi-liquid mixture of water and some combination of soil, silt, and clay." .
+<http://purl.obolibrary.org/obo/ENVO_01000001> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000001> <http://www.w3.org/2000/01/rdf-schema#label> "mud" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000002
+<http://purl.obolibrary.org/obo/ENVO_01000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000026> .
+<http://purl.obolibrary.org/obo/ENVO_01000002> <http://purl.obolibrary.org/obo/IAO_0000115> "A well which provides access to groundwater held  in an aquifer." .
+<http://purl.obolibrary.org/obo/ENVO_01000002> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000002> <http://www.w3.org/2000/01/rdf-schema#label> "water well" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000017
+<http://purl.obolibrary.org/obo/ENVO_01000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000017> <http://purl.obolibrary.org/obo/IAO_0000115> "A naturally occurring granular material composed of finely divided rock and mineral particles." .
+<http://purl.obolibrary.org/obo/ENVO_01000017> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000017> <http://www.w3.org/2000/01/rdf-schema#label> "sand" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000018
+<http://purl.obolibrary.org/obo/ENVO_01000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000018> <http://purl.obolibrary.org/obo/IAO_0000115> "Gravel is an environmental material which is composed of pieces of rock that are at least two millimeters (2mm) in its largest dimension and no more than 75 millimeters." .
+<http://purl.obolibrary.org/obo/ENVO_01000018> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000018> <http://www.w3.org/2000/01/rdf-schema#label> "gravel" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000044
+<http://purl.obolibrary.org/obo/ENVO_01000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000044> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000012> .
+<http://purl.obolibrary.org/obo/ENVO_01000044> <http://purl.obolibrary.org/obo/IAO_0000115> "A prominent or distinctive aspect, quality, or characteristic of environments occurring within the marine water column." .
+<http://purl.obolibrary.org/obo/ENVO_01000044> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000044> <http://www.w3.org/2000/01/rdf-schema#label> "marine pelagic feature" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000048
+<http://purl.obolibrary.org/obo/ENVO_01000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000048> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000447> .
+<http://purl.obolibrary.org/obo/ENVO_01000048> <http://purl.obolibrary.org/obo/IAO_0000115> "A marine biome which is determined by an ocean." .
+<http://purl.obolibrary.org/obo/ENVO_01000048> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000048> <http://www.w3.org/2000/01/rdf-schema#label> "ocean biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000060
+<http://purl.obolibrary.org/obo/ENVO_01000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000060> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000060> <http://purl.obolibrary.org/obo/IAO_0000115> "Particulate material is an environmental material which is composed of microscopic portions of solid or liquid material suspended in another environmental material." .
+<http://purl.obolibrary.org/obo/ENVO_01000060> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000060> <http://www.w3.org/2000/01/rdf-schema#label> "particulate matter"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000155
+<http://purl.obolibrary.org/obo/ENVO_01000155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000155> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000155> <http://purl.obolibrary.org/obo/IAO_0000115> "Environmental material derived from living organisms and composed primarily of one or more biomacromolecules." .
+<http://purl.obolibrary.org/obo/ENVO_01000155> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000155> <http://www.w3.org/2000/01/rdf-schema#label> "organic material" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000174
+<http://purl.obolibrary.org/obo/ENVO_01000174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000174> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001243> .
+<http://purl.obolibrary.org/obo/ENVO_01000174> <http://purl.obolibrary.org/obo/IAO_0000115> "A forest ecosystem in which dominant ecological communities have reached their climax successional state." .
+<http://purl.obolibrary.org/obo/ENVO_01000174> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000174> <http://www.w3.org/2000/01/rdf-schema#label> "forest biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000175
+<http://purl.obolibrary.org/obo/ENVO_01000175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000175> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000446> .
+<http://purl.obolibrary.org/obo/ENVO_01000175> <http://purl.obolibrary.org/obo/IAO_0000115> "A woodland biome is a terrestrial biome which includes, across its entire spatial extent, woody plants spaced sufficiently far apart to allow light penetration to support communities of herbaceous plants or shrubs living closer to the woodland floor." .
+<http://purl.obolibrary.org/obo/ENVO_01000175> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000175> <http://www.w3.org/2000/01/rdf-schema#label> "woodland biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000176
+<http://purl.obolibrary.org/obo/ENVO_01000176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000176> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000446> .
+<http://purl.obolibrary.org/obo/ENVO_01000176> <http://purl.obolibrary.org/obo/IAO_0000115> "A shrubland biome is a terrestrial biome which includes, across its entire spatial extent, dense groups of shrubs." .
+<http://purl.obolibrary.org/obo/ENVO_01000176> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000176> <http://www.w3.org/2000/01/rdf-schema#label> "shrubland biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000177
+<http://purl.obolibrary.org/obo/ENVO_01000177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000177> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001206> .
+<http://purl.obolibrary.org/obo/ENVO_01000177> <http://purl.obolibrary.org/obo/IAO_0000115> "A grassland ecosystem in which dominant ecological communities have reached their climax successional state." .
+<http://purl.obolibrary.org/obo/ENVO_01000177> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000177> <http://www.w3.org/2000/01/rdf-schema#label> "grassland biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000179
+<http://purl.obolibrary.org/obo/ENVO_01000179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000179> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001780> .
+<http://purl.obolibrary.org/obo/ENVO_01000179> <http://purl.obolibrary.org/obo/IAO_0000115> "A desert biome is a terrestrial biome which loses more liquid water by evapotranspiration than is supplied by precipitation and includes communities adapted to these conditions." .
+<http://purl.obolibrary.org/obo/ENVO_01000179> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000179> <http://www.w3.org/2000/01/rdf-schema#label> "desert biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000180
+<http://purl.obolibrary.org/obo/ENVO_01000180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000180> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000446> .
+<http://purl.obolibrary.org/obo/ENVO_01000180> <http://purl.obolibrary.org/obo/IAO_0000115> "A terrestrial biome which comprises a tundra ecosystem that has reached its climax community." .
+<http://purl.obolibrary.org/obo/ENVO_01000180> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000180> <http://www.w3.org/2000/01/rdf-schema#label> "tundra biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000181
+<http://purl.obolibrary.org/obo/ENVO_01000181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000181> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000446> .
+<http://purl.obolibrary.org/obo/ENVO_01000181> <http://purl.obolibrary.org/obo/IAO_0000115> "A mangrove biome is a terrestrial biome which includes, across its spatial extent, mangrove plants (Rhizophoraceae). Mangrove plants are able to withstand high levels of salinity as well as regions of anoxia and frequent tidal inundation. Mangrove biomes often occur near tropical and sub-tropical estuaries and depositional marine coastal environments where fine sediments (often with high organic content) collect in areas protected from high energy wave action." .
+<http://purl.obolibrary.org/obo/ENVO_01000181> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000181> <http://www.w3.org/2000/01/rdf-schema#label> "mangrove biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000219
+<http://purl.obolibrary.org/obo/ENVO_01000219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000219> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000446> .
+<http://purl.obolibrary.org/obo/ENVO_01000219> <http://purl.obolibrary.org/obo/IAO_0000115> "An anthropogenic terrestrial biome is a terrestrial biome which has community structures determined by human activity." .
+<http://purl.obolibrary.org/obo/ENVO_01000219> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000219> <http://www.w3.org/2000/01/rdf-schema#label> "anthropogenic terrestrial biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000245
+<http://purl.obolibrary.org/obo/ENVO_01000245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000245> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001244> .
+<http://purl.obolibrary.org/obo/ENVO_01000245> <http://purl.obolibrary.org/obo/IAO_0000115> "A cropland ecosystem in which dominant ecological communities are maintained in a stable state - mimicking a climax community - by human intervention." .
+<http://purl.obolibrary.org/obo/ENVO_01000245> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000245> <http://www.w3.org/2000/01/rdf-schema#label> "cropland biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000246
+<http://purl.obolibrary.org/obo/ENVO_01000246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000246> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000219> .
+<http://purl.obolibrary.org/obo/ENVO_01000246> <http://purl.obolibrary.org/obo/IAO_0000115> "A village biome is an anthropogenic terrestrial biome which contains settlements such as villages, towns, and/or small cities and which is primarily used for agricultural activity." .
+<http://purl.obolibrary.org/obo/ENVO_01000246> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000246> <http://www.w3.org/2000/01/rdf-schema#label> "village biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000247
+<http://purl.obolibrary.org/obo/ENVO_01000247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000247> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000219> .
+<http://purl.obolibrary.org/obo/ENVO_01000247> <http://purl.obolibrary.org/obo/IAO_0000115> "A rangeland biome is an anthropogenic terrestrial biome which is primarily used for the rearing and grazing of livestock." .
+<http://purl.obolibrary.org/obo/ENVO_01000247> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000247> <http://www.w3.org/2000/01/rdf-schema#label> "rangeland biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000248
+<http://purl.obolibrary.org/obo/ENVO_01000248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000248> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000219> .
+<http://purl.obolibrary.org/obo/ENVO_01000248> <http://purl.obolibrary.org/obo/IAO_0000115> "A dense settlement biome is an anthropogenic terrestrial biome which is primarily used for human habitation, recreation, and industry within built structures with little other land use." .
+<http://purl.obolibrary.org/obo/ENVO_01000248> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000248> <http://www.w3.org/2000/01/rdf-schema#label> "dense settlement biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000252
+<http://purl.obolibrary.org/obo/ENVO_01000252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000252> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000873> .
+<http://purl.obolibrary.org/obo/ENVO_01000252> <http://purl.obolibrary.org/obo/IAO_0000115> "A biome which is determined by a freshwater lake." .
+<http://purl.obolibrary.org/obo/ENVO_01000252> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000252> <http://www.w3.org/2000/01/rdf-schema#label> "freshwater lake biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000253
+<http://purl.obolibrary.org/obo/ENVO_01000253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000253> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000873> .
+<http://purl.obolibrary.org/obo/ENVO_01000253> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000253> <http://www.w3.org/2000/01/rdf-schema#label> "freshwater river biome" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000254
+<http://purl.obolibrary.org/obo/ENVO_01000254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000254> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/RO_0002577> .
+<http://purl.obolibrary.org/obo/ENVO_01000254> <http://purl.obolibrary.org/obo/IAO_0000115> "A system which has the disposition to environ one or more material entities." .
+<http://purl.obolibrary.org/obo/ENVO_01000254> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000254> <http://www.w3.org/2000/01/rdf-schema#label> "environmental system" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000277
+<http://purl.obolibrary.org/obo/ENVO_01000277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000277> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000814> .
+<http://purl.obolibrary.org/obo/ENVO_01000277> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001125> .
+<http://purl.obolibrary.org/obo/ENVO_01000277> <http://purl.obolibrary.org/obo/IAO_0000115> "Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance." .
+<http://purl.obolibrary.org/obo/ENVO_01000277> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000277> <http://www.w3.org/2000/01/rdf-schema#label> "water ice" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000281
+<http://purl.obolibrary.org/obo/ENVO_01000281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000281> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/ENVO_01000281> <http://purl.obolibrary.org/obo/IAO_0000115> "A layer is a quantity of some material which is spatially continuous, has comparable thickness, and usually covers some surface." .
+<http://purl.obolibrary.org/obo/ENVO_01000281> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000281> <http://www.w3.org/2000/01/rdf-schema#label> "layer" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000320
+<http://purl.obolibrary.org/obo/ENVO_01000320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000254> .
+<http://purl.obolibrary.org/obo/ENVO_01000320> <http://purl.obolibrary.org/obo/IAO_0000115> "A marine environment and enviroment which is determined by a marine water body." .
+<http://purl.obolibrary.org/obo/ENVO_01000320> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000320> <http://www.w3.org/2000/01/rdf-schema#label> "marine environment" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000352
+<http://purl.obolibrary.org/obo/ENVO_01000352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000352> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000813> .
+<http://purl.obolibrary.org/obo/ENVO_01000352> <http://purl.obolibrary.org/obo/IAO_0000115> "An unbroken expanse (as of ice)" .
+<http://purl.obolibrary.org/obo/ENVO_01000352> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000352> <http://www.w3.org/2000/01/rdf-schema#label> "field" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000404
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003074> .
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_0010001> .
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000814> .
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://purl.obolibrary.org/obo/IAO_0000115> "A (portion of) plastic is an (portion of) anthropogenic environmental material including any of numerous organic synthetic or processed materials which are primarily composed of thermoplastic or thermosetting polymers of high molecular weight." .
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000404> <http://www.w3.org/2000/01/rdf-schema#label> "manufactured plastic" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000408
+<http://purl.obolibrary.org/obo/ENVO_01000408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000408> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000029> .
+<http://purl.obolibrary.org/obo/ENVO_01000408> <http://purl.obolibrary.org/obo/IAO_0000115> "A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein." .
+<http://purl.obolibrary.org/obo/ENVO_01000408> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000408> <http://www.w3.org/2000/01/rdf-schema#label> "environmental zone" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000417
+<http://purl.obolibrary.org/obo/ENVO_01000417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000417> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000073> .
+<http://purl.obolibrary.org/obo/ENVO_01000417> <http://purl.obolibrary.org/obo/IAO_0000115> "A house is a building that provides a dwelling-place for a living entity." .
+<http://purl.obolibrary.org/obo/ENVO_01000417> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000417> <http://www.w3.org/2000/01/rdf-schema#label> "house" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000418
+<http://purl.obolibrary.org/obo/ENVO_01000418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000418> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000417> .
+<http://purl.obolibrary.org/obo/ENVO_01000418> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001480> .
+<http://purl.obolibrary.org/obo/ENVO_01000418> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000418> <http://www.w3.org/2000/01/rdf-schema#label> "human house" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000480
+<http://purl.obolibrary.org/obo/ENVO_01000480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000480> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000814> .
+<http://purl.obolibrary.org/obo/ENVO_01000480> <http://purl.obolibrary.org/obo/IAO_0000115> "Glass is an amorphous (non-crystalline) solid which is often transparent." .
+<http://purl.obolibrary.org/obo/ENVO_01000480> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000480> <http://www.w3.org/2000/01/rdf-schema#label> "glass" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000486
+<http://purl.obolibrary.org/obo/ENVO_01000486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000486> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001311> .
+<http://purl.obolibrary.org/obo/ENVO_01000486> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001483> .
+<http://purl.obolibrary.org/obo/ENVO_01000486> <http://purl.obolibrary.org/obo/IAO_0000115> "A building floor is a surface layer which is part of a building and used for walking." .
+<http://purl.obolibrary.org/obo/ENVO_01000486> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000486> <http://www.w3.org/2000/01/rdf-schema#label> "building floor" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000575
+<http://purl.obolibrary.org/obo/ENVO_01000575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000575> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000575> <http://purl.obolibrary.org/obo/IAO_0000115> "A wax is an environmental material which is primarily composed of lipids or other organic compounds that consist of long alkyl chains. Waxes are are malleable near ambient temperatures and melt at approximately 45 degrees Celsius." .
+<http://purl.obolibrary.org/obo/ENVO_01000575> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000575> <http://www.w3.org/2000/01/rdf-schema#label> "wax"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000617
+<http://purl.obolibrary.org/obo/ENVO_01000617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000617> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000063> .
+<http://purl.obolibrary.org/obo/ENVO_01000617> <http://purl.obolibrary.org/obo/IAO_0000115> "A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow." .
+<http://purl.obolibrary.org/obo/ENVO_01000617> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000617> <http://www.w3.org/2000/01/rdf-schema#label> "lentic water body"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000618
+<http://purl.obolibrary.org/obo/ENVO_01000618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000618> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000063> .
+<http://purl.obolibrary.org/obo/ENVO_01000618> <http://purl.obolibrary.org/obo/IAO_0000115> "A lotic water body is a water body in which the accumulated water, in its totality, is flowing." .
+<http://purl.obolibrary.org/obo/ENVO_01000618> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000618> <http://www.w3.org/2000/01/rdf-schema#label> "lotic water body"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000625
+<http://purl.obolibrary.org/obo/ENVO_01000625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000625> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003074> .
+<http://purl.obolibrary.org/obo/ENVO_01000625> <http://purl.obolibrary.org/obo/IAO_0000115> "A manufactured structure made of interspaced structural elements such as metal or wooden bars or wires held together such that they may be used to confine, contain, or protect something." .
+<http://purl.obolibrary.org/obo/ENVO_01000625> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000625> <http://www.w3.org/2000/01/rdf-schema#label> "manufactured cage"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000626
+<http://purl.obolibrary.org/obo/ENVO_01000626> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000626> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000627> .
+<http://purl.obolibrary.org/obo/ENVO_01000626> <http://purl.obolibrary.org/obo/IAO_0000115> "A drylot is an enclosure of limited size usually bare of vegetation and used for fattening livestock." .
+<http://purl.obolibrary.org/obo/ENVO_01000626> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000626> <http://www.w3.org/2000/01/rdf-schema#label> "drylot"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000627
+<http://purl.obolibrary.org/obo/ENVO_01000627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000627> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000077> .
+<http://purl.obolibrary.org/obo/ENVO_01000627> <http://purl.obolibrary.org/obo/IAO_0000115> "A feedlot is a plot of land on which livestock are fattened for market" .
+<http://purl.obolibrary.org/obo/ENVO_01000627> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000627> <http://www.w3.org/2000/01/rdf-schema#label> "feedlot"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000658
+<http://purl.obolibrary.org/obo/ENVO_01000658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000658> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000062> .
+<http://purl.obolibrary.org/obo/ENVO_01000658> <http://purl.obolibrary.org/obo/IAO_0000115> "A settlement with a high density of buildings and inhabitants." .
+<http://purl.obolibrary.org/obo/ENVO_01000658> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000658> <http://www.w3.org/2000/01/rdf-schema#label> "dense settlement"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000685
+<http://purl.obolibrary.org/obo/ENVO_01000685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000685> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001476> .
+<http://purl.obolibrary.org/obo/ENVO_01000685> <http://purl.obolibrary.org/obo/IAO_0000115> "A mass of water." .
+<http://purl.obolibrary.org/obo/ENVO_01000685> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000685> <http://www.w3.org/2000/01/rdf-schema#label> "water mass"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000752
+<http://purl.obolibrary.org/obo/ENVO_01000752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000752> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001199> .
+<http://purl.obolibrary.org/obo/ENVO_01000752> <http://purl.obolibrary.org/obo/IAO_0000115> "An area of a planet's surface which is primarily composed of bedrock, desert pavement, scarp rock, talus, material exposed by slides, volcanic material, glacial debris, sand, material exposed during strip mining, gravel, and other accumulations of earthen material in contact with an atmospheric column extending from the planetary boundary layer to the planet's exosphere with little to no physical obstruction." .
+<http://purl.obolibrary.org/obo/ENVO_01000752> <http://purl.obolibrary.org/obo/IAO_0000118> "Barren Land (Rock/Sand/Clay)" .
+<http://purl.obolibrary.org/obo/ENVO_01000752> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000752> <http://www.w3.org/2000/01/rdf-schema#label> "area of barren land"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000781
+<http://purl.obolibrary.org/obo/ENVO_01000781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000781> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000073> .
+<http://purl.obolibrary.org/obo/ENVO_01000781> <http://purl.obolibrary.org/obo/IAO_0000115> "A building which is publically accessible." .
+<http://purl.obolibrary.org/obo/ENVO_01000781> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000781> <http://www.w3.org/2000/01/rdf-schema#label> "public building"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000813
+<http://purl.obolibrary.org/obo/ENVO_01000813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000813> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000024> .
+<http://purl.obolibrary.org/obo/ENVO_01000813> <http://purl.obolibrary.org/obo/IAO_0000115> "A material part of an astronomical body." .
+<http://purl.obolibrary.org/obo/ENVO_01000813> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000813> <http://www.w3.org/2000/01/rdf-schema#label> "astronomical body part"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000814
+<http://purl.obolibrary.org/obo/ENVO_01000814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000814> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01000814> <http://purl.obolibrary.org/obo/IAO_0000115> "An environmental material which is in a solid state." .
+<http://purl.obolibrary.org/obo/ENVO_01000814> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000814> <http://www.w3.org/2000/01/rdf-schema#label> "solid environmental material"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000815
+<http://purl.obolibrary.org/obo/ENVO_01000815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000815> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_02000140> .
+<http://purl.obolibrary.org/obo/ENVO_01000815> <http://purl.obolibrary.org/obo/IAO_0000115> "An environmental material which is in a liquid state." .
+<http://purl.obolibrary.org/obo/ENVO_01000815> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000815> <http://www.w3.org/2000/01/rdf-schema#label> "liquid environmental material"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000918
+<http://purl.obolibrary.org/obo/ENVO_01000918> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000918> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003040> .
+<http://purl.obolibrary.org/obo/ENVO_01000918> <http://purl.obolibrary.org/obo/IAO_0000115> "An animal house which is only partially surrounded by a building envelope." .
+<http://purl.obolibrary.org/obo/ENVO_01000918> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000918> <http://www.w3.org/2000/01/rdf-schema#label> "open animal house"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000921
+<http://purl.obolibrary.org/obo/ENVO_01000921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000921> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003040> .
+<http://purl.obolibrary.org/obo/ENVO_01000921> <http://purl.obolibrary.org/obo/IAO_0000115> "An animal house which has a complete building envelope." .
+<http://purl.obolibrary.org/obo/ENVO_01000921> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000921> <http://www.w3.org/2000/01/rdf-schema#label> "closed animal house"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000922
+<http://purl.obolibrary.org/obo/ENVO_01000922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000922> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000625> .
+<http://purl.obolibrary.org/obo/ENVO_01000922> <http://purl.obolibrary.org/obo/IAO_0000115> "A manufactured cage which may be used to confine, contain, or protect an animal." .
+<http://purl.obolibrary.org/obo/ENVO_01000922> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000922> <http://www.w3.org/2000/01/rdf-schema#label> "animal cage"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000923
+<http://purl.obolibrary.org/obo/ENVO_01000923> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000923> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010625> .
+<http://purl.obolibrary.org/obo/ENVO_01000923> <http://purl.obolibrary.org/obo/IAO_0000115> "A petting zoo is a zoological garden which contains domesticated non-human animals and some wild non-human animals that are docile enough for humans to touch and feed." .
+<http://purl.obolibrary.org/obo/ENVO_01000923> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000923> <http://www.w3.org/2000/01/rdf-schema#label> "petting zoo"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000924
+<http://purl.obolibrary.org/obo/ENVO_01000924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000924> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000121> .
+<http://purl.obolibrary.org/obo/ENVO_01000924> <http://purl.obolibrary.org/obo/IAO_0000115> "An artificial channel which transports unwanted water or waste liquids away from their source, either to a more useful area, a receptacle, or into sewers or stormwater mains as waste discharge to be released or processed." .
+<http://purl.obolibrary.org/obo/ENVO_01000924> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000924> <http://www.w3.org/2000/01/rdf-schema#label> "plumbing drain"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000925
+<http://purl.obolibrary.org/obo/ENVO_01000925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000925> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003861> .
+<http://purl.obolibrary.org/obo/ENVO_01000925> <http://purl.obolibrary.org/obo/IAO_0000115> "A facility in which non-human animals are slaughtered and processed for human consumption." .
+<http://purl.obolibrary.org/obo/ENVO_01000925> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000925> <http://www.w3.org/2000/01/rdf-schema#label> "abattoir"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000927
+<http://purl.obolibrary.org/obo/ENVO_01000927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000927> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001222> .
+<http://purl.obolibrary.org/obo/ENVO_01000927> <http://purl.obolibrary.org/obo/IAO_0000115> "A building which is used to care for a human child during the working day by a person, outside the child's immediate family, other than that child's legal guardians." .
+<http://purl.obolibrary.org/obo/ENVO_01000927> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000927> <http://www.w3.org/2000/01/rdf-schema#label> "day care building"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000928
+<http://purl.obolibrary.org/obo/ENVO_01000928> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000928> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003863> .
+<http://purl.obolibrary.org/obo/ENVO_01000928> <http://purl.obolibrary.org/obo/IAO_0000115> "A building in which fish are subject to a series of operations to prepare them for human consumption." .
+<http://purl.obolibrary.org/obo/ENVO_01000928> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000928> <http://www.w3.org/2000/01/rdf-schema#label> "fish processing building"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000932
+<http://purl.obolibrary.org/obo/ENVO_01000932> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000932> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000781> .
+<http://purl.obolibrary.org/obo/ENVO_01000932> <http://purl.obolibrary.org/obo/IAO_0000115> "A building in which nursing aides and skilled nurses provide care and treatment to residents who have significant difficulty coping with the required activities of daily living." .
+<http://purl.obolibrary.org/obo/ENVO_01000932> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000932> <http://www.w3.org/2000/01/rdf-schema#label> "nursing home"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000933
+<http://purl.obolibrary.org/obo/ENVO_01000933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000933> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000418> .
+<http://purl.obolibrary.org/obo/ENVO_01000933> <http://purl.obolibrary.org/obo/IAO_0000115> "A human house which serves as a long-term shelter for its inhabitants and within which they store personal property." .
+<http://purl.obolibrary.org/obo/ENVO_01000933> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000933> <http://www.w3.org/2000/01/rdf-schema#label> "residential building"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000934
+<http://purl.obolibrary.org/obo/ENVO_01000934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000934> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001222> .
+<http://purl.obolibrary.org/obo/ENVO_01000934> <http://purl.obolibrary.org/obo/IAO_0000115> "A building within which food and drink are prepared and served to customers in exchange for money or other goods and/or services." .
+<http://purl.obolibrary.org/obo/ENVO_01000934> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000934> <http://www.w3.org/2000/01/rdf-schema#label> "restaurant"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000935
+<http://purl.obolibrary.org/obo/ENVO_01000935> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000935> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000002> .
+<http://purl.obolibrary.org/obo/ENVO_01000935> <http://purl.obolibrary.org/obo/IAO_0000115> "A part of an ecosystem which may be or has been used for one or more overnight stays by humans sheltering in tents, camper vans, caravans, or improvised shelters." .
+<http://purl.obolibrary.org/obo/ENVO_01000935> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000935> <http://www.w3.org/2000/01/rdf-schema#label> "campground"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000936
+<http://purl.obolibrary.org/obo/ENVO_01000936> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000936> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000935> .
+<http://purl.obolibrary.org/obo/ENVO_01000936> <http://purl.obolibrary.org/obo/IAO_0000115> "A campground which has been modified by humans to provide and maintain facilities for camping such as fire pits, road access, latrines, and garbage bins." .
+<http://purl.obolibrary.org/obo/ENVO_01000936> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000936> <http://www.w3.org/2000/01/rdf-schema#label> "dedicated campground"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000937
+<http://purl.obolibrary.org/obo/ENVO_01000937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000937> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000935> .
+<http://purl.obolibrary.org/obo/ENVO_01000937> <http://purl.obolibrary.org/obo/IAO_0000115> "A campground which has no pre-existing facilities installed or maintained by humans, usually found outside of anthropised ecosystems." .
+<http://purl.obolibrary.org/obo/ENVO_01000937> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000937> <http://www.w3.org/2000/01/rdf-schema#label> "impromptu campground"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01000938
+<http://purl.obolibrary.org/obo/ENVO_01000938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01000938> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003074> .
+<http://purl.obolibrary.org/obo/ENVO_01000938> <http://purl.obolibrary.org/obo/IAO_0000115> "A manufactured product which may hold a volume of heated water suitable for one or more humans to bathe in, usually for the purposes of hydrotherapy or pleasure." .
+<http://purl.obolibrary.org/obo/ENVO_01000938> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01000938> <http://www.w3.org/2000/01/rdf-schema#label> "hot tub"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001069
+<http://purl.obolibrary.org/obo/ENVO_01001069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01001069> <http://purl.obolibrary.org/obo/IAO_0000115> "A material which is composed primarily of one or more pure metals and which shows their properties." .
+<http://purl.obolibrary.org/obo/ENVO_01001069> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001069> <http://www.w3.org/2000/01/rdf-schema#label> "metallic material"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001110
+<http://purl.obolibrary.org/obo/ENVO_01001110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001110> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000254> .
+<http://purl.obolibrary.org/obo/ENVO_01001110> <http://purl.obolibrary.org/obo/IAO_0000115> "An environmental system which includes both living and non-living components." .
+<http://purl.obolibrary.org/obo/ENVO_01001110> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001110> <http://www.w3.org/2000/01/rdf-schema#label> "ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001116
+<http://purl.obolibrary.org/obo/ENVO_01001116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001116> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_01001116> <http://purl.obolibrary.org/obo/IAO_0000115> "Manure which has been collected directly or indirectly from dairy cattle, as from flushing of manure from concrete feed lanes, free stalls, and milking facilities." .
+<http://purl.obolibrary.org/obo/ENVO_01001116> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001116> <http://www.w3.org/2000/01/rdf-schema#label> "bovine dairy liquid manure"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001119
+<http://purl.obolibrary.org/obo/ENVO_01001119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001119> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003031> .
+<http://purl.obolibrary.org/obo/ENVO_01001119> <http://purl.obolibrary.org/obo/IAO_0000115> "Manure which has been subjected to a natural process of 'rotting' or decomposition of its organic matter content by microorganisms under controlled conditions." .
+<http://purl.obolibrary.org/obo/ENVO_01001119> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001119> <http://www.w3.org/2000/01/rdf-schema#label> "composted animal manure"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001125
+<http://purl.obolibrary.org/obo/ENVO_01001125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001125> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_01001125> <http://purl.obolibrary.org/obo/IAO_0000115> "An ice is an environmental material which is either frozen or which is maintained in a solid state by gravitational forces or pressure." .
+<http://purl.obolibrary.org/obo/ENVO_01001125> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001125> <http://www.w3.org/2000/01/rdf-schema#label> "ice"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001199
+<http://purl.obolibrary.org/obo/ENVO_01001199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001199> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000408> .
+<http://purl.obolibrary.org/obo/ENVO_01001199> <http://purl.obolibrary.org/obo/IAO_0000115> "An environmental zone which is bounded by material parts of a land mass or the atmosphere or space adjacent to it." .
+<http://purl.obolibrary.org/obo/ENVO_01001199> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001199> <http://www.w3.org/2000/01/rdf-schema#label> "terrestrial environmental zone"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001206
+<http://purl.obolibrary.org/obo/ENVO_01001206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001206> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001790> .
+<http://purl.obolibrary.org/obo/ENVO_01001206> <http://purl.obolibrary.org/obo/IAO_0000115> "An ecosystem in which grasses (Graminae) are the dominant form of vegetation and determine the system's structure and dynamics." .
+<http://purl.obolibrary.org/obo/ENVO_01001206> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001206> <http://www.w3.org/2000/01/rdf-schema#label> "grassland ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001222
+<http://purl.obolibrary.org/obo/ENVO_01001222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001222> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000073> .
+<http://purl.obolibrary.org/obo/ENVO_01001222> <http://purl.obolibrary.org/obo/IAO_0000115> "A building which is primarily used to facilitate the buying or selling of goods or services." .
+<http://purl.obolibrary.org/obo/ENVO_01001222> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001222> <http://www.w3.org/2000/01/rdf-schema#label> "commercial building"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001243
+<http://purl.obolibrary.org/obo/ENVO_01001243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001243> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001790> .
+<http://purl.obolibrary.org/obo/ENVO_01001243> <http://purl.obolibrary.org/obo/IAO_0000115> "An ecosystem which is determined by communities of plants with a tree growth form and in which members of those communities form continuous or discontinuous regions of canopy cover." .
+<http://purl.obolibrary.org/obo/ENVO_01001243> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001243> <http://www.w3.org/2000/01/rdf-schema#label> "forest ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001244
+<http://purl.obolibrary.org/obo/ENVO_01001244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001244> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001790> .
+<http://purl.obolibrary.org/obo/ENVO_01001244> <http://purl.obolibrary.org/obo/IAO_0000115> "An ecosystem which 1) is determined by communities of annual crops, perennial woody crops, or by actively tilled land, 2) is primarily used for agricultural activity, and 3) contains no village or larger human settlement." .
+<http://purl.obolibrary.org/obo/ENVO_01001244> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001244> <http://www.w3.org/2000/01/rdf-schema#label> "cropland ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001275
+<http://purl.obolibrary.org/obo/ENVO_01001275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001275> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000281> .
+<http://purl.obolibrary.org/obo/ENVO_01001275> <http://purl.obolibrary.org/obo/IAO_0000115> "A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid." .
+<http://purl.obolibrary.org/obo/ENVO_01001275> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001275> <http://www.w3.org/2000/01/rdf-schema#label> "solid layer"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001305
+<http://purl.obolibrary.org/obo/ENVO_01001305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001305> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001199> .
+<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrary.org/obo/IAO_0000115> "A vegetated area is a geographic feature which has ground cover dominated by plant communities." .
+<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001305> <http://www.w3.org/2000/01/rdf-schema#label> "vegetated area" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001308
+<http://purl.obolibrary.org/obo/ENVO_01001308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001308> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001477> .
+<http://purl.obolibrary.org/obo/ENVO_01001308> <http://purl.obolibrary.org/obo/IAO_0000115> "A geographic feature which is primarily composed of a continuous volume of liquid water held in shape or sustained by an environmental process." .
+<http://purl.obolibrary.org/obo/ENVO_01001308> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001308> <http://www.w3.org/2000/01/rdf-schema#label> "hydroform" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001311
+<http://purl.obolibrary.org/obo/ENVO_01001311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010504> .
+<http://purl.obolibrary.org/obo/ENVO_01001311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001275> .
+<http://purl.obolibrary.org/obo/ENVO_01001311> <http://purl.obolibrary.org/obo/IAO_0000115> "A surface layer which is composed primarily of solid environmental material." .
+<http://purl.obolibrary.org/obo/ENVO_01001311> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001311> <http://www.w3.org/2000/01/rdf-schema#label> "solid surface layer"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001319
+<http://purl.obolibrary.org/obo/ENVO_01001319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001319> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000063> .
+<http://purl.obolibrary.org/obo/ENVO_01001319> <http://purl.obolibrary.org/obo/IAO_0000115> "A body of water which is primarily composed of saline water." .
+<http://purl.obolibrary.org/obo/ENVO_01001319> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001319> <http://www.w3.org/2000/01/rdf-schema#label> "saline water body"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001476
+<http://purl.obolibrary.org/obo/ENVO_01001476> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001476> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001477> .
+<http://purl.obolibrary.org/obo/ENVO_01001476> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001476> <http://www.w3.org/2000/01/rdf-schema#label> "body of liquid"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001477
+<http://purl.obolibrary.org/obo/ENVO_01001477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001477> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001479> .
+<http://purl.obolibrary.org/obo/ENVO_01001477> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001784> .
+<http://purl.obolibrary.org/obo/ENVO_01001477> <http://purl.obolibrary.org/obo/IAO_0000115> "A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes." .
+<http://purl.obolibrary.org/obo/ENVO_01001477> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001477> <http://www.w3.org/2000/01/rdf-schema#label> "liquid astronomical body part"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001479
+<http://purl.obolibrary.org/obo/ENVO_01001479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001479> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000813> .
+<http://purl.obolibrary.org/obo/ENVO_01001479> <http://purl.obolibrary.org/obo/IAO_0000115> "A part of an astronomical body which is primarily composed of a continuous volume of liquid or gaseous material, shaped by one or more environmental processes." .
+<http://purl.obolibrary.org/obo/ENVO_01001479> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001479> <http://www.w3.org/2000/01/rdf-schema#label> "fluid astronomical body part"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001480
+<http://purl.obolibrary.org/obo/ENVO_01001480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001480> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000073> .
+<http://purl.obolibrary.org/obo/ENVO_01001480> <http://purl.obolibrary.org/obo/IAO_0000115> "A building which is primarily used for the long-term habitation of humans." .
+<http://purl.obolibrary.org/obo/ENVO_01001480> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001480> <http://www.w3.org/2000/01/rdf-schema#label> "domestic building"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001483
+<http://purl.obolibrary.org/obo/ENVO_01001483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001483> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010504> .
+<http://purl.obolibrary.org/obo/ENVO_01001483> <http://purl.obolibrary.org/obo/IAO_0000115> "A surface layer where the solid or liquid material of an astronomical body comes into contact with an atmosphere or outer space." .
+<http://purl.obolibrary.org/obo/ENVO_01001483> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001483> <http://www.w3.org/2000/01/rdf-schema#label> "surface of an astronomical body"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001684
+<http://purl.obolibrary.org/obo/ENVO_01001684> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001684> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000281> .
+<http://purl.obolibrary.org/obo/ENVO_01001684> <http://purl.obolibrary.org/obo/IAO_0000115> "A layer which separates two portions of environmental material which possess 1) differing compositions, 2) a discontinuity of some property, or 3) some derivative of some property in a direction normal to the interface."@en .
+<http://purl.obolibrary.org/obo/ENVO_01001684> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001684> <http://www.w3.org/2000/01/rdf-schema#label> "interface layer"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001780
+<http://purl.obolibrary.org/obo/ENVO_01001780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001780> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001110> .
+<http://purl.obolibrary.org/obo/ENVO_01001780> <http://purl.obolibrary.org/obo/IAO_0000115> "An ecosystem in which the composition, structure, and function of resident ecological assemblages are primarily determined by a desert." .
+<http://purl.obolibrary.org/obo/ENVO_01001780> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001780> <http://www.w3.org/2000/01/rdf-schema#label> "desert ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001784
+<http://purl.obolibrary.org/obo/ENVO_01001784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001784> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000813> .
+<http://purl.obolibrary.org/obo/ENVO_01001784> <http://purl.obolibrary.org/obo/IAO_0000115> "A part of an astronomical body which is primarily composed of a continuous medium bearing liquid, gaseous, and solid material in varying quantities." .
+<http://purl.obolibrary.org/obo/ENVO_01001784> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001784> <http://www.w3.org/2000/01/rdf-schema#label> "compound astronomical body part"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001787
+<http://purl.obolibrary.org/obo/ENVO_01001787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001787> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001110> .
+<http://purl.obolibrary.org/obo/ENVO_01001787> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001787> <http://www.w3.org/2000/01/rdf-schema#label> "aquatic ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001788
+<http://purl.obolibrary.org/obo/ENVO_01001788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001788> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000320> .
+<http://purl.obolibrary.org/obo/ENVO_01001788> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001787> .
+<http://purl.obolibrary.org/obo/ENVO_01001788> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001788> <http://www.w3.org/2000/01/rdf-schema#label> "marine ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001789
+<http://purl.obolibrary.org/obo/ENVO_01001789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001789> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001787> .
+<http://purl.obolibrary.org/obo/ENVO_01001789> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001789> <http://www.w3.org/2000/01/rdf-schema#label> "freshwater ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001790
+<http://purl.obolibrary.org/obo/ENVO_01001790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001790> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01001110> .
+<http://purl.obolibrary.org/obo/ENVO_01001790> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001790> <http://www.w3.org/2000/01/rdf-schema#label> "terrestrial ecosystem"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001813
+<http://purl.obolibrary.org/obo/ENVO_01001813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001813> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/ENVO_01001813> <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity which has been assembled through the intentional, instinctual, or deliberately programmed efforts of an organism or machine." .
+<http://purl.obolibrary.org/obo/ENVO_01001813> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001813> <http://www.w3.org/2000/01/rdf-schema#label> "construction"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_01001873
+<http://purl.obolibrary.org/obo/ENVO_01001873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_01001873> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00000070> .
+<http://purl.obolibrary.org/obo/ENVO_01001873> <http://purl.obolibrary.org/obo/IAO_0000115> "A construction in which eggs are hatched under artificial conditions." .
+<http://purl.obolibrary.org/obo/ENVO_01001873> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_01001873> <http://www.w3.org/2000/01/rdf-schema#label> "hatchery"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_02000001
+<http://purl.obolibrary.org/obo/ENVO_02000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_02000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00003074> .
+<http://purl.obolibrary.org/obo/ENVO_02000001> <http://purl.obolibrary.org/obo/IAO_0000115> "A textile is a manufactured product comprised of a network of natural or artificial fibers (often referred to as thread or yarn)." .
+<http://purl.obolibrary.org/obo/ENVO_02000001> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_02000001> <http://www.w3.org/2000/01/rdf-schema#label> "textile" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_02000047
+<http://purl.obolibrary.org/obo/ENVO_02000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_02000047> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002403> .
+<http://purl.obolibrary.org/obo/ENVO_02000047> <http://purl.obolibrary.org/obo/IAO_0000115> "Food material which can be used to meet nutritional requirements of animals, particularly livestock such as cattle, goats, sheep, horses, chickens and pigs." .
+<http://purl.obolibrary.org/obo/ENVO_02000047> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_02000047> <http://www.w3.org/2000/01/rdf-schema#label> "animal feed" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_02000054
+<http://purl.obolibrary.org/obo/ENVO_02000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_02000054> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_02000055> .
+<http://purl.obolibrary.org/obo/ENVO_02000054> <http://purl.obolibrary.org/obo/IAO_0000115> "A mixture of crushed and coarsely ground bones that is used as an organic fertilizer for plants and formerly in animal feed." .
+<http://purl.obolibrary.org/obo/ENVO_02000054> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_02000054> <http://www.w3.org/2000/01/rdf-schema#label> "bone meal" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_02000055
+<http://purl.obolibrary.org/obo/ENVO_02000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_02000055> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/FOODON_00002403> .
+<http://purl.obolibrary.org/obo/ENVO_02000055> <http://purl.obolibrary.org/obo/IAO_0000115> "Food material which can be used to meet nutritional requirements of plants." .
+<http://purl.obolibrary.org/obo/ENVO_02000055> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_02000055> <http://www.w3.org/2000/01/rdf-schema#label> "plant feed" .
+# 
+# http://purl.obolibrary.org/obo/ENVO_02000090
+<http://purl.obolibrary.org/obo/ENVO_02000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_02000090> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_01000814> .
+<http://purl.obolibrary.org/obo/ENVO_02000090> <http://purl.obolibrary.org/obo/IAO_0000115> "An environmental material that is the non-aqueous, non-gaseous residues that remain after something is burned." .
+<http://purl.obolibrary.org/obo/ENVO_02000090> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_02000090> <http://www.w3.org/2000/01/rdf-schema#label> "ash"@en .
+# 
+# http://purl.obolibrary.org/obo/ENVO_02000140
+<http://purl.obolibrary.org/obo/ENVO_02000140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ENVO_02000140> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/ENVO_00010483> .
+<http://purl.obolibrary.org/obo/ENVO_02000140> <http://purl.obolibrary.org/obo/IAO_0000115> "A liquid or a gas." .
+<http://purl.obolibrary.org/obo/ENVO_02000140> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/ENVO_02000140> <http://www.w3.org/2000/01/rdf-schema#label> "fluid environmental material"@en .
+# 
+# http://purl.obolibrary.org/obo/FOODON_00002403
+<http://purl.obolibrary.org/obo/FOODON_00002403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/FOODON_00002403> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/FOODON_00002403> <http://www.w3.org/2000/01/rdf-schema#label> "food material"@en .
+# 
+# http://purl.obolibrary.org/obo/GO_0006091
+<http://purl.obolibrary.org/obo/GO_0006091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0006091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0044237> .
+<http://purl.obolibrary.org/obo/GO_0006091> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0006091> <http://www.w3.org/2000/01/rdf-schema#label> "generation of precursor metabolites and energy" .
+# 
+# http://purl.obolibrary.org/obo/GO_0008150
+<http://purl.obolibrary.org/obo/GO_0008150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0008150> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/IAO_0000115> "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." .
+<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0008150> <http://www.w3.org/2000/01/rdf-schema#label> "biological_process" .
+# 
+# http://purl.obolibrary.org/obo/GO_0008152
+<http://purl.obolibrary.org/obo/GO_0008152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0008152> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0008150> .
+<http://purl.obolibrary.org/obo/GO_0008152> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0008152> <http://www.w3.org/2000/01/rdf-schema#label> "metabolic process" .
+# 
+# http://purl.obolibrary.org/obo/GO_0009987
+<http://purl.obolibrary.org/obo/GO_0009987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0009987> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0008150> .
+<http://purl.obolibrary.org/obo/GO_0009987> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0009987> <http://www.w3.org/2000/01/rdf-schema#label> "cellular process" .
+# 
+# http://purl.obolibrary.org/obo/GO_0015979
+<http://purl.obolibrary.org/obo/GO_0015979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0015979> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0044237> .
+<http://purl.obolibrary.org/obo/GO_0015979> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0015979> <http://www.w3.org/2000/01/rdf-schema#label> "photosynthesis" .
+# 
+# http://purl.obolibrary.org/obo/GO_0015980
+<http://purl.obolibrary.org/obo/GO_0015980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0015980> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0006091> .
+<http://purl.obolibrary.org/obo/GO_0015980> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0055114> .
+<http://purl.obolibrary.org/obo/GO_0015980> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0015980> <http://www.w3.org/2000/01/rdf-schema#label> "energy derivation by oxidation of organic compounds" .
+# 
+# http://purl.obolibrary.org/obo/GO_0044237
+<http://purl.obolibrary.org/obo/GO_0044237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0044237> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0008152> .
+<http://purl.obolibrary.org/obo/GO_0044237> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0009987> .
+<http://purl.obolibrary.org/obo/GO_0044237> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0044237> <http://www.w3.org/2000/01/rdf-schema#label> "cellular metabolic process" .
+# 
+# http://purl.obolibrary.org/obo/GO_0045333
+<http://purl.obolibrary.org/obo/GO_0045333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0045333> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0015980> .
+<http://purl.obolibrary.org/obo/GO_0045333> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0045333> <http://www.w3.org/2000/01/rdf-schema#label> "cellular respiration" .
+# 
+# http://purl.obolibrary.org/obo/GO_0055114
+<http://purl.obolibrary.org/obo/GO_0055114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/GO_0055114> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/GO_0008152> .
+<http://purl.obolibrary.org/obo/GO_0055114> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/GO_0055114> <http://www.w3.org/2000/01/rdf-schema#label> "oxidation-reduction process" .
+# 
+# http://purl.obolibrary.org/obo/RO_0002577
+<http://purl.obolibrary.org/obo/RO_0002577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/RO_0002577> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/IAO_0000115> "A material entity consisting of multiple components that are causally integrated." .
+<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/IAO_0000119> "http://www.jbiomedsem.com/content/4/1/43" .
+<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+<http://purl.obolibrary.org/obo/RO_0002577> <http://www.w3.org/2000/01/rdf-schema#label> "system" .
+# 
+_:genid1 <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+_:genid2 <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/envo.owl> .
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

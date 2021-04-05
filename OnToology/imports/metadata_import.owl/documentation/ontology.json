@@ -1,0 +1,243 @@
+[ {
+  "@id" : "http://purl.obolibrary.org/obo/GENEPIO_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "editor preferred label"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "editor preferred label"
+  }, {
+    "@language" : "en",
+    "@value" : "editor preferred term"
+  }, {
+    "@value" : "editor preferred label"
+  }, {
+    "@value" : "editor preferred term"
+  }, {
+    "@value" : "editor preferred term~editor preferred label"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "has curation status"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "OBI_0000281"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has curation status"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "definition"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+  }, {
+    "@language" : "en",
+    "@value" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "definition"
+  }, {
+    "@value" : "definition"
+  }, {
+    "@value" : "textual definition"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "definition source"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  }, {
+    "@value" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "definition source"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000231",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "has obsolescence reason"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Relates an annotation property to an obsolescence reason. The values of obsolescence reasons come from a list of predefined terms, instances of the class obsolescence reason specification."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Alan Ruttenberg"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON:Melanie Courtot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has obsolescence reason"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "imported from"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "term replaced by"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Add as annotation triples in the granting ontology"
+  }, {
+    "@language" : "en",
+    "@value" : "Use on obsolete terms, relating the term to another term that can be used as a substitute"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Person:Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Person:Alan Ruttenberg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "term replaced by"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0000087",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ro.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has role"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://schema.org/image",
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An image of the item. ,In Protege, this can be a URL."
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has broad synonym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "database cross reference"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has narrow synonym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has synonym"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "label"
+  } ]
+} ]

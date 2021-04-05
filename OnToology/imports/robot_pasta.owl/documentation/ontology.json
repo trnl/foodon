@@ -1,0 +1,295 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@value" : "Sebastian Zurkuhl (= Circle357)"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://schema.org/image"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00002637"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Linguine.jpg/640px-Linguine.jpg"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pasta food product"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002631",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Tagliatelle is a traditional type of egg pasta from the Emilia-Romagna and Marche regions of Italy. Individual pieces of tagliatelle are long, flat ribbons that are similar in shape to fettuccine and are typically about 6.5 to 10 mm (0.26 to 0.39 in) wide."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Ginny Pichler"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Tagliatelle"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Tagliatelles2.jpg/312px-Tagliatelles2.jpg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tagliatelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002632",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Tortellini are ring-shaped pasta, sometimes also described as \"navel shaped\", hence their alternative name of \"belly button\" (ombelico). They are typically stuffed with a mix of meat (pork loin, raw prosciutto, Mortadella), and Parmigiano Reggiano cheese."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Ginny Pichler"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Tortellini"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tortellini_Bolognesi.jpg/320px-Tortellini_Bolognesi.jpg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tortellini"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002633",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Tortelloni are stuffed pasta, the same shape as tortellini, but larger. They are usually stuffed with ricotta cheese and leaf vegetables, such as spinach."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Shannon Russell"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Tortelloni"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tortelloni_tomato_sauce1.JPG/275px-Tortelloni_tomato_sauce1.JPG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tortelloni"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002634",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Tortiglioni are a type of pasta, similar to rigatoni but larger and with deeper grooves which spiral around the pasta."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Lauren Tindale"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Tortiglioni"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Tortiglioni_closeup.png/320px-Tortiglioni_closeup.png"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tortiglioni"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002635",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Fusilli are a variety of pasta that are formed into corkscrew or helical shapes. The word fusilli presumably comes from fuso (\"spindle\"), as traditionally it is \"spun\" by pressing and rolling a small rod over the thin strips of pasta to wind them around it in a corkscrew shape."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Shannon Russell"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Fusilli"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Fusilli#/media/File:Fusilli.png"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "rotini"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fusilli"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002636",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Conchiglie, commonly known as \"shells\" or \"seashells\" is a type of pasta. It is usually sold in the plain durum wheat variety. The shell shape of the pasta allows the sauce to adhere to it."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Emma Griffiths"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Conchiglie"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Conchiglie_rigate.png/320px-Conchiglie_rigate.png"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conchiglie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002637",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Linguine is a type of pasta similar to fettuccine and trenette but elliptical in section rather than flat. It is about 4 millimetres in width, which is wider than spaghetti but not as wide as fettuccine."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Lauren Tindale"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Linguine"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Linguine.jpg/640px-Linguine.jpg"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "trenette"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "linguine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002638",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Penne is an extruded type of pasta with cylinder-shaped pieces, their ends cut at a bias. It is lexically related to Latin penna (meaning \"feather\" or \"quill\"), and was originally intended to imitate the then-ubiquitous fountain pen's steel nibs."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Emma Griffiths"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Penne"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Penne#/media/File:Pennelisce_closeup.png"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "penne"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/FOODON_00002831",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Cannelloni are a cylindrical type of lasagna generally served baked with a filling and covered by a sauce in Italian cuisine."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@value" : "Damion Dooley"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Cannelloni"
+  } ],
+  "http://schema.org/image" : [ {
+    "@id" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cannelloni2.png/320px-Cannelloni2.png"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannelloni"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/FOODON_00001211"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/foodon/imports/robot_pasta.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rightsHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/image",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

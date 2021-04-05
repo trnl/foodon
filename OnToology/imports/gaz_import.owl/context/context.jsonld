@@ -1,0 +1,193 @@
+{
+  "@context" : {
+    "GAZ_00009159" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00009159"
+    },
+    "GAZ_00003092" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003092"
+    },
+    "GAZ_00000448" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000448"
+    },
+    "GAZ_00002571" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002571"
+    },
+    "GAZ_00000590" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000590"
+    },
+    "GAZ_00003731" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003731"
+    },
+    "GAZ_00003096" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003096"
+    },
+    "GAZ_00003987" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003987"
+    },
+    "GAZ_00000457" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000457"
+    },
+    "GAZ_00000013" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000013"
+    },
+    "GAZ_00003943" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003943"
+    },
+    "GAZ_00000462" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000462"
+    },
+    "GAZ_00003961" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003961"
+    },
+    "GAZ_00009572" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00009572"
+    },
+    "GAZ_00005917" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005917"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "GAZ_00000468" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000468"
+    },
+    "GAZ_00003985" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003985"
+    },
+    "GAZ_00003203" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003203"
+    },
+    "GAZ_00002570" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002570"
+    },
+    "GAZ_00003730" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003730"
+    },
+    "GAZ_00002284" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002284"
+    },
+    "GAZ_00005867" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005867"
+    },
+    "GAZ_00001264" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001264"
+    },
+    "GAZ_00003942" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003942"
+    },
+    "GAZ_00002459" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002459"
+    },
+    "GAZ_00005908" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005908"
+    },
+    "GAZ_00003986" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003986"
+    },
+    "GAZ_00002563" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002563"
+    },
+    "GAZ_00067143" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00067143"
+    },
+    "GAZ_00005206" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005206"
+    },
+    "GAZ_00003202" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003202"
+    },
+    "GAZ_00003955" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003955"
+    },
+    "GAZ_00000460" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000460"
+    },
+    "GAZ_00002564" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002564"
+    },
+    "GAZ_00002567" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002567"
+    },
+    "GAZ_00002566" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002566"
+    },
+    "GAZ_00002562" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002562"
+    },
+    "GAZ_00002565" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002565"
+    },
+    "GAZ_00009571" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00009571"
+    },
+    "GAZ_00002699" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002699"
+    },
+    "GAZ_02000610" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_02000610"
+    },
+    "GAZ_00003957" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003957"
+    },
+    "GAZ_00002572" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002572"
+    },
+    "GAZ_00009715" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00009715"
+    },
+    "GAZ_00005901" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005901"
+    },
+    "GAZ_00000458" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000458"
+    },
+    "GAZ_00002635" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002635"
+    },
+    "IAO_0000412" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000412"
+    },
+    "GAZ_00002561" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002561"
+    },
+    "GAZ_00003959" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003959"
+    },
+    "GAZ_00067142" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00067142"
+    },
+    "GAZ_00007113" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00007113"
+    },
+    "GAZ_00003934" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003934"
+    },
+    "GAZ_00002918" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002918"
+    },
+    "GAZ_00003706" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003706"
+    },
+    "GAZ_00000459" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000459"
+    },
+    "GAZ_00002569" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002569"
+    },
+    "GAZ_00006935" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00006935"
+    },
+    "GAZ_00003988" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003988"
+    },
+    "GAZ_00005841" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005841"
+    },
+    "GAZ_00001412" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001412"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    }
+  }
+}

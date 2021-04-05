@@ -1,0 +1,555 @@
+<http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000412
+<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000022
+<http://purl.obolibrary.org/obo/UBERON_0000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000022> <http://purl.obolibrary.org/obo/IAO_0000115> "one of the epidermal growths that form the distinctive outer covering, or plumage, on birds. Feathers are formed in tiny follicles in the epidermis, or outer skin layer, that produce keratin proteins." .
+<http://purl.obolibrary.org/obo/UBERON_0000022> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000022> <http://www.w3.org/2000/01/rdf-schema#label> "feather" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000085
+<http://purl.obolibrary.org/obo/UBERON_0000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000085> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0000085> <http://purl.obolibrary.org/obo/IAO_0000115> "A spherical embryonic mass of blastomeres formed before the blastula and resulting from cleavage of the fertilized ovum." .
+<http://purl.obolibrary.org/obo/UBERON_0000085> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000085> <http://www.w3.org/2000/01/rdf-schema#label> "morula" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000160
+<http://purl.obolibrary.org/obo/UBERON_0000160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000160> <http://purl.obolibrary.org/obo/IAO_0000115> "Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine." .
+<http://purl.obolibrary.org/obo/UBERON_0000160> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000160> <http://www.w3.org/2000/01/rdf-schema#label> "intestine" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000178
+<http://purl.obolibrary.org/obo/UBERON_0000178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000178> <http://purl.obolibrary.org/obo/IAO_0000115> "A fluid that is composed of blood plasma and erythrocytes." .
+<http://purl.obolibrary.org/obo/UBERON_0000178> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000178> <http://www.w3.org/2000/01/rdf-schema#label> "blood" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000307
+<http://purl.obolibrary.org/obo/UBERON_0000307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000307> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0000307> <http://purl.obolibrary.org/obo/IAO_0000115> "Organism at the blastula stage - an early stage of embryonic development in animals. It is produced by cleavage of a fertilized ovum and consists of a spherical layer of around 128 cells surrounding a central fluid-filled cavity called the blastocoel. The blastula follows the morula and precedes the gastrula in the developmental sequence." .
+<http://purl.obolibrary.org/obo/UBERON_0000307> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000307> <http://www.w3.org/2000/01/rdf-schema#label> "blastula" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000323
+<http://purl.obolibrary.org/obo/UBERON_0000323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000323> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0000323> <http://purl.obolibrary.org/obo/IAO_0000115> "An embryo that is at the late embryonic stage; this stage covers late steps of the embryogenesis with a fully formed embryo still developing before birth or egg hatching." .
+<http://purl.obolibrary.org/obo/UBERON_0000323> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000323> <http://www.w3.org/2000/01/rdf-schema#label> "late embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000376
+<http://purl.obolibrary.org/obo/UBERON_0000376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000376> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002472> .
+<http://purl.obolibrary.org/obo/UBERON_0000376> <http://purl.obolibrary.org/obo/IAO_0000115> "The part of the hindlimb between pelvis and the knee, corresponding to the femur." .
+<http://purl.obolibrary.org/obo/UBERON_0000376> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000376> <http://www.w3.org/2000/01/rdf-schema#label> "hindlimb stylopod" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000468
+<http://purl.obolibrary.org/obo/UBERON_0000468> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000468> <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical structure that is an individual member of a species and consists of more than one cell." .
+<http://purl.obolibrary.org/obo/UBERON_0000468> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000468> <http://www.w3.org/2000/01/rdf-schema#label> "multicellular organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000922
+<http://purl.obolibrary.org/obo/UBERON_0000922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000922> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0000922> <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant." .
+<http://purl.obolibrary.org/obo/UBERON_0000922> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000922> <http://www.w3.org/2000/01/rdf-schema#label> "embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000945
+<http://purl.obolibrary.org/obo/UBERON_0000945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000945> <http://purl.obolibrary.org/obo/IAO_0000115> "An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium." .
+<http://purl.obolibrary.org/obo/UBERON_0000945> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000945> <http://www.w3.org/2000/01/rdf-schema#label> "stomach" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000948
+<http://purl.obolibrary.org/obo/UBERON_0000948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000948> <http://purl.obolibrary.org/obo/IAO_0000115> "A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ." .
+<http://purl.obolibrary.org/obo/UBERON_0000948> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000948> <http://www.w3.org/2000/01/rdf-schema#label> "heart" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000955
+<http://purl.obolibrary.org/obo/UBERON_0000955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/IAO_0000115> "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]." .
+<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000955> <http://www.w3.org/2000/01/rdf-schema#label> "brain" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000970
+<http://purl.obolibrary.org/obo/UBERON_0000970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000970> <http://purl.obolibrary.org/obo/IAO_0000115> "An organ that detects light." .
+<http://purl.obolibrary.org/obo/UBERON_0000970> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000970> <http://www.w3.org/2000/01/rdf-schema#label> "eye" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0000978
+<http://purl.obolibrary.org/obo/UBERON_0000978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0000978> <http://purl.obolibrary.org/obo/IAO_0000115> "The portion of the hindlimb that contains both the stylopod and zeugopod." .
+<http://purl.obolibrary.org/obo/UBERON_0000978> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0000978> <http://www.w3.org/2000/01/rdf-schema#label> "leg" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001013
+<http://purl.obolibrary.org/obo/UBERON_0001013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001013> <http://purl.obolibrary.org/obo/IAO_0000115> "Portion of connective tissue composed of adipocytes enmeshed in areolar tissue" .
+<http://purl.obolibrary.org/obo/UBERON_0001013> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001013> <http://www.w3.org/2000/01/rdf-schema#label> "adipose tissue" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001264
+<http://purl.obolibrary.org/obo/UBERON_0001264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001264> <http://purl.obolibrary.org/obo/IAO_0000115> "An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO]." .
+<http://purl.obolibrary.org/obo/UBERON_0001264> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001264> <http://www.w3.org/2000/01/rdf-schema#label> "pancreas" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001474
+<http://purl.obolibrary.org/obo/UBERON_0001474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001474> <http://purl.obolibrary.org/obo/IAO_0000115> "Skeletal element that is composed of bone tissue." .
+<http://purl.obolibrary.org/obo/UBERON_0001474> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001474> <http://www.w3.org/2000/01/rdf-schema#label> "bone element" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001630
+<http://purl.obolibrary.org/obo/UBERON_0001630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001630> <http://purl.obolibrary.org/obo/IAO_0000115> "Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO]." .
+<http://purl.obolibrary.org/obo/UBERON_0001630> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001630> <http://www.w3.org/2000/01/rdf-schema#label> "muscle organ" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001690
+<http://purl.obolibrary.org/obo/UBERON_0001690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001690> <http://purl.obolibrary.org/obo/IAO_0000115> "Sense organ in vertebrates that is specialized for the detection of sound, and the maintenance of balance. Includes the outer ear and middle ear, which collect and transmit sound waves; and the inner ear, which contains the organs of balance and (except in fish) hearing. Also includes the pinna, the visible part of the outer ear, present in some mammals." .
+<http://purl.obolibrary.org/obo/UBERON_0001690> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001690> <http://www.w3.org/2000/01/rdf-schema#label> "ear" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001723
+<http://purl.obolibrary.org/obo/UBERON_0001723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001723> <http://purl.obolibrary.org/obo/IAO_0000115> "A muscular organ in the floor of the mouth." .
+<http://purl.obolibrary.org/obo/UBERON_0001723> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001723> <http://www.w3.org/2000/01/rdf-schema#label> "tongue" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001911
+<http://purl.obolibrary.org/obo/UBERON_0001911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001911> <http://purl.obolibrary.org/obo/IAO_0000115> "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males." .
+<http://purl.obolibrary.org/obo/UBERON_0001911> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001911> <http://www.w3.org/2000/01/rdf-schema#label> "mammary gland" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0001913
+<http://purl.obolibrary.org/obo/UBERON_0001913> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0001913> <http://purl.obolibrary.org/obo/IAO_0000115> "An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation." .
+<http://purl.obolibrary.org/obo/UBERON_0001913> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0001913> <http://www.w3.org/2000/01/rdf-schema#label> "milk" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002048
+<http://purl.obolibrary.org/obo/UBERON_0002048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002048> <http://purl.obolibrary.org/obo/IAO_0000115> "Respiration organ that develops as an outpocketing of the esophagus." .
+<http://purl.obolibrary.org/obo/UBERON_0002048> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002048> <http://www.w3.org/2000/01/rdf-schema#label> "lung" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002097
+<http://purl.obolibrary.org/obo/UBERON_0002097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002097> <http://purl.obolibrary.org/obo/IAO_0000115> "The organ covering the body that consists of the dermis and epidermis." .
+<http://purl.obolibrary.org/obo/UBERON_0002097> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002097> <http://www.w3.org/2000/01/rdf-schema#label> "skin of body" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002106
+<http://purl.obolibrary.org/obo/UBERON_0002106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002106> <http://purl.obolibrary.org/obo/IAO_0000115> "the organ that functions to filter blood and to store red corpuscles and platelets" .
+<http://purl.obolibrary.org/obo/UBERON_0002106> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002106> <http://www.w3.org/2000/01/rdf-schema#label> "spleen" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002107
+<http://purl.obolibrary.org/obo/UBERON_0002107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/IAO_0000115> "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO]." .
+<http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002107> <http://www.w3.org/2000/01/rdf-schema#label> "liver" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002113
+<http://purl.obolibrary.org/obo/UBERON_0002113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002113> <http://purl.obolibrary.org/obo/IAO_0000115> "A paired organ of the urinary tract which has the production of urine as its primary function." .
+<http://purl.obolibrary.org/obo/UBERON_0002113> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002113> <http://www.w3.org/2000/01/rdf-schema#label> "kidney" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002370
+<http://purl.obolibrary.org/obo/UBERON_0002370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002370> <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop." .
+<http://purl.obolibrary.org/obo/UBERON_0002370> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002370> <http://www.w3.org/2000/01/rdf-schema#label> "thymus" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002371
+<http://purl.obolibrary.org/obo/UBERON_0002371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002371> <http://purl.obolibrary.org/obo/IAO_0000115> "the soft tissue that fills the cavities of bones" .
+<http://purl.obolibrary.org/obo/UBERON_0002371> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002371> <http://www.w3.org/2000/01/rdf-schema#label> "bone marrow" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002385
+<http://purl.obolibrary.org/obo/UBERON_0002385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002385> <http://purl.obolibrary.org/obo/IAO_0000115> "Muscle tissue is a contractile tissue made up of actin and myosin fibers[GO]." .
+<http://purl.obolibrary.org/obo/UBERON_0002385> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002385> <http://www.w3.org/2000/01/rdf-schema#label> "muscle tissue" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002386
+<http://purl.obolibrary.org/obo/UBERON_0002386> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002386> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002471> .
+<http://purl.obolibrary.org/obo/UBERON_0002386> <http://purl.obolibrary.org/obo/IAO_0000115> "The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants." .
+<http://purl.obolibrary.org/obo/UBERON_0002386> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002386> <http://www.w3.org/2000/01/rdf-schema#label> "forelimb zeugopod" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002471
+<http://purl.obolibrary.org/obo/UBERON_0002471> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002471> <http://purl.obolibrary.org/obo/IAO_0000115> "The middle free limb segment, between the autopod and stylopod segments. Includes as parts the zeugopodial skeleton. Examples: There are two types of zeugopod: forelimb zeugopod (aka forearm), hindlimb zeugopod (aka crus)." .
+<http://purl.obolibrary.org/obo/UBERON_0002471> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002471> <http://www.w3.org/2000/01/rdf-schema#label> "zeugopod" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002472
+<http://purl.obolibrary.org/obo/UBERON_0002472> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002472> <http://purl.obolibrary.org/obo/IAO_0000115> "The proximal free limb segment. Includes as parts the stylopod skeleton." .
+<http://purl.obolibrary.org/obo/UBERON_0002472> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002472> <http://www.w3.org/2000/01/rdf-schema#label> "stylopod" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002547
+<http://purl.obolibrary.org/obo/UBERON_0002547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002547> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0002547> <http://purl.obolibrary.org/obo/IAO_0000115> "An an organism at the tadpole stage" .
+<http://purl.obolibrary.org/obo/UBERON_0002547> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002547> <http://www.w3.org/2000/01/rdf-schema#label> "tadpole" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0002548
+<http://purl.obolibrary.org/obo/UBERON_0002548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0002548> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0002548> <http://purl.obolibrary.org/obo/IAO_0000115> "A distinct juvenile form many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle." .
+<http://purl.obolibrary.org/obo/UBERON_0002548> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0002548> <http://www.w3.org/2000/01/rdf-schema#label> "larva" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0003100
+<http://purl.obolibrary.org/obo/UBERON_0003100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0003100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0003100> <http://purl.obolibrary.org/obo/IAO_0000115> "Gonochoristic organism that can produce female gametes." .
+<http://purl.obolibrary.org/obo/UBERON_0003100> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0003100> <http://www.w3.org/2000/01/rdf-schema#label> "female organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0003101
+<http://purl.obolibrary.org/obo/UBERON_0003101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0003101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0003101> <http://purl.obolibrary.org/obo/IAO_0000115> "Gonochoristic organism that can produce male gametes." .
+<http://purl.obolibrary.org/obo/UBERON_0003101> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0003101> <http://www.w3.org/2000/01/rdf-schema#label> "male organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0003142
+<http://purl.obolibrary.org/obo/UBERON_0003142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0003142> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0003142> <http://purl.obolibrary.org/obo/IAO_0000115> "An organism at the prepupal stage. The prepupal stage is a life stage interposed between the larval and the pupal stages in insects that undergo a complete metamorphosis. The start of the pre-pupal stage is marked by pupariation, and the end is marked by pupation" .
+<http://purl.obolibrary.org/obo/UBERON_0003142> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0003142> <http://www.w3.org/2000/01/rdf-schema#label> "prepupa" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0003143
+<http://purl.obolibrary.org/obo/UBERON_0003143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0003143> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0003143> <http://purl.obolibrary.org/obo/IAO_0000115> "An organism at the pupal stage. A life cycle stage of holometabolous insects in which the organism is a pupa and starts with the larval-pupal apolysis and ends with pupal-adult apolysis." .
+<http://purl.obolibrary.org/obo/UBERON_0003143> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0003143> <http://www.w3.org/2000/01/rdf-schema#label> "pupa" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0003822
+<http://purl.obolibrary.org/obo/UBERON_0003822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0003822> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002472> .
+<http://purl.obolibrary.org/obo/UBERON_0003822> <http://purl.obolibrary.org/obo/IAO_0000115> "The part of the forelimb between pectoral region and the elbow, corresponding to the humerus." .
+<http://purl.obolibrary.org/obo/UBERON_0003822> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0003822> <http://www.w3.org/2000/01/rdf-schema#label> "forelimb stylopod" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0003823
+<http://purl.obolibrary.org/obo/UBERON_0003823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0003823> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002471> .
+<http://purl.obolibrary.org/obo/UBERON_0003823> <http://purl.obolibrary.org/obo/IAO_0000115> "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants." .
+<http://purl.obolibrary.org/obo/UBERON_0003823> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0003823> <http://www.w3.org/2000/01/rdf-schema#label> "hindlimb zeugopod" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0004455
+<http://purl.obolibrary.org/obo/UBERON_0004455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0004455> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0004455> <http://purl.obolibrary.org/obo/IAO_0000115> "An embryo at the neurula stage." .
+<http://purl.obolibrary.org/obo/UBERON_0004455> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0004455> <http://www.w3.org/2000/01/rdf-schema#label> "neurula embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0004734
+<http://purl.obolibrary.org/obo/UBERON_0004734> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0004734> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0004734> <http://purl.obolibrary.org/obo/IAO_0000115> "Organism at the gastrula stage." .
+<http://purl.obolibrary.org/obo/UBERON_0004734> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0004734> <http://www.w3.org/2000/01/rdf-schema#label> "gastrula" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0005052
+<http://purl.obolibrary.org/obo/UBERON_0005052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0005052> <http://purl.obolibrary.org/obo/IAO_0000115> "The muscular enlargement of the alimentary canal that has usually thick muscular walls and a tough horny lining for grinding the food and when the crop is present follows it and the proventriculus." .
+<http://purl.obolibrary.org/obo/UBERON_0005052> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0005052> <http://www.w3.org/2000/01/rdf-schema#label> "gizzard" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0005079
+<http://purl.obolibrary.org/obo/UBERON_0005079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0005079> <http://purl.obolibrary.org/obo/IAO_0000115> "A product of the somatic follicle cell epithelium and a structure that supports the egg in a hostile environment, minimizing water loss whilst allowing gas exchanges essential for embryonic respiration[GO]." .
+<http://purl.obolibrary.org/obo/UBERON_0005079> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0005079> <http://www.w3.org/2000/01/rdf-schema#label> "eggshell" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0006314
+<http://purl.obolibrary.org/obo/UBERON_0006314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0006314> <http://purl.obolibrary.org/obo/IAO_0000115> "Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not." .
+<http://purl.obolibrary.org/obo/UBERON_0006314> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0006314> <http://www.w3.org/2000/01/rdf-schema#label> "bodily fluid" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0006611
+<http://purl.obolibrary.org/obo/UBERON_0006611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0006611> <http://purl.obolibrary.org/obo/IAO_0000115> "Exoskeleton or shell, including those of mollusks, turtles, insects and crustaceans." .
+<http://purl.obolibrary.org/obo/UBERON_0006611> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0006611> <http://www.w3.org/2000/01/rdf-schema#label> "exoskeleton" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0006860
+<http://purl.obolibrary.org/obo/UBERON_0006860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0006860> <http://purl.obolibrary.org/obo/IAO_0000115> "A thin membranous, sometimes alveolated sac in the dorsal portion of the abdominal cavity. Contains a varying mixture of gases, not identical to the composition of air. May be one, two or three chambered. May be connected to the gut by a tube, the ductus pneumaticus (then called physostomous) or unconnected (then called physoclistous)." .
+<http://purl.obolibrary.org/obo/UBERON_0006860> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0006860> <http://www.w3.org/2000/01/rdf-schema#label> "swim bladder" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007010
+<http://purl.obolibrary.org/obo/UBERON_0007010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0007010> <http://purl.obolibrary.org/obo/IAO_0000115> "Organism at the cleavage stage." .
+<http://purl.obolibrary.org/obo/UBERON_0007010> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007010> <http://www.w3.org/2000/01/rdf-schema#label> "cleaving embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007021
+<http://purl.obolibrary.org/obo/UBERON_0007021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0007021> <http://purl.obolibrary.org/obo/IAO_0000115> "A multicellular organism that is at the juvenile stage." .
+<http://purl.obolibrary.org/obo/UBERON_0007021> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007021> <http://www.w3.org/2000/01/rdf-schema#label> "sexually immature organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007023
+<http://purl.obolibrary.org/obo/UBERON_0007023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0007023> <http://purl.obolibrary.org/obo/IAO_0000115> "A multicellular organism that existence_ends_with a post-juvenile adult stage and existence_starts_with a post-juvenile adult stage." .
+<http://purl.obolibrary.org/obo/UBERON_0007023> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007023> <http://www.w3.org/2000/01/rdf-schema#label> "adult organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007197
+<http://purl.obolibrary.org/obo/UBERON_0007197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007197> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0007197> <http://purl.obolibrary.org/obo/IAO_0000115> "multicellular organism that can produce both male and female gametes." .
+<http://purl.obolibrary.org/obo/UBERON_0007197> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007197> <http://www.w3.org/2000/01/rdf-schema#label> "hermaphroditic organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007366
+<http://purl.obolibrary.org/obo/UBERON_0007366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007366> <http://purl.obolibrary.org/obo/IAO_0000115> "The ruminants' stomach consists of four compartments: rumen, reticulum, omasum and abomasum. The first three compartments comprise the forestomach (proventriculus). They are lined with nonglandular membrane. The fourth compartment, the abomasum comprises the true stomach of the ruminants. It is lined with glandular mucous membrane. The rumen lies on the left of the abdominal cavity, the reticulum cranially and the omasum on the right. The abomasum lies ventrally, its proximal end lies ventral to the rumen, reticulum and omasum" .
+<http://purl.obolibrary.org/obo/UBERON_0007366> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007366> <http://www.w3.org/2000/01/rdf-schema#label> "ruminant stomach" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007378
+<http://purl.obolibrary.org/obo/UBERON_0007378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007378> <http://purl.obolibrary.org/obo/IAO_0000115> "The yellow spheroidal mass of stored food that forms the inner portion of the egg of a bird or reptile and is surrounded by the white." .
+<http://purl.obolibrary.org/obo/UBERON_0007378> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007378> <http://www.w3.org/2000/01/rdf-schema#label> "egg yolk" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0007379
+<http://purl.obolibrary.org/obo/UBERON_0007379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0007379> <http://purl.obolibrary.org/obo/IAO_0000115> "The hard-shelled reproductive body produced by a bird and especially by the common domestic chicken; also: its contents used as food." .
+<http://purl.obolibrary.org/obo/UBERON_0007379> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0007379> <http://www.w3.org/2000/01/rdf-schema#label> "shelled egg" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0008265
+<http://purl.obolibrary.org/obo/UBERON_0008265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0008265> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0008265> <http://purl.obolibrary.org/obo/IAO_0000115> "A planktonic and feeding larval form that possesses limb-like outgrowths bearing ciliated bands." .
+<http://purl.obolibrary.org/obo/UBERON_0008265> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0008265> <http://www.w3.org/2000/01/rdf-schema#label> "echinopluteus larva" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0008270
+<http://purl.obolibrary.org/obo/UBERON_0008270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0008270> <http://purl.obolibrary.org/obo/IAO_0000115> "A calcareous exoskeleton which encloses, supports and protects the soft parts of an animal in the phylum Mollusca, which includes snails, clams, tusk shells, and several other classes. Not all shelled molluscs live in the sea, many live on the land and in freshwater." .
+<http://purl.obolibrary.org/obo/UBERON_0008270> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0008270> <http://www.w3.org/2000/01/rdf-schema#label> "mollusc shell" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0008897
+<http://purl.obolibrary.org/obo/UBERON_0008897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0008897> <http://purl.obolibrary.org/obo/IAO_0000115> "An external projection of an aquatic animal as a fish used in propelling or guiding the body[BTO]." .
+<http://purl.obolibrary.org/obo/UBERON_0008897> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0008897> <http://www.w3.org/2000/01/rdf-schema#label> "fin" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0008944
+<http://purl.obolibrary.org/obo/UBERON_0008944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0008944> <http://purl.obolibrary.org/obo/IAO_0000115> "Albumen is the clear liquid contained within an egg and consists of water and proteins, among which are ovomucin and ovomucoid. It protects the egg yolk and provides additional nutrition for the growth of the embryo." .
+<http://purl.obolibrary.org/obo/UBERON_0008944> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0008944> <http://www.w3.org/2000/01/rdf-schema#label> "albumen" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0008979
+<http://purl.obolibrary.org/obo/UBERON_0008979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0008979> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0008979> <http://purl.obolibrary.org/obo/IAO_0000115> "A body of a multi-cellular organism that is no longer living." .
+<http://purl.obolibrary.org/obo/UBERON_0008979> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0008979> <http://www.w3.org/2000/01/rdf-schema#label> "carcass" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0009097
+<http://purl.obolibrary.org/obo/UBERON_0009097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0009097> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0007023> .
+<http://purl.obolibrary.org/obo/UBERON_0009097> <http://purl.obolibrary.org/obo/IAO_0000115> "An organism containing a developing embryo, fetus, or unborn offspring within the body." .
+<http://purl.obolibrary.org/obo/UBERON_0009097> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0009097> <http://www.w3.org/2000/01/rdf-schema#label> "gravid organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0009101
+<http://purl.obolibrary.org/obo/UBERON_0009101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0009101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0009101> <http://purl.obolibrary.org/obo/IAO_0000115> "lamprey at larval stage" .
+<http://purl.obolibrary.org/obo/UBERON_0009101> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0009101> <http://www.w3.org/2000/01/rdf-schema#label> "ammocoete" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0009850
+<http://purl.obolibrary.org/obo/UBERON_0009850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0009850> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0009850> <http://purl.obolibrary.org/obo/IAO_0000115> "A multicellular organism that existence_starts_and_ends_during a nematode larval stage." .
+<http://purl.obolibrary.org/obo/UBERON_0009850> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0009850> <http://www.w3.org/2000/01/rdf-schema#label> "nematode larva" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0009953
+<http://purl.obolibrary.org/obo/UBERON_0009953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0009953> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0009953> <http://purl.obolibrary.org/obo/IAO_0000115> "A multicellular organism that existence_starts_with a post-embryonic stage." .
+<http://purl.obolibrary.org/obo/UBERON_0009953> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0009953> <http://www.w3.org/2000/01/rdf-schema#label> "post-embryonic organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0010895
+<http://purl.obolibrary.org/obo/UBERON_0010895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0010895> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0007197> .
+<http://purl.obolibrary.org/obo/UBERON_0010895> <http://purl.obolibrary.org/obo/IAO_0000115> "Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex." .
+<http://purl.obolibrary.org/obo/UBERON_0010895> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0010895> <http://www.w3.org/2000/01/rdf-schema#label> "sequential hermaphroditic organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0010899
+<http://purl.obolibrary.org/obo/UBERON_0010899> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0010899> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0007197> .
+<http://purl.obolibrary.org/obo/UBERON_0010899> <http://purl.obolibrary.org/obo/IAO_0000115> "Hermaphroditic organism that produces both male and female gametes at the same time." .
+<http://purl.obolibrary.org/obo/UBERON_0010899> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0010899> <http://www.w3.org/2000/01/rdf-schema#label> "synchronous hermaphroditic organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0012641
+<http://purl.obolibrary.org/obo/UBERON_0012641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0012641> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_0012641> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0012641> <http://www.w3.org/2000/01/rdf-schema#label> "body of tubeworm" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0018379
+<http://purl.obolibrary.org/obo/UBERON_0018379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0018379> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0018379> <http://purl.obolibrary.org/obo/IAO_0000115> "The larval (metacestode) stage of the tapeworm Echinococcus multilocularis." .
+<http://purl.obolibrary.org/obo/UBERON_0018379> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0018379> <http://www.w3.org/2000/01/rdf-schema#label> "metacestode" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0018382
+<http://purl.obolibrary.org/obo/UBERON_0018382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0018382> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0018382> <http://purl.obolibrary.org/obo/IAO_0000115> "Instar: a stage in the life of an arthropod (as an insect) between two successive molts." .
+<http://purl.obolibrary.org/obo/UBERON_0018382> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0018382> <http://www.w3.org/2000/01/rdf-schema#label> "second instar larva" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0018385
+<http://purl.obolibrary.org/obo/UBERON_0018385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0018385> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0018385> <http://purl.obolibrary.org/obo/IAO_0000115> "A tailless encysted late larva of a trematode parasite that is usually the form which is infective for the definitive host." .
+<http://purl.obolibrary.org/obo/UBERON_0018385> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0018385> <http://www.w3.org/2000/01/rdf-schema#label> "metacercaria" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0018387
+<http://purl.obolibrary.org/obo/UBERON_0018387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0018387> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0018387> <http://purl.obolibrary.org/obo/IAO_0000115> "Any of a class (Cestoda) of bilaterally symmetrical flatworms parasitic especially in the intestines of vertebrates." .
+<http://purl.obolibrary.org/obo/UBERON_0018387> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0018387> <http://www.w3.org/2000/01/rdf-schema#label> "cestode" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0018388
+<http://purl.obolibrary.org/obo/UBERON_0018388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0018388> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_0018388> <http://purl.obolibrary.org/obo/IAO_0000115> "A usually tadpole-shaped larval trematode worm that develops in a molluscan host from a redia." .
+<http://purl.obolibrary.org/obo/UBERON_0018388> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0018388> <http://www.w3.org/2000/01/rdf-schema#label> "cercaria" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0019248
+<http://purl.obolibrary.org/obo/UBERON_0019248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0019248> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000922> .
+<http://purl.obolibrary.org/obo/UBERON_0019248> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0019248> <http://www.w3.org/2000/01/rdf-schema#label> "early embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0019249
+<http://purl.obolibrary.org/obo/UBERON_0019249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0019249> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0019248> .
+<http://purl.obolibrary.org/obo/UBERON_0019249> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0019249> <http://www.w3.org/2000/01/rdf-schema#label> "2-cell stage embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0019250
+<http://purl.obolibrary.org/obo/UBERON_0019250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0019250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0019248> .
+<http://purl.obolibrary.org/obo/UBERON_0019250> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0019250> <http://www.w3.org/2000/01/rdf-schema#label> "4-8 cell stage embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0019251
+<http://purl.obolibrary.org/obo/UBERON_0019251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0019251> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0019248> .
+<http://purl.obolibrary.org/obo/UBERON_0019251> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0019251> <http://www.w3.org/2000/01/rdf-schema#label> "4-cell stage embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0019252
+<http://purl.obolibrary.org/obo/UBERON_0019252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0019252> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0019250> .
+<http://purl.obolibrary.org/obo/UBERON_0019252> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0019252> <http://www.w3.org/2000/01/rdf-schema#label> "8-cell stage embryo" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_0036016
+<http://purl.obolibrary.org/obo/UBERON_0036016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_0036016> <http://purl.obolibrary.org/obo/IAO_0000115> "A sweet viscid material elaborated out of the nectar of flowers in the honey sac of various bees." .
+<http://purl.obolibrary.org/obo/UBERON_0036016> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_0036016> <http://www.w3.org/2000/01/rdf-schema#label> "honey" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_2002079
+<http://purl.obolibrary.org/obo/UBERON_2002079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_2002079> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0002548> .
+<http://purl.obolibrary.org/obo/UBERON_2002079> <http://purl.obolibrary.org/obo/IAO_0000115> "Larval stage in some teleosts before metomorphosis." .
+<http://purl.obolibrary.org/obo/UBERON_2002079> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_2002079> <http://www.w3.org/2000/01/rdf-schema#label> "leptocephalous larva" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_3010039
+<http://purl.obolibrary.org/obo/UBERON_3010039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_3010039> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0010895> .
+<http://purl.obolibrary.org/obo/UBERON_3010039> <http://purl.obolibrary.org/obo/IAO_0000115> "Sequential hermaphroditic organism that produces gametes first of the male sex, and then later of the female sex." .
+<http://purl.obolibrary.org/obo/UBERON_3010039> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_3010039> <http://www.w3.org/2000/01/rdf-schema#label> "protandrous hermaphroditic organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_3010042
+<http://purl.obolibrary.org/obo/UBERON_3010042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_3010042> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0010895> .
+<http://purl.obolibrary.org/obo/UBERON_3010042> <http://purl.obolibrary.org/obo/IAO_0000115> "Sequential hermaphroditic organism that produces gametes first of the female sex, and then later of the male sex." .
+<http://purl.obolibrary.org/obo/UBERON_3010042> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_3010042> <http://www.w3.org/2000/01/rdf-schema#label> "protogynous hermaphroditic organism" .
+# 
+# http://purl.obolibrary.org/obo/UBERON_6006011
+<http://purl.obolibrary.org/obo/UBERON_6006011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UBERON_6006011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UBERON_0000468> .
+<http://purl.obolibrary.org/obo/UBERON_6006011> <http://purl.obolibrary.org/obo/IAO_0000115> "The developing adult after pupal-adult apolysis, i.e. from stage P8 (when yellow eye color first becomes visible through the pupal case), to eclosion." .
+<http://purl.obolibrary.org/obo/UBERON_6006011> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/uberon.owl> .
+<http://purl.obolibrary.org/obo/UBERON_6006011> <http://www.w3.org/2000/01/rdf-schema#label> "pharate adult" .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
